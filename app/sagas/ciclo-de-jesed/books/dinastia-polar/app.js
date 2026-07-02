@@ -241,9 +241,25 @@
       ["chapters", "chapter", "Capítulos", "Capítulos ainda por escrever."]
     ];
     const map = D.maps?.main;
+    const focus = [
+      ["jesed-dp-character-jokara-amarea", "Peso, verdade e sacrifício"],
+      ["jesed-dp-character-nestira-amarea", "Sopro, fé e esperança"],
+      ["jesed-dp-character-marv", "Construção, cuidado e legado"],
+      ["jesed-dp-character-loutes", "Mistério além do tempo"],
+      ["jesed-dp-character-gabasteres", "Força transformada em domínio"]
+    ].map(([id, description]) => ({ character: getCharacter(id), description })).filter(item => item.character);
+    const selectedPlaces = [
+      "jesed-dp-place-kaeliran",
+      "jesed-dp-place-khar-tondr",
+      "jesed-dp-place-aelvar",
+      "jesed-dp-place-braivar",
+      "jesed-dp-place-avarrast",
+      "jesed-dp-place-nyn-harad"
+    ].map(getPlace).filter(Boolean);
+    const homePlaceCard = place => `<article class="home-place-card" data-route="place/${escapeHtml(place.slug)}" tabindex="0" role="link"><div class="home-place-image ${place.image ? 'has-image' : ''}">${place.image ? `<img src="${escapeHtml(place.image)}" alt="${escapeHtml(place.name)}" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="home-place-fallback" hidden>${icon('pin')}</span>` : `<span class="home-place-fallback">${icon('pin')}</span>`}</div><div class="home-place-copy"><p class="eyebrow">${escapeHtml(place.type || 'Lugar')}</p><h3>${escapeHtml(place.name)}</h3><p>${escapeHtml(place.region || place.summary)}</p></div><span class="home-card-link">Abrir ficha ${icon('arrow')}</span></article>`;
     refs.main.innerHTML = `<div class="page-enter">
       <section class="hero-map-card home-guide-hero">
-        ${map ? `<img src="${escapeHtml(map)}" alt="Mapa de Kaeliran e da Dinastia Polar" loading="eager">` : `<div class="dp-hero-map-placeholder">${dpRingsSvg()}</div>`}
+        ${map?.image ? `<img src="${escapeHtml(map.image)}" alt="Mapa de Kaeliran e da Dinastia Polar" loading="eager">` : `<div class="dp-hero-map-placeholder">${dpRingsSvg()}</div>`}
         <div class="hero-map-content">
           <p class="eyebrow">Ciclo de Jesed — Guia do Livro</p>
           <img class="hero-logo glow-title" src="assets/branding/dinastia-polar/logo-white.webp" alt="Dinastia Polar" onerror="this.replaceWith(Object.assign(document.createElement('h1'),{className:'hero-title',textContent:'Dinastia Polar'}))">
@@ -256,6 +272,11 @@
         </div>
       </section>
       <section class="quick-grid home-guide-grid">${quick.map(([route, iconName, label, text]) => `<button class="quick-card home-guide-card" data-route="${route}"><span class="quick-icon">${icon(iconName)}</span><strong>${escapeHtml(label)}</strong><small>${escapeHtml(text)}</small></button>`).join("")}</section>
+      <section class="metrics-grid">
+        ${[[D.characters.length,"personagens","characters"],[D.dynasties.length,"dinastias","dynasties"],[D.places.length,"lugares","places"],[D.chapters.length,"capítulos escritos","chapters"],[timelineEntries().length,"eventos na linha do tempo","timeline"],[D.mysteries.length,"mistérios","mysteries"]].map(item => `<article class="metric-card" data-route="${item[2]}"><strong>${item[0]}</strong><span>${item[1]}</span></article>`).join("")}
+      </section>
+      ${focus.length ? `<section class="dark-panel section-card home-focus-section"><div class="section-heading"><div><p class="eyebrow">Vidas centrais</p><h2>Personagens em foco</h2><p>As figuras principais que atravessam a queda, a sobrevivência e o primeiro legado Polar.</p></div><button class="text-button" data-route="characters">Ver todos</button></div><div class="home-focus-grid">${focus.map(({character, description}) => `<button class="home-focus-card" data-route="character/${character.slug}"><span class="home-focus-avatar ${character.image ? 'has-image' : ''}">${character.image ? `<img src="${escapeHtml(character.image)}" alt="Retrato de ${escapeHtml(character.name)}" loading="lazy">` : icon('person')}</span><span><strong>${escapeHtml(character.name)}</strong><small>${escapeHtml(description)}</small></span></button>`).join("")}</div></section>` : ""}
+      ${selectedPlaces.length ? `<section class="home-places-section"><div class="section-heading"><div><p class="eyebrow">Território e poder</p><h2>Lugares</h2><p>Capitais, cidades e regiões essenciais para compreender a Dinastia Polar.</p></div><button class="text-button" data-route="places">Ver todos os lugares</button></div><div class="home-place-grid">${selectedPlaces.map(homePlaceCard).join("")}</div></section>` : ""}
       <section class="dp-home-footer">
         ${dpRingsSvg()}
         <div class="dp-home-footer-content">
@@ -455,63 +476,157 @@
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Temas",route:"themes"},{label:item.name}]);
   }
 
+  // ── Lugares ───────────────────────────────────────────────────────────────
+  const dynastyOrder = ['Polar','Leidar','Braidar','Luzdar','Grastar','Cendar','Buldar','Vendrar','Mardrar','Quendrar','—'];
+  const dynastyLabel = d => d === '—' ? 'Sem Dinastia' : `Dinastia ${d}`;
+
   function renderPlaces() {
-    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Mundo", "Lugares", "Distritos, muralhas, túneis e instituições de Kaeliran e da Dinastia Polar.")}${D.places.length ? `<section class="entity-grid place-grid">${D.places.map(place=>`<article class="entity-card place-card" data-route="place/${place.slug}"><div class="entity-card-top"><span class="entity-avatar ${place.image?"has-image":""}">${place.image?`<img src="${escapeHtml(place.image)}" alt="${escapeHtml(place.name)}">`:icon("pin")}</span><div><h3>${escapeHtml(place.name)}</h3><span class="alias">${escapeHtml(place.type||"")}</span></div></div><p>${escapeHtml(place.summary||"")}</p></article>`).join("")}</section>` : emptyPanel("Ainda sem lugares registados", "Distritos, muralhas, prisões e túneis de Kaeliran aparecerão aqui.")}</div>`;
+    const places = D.places || [];
+    const byDynasty = {};
+    for (const p of places) {
+      const d = p.dynasty || '—';
+      (byDynasty[d] = byDynasty[d] || []).push(p);
+    }
+    const groups = dynastyOrder
+      .filter(d => byDynasty[d]?.length)
+      .map(d => {
+        const list = byDynasty[d];
+        return `<div class="place-dynasty-group">
+          <h2 class="place-dynasty-heading">${escapeHtml(dynastyLabel(d))}</h2>
+          <section class="entity-grid place-grid">${list.map(place => `
+            <article class="entity-card place-card" data-route="place/${place.slug}">
+              <div class="entity-card-top">
+                <span class="entity-avatar ${place.image ? "has-image" : ""}">${place.image ? `<img src="${escapeHtml(place.image)}" alt="${escapeHtml(place.name)}">` : icon("pin")}</span>
+                <div><h3>${escapeHtml(place.name)}</h3><span class="alias">${escapeHtml(place.type || "")}</span></div>
+              </div>
+              <p>${escapeHtml(place.summary || "")}</p>
+              <div class="place-card-facts">
+                <div><small>Região</small><strong>${escapeHtml(place.region || "Não estabelecida")}</strong></div>
+                ${place.map ? `<div><small>Mapa</small><strong>Localização marcada</strong></div>` : ""}
+              </div>
+            </article>`).join("")}
+          </section>
+        </div>`;
+      }).join("");
+    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Mundo", "Lugares", "Cidades, capitais, regiões e pontos estratégicos das dez dinastias de Jesed.")}${places.length ? groups : emptyPanel("Ainda sem lugares registados", "Os territórios e capitais das dez dinastias aparecerão aqui.")}</div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Lugares"}]);
   }
 
   function renderPlace(slug) {
     const place = getPlace(slug); if (!place) return renderNotFound();
-    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Lugar", place.name, place.type||"")}<section class="place-content-section parchment-panel"><p>${linkifyText(place.summary||"Descrição ainda não registada.")}</p></section></div>`;
+    const mapBtn = place.map ? `<button class="primary-button" data-route="map" data-focus-place="${escapeHtml(place.id)}">${icon("map")} Ver no mapa</button>` : "";
+    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Lugar", place.name, place.type || "", mapBtn)}
+      <section class="place-detail-hero">
+        <div class="place-illustration">${icon("pin")}</div>
+        <article class="parchment-panel place-summary-panel">
+          <p class="place-lead">${linkifyText(place.summary || "Descrição ainda não registada.")}</p>
+          <div class="place-detail-facts">
+            <div><small>Região</small><strong>${escapeHtml(place.region || "Não estabelecida")}</strong></div>
+            <div><small>Dinastia</small><strong>${escapeHtml(dynastyLabel(place.dynasty || "—"))}</strong></div>
+            <div><small>Tipo</small><strong>${escapeHtml(place.type || "Não classificado")}</strong></div>
+            <div><small>Mapa</small><strong>${place.map ? "Localização marcada" : "Coordenada ainda não definida"}</strong></div>
+          </div>
+        </article>
+      </section>
+    </div>`;
+    if (place.map) {
+      refs.main.querySelector('[data-focus-place]')?.addEventListener("click", () => {
+        routeTo("map");
+        setTimeout(() => {
+          const inst = document.getElementById("dpInteractiveMap")?._diMap;
+          inst?.focus(place.id, {highlight: true});
+        }, 350);
+      });
+    }
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Lugares",route:"places"},{label:place.name}]);
+  }
+
+  // ── Mapa interativo ───────────────────────────────────────────────────────
+  function dpMapPin(place) {
+    const m = place.map; if (!m) return "";
+    // Só pins major recebem label no HTML — o mapa tem 65 pins e mostrar
+    // todos os labels ao zoom cria sobreposição ilegível. Pins não-major
+    // revelam o nome apenas no popup ao clicar, e via title no hover.
+    return `<button class="di-map-pin" type="button"
+      style="left:${m.x}%;top:${m.y}%"
+      data-di-map-pin="${escapeHtml(place.id)}"
+      data-pin-kind="${escapeHtml(m.kind || "place")}"
+      data-major="${m.major ? "true" : "false"}"
+      title="${escapeHtml(place.name)}"
+      aria-label="Abrir ficha rápida de ${escapeHtml(place.name)}">
+      <span class="di-map-pin-marker" aria-hidden="true"></span>
+      ${m.major ? `<span class="di-map-pin-label">${escapeHtml(place.name)}</span>` : ""}
+    </button>`;
+  }
+
+  function mountDPMap() {
+    const map = D.maps?.main; if (!map) return;
+    const root = document.getElementById("dpInteractiveMap"); if (!root) return;
+    if (!window.DIMaps) return;
+    const places = (D.places || []).filter(p => p.map);
+    window.DIMaps.mount({
+      root,
+      key: 'dp-map',
+      initialZoom: 1,
+      minZoom: 0.65,
+      maxZoom: 3.5,
+      getItem: id => (D.places || []).find(p => p.id === id),
+      renderPopup: place => `
+        <div class="di-map-popup-inner">
+          <div class="di-map-popup-header">
+            <strong>${escapeHtml(place.name)}</strong>
+            <span class="di-map-popup-type">${escapeHtml(place.type || "")}</span>
+          </div>
+          <p>${escapeHtml(place.summary || "")}</p>
+          <div class="di-map-popup-facts">
+            <span>${escapeHtml(dynastyLabel(place.dynasty || "—"))}</span>
+          </div>
+          <button class="di-map-popup-link" data-route="place/${escapeHtml(place.slug)}">${icon("arrow")} Ver ficha</button>
+        </div>`
+    });
   }
 
   function renderMap() {
     const map = D.maps?.main;
-    refs.main.innerHTML = `<div class="page-enter map-page">${pageHeader("Mapa · Livro 3", "Kaeliran e a Dinastia Polar", map ? "O mapa de Kaeliran e dos territórios da Dinastia Polar." : "O mapa de Kaeliran ainda está por criar. Esta secção já está preparada para recebê-lo.")}
-      ${map ? `<div class="dp-map-viewer" id="dpMapViewer">
-        <div class="dp-map-controls">
-          <button class="icon-btn" id="dpMapZoomIn" title="Aproximar">${icon("zoomin")}</button>
-          <button class="icon-btn" id="dpMapZoomOut" title="Afastar">${icon("zoomout")}</button>
-          <button class="icon-btn" id="dpMapReset" title="Centrar">${icon("center")}</button>
-          <a class="icon-btn" href="${escapeHtml(map)}" download title="Descarregar mapa">${icon("copy")}</a>
+    if (!map) {
+      refs.main.innerHTML = `<div class="page-enter map-page">${pageHeader("Mapa · Livro 3", "Jesed na Dinastia Polar", "O mapa continental de Jesed ainda está a ser preparado.")}${emptyPanel("Mapa ainda não disponível", "O mapa continental de Jesed na época de Dinastia Polar aparecerá aqui com marcadores de todas as capitais, cidades e regiões das dez dinastias.")}</div>`;
+      setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Mapa"}]);
+      return;
+    }
+    const places = (D.places || []).filter(p => p.map);
+    const majorPlaces = places.filter(p => p.map?.major);
+    const routeSvg = (map.routeLines || []).map(r => {
+      const pts = r.points.split(" ").map(pt => { const [x,y] = pt.split(","); return `${x}%,${y}%`; }).join(" ");
+      return `<polyline class="di-map-route di-map-route--${r.kind}" points="${pts}" fill="none"/>`;
+    }).join("");
+    const directoryLinks = majorPlaces.map(p =>
+      `<button type="button" data-di-global-map-focus="${escapeHtml(p.id)}" data-di-map-root="dpInteractiveMap">${escapeHtml(p.name)}</button>`
+    ).join("");
+    refs.main.innerHTML = `<div class="page-enter map-page">
+      <div id="dpInteractiveMap" class="di-map-shell dp-interactive-map" data-di-map-fullscreen
+           style="--di-map-ratio:${escapeHtml(map.ratio)};--di-map-accent:#95743D">
+        <div class="di-map-toolbar">
+          <button type="button" data-di-map-action="zoom-in" aria-label="Aproximar" title="Aproximar">${icon("zoomin")}</button>
+          <button type="button" data-di-map-action="zoom-out" aria-label="Afastar" title="Afastar">${icon("zoomout")}</button>
+          <button type="button" data-di-map-action="center" aria-label="Centrar" title="Centrar">${icon("center")}</button>
+          <button type="button" data-di-map-action="labels" aria-label="Legendas" title="Legendas">${icon("labels")}</button>
+          <button type="button" data-di-map-action="fullscreen" aria-label="Ecrã inteiro" title="Ecrã inteiro">${icon("fullscreen")}</button>
         </div>
-        <div class="dp-map-stage" id="dpMapStage">
-          <img id="dpMapImg" src="${escapeHtml(map)}" alt="Mapa de Kaeliran e da Dinastia Polar" draggable="false">
+        <div class="di-map-viewport" data-di-map-viewport tabindex="0"
+             aria-label="Mapa interativo de Jesed na época de Dinastia Polar. Arraste para deslocar, roda do rato para ampliar.">
+          <div class="di-map-stage" data-di-map-stage>
+            <img src="${escapeHtml(map.image)}" alt="${escapeHtml(map.title)}" draggable="false">
+            ${routeSvg ? `<svg class="di-map-route-layer" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">${routeSvg}</svg>` : ""}
+            ${places.map(dpMapPin).join("")}
+          </div>
+          <div data-di-map-popup-host></div>
         </div>
-      </div>` : emptyPanel("Mapa ainda não disponível", "As muralhas tripartidas, distritos e arredores de Kaeliran aparecerão aqui, com o mesmo sistema de zoom e marcadores usado em Guerras de Sangue.")}
-      <div class="book-slider"><button class="book-step" onclick="location.href='ruinas.html#/mapa'"><small>Livro 1</small><strong>Ruínas dos Céus</strong></button><button class="book-step" onclick="location.href='guerras.html#/mapa'"><small>Livro 2</small><strong>Guerras de Sangue</strong></button><button class="book-step active" data-route="map"><small>Livro 3</small><strong>Dinastia Polar</strong></button><button class="book-step" disabled><small>Livro 4</small><strong>Herdeiros das Cinzas</strong></button><button class="book-step" disabled><small>Livro 5</small><strong>Coração de Poeira</strong></button></div>
+        <p class="di-map-helper">Roda do rato para zoom · Clique e arraste para navegar · Duplo clique para aproximar</p>
+      </div>
+      ${directoryLinks ? `<article class="parchment-panel map-place-directory"><div class="section-heading"><div><p class="eyebrow">${places.length} lugares localizados</p><h2>Capitais e marcos</h2></div></div><div class="map-place-links">${directoryLinks}</div></article>` : ""}
     </div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Mapa"}]);
-    if (map) initMapViewer();
-  }
-
-  function initMapViewer() {
-    const stage = document.getElementById("dpMapStage");
-    const img = document.getElementById("dpMapImg");
-    if (!stage || !img) return;
-    let scale = 1, ox = 0, oy = 0, dragging = false, startX = 0, startY = 0, lastOx = 0, lastOy = 0;
-    function applyTransform() { img.style.transform = `translate(${ox}px,${oy}px) scale(${scale})`; img.style.transformOrigin = "center center"; }
-    function clamp(v, min, max) { return Math.max(min, Math.min(max, v)); }
-    function zoom(delta, cx, cy) {
-      const prev = scale;
-      scale = clamp(scale * (delta > 0 ? 1.18 : 0.85), 0.4, 6);
-      const ratio = scale / prev;
-      ox = cx - ratio * (cx - ox); oy = cy - ratio * (cy - oy);
-      applyTransform();
-    }
-    stage.addEventListener("wheel", e => { e.preventDefault(); const r = stage.getBoundingClientRect(); zoom(-e.deltaY, e.clientX - r.left - r.width/2, e.clientY - r.top - r.height/2); }, { passive: false });
-    stage.addEventListener("mousedown", e => { dragging = true; startX = e.clientX; startY = e.clientY; lastOx = ox; lastOy = oy; stage.style.cursor = "grabbing"; });
-    window.addEventListener("mousemove", e => { if (!dragging) return; ox = lastOx + e.clientX - startX; oy = lastOy + e.clientY - startY; applyTransform(); });
-    window.addEventListener("mouseup", () => { dragging = false; stage.style.cursor = "grab"; });
-    // Touch
-    let touches = [], pinchDist = 0;
-    stage.addEventListener("touchstart", e => { touches = [...e.touches]; if (touches.length === 1) { startX = touches[0].clientX; startY = touches[0].clientY; lastOx = ox; lastOy = oy; } if (touches.length === 2) pinchDist = Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY); }, { passive: true });
-    stage.addEventListener("touchmove", e => { e.preventDefault(); if (e.touches.length === 1) { ox = lastOx + e.touches[0].clientX - startX; oy = lastOy + e.touches[0].clientY - startY; applyTransform(); } if (e.touches.length === 2) { const d = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY); const cx = (e.touches[0].clientX + e.touches[1].clientX)/2; const cy = (e.touches[0].clientY + e.touches[1].clientY)/2; const r = stage.getBoundingClientRect(); zoom(d - pinchDist, cx - r.left - r.width/2, cy - r.top - r.height/2); pinchDist = d; } }, { passive: false });
-    document.getElementById("dpMapZoomIn")?.addEventListener("click", () => zoom(1, 0, 0));
-    document.getElementById("dpMapZoomOut")?.addEventListener("click", () => zoom(-1, 0, 0));
-    document.getElementById("dpMapReset")?.addEventListener("click", () => { scale = 1; ox = 0; oy = 0; applyTransform(); });
-    stage.style.cursor = "grab"; applyTransform();
+    requestAnimationFrame(mountDPMap);
   }
 
   function loreKindInfo(kind) {

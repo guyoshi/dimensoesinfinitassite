@@ -39,15 +39,22 @@
       const extraY = Math.max(0, rect.height * (state.zoom - 1) / 2) + 90;
       return { x: extraX, y: extraY };
     }
+    let _lastAppliedZoom = -1;
     function apply() {
       const lim = limits();
       state.x = clamp(state.x, -lim.x, lim.x);
       state.y = clamp(state.y, -lim.y, lim.y);
       stage.style.transform = `translate3d(${state.x}px, ${state.y}px, 0) scale(${state.zoom})`;
-      root.style.setProperty('--di-map-zoom', state.zoom.toFixed(2));
-      root.style.setProperty('--di-map-inverse', (1 / state.zoom).toFixed(3));
+      // Only update CSS vars and classes when zoom actually changes — avoids
+      // recalculating all pin transforms on every pointermove during pan
+      if (state.zoom !== _lastAppliedZoom) {
+        _lastAppliedZoom = state.zoom;
+        root.style.setProperty('--di-map-zoom', state.zoom.toFixed(2));
+        root.style.setProperty('--di-map-inverse', (1 / state.zoom).toFixed(3));
+        root.classList.toggle('map-zoomed', state.zoom > 1.12);
+        root.classList.toggle('map-high-zoom', state.zoom > 2.4);
+      }
       root.classList.toggle('labels-hidden', !state.labels);
-      root.classList.toggle('map-zoomed', state.zoom > 1.12);
     }
     function closePopup() {
       if (popupHost) popupHost.innerHTML = '';
@@ -124,6 +131,10 @@
       if (focusButton) focus(focusButton.dataset.diMapFocus);
     });
 
+    // Prevent browser native drag (image/element drag ghost) on the whole map
+    on(viewport, 'dragstart', event => event.preventDefault());
+    on(stage, 'dragstart', event => event.preventDefault());
+
     on(viewport, 'pointerdown', event => {
       if (event.button !== 0 || event.target.closest('[data-di-map-pin],button,a,.di-map-popup')) return;
       state.dragging = true;
@@ -149,9 +160,20 @@
     };
     on(viewport, 'pointerup', finishDrag);
     on(viewport, 'pointercancel', finishDrag);
+    // Throttle wheel via RAF — batches rapid scroll events into one apply() per frame,
+    // reducing CSS var recalculation across all pins
+    let _wheelRafId = null;
+    let _wheelAccum = 0;
     on(viewport, 'wheel', event => {
       event.preventDefault();
-      zoom(event.deltaY < 0 ? .14 : -.14);
+      _wheelAccum += event.deltaY < 0 ? .14 : -.14;
+      if (!_wheelRafId) {
+        _wheelRafId = requestAnimationFrame(() => {
+          zoom(_wheelAccum);
+          _wheelAccum = 0;
+          _wheelRafId = null;
+        });
+      }
     }, {passive:false});
     on(viewport, 'dblclick', event => {
       if (event.target.closest('[data-di-map-pin],button,a')) return;

@@ -362,6 +362,30 @@ body[data-book="dinastia-polar"] .place-card-facts{margin-top:14px}
 .dp-footer-links button{padding:9px 16px;border-radius:999px;border:1px solid var(--di-border);background:var(--di-surface-soft);color:var(--di-text);font-size:.84rem;cursor:pointer;transition:var(--di-transition)}
 .dp-footer-links button:hover{border-color:var(--di-border-strong);color:var(--di-heading)}
 
+/* ── Mapa interativo — ajustes para mapa com muitos pins ── */
+/* Suprimir labels de todos os pins ao fazer zoom (mapa tem 65 pins — demasiados
+   para mostrar todos ao mesmo tempo). Mostrar apenas: major, hover, selected. */
+body[data-book="dinastia-polar"] .dp-interactive-map.map-zoomed .di-map-pin-label{opacity:0}
+body[data-book="dinastia-polar"] .dp-interactive-map.map-high-zoom .di-map-pin-label{opacity:1}
+body[data-book="dinastia-polar"] .dp-interactive-map .di-map-pin[data-major="true"] .di-map-pin-label,
+body[data-book="dinastia-polar"] .dp-interactive-map .di-map-pin:hover .di-map-pin-label,
+body[data-book="dinastia-polar"] .dp-interactive-map .di-map-pin:focus-visible .di-map-pin-label,
+body[data-book="dinastia-polar"] .dp-interactive-map .di-map-pin.selected .di-map-pin-label{opacity:1!important}
+
+/* Página de lugares — pesquisa e filtros */
+.dp-places-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:18px 0 24px}
+.dp-places-search{flex:1;min-width:200px;position:relative}
+.dp-places-search input{width:100%;padding:10px 14px 10px 38px;border:1px solid var(--di-border);border-radius:10px;background:var(--di-surface-soft);color:var(--di-text);font-size:.9rem;outline:none;transition:border-color .15s}
+.dp-places-search input:focus{border-color:var(--di-accent)}
+.dp-places-search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--di-muted);fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dp-dynasty-filters{display:flex;flex-wrap:wrap;gap:6px}
+.dp-dynasty-chip{padding:6px 13px;border-radius:999px;border:1px solid var(--di-border);background:transparent;color:var(--di-text);font-size:.78rem;cursor:pointer;transition:background .15s,border-color .15s,color .15s}
+.dp-dynasty-chip:hover{border-color:var(--di-border-strong);color:var(--di-heading)}
+.dp-dynasty-chip.active{background:var(--di-accent);border-color:var(--di-accent);color:#fff}
+.dp-places-count{font-size:.82rem;color:var(--di-muted);white-space:nowrap;align-self:center}
+.dp-places-empty{padding:32px;text-align:center;color:var(--di-muted);font-size:.95rem;border:1px dashed var(--di-border);border-radius:12px;margin-top:12px}
+.place-dynasty-heading{margin:28px 0 12px;font-size:1.05rem;letter-spacing:.08em;text-transform:uppercase;color:var(--di-accent);border-bottom:1px solid var(--di-border);padding-bottom:8px}
+
 @media(max-width:620px){
   .dp-home-hero{padding:28px 18px}
   .dp-home-footer{padding:26px 16px}
