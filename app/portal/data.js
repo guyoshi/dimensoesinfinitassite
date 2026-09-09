@@ -96,7 +96,9 @@ window.PORTAL_DATA = {
         "#8f7544",
         "#c9b987"
       ],
-      "cover": "assets/books/ciclo-de-jesed/dinastia-polar/cover.webp"
+      "cover": "assets/books/ciclo-de-jesed/dinastia-polar/cover.webp",
+      "synopsis": "Kaeliran é uma metrópole de muralhas concêntricas governada pela mais antiga e poderosa linhagem de Jesed: os Polar. A dinastia sobreviveu a guerras, epidemias, revoltas e sucessões violentas, transformando a Raiz em símbolo de fé, ordem e permanência. Para o povo, a Dinastia é a razão pela qual a cidade ainda permanece de pé. Para aqueles que vivem esmagados nos anéis exteriores, porém, sua grandeza tem um preço cada vez mais difícil de suportar.\n\nVetarius Polar herdou o poder ainda criança e governa há décadas sem jamais precisar conquistá-lo. Enquanto trata as tensões entre as dez dinastias como mais uma crise passageira, líderes de toda Jesed aprovam a realização do primeiro Torneio Decenal, uma competição criada para substituir guerras abertas e decidir disputas por meio da força de seus representantes. A arena começa a ser erguida em território Braidar, e Kaeliran prepara seus combatentes para o maior torneio já realizado em Jesed.\n\nEnquanto guerreiros, líderes e peregrinos atravessam o continente em direção à arena, antigas dúvidas voltam a circular entre aqueles que observam os Polar há tempo demais. Soberanos morrem, herdeiros ocupam seus lugares e gerações inteiras desaparecem, mas a Dinastia permanece no centro de Jesed como se o próprio tempo não conseguisse removê-la. Para alguns, isso é prova da proteção da Raiz. Para outros, é apenas o resultado de séculos de poder, medo e histórias cuidadosamente preservadas. Porém, à medida que o torneio se aproxima, torna-se cada vez mais difícil distinguir aquilo que mantém os Polar em seu auge daquilo que poderá, um dia, destruí-los.",
+      "teaser": "A raiz cresceu. Os anéis se fecharam. E agora até o poder precisa provar que merece permanecer."
     },
     {
       "id": "herdeiros-das-cinzas",

@@ -341,7 +341,7 @@
     }
     refs.main.innerHTML = `<div class="page-enter">
       ${pageHeader(`Livro ${book.order} · Ciclo de Jesed`, book.name, "Estrutura preparada; fichas, capítulos e mapa ainda por escrever.", `<button class="secondary-button" data-route="chapters">${icon("chapter")} Capítulos</button><button class="primary-button" data-route="map">${icon("map")} Mapa do período</button>`)}
-      <section class="book-detail-hero"><div class="book-detail-cover">${cover}</div><div class="book-detail-copy"><p class="eyebrow">Estado editorial</p><h2>Em preparação</h2><div class="book-full-synopsis">${synopsisHtml(book.teaser || book.visual)}</div><div class="tag-row"><span class="tag">${D.chapters.length} capítulos escritos</span><span class="tag">Sem mapa ainda</span><span class="tag">Em preparação</span></div></div></section>
+      <section class="book-detail-hero"><div class="book-detail-cover">${cover}</div><div class="book-detail-copy"><p class="eyebrow">Estado editorial</p><h2>Em preparação</h2><div class="book-full-synopsis">${synopsisHtml(book.synopsis || book.teaser || book.visual)}</div><div class="tag-row"><span class="tag">${D.chapters.length} capítulos escritos</span><span class="tag">Sem mapa ainda</span><span class="tag">Em preparação</span></div></div></section>
     </div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Livros",route:"books"},{label:book.name}]);
   }
@@ -656,7 +656,7 @@
 
   function renderGallery() {
     const items = D.common?.entities?.gallery || [];
-    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Visual", "Galeria", "Imagens organizadas por categoria. Ainda sem fotografias ou ilustrações enviadas.")}${items.length ? `<section class="di-gallery-page"><div class="di-gallery-grid">${items.map(item=>`<button class="di-gallery-card" type="button" data-gallery-item data-gallery-src="${escapeHtml(item.image)}" data-gallery-title="${escapeHtml(item.name)}"><img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}" loading="lazy"></button>`).join("")}</div></section>` : emptyPanel("Ainda sem imagens", "Quando houver fotografias, mapas e ilustrações, aparecerão aqui organizados por categoria.")}</div>`;
+    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Visual", "Galeria", "Imagens organizadas por categoria. Ainda sem fotografias ou ilustrações enviadas.")}${items.length ? `<section class="di-gallery-page"><div class="di-gallery-grid">${items.map(item=>`<button class="di-gallery-card" type="button" data-gallery-item data-gallery-category="${escapeHtml(item.category||"")}" data-gallery-src="${escapeHtml(item.image)}" data-gallery-title="${escapeHtml(item.name)}" data-gallery-type="${escapeHtml(item.type||"")}" data-gallery-caption="${escapeHtml(item.caption||item.name)}" data-gallery-route="${escapeHtml(item.route||"")}"><img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}" loading="lazy"><span class="di-gallery-card-copy"><strong>${escapeHtml(item.name)}</strong><small>${escapeHtml(item.type||"")}</small></span></button>`).join("")}</div></section>` : emptyPanel("Ainda sem imagens", "Quando houver fotografias, mapas e ilustrações, aparecerão aqui organizados por categoria.")}</div>`;
     window.DI_GALLERY?.mount(refs.main);
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Galeria"}]);
   }
