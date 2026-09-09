@@ -173,9 +173,10 @@
       try { localStorage.setItem('di-portal-music', '1'); } catch {}
     };
     button.addEventListener('click', () => playing ? stop() : start());
+    // A música continua tocando ao trocar de aba/guia — não pausamos em visibilitychange.
     document.addEventListener('visibilitychange', () => {
-      if (!playing) return;
-      if (document.hidden) audio.pause(); else audio.play().catch(() => {});
+      if (!playing || !document.hidden) return;
+      audio.play().catch(() => {});
     });
     // Navegadores bloqueiam som sem interação. A preferência salva é retomada no primeiro gesto do usuário.
     let preferred = true;
