@@ -129,6 +129,38 @@
     if (populations[place.id]) place.population = { label: populations[place.id] };
   }
 
+  // Ilustrações já recebidas (pasta 02 - Assets/Lugares do projeto do livro).
+  const IMG = 'assets/books/ciclo-de-jesed/dinastia-polar/places/';
+  const images = {
+    'jesed-dp-place-aelvar': 'aelvar.webp',
+    'jesed-dp-place-altar-dez-estandares': 'altar-dez-estandares.webp',
+    'jesed-dp-place-avarrast': 'avarrast.webp',
+    'jesed-dp-place-braivar': 'braivar.webp',
+    'jesed-dp-place-cendar-vel': 'cendar-vel.webp',
+    'jesed-dp-place-fortaleza-kaendar': 'fortaleza-kaendar.webp',
+    'jesed-dp-place-harquen': 'harquen.webp',
+    'jesed-dp-place-maruva': 'maruva.webp',
+    'jesed-dp-place-kaeliran': 'kaeliran.webp',
+    'jesed-dp-place-kelvar': 'kelvar.webp',
+    'jesed-dp-place-khar-tondr': 'khar-tondr.webp',
+    'jesed-dp-place-passagem-lendros': 'passagem-lendros.webp',
+    'jesed-dp-place-luzhara': 'luzhara.webp',
+    'jesed-dp-place-mard-aren': 'mard-aren.webp',
+    'jesed-dp-place-nhal': 'nhal.webp',
+    'jesed-dp-place-nyn-harad': 'nyn-harad.webp',
+    'jesed-dp-place-campos-orven': 'campos-orven.webp',
+    'jesed-dp-place-porto-salmora': 'porto-salmora.webp',
+    'jesed-dp-place-bosque-roldanas': 'bosque-roldanas.webp',
+    'jesed-dp-place-seykar': 'seykar.webp',
+    'jesed-dp-place-veyl-sar': 'veyl-sar.webp',
+    'jesed-dp-place-valenor': 'valenor.webp',
+    'jesed-dp-place-varkhama': 'varkhama.webp',
+    'jesed-dp-place-vessar': 'vessar.webp'
+  };
+  for (const place of places) {
+    if (images[place.id]) place.image = IMG + images[place.id];
+  }
+
   D.places = places;
   C.setCollection(BOOK_ID, 'places', places);
 })();
