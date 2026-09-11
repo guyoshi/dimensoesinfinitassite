@@ -427,7 +427,10 @@
     refs.main.innerHTML = `<div class="page-enter">
       ${pageHeader("Dinastia Polar", "Capítulos", "Os capítulos escritos até agora.")}
       <input class="search" data-chapter-search type="search" placeholder="Pesquisar…" value="${escapeHtml(state.chapterQuery)}">
-      ${filtered.length ? `<section class="chapter-grid">${filtered.map(ch => `<article class="chapter-card" data-route="chapter/${ch.id}"><div class="chapter-card-image fallback">${icon("chapter")}</div><div class="chapter-card-copy"><span class="chapter-number">Capítulo ${ch.number}</span><h2>${escapeHtml(ch.title)}</h2><p>${escapeHtml(ch.summary)}</p></div></article>`).join("")}</section>` : emptyPanel("Ainda sem capítulos escritos", "Quando os capítulos forem escritos, aparecerão aqui em ordem, com resumo e personagens ligadas.")}
+      ${filtered.length ? `<section class="chapter-grid">${filtered.map(ch => {
+        const heroImage = ch.image || (ch.characterIds || ch.characters || []).map(getCharacter).find(c => c?.image)?.image;
+        return `<article class="chapter-card" data-route="chapter/${ch.id}">${heroImage ? `<img class="chapter-card-image" src="${escapeHtml(heroImage)}" alt="" loading="lazy">` : `<div class="chapter-card-image fallback">${icon("chapter")}</div>`}<div class="chapter-card-copy"><span class="chapter-number">Capítulo ${ch.number}</span><h2>${escapeHtml(ch.title)}</h2><p>${escapeHtml(ch.summary)}</p></div></article>`;
+      }).join("")}</section>` : emptyPanel("Ainda sem capítulos escritos", "Quando os capítulos forem escritos, aparecerão aqui em ordem, com resumo e personagens ligadas.")}
     </div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Capítulos"}]);
   }
@@ -435,7 +438,9 @@
   function renderChapter(id) {
     const chapter = getChapter(id);
     if (!chapter) return renderNotFound();
-    refs.main.innerHTML = `<div class="page-enter chapter-detail-page">${pageHeader(`Dinastia Polar · Capítulo ${chapter.number}`, chapter.title, chapter.status)}<article class="parchment-panel chapter-longform"><div class="chapter-prose">${(chapter.details || []).map(paragraph => `<p>${linkifyText(paragraph)}</p>`).join("")}</div></article></div>`;
+    const characters = (chapter.characterIds || chapter.characters || []).map(getCharacter).filter(Boolean);
+    const heroImage = chapter.image || characters.find(c => c.image)?.image;
+    refs.main.innerHTML = `<div class="page-enter chapter-detail-page">${pageHeader(`Dinastia Polar · Capítulo ${chapter.number}`, chapter.title, chapter.status)}<section class="chapter-hero-panel ${heroImage ? "has-art" : ""}">${heroImage ? `<img src="${escapeHtml(heroImage)}" alt="Ilustração associada ao capítulo">` : ""}<div><p class="eyebrow">Resumo rápido</p><h2>${escapeHtml(chapter.summary || "")}</h2>${chapter.wordCount ? `<div class="tag-row"><span class="tag">${Number(chapter.wordCount).toLocaleString("pt-BR")} palavras no manuscrito</span></div>` : ""}</div></section><article class="parchment-panel chapter-longform"><div class="chapter-prose">${(chapter.details || []).map(paragraph => `<p>${linkifyText(paragraph)}</p>`).join("")}</div></article></div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Capítulos",route:"chapters"},{label:`Capítulo ${chapter.number}`}]);
   }
 
