@@ -517,7 +517,7 @@
     const mapBtn = place.map ? `<button class="primary-button" data-route="map" data-focus-place="${escapeHtml(place.id)}">${icon("map")} Ver no mapa</button>` : "";
     refs.main.innerHTML = `<div class="page-enter">${pageHeader("Lugar", place.name, place.type || "", mapBtn)}
       <section class="place-detail-hero">
-        <div class="place-illustration">${icon("pin")}</div>
+        <div class="place-illustration ${place.image ? "has-image" : ""}">${imageOrIcon(place.image, "pin", place.name, "place-illustration-image")}</div>
         <article class="parchment-panel place-summary-panel">
           <p class="place-lead">${linkifyText(place.summary || "Descrição ainda não registada.")}</p>
           <div class="place-detail-facts">
