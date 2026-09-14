@@ -1,0 +1,16 @@
+/* Dinastia Polar — correções específicas da página de Relações.
+   Mantém a arquitetura visual de Guerras de Sangue, mas protege subtítulos mais longos. */
+body[data-book="dinastia-polar"] .relationship-link-people{min-height:104px}
+body[data-book="dinastia-polar"] .relationship-link-people button{width:100%;min-width:0;overflow:hidden}
+body[data-book="dinastia-polar"] .relationship-link-people button>span{display:block;flex:1 1 auto;min-width:0;max-width:100%;overflow:hidden}
+body[data-book="dinastia-polar"] .relationship-link-people strong,
+body[data-book="dinastia-polar"] .relationship-link-people small{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body[data-book="dinastia-polar"] .relationship-link-people strong{font-size:1.05rem;line-height:1.18}
+body[data-book="dinastia-polar"] .relationship-link-people small{margin-top:5px;font-size:.78rem;line-height:1.25;color:var(--di-muted)}
+body[data-book="dinastia-polar"] .relationship-link-people button:last-child>span{text-align:right}
+body[data-book="dinastia-polar"] .relationship-link-people img,
+body[data-book="dinastia-polar"] .relationship-link-people .relationship-avatar-fallback{flex:0 0 62px;width:62px;height:62px;aspect-ratio:1;object-fit:cover}
+@media(max-width:620px){
+  body[data-book="dinastia-polar"] .relationship-link-people{min-height:0}
+  body[data-book="dinastia-polar"] .relationship-link-people button:last-child>span{text-align:left}
+}
