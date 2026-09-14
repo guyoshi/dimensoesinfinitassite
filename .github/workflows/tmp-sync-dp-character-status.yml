@@ -1,0 +1,46 @@
+name: Sync DP Character Status
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-sync-dp-character-status.yml'
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Ajustar estados editoriais restantes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('data/sagas/ciclo-de-jesed/books/dinastia-polar/characters.js')
+          s=p.read_text(encoding='utf-8')
+          changes={
+            "{id:'jesed-character-tair'":"Não reaparece depois do Capítulo 2 até o estado atual do manuscrito (Capítulo 7).",
+            "{id:'jesed-character-sumo-vigia'":"Não reaparece depois do Capítulo 4 até o estado atual do manuscrito (Capítulo 7).",
+            "{id:'jesed-character-teral-polar'":"Não reaparece depois do Capítulo 4 até o estado atual do manuscrito (Capítulo 7).",
+            "{id:'jesed-character-vesna-da-permanencia'":"Não reaparece depois do Capítulo 2 até o estado atual do manuscrito (Capítulo 7)."
+          }
+          for marker,replacement in changes.items():
+              start=s.index(marker)
+              next_start=s.find("    {id:'jesed-character-",start+len(marker))
+              end=len(s) if next_start<0 else next_start
+              block=s[start:end]
+              old="destiny:{written:'Em aberto até o Capítulo 5.'"
+              if old not in block: raise RuntimeError('Estado antigo não encontrado para '+marker)
+              block=block.replace(old,"destiny:{written:'"+replacement+"'",1)
+              s=s[:start]+block+s[end:]
+          p.write_text(s,encoding='utf-8')
+          PY
+          node --check data/sagas/ciclo-de-jesed/books/dinastia-polar/characters.js
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/sagas/ciclo-de-jesed/books/dinastia-polar/characters.js
+          git commit -m 'Sync Dinastia Polar character status through chapter 7'
+          git pull --rebase origin main
+          git push origin main
