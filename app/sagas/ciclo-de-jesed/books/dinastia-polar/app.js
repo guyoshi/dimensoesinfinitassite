@@ -377,24 +377,35 @@
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Personagens",route:"characters"},{label:character.name}]);
   }
 
-  function renderRelationships() {
-    const filtered = D.relationships;
-    refs.main.innerHTML = `<div class="page-enter relationships-page">
-      ${pageHeader("Pessoas", "Relações", "Laços de lealdade, dívida, afecto e ruptura dentro e fora dos anéis.")}
-      ${filtered.length ? `<section class="relationship-card-grid">${filtered.map(r => { const a = getCharacter(r.from), b = getCharacter(r.to); if (!a || !b) return ""; return `<article class="relationship-link-card"><div class="relationship-link-people"><button data-route="character/${a.slug}"><span><strong>${escapeHtml(a.name)}</strong></span></button><span class="relationship-link-symbol">${icon("network")}</span><button data-route="character/${b.slug}"><span><strong>${escapeHtml(b.name)}</strong></span></button></div><div class="relationship-link-copy"><p class="eyebrow">${escapeHtml(r.type)}</p><h2>${escapeHtml(r.state)}</h2></div></article>`; }).join("")}</section>` : emptyPanel("Ainda sem relações registadas", "O mapa de relações da Dinastia Polar ficará aqui quando as personagens forem escritas.")}
-    </div>`;
-    setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Relações"}]);
-  }
+  function socialMemberMarkup(member) {
+  const ref = typeof member === "string" ? {id:member} : (member || {});
+  const character = getCharacter(ref.id || ref.characterId || ref.slug);
+  const label = ref.name || character?.shortName || character?.name || "Não registado";
+  const role = ref.role ? `<small>${escapeHtml(ref.role)}</small>` : "";
+  if (character) return `<button class="social-member" data-route="character/${character.slug}" title="${escapeHtml(character.name)}">${character.image ? `<img src="${escapeHtml(character.image)}" alt="${escapeHtml(character.name)}" loading="lazy">` : icon("person")}<span>${escapeHtml(label)}${role}</span></button>`;
+  return `<span class="social-member" title="Sem ficha individual"><span class="mini-icon">${icon("person")}</span><span>${escapeHtml(label)}${role}</span></span>`;
+}
+
+function renderRelationships() {
+  const types = D.relationshipTypes || {};
+  const filtered = state.relationshipFilter === "all" ? D.relationships : D.relationships.filter(r => r.typeKey === state.relationshipFilter);
+  refs.main.innerHTML = `<div class="page-enter relationships-page">
+    ${pageHeader("Pessoas", "Relações", "Laços familiares, amizades, deveres, pressões e rupturas que já existem no manuscrito de Dinastia Polar.")}
+    <div class="social-legend"><button class="social-legend-item ${state.relationshipFilter === "all" ? "active" : ""}" data-rel-filter="all"><span class="social-legend-swatch"></span> Todas</button>${Object.entries(types).map(([key,label]) => `<button class="social-legend-item ${state.relationshipFilter === key ? "active" : ""}" data-rel-filter="${escapeHtml(key)}" data-type="${escapeHtml(key)}"><span class="social-legend-swatch"></span>${escapeHtml(label)}</button>`).join("")}</div>
+    ${filtered.length ? `<section class="social-relations-grid">${filtered.map(r => { const from=getCharacter(r.from),to=getCharacter(r.to); if(!from||!to)return ""; return `<article class="social-relation-card" data-type="${escapeHtml(r.typeKey||"other")}"><div class="social-relation-pair"><button class="social-relation-person" data-route="character/${from.slug}">${from.image?`<img src="${escapeHtml(from.image)}" alt="${escapeHtml(from.name)}" loading="lazy">`:icon("person")}<span>${escapeHtml(from.name)}</span></button><span class="social-relation-link">${icon("network")}</span><button class="social-relation-person" data-route="character/${to.slug}">${to.image?`<img src="${escapeHtml(to.image)}" alt="${escapeHtml(to.name)}" loading="lazy">`:icon("person")}<span>${escapeHtml(to.name)}</span></button></div><p class="eyebrow">${escapeHtml(r.type||types[r.typeKey]||"Relação")}</p><h3>${escapeHtml(r.state||"")}</h3><p>${escapeHtml(r.description||"")}</p>${r.fromView||r.toView?`<div class="social-perspectives">${r.fromView?`<p><strong>${escapeHtml(from.shortName||from.name)}:</strong> ${escapeHtml(r.fromView)}</p>`:""}${r.toView?`<p><strong>${escapeHtml(to.shortName||to.name)}:</strong> ${escapeHtml(r.toView)}</p>`:""}</div>`:""}${r.evolution?.length?`<div class="social-evolution">${r.evolution.map(item=>`<span>${escapeHtml(item)}</span>`).join("")}</div>`:""}</article>`; }).join("")}</section>` : emptyPanel("Nenhuma relação neste filtro", "Escolha outro tipo de relação para continuar.")}
+  </div>`;
+  setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Relações"}]);
+}
 
   function renderFamilies() {
-    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Pessoas", "Famílias", "Núcleos familiares dentro da hierarquia Polar.")}${D.families.length ? `<section class="social-entity-grid">${D.families.map(family => `<article class="social-entity-card"><div class="social-entity-copy"><h2>${escapeHtml(family.name)}</h2><p>${escapeHtml(family.summary || "")}</p></div></article>`).join("")}</section>` : emptyPanel("Ainda sem famílias registadas", "Núcleos familiares e linhagens aparecerão aqui.")}</div>`;
-    setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Famílias"}]);
-  }
+  refs.main.innerHTML = `<div class="page-enter">${pageHeader("Pessoas", "Famílias", "Famílias de sangue e famílias escolhidas que já possuem função concreta no manuscrito.")}${D.families.length ? `<section class="social-entity-grid">${D.families.map(family => `<article class="social-entity-card"><div class="social-entity-image">${family.image?`<img src="${escapeHtml(family.image)}" alt="Imagem de ${escapeHtml(family.name)}" loading="lazy">`:`<span class="visual-fallback">${icon("family")}</span>`}</div><div class="social-entity-copy"><span class="social-entity-type">${escapeHtml(family.subtitle||"")}</span><h2>${escapeHtml(family.name)}</h2><p>${escapeHtml(family.summary||"")}</p>${family.details?.length?`<div class="social-detail-grid">${family.details.map(item=>`<article class="social-detail-card"><p>${escapeHtml(item)}</p></article>`).join("")}</div>`:""}${family.members?.length?`<div class="social-member-row">${family.members.map(socialMemberMarkup).join("")}</div>`:""}</div></article>`).join("")}</section>` : emptyPanel("Ainda sem famílias registadas", "Núcleos familiares e linhagens aparecerão aqui.")}</div>`;
+  setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Famílias"}]);
+}
 
   function renderOrganisations() {
-    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Pessoas", "Organizações", "Conselho, sacerdócio, guarda e demais instituições que sustentam a Dinastia.")}${D.organisations.length ? `<section class="social-entity-grid">${D.organisations.map(org => `<article class="social-entity-card"><div class="social-entity-copy"><h2>${escapeHtml(org.name)}</h2><p>${escapeHtml(org.summary || "")}</p></div></article>`).join("")}</section>` : emptyPanel("Ainda sem organizações registadas", "Conselhos, sacerdócio e guardas aparecerão aqui.")}</div>`;
-    setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Organizações"}]);
-  }
+  refs.main.innerHTML = `<div class="page-enter">${pageHeader("Pessoas", "Organizações", "Instituições religiosas, políticas, mercantis e militares que sustentam — e disputam — Kaeliran.")}${D.organisations.length ? `<section class="social-entity-grid">${D.organisations.map(org => `<article class="social-entity-card"><div class="social-entity-image">${org.image?`<img src="${escapeHtml(org.image)}" alt="Imagem de ${escapeHtml(org.name)}" loading="lazy">`:`<span class="visual-fallback">${icon("shield")}</span>`}</div><div class="social-entity-copy"><span class="social-entity-type">${escapeHtml(org.type||"")}</span><h2>${escapeHtml(org.name)}</h2><p>${escapeHtml(org.summary||"")}</p><dl>${org.function?`<div><dt>Função</dt><dd>${escapeHtml(org.function)}</dd></div>`:""}${org.activity?`<div><dt>Atuação</dt><dd>${escapeHtml(org.activity)}</dd></div>`:""}</dl>${org.themes?.length?`<div class="tag-row">${org.themes.map(item=>`<span class="tag">${escapeHtml(item)}</span>`).join("")}</div>`:""}${org.members?.length?`<div class="social-member-row">${org.members.map(socialMemberMarkup).join("")}</div>`:""}</div></article>`).join("")}</section>` : emptyPanel("Ainda sem organizações registadas", "Conselhos, sacerdócio e guardas aparecerão aqui.")}</div>`;
+  setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Organizações"}]);
+}
 
   function dynastyProfileCard(title, iconName, text, wide = false) {
     if (!text) return "";
@@ -402,24 +413,16 @@
   }
 
   function renderDynasties() {
-    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Mundo", "Dinastias", "As casas, linhagens e estruturas de poder de Dinastia Polar. Abra uma ficha para consultar origem, território, cultura e personagens ligadas.")}${D.dynasties.length ? `<section class="clan-overview-grid">${D.dynasties.map(dynasty => `<article class="clan-overview-card" data-route="dynasty/${escapeHtml(dynasty.slug)}" tabindex="0" role="link"><div class="clan-overview-copy"><p class="eyebrow">${escapeHtml(dynasty.essence || "Dinastia")}</p><h2>${escapeHtml(dynasty.name)}</h2><p>${escapeHtml(dynasty.summary || "")}</p></div></article>`).join("")}</section>` : emptyPanel("Ainda sem dinastias registadas", "A Dinastia Polar e quaisquer casas relacionadas ainda não foram escritas. Esta página já está pronta para recebê-las, no mesmo formato usado para os clãs de Guerras de Sangue.")}</div>`;
-    setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Dinastias"}]);
-  }
+  refs.main.innerHTML = `<div class="page-enter">${pageHeader("Mundo", "Dinastias", "As dez potências de Jesed no início de Dinastia Polar: governo, território, economia, cultura e representante no Primeiro Torneio Decenal.")}${D.dynasties.length ? `<section class="clan-overview-grid">${D.dynasties.map(dynasty => {const p=dynasty.profile||{};return `<article class="clan-overview-card" data-route="dynasty/${escapeHtml(dynasty.slug)}" tabindex="0" role="link"><div class="clan-overview-copy"><p class="eyebrow">${escapeHtml(dynasty.essence||"Dinastia")}</p><h2>${escapeHtml(dynasty.name)}</h2><p>${escapeHtml(dynasty.summary||"")}</p><div class="tag-row">${p.capital?`<span class="tag">${escapeHtml(p.capital)}</span>`:""}${p.representative?`<span class="tag">Torneio · ${escapeHtml(p.representative)}</span>`:""}</div></div></article>`;}).join("")}</section>` : emptyPanel("Ainda sem dinastias registadas", "As dez potências de Jesed aparecerão aqui.")}</div>`;
+  setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Dinastias"}]);
+}
 
-  function renderDynasty(slug) {
-    const dynasty = getDynasty(slug);
-    if (!dynasty) return renderNotFound();
-    const profile = dynasty.profile || {};
-    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Dinastia", dynasty.name, dynasty.essence ? `Essência: ${dynasty.essence}` : "")}
-      <section class="clan-profile-grid">
-        ${dynastyProfileCard("Origem", "scroll", profile.origin)}
-        ${dynastyProfileCard("Território", "map", profile.territory)}
-        ${dynastyProfileCard("Cultura", "scroll", profile.culture)}
-        ${dynastyProfileCard("Estrutura social", "people", profile.socialStructure)}
-      </section>
-    </div>`;
-    setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Dinastias",route:"dynasties"},{label:dynasty.name}]);
-  }
+function renderDynasty(slug) {
+  const dynasty=getDynasty(slug); if(!dynasty)return renderNotFound(); const p=dynasty.profile||{};
+  const facts=[["Capital",p.capital],["Autoridade",p.authority],["Representante no torneio",p.representative],["Símbolo",p.symbol],["Cores",p.colors],["Religião",p.religion]].filter(item=>item[1]);
+  refs.main.innerHTML=`<div class="page-enter">${pageHeader("Dinastia",dynasty.name,dynasty.essence?`Essência: ${dynasty.essence}`:"")}<article class="parchment-panel lore-detail"><p class="lore-lead">${linkifyText(dynasty.summary||"")}</p>${facts.length?`<div class="social-detail-grid">${facts.map(([label,value])=>`<article class="social-detail-card"><h3>${escapeHtml(label)}</h3><p>${linkifyText(value)}</p></article>`).join("")}</div>`:""}</article><section class="clan-profile-grid">${dynastyProfileCard("Origem","scroll",p.origin,true)}${dynastyProfileCard("Governo","crown",p.government)}${dynastyProfileCard("Território","map",p.territory)}${dynastyProfileCard("Economia","gauge",p.economy)}${dynastyProfileCard("Cultura","scroll",p.culture)}${dynastyProfileCard("Estrutura social","people",p.socialStructure)}${dynastyProfileCard("Contradição central","question",p.contradiction,true)}${dynastyProfileCard("Primeiro Torneio Decenal","crossed-swords",p.tournament,true)}</section>${dynasty.themes?.length?`<div class="tag-row">${dynasty.themes.map(item=>`<span class="tag">${escapeHtml(item)}</span>`).join("")}</div>`:""}</div>`;
+  setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Dinastias",route:"dynasties"},{label:dynasty.name}]);
+}
 
   function renderChapters() {
     const q = state.chapterQuery.trim().toLocaleLowerCase("pt-BR");

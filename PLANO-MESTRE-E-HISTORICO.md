@@ -2446,3 +2446,16 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - Galerias passam a aceitar somente caminhos presentes no inventário.
 - Dependências atmosféricas não presentes no inventário foram substituídas por efeitos CSS, preservando o funcionamento ao usar a pasta `assets` do autor.
 - Nenhum push realizado no GitHub.
+
+
+### 2026-09-14 — Dinastia Polar: Famílias, Relações, Organizações e dez Dinastias
+
+- Preenchidas as páginas de **Famílias**, **Relações** e **Organizações** de `Dinastia Polar` usando o manuscrito oficial até o Capítulo 7 e o cânone consolidado do Livro 3.
+- Famílias agora incluem a casa coletiva de Maruva, a casa imediata de Vetarius/Elena/Caeren e a casa vazia de Dareth, preservando como não revelados os familiares que o manuscrito ainda não nomeou.
+- Relações receberam retratos quando há asset, tipo, estado, descrição, perspectivas de cada lado e evolução por capítulo, no padrão visual compartilhado com os Livros 1 e 2.
+- Organizações agora cobrem Companhia da Balança Azul, Culto da Raiz Eterna, Filhos da Raiz, Casas da Permanência, Câmara dos Onze e a estrutura de Kaes/Calandrir; imagens próprias continuam vazias porque não existem assets canônicos para inventar.
+- A seção **Dinastias** foi preenchida com as dez potências canônicas: Polar, Buldar, Cendar, Vendrar, Quendrar, Braidar, Grastar, Leidar, Luzdar e Mardrar, incluindo capital, autoridade, representante do torneio, origem, governo, território, economia, cultura, estrutura social e contradição central.
+- `characters.js` foi sincronizado com os Capítulos 6 e 7: Karesis deixa de constar apenas como ausente; Elis, Kalan e Orel recebem aparições do Capítulo 6; Dareth e Vetarius recebem o Capítulo 7; Selina tem o estado ajustado ao retorno de Dareth.
+- Adicionadas fichas sem imagem inventada para **Caeren Polar** e **Alveris Polar**, ambos já sustentados pelo manuscrito/cânone.
+- IDs existentes preservados; nenhum ID canônico foi renomeado.
+- Novo módulo `social.js` carregado antes de `index.js`; cache do Livro 3 atualizado para `20260914a`.
