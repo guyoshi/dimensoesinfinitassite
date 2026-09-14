@@ -1,0 +1,70 @@
+name: Run Dinastia Polar Social Update
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-run-dinastia-polar-social.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reutilizar script de atualização preparado
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          src=Path('.github/workflows/tmp-complete-dinastia-polar-social.yml').read_text(encoding='utf-8').splitlines()
+          marker="          python - <<'PY'"
+          start=src.index(marker)+1
+          body=[]
+          for line in src[start:]:
+              if line.strip()=='PY': break
+              body.append(line[10:] if line.startswith('          ') else line)
+          code='\n'.join(body)+'\n'
+          compile(code,'update-dinastia-polar','exec')
+          exec(code,{'__name__':'__main__'})
+          PY
+      - name: Validar
+        run: |
+          set -e
+          node --check data/sagas/ciclo-de-jesed/books/dinastia-polar/characters.js
+          node --check data/sagas/ciclo-de-jesed/books/dinastia-polar/dynasties.js
+          node --check data/sagas/ciclo-de-jesed/books/dinastia-polar/social.js
+          node --check app/sagas/ciclo-de-jesed/books/dinastia-polar/app.js
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          chars=Path('data/sagas/ciclo-de-jesed/books/dinastia-polar/characters.js').read_text(encoding='utf-8')
+          dyn=Path('data/sagas/ciclo-de-jesed/books/dinastia-polar/dynasties.js').read_text(encoding='utf-8')
+          social=Path('data/sagas/ciclo-de-jesed/books/dinastia-polar/social.js').read_text(encoding='utf-8')
+          html=Path('dinastia-polar.html').read_text(encoding='utf-8')
+          char_defs=set(re.findall(r"\{id:'(jesed-character-[^']+)'",chars))
+          refs=set(re.findall(r"(?:from|to):'(jesed-character-[^']+)'",social))
+          refs.update(re.findall(r"\{id:'(jesed-character-[^']+)'",social))
+          missing=sorted(refs-char_defs)
+          if missing: raise SystemExit('Referências sem ficha: '+', '.join(missing))
+          dynasty_defs=re.findall(r"\{id:'jesed-dynasty-[^']+'",dyn)
+          if len(dynasty_defs)!=10: raise SystemExit(f'Esperava 10 dinastias, encontrei {len(dynasty_defs)}')
+          if html.count('dinastia-polar/social.js?v=20260914a')!=1: raise SystemExit('social.js ausente ou duplicado no HTML')
+          for expected in ['jesed-character-caeren-polar','jesed-character-alveris-polar']:
+              if expected not in char_defs: raise SystemExit('Personagem novo ausente: '+expected)
+          print('Validação OK:',len(char_defs),'personagens,',len(dynasty_defs),'dinastias')
+          PY
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/sagas/ciclo-de-jesed/books/dinastia-polar/characters.js \
+                  data/sagas/ciclo-de-jesed/books/dinastia-polar/dynasties.js \
+                  data/sagas/ciclo-de-jesed/books/dinastia-polar/social.js \
+                  app/sagas/ciclo-de-jesed/books/dinastia-polar/app.js \
+                  dinastia-polar.html PLANO-MESTRE-E-HISTORICO.md
+          git commit -m 'Complete social sections and dynasties for Dinastia Polar'
+          git pull --rebase origin main
+          git push origin main
