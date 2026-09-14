@@ -83,6 +83,83 @@ body:not(.dp-no-glints) .dp-home-title::after{
 .performance-mode .dp-home-title::after{display:none}
 .performance-mode .dp-rings{opacity:.18}
 
+/* Organizações e famílias: membros compactos, retratos uniformes e fallback limpo. */
+body[data-book="dinastia-polar"] .social-member-row{
+  align-items:flex-start;
+  gap:12px;
+}
+body[data-book="dinastia-polar"] .social-member{
+  box-sizing:border-box;
+  flex:0 1 160px;
+  width:160px;
+  min-width:132px;
+  max-width:180px;
+  min-height:142px;
+  align-content:start;
+  justify-items:center;
+  gap:9px;
+  padding:12px 10px;
+  text-align:center;
+  overflow:hidden;
+}
+body[data-book="dinastia-polar"] .social-member img{
+  display:block;
+  width:72px;
+  height:72px;
+  min-width:72px;
+  min-height:72px;
+  aspect-ratio:1;
+  object-fit:cover;
+  object-position:center top;
+  border-radius:50%;
+  flex:none;
+}
+body[data-book="dinastia-polar"] .social-member>.mini-icon{
+  display:grid;
+  place-items:center;
+  width:72px;
+  height:72px;
+  min-width:72px;
+  min-height:72px;
+  border-radius:50%;
+  background:color-mix(in srgb,var(--di-accent) 14%,rgba(255,255,255,.04));
+  border:2px solid color-mix(in srgb,var(--di-accent) 50%,transparent);
+  color:var(--di-accent);
+  flex:none;
+}
+body[data-book="dinastia-polar"] .social-member>.mini-icon svg{
+  width:30px;
+  height:30px;
+  fill:none!important;
+  stroke:currentColor!important;
+  stroke-width:1.8;
+}
+body[data-book="dinastia-polar"] .social-member>span:last-child{
+  display:block;
+  width:100%;
+  line-height:1.22;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+body[data-book="dinastia-polar"] .social-member>span:last-child small{
+  display:block;
+  margin-top:5px;
+  color:var(--di-muted);
+  font-size:.68rem;
+  font-weight:500;
+  line-height:1.28;
+}
+body[data-book="dinastia-polar"] button.social-member{
+  font:inherit;
+}
+@media(max-width:620px){
+  body[data-book="dinastia-polar"] .social-member{
+    flex-basis:145px;
+    width:145px;
+    min-width:120px;
+  }
+}
+
 @media(prefers-reduced-motion:reduce){
   body[data-book="dinastia-polar"]::before{animation:none}
   #dpDistantLights span{animation:none;opacity:.3}
