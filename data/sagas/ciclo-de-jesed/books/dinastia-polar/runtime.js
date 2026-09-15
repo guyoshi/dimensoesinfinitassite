@@ -1,7 +1,7 @@
 window.DI_DATA = {
   "meta": {
     "project": "Dimensões Infinitas",
-    "phase": "Fundação do livro",
+    "phase": "Manuscrito em desenvolvimento · 18 capítulos escritos",
     "activeSagaId": "ciclo-de-jesed",
     "activeBookId": "dinastia-polar"
   },
@@ -32,12 +32,12 @@ window.DI_DATA = {
       "synopsis": "Mais de duzentos ciclos depois da Queda, a Dinastia Polar mantém Kaendar unida por leis, memória e medo. Mas quando dois jovens Polar são encontrados mortos junto de um talismã Tondrar, a paz construída por Orionus começa a ruir. As soberanas gêmeas Kaelina e Alyra herdam o mesmo trono e respostas opostas: uma acredita que a verdade ainda pode impedir a guerra; a outra sabe que, em Jesed, hesitar pode parecer fraqueza.\n\nEnquanto os clãs medem fome, território e antigas humilhações, Rendar retorna da floresta carregando os nomes de sua família morta e uma vingança que pode incendiar o mundo. Buldar, Tondrar, Vendrar, Glydar, Cendar, Urtistar e Fendelar são arrastados para alianças frágeis, mentiras políticas e batalhas em que ninguém permanece inocente. Por trás dos exércitos, segredos enterrados na morte de Orionus revelam que a guerra talvez tenha sido construída muito antes do primeiro sangue.\n\nGuerras de Sangue é uma fantasia política sobre duas irmãs, um reino cercado e povos que aprenderam a sobreviver cobrando dívidas. Em Jesed, justiça e vingança caminham juntas, a paz também pode oprimir e toda escolha capaz de salvar um povo condena alguém a pagar o preço."
     },
     {
-      "id": "dinastia-polar", "order": 3, "name": "Dinastia Polar", "status": "locked", "icon": "fortress",
-      "visual": "Pedra azul-escura, ouro envelhecido, anéis concêntricos e peso institucional.",
+      "id": "dinastia-polar", "order": 3, "name": "Dinastia Polar", "status": "active", "icon": "fortress",
+      "visual": "A maior cidade de Jesed celebra sua permanência enquanto pequenas rachaduras surgem entre seus anéis.",
       "palette": ["#0D1D2A", "#95743D", "#DDD6C5"],
       "cover": "assets/books/ciclo-de-jesed/dinastia-polar/cover.webp",
-      "teaser": "A raiz cresceu. Os anéis se fecharam. E agora até o poder precisa provar que merece permanecer.",
-      "synopsis": "Kaeliran é uma metrópole de muralhas concêntricas governada pela mais antiga e poderosa linhagem de Jesed: os Polar. A dinastia sobreviveu a guerras, epidemias, revoltas e sucessões violentas, transformando a Raiz em símbolo de fé, ordem e permanência. Para o povo, a Dinastia é a razão pela qual a cidade ainda permanece de pé. Para aqueles que vivem esmagados nos anéis exteriores, porém, sua grandeza tem um preço cada vez mais difícil de suportar.\n\nVetarius Polar herdou o poder ainda criança e governa há décadas sem jamais precisar conquistá-lo. Enquanto trata as tensões entre as dez dinastias como mais uma crise passageira, líderes de toda Jesed aprovam a realização do primeiro Torneio Decenal, uma competição criada para substituir guerras abertas e decidir disputas por meio da força de seus representantes. A arena começa a ser erguida em território Braidar, e Kaeliran prepara seus combatentes para o maior torneio já realizado em Jesed.\n\nEnquanto guerreiros, líderes e peregrinos atravessam o continente em direção à arena, antigas dúvidas voltam a circular entre aqueles que observam os Polar há tempo demais. Soberanos morrem, herdeiros ocupam seus lugares e gerações inteiras desaparecem, mas a Dinastia permanece no centro de Jesed como se o próprio tempo não conseguisse removê-la. Para alguns, isso é prova da proteção da Raiz. Para outros, é apenas o resultado de séculos de poder, medo e histórias cuidadosamente preservadas. Porém, à medida que o torneio se aproxima, torna-se cada vez mais difícil distinguir aquilo que mantém os Polar em seu auge daquilo que poderá, um dia, destruí-los."
+      "teaser": "Kaeliran permaneceu quando povos, fronteiras e soberanos desapareceram. Agora uma garota Nular, um velho campeão e uma caixa de registros começam a descobrir o preço dessa permanência.",
+      "synopsis": "Kaeliran é a maior cidade conhecida de Jesed e o coração da mais antiga entre as grandes potências. Muralhas, canais, leis, arquivos e séculos de vitórias ensinaram os Polar a enxergar a própria permanência como prova de que sua ordem funciona. Elis, uma garota Nular de treze ciclos criada nos anéis exteriores, também cresceu acreditando na grandeza da Dinastia. Até que uma entrada proibida quase lhe custa um dedo e a violência contra alguém de sua casa revela o peso que um nome registrado pode ter.\n\nNo mesmo período, Vetarius Polar anuncia o Primeiro Torneio Decenal: dez dinastias, dez campeões e uma tentativa de substituir guerras abertas por uma disputa controlada. Para representar os Polar, ele escolhe Dareth Quatro-Dedos, veterano transformado em lenda por uma cidade que já esqueceu quanto essa lenda lhe custou. Dareth não quer glória, não quer voltar a Kaeliran e não acredita que matar mais homens possa restaurar nada do que perdeu. Ainda assim, aceita lutar pela única razão que faz sentido para alguém que conhece a guerra: impedir que milhares precisem vivê-la.\n\nEnquanto Kaeliran se prepara para celebrar o próprio poder, Kalan, irmão de Elis e trabalhador da Balança Azul, rouba uma caixa de registros para proteger a família. O crime pequeno cresce até envolver o Culto da Raiz Eterna, uma possível sentença de morte e documentos capazes de colocar em dúvida a própria condição sob a qual ele está sendo julgado. Ao mesmo tempo, cargas com pesos errados, selos confiados entre instituições e rotas noturnas começam a formar um desenho que nenhuma autoridade acompanha por inteiro.\n\nDinastia Polar acompanha pessoas separadas pelos mesmos muros descobrindo que poder, cuidado, fé, registro e memória podem proteger e aprisionar com as mesmas mãos. É uma história sobre aquilo que uma civilização precisa preservar para continuar existindo e aquilo que precisa ter coragem de mudar antes que permanência vire apenas outro nome para não enxergar a queda chegando."
     },
     {
       "id": "herdeiros-das-cinzas", "order": 4, "name": "Herdeiros das Cinzas", "status": "locked", "icon": "embers",
@@ -53,54 +53,12 @@ window.DI_DATA = {
     }
   ],
   "navigation": [
-    {
-      "group": "Livro",
-      "items": [
-        { "id": "inicio", "label": "Início", "icon": "home" },
-        { "id": "books", "label": "Todos os livros", "icon": "books" }
-      ]
-    },
-    {
-      "group": "Pessoas",
-      "items": [
-        { "id": "characters", "label": "Personagens", "icon": "people" },
-        { "id": "relationships", "label": "Relações", "icon": "network" },
-        { "id": "families", "label": "Famílias", "icon": "family" },
-        { "id": "organisations", "label": "Organizações", "icon": "shield" }
-      ]
-    },
-    {
-      "group": "Dinastias",
-      "items": [
-        { "id": "dynasties", "label": "Dinastias", "icon": "crown" }
-      ]
-    },
-    {
-      "group": "Mundo",
-      "items": [
-        { "id": "places", "label": "Lugares", "icon": "pin" },
-        { "id": "map", "label": "Mapa", "icon": "map" }
-      ]
-    },
-    {
-      "group": "História",
-      "items": [
-        { "id": "timeline", "label": "Linha do Tempo", "icon": "timeline" },
-        { "id": "chapters", "label": "Capítulos", "icon": "chapter" },
-        { "id": "mysteries", "label": "Mistérios", "icon": "question" },
-        { "id": "themes", "label": "Temas", "icon": "law" }
-      ]
-    },
-    {
-      "group": "Lore",
-      "items": [
-        { "id": "fauna", "label": "Fauna", "icon": "paw" },
-        { "id": "flora", "label": "Flora", "icon": "leaf" },
-        { "id": "foods", "label": "Alimentos", "icon": "bowl" },
-        { "id": "lore", "label": "Conceitos e Leis", "icon": "scroll" },
-        { "id": "gallery", "label": "Galeria", "icon": "image" }
-      ]
-    }
+    {"group":"Livro","items":[{"id":"inicio","label":"Início","icon":"home"},{"id":"books","label":"Todos os livros","icon":"books"}]},
+    {"group":"Pessoas","items":[{"id":"characters","label":"Personagens","icon":"people"},{"id":"relationships","label":"Relações","icon":"network"},{"id":"families","label":"Famílias","icon":"family"},{"id":"organisations","label":"Organizações","icon":"shield"}]},
+    {"group":"Dinastias","items":[{"id":"dynasties","label":"Dinastias","icon":"crown"}]},
+    {"group":"Mundo","items":[{"id":"places","label":"Lugares","icon":"pin"},{"id":"map","label":"Mapa","icon":"map"}]},
+    {"group":"História","items":[{"id":"timeline","label":"Linha do Tempo","icon":"timeline"},{"id":"chapters","label":"Capítulos","icon":"chapter"},{"id":"mysteries","label":"Mistérios","icon":"question"},{"id":"themes","label":"Temas","icon":"law"}]},
+    {"group":"Lore","items":[{"id":"fauna","label":"Fauna","icon":"paw"},{"id":"flora","label":"Flora","icon":"leaf"},{"id":"foods","label":"Alimentos","icon":"bowl"},{"id":"lore","label":"Conceitos e Leis","icon":"scroll"},{"id":"gallery","label":"Galeria","icon":"image"}]}
   ],
   "characters": [],
   "dynasties": [],
