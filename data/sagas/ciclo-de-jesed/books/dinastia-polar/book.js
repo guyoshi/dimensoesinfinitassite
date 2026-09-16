@@ -39,7 +39,7 @@
     },
     metadata:{
       dataDirectory:'data/sagas/ciclo-de-jesed/books/dinastia-polar',optionalCollections:['themes','mysteries'],
-      legacySources:['data/sagas/ciclo-de-jesed/books/dinastia-polar/runtime.js'],stage:'Em desenvolvimento · 19 capítulos'
+      legacySources:['data/sagas/ciclo-de-jesed/books/dinastia-polar/runtime.js'],stage:'Em desenvolvimento · 23 capítulos'
     }
   });
 })();
