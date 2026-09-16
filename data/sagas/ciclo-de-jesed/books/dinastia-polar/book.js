@@ -38,8 +38,8 @@
       sourceGlobal:'DI_DATA',legacyDataPreserved:true,redirectsPrepared:true,redirectsActive:true
     },
     metadata:{
-      dataDirectory:'data/sagas/ciclo-de-jesed/books/dinastia-polar',optionalCollections:[],
-      legacySources:['data/sagas/ciclo-de-jesed/books/dinastia-polar/runtime.js'],stage:'Manuscrito em desenvolvimento · 18 capítulos escritos'
+      dataDirectory:'data/sagas/ciclo-de-jesed/books/dinastia-polar',optionalCollections:['themes','mysteries'],
+      legacySources:['data/sagas/ciclo-de-jesed/books/dinastia-polar/runtime.js'],stage:'Em desenvolvimento · 19 capítulos'
     }
   });
 })();
