@@ -1,7 +1,7 @@
 window.DI_DATA = {
   "meta": {
     "project": "Dimensões Infinitas",
-    "phase": "Manuscrito em desenvolvimento · 18 capítulos escritos",
+    "phase": "Em desenvolvimento · 19 capítulos",
     "activeSagaId": "ciclo-de-jesed",
     "activeBookId": "dinastia-polar"
   },
@@ -33,11 +33,11 @@ window.DI_DATA = {
     },
     {
       "id": "dinastia-polar", "order": 3, "name": "Dinastia Polar", "status": "active", "icon": "fortress",
-      "visual": "A maior cidade de Jesed celebra sua permanência enquanto pequenas rachaduras surgem entre seus anéis.",
+      "visual": "Pedra azul-escura, ouro envelhecido, anéis concêntricos e peso institucional.",
       "palette": ["#0D1D2A", "#95743D", "#DDD6C5"],
       "cover": "assets/books/ciclo-de-jesed/dinastia-polar/cover.webp",
-      "teaser": "Kaeliran permaneceu quando povos, fronteiras e soberanos desapareceram. Agora uma garota Nular, um velho campeão e uma caixa de registros começam a descobrir o preço dessa permanência.",
-      "synopsis": "Kaeliran é a maior cidade conhecida de Jesed e o coração da mais antiga entre as grandes potências. Muralhas, canais, leis, arquivos e séculos de vitórias ensinaram os Polar a enxergar a própria permanência como prova de que sua ordem funciona. Elis, uma garota Nular de treze ciclos criada nos anéis exteriores, também cresceu acreditando na grandeza da Dinastia. Até que uma entrada proibida quase lhe custa um dedo e a violência contra alguém de sua casa revela o peso que um nome registrado pode ter.\n\nNo mesmo período, Vetarius Polar anuncia o Primeiro Torneio Decenal: dez dinastias, dez campeões e uma tentativa de substituir guerras abertas por uma disputa controlada. Para representar os Polar, ele escolhe Dareth Quatro-Dedos, veterano transformado em lenda por uma cidade que já esqueceu quanto essa lenda lhe custou. Dareth não quer glória, não quer voltar a Kaeliran e não acredita que matar mais homens possa restaurar nada do que perdeu. Ainda assim, aceita lutar pela única razão que faz sentido para alguém que conhece a guerra: impedir que milhares precisem vivê-la.\n\nEnquanto Kaeliran se prepara para celebrar o próprio poder, Kalan, irmão de Elis e trabalhador da Balança Azul, rouba uma caixa de registros para proteger a família. O crime pequeno cresce até envolver o Culto da Raiz Eterna, uma possível sentença de morte e documentos capazes de colocar em dúvida a própria condição sob a qual ele está sendo julgado. Ao mesmo tempo, cargas com pesos errados, selos confiados entre instituições e rotas noturnas começam a formar um desenho que nenhuma autoridade acompanha por inteiro.\n\nDinastia Polar acompanha pessoas separadas pelos mesmos muros descobrindo que poder, cuidado, fé, registro e memória podem proteger e aprisionar com as mesmas mãos. É uma história sobre aquilo que uma civilização precisa preservar para continuar existindo e aquilo que precisa ter coragem de mudar antes que permanência vire apenas outro nome para não enxergar a queda chegando."
+      "teaser": "A raiz cresceu. Os anéis se fecharam. E agora até o poder precisa provar que merece permanecer.",
+      "synopsis": "Kaeliran é a maior metrópole conhecida de Jesed e o coração da mais antiga dinastia ainda em pé. Os Polar sobreviveram a guerras, epidemias e sucessões violentas transformando permanência em religião, sangue em pertencimento e registro em prova. Para quem vive nos anéis ricos, a Dinastia é a razão pela qual a cidade funciona. Para Elis, uma garota Nular de Maruva, ela é também o sistema que decide por quais portas sua família pode passar.\n\nQuando Vetarius Polar cria o primeiro Torneio Decenal, dez dinastias passam a preparar campeões para decidir disputas sem novas guerras abertas. O representante Polar será Dareth Quatro-Dedos, uma lenda militar que passou vinte ciclos tentando viver longe da cidade e do homem que um dia foi. Seu retorno transforma uma cerimônia de propaganda em algo que Vetarius não planejou quando Dareth abandona a procissão para proteger Elis diante dos Filhos da Raiz.\n\nEnquanto Kaeliran se prepara para celebrar seus campeões, Kalan, irmão de Elis, é preso depois de roubar registros para proteger a família. A caixa desaparecida contém mais do que a prova de uma mentira: liga a mãe dos irmãos a uma origem Polar apagada dos registros. Ao mesmo tempo, Selina descobre que cargas, selos e rotas da Companhia da Balança Azul formam um sistema em que cada etapa parece legítima e ninguém consegue enxergar o caminho inteiro. Entre o julgamento de Kalan, os segredos de Neiva, a ascensão política involuntária de Dareth e uma cidade que funciona justamente porque ninguém controla tudo sozinho, Dinastia Polar pergunta o que acontece quando uma instituição sobrevive por tanto tempo que permanência e justiça deixam de significar a mesma coisa."
     },
     {
       "id": "herdeiros-das-cinzas", "order": 4, "name": "Herdeiros das Cinzas", "status": "locked", "icon": "embers",
@@ -60,17 +60,7 @@ window.DI_DATA = {
     {"group":"História","items":[{"id":"timeline","label":"Linha do Tempo","icon":"timeline"},{"id":"chapters","label":"Capítulos","icon":"chapter"},{"id":"mysteries","label":"Mistérios","icon":"question"},{"id":"themes","label":"Temas","icon":"law"}]},
     {"group":"Lore","items":[{"id":"fauna","label":"Fauna","icon":"paw"},{"id":"flora","label":"Flora","icon":"leaf"},{"id":"foods","label":"Alimentos","icon":"bowl"},{"id":"lore","label":"Conceitos e Leis","icon":"scroll"},{"id":"gallery","label":"Galeria","icon":"image"}]}
   ],
-  "characters": [],
-  "dynasties": [],
-  "places": [],
-  "chapters": [],
-  "timeline": [],
-  "relationships": [],
-  "mysteries": [],
-  "families": [],
-  "organisations": [],
-  "lore": { "fauna": [], "flora": [], "foods": [], "concepts": [] },
-  "gallery": [],
-  "maps": { "main": "assets/books/ciclo-de-jesed/dinastia-polar/maps/map.webp" },
-  "entityAliases": []
+  "characters": [],"dynasties": [],"places": [],"chapters": [],"timeline": [],"relationships": [],"mysteries": [],"families": [],"organisations": [],
+  "lore": { "fauna": [], "flora": [], "foods": [], "concepts": [] },"gallery": [],
+  "maps": { "main": "assets/books/ciclo-de-jesed/dinastia-polar/maps/map.webp" },"entityAliases": []
 };
