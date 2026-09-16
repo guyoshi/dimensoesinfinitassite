@@ -1,7 +1,7 @@
 window.DI_DATA = {
   "meta": {
     "project": "Dimensões Infinitas",
-    "phase": "Em desenvolvimento · 19 capítulos",
+    "phase": "Em desenvolvimento · 23 capítulos",
     "activeSagaId": "ciclo-de-jesed",
     "activeBookId": "dinastia-polar"
   },
