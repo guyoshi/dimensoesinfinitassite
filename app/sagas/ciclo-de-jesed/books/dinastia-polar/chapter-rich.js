@@ -113,8 +113,8 @@
       const count = (chapter.characterIds || chapter.characters || []).length;
       const copy = card.querySelector('.chapter-card-copy');
       if (!copy) return;
-      copy.insertAdjacentHTML('beforeend', `<div class="tag-row"><span class="tag">${count} ${count === 1 ? 'personagem' : 'personagens'}</span>${chapter.pov ? `<span class="tag">POV: ${escapeHtml(chapter.pov)}</span>` : ''}</div>`);
       card.dataset.richList = '1';
+      copy.insertAdjacentHTML('beforeend', `<div class="tag-row"><span class="tag">${count} ${count === 1 ? 'personagem' : 'personagens'}</span>${chapter.pov ? `<span class="tag">POV: ${escapeHtml(chapter.pov)}</span>` : ''}</div>`);
     });
   }
 
@@ -123,6 +123,10 @@
     enrichChapterList();
   }
 
+  const main = document.getElementById('mainContent');
+  if (main) {
+    new MutationObserver(() => setTimeout(enrich, 0)).observe(main, { childList: true, subtree: true });
+  }
   window.addEventListener('hashchange', () => setTimeout(enrich, 0));
   setTimeout(enrich, 0);
 })();
