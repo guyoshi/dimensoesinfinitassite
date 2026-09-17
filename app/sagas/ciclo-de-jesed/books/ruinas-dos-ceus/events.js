@@ -93,7 +93,19 @@ const storage={
   get(k){try{return localStorage.getItem(k)}catch{return null}},
   set(k,v){try{localStorage.setItem(k,v)}catch{}}
 };
-const settings={
+// O site deve abrir sempre em modo desempenho em mobile, em qualquer página do livro.
+const isMobileDevice=matchMedia('(max-width: 760px)').matches;
+if(isMobileDevice)storage.set('di-ruinas-customized','0');
+const settings=isMobileDevice?{
+  particles:false,
+  transitions:false,
+  textures:false,
+  blur:false,
+  shadows:false,
+  motion:false,
+  particleAmount:Number(storage.get('di-particle-amount')||22),
+  preset:'performance'
+}:{
   particles:storage.get('di-particles')!=='0',
   transitions:storage.get('di-transitions')!=='0',
   textures:storage.get('di-textures')!=='0',

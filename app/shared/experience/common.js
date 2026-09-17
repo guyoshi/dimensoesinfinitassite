@@ -13,6 +13,11 @@
   const slowConnection=['slow-2g','2g'].includes(connection?.effectiveType);
   const mobile=matchMedia('(max-width: 760px)').matches;
   const weakDevice=(navigator.hardwareConcurrency&&navigator.hardwareConcurrency<=4)||(navigator.deviceMemory&&navigator.deviceMemory<=4)||mobile||saveData||slowConnection;
+  // O site deve abrir sempre em modo desempenho em mobile, seja qual for a página do livro (dinastia, ruínas, etc).
+  // Reforço central: garante o modo desempenho mesmo em páginas cujo app.js não tenha essa lógica própria.
+  if(mobile){
+    document.body.classList.add('performance-mode','no-particles','no-transitions','no-textures','no-blur','no-shadows','no-motion');
+  }
   function toast(message){
     let node=document.getElementById('experienceToast');
     if(!node){node=document.createElement('div');node.id='experienceToast';node.className='experience-toast';node.setAttribute('role','status');node.setAttribute('aria-live','polite');document.body.append(node)}
