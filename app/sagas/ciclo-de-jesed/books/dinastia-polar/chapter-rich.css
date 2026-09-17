@@ -1,0 +1,91 @@
+.chapter-pagination{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:12px;
+  margin:0 0 18px;
+}
+.chapter-pagination button{
+  min-height:58px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  gap:3px;
+  text-align:left;
+}
+.chapter-pagination button:last-child{
+  align-items:flex-end;
+  text-align:right;
+}
+.chapter-pagination button small{
+  display:block;
+  max-width:30ch;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  opacity:.72;
+}
+.chapter-layout{
+  display:grid;
+  grid-template-columns:minmax(0,1.65fr) minmax(280px,.7fr);
+  gap:24px;
+  align-items:start;
+  margin-top:22px;
+}
+.chapter-longform .section-heading{
+  margin-bottom:18px;
+}
+.chapter-longform .chapter-prose{
+  display:grid;
+  gap:14px;
+}
+.chapter-longform .chapter-prose p{
+  margin:0;
+  line-height:1.72;
+}
+.chapter-context-column{
+  display:grid;
+  gap:16px;
+  position:sticky;
+  top:96px;
+}
+.chapter-context-column .section-card{
+  margin:0;
+}
+.chapter-context-column .context-chip-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.chapter-context-column .context-chip{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.chapter-context-column .context-chip img{
+  width:32px;
+  height:32px;
+  border-radius:50%;
+  object-fit:cover;
+}
+.chapter-context-column .mini-list{
+  display:grid;
+  gap:8px;
+}
+.chapter-hero-panel .tag-row{
+  margin-top:14px;
+}
+.chapter-card .tag-row{
+  margin-top:auto;
+  padding-top:10px;
+}
+
+@media (max-width:900px){
+  .chapter-layout{grid-template-columns:1fr}
+  .chapter-context-column{position:static;grid-template-columns:1fr}
+}
+@media (max-width:700px){
+  .chapter-pagination{grid-template-columns:1fr}
+  .chapter-pagination button,
+  .chapter-pagination button:last-child{width:100%;align-items:flex-start;text-align:left}
+}
