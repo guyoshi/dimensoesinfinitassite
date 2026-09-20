@@ -2,12 +2,15 @@
   'use strict';
   const X=window.JESED_POLAR_CONTEXT;if(!X)return;const {C,D,BOOK_ID,bookSource}=X,items=[];
 
-  // As artes de capítulo vivem numa pasta pública e previsível do site.
-  // Assim, novos capítulos só precisam receber a imagem com o número correto.
+  // Cada capítulo pode definir a própria arte em chapters.js.
+  // Para os capítulos 1–23 preservamos o acervo legado já existente no site.
+  // Capítulos posteriores ficam sem imagem até o binário correspondente ser publicado.
   const chapters=C.asArray(D.chapters);
   chapters.forEach(item=>{
     const number=Number(item.number);
-    item.image=`assets/capitulos/capitulo-${String(number).padStart(2,'0')}.png`;
+    if(!item.image && number<=23){
+      item.image=`assets/capitulos/capitulo-${String(number).padStart(2,'0')}.png`;
+    }
   });
 
   // chapters.js já registrou a coleção antes deste arquivo carregar. Recriamos a
