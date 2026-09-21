@@ -2460,6 +2460,39 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - IDs existentes preservados; nenhum ID canônico foi renomeado.
 - Novo módulo `social.js` carregado antes de `index.js`; cache do Livro 3 atualizado para `20260914a`.
 
+### 2026-09-21 — Dinastia Polar: Capítulo 37 (final), imagens 6–23 e 37, e livro marcado como concluído
+
+- O autor enviou o manuscrito final do Livro 3 (git pull na pasta do manuscrito), acrescentando o Capítulo 37 — "Antes da Noite", que encerra explicitamente a narrativa ("A Dinastia Polar terminava ali.").
+- `chapters.js` recebeu a ficha do Capítulo 37 (resumo, detalhes, POV Dareth/Selina/Elis, lugares e personagens envolvidos).
+- As 18 imagens dos Capítulos 6–23, entregues como PNG em `Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/` mas nunca convertidas, foram migradas para WebP em `assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-06.webp` … `chapter-23.webp`, ligadas em `chapters.js`. A imagem do Capítulo 37 foi convertida e ligada da mesma forma (`chapter-37.webp`).
+- `characters.js` recebeu fichas para **Saelira Buldar** e **Khalir Buldar**, já referenciados como `characterIds` em capítulos existentes (28, 31–33, 35, 36) mas sem ficha própria. Campos sem base no manuscrito foram preenchidos com `null`/`"Não registado"`, sem invenção.
+- `book.js`: `stage` atualizado de "Em desenvolvimento · 36 capítulos" para **"Concluído · 37 capítulos"**.
+- IDs existentes preservados; nenhum ID canônico foi renomeado ou reaproveitado.
+- **Pendências identificadas, não resolvidas nesta atualização** (fora do escopo desta sessão, que não tinha acesso ao validador `npm run validate`/`npm run audit`):
+  - Estados de personagens (`status`/`destiny`) não foram atualizados em massa para refletir o desfecho do Capítulo 37 (mortes de Vetarius, Amaric, Sumo Vigia, Alveris, Caeren, Ladira Polar; destino incerto de Dareth e Karesis). As fichas já existentes de Vetarius, Amaric, Sumo Vigia e Alveris podem já refletir o Capítulo 36; as de Caeren e Ladira Polar ainda não foram conferidas contra o Capítulo 37.
+  - `mysteries.js` provavelmente contém o mistério da identidade de Aleris/Alveris, resolvido no Capítulo 37 via Selina; não foi revisado nesta sessão.
+  - `timeline.js` e `continuity.js` não foram atualizados com os acontecimentos do Capítulo 37.
+  - Confirmado o problema já registrado em 2026-09-20: `assets/capitulos/capitulo-01.png` … `capitulo-23.png` (pasta antiga na raiz de `assets/`) continuam presentes e são PNGs duplicados e obsoletos frente ao acervo WebP estruturado; não foram removidos por falta de ferramenta de exclusão de arquivos nesta sessão.
+  - Nenhuma validação (`npm run validate`, `npm run audit`) foi executada nesta sessão; a publicação definitiva depende dessa checagem.
+- Nenhum push realizado no GitHub.
+
+### 2026-09-21 (cont.) — Dinastia Polar: estados de personagens, mistérios e linha do tempo do Capítulo 37
+
+- `characters.js`: `status`, `appearanceChapters`, `destiny` e, quando aplicável, `summary`/`knowledge`/`sources` atualizados para refletir o Capítulo 37:
+  - **Caeren Polar** e **Ladira Polar**: status alterado para morte na noite da queda de Kaeliran; `destiny.state` marcado como `'Concluído'`.
+  - **Karesis**: status alterado para desaparecido sob os escombros do Santuário, corpo não encontrado; `destiny.state` mantido `'Em desenvolvimento'` (desfecho ambíguo no texto, sem invenção de morte confirmada).
+  - **Dareth Quatro-Dedos**: status alterado para ferido gravemente cobrindo sozinho a retirada dos sobreviventes pelos túneis; desfecho explicitamente não confirmado no manuscrito, por isso `destiny.state` também mantido `'Em desenvolvimento'`.
+  - **Selina**: status, resumo e conhecimento atualizados para a fuga do cativeiro, a revelação de que Aleris e Alveris eram a mesma pessoa, e a chegada a Maruva.
+  - Elis, Tair, Orel e Amira não foram alterados nesta rodada (fichas já compatíveis com o desfecho).
+- `mysteries.js`: cinco mistérios revisados à luz do Capítulo 37 — `marcas-em-kaeliran`, `o-que-a-balanca-movimenta` e `por-que-kalan-pode-ser-executado` passaram para `status:'Revelado'`, com resumos reescritos preservando a ressalva explícita de Selina no texto (não há prova de que Alveris tenha pedido a execução de Kalan — a sentença partiu do tribunal e da acusação do Culto); `onde-karesis-vai` permanece `'Aberto'` (corpo não encontrado); `origem-de-neiva` permanece `'Parcialmente revelado'` (Ladira morre sem confirmar ou negar a ligação com Neiva). Nenhum mistério foi fechado além do que o texto sustenta.
+- `timeline.js`: adicionados sete eventos cobrindo o Capítulo 34 (depósito de armas da Balança Azul na antiga casa de Aleris) e o Capítulo 37 (envenenamento de Alveris no banquete, a noite da queda de Kaeliran, a fuga e revelação de Selina, o desabamento do Santuário com as mortes de Caeren e Ladira e o desaparecimento de Karesis, e a retirada coberta por Dareth).
+- IDs existentes preservados; nenhum ID canônico foi renomeado ou reaproveitado; nenhum dado foi inventado além do que o Capítulo 37 sustenta.
+- **Pendências que continuam em aberto:**
+  - `continuity.js` ainda não foi revisado/atualizado com os acontecimentos do Capítulo 37.
+  - `assets/capitulos/capitulo-01.png` … `capitulo-23.png` (PNGs legados na raiz de `assets/`) continuam presentes; ainda sem ferramenta de exclusão de arquivos disponível nesta sessão para removê-los.
+  - Nenhuma validação (`npm run validate`, `npm run audit`) foi executada nesta sessão.
+- Nenhum push realizado no GitHub.
+
 ### 2026-09-20 — Dinastia Polar: integração de imagens e capítulos 24–36
 
 - Integrados novos retratos, ilustrações dos capítulos 24–36, imagens de lugares e dois animais a partir dos assets locais do autor.
