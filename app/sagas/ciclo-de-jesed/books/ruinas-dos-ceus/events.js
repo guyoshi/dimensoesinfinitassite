@@ -1,7 +1,7 @@
 (()=>{const R=window.RS,{D,E,S,st,LORE,SAGAS,BOOKS,$,go,BOOK_COVER_FALLBACK}=R;
 function selectorCardHtml(item, books){
-  const active=item.status==='active'||item.id==='dinastia-polar';
-  const href=books?(item.id==='ruinas-dos-ceus'?'ruinas.html#/inicio':item.id==='guerras-de-sangue'?'guerras.html#/dashboard':item.id==='dinastia-polar'?'dinastia-polar.html#/inicio':''):item.id==='ciclo-de-jesed'?'index.html#/books':'';
+  const active=item.status==='active'||item.id==='dinastia-polar'||item.id==='herdeiros-das-cinzas';
+  const href=books?(item.id==='ruinas-dos-ceus'?'ruinas.html#/inicio':item.id==='guerras-de-sangue'?'guerras.html#/dashboard':item.id==='dinastia-polar'?'dinastia-polar.html#/inicio':item.id==='herdeiros-das-cinzas'?'herdeiros-das-cinzas.html#/inicio':''):item.id==='ciclo-de-jesed'?'index.html#/books':'';
   const coverUrl=books?(item.cover||BOOK_COVER_FALLBACK[item.id]):null;
   const media=books?(coverUrl?`<span class="selector-cover"><img src="${E(coverUrl)}" alt="Capa de ${E(item.name)}" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="selector-cover-fallback" hidden>✦</span></span>`:`<span class="selector-cover symbol">✦</span>`):'';
   const inner=`${media}<strong>${E(item.name)}</strong><small>${active&&href?(item.status==='active'?'Disponível':'Em preparação'):'Bloqueado nesta etapa'}</small>`;

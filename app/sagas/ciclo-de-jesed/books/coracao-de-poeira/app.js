@@ -124,10 +124,10 @@
       <div class="bookshelf" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:24px">
         ${books.map(b => {
           const active = b.status === "active";
-          const previewable = b.id === BOOK_ID;
+          const previewable = b.id === BOOK_ID || b.id === "herdeiros-das-cinzas";
           const clickable = active || previewable;
           const current = b.id === BOOK_ID;
-          const hrefs = {"ruinas-dos-ceus":"ruinas.html#/inicio","guerras-de-sangue":"guerras.html#/dashboard","dinastia-polar":"dinastia-polar.html#/inicio"};
+          const hrefs = {"ruinas-dos-ceus":"ruinas.html#/inicio","guerras-de-sangue":"guerras.html#/dashboard","dinastia-polar":"dinastia-polar.html#/inicio","herdeiros-das-cinzas":"herdeiros-das-cinzas.html#/inicio"};
           const href = !current ? hrefs[b.id] : null;
           return `<article class="card ${clickable?"active":"locked"} ${current?"current":""}" style="padding:0;overflow:hidden;${!clickable?"opacity:.55;filter:saturate(.4)":""}">
             <div style="aspect-ratio:2/1;background:linear-gradient(135deg,${(b.palette||["#333","#555","#888"]).join(",")});display:flex;align-items:center;justify-content:center">${b.cover?`<img src="${escapeHtml(b.cover)}" alt="" style="width:100%;height:100%;object-fit:cover">`:"✦"}</div>
@@ -172,8 +172,8 @@
     if(type==="books"){
       const books=D?.books||[];
       content.innerHTML=`<p class="eyebrow" style="margin:0 0 16px">Ciclo de Jesed</p><h2 style="margin:0 0 20px;color:var(--di-heading)">Cinco livros</h2><div style="display:grid;gap:10px">${books.map(b=>{
-        const active=b.status==="active",previewable=b.id===BOOK_ID,current=b.id===BOOK_ID;
-        const hrefs={"ruinas-dos-ceus":"ruinas.html#/inicio","guerras-de-sangue":"guerras.html#/dashboard","dinastia-polar":"dinastia-polar.html#/inicio"};
+        const active=b.status==="active",previewable=b.id===BOOK_ID||b.id==="herdeiros-das-cinzas",current=b.id===BOOK_ID;
+        const hrefs={"ruinas-dos-ceus":"ruinas.html#/inicio","guerras-de-sangue":"guerras.html#/dashboard","dinastia-polar":"dinastia-polar.html#/inicio","herdeiros-das-cinzas":"herdeiros-das-cinzas.html#/inicio"};
         const href=current?null:hrefs[b.id],clickable=(active||previewable)&&href;
         return `<${clickable?`a href="${escapeHtml(href)}"`:` div`} class="selector-card ${current?"active":clickable?"":"locked"}" style="display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:12px;border:1px solid var(--di-border);text-decoration:none;color:inherit;${!clickable&&!current?"opacity:.5":""}"><span style="width:36px;height:36px;border-radius:8px;background:linear-gradient(135deg,${(b.palette||["#333","#555"]).slice(0,2).join(",")});flex:0 0 36px"></span><div><strong style="color:var(--di-heading);font-size:.9rem">${escapeHtml(b.name)}</strong><br><small style="color:var(--di-muted);font-size:.76rem">Livro ${b.order} · ${current?"Você está aqui":active?"Disponível":previewable?"Em preparação":"Bloqueado"}</small></div>${current?`<span style="margin-left:auto;font-size:.72rem;color:var(--di-accent)">● Aqui</span>`:""}</${clickable?"a":"div"}>`;
       }).join("")}</div>`;

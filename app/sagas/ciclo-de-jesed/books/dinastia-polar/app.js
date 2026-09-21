@@ -326,7 +326,7 @@
       ${pageHeader("Ciclo de Jesed", "Os cinco livros", "Abra um livro para ver os detalhes, ou consulte os volumes ainda em preparação.")}
       <section class="bookshelf enhanced-bookshelf" aria-label="Livros do Ciclo de Jesed">
         ${D.books.map(book => {
-          const active = book.status === "active" || book.id === BOOK_ID;
+          const active = book.status === "active" || book.id === BOOK_ID || book.id === "herdeiros-das-cinzas";
           const current = book.id === BOOK_ID;
           const media = bookCoverHtml(book, "book-card-cover");
           const inner = `<div class="book-card-cover-frame">${media}<span class="book-number readable-book-number">Livro ${book.order}</span></div><div class="book-card-copy"><h2>${escapeHtml(book.name)}</h2><p>${escapeHtml(book.teaser || book.visual)}</p></div><div class="book-status"><span>${current ? "Em preparação" : (book.status === "active" ? "Livro concluído" : "Em preparação")}</span><span>${current ? "Você está aqui" : (active ? "Ver detalhes" : "Bloqueado")}</span></div>`;

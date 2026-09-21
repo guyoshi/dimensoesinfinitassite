@@ -3,7 +3,7 @@ function synopsisHtml(value){return String(value||'').split(/\n\s*\n/).filter(Bo
 function livros(){
   return H('Ciclo de Jesed','Os cinco livros','Clique num livro para ver os detalhes.')+`<div class="bookshelf">${BOOKS.map(b=>{
     const active=b.status==='active';
-    const previewable=b.id==='dinastia-polar';
+    const previewable=b.id==='dinastia-polar'||b.id==='herdeiros-das-cinzas';
     const clickable=active||previewable;
     const current=b.id==='ruinas-dos-ceus';
     const coverUrl=b.cover||BOOK_COVER_FALLBACK[b.id];
@@ -18,9 +18,9 @@ function livro(id){
   const b=BOOKS.find(x=>x.id===id);
   if(!b) return err();
   const current=b.id==='ruinas-dos-ceus';
-  const externalLinks={'guerras-de-sangue':'guerras.html','dinastia-polar':'dinastia-polar.html'};
+  const externalLinks={'guerras-de-sangue':'guerras.html','dinastia-polar':'dinastia-polar.html','herdeiros-das-cinzas':'herdeiros-das-cinzas.html'};
   const bookLogos={'guerras-de-sangue':'assets/branding/guerras-de-sangue/logo-light.webp'};
-  const previewable=b.id==='dinastia-polar';
+  const previewable=b.id==='dinastia-polar'||b.id==='herdeiros-das-cinzas';
   const href=!current?externalLinks[b.id]:null;
   const logo=bookLogos[b.id];
   const titleHtml=logo?`<img class="hero-logo" src="${E(logo)}" alt="${E(b.name)}">`:`<h1>${E(b.name)}</h1>`;

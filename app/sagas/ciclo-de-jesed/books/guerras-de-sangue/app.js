@@ -361,7 +361,7 @@
       <section class="bookshelf enhanced-bookshelf" aria-label="Livros do Ciclo de Jesed">
         ${D.books.map(book => {
           const active=book.status === "active";
-          const previewable=book.id === "dinastia-polar";
+          const previewable=book.id === "dinastia-polar"||book.id === "herdeiros-das-cinzas";
           const clickable=active||previewable;
           const current=book.id === BOOK_ID;
           const media=bookCoverHtml(book, "book-card-cover");
@@ -377,9 +377,9 @@
     const book = getBook(id) || getBook("guerras-de-sangue");
     const cover = bookCoverHtml(book, "");
     if (book.id !== "guerras-de-sangue") {
-      const externalLinks = { "ruinas-dos-ceus": "ruinas.html", "dinastia-polar": "dinastia-polar.html" };
+      const externalLinks = { "ruinas-dos-ceus": "ruinas.html", "dinastia-polar": "dinastia-polar.html", "herdeiros-das-cinzas": "herdeiros-das-cinzas.html" };
       const bookLogos = { "ruinas-dos-ceus": "assets/branding/ruinas-dos-ceus/logo-light.webp" };
-      const previewable = book.id === "dinastia-polar";
+      const previewable = book.id === "dinastia-polar" || book.id === "herdeiros-das-cinzas";
       const href = externalLinks[book.id];
       const logo = bookLogos[book.id];
       const titleHtml = logo ? `<img class="hero-logo" src="${logo}" alt="${escapeHtml(book.name)}">` : `<h2>${escapeHtml(book.name)}</h2>`;
@@ -1142,8 +1142,8 @@
   function openSelector(type) {
     const books = type === "books";
     const list = books ? D.books : D.sagas;
-    const hrefFor=item=>books?(item.id==="ruinas-dos-ceus"?"ruinas.html#/inicio":item.id==="guerras-de-sangue"?"guerras.html#/dashboard":item.id==="dinastia-polar"?"dinastia-polar.html#/inicio":""):item.id==="ciclo-de-jesed"?"index.html#/books":"";
-    refs.selectorContent.innerHTML = `<div class="section-heading"><div><p class="eyebrow">${books ? "Livro" : "Dimensão"}</p><h2>${books ? "Escolher livro" : "Escolher saga"}</h2></div><button class="icon-button" data-action="close-selector">${icon("close")}</button></div><div class="selector-grid">${list.map(item => {const href=(item.status==="active"||item.id==="dinastia-polar")?hrefFor(item):"";const fallbackImg=books?bookCoverFallback[item.id]:null;const coverOnerror=fallbackImg?`this.onerror=function(){this.hidden=true;this.nextElementSibling.hidden=false};this.src='${fallbackImg}'`:`this.hidden=true;this.nextElementSibling.hidden=false`;const media=item.cover?`<span class="selector-cover"><img src="${escapeHtml(item.cover)}" alt="Capa de ${escapeHtml(item.name)}" onerror="${coverOnerror}"><span class="selector-cover-fallback" hidden>${icon(item.icon||item.symbol)}</span></span>`:`<span class="selector-cover symbol">${icon(item.icon||item.symbol)}</span>`;const inner=`${media}<strong>${escapeHtml(item.name)}</strong><small>${href?"Disponível":"Bloqueado nesta etapa"}</small>`;return href?`<a class="selector-card active" href="${href}">${inner}</a>`:`<button class="selector-card locked" disabled>${inner}</button>`;}).join("")}</div>`;
+    const hrefFor=item=>books?(item.id==="ruinas-dos-ceus"?"ruinas.html#/inicio":item.id==="guerras-de-sangue"?"guerras.html#/dashboard":item.id==="dinastia-polar"?"dinastia-polar.html#/inicio":item.id==="herdeiros-das-cinzas"?"herdeiros-das-cinzas.html#/inicio":""):item.id==="ciclo-de-jesed"?"index.html#/books":"";
+    refs.selectorContent.innerHTML = `<div class="section-heading"><div><p class="eyebrow">${books ? "Livro" : "Dimensão"}</p><h2>${books ? "Escolher livro" : "Escolher saga"}</h2></div><button class="icon-button" data-action="close-selector">${icon("close")}</button></div><div class="selector-grid">${list.map(item => {const href=(item.status==="active"||item.id==="dinastia-polar"||item.id==="herdeiros-das-cinzas")?hrefFor(item):"";const fallbackImg=books?bookCoverFallback[item.id]:null;const coverOnerror=fallbackImg?`this.onerror=function(){this.hidden=true;this.nextElementSibling.hidden=false};this.src='${fallbackImg}'`:`this.hidden=true;this.nextElementSibling.hidden=false`;const media=item.cover?`<span class="selector-cover"><img src="${escapeHtml(item.cover)}" alt="Capa de ${escapeHtml(item.name)}" onerror="${coverOnerror}"><span class="selector-cover-fallback" hidden>${icon(item.icon||item.symbol)}</span></span>`:`<span class="selector-cover symbol">${icon(item.icon||item.symbol)}</span>`;const inner=`${media}<strong>${escapeHtml(item.name)}</strong><small>${href?(item.id==="herdeiros-das-cinzas"?"Em preparação":"Disponível"):"Bloqueado nesta etapa"}</small>`;return href?`<a class="selector-card active" href="${href}">${inner}</a>`:`<button class="selector-card locked" disabled>${inner}</button>`;}).join("")}</div>`;
     refs.selectorModal.classList.add("open");
     refs.selectorModal.setAttribute("aria-hidden", "false");
   }
