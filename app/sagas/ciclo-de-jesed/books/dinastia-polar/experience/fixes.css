@@ -137,6 +137,8 @@ body[data-book="dinastia-polar"] .selector-modal-panel{width:min(920px,calc(100%
 
 /* Lore: ícones substitutos, grade compacta, alternância lista/quadrados. */
 .lore-image-placeholder{display:grid;place-items:center;background:linear-gradient(150deg,color-mix(in srgb,var(--di-accent) 18%,transparent),rgba(7,16,25,.72))}
+.lore-stage11-card .lore-card-image{display:block;width:100%;aspect-ratio:16/10;object-fit:cover}
+.lore-detail-image{display:block;width:min(100%,760px);max-height:430px;object-fit:cover;border-radius:16px;margin-bottom:18px}
 .lore-image-placeholder svg{width:42px;height:42px;flex:none;stroke:var(--dp-ivory);opacity:.85}
 .lore-grid.lore-stage11-grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,205px),1fr));gap:14px}
 .lore-order-tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px}

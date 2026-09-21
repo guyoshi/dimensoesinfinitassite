@@ -7,7 +7,7 @@
   const chapters=C.asArray(D.chapters);
   chapters.forEach(item=>{
     const number=Number(item.number);
-    item.image=`assets/capitulos/capitulo-${String(number).padStart(2,'0')}.png`;
+    if(number<=23) item.image=`assets/capitulos/capitulo-${String(number).padStart(2,'0')}.png`;
   });
 
   // chapters.js já registrou a coleção antes deste arquivo carregar. Recriamos a
@@ -24,5 +24,8 @@
   C.asArray(D.characters).forEach(i=>add('character','Personagem',i.name,i.image,`character/${i.slug}`,i.id,i.summary));
   C.asArray(D.places).forEach(i=>add('place','Lugar',i.name,i.image,`place/${i.slug}`,i.id,i.summary));
   chapters.forEach(i=>add('chapter','Capítulo',`Capítulo ${i.number} — ${i.title}`,i.image,`chapter/${i.id}`,i.id,i.summary));
+  C.asArray(D.lore?.fauna).forEach(i=>add('fauna','Fauna',i.name,i.image,`lore-item/fauna/${i.slug}`,i.id,i.summary));
+  const extraPlaces=[{"name": "Aelvar 2", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/aelvar-2.webp", "route": "place/aelvar"}, {"name": "Braivar 2", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/braivar-2.webp", "route": "place/braivar"}, {"name": "Distrito de Alysen", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-alysen.webp", "route": "place/kaeliran"}, {"name": "Distrito de Delvar", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-delvar.webp", "route": "place/kaeliran"}, {"name": "Distrito de Kaelyr", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-kaelyr.webp", "route": "place/kaeliran"}, {"name": "Distrito de Maelya", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-maelya.webp", "route": "place/kaeliran"}, {"name": "Distrito de Nerya", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-nerya.webp", "route": "place/kaeliran"}, {"name": "Distrito de Olarim", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-olarim.webp", "route": "place/kaeliran"}, {"name": "Distrito de Roven", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-roven.webp", "route": "place/kaeliran"}, {"name": "Distrito de Selyra", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-selyra.webp", "route": "place/kaeliran"}, {"name": "Distrito de Talarim", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-talarim.webp", "route": "place/kaeliran"}, {"name": "Distrito de Vardeno", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-vardeno.webp", "route": "place/kaeliran"}, {"name": "Harquen 2", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/harquen-2.webp", "route": "place/harquen"}, {"name": "Khar-Kaelyr 2", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/khar-kaelyr-2.webp", "route": "place/khar-tondr"}, {"name": "Seynara", "image": "assets/books/ciclo-de-jesed/dinastia-polar/places/seynara.webp", "route": ""}];
+  extraPlaces.forEach(i=>add('place','Lugar',i.name,i.image,i.route,`extra-${i.name}`,i.name));
   const seen=new Set();C.setCollection(BOOK_ID,'gallery',items.filter(i=>{const key=i.image;if(seen.has(key))return false;seen.add(key);return true;}));
 })();

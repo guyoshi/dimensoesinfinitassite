@@ -45,11 +45,11 @@
   const characters=C.asArray(D.characters);
   const patchCharacter=(id,changes)=>{const item=characters.find(char=>char.id===id);if(item)Object.assign(item,changes);};
   patchCharacter('jesed-character-elis',{
-    status:'Viva · cercada por Hadris e Filhos da Raiz',
-    summary:'Garota de treze ciclos criada em Maruva. No Capítulo 19, chega à Cidade Interna disfarçada pelo corte das roupas, conhece Ladira e confirma que Neiva nasceu Polar e era filha dela. O reencontro familiar se converte em armadilha: Ladira demonstra saber da caixa desaparecida, chama os Filhos da Raiz e Elis foge até ser encurralada por Hadris.',
-    chapterIds:[1,2,6,9,11,12,15,17,19].map(ch),
+    status:'Viva',
+    summary:'Garota Nular de Maruva e irmã de Kalan. Após a execução dele, Karesis a leva para além das muralhas, onde ela conhece vestígios de Etérea e questiona as categorias de pertencimento de Kaeliran. Mais tarde, segue com Tair as marcas clandestinas da cidade e encontra armas e cargas de ruptura escondidas na antiga casa de Aleris. Durante a celebração da vitória de Dareth, reconhece sinais inquietantes entre as comitivas que entram na cidade.',
+    chapterIds:[1,2,6,9,11,12,15,17,19,23,24,26,29,34,36].map(ch),
     knowledge:{knows:['Darven é Polar, conforme os registros de Roven.','Ladira Polar é mãe de Neiva e, portanto, sua avó e avó de Kalan.','Neiva pediu formalmente a própria desvinculação depois que Ladira proibiu o homem que amava de entrar em casa.','O pai de Elis serviu às forças de Kaeliran, provavelmente como batedor ou arqueiro auxiliar, e depois abandonou Neiva.','Ladira sabia da caixa desaparecida sem Elis ter mencionado sua existência.'],suspects:['Ladira possui ligação ou comunicação com o Culto que Elis não compreende.','Karesis sabe mais sobre Neiva e seu pai do que contou.'],falseBeliefs:['Durante parte da visita, acreditou que Ladira realmente pretendia acolher a família e salvar Kalan sem exigir algo em troca.'],unknown:['Como Ladira soube da caixa.','O que acontecerá depois de Hadris cercá-la.','O nome, destino e história completa do pai.'],secrets:['Encontrou a caixa roubada por Kalan e a escondeu nos túneis.','Mentiu para Selina e Ladira sobre saber onde estão os registros.']},
-    destiny:{written:'O Capítulo 19 termina com Elis ferida e sem rota de fuga, cercada por Hadris, Filhos da Raiz e um cátilo de perseguição.',state:'Em desenvolvimento'}
+    destiny:{written:'No Capítulo 36, Elis observa a abertura extraordinária de Kaeliran enquanto guarda o conhecimento da rota subterrânea e das cargas ocultas em Maruva.',state:'Em desenvolvimento'}
   });
   patchCharacter('jesed-character-ladira-polar',{
     status:'Viva',

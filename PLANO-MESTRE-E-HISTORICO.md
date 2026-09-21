@@ -13,7 +13,7 @@
   - *Ruínas dos Céus* — Livro I — 24 capítulos — concluído.
   - *Guerras de Sangue* — Livro II — 29 capítulos — concluído.
 - **Versão estrutural atual:** Etapa 16 concluída, com correções de navegação, contraste e carregamento visual — pacote 0.16.1.
-- **Última atualização deste documento:** 21 de junho de 2026.
+- **Última atualização deste documento:** 20 de setembro de 2026.
 
 ---
 
@@ -2459,3 +2459,14 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - Adicionadas fichas sem imagem inventada para **Caeren Polar** e **Alveris Polar**, ambos já sustentados pelo manuscrito/cânone.
 - IDs existentes preservados; nenhum ID canônico foi renomeado.
 - Novo módulo `social.js` carregado antes de `index.js`; cache do Livro 3 atualizado para `20260914a`.
+
+### 2026-09-20 — Dinastia Polar: integração de imagens e capítulos 24–36
+
+- Integrados novos retratos, ilustrações dos capítulos 24–36, imagens de lugares e dois animais a partir dos assets locais do autor.
+- Capítulos 24–36 receberam fichas com resumos e ligações a personagens e lugares; as novas imagens entram também na galeria.
+- IDs e caminhos já existentes foram preservados. Variações de lugares sem ficha própria aparecem na galeria.
+- A imagem do Capítulo 36, recebida junto com o manuscrito, também foi incorporada.
+- O validador geral de assets já falhava antes desta atualização por 46 PNGs preexistentes e cópias duplicadas dos capítulos 1–23.
+
+- Conferidos 122 caminhos de imagens referenciadas, 36 capítulos e 33 retratos ligados a personagens, sem arquivos ausentes; capítulos, fichas de personagens, lugares, fauna e galeria foram abertos no navegador local.
+- As fichas e a lista de fauna agora exibem suas artes, e os novos personagens foram vinculados às dinastias correspondentes quando cadastradas.

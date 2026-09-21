@@ -3,7 +3,7 @@
 
   const VERSION = '1.2.0';
   const COLLECTIONS = [
-    'characters', 'relationships', 'places', 'chapters', 'timeline',
+    'characters', 'relationships', 'families', 'organisations', 'dynasties', 'places', 'chapters', 'timeline',
     'mysteries', 'themes', 'fauna', 'flora', 'foods', 'concepts', 'gallery'
   ];
   const registry = window.JESED_BOOKS || Object.create(null);

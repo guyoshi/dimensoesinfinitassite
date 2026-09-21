@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-06-22",
+  "updatedAt": "2026-09-20",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 215,
+  "count": 331,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-01.webp",
@@ -2154,6 +2154,1166 @@
       "height": 900,
       "sizeBytes": 269054,
       "sha256": "e4b30a12fd4c610b3e4f6647117ed80080926fc6e5d5a6df893e3ed94b1aefc6"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/alveris-polar.webp",
+      "filename": "alveris-polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 163172,
+      "sha256": "8b3c210ef02dda930918fd4ac894bc920d33f856b4ae67cfbe9122ada6e0ae53"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/amira-polar.webp",
+      "filename": "amira-polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 106116,
+      "sha256": "f008f9b98012a7b7dbf78908d7c5ad0098d1506b3d1fb80d9d64cd142e19e9d2"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/barek-braidar.webp",
+      "filename": "barek-braidar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 228238,
+      "sha256": "9dfd309f8832fc04183af9caf319d2cd9217e6d487bc571cc8e5d37b996d40bf"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/caeren-polar.webp",
+      "filename": "caeren-polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 142724,
+      "sha256": "2f25b91fcf9393aaeca24bf7bc020160d14d9baee6c0b9301fb36d773f242e7a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/cairon-polar.webp",
+      "filename": "cairon-polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 156346,
+      "sha256": "8332295c41caf967a7af7b7d1d2245809175bf1597552ef21e62bbc886a5aab7"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/corven-polar.webp",
+      "filename": "corven-polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 150516,
+      "sha256": "3969f79ed1cf9bb0bcea096b689c9a68f16f7d97928fbd98fe3e8c1d19892bff"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/edria-cendar.webp",
+      "filename": "edria-cendar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 259266,
+      "sha256": "6670bf8efda99084ae638bb1d4a2509336b3fd7d4b957a85f63eeb4d110d67c7"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/hadris-da-raiz.webp",
+      "filename": "hadris-da-raiz.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 202310,
+      "sha256": "08031a0948f87a81fb58f7a7894784fa067ca19cfd7ae4e884ac469044459f0e"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/karev-quendrar.webp",
+      "filename": "karev-quendrar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 163728,
+      "sha256": "7edf68ca13b461b98e0c2494000d1302a81e3db25b03758106bcc500bfca6c87"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/kerath-polar.webp",
+      "filename": "kerath-polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 84164,
+      "sha256": "d0952571a7a16aa485b0f960bd46a7eaa760ee91bc7eab6aae44996bec1f971f"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/khalir-buldar.webp",
+      "filename": "khalir-buldar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 211756,
+      "sha256": "3049af2a7e75899dc65257bc9ec8e55503a2df2d20b477b5aa2a723ca0a0a410"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/ladira-polar.webp",
+      "filename": "ladira-polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 178284,
+      "sha256": "9520ea84191da2e04105053d930fef20c453ab28b196394f2138965b6b5cc2ed"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/neris-nular.webp",
+      "filename": "neris-nular.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 98376,
+      "sha256": "ab9dbe6b61fecebf9efc12962056ec2c8469923e0b5f005a9e117e7585b013bc"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/orven-vendrar.webp",
+      "filename": "orven-vendrar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 164876,
+      "sha256": "742b5b5f78a2a501708ba2e5d6a7689d840c41349c06a236bd8f85f9e7fe891f"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/rhevara-mardrar.webp",
+      "filename": "rhevara-mardrar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 187954,
+      "sha256": "068c652892f5cb8f704127d17716f2ff4f7eef424ed57cff1f4a90b1a98328cd"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/riala-glydar.webp",
+      "filename": "riala-glydar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 221352,
+      "sha256": "2eb7d739f948dfdac553fcfe04a2038a087bf8f78f172368d7ba81493fc11b68"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/saelira-buldar.webp",
+      "filename": "saelira-buldar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 160406,
+      "sha256": "7ed96b01976202d51fd9eda15eebeb587f1fe334f5d9bee125e3f45624c86a09"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/saren-luzdar.webp",
+      "filename": "saren-luzdar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 170064,
+      "sha256": "e2974849b9b6b118f4aa9a78bcb966f8fb19d2a084f7a23b161fe7c3ec279a85"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/serka-cendar.webp",
+      "filename": "serka-cendar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 244954,
+      "sha256": "fdec8ca63028c441ad6513aad5dd68a77ea5065dc748478797164e042e517986"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/talira-leidar.webp",
+      "filename": "talira-leidar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 241970,
+      "sha256": "0e9f3e297f1b4e27fd7bc564eabcd479af92943f9510e0e64208f5200cf9a3d2"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/tavena-grastar.webp",
+      "filename": "tavena-grastar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 248874,
+      "sha256": "26dc5d7c7586347d0b2b56bbe0565c631a29ef04aa597f7e1e02713beaf8c5f5"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/yamara-quendrar.webp",
+      "filename": "yamara-quendrar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 187860,
+      "sha256": "40bee91e22212fdf01c316e6ecb4709ed2d039af8859b3b2a2cc2db0b311d5b1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-24.webp",
+      "filename": "chapter-24.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 188722,
+      "sha256": "264be9d57fe2247e7223290b4a324811c95a6f30a5acbf372b017b87f432b556"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-25.webp",
+      "filename": "chapter-25.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 169876,
+      "sha256": "c40239978c13fd57729be08560696f10b2e31bf3c0a9f7a97af08d9ae89f74e1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-26.webp",
+      "filename": "chapter-26.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 376950,
+      "sha256": "facc245b44bdce2dea121c0447cc051d8edf7544085d6ce25123ae71d9b4b066"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-27.webp",
+      "filename": "chapter-27.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 402582,
+      "sha256": "a0e04b44af12301e8a1089cce91909a014bf98da6a036e288758db3c2ef9a79e"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-28.webp",
+      "filename": "chapter-28.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 329740,
+      "sha256": "0c76253f2c733214df09c7dfb7f17a7945a18c7dd0e1e506bce343efe37dd03d"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-29.webp",
+      "filename": "chapter-29.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 303546,
+      "sha256": "2d72532b48d517347c41f352a366165944b7bf7487d4f65d01bd6f47b1b6f1f6"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-30.webp",
+      "filename": "chapter-30.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 402186,
+      "sha256": "8632fe6f8ec1fdebdcf2f19af573ed3e2c79e6e6708e5613724f62fbbce3ca4c"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-31.webp",
+      "filename": "chapter-31.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 249302,
+      "sha256": "1feb9db64afc79f856383ee967f29a9048822cb685b0f61fa36917bf5b6788fa"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-32.webp",
+      "filename": "chapter-32.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 228662,
+      "sha256": "2d1078587fb5135318032791f12c4ee06c97ae77c8f439f6a495828b91bcb674"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-33.webp",
+      "filename": "chapter-33.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 217502,
+      "sha256": "ddb766483a97b8a7eee91a7b520321a176368f0784a6e2a37899a910dfba168c"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-34.webp",
+      "filename": "chapter-34.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 189994,
+      "sha256": "4fb9f8a23720298a3c9a02665f283c7d8c49eaa681d88b632fc0525a3e855571"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-35.webp",
+      "filename": "chapter-35.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 273428,
+      "sha256": "6bbaf27d47fd6a243c814fff61f0faefc7880afb5613dd61e2f92d46615078bc"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-36.webp",
+      "filename": "chapter-36.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 221234,
+      "sha256": "0ba6a4f5efffe973ac996f4b6863e0adddb6891d036bd483bddf39e4157e1ed2"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/aelvar-2.webp",
+      "filename": "aelvar-2.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 246772,
+      "sha256": "ca1d0ccd9a6263078aa54a475e4f02472c7a9c1bf25ca44620243bbbf150b9f4"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/braivar-2.webp",
+      "filename": "braivar-2.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 368758,
+      "sha256": "a59ba83da3c1a0c8c499ef6e16acac326fa0d03649ef07a3b455ea49f28f2b89"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/caminho-da-permanencia.webp",
+      "filename": "caminho-da-permanencia.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 373062,
+      "sha256": "83b3e95d88a181f8ad78f18eca05cb1a6815f5a1edea96b23ef1a712b9e9121f"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/casa-da-balanca.webp",
+      "filename": "casa-da-balanca.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 318502,
+      "sha256": "b03dc1c5115a825e666e6519a8b8c8588d589f6d3d2662cb0673887e5bd632bb"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/casa-das-bandeiras-fechadas.webp",
+      "filename": "casa-das-bandeiras-fechadas.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 307686,
+      "sha256": "105ab830902a2bd31a14d6ee6e47d9b3b4670a11e6034664e9c08e0fa12977fe"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/casa-do-ferro-baixo.webp",
+      "filename": "casa-do-ferro-baixo.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 321612,
+      "sha256": "519ed6977866a283aa097d53166681a82223bafb4400dafa042c2adcc0a6f8ce"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-alysen.webp",
+      "filename": "distrito-de-alysen.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 380246,
+      "sha256": "9cb4206b4563e273845b9000a27000f4084a94d2f64e5c9475f3029c74259e74"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-delvar.webp",
+      "filename": "distrito-de-delvar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 359882,
+      "sha256": "f7d5285998a1d7c6382221321d13ad233135cc5b9f24bbf362a507a2e008b512"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-kaelyr.webp",
+      "filename": "distrito-de-kaelyr.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 377982,
+      "sha256": "5210648eeed8719b22b38bc334145514e5d82a86628d6885f82218934a090610"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-maelya.webp",
+      "filename": "distrito-de-maelya.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 358220,
+      "sha256": "f6c7c5d08dcf5f35ce0a3876a710fe8850d9f203a496d2934ce78a9deb151762"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-nerya.webp",
+      "filename": "distrito-de-nerya.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 422690,
+      "sha256": "2b79093853efe4c635a9a0fda768c2ab9e4ef7d7b7187e7a7f202fdf2ee6d20a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-olarim.webp",
+      "filename": "distrito-de-olarim.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 311576,
+      "sha256": "d397dacaae3810c0472df3d2565a546d07be206996a2623b1dbd7a4b7c0bd85a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-roven.webp",
+      "filename": "distrito-de-roven.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 274636,
+      "sha256": "0b77273d9995f521072bd842533d53255a7a820477141e8cbaaaab217753ea49"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-selyra.webp",
+      "filename": "distrito-de-selyra.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 343348,
+      "sha256": "ff6d4ca09d5a5fd4e637eb8b4f9724a79343bcc81f33109f2fffdff56908d46e"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-talarim.webp",
+      "filename": "distrito-de-talarim.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 352930,
+      "sha256": "6d8991fd09073bc5598a889c9d0179d869899dce5417fdecbf71bcd5b73662df"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-vardeno.webp",
+      "filename": "distrito-de-vardeno.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 318454,
+      "sha256": "c724a6dc1337cbec54d9ae116a0c08f9d35bbde47da831ce349a0c97d268a83e"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/garganta-de-kaendar.webp",
+      "filename": "garganta-de-kaendar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 323824,
+      "sha256": "845483bd10439627fe786bc868e4948f0ab30cfbdd71b4e83bacb527ffeb1ecc"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/harquen-2.webp",
+      "filename": "harquen-2.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 261912,
+      "sha256": "1e8d98c474d745a51616ebd5fb45dea36fe066f4ca895adfd648560f243afd9f"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/khar-kaelyr-2.webp",
+      "filename": "khar-kaelyr-2.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 311832,
+      "sha256": "535a551db19d77bf43a5737bab34437d0dd5d15580b5ec8dd53526d0b7137d4a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/olho-de-kaeliran.webp",
+      "filename": "olho-de-kaeliran.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 322750,
+      "sha256": "37e1fe95f6bb718eeb77c0021153176933a2fbff15e90830ee615e70db311346"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/propriedade-rural-de-dareth.webp",
+      "filename": "propriedade-rural-de-dareth.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 383916,
+      "sha256": "b0cd6352956890ff61ce76ae55a92e34494039eac85cbc7d0b0020e11aa2f140"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/patio-de-namar.webp",
+      "filename": "patio-de-namar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 331468,
+      "sha256": "20069320f760bf61087d179a63f5711cd7a37b2d70aae9a54909b20199341bda"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/salinas-de-arvessa.webp",
+      "filename": "salinas-de-arvessa.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 344774,
+      "sha256": "f62ed8e635034808dbb2ff82cabc84dde8b795cca2bfd5f886d2b32c22383ff1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/santuario-da-raiz-eterna.webp",
+      "filename": "santuario-da-raiz-eterna.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 371800,
+      "sha256": "633b9ae4edd942ca4dae1fd0e8d38b5da707b4b6ee0112aafff626345ed8d3f1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/seynara.webp",
+      "filename": "seynara.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 365268,
+      "sha256": "2070c923b2c8bd21ea0da5f70b0bb8ad08a53e552356d7db6b2d717fab253d38"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/urtar-vesh.webp",
+      "filename": "urtar-vesh.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 275898,
+      "sha256": "01c0360f30fc3c69f98f01ca99ecf6276afc5ced5fec98627de51f564b2640ce"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/lore/fauna/bravao.webp",
+      "filename": "bravao.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/lore/fauna",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 288842,
+      "sha256": "651f9ce3243610270430b37101824567854e992353b79566c2d4daa002f98660"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/lore/fauna/tarrak.webp",
+      "filename": "tarrak.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/lore/fauna",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 217612,
+      "sha256": "14f9b60568e46c7a746ecacf43394fb6ee76e4688b98c2546e0fce4292626450"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/cover.webp",
+      "filename": "cover.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar",
+      "extension": ".webp",
+      "width": 1054,
+      "height": 1492,
+      "sizeBytes": 1859802,
+      "sha256": "8c12f8d2c4ca4ee352b37ca0197734acf728e30d26fdde8e1cd1a013d73ff548"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
+      "filename": "chapter-01.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 239030,
+      "sha256": "cbcce7bb7427fd990bee8ee55f8641439d5bb598c6b9eab0da0035fecaf27fb1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-02.webp",
+      "filename": "chapter-02.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 243426,
+      "sha256": "608a708d30b301fe34eeb9acf100e72435df12f94890ac2f88433991b7de904a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-03.webp",
+      "filename": "chapter-03.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 159008,
+      "sha256": "0fcb472db4d013cbca01b63bd49057663cec71ccec2293e440a904996f97f680"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-04.webp",
+      "filename": "chapter-04.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 205254,
+      "sha256": "4c2cc8f7f81c3bedbbfca51f1584a47591bfb96620b76fec9f603d2d68a84fef"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-05.webp",
+      "filename": "chapter-05.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 195702,
+      "sha256": "60db21145ea034448097574442df00a7701f62937724af4f9b000ba461b3b31f"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/dareth-quatro-dedos.webp",
+      "filename": "dareth-quatro-dedos.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 334410,
+      "sha256": "a2d0e5b731fca513fa7cc346c8e51c8d79a0dad108ff2dd7827cfd483cb1268a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/elis.webp",
+      "filename": "elis.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 232136,
+      "sha256": "58d5970bb1de0035ce6969f481c5365025137bfe0f3e7f65287463e5a45431b8"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/kalan.webp",
+      "filename": "kalan.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 176178,
+      "sha256": "a7124849275f8d877d23c9424e145a76a33d5587b5e3ddfa2fbe2b22ea2d15d3"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/karesis.webp",
+      "filename": "karesis.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 199126,
+      "sha256": "9abce1061ebd8cee43e249d6c869d944042c3e2082ebc7b908f1dd5b350de7c1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/orel.webp",
+      "filename": "orel.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 235316,
+      "sha256": "77fff3f9aab97d72bf0f0f54d68d6fb1ef5e90677eabe5ec52eaab2274f0bd14"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/selina.webp",
+      "filename": "selina.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 178378,
+      "sha256": "3a7404c71b7618e206300b97124ce3175b66c962e6a7bd97a099abc1b6e913e4"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/sumo-vigia.webp",
+      "filename": "sumo-vigia.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 188436,
+      "sha256": "904b8da7f78265aec84e9bbb14199eba53b25c05238dfadef47a9382134f1970"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/tair.webp",
+      "filename": "tair.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 196588,
+      "sha256": "ba5154e05a67544ab50e791c4be7dab8ef107d3723a0f557596792f844957646"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/teral-polar.webp",
+      "filename": "teral-polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 255980,
+      "sha256": "1e311cf79c4812e3e137b5c51ae75478169a2e91ef48211072a594c2ccab921d"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/vesna-da-permanencia.webp",
+      "filename": "vesna-da-permanencia.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 184530,
+      "sha256": "f16c8947b9d9329a00b5179cc44d05676d209718ba4ed8eaf7096863e014d415"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/vetarius-polar.webp",
+      "filename": "vetarius-polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 155096,
+      "sha256": "2c014f3e6a565b774068a6769ee4f861f871a2a63d390d3813712cdc564d6746"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/braidar.webp",
+      "filename": "braidar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 80,
+      "height": 80,
+      "sizeBytes": 1740,
+      "sha256": "4c506b5aaed9b03d5f23c7d82e334439707893aef60f54cb25ef980ce9cb2267"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/buldar.webp",
+      "filename": "buldar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 128,
+      "height": 128,
+      "sizeBytes": 1716,
+      "sha256": "417d90b462a3ed2661be2d1b77062922a243d15a5cc04b415c07f73103e273eb"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/cendar.webp",
+      "filename": "cendar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 128,
+      "height": 128,
+      "sizeBytes": 2628,
+      "sha256": "0c10d41d176f18bd961cbb80139f34e9c6159a800a0b0b9dcb5cc40c7bc056b7"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/grastar.webp",
+      "filename": "grastar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 80,
+      "height": 80,
+      "sizeBytes": 1334,
+      "sha256": "315b5d8953eabba958505245be09986faa1ddb89492e264d8965538615c82c2d"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/leidar.webp",
+      "filename": "leidar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 128,
+      "height": 128,
+      "sizeBytes": 1724,
+      "sha256": "1241f7b6c208eb0d7b4cf139a13b6b08d4c94e45b5cbd7aed65f59d037cfb2a2"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/luzdar.webp",
+      "filename": "luzdar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 128,
+      "height": 128,
+      "sizeBytes": 2596,
+      "sha256": "624775e0f18c4ae574bf022a4f3a172d1e57734dd7b67ab7266948d9067bf044"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/mardrar.webp",
+      "filename": "mardrar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 128,
+      "height": 128,
+      "sizeBytes": 1274,
+      "sha256": "53affc977cc79923746e8e1541479a54011ee3a5e78fbd0d879c7d40169dfbc1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/polar.webp",
+      "filename": "polar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 128,
+      "height": 128,
+      "sizeBytes": 1634,
+      "sha256": "401f4b75ee89073c1d4f3f18d44cdd6fdde5f263b7bb25c0be3dfdf80cbf5169"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/quendrar.webp",
+      "filename": "quendrar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 128,
+      "height": 128,
+      "sizeBytes": 1852,
+      "sha256": "a215530cefaa35ad9833907e72b44f7d911fed46cb1ac3197705bf14c8d93e46"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/vendrar.webp",
+      "filename": "vendrar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/dynasties",
+      "extension": ".webp",
+      "width": 128,
+      "height": 128,
+      "sizeBytes": 2692,
+      "sha256": "e9b7136d16df2203277ed9a4883f4aa84f2401568892f7065f99b24e988466a0"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/maps/map.webp",
+      "filename": "map.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/maps",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 773558,
+      "sha256": "b24803df44c19c2dafd9531d1449f1074a875c4c0a9b552ccd0fd76b2a71c8fa"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/aelvar.webp",
+      "filename": "aelvar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 184702,
+      "sha256": "c55ed347a5ac905d53ec90543d78747ba1f3ff8631e2b799c4ceae14f33db260"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/altar-dez-estandares.webp",
+      "filename": "altar-dez-estandares.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 451584,
+      "sha256": "b8fcfb9affcd7f22e14ca04be78632a1c9d41fb3ee0baaf1c32867bd5e708e11"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/avarrast.webp",
+      "filename": "avarrast.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 304338,
+      "sha256": "a648479bbde48eca4c0ebac6acd487fe072e87fbe8886f85f1d234134c9c1204"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/bosque-roldanas.webp",
+      "filename": "bosque-roldanas.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 321640,
+      "sha256": "ddc5c226cf95e6dbac59fc62020c1a7b4bb489f0f9d8eaf59af051730bb0f012"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/braivar.webp",
+      "filename": "braivar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 282222,
+      "sha256": "eb646c8cddf86cbcc1162bcdb8f007474ed1dfa8654fcb2cbe2cd8ac4592b929"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/campos-orven.webp",
+      "filename": "campos-orven.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 365172,
+      "sha256": "1d115153cd419ff51e0e1eba162e5e8b28e08aa64c59209d682dc69c0255881b"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/cendar-vel.webp",
+      "filename": "cendar-vel.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 331146,
+      "sha256": "6f22e140ad0a3eef542ea4c6b3eeeea8e1a33646831a80f181b9c1e16b23e2a9"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/fortaleza-kaendar.webp",
+      "filename": "fortaleza-kaendar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 239418,
+      "sha256": "4b4d4d79acd922cbd2a98a1d7273dae16363bd375aedc7593ea86af1ede995b5"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/harquen.webp",
+      "filename": "harquen.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 269592,
+      "sha256": "bb650b400d4142902d562e340fc488f63b50be2c01a240f40c007d57873224d1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/kaeliran.webp",
+      "filename": "kaeliran.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 224186,
+      "sha256": "4102fd64023ff2e07eb9420eb4a6b1c5d9eef2aa0a89ca2c414f39c201a7b20d"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/kelvar.webp",
+      "filename": "kelvar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 248254,
+      "sha256": "7122e42e6333aa443d3d951729f8a50ab6f4bb3afd810ded9077f735ba04fb13"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/khar-tondr.webp",
+      "filename": "khar-tondr.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 169396,
+      "sha256": "56d48ef64a0dcabd6ed45d97c8233eff51ef2e4fe3a19af7e0954f383bf58233"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/luzhara.webp",
+      "filename": "luzhara.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 299202,
+      "sha256": "5433b641648aaaa70a02f4ddd0eac8d15a5c01aaa70ec823d9512e761073468b"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/mard-aren.webp",
+      "filename": "mard-aren.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 227238,
+      "sha256": "4d2a3c28ee1106ed9445b72ec2b4f7d35b1ed5c476672a8a6f693abd69fe6387"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/maruva.webp",
+      "filename": "maruva.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 258142,
+      "sha256": "5c8189b11656101cb98110594d1a1854861cd5dda0d7d0875ad36002b56b6bb1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/nhal.webp",
+      "filename": "nhal.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 299976,
+      "sha256": "08810e4b87de2e47ed6f145e39abb6f54a0d750c89b9625523a75cfe161458f4"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/nyn-harad.webp",
+      "filename": "nyn-harad.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 264526,
+      "sha256": "0fe219703309a76b87afb907e8cb925fe791e05220c67cf8538ea5c69d1a7fa6"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/passagem-lendros.webp",
+      "filename": "passagem-lendros.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 324400,
+      "sha256": "bc8faa295eaef2937e8dc80ff305b77c025f342cb05a83091c11eb10a946d463"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/porto-salmora.webp",
+      "filename": "porto-salmora.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 273232,
+      "sha256": "065a63acd6b1286795867c1f92405aaddb8a04503df348c2726c09eded14bf7a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/seykar.webp",
+      "filename": "seykar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 312154,
+      "sha256": "765dd95a46b8701d063fae54ea01672b7bd92aaf2293bd5a1938d8ee5f05b7ba"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/valenor.webp",
+      "filename": "valenor.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 336808,
+      "sha256": "59f25ebbe1ece73eeee83d50bb3cefff277ee143d792cda6dba4b30951978624"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/varkhama.webp",
+      "filename": "varkhama.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 261838,
+      "sha256": "bf4dc169e59928791658e7d5bdd4d85ef141df55a51f83bdfed70b03ebaf163e"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/vessar.webp",
+      "filename": "vessar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 327324,
+      "sha256": "b2bfa8229d1f58262fddcdee5ca0ab8d413c7a5e400ab592ce6bd64415e69035"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/places/veyl-sar.webp",
+      "filename": "veyl-sar.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/places",
+      "extension": ".webp",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 343290,
+      "sha256": "1306d7f79794a79853faf50890b44f1e67fe928512bac23b80e1ab46511f3d65"
+    },
+    {
+      "path": "assets/branding/dinastia-polar/logo-white.webp",
+      "filename": "logo-white.webp",
+      "category": "branding/dinastia-polar",
+      "extension": ".webp",
+      "width": 1978,
+      "height": 818,
+      "sizeBytes": 45322,
+      "sha256": "094f46cc2968a1e14d7fb154827eb1c404ca330709bfca02a2bdb4f9c2a0c977"
     }
   ]
 }

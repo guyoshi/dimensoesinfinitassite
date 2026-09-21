@@ -680,14 +680,14 @@ function renderDynasty(slug) {
     state.loreKind = actualKind;
     const [title, subtitle, iconName] = loreKindInfo(actualKind);
     const items = [...(D.lore[actualKind] || [])].sort((a,b)=>a.name.localeCompare(b.name,"pt-BR"));
-    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Lore", title, subtitle)}<div id="loreList">${items.length ? `<section class="lore-grid lore-stage11-grid">${items.map(item=>`<article class="lore-card lore-stage11-card has-image" data-route="lore-item/${actualKind}/${item.slug}"><div class="lore-image-placeholder">${icon(iconName)}</div><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.summary||"")}</p></article>`).join("")}</section>` : emptyPanel("Ainda sem itens registados", "Este catálogo de lore ainda está vazio, mas já está pronto para receber conteúdo.")}</div></div>`;
+    refs.main.innerHTML = `<div class="page-enter">${pageHeader("Lore", title, subtitle)}<div id="loreList">${items.length ? `<section class="lore-grid lore-stage11-grid">${items.map(item=>`<article class="lore-card lore-stage11-card has-image" data-route="lore-item/${actualKind}/${item.slug}">${item.image?`<img class="lore-card-image" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}" loading="lazy">`:`<div class="lore-image-placeholder">${icon(iconName)}</div>`}<h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.summary||"")}</p></article>`).join("")}</section>` : emptyPanel("Ainda sem itens registados", "Este catálogo de lore ainda está vazio, mas já está pronto para receber conteúdo.")}</div></div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:title}]);
   }
 
   function renderLoreItem(kind, slug) {
     const item = getLoreItem(kind, slug); if (!item) return renderNotFound();
     const [title] = loreKindInfo(kind);
-    refs.main.innerHTML = `<div class="page-enter">${pageHeader(title, item.name, item.type||"")}<article class="parchment-panel lore-detail"><p class="lore-lead">${linkifyText(item.summary||"")}</p></article></div>`;
+    refs.main.innerHTML = `<div class="page-enter">${pageHeader(title, item.name, item.type||"")}<article class="parchment-panel lore-detail">${item.image?`<img class="lore-detail-image" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}">`:""}<p class="lore-lead">${linkifyText(item.summary||"")}</p></article></div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:title,route:kind==="concepts"?"lore":kind},{label:item.name}]);
   }
 

@@ -155,7 +155,18 @@
     'jesed-dp-place-veyl-sar': 'veyl-sar.webp',
     'jesed-dp-place-valenor': 'valenor.webp',
     'jesed-dp-place-varkhama': 'varkhama.webp',
-    'jesed-dp-place-vessar': 'vessar.webp'
+    'jesed-dp-place-vessar': 'vessar.webp',
+    'jesed-dp-place-caminho-permanencia': 'caminho-da-permanencia.webp',
+    'jesed-dp-place-casa-balanca': 'casa-da-balanca.webp',
+    'jesed-dp-place-casa-bandeiras-fechadas': 'casa-das-bandeiras-fechadas.webp',
+    'jesed-dp-place-casa-ferro-baixo': 'casa-do-ferro-baixo.webp',
+    'jesed-dp-place-garganta-kaendar': 'garganta-de-kaendar.webp',
+    'jesed-dp-place-olho-kaeliran': 'olho-de-kaeliran.webp',
+    'jesed-dp-place-patio-namar': 'patio-de-namar.webp',
+    'jesed-dp-place-propriedade-dareth': 'propriedade-rural-de-dareth.webp',
+    'jesed-dp-place-salinas-arvessa': 'salinas-de-arvessa.webp',
+    'jesed-dp-place-santuario-raiz-eterna': 'santuario-da-raiz-eterna.webp',
+    'jesed-dp-place-urtar-vesh': 'urtar-vesh.webp'
   };
   for (const place of places) {
     if (images[place.id]) place.image = IMG + images[place.id];
