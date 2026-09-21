@@ -41,9 +41,9 @@ window.DI_DATA = {
     },
     {
       "id": "herdeiros-das-cinzas", "order": 4, "name": "Herdeiros das Cinzas", "status": "locked", "icon": "embers",
-      "visual": "Cinza fria, brasas discretas, ruínas partidas e marcas de sobrevivência.",
-      "palette": ["#393a3b", "#826c58", "#a54b37"],
-      "cover": null
+      "visual": "Cinza azulada, neve suja, ruínas partidas e aurora fria sobre um mundo em silêncio.",
+      "palette": ["#2c3745", "#8fa3b8", "#e6ebf0"],
+      "cover": "assets/books/ciclo-de-jesed/herdeiros-das-cinzas/cover.webp"
     },
     {
       "id": "coracao-de-poeira", "order": 5, "name": "Coração de Poeira", "status": "locked", "icon": "hourglass",

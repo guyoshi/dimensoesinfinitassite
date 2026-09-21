@@ -1,65 +1,153 @@
-/* Herdeiros das Cinzas — atmosfera (cinzas a cair, brasas, sombras frias) */
-body[data-book="herdeiros-das-cinzas"]{--hc-effect-opacity:.88}
+/* Herdeiros das Cinzas — atmosfera (cinzas a cair, fumaça de cinzas, sombras lentas) */
+body[data-book="herdeiros-das-cinzas"]{--hc-effect-opacity:.92}
 
-#hcAshCanvas,#hcAshCanvasFront{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;opacity:var(--hc-effect-opacity)}
-#hcAshCanvas{z-index:2}
-#hcAshCanvasFront{z-index:40}
+#hcDustCanvas,#hcDustCanvasFront{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;opacity:var(--hc-effect-opacity)}
+#hcDustCanvas{z-index:2}
+#hcDustCanvasFront{z-index:40}
 body[data-book="herdeiros-das-cinzas"] .particle-layer{display:none!important}
 
-/* Sombras frias: gradiente de cinza que se desloca lentamente */
+/* Sombras lentas: um único gradiente que se desloca muito devagar. */
 body[data-book="herdeiros-das-cinzas"]::before{
   content:"";position:fixed;inset:-10%;z-index:1;pointer-events:none;
-  background:radial-gradient(46% 38% at 22% 16%, rgba(0,0,0,.38), transparent 60%),
-             radial-gradient(50% 42% at 80% 80%, rgba(165,75,55,.08), transparent 62%);
-  opacity:calc(.65 * var(--hc-effect-opacity));
-  animation:hcShadowDrift 100s ease-in-out infinite alternate;
+  background:radial-gradient(46% 38% at 20% 18%, rgba(44,55,69,.10), transparent 60%),
+             radial-gradient(50% 42% at 82% 78%, rgba(44,55,69,.08), transparent 62%);
+  opacity:calc(.6 * var(--hc-effect-opacity));
+  animation:hcShadowDrift 90s ease-in-out infinite alternate;
 }
 body[data-book="herdeiros-das-cinzas"].hc-no-shadow-drift::before{display:none}
 @keyframes hcShadowDrift{
   0%{transform:translate(0,0)}
-  50%{transform:translate(3%,2%)}
-  100%{transform:translate(-2%,-3%)}
+  50%{transform:translate(4%,3%)}
+  100%{transform:translate(-3%,-2%)}
 }
 
-/* Brasas distantes: pontos quentes que acendem e apagam devagar */
-#hcEmberLights{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden}
-#hcEmberLights span{
-  position:absolute;width:var(--hc-light-size,2px);height:var(--hc-light-size,2px);
-  border-radius:50%;background:#cf7355;
-  box-shadow:0 0 6px 2px rgba(207,115,85,.5);
-  opacity:0;
-  animation:hcEmberFlicker var(--hc-light-duration,11s) ease-in-out infinite;
-  animation-delay:var(--hc-light-delay,0s);
+/* Fumaça de cinzas: massas de fumo cinzento-azulado que sobem e derivam devagar. */
+#hcSmoke{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden;opacity:calc(.55 * var(--hc-effect-opacity))}
+#hcSmoke .hc-puff{
+  position:absolute;bottom:-25vh;left:var(--x,20%);width:var(--s,46vw);height:var(--s,46vw);
+  border-radius:50%;
+  background:radial-gradient(closest-side,rgba(96,112,130,var(--a,.30)),rgba(96,112,130,0) 72%);
+  filter:blur(28px);opacity:0;
+  animation:hcPuffRise var(--d,70s) linear infinite;animation-delay:var(--dl,0s);
+  will-change:transform,opacity;
 }
-@keyframes hcEmberFlicker{0%,100%{opacity:0}8%{opacity:.04}40%{opacity:.6}60%{opacity:.5}92%{opacity:.04}}
-
-/* Fumo frio de ruínas */
-#hcSmoke{position:fixed;inset:auto 0 0 0;height:42vh;z-index:1;pointer-events:none;opacity:.12;overflow:hidden}
-#hcSmoke::before,#hcSmoke::after{
-  content:"";position:absolute;width:60vw;height:100%;left:-65vw;
-  background:radial-gradient(ellipse at center, rgba(160,155,150,.20), transparent 72%);
-  filter:blur(24px);animation:hcSmokeDrift 150s linear infinite;
+@keyframes hcPuffRise{
+  0%{opacity:0;transform:translate3d(0,0,0) scale(.8)}
+  15%{opacity:1}
+  70%{opacity:.8}
+  100%{opacity:0;transform:translate3d(var(--dx,12vw),-120vh,0) scale(1.5)}
 }
-#hcSmoke::after{top:8%;animation-duration:195s;animation-delay:-70s;opacity:.6}
-@keyframes hcSmokeDrift{to{transform:translateX(180vw)}}
+body.hc-no-smoke #hcSmoke{display:none}
 
-/* Modo contemplativo */
-.hc-contemplative{background:#0a0908}
-.hc-contemplative .contemplative-scene{background:radial-gradient(120% 90% at 50% 20%, #1c1a19 0%, #0c0b0a 60%, #070605 100%)}
+/* Reflexos automáticos sobre inscrições douradas (logótipo e títulos). */
+.hc-home-logo,.hc-home-title,.page-header h1{position:relative}
+body:not(.hc-no-glints) .hc-home-logo::after,
+body:not(.hc-no-glints) .hc-home-title::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(100deg,transparent 40%,rgba(255,255,255,.4) 50%,transparent 60%);
+  background-size:220% 100%;background-position:140% 0;
+  animation:hcAutoGlint 11s ease-in-out infinite;
+  pointer-events:none;
+}
+@keyframes hcAutoGlint{0%,72%{background-position:140% 0}88%{background-position:-40% 0}100%{background-position:-40% 0}}
+
+/* Modo contemplativo. */
+.hc-contemplative{background:#0d1219}
+.hc-contemplative .contemplative-scene{background:radial-gradient(120% 90% at 50% 20%, #2c3745 0%, #161d27 60%, #0b1016 100%)}
+.hc-contemplative-backdrop{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42;filter:saturate(.8) blur(1px)}
+.hc-contemplative .contemplative-scene{overflow:hidden}
 .hc-contemplative canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
-.hc-contemplative .contemplative-caption{color:var(--hc-bone,#d4c4b8)}
+.hc-contemplative .contemplative-caption{color:#dfe6ee}
 
-/* Modo Desempenho */
-.performance-mode #hcAshCanvas,
-.performance-mode #hcAshCanvasFront,
-.performance-mode #hcEmberLights,
+/* Modo Desempenho: tudo estático, ouro como cor sólida, sem brilho. */
+.performance-mode #hcDustCanvas,
+.performance-mode #hcDustCanvasFront,
 .performance-mode #hcSmoke,
-.no-particles #hcAshCanvas,
-.no-particles #hcAshCanvasFront{display:none!important}
-.performance-mode #hcEmberLights span{animation:none;opacity:.2}
+.no-particles #hcDustCanvas,
+.no-particles #hcDustCanvasFront{display:none!important}
+.performance-mode .hc-home-logo::after,
+.performance-mode .hc-home-title::after{display:none}
+.performance-mode #hcSmoke{display:none}
+
+/* Organizações e famílias: membros compactos, retratos uniformes e fallback limpo. */
+body[data-book="herdeiros-das-cinzas"] .social-member-row{
+  align-items:flex-start;
+  gap:12px;
+}
+body[data-book="herdeiros-das-cinzas"] .social-member{
+  box-sizing:border-box;
+  flex:0 1 160px;
+  width:160px;
+  min-width:132px;
+  max-width:180px;
+  min-height:142px;
+  align-content:start;
+  justify-items:center;
+  gap:9px;
+  padding:12px 10px;
+  text-align:center;
+  overflow:hidden;
+}
+body[data-book="herdeiros-das-cinzas"] .social-member img{
+  display:block;
+  width:72px;
+  height:72px;
+  min-width:72px;
+  min-height:72px;
+  aspect-ratio:1;
+  object-fit:cover;
+  object-position:center top;
+  border-radius:50%;
+  flex:none;
+}
+body[data-book="herdeiros-das-cinzas"] .social-member>.mini-icon{
+  display:grid;
+  place-items:center;
+  width:72px;
+  height:72px;
+  min-width:72px;
+  min-height:72px;
+  border-radius:50%;
+  background:color-mix(in srgb,var(--di-accent) 14%,rgba(35,44,56,.04));
+  border:2px solid color-mix(in srgb,var(--di-accent) 50%,transparent);
+  color:var(--di-accent);
+  flex:none;
+}
+body[data-book="herdeiros-das-cinzas"] .social-member>.mini-icon svg{
+  width:30px;
+  height:30px;
+  fill:none!important;
+  stroke:currentColor!important;
+  stroke-width:1.8;
+}
+body[data-book="herdeiros-das-cinzas"] .social-member>span:last-child{
+  display:block;
+  width:100%;
+  line-height:1.22;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+body[data-book="herdeiros-das-cinzas"] .social-member>span:last-child small{
+  display:block;
+  margin-top:5px;
+  color:var(--di-muted);
+  font-size:.68rem;
+  font-weight:500;
+  line-height:1.28;
+}
+body[data-book="herdeiros-das-cinzas"] button.social-member{
+  font:inherit;
+}
+@media(max-width:620px){
+  body[data-book="herdeiros-das-cinzas"] .social-member{
+    flex-basis:145px;
+    width:145px;
+    min-width:120px;
+  }
+}
 
 @media(prefers-reduced-motion:reduce){
   body[data-book="herdeiros-das-cinzas"]::before{animation:none}
-  #hcEmberLights span{animation:none;opacity:.25}
-  #hcSmoke::before,#hcSmoke::after{animation:none}
+  #hcSmoke .hc-puff{animation:none;opacity:.5}
+  .hc-home-logo::after,.hc-home-title::after{animation:none}
 }

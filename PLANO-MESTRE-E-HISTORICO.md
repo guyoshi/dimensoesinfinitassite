@@ -2460,6 +2460,17 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - IDs existentes preservados; nenhum ID canônico foi renomeado.
 - Novo módulo `social.js` carregado antes de `index.js`; cache do Livro 3 atualizado para `20260914a`.
 
+### 2026-09-21 — Herdeiros das Cinzas (Livro IV): estrutura base do site, tema e capa
+
+- Estrutura clonada de Dinastia Polar (mesma arquitectura das demais): `herdeiros-das-cinzas.html`, `app/sagas/ciclo-de-jesed/books/herdeiros-das-cinzas/` (`app.js`, `styles.css`, `chapter-rich.{js,css}`, `experience/{experience.js,styles.css,fixes.css,relations-fix.css}`) e `data/sagas/ciclo-de-jesed/books/herdeiros-das-cinzas/` (`runtime, book, chapters, characters, dynasties, timeline, relationships, social, places, maps, mysteries, themes, concepts, fauna, flora, foods, gallery, index`).
+- Todas as páginas existem e abrem: Início, Livros, Personagens, Relações, Famílias, Organizações, Dinastias, Lugares, Mapa, Linha do Tempo, Capítulos, Mistérios, Temas, Lore (Fauna, Flora, Comidas, Conceitos), Galeria, Configurações, busca e modo contemplativo. Os módulos de dados estão **vazios de propósito** (apenas comentários com o formato dos campos); nenhum conteúdo foi inventado. Estado do livro: "Em preparação · 0 capítulos".
+- Capa: `assets/books/ciclo-de-jesed/herdeiros-das-cinzas/cover.webp` (capa com logo) e `cover-clean.webp` (sem logo, usada como fundo do herói e do modo contemplativo). Aparece no herói do Início, na galeria, no seletor de livros, na página "Livros" e no portal; `cover` do Livro 4 actualizado em `app/portal/data.js`, `runtime.js` de Dinastia Polar / Guerras de Sangue / Coração de Poeira e `base.js` de Ruínas dos Céus. Paleta do livro passou a `#2c3745 / #8fa3b8 / #e6ebf0`.
+- Tema: cinza azulado quase neve (claro), aurora fria (`#3f8fa8`) como cor de selecção, brasa apagada como acento raro; herói escuro sobre a capa. Tokens `--hc-*` em `styles.css` e bloco `body[data-book="herdeiros-das-cinzas"]` em `visual-system/standard.css` (agora `color-scheme:light`).
+- Partículas: cinzas a cair (flocos irregulares com balanço e rotação, duas camadas) e fumaça de cinzas (massas difusas a subir); definições em Configurações (`di-cinzas-*`), modo desempenho / sem partículas / dispositivo fraco respeitados.
+- Navegação: portal e Dinastia Polar passam a ligar a `herdeiros-das-cinzas.html`; Herdeiros liga aos outros livros.
+- Correcção incluída: base do `.transition-veil` (o véu ficava no fluxo e empurrava o layout ~27 px) resolvida apenas no CSS de Herdeiros; o mesmo defeito existe em Dinastia Polar e não foi alterado.
+- Pendências: `clans.js` (stub antigo) deixou de ser carregado mas continua no disco (sem ferramenta de exclusão); logótipo opcional em `assets/branding/herdeiros-das-cinzas/logo-white.webp` (hoje há fallback em texto); `npm run validate` / `npm run audit` e o manifesto de assets não foram executados/actualizados; seletores de livro de Ruínas e Guerras ainda não linkam Herdeiros (o portal e Dinastia Polar sim). Nenhum push no GitHub.
+
 ### 2026-09-21 — Dinastia Polar: Capítulo 37 (final), imagens 6–23 e 37, e livro marcado como concluído
 
 - O autor enviou o manuscrito final do Livro 3 (git pull na pasta do manuscrito), acrescentando o Capítulo 37 — "Antes da Noite", que encerra explicitamente a narrativa ("A Dinastia Polar terminava ali.").

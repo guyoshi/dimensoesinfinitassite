@@ -1,28 +1,38 @@
-/* Herdeiros das Cinzas — tema estrutural (cinza fria + brasa discreta + osso).
-   Azul reservado a seleções; brasa/cinza são a identidade visual. */
+/* Herdeiros das Cinzas — tema: cinza azulado quase neve (claro), aurora fria como selecção,
+   brasa apagada como acento discreto. A capa (azul-noite + neve suja) dá a referência. */
 body[data-book="herdeiros-das-cinzas"]{
-  --hc-bg-deepest:#0c0b0a;
-  --hc-ash:#1c1a19;
-  --hc-ash-elevated:#252221;
-  --hc-ash-bright:#312d2c;
-  --hc-ember:#a54b37;
-  --hc-ember-bright:#cf7355;
-  --hc-bone:#d4c4b8;
-  --hc-text-secondary:#8a8078;
-  --hc-soot:#4a3f3a;
-  --hc-select:#7eb8d4;
-  --hc-select-strong:#3a6880;
-  --hc-select-soft:rgba(126,184,212,.18);
-  --hc-effect-opacity:.88;
+  --hc-bg-deepest:#dbe2ea;
+  --hc-stone:#e4e9ef;
+  --hc-stone-elevated:#eef1f5;
+  --hc-stone-bright:#f6f8fa;
+  --hc-gold:#56708c;
+  --hc-gold-bright:#3a536e;
+  --hc-ivory:#232c38;
+  --hc-text-secondary:#566373;
+  --hc-crack:#b3bfcc;
+  --hc-red:#8a4a3a;
+  --hc-ember:#a4623f;
+  --hc-slate:#2c3745;
+  --hc-slate-deep:#1d2531;
+  --hc-select:#3f8fa8;
+  --hc-select-strong:#2f6f86;
+  --hc-select-soft:rgba(63,143,168,.16);
+  --hc-effect-opacity:.9;
+  --hc-ring-opacity:0;
+  --hc-menu-emblem-opacity:0;
   background:var(--hc-bg-deepest);
 }
 
-/* ===== Estrutura base do shell ===== */
+/* ===== Estrutura base do shell (sidebar/topbar/modais) =====
+   O design system partilhado (visual-system/standard.css) só define esta
+   camada estrutural para body[data-book="guerras-de-sangue"]; cada livro
+   precisa da sua própria cópia (Ruínas dos Céus também tem a sua, no
+   próprio main.css). Sem isto a página fica sem layout nenhum. */
 body[data-book="herdeiros-das-cinzas"] .app-shell{min-height:100vh}
 body[data-book="herdeiros-das-cinzas"] .sidebar{
   position:fixed;inset:0 auto 0 0;width:var(--di-sidebar-width);z-index:60;
   display:flex;flex-direction:column;color:var(--di-text);
-  background-color:var(--hc-ash);backdrop-filter:blur(14px);
+  background-color:var(--hc-stone);backdrop-filter:blur(14px);
   transition:width .22s ease,transform .22s ease;
 }
 body[data-book="herdeiros-das-cinzas"] .sidebar-brand{
@@ -35,7 +45,7 @@ body[data-book="herdeiros-das-cinzas"] .brand-button{
 }
 body[data-book="herdeiros-das-cinzas"] .brand-sigil{
   width:40px;height:40px;flex:0 0 40px;display:grid;place-items:center;border-radius:50%;
-  border:1px solid var(--di-border-strong);background:rgba(255,255,255,.04);
+  border:1px solid var(--di-border-strong);background:rgba(35,44,56,.05);
 }
 body[data-book="herdeiros-das-cinzas"] .brand-copy{display:flex;flex-direction:column;min-width:0}
 body[data-book="herdeiros-das-cinzas"] .brand-copy strong{font-size:1.02rem;white-space:nowrap;color:var(--di-heading)}
@@ -64,71 +74,229 @@ body[data-book="herdeiros-das-cinzas"] .status-dot{width:7px;height:7px;border-r
 body[data-book="herdeiros-das-cinzas"] .workspace{margin-left:var(--di-sidebar-width);min-height:100vh;transition:margin-left .22s ease}
 body[data-book="herdeiros-das-cinzas"] .topbar{
   position:sticky;top:0;z-index:50;color:var(--di-text);
-  background:color-mix(in srgb,var(--hc-ash) 88%,transparent);border-bottom:1px solid var(--di-border);
+  background:color-mix(in srgb,var(--hc-stone) 88%,transparent);border-bottom:1px solid var(--di-border);
   backdrop-filter:blur(15px);
 }
 body[data-book="herdeiros-das-cinzas"] .topbar-main{min-height:64px;display:flex;align-items:center;padding:0 22px}
 body[data-book="herdeiros-das-cinzas"] .topbar-actions{width:100%;display:flex;align-items:center;gap:8px;min-width:0}
-body[data-book="herdeiros-das-cinzas"] .topbar-path{min-height:30px;display:flex;align-items:center;padding:4px 22px;border-top:1px solid var(--di-border);font-size:.77rem;color:var(--di-muted);background:rgba(255,255,255,.015)}
+body[data-book="herdeiros-das-cinzas"] .topbar-path{min-height:30px;display:flex;align-items:center;padding:4px 22px;border-top:1px solid var(--di-border);font-size:.77rem;color:var(--di-muted);background:rgba(35,44,56,.03)}
 body[data-book="herdeiros-das-cinzas"] .breadcrumbs{display:flex;align-items:center;gap:7px;min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-body[data-book="herdeiros-das-cinzas"] .main-content{padding:28px 32px 60px;max-width:1160px}
-body[data-book="herdeiros-das-cinzas"] .modal{
-  position:fixed;inset:0;z-index:100;display:grid;place-items:center;
-  background:rgba(0,0,0,.55);backdrop-filter:blur(6px);
+body[data-book="herdeiros-das-cinzas"] .breadcrumbs button{border:0;background:none;color:inherit;padding:0;cursor:pointer}
+body[data-book="herdeiros-das-cinzas"] .icon-button{
+  width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:50%;
+  border:1px solid var(--di-border);background:rgba(255,255,255,.55);color:var(--di-text);cursor:pointer;
+  transition:var(--di-transition);
 }
-body[data-book="herdeiros-das-cinzas"] .drawer{
-  position:fixed;inset:0;z-index:100;
+body[data-book="herdeiros-das-cinzas"] .icon-button:hover{background:color-mix(in srgb,var(--di-accent) 10%,transparent);border-color:var(--di-border-strong)}
+body[data-book="herdeiros-das-cinzas"] .selector-button,
+body[data-book="herdeiros-das-cinzas"] .search-trigger{
+  min-height:38px;display:flex;align-items:center;gap:8px;padding:7px 13px;border-radius:999px;
+  border:1px solid var(--di-border);background:rgba(255,255,255,.55);color:var(--di-text);cursor:pointer;
 }
-body[data-book="herdeiros-das-cinzas"] .exit-link{
-  font-size:.74rem;color:var(--di-muted);text-decoration:none;opacity:.72;
-}
-body[data-book="herdeiros-das-cinzas"] .exit-link:hover{opacity:1;color:var(--di-text)}
+body[data-book="herdeiros-das-cinzas"] .search-trigger{min-width:180px}
+body[data-book="herdeiros-das-cinzas"] .search-trigger kbd{margin-left:auto;padding:1px 6px;border:1px solid var(--di-border);border-radius:6px;font-size:.68rem;opacity:.7}
+body[data-book="herdeiros-das-cinzas"] .main-content{width:min(100%,var(--di-content-max));margin:0 auto;padding:30px 28px 72px;position:relative;z-index:3}
+body[data-book="herdeiros-das-cinzas"] .mobile-only{display:none!important}
+body[data-book="herdeiros-das-cinzas"] .modal,
+body[data-book="herdeiros-das-cinzas"] .drawer{position:fixed;inset:0;z-index:300;display:none}
+body[data-book="herdeiros-das-cinzas"] .modal.open,
+body[data-book="herdeiros-das-cinzas"] .drawer.open{display:block}
+body[data-book="herdeiros-das-cinzas"] .modal-backdrop,
+body[data-book="herdeiros-das-cinzas"] .drawer-backdrop{position:absolute;inset:0;background:rgba(35,44,56,.42);backdrop-filter:blur(4px)}
+body[data-book="herdeiros-das-cinzas"] .modal-panel{position:relative;z-index:2;width:min(680px,calc(100% - 28px));margin:60px auto;padding:16px;border:1px solid var(--di-border-strong);border-radius:18px;background:var(--hc-stone-elevated);color:var(--di-text);box-shadow:0 26px 80px rgba(35,50,70,.22)}
+body[data-book="herdeiros-das-cinzas"] .drawer-panel{position:absolute;z-index:2;right:0;top:0;width:min(390px,100%);height:100%;overflow:auto;padding:20px;background:var(--hc-stone-elevated);color:var(--di-text);box-shadow:-20px 0 50px rgba(35,50,70,.22)}
+body[data-book="herdeiros-das-cinzas"] .drawer-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+body[data-book="herdeiros-das-cinzas"] .search-box-large{display:flex;align-items:center;gap:10px;padding:0 12px;border:1px solid var(--di-border);border-radius:12px;background:var(--hc-stone)}
+body[data-book="herdeiros-das-cinzas"] .search-box-large input{min-width:0;flex:1;height:48px;border:0;outline:0;background:transparent;color:var(--di-text)}
+body[data-book="herdeiros-das-cinzas"] .search-results{max-height:62vh;overflow:auto;margin-top:8px}
+body[data-book="herdeiros-das-cinzas"] .search-result-item{width:100%;display:flex;flex-direction:column;gap:2px;padding:9px;border:0;border-radius:10px;background:transparent;color:inherit;text-align:left;cursor:pointer}
+body[data-book="herdeiros-das-cinzas"] .search-result-item:hover{background:color-mix(in srgb,var(--di-accent) 8%,transparent)}
+body[data-book="herdeiros-das-cinzas"] .sidebar.collapsed{width:var(--di-sidebar-compact)}
+body[data-book="herdeiros-das-cinzas"] .sidebar.collapsed+.workspace{margin-left:var(--di-sidebar-compact)}
 
-/* App shell background */
+@media(max-width:860px){
+  body[data-book="herdeiros-das-cinzas"] .sidebar{transform:translateX(-100%);width:var(--di-sidebar-width)!important}
+  body[data-book="herdeiros-das-cinzas"] .sidebar.mobile-open{transform:none}
+  body[data-book="herdeiros-das-cinzas"] .workspace,
+  body[data-book="herdeiros-das-cinzas"] .sidebar.collapsed+.workspace{margin-left:0}
+  body[data-book="herdeiros-das-cinzas"] .mobile-only{display:grid!important}
+  body[data-book="herdeiros-das-cinzas"] .sidebar-toggle{display:none}
+}
+@media(max-width:680px){
+  body[data-book="herdeiros-das-cinzas"] .topbar-main,
+  body[data-book="herdeiros-das-cinzas"] .topbar-path{padding-inline:12px}
+  body[data-book="herdeiros-das-cinzas"] .main-content{padding:22px 14px 64px}
+}
+
 body[data-book="herdeiros-das-cinzas"] .app-shell{
   background:
-    radial-gradient(ellipse 70% 60% at 15% 20%, rgba(165,75,55,.06), transparent 58%),
-    radial-gradient(ellipse 55% 50% at 85% 80%, rgba(130,108,88,.05), transparent 62%),
-    var(--hc-bg-deepest);
+    radial-gradient(circle at 80% -10%, rgba(255,255,255,.7), transparent 34rem),
+    radial-gradient(circle at 10% 65%, color-mix(in srgb, var(--hc-select) 9%, transparent), transparent 38rem),
+    linear-gradient(160deg, var(--hc-stone-bright) 0%, var(--hc-bg-deepest) 70%);
+  background-attachment:fixed;
+}
+body[data-book="herdeiros-das-cinzas"] .workspace{background:transparent}
+
+/* Barra lateral: pedra e bronze queimado em camadas — sem mapa nem couro, apenas profundidade e anéis gravados. */
+body[data-book="herdeiros-das-cinzas"] .sidebar{
+  overflow:visible;
+  background:
+    radial-gradient(140% 90% at 0% 0%, rgba(255,255,255,.55), transparent 60%),
+    linear-gradient(180deg, var(--hc-stone) 0%, #d3dbe4 100%);
+  border-right:1px solid var(--di-border);
+}
+body[data-book="herdeiros-das-cinzas"] .sidebar-brand,
+body[data-book="herdeiros-das-cinzas"] .sidebar-nav,
+body[data-book="herdeiros-das-cinzas"] .sidebar-footer{position:relative;z-index:2}
+
+/* Selo de selecção: o indicador de item activo fecha como um anel azul — o
+   ouro fica para a grandeza institucional, o azul marca "isto está seleccionado". */
+body[data-book="herdeiros-das-cinzas"] .nav-item{position:relative}
+body[data-book="herdeiros-das-cinzas"] .nav-item.active{position:relative}
+body[data-book="herdeiros-das-cinzas"] .nav-item.active::before{
+  content:"";position:absolute;left:8px;top:50%;width:7px;height:7px;
+  margin-top:-3.5px;border-radius:50%;border:2px solid var(--hc-select);
+  box-shadow:0 0 8px color-mix(in srgb,var(--hc-select) 55%,transparent);
+  animation:hcSealClose .5s ease-out;
+}
+@keyframes hcSealClose{from{transform:scale(2.4);opacity:0}to{transform:scale(1);opacity:1}}
+
+/* Cartões institucionais e botões: ouro fosco, sem brilho de luxo. */
+body[data-book="herdeiros-das-cinzas"] .quick-card,
+body[data-book="herdeiros-das-cinzas"] .metric-card,
+body[data-book="herdeiros-das-cinzas"] .dark-panel,
+body[data-book="herdeiros-das-cinzas"] .parchment-panel{
+  position:relative;border-color:var(--di-border);
+}
+body[data-book="herdeiros-das-cinzas"] .quick-card::after{
+  content:"";position:absolute;inset:5px;border:1px solid rgba(86,112,140,.16);
+  border-radius:inherit;pointer-events:none;
+}
+body[data-book="herdeiros-das-cinzas"] .quick-card,
+body[data-book="herdeiros-das-cinzas"] .primary-button{overflow:hidden}
+body[data-book="herdeiros-das-cinzas"] .quick-card::before,
+body[data-book="herdeiros-das-cinzas"] .primary-button::before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(100deg,transparent 38%,rgba(255,255,255,.55) 49%,transparent 60%);
+  transform:translateX(-130%);pointer-events:none;
+}
+body[data-book="herdeiros-das-cinzas"] .quick-card:hover::before,
+body[data-book="herdeiros-das-cinzas"] .primary-button:hover::before{
+  animation:hcGoldGlint .7s ease-out;
+}
+@keyframes hcGoldGlint{to{transform:translateX(130%)}}
+
+/* Painéis "assentam" em vez de flutuar: entrada mais pesada e contida. */
+body[data-book="herdeiros-das-cinzas"] .page-enter{
+  animation:hcSettle .56s cubic-bezier(.22,.7,.2,1) both;
+}
+@keyframes hcSettle{
+  from{opacity:0;transform:translateY(10px) scale(.992)}
+  60%{opacity:1}
+  to{opacity:1;transform:translateY(0) scale(1)}
 }
 
-/* Sidebar decorativa */
-body[data-book="herdeiros-das-cinzas"] .sidebar::before{
-  content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;
-  background:radial-gradient(ellipse 140% 60% at 50% 0%, rgba(165,75,55,.09), transparent 55%);
-  z-index:0;
+/* Transição entre páginas: véu de neblina cinzenta. */
+body[data-book="herdeiros-das-cinzas"] .transition-veil{position:fixed;inset:0;z-index:90;pointer-events:none}
+body[data-book="herdeiros-das-cinzas"] .transition-veil .veil-mark{display:none}
+body[data-book="herdeiros-das-cinzas"] .transition-veil:not(.active)::before{display:none}
+body[data-book="herdeiros-das-cinzas"] .main-content:focus{outline:none}
+body[data-book="herdeiros-das-cinzas"] .transition-veil.active::before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--di-accent) 22%,transparent) 32%,rgba(233,237,242,.95) 50%,color-mix(in srgb,var(--di-accent) 22%,transparent) 68%,transparent);
+  animation:hcVeilSweep 620ms ease-in-out both;
 }
-body[data-book="herdeiros-das-cinzas"] .sidebar::after{
-  content:"";position:absolute;top:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(165,75,55,.4),transparent);
+@keyframes hcVeilSweep{from{transform:translateX(-110%)}to{transform:translateX(110%)}}
+
+/* Botão de seleção de livro / saga e topbar herdam a paleta automaticamente via --di-*. */
+body[data-book="herdeiros-das-cinzas"] .performance-mode #performanceToggle{
+  background:var(--green);color:#fff;border-color:#91bd86;box-shadow:0 0 0 2px rgba(145,189,134,.2);
 }
 
-/* Seleções activas — azul */
-body[data-book="herdeiros-das-cinzas"] .filter-chip.active,
-body[data-book="herdeiros-das-cinzas"] .character-view-button.active,
-body[data-book="herdeiros-das-cinzas"] .preset-button.active,
-body[data-book="herdeiros-das-cinzas"] .book-step.active,
-body[data-book="herdeiros-das-cinzas"] .switch.on,
-body[data-book="herdeiros-das-cinzas"] .timeline-entry-card.selected,
-body[data-book="herdeiros-das-cinzas"] [aria-current="true"],
-body[data-book="herdeiros-das-cinzas"] button:focus-visible{
-  --di-accent:var(--hc-select);
-  --di-accent-strong:var(--hc-select-strong);
-  outline-color:var(--hc-select);
+/* Modo Desempenho: ouro como cor sólida, sem brilho nem desfoque. */
+body[data-book="herdeiros-das-cinzas"].performance-mode .sidebar::before,
+body[data-book="herdeiros-das-cinzas"] .performance-mode .sidebar::before{opacity:.05}
+body[data-book="herdeiros-das-cinzas"] .no-motion .quick-card:hover::before,
+body[data-book="herdeiros-das-cinzas"] .no-motion .primary-button:hover::before{display:none}
+body[data-book="herdeiros-das-cinzas"] .no-motion .nav-item.active::before{animation:none}
+
+/* "Dinastias" reaproveita as classes .clan-* partilhadas, mas estas trazem
+   cores fixas em tom de couro de Guerras de Sangue — sobrepomos aqui para a
+   pedra azul-negra e o ouro envelhecido. */
+body[data-book="herdeiros-das-cinzas"]{--clan-color:var(--di-accent)}
+body[data-book="herdeiros-das-cinzas"] .clan-overview-card{background:var(--hc-stone-elevated);border-color:var(--di-border)}
+body[data-book="herdeiros-das-cinzas"] .clan-overview-card::before{
+  background:linear-gradient(180deg,rgba(238,241,245,.05),rgba(238,241,245,.6) 42%,rgba(238,241,245,.97) 88%),
+             linear-gradient(110deg,color-mix(in srgb,var(--di-accent) 24%,transparent),transparent 58%);
+}
+body[data-book="herdeiros-das-cinzas"] .clan-overview-copy>p{color:var(--di-text)}
+body[data-book="herdeiros-das-cinzas"] .clan-overview-type,
+body[data-book="herdeiros-das-cinzas"] .clan-overview-mark{color:var(--di-muted)}
+body[data-book="herdeiros-das-cinzas"] .clan-profile-card{background:linear-gradient(145deg,var(--hc-stone-elevated),var(--hc-stone));border-color:var(--di-border)}
+body[data-book="herdeiros-das-cinzas"] .clan-profile-card::before{background:var(--di-accent)}
+body[data-book="herdeiros-das-cinzas"] .clan-profile-card h2{color:var(--di-heading)}
+body[data-book="herdeiros-das-cinzas"] .clan-profile-card h2 svg{color:var(--di-accent)}
+body[data-book="herdeiros-das-cinzas"] .clan-profile-card p{color:var(--di-muted)}
+
+/* Azul como cor de selecção: filtros, alternâncias e perfis activos usam o
+   azul em vez do ouro, reservando o dourado para a identidade institucional. */
+body[data-book="herdeiros-das-cinzas"] :where(
+  .filter-chip.active,.filter-chip[aria-pressed="true"],
+  .character-view-button.active,.character-view-button[aria-pressed="true"],
+  .lore-view-button.active,.lore-view-button[aria-pressed="true"],
+  .di-gallery-filter.active,.preset-button.active,.book-step.active,
+  .search-mode-row .filter-chip.active
+){
+  background:var(--hc-select-strong)!important;
+  border-color:var(--hc-select)!important;
+  color:#fff!important;
+}
+body[data-book="herdeiros-das-cinzas"] .switch.on{background:var(--hc-select-strong);border-color:var(--hc-select)}
+body[data-book="herdeiros-das-cinzas"] .switch.on::after{background:#fff}
+body[data-book="herdeiros-das-cinzas"] .timeline-entry-card.selected{border-color:var(--hc-select)!important;box-shadow:0 0 0 2px var(--hc-select-soft)!important}
+body[data-book="herdeiros-das-cinzas"] .selector-card[aria-current="true"]{outline:2px solid var(--hc-select);outline-offset:2px}
+body[data-book="herdeiros-das-cinzas"] input:focus-visible,
+body[data-book="herdeiros-das-cinzas"] button:focus-visible,
+body[data-book="herdeiros-das-cinzas"] a:focus-visible{outline:2px solid var(--hc-select);outline-offset:2px}
+
+@media (prefers-reduced-motion:reduce){
+  body[data-book="herdeiros-das-cinzas"] .quick-card:hover::before,
+  body[data-book="herdeiros-das-cinzas"] .primary-button:hover::before,
+  body[data-book="herdeiros-das-cinzas"] .nav-item.active::before{animation:none!important}
+  body[data-book="herdeiros-das-cinzas"] .transition-veil.active::before{display:none}
 }
 
-/* Mobile */
-@media(max-width:860px){
-  body[data-book="herdeiros-das-cinzas"] .sidebar{transform:translateX(-100%)}
-  body[data-book="herdeiros-das-cinzas"] .sidebar.mobile-open{transform:none}
-  body[data-book="herdeiros-das-cinzas"] .workspace{margin-left:0}
-  body[data-book="herdeiros-das-cinzas"] .main-content{padding:20px 16px 48px}
+/* Retratos de personagens e ilustrações de lugares nas páginas de detalhe */
+body[data-book="herdeiros-das-cinzas"] .character-portrait,
+body[data-book="herdeiros-das-cinzas"] .place-illustration{
+  position:relative;
+  overflow:hidden;
+  border-radius:14px;
+  border:1px solid var(--hc-crack);
+  background:var(--hc-stone-elevated);
+  aspect-ratio:4/5;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+body[data-book="herdeiros-das-cinzas"] .character-portrait-image,
+body[data-book="herdeiros-das-cinzas"] .place-illustration-image{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+body[data-book="herdeiros-das-cinzas"] .character-portrait:not(.has-image) svg,
+body[data-book="herdeiros-das-cinzas"] .place-illustration:not(.has-image) svg{
+  width:38%;
+  height:38%;
+  opacity:.5;
+  color:var(--hc-gold);
 }
 
-/* Sidebar collapsed */
-body[data-book="herdeiros-das-cinzas"] .sidebar.collapsed{width:var(--di-sidebar-compact)}
-body[data-book="herdeiros-das-cinzas"] .sidebar.collapsed .brand-copy,
-body[data-book="herdeiros-das-cinzas"] .sidebar.collapsed .nav-label,
-body[data-book="herdeiros-das-cinzas"] .sidebar.collapsed .nav-group-title,
-body[data-book="herdeiros-das-cinzas"] .sidebar.collapsed .sidebar-footer{display:none}
-body[data-book="herdeiros-das-cinzas"] .sidebar.collapsed~.workspace{margin-left:var(--di-sidebar-compact)}
+/* Ícones de reserva (sem imagem): traço suave em vez do preenchimento preto por omissão do SVG. */
+body[data-book="herdeiros-das-cinzas"] :is(.character-browser-card-fallback,.place-card-fallback,.place-illustration:not(.has-image),.character-portrait:not(.has-image),.home-place-image:not(.has-image),.home-place-fallback,.relationship-avatar-fallback,.selector-cover-fallback,.book-cover-placeholder,.lore-image-placeholder) svg{
+  fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;
+}
+body[data-book="herdeiros-das-cinzas"] .character-browser-card-fallback{color:var(--hc-crack)}
+body[data-book="herdeiros-das-cinzas"] .character-browser-card-fallback svg{width:34%;height:auto}

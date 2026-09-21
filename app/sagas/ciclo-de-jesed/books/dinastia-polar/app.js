@@ -337,7 +337,7 @@
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"inicio"},{label:"Livros"}]);
   }
 
-  const externalBookLinks = { "ruinas-dos-ceus": "ruinas.html#/inicio", "guerras-de-sangue": "guerras.html#/dashboard" };
+  const externalBookLinks = { "ruinas-dos-ceus": "ruinas.html#/inicio", "guerras-de-sangue": "guerras.html#/dashboard", "herdeiros-das-cinzas": "herdeiros-das-cinzas.html#/inicio" };
   function renderBook(id) {
     const book = getBook(id) || getBook(BOOK_ID);
     const cover = bookCoverHtml(book, "");
@@ -793,11 +793,11 @@ function renderDynasty(slug) {
     const books = type === "books";
     const list = books ? D.books : D.sagas;
     const hrefFor = item => books
-      ? (item.id === "ruinas-dos-ceus" ? "ruinas.html#/inicio" : item.id === "guerras-de-sangue" ? "guerras.html#/dashboard" : item.id === BOOK_ID ? "" : "")
+      ? (item.id === "ruinas-dos-ceus" ? "ruinas.html#/inicio" : item.id === "guerras-de-sangue" ? "guerras.html#/dashboard" : item.id === "herdeiros-das-cinzas" ? "herdeiros-das-cinzas.html#/inicio" : item.id === BOOK_ID ? "" : "")
       : (item.id === "ciclo-de-jesed" ? "index.html#/books" : "");
     refs.selectorContent.innerHTML = `<div class="section-heading"><div><p class="eyebrow">${books ? "Livro" : "Dimensão"}</p><h2>${books ? "Escolher livro" : "Escolher saga"}</h2></div><button class="icon-button" data-action="close-selector">${icon("close")}</button></div><div class="selector-grid">${list.map(item => {
       const isCurrent = books && item.id === BOOK_ID;
-      const href = isCurrent ? "" : ((item.status === "active" || (books && item.id === BOOK_ID)) ? hrefFor(item) : "");
+      const href = isCurrent ? "" : ((item.status === "active" || (books && (item.id === BOOK_ID || item.id === "herdeiros-das-cinzas"))) ? hrefFor(item) : "");
       const fallbackImg = books ? bookCoverFallback[item.id] : null;
       const coverOnerror = fallbackImg ? `this.onerror=function(){this.hidden=true;this.nextElementSibling.hidden=false};this.src='${fallbackImg}'` : `this.hidden=true;this.nextElementSibling.hidden=false`;
       const media = item.cover ? `<span class="selector-cover"><img src="${escapeHtml(item.cover)}" alt="Capa de ${escapeHtml(item.name)}" onerror="${coverOnerror}"><span class="selector-cover-fallback" hidden>${icon(item.icon||item.symbol)}</span></span>` : `<span class="selector-cover symbol">${icon(item.icon||item.symbol)}</span>`;

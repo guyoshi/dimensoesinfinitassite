@@ -27,6 +27,10 @@
         {fromPrefix:'event/',toPrefix:'timeline/'},
         {from:'acontecimentos',to:'timeline'},
         {fromPrefix:'acontecimento/',toPrefix:'timeline/'},
+        {from:'clans',to:'dynasties'},
+        {fromPrefix:'clan/',toPrefix:'dynasty/'},
+        {from:'clas',to:'dynasties'},
+        {fromPrefix:'cla/',toPrefix:'dynasty/'},
         {from:'dashboard',to:'inicio'}
       ]
     },
@@ -35,7 +39,7 @@
     },
     metadata:{
       dataDirectory:'data/sagas/ciclo-de-jesed/books/herdeiros-das-cinzas',optionalCollections:['themes','mysteries'],
-      legacySources:['data/sagas/ciclo-de-jesed/books/herdeiros-das-cinzas/runtime.js'],stage:'Fundação'
+      legacySources:['data/sagas/ciclo-de-jesed/books/herdeiros-das-cinzas/runtime.js'],stage:'Em preparação · 0 capítulos'
     }
   });
 })();

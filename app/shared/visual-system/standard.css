@@ -85,21 +85,21 @@ body[data-book="dinastia-polar"]{
 }
 
 body[data-book="herdeiros-das-cinzas"]{
-  --di-accent:#a54b37;
-  --di-accent-strong:#7a3228;
-  --di-accent-soft:#2a1210;
-  --di-text:#c8b9b0;
-  --di-muted:#8a8078;
-  --di-heading:#d4c4b8;
-  --di-surface:rgba(28,26,25,.94);
-  --di-surface-strong:#1c1a19;
-  --di-surface-soft:rgba(212,196,184,.05);
-  --di-border:rgba(165,75,55,.28);
-  --di-border-strong:rgba(207,115,85,.5);
-  --di-on-accent:#1a0a08;
+  --di-accent:#56708c;
+  --di-accent-strong:#3a536e;
+  --di-accent-soft:#dfe7ef;
+  --di-text:#232c38;
+  --di-muted:#566373;
+  --di-heading:#2c3745;
+  --di-surface:rgba(240,243,247,.94);
+  --di-surface-strong:#eef1f5;
+  --di-surface-soft:rgba(255,255,255,.55);
+  --di-border:rgba(86,112,140,.28);
+  --di-border-strong:rgba(58,83,110,.5);
+  --di-on-accent:#fff;
   --di-sidebar-width:260px;
   --di-sidebar-compact:78px;
-  color-scheme:dark;
+  color-scheme:light;
 }
 body[data-book="coracao-de-poeira"]{
   --di-accent:#a88b58;

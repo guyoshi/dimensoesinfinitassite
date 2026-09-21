@@ -9,8 +9,8 @@
     books: document.getElementById('bookView'),
     detail: detailView
   };
-  const externalPages = { 'ruinas-dos-ceus': 'ruinas.html', 'guerras-de-sangue': 'guerras.html', 'dinastia-polar': 'dinastia-polar.html' };
-  const previewableBooks = new Set(['dinastia-polar']);
+  const externalPages = { 'ruinas-dos-ceus': 'ruinas.html', 'guerras-de-sangue': 'guerras.html', 'dinastia-polar': 'dinastia-polar.html', 'herdeiros-das-cinzas': 'herdeiros-das-cinzas.html' };
+  const previewableBooks = new Set(['dinastia-polar', 'herdeiros-das-cinzas']);
   const bookLogos = { 'ruinas-dos-ceus': 'assets/branding/ruinas-dos-ceus/logo-light.webp', 'guerras-de-sangue': 'assets/branding/guerras-de-sangue/logo-light.webp' };
   const icons = { compass: '✦', journal: '✦', crown: '♕', stars: '✧', portal: '◎', eye: '◉', union: '⬡', wind: '☁', 'crossed-swords': '⚔', fortress: '⛁', embers: '♨', hourglass: '⏳' };
   const synopsisHtml = value => String(value || '').split(/\n\s*\n/).filter(Boolean).map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join('');
