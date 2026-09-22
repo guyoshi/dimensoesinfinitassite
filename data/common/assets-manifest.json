@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-09-22",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 331,
+  "count": 332,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-01.webp",
@@ -142,8 +142,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 218314,
-      "sha256": "7373ff55106123dc6cf98c0add336b87ef73b0c5520f8b35c8cb562598f89c86"
+      "sizeBytes": 504590,
+      "sha256": "379b2ef3f9225a70307fc8b5e1f735d6d8d379fbe10e285c59493b2713c3706c"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-15.webp",
@@ -152,8 +152,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 412938,
-      "sha256": "a65e35a29448e7ce7145e4fd5c2c198123504a7da6d03863f82af9052ec9bfc4"
+      "sizeBytes": 218314,
+      "sha256": "7373ff55106123dc6cf98c0add336b87ef73b0c5520f8b35c8cb562598f89c86"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-16.webp",
@@ -162,8 +162,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 365182,
-      "sha256": "9af42d1d57a0c14c500915edff71070541b410f22818a3aa048eef7ba95b1b33"
+      "sizeBytes": 412938,
+      "sha256": "a65e35a29448e7ce7145e4fd5c2c198123504a7da6d03863f82af9052ec9bfc4"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-17.webp",
@@ -172,8 +172,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 229066,
-      "sha256": "7849444a5411b5ba68aa2a41c0e85542c6cb692aac7f0b8d2a8969e7cec2003f"
+      "sizeBytes": 365182,
+      "sha256": "9af42d1d57a0c14c500915edff71070541b410f22818a3aa048eef7ba95b1b33"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-18.webp",
@@ -182,8 +182,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 242440,
-      "sha256": "30a23c43830f087be6060419d52624d581cdc8f2c1a68b1f7d69efae079ddda2"
+      "sizeBytes": 229066,
+      "sha256": "7849444a5411b5ba68aa2a41c0e85542c6cb692aac7f0b8d2a8969e7cec2003f"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-19.webp",
@@ -192,8 +192,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 247244,
-      "sha256": "4d51d58049c8f188db6d74391af37383b8662a1f860f5994e1aa0fdb41a8eb8a"
+      "sizeBytes": 242440,
+      "sha256": "30a23c43830f087be6060419d52624d581cdc8f2c1a68b1f7d69efae079ddda2"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-20.webp",
@@ -202,8 +202,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 359424,
-      "sha256": "ba608e4173954ff73d5a7dc3d1f69b9f500be60428ee6b63218026663a353450"
+      "sizeBytes": 247244,
+      "sha256": "4d51d58049c8f188db6d74391af37383b8662a1f860f5994e1aa0fdb41a8eb8a"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-21.webp",
@@ -212,8 +212,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 346122,
-      "sha256": "0816ced2c978a32659ef486b059688e7eeb7159d5c0c1ff8b52ba6c549b989b9"
+      "sizeBytes": 359424,
+      "sha256": "ba608e4173954ff73d5a7dc3d1f69b9f500be60428ee6b63218026663a353450"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-22.webp",
@@ -222,8 +222,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 243300,
-      "sha256": "197e4b78580194e34cd3416ae8570b7c6aca9e25cbe076addf083362b0eb2dbc"
+      "sizeBytes": 346122,
+      "sha256": "0816ced2c978a32659ef486b059688e7eeb7159d5c0c1ff8b52ba6c549b989b9"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-23.webp",
@@ -232,8 +232,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 236812,
-      "sha256": "1763ebf77e99c60c503548c2aafa6ccc6c9b69c0e7b05802595677f84a95ef7f"
+      "sizeBytes": 243300,
+      "sha256": "197e4b78580194e34cd3416ae8570b7c6aca9e25cbe076addf083362b0eb2dbc"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-24.webp",
@@ -242,12 +242,22 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 201064,
-      "sha256": "854b869b8f9edd849683373d8c7dbff99b05c246a92bb5b5d83f7fb14dc322d5"
+      "sizeBytes": 236812,
+      "sha256": "1763ebf77e99c60c503548c2aafa6ccc6c9b69c0e7b05802595677f84a95ef7f"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-25.webp",
       "filename": "chapter-25.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 201064,
+      "sha256": "854b869b8f9edd849683373d8c7dbff99b05c246a92bb5b5d83f7fb14dc322d5"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-26.webp",
+      "filename": "chapter-26.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/chapters",
       "extension": ".webp",
       "width": 1024,
@@ -256,8 +266,8 @@
       "sha256": "fc6034b2ccdec6e19ab5aab6d3f29555f6f9da18cb435e68a647aa555c3d2aee"
     },
     {
-      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-26.webp",
-      "filename": "chapter-26.webp",
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-27.webp",
+      "filename": "chapter-27.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/chapters",
       "extension": ".webp",
       "width": 1672,
@@ -266,8 +276,8 @@
       "sha256": "2e6b803a7d3ea3cc69afe9f4524cb341497f962f340e09f0d19b1692612687ad"
     },
     {
-      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-27.webp",
-      "filename": "chapter-27.webp",
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-28.webp",
+      "filename": "chapter-28.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/chapters",
       "extension": ".webp",
       "width": 1672,
@@ -276,8 +286,8 @@
       "sha256": "5d8ea3f721bd6d5504a0a6424c20cb9adfbb1bf1e5f593fdf98bf7c3612bf73d"
     },
     {
-      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-28.webp",
-      "filename": "chapter-28.webp",
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-29.webp",
+      "filename": "chapter-29.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/chapters",
       "extension": ".webp",
       "width": 1672,
@@ -286,8 +296,8 @@
       "sha256": "e9ecae411148c8ee84abfb0ad29e1f941c49d9411c99abd80901ae08af880165"
     },
     {
-      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-29.webp",
-      "filename": "chapter-29.webp",
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-30.webp",
+      "filename": "chapter-30.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/chapters",
       "extension": ".webp",
       "width": 1672,
