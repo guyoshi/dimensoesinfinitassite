@@ -137,7 +137,9 @@ body[data-book="herdeiros-das-cinzas"] .app-shell{
 }
 body[data-book="herdeiros-das-cinzas"] .workspace{background:transparent}
 
-/* Barra lateral: pedra e bronze queimado em camadas — sem mapa nem couro, apenas profundidade e anéis gravados. */
+/* Barra lateral: pedra clara em camadas, com uma marca d'água de círculo rúnico
+   partido ao fundo — vestígio de algo antigo e já quebrado, coerente com o tema
+   de cinzas e ruínas. Não repete os anéis dourados de Dinastia Polar. */
 body[data-book="herdeiros-das-cinzas"] .sidebar{
   overflow:visible;
   background:
@@ -145,21 +147,39 @@ body[data-book="herdeiros-das-cinzas"] .sidebar{
     linear-gradient(180deg, var(--hc-stone) 0%, #d3dbe4 100%);
   border-right:1px solid var(--di-border);
 }
+body[data-book="herdeiros-das-cinzas"] .sidebar::before{
+  content:"";position:absolute;inset:auto -18% -12% auto;width:340px;height:340px;
+  pointer-events:none;z-index:0;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Cpath%20d%3D%22M374.3%20175.5%20A176%20176%200%200%201%20293.3%20349.3%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%222.2%22%20opacity%3D%22.55%22/%3E%3Cpath%20d%3D%22M260.2%20365.4%20A176%20176%200%200%201%2047.6%20288.0%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%222.2%22%20opacity%3D%22.55%22/%3E%3Cpath%20d%3D%22M27.8%20236.6%20A176%20176%200%200%201%20112.0%2047.6%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%222.2%22%20opacity%3D%22.55%22/%3E%3Cpath%20d%3D%22M163.4%2027.8%20A176%20176%200%200%201%20352.4%20112.0%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%222.2%22%20opacity%3D%22.55%22/%3E%3Cpath%20d%3D%22M363.2%20134.1%20A176%20176%200%200%201%20369.2%20151.5%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%222.2%22%20opacity%3D%22.55%22/%3E%3Cpath%20d%3D%22M326.1%20222.2%20A128%20128%200%200%201%20188.8%20327.5%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.8%22%20opacity%3D%22.4%22/%3E%3Cpath%20d%3D%22M136.0%20310.9%20A128%20128%200%200%201%2084.0%20145.9%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.8%22%20opacity%3D%22.4%22/%3E%3Cpath%20d%3D%22M117.7%20101.9%20A128%20128%200%200%201%20264.0%2089.1%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.8%22%20opacity%3D%22.4%22/%3E%3Cpath%20d%3D%22M298.1%20117.7%20A128%20128%200%200%201%20327.7%20208.9%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.8%22%20opacity%3D%22.4%22/%3E%3Cpath%20d%3D%22M277.1%20228.0%20A82%2082%200%201%201%20277.1%20172.0%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.6%22%20opacity%3D%22.45%22/%3E%3Cpolyline%20points%3D%22372.2%2C236.6%20391.8%2C223.9%20413.7%2C204.2%20433.1%2C196.9%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.3%22%20opacity%3D%22.3%22%20stroke-linecap%3D%22round%22/%3E%3Cpolyline%20points%3D%22184.7%2C375.3%20183.0%2C389.8%20185.1%2C404.4%20206.0%2C419.6%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.3%22%20opacity%3D%22.3%22%20stroke-linecap%3D%22round%22/%3E%3Cpolyline%20points%3D%2259.4%2C305.9%2036.0%2C304.2%2031.2%2C324.0%201.1%2C315.0%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.3%22%20opacity%3D%22.3%22%20stroke-linecap%3D%22round%22/%3E%3Cpolyline%20points%3D%2240.5%2C125.6%2020.5%2C121.8%20-9.7%2C135.1%20-34.7%2C140.4%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.3%22%20opacity%3D%22.3%22%20stroke-linecap%3D%22round%22/%3E%3Cpolyline%20points%3D%22175.5%2C25.7%20155.8%2C13.7%20167.6%2C-6.0%20169.6%2C-22.3%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.3%22%20opacity%3D%22.3%22%20stroke-linecap%3D%22round%22/%3E%3Cpolyline%20points%3D%22330.8%2C82.2%20341.8%2C64.1%20339.0%2C34.9%20335.4%2C13.5%22%20fill%3D%22none%22%20stroke%3D%22%233a536e%22%20stroke-width%3D%221.3%22%20opacity%3D%22.3%22%20stroke-linecap%3D%22round%22/%3E%3Cpath%20d%3D%22M40%20340L36%20343L32%20341L31%20337L35%20335L39%20336z%22%20fill%3D%22%233a536e%22%20opacity%3D%22.4%22/%3E%3Cpath%20d%3D%22M58%20360L54%20362L51%20359L52%20355L56%20355z%22%20fill%3D%22%233a536e%22%20opacity%3D%22.4%22/%3E%3Cpath%20d%3D%22M22%20318L19%20321L16%20318L17%20315L21%20314z%22%20fill%3D%22%233a536e%22%20opacity%3D%22.4%22/%3E%3Ccircle%20cx%3D%22271.0%22%20cy%3D%22241.0%22%20r%3D%222.4%22%20fill%3D%22%233a536e%22%20opacity%3D%22.5%22/%3E%3Ccircle%20cx%3D%22129.0%22%20cy%3D%22241.0%22%20r%3D%222.4%22%20fill%3D%22%233a536e%22%20opacity%3D%22.5%22/%3E%3Ccircle%20cx%3D%22200.0%22%20cy%3D%22118.0%22%20r%3D%222.4%22%20fill%3D%22%233a536e%22%20opacity%3D%22.5%22/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-size:contain;
+  opacity:var(--hc-watermark-opacity,.16);
+  mix-blend-mode:multiply;
+}
 body[data-book="herdeiros-das-cinzas"] .sidebar-brand,
 body[data-book="herdeiros-das-cinzas"] .sidebar-nav,
 body[data-book="herdeiros-das-cinzas"] .sidebar-footer{position:relative;z-index:2}
+body[data-book="herdeiros-das-cinzas"] .performance-mode .sidebar::before{opacity:.05}
 
-/* Selo de selecção: o indicador de item activo fecha como um anel azul — o
-   ouro fica para a grandeza institucional, o azul marca "isto está seleccionado". */
+/* Marca de selecção: uma fractura irregular junto à borda do item, como uma
+   rachadura que se abre — não o selo redondo de Dinastia Polar, nem um traço
+   recto genérico. */
 body[data-book="herdeiros-das-cinzas"] .nav-item{position:relative}
-body[data-book="herdeiros-das-cinzas"] .nav-item.active{position:relative}
+body[data-book="herdeiros-das-cinzas"] .nav-item.active{position:relative;overflow:visible}
 body[data-book="herdeiros-das-cinzas"] .nav-item.active::before{
-  content:"";position:absolute;left:8px;top:50%;width:7px;height:7px;
-  margin-top:-3.5px;border-radius:50%;border:2px solid var(--hc-select);
-  box-shadow:0 0 8px color-mix(in srgb,var(--hc-select) 55%,transparent);
-  animation:hcSealClose .5s ease-out;
+  content:"";position:absolute;left:-1px;top:6px;bottom:6px;width:4px;
+  background:var(--hc-select);
+  clip-path:polygon(0 0,100% 8%,35% 22%,100% 34%,20% 48%,100% 61%,40% 75%,100% 88%,0 100%);
+  box-shadow:0 0 6px color-mix(in srgb,var(--hc-select) 60%,transparent);
+  animation:hcFractureOpen .42s cubic-bezier(.2,.8,.3,1) both;
 }
-@keyframes hcSealClose{from{transform:scale(2.4);opacity:0}to{transform:scale(1);opacity:1}}
+body[data-book="herdeiros-das-cinzas"] .nav-item.active::after{
+  content:"";position:absolute;left:4px;top:50%;width:16px;height:1px;
+  background:color-mix(in srgb,var(--hc-select) 45%,transparent);
+  transform-origin:left center;
+  animation:hcFractureSpread .5s ease-out both;
+}
+@keyframes hcFractureOpen{from{clip-path:polygon(0 48%,100% 48%,35% 48%,100% 48%,20% 48%,100% 48%,40% 48%,100% 48%,0 48%);opacity:0}to{opacity:1}}
+@keyframes hcFractureSpread{from{transform:scaleX(0);opacity:0}to{transform:scaleX(1);opacity:1}}
 
 /* Cartões institucionais e botões: ouro fosco, sem brilho de luxo. */
 body[data-book="herdeiros-das-cinzas"] .quick-card,
