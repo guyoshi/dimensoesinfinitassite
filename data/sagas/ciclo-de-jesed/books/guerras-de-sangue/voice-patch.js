@@ -80,9 +80,9 @@
       personality: `Saela é mãe de Varael, irmã de Ossar e uma mulher capaz de transformar medo em ação. Tenta interpor-se entre o filho e a violência Polar, oferece-se como refém e mantém a margem unida. É prática, protetora e emocionalmente franca.`,
       voice: `Saela fala com urgência controlada. Em público, tenta parecer razoável para reduzir a ameaça. Em família, torna-se direta. Quando a compostura quebra, a voz fica rasgada, repete o nome de Varael e não tenta esconder a dor.`
     },
-    "Markoso": {
-      personality: `Markoso é um jovem sem origem clara que aparece em Kaendar com conhecimento, imagens e reações que não pertencem inteiramente ao presente. Salva Kaelina, recusa-se a oferecer explicações completas e parece compreender o Ciclo por uma perspectiva inacessível aos outros.`,
-      voice: `Markoso fala pouco, com frases limpas, perguntas inesperadas e aforismos que não explicam sua origem. Em ação, usa imperativos breves: venha comigo, abaixe-se, espere.`
+    "Marken": {
+      personality: `Marken é um jovem sem origem clara que aparece em Kaendar com conhecimento, imagens e reações que não pertencem inteiramente ao presente. Salva Kaelina, recusa-se a oferecer explicações completas e parece compreender o Ciclo por uma perspectiva inacessível aos outros.`,
+      voice: `Marken fala pouco, com frases limpas, perguntas inesperadas e aforismos que não explicam sua origem. Em ação, usa imperativos breves: venha comigo, abaixe-se, espere.`
     },
     "Ylvena": {
       personality: `Ylvena é inteligente, ferida, orgulhosa e capaz de atos terríveis nascidos de amor, ressentimento e medo. Não é apenas vítima nem apenas culpada: compreende as manipulações ao redor, preserva segredos e aprendeu a usar a própria aparência de serva esquecida como proteção.`,
