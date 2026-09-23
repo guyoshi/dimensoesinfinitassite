@@ -18,7 +18,7 @@ P.relacoes=()=>{
 P.familias=()=>{
   const family=SOC.families?.[0];if(!family)return H('Pessoas','Famílias','Nenhuma família registada neste período.');
   return H('Pessoas','Família','Em Ruínas dos Céus, apenas o núcleo Amaréa possui uma ficha familiar própria.')+
-    `<section class="social-hero-card"><img src="${E(family.image)}" alt="Imagem atmosférica de ${E(family.name)}" loading="lazy"><div class="social-hero-copy"><p class="eyebrow">Família de Nivellia</p><h2>${E(family.name)}</h2><p>${E(family.summary)}</p><div class="social-member-row">${family.members.map(name=>characterButton(name)).join('')}</div></div></section>
+    `<section class="social-hero-card"><img src="${E(family.image)}" alt="Imagem atmosférica de ${E(family.name)}" loading="lazy"><div class="social-hero-copy"><p class="eyebrow">Família de Nivelia</p><h2>${E(family.name)}</h2><p>${E(family.summary)}</p><div class="social-member-row">${family.members.map(name=>characterButton(name)).join('')}</div></div></section>
     <section class="social-detail-grid">${family.sections.map(section=>`<article class="social-detail-card"><h3>${E(section.title)}</h3><p>${E(section.text)}</p></article>`).join('')}</section>`;
 };
 P.organizacoes=()=>H('Pessoas','Organizações','Instituições, ofícios e grupos realmente presentes em Etérea ou formados depois da Queda.')+
