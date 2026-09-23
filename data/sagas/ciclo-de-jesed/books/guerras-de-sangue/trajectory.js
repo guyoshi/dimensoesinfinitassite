@@ -5,12 +5,12 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-04": "Preside a reunião de crise do Conselho da Raiz, defende a Lei do Portão contra a proposta de ataque, repreende Daryon por insinuar deslealdade de Cal Edran, perde a votação inicial mas vence quando Alyra muda seu voto a favor da paz.",
 "jesed-chapter-gs-05": "Não aparece presencialmente; é mencionada apenas como estando em seus aposentos enquanto Alyra age às suas costas.",
 "jesed-chapter-gs-06": "Descobre que o talismã desapareceu da caixa de provas; lidera a comitiva ao Marco das Três Pedras para negociar com os Tondrar sob a Lei do Portão, mas vê tudo desmoronar quando Yvenn é envenenado e a violência explode; termina coberta de sangue, em choque.",
-"jesed-chapter-gs-08": "Vive com culpa pela morte de Yvenn; desce sozinha aos anéis baixos e se permite rir com crianças; visita a tumba de Orionus e desaba emocionalmente; é atacada por um assassino disfarçado nos túneis e só sobrevive porque Markoso intervém e mata o agressor.",
-"jesed-chapter-gs-10": "Confronta Alyra após descobrir que ela rebaixou Cal Edran e humilhou Cal Kadrir; visita Markoso, que a alerta de que a versão oficial sobre a morte de Yvenn pode ser mentira e lhe entrega um fragmento de \"sino\" misterioso.",
-"jesed-chapter-gs-12": "Insiste em ir pessoalmente a Alesteiro após o incêndio, mas é impedida por Cal Edran, que parte no seu lugar; permanece em Kaendar lidando com a tensão política e a dúvida plantada por Markoso sobre a morte de Yvenn.",
-"jesed-chapter-gs-13": "Chega a Alesteiro depois da destruição e encontra o corpo de Cal Edran, chora sem contenção e nota um laço de armadilha (técnica Fendelar, não Tondrar) no tornozelo dele; manda levá-lo a Kaendar com honra; afirma publicamente que acredita que Yvenn foi envenenado por um Polar; descobre que Veyr Polar desapareceu numa missão aos Fendelar e que Alyra ordenou esconder esse fato.",
+"jesed-chapter-gs-08": "Vive com culpa pela morte de Yvenn; desce sozinha aos anéis baixos e se permite rir com crianças; visita a tumba de Orionus e desaba emocionalmente; é atacada por um assassino disfarçado nos túneis e só sobrevive porque Marken intervém e mata o agressor.",
+"jesed-chapter-gs-10": "Confronta Alyra após descobrir que ela rebaixou Cal Edran e humilhou Cal Kadrir; visita Marken, que a alerta de que a versão oficial sobre a morte de Yvenn pode ser mentira e lhe entrega um fragmento de \"sino\" misterioso.",
+"jesed-chapter-gs-12": "Insiste em ir pessoalmente a Alestir após o incêndio, mas é impedida por Cal Edran, que parte no seu lugar; permanece em Kaendar lidando com a tensão política e a dúvida plantada por Marken sobre a morte de Yvenn.",
+"jesed-chapter-gs-13": "Chega a Alestir depois da destruição e encontra o corpo de Cal Edran, chora sem contenção e nota um laço de armadilha (técnica Fendelar, não Tondrar) no tornozelo dele; manda levá-lo a Kaendar com honra; afirma publicamente que acredita que Yvenn foi envenenado por um Polar; descobre que Veyr Polar desapareceu numa missão aos Fendelar e que Alyra ordenou esconder esse fato.",
 "jesed-chapter-gs-14": "Lida com a crise de água e fome na cidade, atende queixosos com empatia; confronta Alyra abertamente, acusando-a de ter envenenado Yvenn diante do Conselho; segue secretamente Daryon de noite e o flagra negociando com Sarkan e os Homens das Areias, e usa a notícia da gravidez de Alyra para testar a reação dele.",
-"jesed-chapter-gs-17": "Procura Markoso e lhe conta o que descobriu sobre Daryon e os Homens das Areias; começa a reorganizar as peças do jogo (talismã, ataque aos Fendelar, envenenamento de Yvenn, influência sobre Alyra) e suspeita que o jogo seja mais antigo e mais perigoso do que imaginava.",
+"jesed-chapter-gs-17": "Procura Marken e lhe conta o que descobriu sobre Daryon e os Homens das Areias; começa a reorganizar as peças do jogo (talismã, ataque aos Fendelar, envenenamento de Yvenn, influência sobre Alyra) e suspeita que o jogo seja mais antigo e mais perigoso do que imaginava.",
 "jesed-chapter-gs-18": "Investiga os registros da morte de Orionus e encontra contradições; viaja até Noreval e descobre que Daryon não nasceu com a origem limpa que Kaendar acredita; aprende por Savel que Daryon e Ylvena foram próximos no passado e que ele manipulava as pessoas desde criança.",
 "jesed-chapter-gs-19": "Segue uma pista até Nhar-Veyr com Harrev e Odris, mas a vila é uma armadilha: os dois guardas morrem protegendo-a e ela é capturada por Tondrar; é levada a Khar-Tondr e colocada na Plataforma do Sol Alto para lutar contra Nynestra; propõe a ela, na cela, um plano arriscado para o dia seguinte.",
 "jesed-chapter-gs-20": "Não aparece neste capítulo.",
@@ -18,7 +18,7 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-22": "É mantida como refém febril durante a marcha conjunta dos clãs rumo a Kaendar; testemunha a execução de um espião Polar; é reconhecida por Rendar, que tenta matá-la, mas é impedida por Nynestra.",
 "jesed-chapter-gs-23": "Não está fisicamente na Câmara do Primeiro Abrigo (continua refém); sua ausência pesa sobre a reunião do Conselho.",
 "jesed-chapter-gs-24": "Deixa os túneis depois de matar Ylvena em legítima defesa; luta pelas ruas em chamas com uma espada tirada de um morto, salva uma carroça de explodir; chega à muralha, ordena cessar-fogo, e sai sozinha e desarmada para negociar a retirada dos Buldar, expondo a verdade sobre quem fabricou a guerra; escapa por pouco de ser executada e negocia a entrada de Sarkan em Kaendar.",
-"jesed-chapter-gs-25": "Espia escondida com Markoso e ouve a confissão completa de Ylvena e Daryon — que Ylvena matou os dois garotos e envenenou por acidente Orionus (o veneno era destinado a Alyra), e que Daryon matou Yvenn para sabotar a Lei do Portão; confronta Ylvena sozinha e a mata numa luta brutal.",
+"jesed-chapter-gs-25": "Espia escondida com Marken e ouve a confissão completa de Ylvena e Daryon — que Ylvena matou os dois garotos e envenenou por acidente Orionus (o veneno era destinado a Alyra), e que Daryon matou Yvenn para sabotar a Lei do Portão; confronta Ylvena sozinha e a mata numa luta brutal.",
 "jesed-chapter-gs-26": "Não aparece neste capítulo (está desaparecida dentro da cidade durante o ataque de Tavra a Alyra).",
 "jesed-chapter-gs-27": "Reúne homens para procurar a irmã, encontra Rendar lutando contra Cal Kadrir e chega à sala do trono no momento em que ele segura Alyra pela espada, gritando para que ele pare.",
 "jesed-chapter-gs-28": "Impede que matem Rendar; revela ao Conselho e a Alyra que Daryon e Ylvena fabricaram a guerra e que o veneno que matou Orionus era destinado a Alyra; declara que tirará a irmã do poder; dá sua palavra para Rendar sair vivo e o escolta até o cais; vê Rendar ser assassinado pelas costas por uma flecha de Alyra; enfrenta a irmã em duelo, é ferida mas vence, e escapa por pouco de ser incinerada quando o tubo de fogo de Alyra explode, desfigurando-a.",
@@ -32,10 +32,10 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-06": "Conforta a irmã antes da partida, mas esconde que foi ela quem levou o talismã; provoca os Tondrar com sarcasmo, e após o envenenamento de Yvenn mata o primeiro Tondrar com as próprias mãos; transforma o massacre em vitória política.",
 "jesed-chapter-gs-08": "Conduz o funeral de Yvenn ao lado de Kaelina; comanda o Conselho na ausência da irmã e impede que Cal Edran entre na sessão.",
 "jesed-chapter-gs-10": "Recebe a notícia de que os Fendelar foram exterminados (confirmando que a ordem partiu dela); humilha sexualmente Cal Kadrir nas câmaras de banho, sendo flagrada por Kaelina.",
-"jesed-chapter-gs-12": "Mente ao Conselho sobre o extermínio dos Fendelar; vai a Alesteiro contra o conselho de Edran, é ferida na explosão e é salva por ele e depois por Cal Kadrir.",
-"jesed-chapter-gs-13": "Chega ferida de Alesteiro; nega ter visto Edran morrer mas admite \"ele escolheu ficar\"; defende a teoria de culpa Vendrar/Tondrar/Buldar e se choca quando Kaelina sugere que um Polar matou Yvenn.",
+"jesed-chapter-gs-12": "Mente ao Conselho sobre o extermínio dos Fendelar; vai a Alestir contra o conselho de Edran, é ferida na explosão e é salva por ele e depois por Cal Kadrir.",
+"jesed-chapter-gs-13": "Chega ferida de Alestir; nega ter visto Edran morrer mas admite \"ele escolheu ficar\"; defende a teoria de culpa Vendrar/Tondrar/Buldar e se choca quando Kaelina sugere que um Polar matou Yvenn.",
 "jesed-chapter-gs-14": "Usa a abertura do anel alto como prova de fraqueza da irmã; restaura o cargo de Primeiro Kae para Cal Kadrir sem autorização; tem um princípio de náusea e vomita diante de Kaelina (sinal da gravidez).",
-"jesed-chapter-gs-17": "Recebe uma caixa com a cabeça decepada de um Tondrar e uma mensagem dos Urtistar; discute com Daryon sobre ter sido deixado de fora de uma operação; visita Markoso e quase o ataca quando ele a provoca sobre seu medo de ser inferior à irmã.",
+"jesed-chapter-gs-17": "Recebe uma caixa com a cabeça decepada de um Tondrar e uma mensagem dos Urtistar; discute com Daryon sobre ter sido deixado de fora de uma operação; visita Marken e quase o ataca quando ele a provoca sobre seu medo de ser inferior à irmã.",
 "jesed-chapter-gs-18": "Não aparece neste capítulo.",
 "jesed-chapter-gs-19": "Não aparece presencialmente.",
 "jesed-chapter-gs-20": "Não aparece neste capítulo (é mencionada como tendo negociado com os Urtistar).",
@@ -74,8 +74,8 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-06": "Acompanha a comitiva ao Marco das Três Pedras, observa o confronto com expressão calculada.",
 "jesed-chapter-gs-08": "Apoia Alyra na ocupação do Conselho durante a ausência de Kaelina.",
 "jesed-chapter-gs-10": "Aconselha Alyra a não reagir aos rumores; concorda em ajudá-la a inventar uma resposta falsa.",
-"jesed-chapter-gs-12": "Acompanha Alyra a Alesteiro, mantém distanciamento crítico de Edran.",
-"jesed-chapter-gs-13": "É encontrado vivo e ferido em Alesteiro perguntando por Alyra; insinua que o ataque busca atingir a Dinastia inteira e é mandado calar-se por Kaelina.",
+"jesed-chapter-gs-12": "Acompanha Alyra a Alestir, mantém distanciamento crítico de Edran.",
+"jesed-chapter-gs-13": "É encontrado vivo e ferido em Alestir perguntando por Alyra; insinua que o ataque busca atingir a Dinastia inteira e é mandado calar-se por Kaelina.",
 "jesed-chapter-gs-14": "É visto saindo do quarto de Alyra à noite; sai secretamente para negociar com Sarkan; reage com choque genuíno quando Kaelina insinua que ele é o pai do filho de Alyra.",
 "jesed-chapter-gs-17": "Entrega a Alyra a caixa com a cabeça Tondrar; discute com ela sobre ter sido deixado de fora de uma operação; demonstra uma rigidez nova que intriga Alyra.",
 "jesed-chapter-gs-18": "Não aparece presencialmente; é investigado em profundidade — revela-se que chegou a Kaendar como órfão de Noreval e apresentou os anexos que inocentaram Ylvena.",
@@ -90,19 +90,19 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-04": "Fala defendendo os métodos de Orionus, é atacado verbalmente por Daryon e é defendido com firmeza por Kaelina.",
 "jesed-chapter-gs-05": "Vigia a porta de Kaelina; é manipulado por Alyra com um falso rumor para que se afaste do posto, permitindo o roubo do talismã.",
 "jesed-chapter-gs-06": "Comanda a segurança da comitiva, protege Kaelina fisicamente durante o confronto e a impede de intervir.",
-"jesed-chapter-gs-08": "É impedido de entrar no Conselho por Cal Kadrir sob ordens de Alyra; aparece nos túneis para proteger Kaelina após o ataque, ameaçando Markoso.",
-"jesed-chapter-gs-10": "É mencionado como tendo sido rebaixado por ordem de Alyra; protege Markoso de interrogatórios mais agressivos.",
-"jesed-chapter-gs-12": "Lidera o resgate em Alesteiro, salva crianças sobreviventes, é ferido na explosão, protege Alyra de um atacante Fendelar e morre lutando, esfaqueado pelo agressor.",
-"jesed-chapter-gs-13": "É encontrado morto em Alesteiro, com a mão ainda fechada e um laço de armadilha no tornozelo; recebe funeral fluvial solene.",
+"jesed-chapter-gs-08": "É impedido de entrar no Conselho por Cal Kadrir sob ordens de Alyra; aparece nos túneis para proteger Kaelina após o ataque, ameaçando Marken.",
+"jesed-chapter-gs-10": "É mencionado como tendo sido rebaixado por ordem de Alyra; protege Marken de interrogatórios mais agressivos.",
+"jesed-chapter-gs-12": "Lidera o resgate em Alestir, salva crianças sobreviventes, é ferido na explosão, protege Alyra de um atacante Fendelar e morre lutando, esfaqueado pelo agressor.",
+"jesed-chapter-gs-13": "É encontrado morto em Alestir, com a mão ainda fechada e um laço de armadilha no tornozelo; recebe funeral fluvial solene.",
 "jesed-chapter-gs-14": "Não aparece (já está morto); é lembrado por Kaelina como alguém que a aconselharia a não reagir no terreno escolhido por Alyra."
 },
 "Cal Kadrir": {
 "jesed-chapter-gs-08": "Aparece como o novo \"Cal\" nomeado por Alyra, bloqueando a entrada de Edran ao Conselho.",
 "jesed-chapter-gs-10": "É humilhado por Alyra nas câmaras de banho, sendo flagrado nesse estado por Kaelina, que o liberta da ordem.",
-"jesed-chapter-gs-12": "Chega a Alesteiro com Alyra e Daryon; após a explosão, resgata Alyra ferida, levando-a embora a cavalo sob ordem direta de Edran.",
-"jesed-chapter-gs-13": "Relata ao Conselho os instantes da explosão em Alesteiro, admite que obedeceu a ordem de Edran de levar Alyra para fora e fica atormentado pela culpa.",
+"jesed-chapter-gs-12": "Chega a Alestir com Alyra e Daryon; após a explosão, resgata Alyra ferida, levando-a embora a cavalo sob ordem direta de Edran.",
+"jesed-chapter-gs-13": "Relata ao Conselho os instantes da explosão em Alestir, admite que obedeceu a ordem de Edran de levar Alyra para fora e fica atormentado pela culpa.",
 "jesed-chapter-gs-14": "Está presente no Conselho ainda ferido; é elevado por Alyra ao cargo de Primeiro Kae sem consulta a Kaelina.",
-"jesed-chapter-gs-17": "Acompanha Alyra à entrega da caixa e à visita a Markoso; é instruído a levar provas a Varron em segredo.",
+"jesed-chapter-gs-17": "Acompanha Alyra à entrega da caixa e à visita a Marken; é instruído a levar provas a Varron em segredo.",
 "jesed-chapter-gs-23": "Assume comando militar direto durante o ataque ao Cais dos Zírrios, salva Alyra do barco-armadilha e ordena que ela seja levada à Câmara do Primeiro Abrigo.",
 "jesed-chapter-gs-26": "Tenta impedir Alyra de agir contra ordens, mas cede e a ajuda a vestir a armadura; luta contra Rendar no pátio da fortaleza para protegê-la.",
 "jesed-chapter-gs-27": "Luta contra Rendar nos corredores da fortaleza, é ferido gravemente mas sobrevive; persegue Rendar até uma porta trancada.",
@@ -114,8 +114,8 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-07": "Encontra a aldeia de Velarim destruída; encontra os corpos de Avara, Vita, Ilo e da filha Nara; descobre que Veyr Polar morreu devorado por um Raukhar e que essa morte foi usada como pretexto; parte em busca de vingança.",
 "jesed-chapter-gs-09": "Chega ferido a Nyn-Harad, revela a Nynestra que seu clã foi exterminado pelos Polar, propõe uma aliança entre clãs e revela seu objetivo: matar as soberanas.",
 "jesed-chapter-gs-11": "Negocia diretamente com Kharvok oferecendo aliança; confronta os líderes Vendrar em Varkhama e consegue uma promessa de apoio.",
-"jesed-chapter-gs-15": "Confronta os Tondrar que celebram o ataque a Alesteiro; organiza com Nynestra uma emboscada contra um grupo Polar perto da Boca Seca.",
-"jesed-chapter-gs-16": "Acalma um confronto entre um Tondrar faminto e os Buldar; conversa com Hadrun sobre a aliança; revela ter ordenado que crianças fossem poupadas em Alesteiro.",
+"jesed-chapter-gs-15": "Confronta os Tondrar que celebram o ataque a Alestir; organiza com Nynestra uma emboscada contra um grupo Polar perto da Boca Seca.",
+"jesed-chapter-gs-16": "Acalma um confronto entre um Tondrar faminto e os Buldar; conversa com Hadrun sobre a aliança; revela ter ordenado que crianças fossem poupadas em Alestir.",
 "jesed-chapter-gs-20": "Planeja e lidera o ataque conjunto contra o acampamento Polar na Margem dos Zírrios; interroga um prisioneiro Polar e confirma que Alyra usou os Urtistar na armadilha contra Nynestra e Torgun.",
 "jesed-chapter-gs-22": "Reencontra Nynestra e Kharvok com reforços; planeja uma marcha dividida e silenciosa até Kaendar; tenta matar Kaelina mas é contido; revela a ela os nomes da família perdida (Vita, Nara, Ilo).",
 "jesed-chapter-gs-24": "Luta pelas ruas em chamas de Kaendar; reencontra Tavra Vendrar; organiza um assalto à casa do portão; decide subir sozinho atrás de Alyra.",
@@ -196,7 +196,7 @@ window.GUERRAS_TRAJ = {
 "Saela": {
 "jesed-chapter-gs-20": "Mãe de Varael e irmã de Ossar; tenta se oferecer no lugar do filho e é agredida com um tapa por Lutharus; pressiona Ossar a agir."
 },
-"Markoso": {
+"Marken": {
 "jesed-chapter-gs-08": "Surge como um jovem estranho que salva Kaelina de um assassino nos túneis, matando-o; fica ferido e capturado, revela apenas o próprio nome.",
 "jesed-chapter-gs-10": "Permanece detido e se recusa a responder perguntas; revela a Kaelina dúvidas sobre a verdadeira causa da morte de Yvenn e entrega-lhe um fragmento estranho.",
 "jesed-chapter-gs-12": "Não aparece fisicamente, mas sua dúvida plantada continua a atormentar Kaelina.",
@@ -227,7 +227,7 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-04": "Vota pela proposta de ataque direto aos Tondrar e questiona a decisão final de Alyra.",
 "jesed-chapter-gs-08": "Mencionado apenas como uma das vozes ouvidas dentro da sala do Conselho.",
 "jesed-chapter-gs-12": "Participa da discussão caótica do Conselho sobre a resposta ao incêndio, exigindo homens armados.",
-"jesed-chapter-gs-13": "Identifica a substância usada na explosão de Alesteiro como Bafo-de-Fenda, ligando o ataque aos Vendrar.",
+"jesed-chapter-gs-13": "Identifica a substância usada na explosão de Alestir como Bafo-de-Fenda, ligando o ataque aos Vendrar.",
 "jesed-chapter-gs-23": "Pressiona no Conselho por reforço de ferro nos portões.",
 "jesed-chapter-gs-29": "Vota pela execução de Alyra; questiona o golpe de Kaelina mas se senta diante da demonstração de força."
 },
@@ -250,7 +250,7 @@ window.GUERRAS_TRAJ = {
 "Varron Meio-Olho": {
 "jesed-chapter-gs-04": "Vota pela proposta de ataque, questiona a validade de reativar a Lei do Portão.",
 "jesed-chapter-gs-05": "Não aparece neste capítulo.",
-"jesed-chapter-gs-12": "Defende patrulhas nas saídas orientais e questiona a prudência de Kaelina ir a Alesteiro.",
+"jesed-chapter-gs-12": "Defende patrulhas nas saídas orientais e questiona a prudência de Kaelina ir a Alestir.",
 "jesed-chapter-gs-13": "Levanta-se indignado ao ouvir a teoria de Kaelina sobre culpa Polar.",
 "jesed-chapter-gs-17": "Aparece em conexão com a investigação do couro Urtistar.",
 "jesed-chapter-gs-19": "Não aparece diretamente.",
@@ -282,7 +282,7 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-04": "Atua como escriba da sessão, registra os votos; vota pela proposta de ataque por cautela administrativa.",
 "jesed-chapter-gs-06": "Não aparece neste capítulo.",
 "jesed-chapter-gs-08": "Registra formalmente a abertura do Conselho com a cadeira de Kaelina vazia.",
-"jesed-chapter-gs-10": "Informa Kaelina sobre o comportamento estranho de Markoso durante o interrogatório.",
+"jesed-chapter-gs-10": "Informa Kaelina sobre o comportamento estranho de Marken durante o interrogatório.",
 "jesed-chapter-gs-12": "Tenta organizar as informações contraditórias sobre o ataque em tábuas de registro.",
 "jesed-chapter-gs-13": "Tenta registrar as teorias conflitantes do Conselho.",
 "jesed-chapter-gs-17": "Aparece em conexão com a investigação.",
@@ -294,7 +294,7 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-05": "Não aparece neste capítulo.",
 "jesed-chapter-gs-06": "Conduz o ritual formal da Lei do Portão, come o pão oferecido pelos Tondrar e é envenenado por esse mesmo pão, morrendo diante de todos.",
 "jesed-chapter-gs-08": "Já está morto; este capítulo narra seu funeral fluvial.",
-"jesed-chapter-gs-10": "Não aparece vivo; é o assunto central das suspeitas levantadas por Markoso.",
+"jesed-chapter-gs-10": "Não aparece vivo; é o assunto central das suspeitas levantadas por Marken.",
 "jesed-chapter-gs-12": "Não aparece; está morto desde o capítulo 8, mas a dúvida sobre sua morte continua a pesar.",
 "jesed-chapter-gs-13": "Não aparece; sua morte é o centro da nova teoria de Kaelina.",
 "jesed-chapter-gs-14": "Não aparece; sua morte continua sendo o centro do confronto entre as irmãs.",
@@ -342,11 +342,11 @@ window.GUERRAS_TRAJ = {
 "jesed-chapter-gs-19": "Não aparece diretamente neste capítulo."
 },
 "Harrev": {
-"jesed-chapter-gs-13": "Acompanha Kaelina pelas ruínas de Alesteiro, reporta os corpos contados e mantém a compostura diante da devastação.",
+"jesed-chapter-gs-13": "Acompanha Kaelina pelas ruínas de Alestir, reporta os corpos contados e mantém a compostura diante da devastação.",
 "jesed-chapter-gs-19": "Acompanha Kaelina a Nhar-Veyr, identifica sinais de sangue e emboscada; morre lutando para proteger Kaelina durante o ataque Tondrar."
 },
 "Odris": {
-"jesed-chapter-gs-13": "Mencionado apenas como guarda junto à porta de Markoso.",
+"jesed-chapter-gs-13": "Mencionado apenas como guarda junto à porta de Marken.",
 "jesed-chapter-gs-19": "Acompanha Kaelina a Nhar-Veyr; é ferido protegendo-a de um golpe fatal e morre em combate pouco depois."
 }
 };
@@ -370,7 +370,7 @@ window.GUERRAS_TRAJ = {
       'jesed-chapter-gs-19':'Não aparece presencialmente; a investigação de Kaelina sobre sua origem conduz a soberana à armadilha de Nhar-Veyr e aproxima a guerra do passado que ele tentou apagar.',
       'jesed-chapter-gs-22':'Não aparece na marcha; sua influência sobre Alyra e os crimes ligados aos Fendelar permanecem entre as causas que mantêm Rendar e a aliança em movimento contra Kaendar.',
       'jesed-chapter-gs-23':'Leva Alyra para a Câmara do Primeiro Abrigo, tenta assumir a função de voz política da soberana e confessa que envenenou Yvenn para destruir a negociação e entregar a Alyra a guerra que ela desejava; descobre que o filho dela é seu.',
-      'jesed-chapter-gs-24':'Move-se secretamente dentro de Kaendar durante a invasão e entra numa câmara escondida para encontrar Ylvena, sendo visto por Kaelina e Markoso sem perceber que está sendo seguido.'
+      'jesed-chapter-gs-24':'Move-se secretamente dentro de Kaendar durante a invasão e entra numa câmara escondida para encontrar Ylvena, sendo visto por Kaelina e Marken sem perceber que está sendo seguido.'
     },
     'Cal Edran Polar':{
       'jesed-chapter-gs-17':'Não aparece vivo; sua ausência pesa sobre Kaelina e reforça a diferença entre a proteção leal que ele representava e a influência secreta exercida por Daryon.',
@@ -410,7 +410,7 @@ window.GUERRAS_TRAJ = {
     'Varael Glydar':{
       'jesed-chapter-gs-22':'Não aparece vivo; sua morte rompe a neutralidade Glydar e é citada como uma das razões para o clã integrar a marcha contra Kaendar.'
     },
-    'Markoso':{
+    'Marken':{
       'jesed-chapter-gs-14':'Não aparece presencialmente; as advertências que fez a Kaelina sobre mentira, destino e fogo ajudam a soberana a interpretar a reunião secreta entre Daryon e Sarkan.',
       'jesed-chapter-gs-26':'Não aparece durante o duelo de Tavra e Alyra; permanece oculto nos túneis de Kaendar depois de conduzir Kaelina até a verdade sobre Ylvena.',
       'jesed-chapter-gs-28':'Não aparece presencialmente; o conhecimento que deixou sobre o futuro e o fogo ganha novo peso quando o mecanismo Vendrar explode nas mãos de Alyra.'
