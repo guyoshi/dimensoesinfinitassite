@@ -29,10 +29,10 @@ function livro(id){
   return `<button class="back" data-go="livros">← Voltar</button><section class="detailhero">${media(b.cover||BOOK_COVER_FALLBACK[b.id],`Capa de ${b.name}`,'✦','portrait avatar big')}<article class="panel"><p class="eyebrow">Livro ${b.order} · ${eyebrowState}</p>${titleHtml}<div class="lead book-full-synopsis">${synopsisHtml(b.synopsis||b.visual)}</div>${stats}${href?`<div class="hero-actions"><button class="primary-button" data-selector-href="${href}">Ir para a página do livro</button></div>`:''}</article></section>`;
 }
 function inicio(){
-  const focusDescriptors={'Jokara Amaréa':'Peso, verdade e sacrifício','Nestira Amaréa':'Sopro, fé e esperança','Marv':'Construção, cuidado e legado','Loutes':'Mistério além do tempo','Gabasteres':'Força transformada em domínio'};
-  const focusChars=['Jokara Amaréa','Nestira Amaréa','Marv','Loutes','Gabasteres'].map(name=>D.characters.find(c=>c.n===name)).filter(Boolean);
+  const focusDescriptors={'Jokara Amaréa':'Peso, verdade e sacrifício','Nestira Amaréa':'Sopro, fé e esperança','Mariv':'Construção, cuidado e legado','Loutes':'Mistério além do tempo','Gabasteri':'Força transformada em domínio'};
+  const focusChars=['Jokara Amaréa','Nestira Amaréa','Mariv','Loutes','Gabasteri'].map(name=>D.characters.find(c=>c.n===name)).filter(Boolean);
   const quick=[['personagens','Personagens','Vidas transformadas pela Queda'],['relacoes','Relações','Laços, rupturas e legados'],['linha','Linha do Tempo','Antes e depois da Queda'],['capitulos','Capítulos',`${D.chapters.length} capítulos escritos`]];
-  const selectedPlaces=['Etérea','Nivellia','Bosques de Arion','Nadírion','Primeiro Abrigo','Vale'].map(name=>D.places.find(place=>place.n===name)).filter(Boolean);
+  const selectedPlaces=['Etérea','Nivelia','Bosques de Arion','Nadirion','Primeiro Abrigo','Vale'].map(name=>D.places.find(place=>place.n===name)).filter(Boolean);
   const placeCard=place=>`<article class="home-place-card click" data-go="lugar/${E(place.slug||S(place.n))}" tabindex="0" role="link">${media(place.image,`Ilustração de ${place.n}`,'✦','home-place-media')}<div class="home-place-copy"><p class="eyebrow">${E(place.type||place.region||'Lugar')}</p><h3>${E(place.n)}</h3><p>${E(place.region||place.s)}</p></div><span class="home-card-link">Abrir ficha →</span></article>`;
   return `<section class="hero-map-card home-guide-hero ruinas-split-map-hero">
     <div class="ruinas-hero-map-stack">
