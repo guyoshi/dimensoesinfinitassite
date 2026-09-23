@@ -16,10 +16,10 @@
     'jesed-event-chapter-07': ['803 D.Q. · 1º mês · Dia 8 — Velarim é destruída.', 200000600],
     'jesed-event-chapter-06': ['803 D.Q. · 1º mês · Dia 9 — A Lei do Portão termina em massacre.', 200000700],
     'jesed-event-chapter-09': ['803 D.Q. · 1º mês · Dias 10–11 — Rendar leva a queda de Velarim aos Buldar.', 200000800],
-    'jesed-event-chapter-08': ['803 D.Q. · 1º mês · Dias 10–13 — Kaelina retorna ao povo e encontra Markoso.', 200000900],
+    'jesed-event-chapter-08': ['803 D.Q. · 1º mês · Dias 10–13 — Kaelina retorna ao povo e encontra Marken.', 200000900],
     'jesed-event-chapter-10': ['803 D.Q. · 1º mês · Dia 14 — Alyra fortalece a mentira que sustenta a guerra.', 200001000],
     'jesed-event-chapter-11': ['803 D.Q. · 1º mês · Dias 14–19 — A guerra recebe o fogo Vendrar.', 200001100],
-    'jesed-event-chapter-12': ['803 D.Q. · 1º mês · Dias 20–21 — O rio é contaminado e Alesteiro é incendiada.', 200001200],
+    'jesed-event-chapter-12': ['803 D.Q. · 1º mês · Dias 20–21 — O rio é contaminado e Alestir é incendiada.', 200001200],
     'jesed-event-chapter-13': ['803 D.Q. · 1º mês · Dia 22 — Cal Edran morre e Kaelina começa a seguir as contradições.', 200001300],
     'jesed-event-chapter-15': ['803 D.Q. · 1º mês · Dias 23–24 — Torgun morre durante a emboscada Urtistar.', 200001400],
     'jesed-event-chapter-14': ['803 D.Q. · 1º mês · Dias 23–27 — A crise da água rompe o equilíbrio interno de Kaendar.', 200001500],
@@ -38,7 +38,7 @@
     'jesed-event-rendar-death': ['803 D.Q. · 2º mês · Amanhecer do Dia 9 — Rendar é morto sob palavra de passagem.', 200002800],
     'jesed-event-kaelina-coup': ['803 D.Q. · 2º mês · Dia 16 — Kaelina suspende a Mesa e assume a soberania.', 200002900],
     'jesed-event-alyra-exile': ['803 D.Q. · 2º mês · Dia 19 — Alyra é exilada de Kaendar.', 200003000],
-    'jesed-event-markoso-disappears': ['803 D.Q. · 2º mês · Dia 20 — Markoso desaparece da galeria oeste.', 200003100],
+    'jesed-event-markoso-disappears': ['803 D.Q. · 2º mês · Dia 20 — Marken desaparece da galeria oeste.', 200003100],
     'jesed-event-kaelina-reign': ['803–823 D.Q. — Vinte ciclos de reconstrução e estabilidade sob Kaelina.', 220000000]
   };
   for (const entry of D.timeline) {
