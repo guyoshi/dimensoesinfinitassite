@@ -42,7 +42,7 @@
   P.lugares=()=>{
     const query=st.q.toLowerCase();
     const places=D.places.filter(place=>`${place.n} ${place.s} ${place.region||''} ${(place.description||[]).join(' ')}`.toLowerCase().includes(query));
-    return H('Mundo','Lugares','Ilhas, regiões, rotas e espaços narrativos de Etérea e Nadírion.',`<input class="search" data-search placeholder="Pesquisar…" value="${E(st.q)}">`)+`<div class="grid place-grid-expanded">${places.map(place=>{
+    return H('Mundo','Lugares','Ilhas, regiões, rotas e espaços narrativos de Etérea e Nadirion.',`<input class="search" data-search placeholder="Pesquisar…" value="${E(st.q)}">`)+`<div class="grid place-grid-expanded">${places.map(place=>{
       const population=populationLabel(place);
       return `<article class="card click place-list-card" data-go="lugar/${place.slug||S(place.n)}">${media(placeImage(place.n),`Ilustração de ${place.n}`,'✦','placepic symbol')}<div class="place-list-heading"><div><h3>${E(place.n)}</h3><span>${E(place.type||'Lugar')}</span></div></div><p>${E(place.s)}</p><div class="place-card-facts"><div><small>Região</small><strong>${E(place.region||'Não estabelecida')}</strong></div>${population?`<div><small>População estimada</small><strong>${E(population)}</strong></div>`:''}</div></article>`;
     }).join('')}</div>`;
