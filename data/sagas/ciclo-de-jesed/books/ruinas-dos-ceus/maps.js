@@ -30,7 +30,7 @@
       placeIds:Object.keys(placements).filter(id=>placements[id].mapId==='eterea')
     },
     superficie:{
-      id:'superficie',title:'A Superfície — Capítulos 10 a 24',shortTitle:'A Superfície',
+      id:'superficie',title:'A Superfície — Capítulos 10 a 25',shortTitle:'A Superfície',
       image:'assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-nadirion.webp',ratio:'1450 / 1024',
       description:'A região de Nadírion onde os sobreviventes aprendem a viver sem as certezas de Etérea.',
       context:['Natureza desconhecida','Sobrevivência','Terra, peso e fome','Ausência de civilização humana conhecida'],

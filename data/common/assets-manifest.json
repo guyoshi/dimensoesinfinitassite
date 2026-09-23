@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-09-23",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 332,
+  "count": 333,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-01.webp",
@@ -1102,8 +1102,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 239418,
-      "sha256": "30fd53dbc9fa02a852a550a12b26ec41c16f434725ee7a8a651220992dc013d7"
+      "sizeBytes": 402190,
+      "sha256": "97d7ab484f0d74ca416d04feb48472776663fe42f7b2e3b38dceff68ddc280e7"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-23.webp",
@@ -1112,12 +1112,22 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 342302,
-      "sha256": "c53d88c01d6f5710b38cd2f7030daeebf917e87e4076de80d14193100f76b9ee"
+      "sizeBytes": 239418,
+      "sha256": "30fd53dbc9fa02a852a550a12b26ec41c16f434725ee7a8a651220992dc013d7"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-24.webp",
       "filename": "chapter-24.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 342302,
+      "sha256": "c53d88c01d6f5710b38cd2f7030daeebf917e87e4076de80d14193100f76b9ee"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-25.webp",
+      "filename": "chapter-25.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/chapters",
       "extension": ".webp",
       "width": 1672,

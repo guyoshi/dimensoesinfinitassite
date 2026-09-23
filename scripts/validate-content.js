@@ -42,7 +42,7 @@ for(const [bookId,model] of Object.entries(models)){
   if(model.warnings?.length)warnings.push(...model.warnings.map(w=>`${bookId}: ${w}`));
 }
 const rdc=models['ruinas-dos-ceus'];
-const expectedTitles={11:'Sobrevivência',12:'O Homem no Riacho',15:'O Peso do Silêncio',21:'A Leveza e o Peso',24:'O Vale'};
+const expectedTitles={11:'Sobrevivência',12:'O Homem no Riacho',15:'O Peso do Silêncio',21:'A Leveza e o Peso',25:'O Vale'};
 for(const [number,title] of Object.entries(expectedTitles)){const ch=rdc.entities.chapters.find(x=>x.number===Number(number));if(ch?.title!==title)errors.push(`Ruínas: capítulo ${number} deveria ser “${title}”, encontrado “${ch?.title}”.`);}
 const rhaukar=rdc.entities.fauna.find(x=>x.id==='jesed-fauna-raukhar');if(!rhaukar)errors.push('Ruínas: ID histórico do Rhaukar desapareceu.');else{if(rhaukar.name!=='Rhaukar')errors.push(`Ruínas: nome canônico do Rhaukar incorreto (${rhaukar.name}).`);if(rhaukar.slug!=='raukhar')errors.push('Ruínas: slug histórico raukhar não foi preservado.');}
 const gs=gc.DI_DATA;if(gs){const o=gs.mysteries?.find(x=>x.id==='jesed-mystery-orionus');if(!o?.answer?.includes('Ylvena pretendia envenenar Alyra'))errors.push('Guerras: verdade da morte de Orionus não está preservada.');}

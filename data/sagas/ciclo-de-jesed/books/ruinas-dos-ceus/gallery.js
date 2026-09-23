@@ -6,7 +6,7 @@
     "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-eterea.webp",
     "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-nadirion.webp",
     "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-combined.webp",
-    ...Array.from({length:24},(_,i)=>`assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-${String(i+1).padStart(2,'0')}.webp`),
+    ...Array.from({length:25},(_,i)=>`assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-${String(i+1).padStart(2,'0')}.webp`),
     ...["mirel-amarea","efepar","gabasteres","jokara","liri","loutes","marv","malthar","nestira","platisa","professor-talver","sersi","yndra","yoral","yrsea"].map(x=>`assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/${x}.webp`),
     ...["bosques-de-arion","circulo-de-nhamari","erilan","estacao-da-leveza","eterea","floresta-de-nadirion","ilha-da-memoria","ilha-dos-pequenos","ilhas-baixas","nadirion","nivellia","vale","planalto-de-talyen","praca-da-raiz","primeiro-abrigo","riacho-de-nadirion","ruinas-de-eterea"].map(x=>`assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/${x}.webp`),
     "assets/books/ciclo-de-jesed/shared/lore/fauna/raukhar.webp"
