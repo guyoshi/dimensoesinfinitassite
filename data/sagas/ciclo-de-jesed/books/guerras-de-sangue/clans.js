@@ -80,7 +80,7 @@
       "Campos e celeiros são vulneráveis a fogo e sabotagem.",
       "Dependência de canais, estações e rotas de transporte."
     ],
-    "warRole": "Nynestra transforma alimento em estratégia. Os Buldar sustentam a marcha, atacam o estômago de Kaendar em Alesteiro e entram na aliança para limitar o poder Polar sem destruir a ordem comercial que permite vender pão.",
+    "warRole": "Nynestra transforma alimento em estratégia. Os Buldar sustentam a marcha, atacam o estômago de Kaendar em Alestir e entram na aliança para limitar o poder Polar sem destruir a ordem comercial que permite vender pão.",
     "finalSituation": "Nynestra compreende que a guerra foi alimentada por uma armação e retira os Buldar diante de Kaendar. O clã evita perder mais trabalhadores e reservas, preserva sua força agrícola e termina o livro como poder político indispensável, mas desconfiado da Dinastia."
   },
   "fendelar": {
