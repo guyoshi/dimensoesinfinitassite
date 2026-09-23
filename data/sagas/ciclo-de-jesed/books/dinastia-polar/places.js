@@ -40,22 +40,22 @@
     p('grandes-lagos-nael','Grandes Lagos e Nascentes Altas','grandes-lagos-nael','Região natural','Leidar','Norte de Jesed','Lagos profundos, nascentes, florestas frias e cursos superiores que alimentam o Rio Grande.'),
     p('queda-aram-zir','Queda de Aram-Zír','queda-aram-zir','Queda d’água e fronteira','—','Fronteira Leidar–Buldar','Grande queda d’água de nome Glydar, marco natural de uma fronteira agrícola disputada.'),
 
-    // Braidar — noroeste
-    p('braivar','Braivar','braivar','Capital','Braidar','Noroeste','Capital extensa, cheia de oficinas, mercados cobertos, depósitos, hospedarias, pátios de montagem e ruas para carroças.'),
-    p('torre-revier','Torre Revier','torre-revier','Marco arquitetônico','Braidar','Praça central de Braivar','Três torres inclinadas partem de bases distintas e se unem no alto, simbolizando Produção, Rotas e Registros.'),
-    p('seykar','Seykar','seykar','Cidade manufatureira','Braidar','Território Braidar','Centro de papel com canais rasos, tanques de fibras, prensas, moinhos, varais, depósitos e bairros operários.'),
-    p('valenor','Valenor','valenor','Cidade comercial','Braidar','Território Braidar','Entrepostos, adegas, frutas Leidar, especiarias, conversão de moedas e grandes depósitos.'),
-    p('campos-ardren','Campos de Ardren','campos-ardren','Região agrícola','Braidar','Fronteira Leidar','Campos, criação, plantas fibrosas e povoados marcados por antigas disputas de fronteira.'),
-    p('estrada-duas-origens','Estrada das Duas Origens','estrada-duas-origens','Rota comercial','Braidar','Entre Braidar e Luzdar','Estrada de carroças que transporta papel, medicamentos, recipientes e curadores.'),
-    p('altar-dez-estandares','Altar dos Dez Estandartes','altar-dez-estandares','Arena do Torneio Decenal','Braidar','Cume fora de Braivar','Arena circular de pedra com dez entradas, dez estandartes, arquibancadas em níveis e acampamentos separados.'),
+    // Braedar — noroeste
+    p('braivar','Braivar','braivar','Capital','Braedar','Noroeste','Capital extensa, cheia de oficinas, mercados cobertos, depósitos, hospedarias, pátios de montagem e ruas para carroças.'),
+    p('torre-revier','Torre Revier','torre-revier','Marco arquitetônico','Braedar','Praça central de Braivar','Três torres inclinadas partem de bases distintas e se unem no alto, simbolizando Produção, Rotas e Registros.'),
+    p('seykar','Seykar','seykar','Cidade manufatureira','Braedar','Território Braedar','Centro de papel com canais rasos, tanques de fibras, prensas, moinhos, varais, depósitos e bairros operários.'),
+    p('valenor','Valenor','valenor','Cidade comercial','Braedar','Território Braedar','Entrepostos, adegas, frutas Leidar, especiarias, conversão de moedas e grandes depósitos.'),
+    p('campos-ardren','Campos de Ardren','campos-ardren','Região agrícola','Braedar','Fronteira Leidar','Campos, criação, plantas fibrosas e povoados marcados por antigas disputas de fronteira.'),
+    p('estrada-duas-origens','Estrada das Duas Origens','estrada-duas-origens','Rota comercial','Braedar','Entre Braedar e Lusdar','Estrada de carroças que transporta papel, medicamentos, recipientes e curadores.'),
+    p('altar-dez-estandares','Altar dos Dez Estandartes','altar-dez-estandares','Arena do Torneio Decenal','Braedar','Cume fora de Braivar','Arena circular de pedra com dez entradas, dez estandartes, arquibancadas em níveis e acampamentos separados.'),
 
-    // Luzdar — noroeste e oeste
-    p('luzhara','Luzhara','luzhara','Capital','Luzdar','Noroeste e oeste','Capital medicinal num vale com canais, jardins em terraços, mercados de ervas, casas de tratamento, escolas e arquivos.'),
-    p('biblioteca-sete-caminhos','Biblioteca dos Sete Caminhos','biblioteca-sete-caminhos','Biblioteca','Luzdar','Luzhara','Principal marco de Luzhara, reunindo arquivos, salas de estudo, professores, tradutores e escribas.'),
-    p('veyl-sar','Seylara','veyl-sar','Cidade das águas','Luzdar','Território Luzdar','Cidade clara e verde, com canais, jardins escalonados, pontes de pedra e piscina pública de água corrente.'),
-    p('jardins-narev','Meraval','jardins-narev','Cidade de jardins medicinais','Luzdar','Território Luzdar','Centro de cultivo, enxertia, sementes medicinais e plantas adaptadas a áreas secas.'),
-    p('orvenar','Orvenar','orvenar','Cidade comercial','Luzdar','Rotas Braidar e Cendar','Mercados de especiarias e perfumes, oficinas de recipientes e postos de inspeção de preparados.'),
-    p('vale-essar','Vale de Namar','vale-essar','Vale protegido','Luzdar','Território Luzdar','Nascentes, pequenas comunidades, áreas pantanosas e locais protegidos de coleta de espécies raras.'),
+    // Lusdar — noroeste e oeste
+    p('luzhara','Lushara','luzhara','Capital','Lusdar','Noroeste e oeste','Capital medicinal num vale com canais, jardins em terraços, mercados de ervas, casas de tratamento, escolas e arquivos.'),
+    p('biblioteca-sete-caminhos','Biblioteca dos Sete Caminhos','biblioteca-sete-caminhos','Biblioteca','Lusdar','Lushara','Principal marco de Lushara, reunindo arquivos, salas de estudo, professores, tradutores e escribas.'),
+    p('veyl-sar','Seylara','veyl-sar','Cidade das águas','Lusdar','Território Lusdar','Cidade clara e verde, com canais, jardins escalonados, pontes de pedra e piscina pública de água corrente.'),
+    p('jardins-narev','Meraval','jardins-narev','Cidade de jardins medicinais','Lusdar','Território Lusdar','Centro de cultivo, enxertia, sementes medicinais e plantas adaptadas a áreas secas.'),
+    p('orvenar','Orvenar','orvenar','Cidade comercial','Lusdar','Rotas Braedar e Cendar','Mercados de especiarias e perfumes, oficinas de recipientes e postos de inspeção de preparados.'),
+    p('vale-essar','Vale de Namar','vale-essar','Vale protegido','Lusdar','Território Lusdar','Nascentes, pequenas comunidades, áreas pantanosas e locais protegidos de coleta de espécies raras.'),
 
     // Grastar — oeste
     p('avarrast','Avarrast','avarrast','Capital','Grastar','Alto planalto ocidental','Capital baixa, larga e presa à pedra por cabos, pesos e redes; pátios, cisternas e ruas protegidas resistem ao vento.'),
