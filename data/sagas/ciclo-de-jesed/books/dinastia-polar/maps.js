@@ -23,14 +23,14 @@
     'jesed-dp-place-queda-aram-zir':    {x:46.5, y:22.0, kind:'nature',  major:false},
     'jesed-dp-place-ruinas-antigas':    {x:37.5, y:12.0, kind:'ruin',    major:false},
 
-    // Braidar — noroeste
+    // Braedar — noroeste
     'jesed-dp-place-braivar':           {x:27.5, y:24.0, kind:'capital', major:true},
     'jesed-dp-place-altar-dez-estandares':{x:31.0,y:17.5,kind:'place',   major:true},
     'jesed-dp-place-seykar':            {x:23.5, y:20.5, kind:'city',    major:false},
     'jesed-dp-place-valenor':           {x:30.5, y:21.5, kind:'city',    major:false},
     'jesed-dp-place-campos-ardren':     {x:27.0, y:21.0, kind:'nature',  major:false},
 
-    // Luzdar — noroeste e oeste
+    // Lusdar — noroeste e oeste
     'jesed-dp-place-luzhara':           {x:19.5, y:33.5, kind:'capital', major:true},
     'jesed-dp-place-veyl-sar':          {x:17.0, y:38.0, kind:'city',    major:false},
     'jesed-dp-place-vale-essar':        {x:15.0, y:41.5, kind:'nature',  major:false},
