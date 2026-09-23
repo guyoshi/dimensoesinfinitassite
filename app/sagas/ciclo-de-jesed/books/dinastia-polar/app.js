@@ -514,7 +514,7 @@ function renderDynasty(slug) {
   }
 
   // ── Lugares ───────────────────────────────────────────────────────────────
-  const dynastyOrder = ['Polar','Leidar','Braidar','Luzdar','Grastar','Cendar','Buldar','Vendrar','Mardrar','Quendrar','—'];
+  const dynastyOrder = ['Polar','Leidar','Braedar','Lusdar','Grastar','Cendar','Buldar','Vendrar','Mardrar','Quendrar','—'];
   const dynastyLabel = d => d === '—' ? 'Sem Dinastia' : `Dinastia ${d}`;
 
   function renderPlaces() {
