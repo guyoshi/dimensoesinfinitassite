@@ -1,6 +1,6 @@
 (()=>{const R=window.RS,{D,st,H,E,media}=R;
 const map={fauna:'fauna',flora:'flora',alimentos:'foods',conceitos:'concepts'};
-const titles={fauna:['Fauna','Animais do céu e da superfície, suas características e citações.'],flora:['Flora','Plantas de Etérea e Nadírion, seus usos e aparições.'],alimentos:['Alimentos','Comidas do céu e recursos que sustentam a sobrevivência.'],conceitos:['Conceitos e leis','Ideias, ritos e instituições que organizam a vida eterí e mudam de significado após a Queda.']};
+const titles={fauna:['Fauna','Animais do céu e da superfície, suas características e citações.'],flora:['Flora','Plantas de Etérea e Nadirion, seus usos e aparições.'],alimentos:['Alimentos','Comidas do céu e recursos que sustentam a sobrevivência.'],conceitos:['Conceitos e leis','Ideias, ritos e instituições que organizam a vida eterí e mudam de significado após a Queda.']};
 const fallback={fauna:'',flora:'',alimentos:'',conceitos:''};
 function itemsFor(k){return D.common?.entities?.[map[k]]||[]}
 function ordered(k){const a=[...itemsFor(k)];return a.sort(st.sort==='count'?(x,y)=>(y.citations||0)-(x.citations||0)||x.name.localeCompare(y.name,'pt-BR'):(x,y)=>x.name.localeCompare(y.name,'pt-BR'))}
