@@ -5,7 +5,7 @@
   "books": {
     "ruinas-dos-ceus": {
       "themes": 10,
-      "galleryItems": 60,
+      "galleryItems": 61,
       "categories": [
         "chapter",
         "character",
@@ -15,7 +15,7 @@
         "place"
       ],
       "clanFilterPresent": false,
-      "inventoryAvailableItems": 60,
+      "inventoryAvailableItems": 61,
       "eventFilterPresent": false
     },
     "guerras-de-sangue": {
