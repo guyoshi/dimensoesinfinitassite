@@ -290,7 +290,7 @@ Se a validação detectar corrupção, referência quebrada ou desaparecimento i
 - Toda ficha de fauna, flora ou alimento deve manter imagem, descrição completa, características, habitat, usos, total de citações e lista de menções.
 - Cada menção deve conservar capítulo, trecho, contexto curto e ligação para o capítulo.
 - Contagens devem considerar singular, plural, variações de acento e hífen, aliases e nomes indiretos somente quando o contexto confirmar a mesma entidade.
-- O Rhaukar de *Ruínas dos Céus* conserva o ID `jesed-fauna-raukhar` e o slug histórico `raukhar`; “Raukhar” permanece alias de grafia.
+- O **Raukhar** de *Ruínas dos Céus* conserva o ID `jesed-fauna-raukhar` e o slug histórico `raukhar`. `Raukhar` é a grafia canônica atual; o identificador técnico antigo não deve ser renomeado.
 - Cartões de listagem não devem receber o texto integral da ficha. Mostrar somente foto, nome, descrição breve e total de citações.
 - Não restaurar filtro por clã em fauna, flora ou alimentos de *Ruínas dos Céus*.
 - Conceitos não devem possuir filtros em nenhum dos dois livros. A criação das fichas clicáveis de conceitos em Ruínas pertence à Etapa 12.
