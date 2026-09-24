@@ -302,3 +302,64 @@ Se a validação detectar corrupção, referência quebrada ou desaparecimento i
 - Os dois livros devem manter `teaser` curto para cartões e `synopsis` editorial completa para a página individual de Livros.
 - Não voltar a usar descrições puramente atmosféricas como sinopse principal.
 - O relatório `data/sagas/ciclo-de-jesed/audits/lore-etapa-11.json` deve continuar válido.
+
+
+## 26. Reforma linguística e nomes canônicos — 24/09/2026
+
+A reforma linguística aprovada no repositório canônico deve aparecer nos **nomes visíveis** do site sem quebrar IDs, slugs, rotas ou caminhos históricos já persistidos.
+
+### Livro 1 — Ruínas dos Céus
+
+Formas visíveis atuais:
+
+- Gabasteres → **Gabasteri**
+- Marv → **Mariv** dentro do recorte eterí e do Livro 1
+- Malthar → **Maletar**
+- Yrséa / Yriséa → **Yrisea**
+- Talver → **Taliver**
+- Nivellia → **Nivelia**
+- Nadírion → **Nadirion**
+- Aelôris → **Aeloris**
+- Rhaukar → **Raukhar**
+
+**Atenção:** Marv continua válido como forma histórica pós-Queda. Não substituir globalmente Marv por Mariv fora da lente do Livro 1.
+
+### Livro 2 — Guerras de Sangue
+
+- Markoso → **Marken**
+- Alesteiro → **Alestir**
+- Rhaukar → **Raukhar**
+
+### Livro 3 — Dinastia Polar
+
+- Braidar → **Braedar**
+- Luzdar → **Lusdar**
+- Luzhara → **Lushara**
+- Rhaukar → **Raukhar**
+
+### Livro 4 — Herdeiros das Cinzas
+
+Quando essas entidades forem incorporadas aos módulos ainda vazios do site, usar:
+
+- Nefestisa → **Nefestra**
+- Kedastos → **Kedran**
+- Jelatérea → **Jelatira**
+- Maltharos → **Maltaren**
+- Klaftresos → **Klafres**
+- Mentesera → **Mentesra**
+- Rhaukar → **Raukhar**
+
+### Compatibilidade obrigatória
+
+- `jesed-character-marv`, `jesed-character-malthar`, `jesed-character-gabasteres`, `jesed-character-yrsea`, `jesed-character-professor-talver`, `jesed-character-markoso`, `jesed-place-nivellia`, `jesed-place-alesteiro`, `jesed-fauna-raukhar` e outros IDs históricos **não devem ser renomeados**.
+- Slugs e caminhos de assets antigos podem permanecer quando necessários para compatibilidade.
+- Manifestos de assets, inventários e auditorias históricas podem conter a grafia antiga quando ela fizer parte de um filename, ID, slug ou fotografia do estado anterior.
+- Textos exibidos ao leitor, fichas, resumos, timeline, trajetórias, relações, mapas e documentação corrente devem usar a forma canônica nova.
+
+### Léxico oficial já sincronizado
+
+- **Nadirion** = nadi + ri + -on, aproximadamente “domínio abaixo” / “região inferior”.
+- **Aeloris** = ael + or + -is, aproximadamente “os soprados pela origem”.
+- **Kaendar** = Kae + -ndar, “fortaleza de Kae”.
+- **khar-** = elemento antigo para cidadela/grande fortificação de pedra.
+- **Levis** foi um estágio linguístico completo; no período de Ruínas dos Céus permanece principalmente como língua clássica e ritual.
