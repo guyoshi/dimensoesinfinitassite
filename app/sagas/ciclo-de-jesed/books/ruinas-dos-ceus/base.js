@@ -28,7 +28,8 @@ const charImage=name=>`assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/${
 const placeImage=name=>`assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/${placeFiles[name]||S(name)}.webp`;
 const initials=name=>String(name).split(' ').map(x=>x[0]).filter(Boolean).slice(0,2).join('');
 const media=(src,alt,fallback,cls='',extra='')=>`<div class="${cls}"${extra}><img src="${E(src)}" alt="${E(alt)}" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><b class="media-fallback" hidden>${E(fallback)}</b></div>`;
-const st={route:'',tab:'geral',q:'',sort:'alpha',unused:false,mapPhase:'eterea'},H=(k,t,s='',x='')=>`<div class="head"><div><p class="eyebrow">${E(k)}</p><h1>${E(t)}</h1><p>${E(s)}</p></div>${x}</div>`,go=r=>location.hash='#/'+r,find=(a,id)=>a.find(x=>S(x.n)===id||x.n===id),err=()=>'<div class="empty"><h2>Página não encontrada</h2></div>';
+const LEGACY_ROUTE_SLUGS={'marv':'mariv','malthar':'maletar','gabasteres':'gabasteri','yrsea':'yrisea','professor-talver':'professor-taliver','nivellia':'nivelia'};
+const st={route:'',tab:'geral',q:'',sort:'alpha',unused:false,mapPhase:'eterea'},H=(k,t,s='',x='')=>`<div class="head"><div><p class="eyebrow">${E(k)}</p><h1>${E(t)}</h1><p>${E(s)}</p></div>${x}</div>`,go=r=>location.hash='#/'+r,find=(a,id)=>{const resolved=LEGACY_ROUTE_SLUGS[id]||id;return a.find(x=>S(x.n)===resolved||x.n===resolved||x.n===id);},err=()=>'<div class="empty"><h2>Página não encontrada</h2></div>';
 function crumbSegments(){
   const [b,id]=st.route.split('/');
   const detailParents={
