@@ -251,8 +251,8 @@ Capturas de revisão:
 ### Família e organizações
 
 - *Ruínas dos Céus* exibe somente a família **Os Amaréa**, com Yoral, Mirel, Jokara, Nestira e Loutes como criança acolhida;
-- a ficha contém vida familiar, casa em Nivellia, crenças, Sopro e Peso, perda de Yoral, diferenças entre as irmãs, acolhimento de Loutes e importância para a Queda;
-- Ruínas possui quatro organizações reais: Oradores da Corrente, Ecoantes, Tecelões de Vento e sobreviventes de Nadírion;
+- a ficha contém vida familiar, casa em Nivelia, crenças, Sopro e Peso, perda de Yoral, diferenças entre as irmãs, acolhimento de Loutes e importância para a Queda;
+- Ruínas possui quatro organizações reais: Oradores da Corrente, Ecoantes, Tecelões de Vento e sobreviventes de Nadirion;
 - *Guerras de Sangue* mantém três famílias e três organizações, agora com imagens, função, atuação, temas e membros clicáveis.
 
 ### Atmosfera baseada em imagens
@@ -316,7 +316,7 @@ Capturas:
 - foram localizadas 612 citações: 149 em *Ruínas dos Céus* e 463 em *Guerras de Sangue*;
 - cada citação possui capítulo, trecho, contexto curto e ligação para o capítulo;
 - singular, plural, acentos, hífens, aliases e nomes indiretos foram considerados;
-- a Fera do primeiro livro permanece identificada como Rhaukar, preservando o ID e o slug históricos `raukhar`;
+- a Fera do primeiro livro usa a grafia canônica **Raukhar**, preservando o ID `jesed-fauna-raukhar` e o slug histórico `raukhar`;
 - as listagens mostram somente imagem, nome, descrição breve e total de citações;
 - as fichas mostram descrição completa, características, habitat, usos, relações com povos ou clãs quando aplicável e lista integral de menções;
 - filtros visíveis foram removidos de fauna, flora e alimentos em Ruínas e de Conceitos nos dois livros;
