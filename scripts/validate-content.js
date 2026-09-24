@@ -410,7 +410,7 @@ function validateStage11LoreClockAndSynopses(){
       }
     }
   }
-  const rhaukar=models['ruinas-dos-ceus']?.entities?.fauna?.find(item=>item.id==='jesed-fauna-raukhar');
+  const raukhar=models['ruinas-dos-ceus']?.entities?.fauna?.find(item=>item.id==='jesed-fauna-raukhar');
   if(!raukhar||raukhar.name!=='Raukhar'||raukhar.slug!=='raukhar')errors.push('Etapa 11: identidade histórica/canônica do Raukhar não foi preservada.');
   const ruLore=fs.readFileSync(path.join(root,'app/sagas/ciclo-de-jesed/books/ruinas-dos-ceus/pages/lore.js'),'utf8');
   if(ruLore.includes('data-unused'))errors.push('Etapa 11: filtro de itens não citados voltou à interface de Ruínas.');
