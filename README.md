@@ -1,6 +1,14 @@
 # Dimensões Infinitas — site pessoal
 
-Versão estrutural: **0.16.1 — Etapa 16 concluída e correções visuais aplicadas**.
+Versão estrutural: **0.17.1 — Etapa 16 concluída, organização 0.17 preservada e cânone linguístico sincronizado**.
+
+## Atualização 0.17.1 — reforma linguística
+
+- nomes visíveis de *Ruínas dos Céus*, *Guerras de Sangue* e *Dinastia Polar* sincronizados com a reforma linguística do repositório canônico;
+- IDs, slugs e caminhos históricos preservados para compatibilidade;
+- grafia canônica atual: Raukhar, Nadirion, Aeloris, Yrisea, Taliver, Nivelia, Gabasteri, Maletar, Mariv, Marken, Alestir, Braedar, Lusdar e Lushara;
+- etimologias oficiais de Nadirion, Aeloris, Kaendar e khar- incorporadas às fichas existentes;
+- regras internas e validador atualizados para impedir regressões de grafia.
 
 ## Correção 0.16.1
 
