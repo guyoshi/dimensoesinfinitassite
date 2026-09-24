@@ -44,7 +44,7 @@ for(const [bookId,model] of Object.entries(models)){
 const rdc=models['ruinas-dos-ceus'];
 const expectedTitles={11:'Sobrevivência',12:'O Homem no Riacho',15:'O Peso do Silêncio',21:'A Leveza e o Peso',25:'O Vale'};
 for(const [number,title] of Object.entries(expectedTitles)){const ch=rdc.entities.chapters.find(x=>x.number===Number(number));if(ch?.title!==title)errors.push(`Ruínas: capítulo ${number} deveria ser “${title}”, encontrado “${ch?.title}”.`);}
-const rhaukar=rdc.entities.fauna.find(x=>x.id==='jesed-fauna-raukhar');if(!rhaukar)errors.push('Ruínas: ID histórico do Rhaukar desapareceu.');else{if(rhaukar.name!=='Rhaukar')errors.push(`Ruínas: nome canônico do Rhaukar incorreto (${rhaukar.name}).`);if(rhaukar.slug!=='raukhar')errors.push('Ruínas: slug histórico raukhar não foi preservado.');}
+const raukhar=rdc.entities.fauna.find(x=>x.id==='jesed-fauna-raukhar');if(!raukhar)errors.push('Ruínas: ID histórico do Raukhar desapareceu.');else{if(raukhar.name!=='Raukhar')errors.push(`Ruínas: nome canônico do Raukhar incorreto (${raukhar.name}).`);if(raukhar.slug!=='raukhar')errors.push('Ruínas: slug histórico raukhar não foi preservado.');}
 const gs=gc.DI_DATA;if(gs){const o=gs.mysteries?.find(x=>x.id==='jesed-mystery-orionus');if(!o?.answer?.includes('Ylvena pretendia envenenar Alyra'))errors.push('Guerras: verdade da morte de Orionus não está preservada.');}
 const allowedRelations=new Set(['ocorre','citado','recordado','revelado','investigado','consequencia']);
 function validateTimeline(bookId,model,expectedCount){
@@ -411,7 +411,7 @@ function validateStage11LoreClockAndSynopses(){
     }
   }
   const rhaukar=models['ruinas-dos-ceus']?.entities?.fauna?.find(item=>item.id==='jesed-fauna-raukhar');
-  if(!rhaukar||rhaukar.name!=='Rhaukar'||rhaukar.slug!=='raukhar')errors.push('Etapa 11: identidade histórica/canônica do Rhaukar não foi preservada.');
+  if(!raukhar||raukhar.name!=='Raukhar'||raukhar.slug!=='raukhar')errors.push('Etapa 11: identidade histórica/canônica do Raukhar não foi preservada.');
   const ruLore=fs.readFileSync(path.join(root,'app/sagas/ciclo-de-jesed/books/ruinas-dos-ceus/pages/lore.js'),'utf8');
   if(ruLore.includes('data-unused'))errors.push('Etapa 11: filtro de itens não citados voltou à interface de Ruínas.');
   if(ruLore.includes('data-go="conceitos/'))errors.push('Etapa 11: conceitos de Ruínas foram antecipadamente transformados em fichas individuais.');
