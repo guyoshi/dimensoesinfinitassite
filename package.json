@@ -1,6 +1,6 @@
 {
   "name": "dimensoes-infinitas",
-  "version": "0.17.0",
+  "version": "0.17.1",
   "private": true,
   "description": "Dimensões Infinitas — organização canónica de assets, correcções de Guerras de Sangue e navegação entre livros.",
   "scripts": {
