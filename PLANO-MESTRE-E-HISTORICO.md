@@ -12,8 +12,8 @@
 - **Livros atualmente disponíveis:**
   - *Ruínas dos Céus* — Livro I — 24 capítulos — concluído.
   - *Guerras de Sangue* — Livro II — 29 capítulos — concluído.
-- **Versão estrutural atual:** Etapa 16 concluída, com correções de navegação, contraste e carregamento visual — pacote 0.16.1.
-- **Última atualização deste documento:** 20 de setembro de 2026.
+- **Versão estrutural atual:** Etapa 16 concluída, organização 0.17 preservada e cânone linguístico sincronizado — pacote 0.17.1.
+- **Última atualização deste documento:** 24 de setembro de 2026.
 
 ---
 
@@ -2514,3 +2514,25 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 
 - Conferidos 122 caminhos de imagens referenciadas, 36 capítulos e 33 retratos ligados a personagens, sem arquivos ausentes; capítulos, fichas de personagens, lugares, fauna e galeria foram abertos no navegador local.
 - As fichas e a lista de fauna agora exibem suas artes, e os novos personagens foram vinculados às dinastias correspondentes quando cadastradas.
+
+
+### 2026-09-24 — Sincronização linguística e nominal com o repositório canônico
+
+- O autor solicitou sincronização direta do site com as alterações recentes de nomes, grafias e léxico feitas em `guyoshi/dimensoesinfinitas`.
+- *Ruínas dos Céus*: nomes visíveis atualizados para **Gabasteri, Mariv, Maletar, Yrisea, Taliver, Nivelia, Nadirion, Aeloris e Raukhar**.
+- *Guerras de Sangue*: nomes visíveis atualizados para **Marken, Alestir e Raukhar**.
+- *Dinastia Polar*: nomes visíveis atualizados para **Braedar, Lusdar, Lushara e Raukhar**.
+- *Herdeiros das Cinzas*: módulos de conteúdo ainda permanecem vazios; as formas oficiais **Nefestra, Kedran, Jelatira, Maltaren, Klafres, Mentesra e Raukhar** foram registradas em `AI_UPDATE_RULES.md` para uso quando essas entidades forem incorporadas ao site.
+- **Mariv** é a forma usada no recorte eterí/Livro 1. **Marv** continua válido como forma histórica pós-Queda e não deve sofrer substituição global.
+- IDs e slugs históricos foram preservados, incluindo `jesed-character-marv`, `jesed-character-malthar`, `jesed-character-gabasteres`, `jesed-character-yrsea`, `jesed-character-professor-talver`, `jesed-character-markoso`, `jesed-place-nivellia`, `jesed-place-alesteiro` e `jesed-fauna-raukhar`.
+- Caminhos históricos de assets e nomes físicos de arquivos permanecem quando necessários para evitar referências quebradas.
+- O validador foi alterado para exigir **Raukhar** como nome canônico visível enquanto preserva o ID e o slug históricos `raukhar`.
+- Etimologias oficiais sincronizadas nas fichas existentes:
+  - **Nadirion = nadi + ri + -on**;
+  - **Aeloris = ael + or + -is**;
+  - **Kaendar = Kae + -ndar**;
+  - **khar-** = cidadela / grande fortificação de pedra;
+  - **Levis** registrado corretamente como estágio linguístico completo que permanece clássico/ritual no período eterí.
+- Documentação corrente atualizada. Auditorias históricas, manifestos de assets, filenames e IDs podem preservar grafias antigas quando funcionarem como registro histórico ou identificador técnico.
+- Nenhum conteúdo do Livro 5 foi reinterpretado ou atualizado nesta sincronização.
+- Versão do pacote elevada para **0.17.1**.
