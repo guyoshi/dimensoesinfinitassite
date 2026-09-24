@@ -49,7 +49,7 @@ Para imagens transparentes, preserve canal alfa. Para imagens opacas, cubra toda
 | `assets/shared/reference/oradores-da-corrente.webp` | 1600 × 900 px | Não | Imagem de ambiente ou grupo dos Oradores da Corrente. |
 | `assets/shared/reference/ecoantes.webp` | 1600 × 900 px | Não | Imagem de ambiente ou grupo dos Ecoantes. |
 | `assets/shared/reference/teceloes-de-vento.webp` | 1600 × 900 px | Não | Imagem de ambiente ou grupo dos Tecelões de Vento. |
-| `assets/shared/reference/sobreviventes-de-nadirion.webp` | 1600 × 900 px | Não | Imagem de ambiente ou grupo dos sobreviventes de Nadírion. |
+| `assets/shared/reference/sobreviventes-de-nadirion.webp` | 1600 × 900 px | Não | Imagem de ambiente ou grupo dos sobreviventes de Nadirion. |
 | `assets/shared/reference/casa-soberana-orionus.webp` | 1600 × 900 px | Não | Imagem principal da casa soberana de Orionus. |
 | `assets/shared/reference/familia-rendar.webp` | 1600 × 900 px | Não | Imagem principal da família de Rendar. |
 | `assets/shared/reference/origem-daryon.webp` | 1600 × 900 px | Não | Imagem da origem familiar ocultada de Daryon em Noreval. |
