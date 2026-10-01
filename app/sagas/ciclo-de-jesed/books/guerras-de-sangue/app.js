@@ -75,10 +75,6 @@
     set(key, value) { try { localStorage.setItem(key, value); } catch {} }
   };
 
-  // O site deve abrir sempre em modo desempenho em mobile, em qualquer página do livro.
-  const isMobileDevice = matchMedia("(max-width: 760px)").matches;
-  if (isMobileDevice) storage.set("di-guerras-customized", "0");
-
   const state = {
     route: "portal",
     sidebarCollapsed: storage.get("di-sidebar-collapsed") === "1",
@@ -93,16 +89,7 @@
     loreFilter: "all",
     loreView: storage.get("di-lore-view") || "grid",
     timelineSelection: storage.get("di-gs-timeline-selection") || "",
-    settings: isMobileDevice ? {
-      preset: "performance",
-      particles: false,
-      transitions: false,
-      textures: false,
-      blur: false,
-      shadows: false,
-      motion: false,
-      particleAmount: Number(storage.get("di-particle-amount") || 22)
-    } : {
+    settings: {
       preset: storage.get("di-preset") || "normal",
       particles: storage.get("di-particles") !== "0",
       transitions: storage.get("di-transitions") !== "0",
