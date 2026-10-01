@@ -9,10 +9,7 @@
   const getNum=(key,min=0,max=100)=>X.num(P+key,defaults[key],min,max);
   function setDefault(key,value){if(X.storage.get(P+key)===null)X.storage.set(P+key,typeof value==='boolean'?(value?'1':'0'):value)}
   Object.entries(defaults).forEach(([k,v])=>setDefault(k,v));
-  if(X.weakDevice&&X.storage.get(P+'auto-reduced')!=='0'){
-    if(X.storage.get(P+'cloud-density')===String(defaults['cloud-density']))X.storage.set(P+'cloud-density','42');
-    if(X.mobile)X.storage.set(P+'near-mist','0');
-  }
+  // Mobile/weakDevice preserva todas as camadas; buildClouds reduz a densidade em tempo de renderização.
 
   const atmosphere=document.createElement('div');
   atmosphere.id='ruinasAtmosphere';atmosphere.className='ruinas-atmosphere';atmosphere.setAttribute('aria-hidden','true');
