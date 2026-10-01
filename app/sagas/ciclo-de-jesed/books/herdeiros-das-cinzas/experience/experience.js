@@ -4,7 +4,7 @@
   const defaults={ash:true,shadows:true,smoke:true,'ash-front':true,'ash-density':64,'motion-intensity':46,'effect-opacity':90};
   const getBool=k=>X.bool(P+k,defaults[k]),getNum=(k,min=0,max=100)=>X.num(P+k,defaults[k],min,max);
   Object.entries(defaults).forEach(([k,v])=>{if(X.storage.get(P+k)===null)X.storage.set(P+k,typeof v==='boolean'?(v?'1':'0'):v)});
-  if(X.weakDevice&&X.storage.get(P+'auto-reduced')!=='0'){if(X.storage.get(P+'ash-density')===String(defaults['ash-density']))X.storage.set(P+'ash-density','24')}
+  // maxParticles reduz a densidade em weakDevice sem desligar nem persistir uma versão empobrecida da atmosfera.
 
   /* ---- Cinzas a cair: flocos irregulares, lentos, com balanço e rotação (duas camadas: atrás e à frente do conteúdo) ---- */
   const back=document.createElement('canvas'),front=document.createElement('canvas');
