@@ -16,6 +16,19 @@
   // continua reduzindo densidade e movimentos caros nos renderizadores, sem
   // desligar nuvens/partículas nem forçar o modo desempenho.
   const weakDevice=(navigator.hardwareConcurrency&&navigator.hardwareConcurrency<=4)||(navigator.deviceMemory&&navigator.deviceMemory<=4)||mobile||saveData||slowConnection;
+  // Migração do antigo mobile em modo desempenho. Esses valores eram gravados automaticamente,
+  // então restauramos uma vez os defaults visuais e deixamos o runtime reduzir só a carga de renderização.
+  if(mobile&&storage.get('di-mobile-effects-v2')!=='1'){
+    const restore=[
+      ['di-ruinas-cloud-density','42','86'],['di-ruinas-near-mist','0','1'],
+      ['di-polar-dust-density','26','70'],
+      ['di-guerras-ember-density','34','92'],['di-guerras-front-particles','0','1'],
+      ['di-cinzas-ash-density','24','64'],
+      ['je-dust-sand-density','22','65']
+    ];
+    restore.forEach(([key,legacy,next])=>{if(storage.get(key)===legacy)storage.set(key,next)});
+    storage.set('di-mobile-effects-v2','1');
+  }
   function toast(message){
     let node=document.getElementById('experienceToast');
     if(!node){node=document.createElement('div');node.id='experienceToast';node.className='experience-toast';node.setAttribute('role','status');node.setAttribute('aria-live','polite');document.body.append(node)}
