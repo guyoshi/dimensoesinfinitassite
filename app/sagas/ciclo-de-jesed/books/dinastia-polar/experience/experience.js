@@ -4,7 +4,7 @@
   const defaults={dust:true,glints:true,shadows:true,lights:true,smoke:true,'ring-motion':true,'dust-front':true,'dust-density':70,'motion-intensity':46,'effect-opacity':92};
   const getBool=k=>X.bool(P+k,defaults[k]),getNum=(k,min=0,max=100)=>X.num(P+k,defaults[k],min,max);
   Object.entries(defaults).forEach(([k,v])=>{if(X.storage.get(P+k)===null)X.storage.set(P+k,typeof v==='boolean'?(v?'1':'0'):v)});
-  if(X.weakDevice&&X.storage.get(P+'auto-reduced')!=='0'){if(X.storage.get(P+'dust-density')===String(defaults['dust-density']))X.storage.set(P+'dust-density','26')}
+  // maxParticles reduz a densidade em weakDevice sem desligar nem persistir uma versão empobrecida da atmosfera.
 
   /* ---- Poeira fina, lenta e descendente (duas camadas: atrás e à frente do conteúdo) ---- */
   const back=document.createElement('canvas'),front=document.createElement('canvas');
