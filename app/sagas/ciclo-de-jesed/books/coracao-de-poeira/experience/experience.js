@@ -4,7 +4,7 @@
   const defaults={sand:true,spiral:true,shadows:true,lights:true,haze:true,'sand-front':true,'sand-density':65,'motion-intensity':38,'effect-opacity':86};
   const getBool=k=>X.bool(P+k,defaults[k]),getNum=(k,min=0,max=100)=>X.num(P+k,defaults[k],min,max);
   Object.entries(defaults).forEach(([k,v])=>{if(X.storage.get(P+k)===null)X.storage.set(P+k,typeof v==='boolean'?(v?'1':'0'):v)});
-  if(X.weakDevice&&X.storage.get(P+'auto-reduced')!=='0'){if(X.storage.get(P+'sand-density')===String(defaults['sand-density']))X.storage.set(P+'sand-density','22')}
+  // maxParticles reduz a densidade em weakDevice sem desligar nem persistir uma versão empobrecida da atmosfera.
 
   /* ---- Grãos de areia e poeira (duas camadas) ---- */
   const back=document.createElement('canvas'),front=document.createElement('canvas');
