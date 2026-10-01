@@ -10,7 +10,7 @@
   }
   const readySprite=(type,index=0)=>{const list=particleSprites[type]||[];const image=list[index%Math.max(1,list.length)];return image?.complete&&image.naturalWidth?image:null};
   Object.entries(defaults).forEach(([k,v])=>{if(X.storage.get(P+k)===null)X.storage.set(P+k,typeof v==='boolean'?(v?'1':'0'):v)});
-  if(X.weakDevice&&X.storage.get(P+'auto-reduced')!=='0'){if(X.storage.get(P+'ember-density')===String(defaults['ember-density']))X.storage.set(P+'ember-density','34');if(X.mobile)X.storage.set(P+'front-particles','0')}
+  // maxParticles reduz a densidade em weakDevice; partículas frontais continuam disponíveis no mobile.
 
   const back=document.createElement('canvas'),front=document.createElement('canvas'),clouds=document.createElement('div');
   back.id='warParticleBack';front.id='warParticleFront';clouds.className='war-night-clouds';back.setAttribute('aria-hidden','true');front.setAttribute('aria-hidden','true');clouds.setAttribute('aria-hidden','true');
