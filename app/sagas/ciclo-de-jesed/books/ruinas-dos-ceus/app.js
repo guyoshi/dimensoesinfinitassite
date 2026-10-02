@@ -30,6 +30,7 @@
       if(veil){veil.classList.remove('active');void veil.offsetWidth;veil.classList.add('active');}
     }
     $('#main').innerHTML=page();
+    requestAnimationFrame(()=>window.DI_BETA_FEEDBACK?.mount($('#main')));
     if(base==='mapa') requestAnimationFrame(()=>R.mountMap?.());
     if(base==='galeria') requestAnimationFrame(()=>window.DI_GALLERY?.mount($('#main')));
     if(base==='linha'&&!id){
