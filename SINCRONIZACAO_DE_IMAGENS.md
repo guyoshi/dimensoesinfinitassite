@@ -2,13 +2,13 @@
 
 As imagens canônicas dos livros ficam nas pastas `Ciclo de Jesed/<livro>/02 - Assets` da cópia local de **Dimensões Infinitas**. O site guarda cópias WebP para publicação; um site público não consegue ler diretamente os arquivos do OneDrive do computador.
 
-O arquivo `data/common/book-assets-source-map.json` liga **276 imagens** do site às respectivas fontes. Ao publicar imagens pelo comando abaixo, o programa detecta quais fontes mudaram, atualiza as cópias WebP e os inventários do site, cria um commit apenas com essas alterações e envia o site ao GitHub:
+O arquivo `data/common/book-assets-source-map.json` liga **276 imagens** do site às respectivas fontes. Para publicar, dê um clique duplo em **`PUBLICAR_IMAGENS.cmd`** na pasta `Site`. O programa detecta quais fontes mudaram, atualiza as cópias WebP e os inventários do site, cria um commit apenas com essas alterações e envia o site ao GitHub. Também pode ser executado pelo terminal:
 
 ```powershell
 python scripts/publicar_imagens.py
 ```
 
-Execute o comando dentro da pasta `Site`, com a branch `main` e sem outras alterações locais pendentes. Se o GitHub estiver indisponível, o commit local é preservado; execute o comando novamente quando a conexão voltar. Antes de publicar, é possível apenas conferir o que mudaria:
+Execute com a branch `main` e sem outras alterações locais pendentes. Se o GitHub estiver indisponível, o commit local é preservado; execute novamente quando a conexão voltar. Antes de publicar, é possível apenas conferir o que mudaria:
 
 ```powershell
 python scripts/sync_book_assets.py --check
