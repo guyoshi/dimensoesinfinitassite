@@ -30,7 +30,7 @@
   };
 
   const audio = new Audio();
-  audio.loop = false;
+  audio.loop = true;
   audio.preload = 'metadata';
 
   let enabled = read(storage.enabled, 'true') === 'true';
@@ -45,7 +45,6 @@
   let missing = false;
   let waitingForGesture = false;
   let gestureArmed = false;
-  let seamlessAdvance = false;
   let player;
   let powerButton;
   let muteButton;
@@ -167,21 +166,16 @@
     if(!enabled || missing || !currentTrack || !audio.getAttribute('src')) return;
     waitingForGesture = false;
     clearFade();
-    const skipFade = seamlessAdvance;
-    seamlessAdvance = false;
-    audio.volume = skipFade ? volume : 0;
+    audio.volume = 0;
     const promise = audio.play();
     if(promise && typeof promise.catch === 'function'){
-      promise.then(() => {
-        if(!skipFade) fadeTo(volume, FADE_MS);
-        updateUi();
-      }).catch(() => {
+      promise.then(() => { fadeTo(volume, FADE_MS); updateUi(); }).catch(() => {
         audio.volume = volume;
         waitingForGesture = true;
         armGestureResume();
         updateUi();
       });
-    }else if(!skipFade){
+    }else{
       fadeTo(volume, FADE_MS);
     }
     updateUi();
@@ -262,12 +256,6 @@
     updateUi();
   });
 
-  audio.addEventListener('ended', () => {
-    if(!enabled || !currentFiles.length) return;
-    sourceIndex = (sourceIndex + 1) % currentFiles.length;
-    seamlessAdvance = true;
-    setSource();
-  });
   audio.addEventListener('play', updateUi);
   audio.addEventListener('pause', updateUi);
   audio.addEventListener('volumechange', updateUi);
