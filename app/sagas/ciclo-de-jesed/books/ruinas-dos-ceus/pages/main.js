@@ -66,6 +66,9 @@ function capitulo(id){
   const idx=EV.findIndex(x=>x[0]===c.n);
   const causa=idx>0?EV[idx-1][1]:(idx===0?'A estabilidade aparente de Etérea.':null);
   const previous=D.chapters[c.n-2],next=D.chapters[c.n];
+  const beta=window.DI_BETA_FEEDBACK;
+  const chapterFeedback=beta?.chapterHtml?beta.chapterHtml({bookId:'ruinas-dos-ceus',bookTitle:'Ruínas dos Céus',chapter:c.n,chapterTitle:c.t}):'';
+  const bookFeedback=!next&&beta?.bookHtml?beta.bookHtml({bookId:'ruinas-dos-ceus',bookTitle:'Ruínas dos Céus'}):'';
   const navigation=`<nav class="chapter-pagination chapter-pagination-top" aria-label="Navegação entre capítulos">${previous?`<button class="secondary-button" data-go="capitulo/${previous.n}">← Capítulo ${previous.n}<small>${E(previous.t)}</small></button>`:`<button class="secondary-button" disabled>Primeiro capítulo</button>`}${next?`<button class="primary-button" data-go="capitulo/${next.n}">Capítulo ${next.n} →<small>${E(next.t)}</small></button>`:`<button class="secondary-button" disabled>Último capítulo</button>`}</nav>`;
   return `<button class="back" data-go="capitulos">← Voltar</button>${navigation}
     <section class="chapter-hero-panel ${c.img?'has-art':''}">${c.img?`<img src="${encodeURI(c.img)}" alt="">`:''}<div><p class="eyebrow">Resumo rápido${ev?` · ${E(ev[1])}`:''}</p><h2>${E(c.s)}</h2>${causa?`<div class="tags"><span class="tag">Vem de: ${E(causa)}</span></div>`:''}</div></section>
@@ -76,6 +79,6 @@ function capitulo(id){
         <article class="panel section-card"><h3>Lugares</h3><div class="mini-related-list">${places.length?places.map(p=>miniEntity(p.name,p.type||'Lugar',`lugar/${p.slug}`)).join(''):'<p class="empty-inline">Nenhum lugar ligado.</p>'}</div></article>
         ${events.length?`<article class="panel section-card"><h3>Linha do Tempo</h3><div class="mini-related-list">${events.map(e=>miniEntity(e.name,e.category||'Acontecimento',`linha/${e.slug}`)).join('')}</div></article>`:''}
       </aside>
-    </section>`;
+    </section>${chapterFeedback}${bookFeedback}${navigation.replace('chapter-pagination-top','chapter-pagination-bottom')}`;
 }
 R.pages={inicio,capitulos,capitulo,livros,livro};})();
