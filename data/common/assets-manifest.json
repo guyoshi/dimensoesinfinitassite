@@ -942,8 +942,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 292656,
-      "sha256": "29e44108466dd1209e18ce5ae80d099e9f8e19031d8f3460478843176cab2055"
+      "sizeBytes": 348294,
+      "sha256": "0dd9f834e68647fa45ea94c2425a5f824a745042cd27009efcba7af264da400c"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-07.webp",
@@ -1002,8 +1002,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 335752,
-      "sha256": "d56f267824ca26084fc5ba26bb1e97f9370174ad4e98c9f869424a9b7a6495b4"
+      "sizeBytes": 388726,
+      "sha256": "98337cc7cf0456e6e2817756c8aec6cb23a3da9b922feea0550de413f044ca77"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-13.webp",
@@ -1160,10 +1160,10 @@
       "filename": "jokara.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 119884,
-      "sha256": "4b51bf7ac07fa141c5d7eda7a8a98a2ca40b80746061ff319a1a0ae8523356c7"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 188532,
+      "sha256": "b669606688998260fdc013191996910eba4f7803546fd79780bc6c3fc4e9cb6a"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/liri.webp",
@@ -1291,9 +1291,9 @@
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus",
       "extension": ".webp",
       "width": 1024,
-      "height": 1536,
-      "sizeBytes": 268496,
-      "sha256": "71d82eb2c5cd861ea5f9808357c04cca400dd27d518637e52d87c841788a223e"
+      "height": 1535,
+      "sizeBytes": 483700,
+      "sha256": "a126d8cf5fe80869ea5c7408227f88824b740d9d509de44f9d813a56da3953aa"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-combined.webp",
