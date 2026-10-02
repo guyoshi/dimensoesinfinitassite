@@ -12,10 +12,12 @@ window.BOOK_MUSIC_CONFIG = Object.freeze({
         "assets/books/ciclo-de-jesed/ruinas-dos-ceus/ambient/capitulos-08-09.mp3"
       ],
       "10-11": [
-        "assets/books/ciclo-de-jesed/ruinas-dos-ceus/ambient/capitulos-10-11-populous.mp3"
+        "assets/books/ciclo-de-jesed/ruinas-dos-ceus/ambient/capitulos-10-11-populous-part1.mp3",
+        "assets/books/ciclo-de-jesed/ruinas-dos-ceus/ambient/capitulos-10-11-populous-part2.mp3"
       ],
       "12-24": [
-        "assets/books/ciclo-de-jesed/ruinas-dos-ceus/ambient/capitulos-12-24-soul-serenity.mp3"
+        "assets/books/ciclo-de-jesed/ruinas-dos-ceus/ambient/capitulos-12-24-soul-serenity-part1.mp3",
+        "assets/books/ciclo-de-jesed/ruinas-dos-ceus/ambient/capitulos-12-24-soul-serenity-part2.mp3"
       ]
     }
   },
