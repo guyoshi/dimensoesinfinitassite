@@ -11,6 +11,23 @@
   const write = (key, value) => { try { localStorage.setItem(key, String(value)); } catch {} };
   const clamp = value => Math.max(0, Math.min(1, Number(value) || 0));
   const detectBook = () => document.body.dataset.book || (location.pathname.includes('ruinas') ? 'ruinas-dos-ceus' : 'guerras-de-sangue');
+  const detectChapter = () => {
+    const match = location.hash.match(/^#\/?capitulo\/(\d+)/);
+    return match ? Number(match[1]) : null;
+  };
+  const filesForChapter = (track, chapter) => {
+    if(!track) return [];
+    if(Number.isFinite(chapter) && track.chapterFiles){
+      for(const [range, files] of Object.entries(track.chapterFiles)){
+        const match = String(range).match(/^(\d+)(?:-(\d+))?$/);
+        if(!match) continue;
+        const from = Number(match[1]);
+        const to = Number(match[2] || match[1]);
+        if(chapter >= from && chapter <= to) return Array.isArray(files) ? files : [files];
+      }
+    }
+    return Array.isArray(track.files) ? track.files : [];
+  };
 
   const audio = new Audio();
   audio.loop = true;
@@ -21,6 +38,8 @@
   let lastAudibleVolume = volume > 0 ? volume : 0.35;
   let currentBook = '';
   let currentTrack = null;
+  let currentFiles = [];
+  let currentContextKey = '';
   let sourceIndex = 0;
   let ready = false;
   let missing = false;
@@ -165,7 +184,7 @@
   function setSource(){
     ready = false;
     missing = false;
-    const file = currentTrack?.files?.[sourceIndex];
+    const file = currentFiles[sourceIndex];
     if(!file){
       missing = true;
       updateUi();
@@ -176,18 +195,23 @@
     updateUi();
   }
 
-  function applyBook(force=false){
+  function applyContext(force=false){
     const book = detectBook();
-    if(!force && book === currentBook) return;
+    const track = config[book] || null;
+    const files = filesForChapter(track, detectChapter());
+    const nextContextKey = book + '::' + files.join('|');
+    if(!force && nextContextKey === currentContextKey) return;
     const wasPlaying = !force && enabled && !audio.paused && !!audio.getAttribute('src');
     currentBook = book;
-    currentTrack = config[book] || null;
+    currentTrack = track;
+    currentFiles = files;
+    currentContextKey = nextContextKey;
     sourceIndex = 0;
     missing = false;
     if(titleNode) titleNode.textContent = currentTrack?.title || 'Música do livro';
     const swap = () => {
       clearSource();
-      if(enabled && currentTrack) setSource();
+      if(enabled && currentTrack && currentFiles.length) setSource();
       else updateUi();
     };
     if(wasPlaying) fadeTo(0, FADE_MS, swap);
@@ -221,7 +245,7 @@
   });
 
   audio.addEventListener('error', () => {
-    if(currentTrack && sourceIndex < currentTrack.files.length - 1){
+    if(currentTrack && sourceIndex < currentFiles.length - 1){
       sourceIndex += 1;
       setSource();
       return;
@@ -238,8 +262,9 @@
 
   function init(){
     buildPlayer();
-    applyBook(true);
-    new MutationObserver(() => applyBook()).observe(document.body,{attributes:true,attributeFilter:['data-book']});
+    applyContext(true);
+    new MutationObserver(() => applyContext()).observe(document.body,{attributes:true,attributeFilter:['data-book']});
+    window.addEventListener('hashchange', () => applyContext());
   }
 
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, {once:true});

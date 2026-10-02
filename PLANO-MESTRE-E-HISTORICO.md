@@ -2536,3 +2536,16 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - Documentação corrente atualizada. Auditorias históricas, manifestos de assets, filenames e IDs podem preservar grafias antigas quando funcionarem como registro histórico ou identificador técnico.
 - Nenhum conteúdo do Livro 5 foi reinterpretado ou atualizado nesta sincronização.
 - Versão do pacote elevada para **0.17.1**.
+
+
+## Atualização pontual — 02/10/2026 — trilhas por capítulo em Ruínas dos Céus
+
+- A música ambiente de *Ruínas dos Céus* passou a variar conforme o capítulo, preservando o player global, volume, mute, autoplay condicionado à política do navegador e fade entre faixas.
+- Capítulos 1–7: `assets/books/ciclo-de-jesed/ruinas-dos-ceus/audio.mp3` (trilha já usada pelo site).
+- Capítulos 8–9: `ambient/capitulos-08-09.mp3`.
+- Capítulos 10–11: `ambient/capitulos-10-11-populous.mp3`.
+- Capítulos 12–24: `ambient/capitulos-12-24-soul-serenity.mp3`.
+- O player não reinicia a faixa ao navegar entre capítulos que compartilham o mesmo áudio.
+- Os três novos arquivos foram otimizados para entrega web sem alterar a duração do conteúdo.
+- Arquivos funcionais atualizados: `app/shared/book-music/config.js` e `app/shared/book-music/player.js`.
+- IDs canônicos alterados: **0**.
