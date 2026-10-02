@@ -2549,3 +2549,16 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - Os três novos arquivos foram otimizados para entrega web sem alterar a duração do conteúdo.
 - Arquivos funcionais atualizados: `app/shared/book-music/config.js` e `app/shared/book-music/player.js`.
 - IDs canônicos alterados: **0**.
+
+
+## Atualização pontual — 02/10/2026 — feedback de leitores beta
+
+- *Ruínas dos Céus* agora exibe um formulário de leitura beta ao final de cada capítulo.
+- Métricas rápidas por capítulo: nota geral, vontade de continuar lendo, clareza, impacto emocional e percepção de ritmo.
+- Sinais qualitativos selecionáveis: confusão, lentidão, velocidade excessiva, repetição, exposição excessiva, diálogo artificial e emoção fraca.
+- Campos abertos por capítulo: momento mais forte, ponto confuso/cansativo e teoria do leitor sobre o que vem a seguir.
+- No último capítulo, uma avaliação final do livro é exibida com nota geral, satisfação com o final, vontade de continuar a série, recomendação, personagens que mais/menos funcionaram, melhor momento, parte mais fraca, pontas soltas, leitura temática e comentários finais.
+- As respostas são salvas automaticamente no navegador para evitar perda de rascunhos durante a navegação.
+- O leitor pode compartilhar uma avaliação individual e, ao final do livro, exportar todas as respostas daquele navegador em um único JSON.
+- O módulo compartilhado foi criado em `app/shared/beta-feedback/` para poder ser reutilizado nos demais livros.
+- Esta primeira versão não envia dados para uma base central; o armazenamento é local e a entrega ao autor ocorre por compartilhamento/exportação.
