@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-10-02",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
   "count": 333,
@@ -890,10 +890,10 @@
       "filename": "chapter-01.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/chapters",
       "extension": ".webp",
-      "width": 1672,
+      "width": 1671,
       "height": 941,
-      "sizeBytes": 437208,
-      "sha256": "7b1adb46b2e534991ec726de913fcdc6abf2fa1fa38d1dfc7a63850bbb4e5e09"
+      "sizeBytes": 392806,
+      "sha256": "9902c6e79a67b6ebb897e9713a1c6ec9cf97709fe4f0d6d140aa405a394c400d"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-02.webp",
@@ -902,8 +902,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 431968,
-      "sha256": "9bd124eb1746ccc83e41b5aec346d4a68266c63b875ec82f78b92300983bf9d0"
+      "sizeBytes": 359744,
+      "sha256": "73078aaaca3b4e6f67aa10ce81d3f91d91b064906a95fa4bbae3d8c533fd3c1f"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-03.webp",
@@ -912,8 +912,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 377376,
-      "sha256": "e4fb7fa7caea9c390590be426be1d767b9264706530464912bc5b821080e09f9"
+      "sizeBytes": 386404,
+      "sha256": "f4aceb14d03394353161c6fcf9e58cae7ac1052c9cb04174bb878a03e40c210c"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-04.webp",
@@ -922,8 +922,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 386468,
-      "sha256": "46be08e0a532b19c494ce8a790d2a3854615cee1116fdf594247d0da61481ac2"
+      "sizeBytes": 567206,
+      "sha256": "489ea9cfc503ad787099cdbaa8b72e517d04d536ea34951fa571c0bc7d35aa37"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-05.webp",
@@ -932,8 +932,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 296436,
-      "sha256": "91146c339993c57d0f82f50ef5735ce657a71c3ddaa2c5ed8508cd01119e6660"
+      "sizeBytes": 344622,
+      "sha256": "774e7ec0437993beb395f8c8ff8185f885184b26f0115029e4bb05f3fa34e1cb"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-06.webp",
@@ -1032,8 +1032,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 337000,
-      "sha256": "2cfb8b1873903e4329bf42b9954a51caa8bec4e926113e742528cb75d347b126"
+      "sizeBytes": 375796,
+      "sha256": "944a558049f6edc2d5ccf01429408e01d5ea7a1c49cf1ab3414a62f8f981d0e6"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-16.webp",
@@ -1052,8 +1052,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 312406,
-      "sha256": "b76fa5e82a807f5da075662ba19d694949182132772463597abab7bee17fef9e"
+      "sizeBytes": 423562,
+      "sha256": "76c18532c74b412c5dd2b2db2b73c692c3d46440c97dbc37723cffbb790b25b2"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-18.webp",
@@ -1072,8 +1072,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 330778,
-      "sha256": "4a78d04fa08e6723a3ec8c96e56ae8fe74abbc1eab72ab7627f182e0de7490ea"
+      "sizeBytes": 431948,
+      "sha256": "72e5875d0fb6050d8ccd51e70823cf2e45f0f6a0de0c81181c2d7c1cf71a5fe4"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-20.webp",
@@ -1082,8 +1082,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 464210,
-      "sha256": "52e95aa675401b792095a2f9b76eff7bf0bcb8d516b417688d82ef269d7ffd78"
+      "sizeBytes": 415658,
+      "sha256": "2b6af3ae601b86a9ca611e4e4f560a84fb79f5aa8c9c733e71a4b5320eeb9215"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-21.webp",
@@ -1112,8 +1112,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 239418,
-      "sha256": "30fd53dbc9fa02a852a550a12b26ec41c16f434725ee7a8a651220992dc013d7"
+      "sizeBytes": 275330,
+      "sha256": "822780023731d782318f17c0108ead9510dbaad6bf186889356cdc52622f6993"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-24.webp",
@@ -1132,8 +1132,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 339264,
-      "sha256": "6d15edb2db361d464fbe9847dba7732d00ccac610e1686e39e323a835dd93fca"
+      "sizeBytes": 364542,
+      "sha256": "657671aa321a2c6d885c91f89b93a1728bbcb1ee2ab2d5a26d088c5f22708872"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/efepar.webp",
@@ -1210,10 +1210,10 @@
       "filename": "mirel-amarea.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 172320,
-      "sha256": "9a58c32af3ffd51882fbd5ac4c7c70a810f2b79d5d01e9f8bbeb8e51400fb639"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 293516,
+      "sha256": "01e15af03f4d46e438c758fc64f4b3be9b5d49930b133475d2a29c6d5c82e105"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/nestira.webp",
@@ -1260,10 +1260,10 @@
       "filename": "yndra.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 169384,
-      "sha256": "1bc5cd72c74af4a87d76a427babfd4b61c3946dbc904117e1259d9e905d2c13f"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 245604,
+      "sha256": "fb521e8319026187017ebe0a1390694ad9a762e7e1c49d263daefc7eeadd98e4"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/yoral.webp",

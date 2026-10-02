@@ -1,0 +1,1308 @@
+{
+  "schemaVersion": 1,
+  "description": "Approved explicit mappings from editable book assets to public WebP images",
+  "entries": [
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 1.png",
+      "sourceSha256": "7774abca31b5f7dcf955ef4798183b05050b53401d17dd58ae0a98883ca6ef8b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-02.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 2.png",
+      "sourceSha256": "bce3eba1d5b35ad90030498420791f7b7f30592f5ef3300a8ab884b888a9f951"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-03.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 3.png",
+      "sourceSha256": "e9731e06663d9afb9f472a92ac0f0d0e0c43893f549cbb3b17369893672f8218"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-04.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 4.png",
+      "sourceSha256": "913522c014f339131a41142fcaeec5da7cdbd954be8d24628bf16ca5e05625fb"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-05.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 5.png",
+      "sourceSha256": "ed85d5b56198f1f50dea69a84b17daaa84f4ef85a92d773ec6c8d994f025d161"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-24.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 24.png",
+      "sourceSha256": "2094416665546f35ec7bbd8285910dd6ff1feffb9b3d708977b613ca7fe58ad2"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-25.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 25.png",
+      "sourceSha256": "d2606f2d4cab474b79f40611ed74dfc898ef2d4cd7477e58394a2442e170c7ae"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-26.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 26.png",
+      "sourceSha256": "2cb53a9d498518aeafb96a41c4d592d87d937fa44360e16bd113c6e7e3350d2c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-27.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 27.png",
+      "sourceSha256": "0b4e95fa47cb1ab4da5bbcadc444a48a3998fc448cf573aa9a26076633864be4"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-28.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 28.png",
+      "sourceSha256": "cf3f05ab927afbbef090122546ca6ff4aa4eeb7995763a4b4431fef2549a0d19"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-29.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 29.png",
+      "sourceSha256": "3709399037ab7df9d38ab86da7a820bd5c0189936b5ce9cb65f57a717c94da0c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-30.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 30.png",
+      "sourceSha256": "8acbdadeb8ff802eeeede6fa64527428884f74460a14925a58b8729cf69b4528"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-31.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 31.png",
+      "sourceSha256": "20f3fd65c0b2d0fd843a380b4ab7e0817a02476ed144fd2d8f9bee5e0de76536"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-32.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 32.png",
+      "sourceSha256": "9dcc0997bde695e24169d0c9d9884711a7d624df615ebbd8d1427d92ba8be2ae"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-33.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 33.png",
+      "sourceSha256": "6a0dba0fbe53f439ac7c9355a6d0b0c6d90af5906cdc71f9035f9fbbf468c2a0"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-34.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 34.png",
+      "sourceSha256": "1c8b723b32f99d1b8265025ebbce72b67bec00d0e8d2fa251bb43a55f019555a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-35.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 35.png",
+      "sourceSha256": "80948654ced8e2f919703972762629193fc8bd6129461e629204ee8d8ccacf5a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-36.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capitulos/Capítulo 36.png",
+      "sourceSha256": "c3ec49c729072a1313ba442f4d9f6ccfc3f773594a316ee3e20b2c033dc86d0d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/alveris-polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Alveris Polar.png",
+      "sourceSha256": "5f87711f1bcb228aea53ed90bc784d2cf0db2d42bd029c14050df1d53520e41d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/amira-polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Amira Polar.png",
+      "sourceSha256": "c436b9796ececeda1b82535653ced4141b69f42af3eba708a79dc6bcdc35098f"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/barek-braidar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Barek Braedar.png",
+      "sourceSha256": "cd9d1fe9650466f8ee3e1ef2c39c8545cd60814d1de4cab13e3ffce9157ff57f"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/caeren-polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Caeren Polar.png",
+      "sourceSha256": "8757aad5da3aa552e062a754714ce7cae849ff1911ff2ba2b6b3a0baaac5cf69"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/cairon-polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Cairon Polar.png",
+      "sourceSha256": "34121de2f689b348440648e8b6b0cade61474a2bc793654053db737f50ebeae2"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/corven-polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Corven Polar.png",
+      "sourceSha256": "1af4f913f3300ee817f24b472357bb1034b71e6e932c898d110d9c358966cc05"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/dareth-quatro-dedos.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Dareth Quatro-Dedos.png",
+      "sourceSha256": "7e97bd0107e2636d426d54dd2a3eb9c8f166c15b332b2c9db06eb9cf728e3e75"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/edria-cendar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Edria Cendar.png",
+      "sourceSha256": "f5a917f2027b4ec126a4d745d93bd21f2879f058d03e59cc59d12f7dd484cfdb"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/elis.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Elis.png",
+      "sourceSha256": "ebe2bd98add63fafb7e498d0e40f808e7be2926471c8ca316169c75cfed666e1"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/hadris-da-raiz.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Hadris da Raiz.png",
+      "sourceSha256": "7e536a130f09e0d82e1f745e90fcd9383ea3b0334dce834afba83c6830d6de65"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/kalan.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Kalan.png",
+      "sourceSha256": "bd7c798b8c33f966549ce20a612703d7b6460df2e3d283fbfa5454592a4d1d20"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/karesis.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Karesis.png",
+      "sourceSha256": "445346088350458d571ac943dbfc4ef0173d3ef35f5666b2cc7eb2277836b871"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/karev-quendrar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Karev Quendrar.png",
+      "sourceSha256": "87fa879eb37035e35b5a71820f25181bf58621ab5eb0498cc448fd500910e346"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/kerath-polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Kerath Polar.png",
+      "sourceSha256": "8762809cac60389826bbb0e0a24dd28fad1ff315002691aa95bdb67fed294a1e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/khalir-buldar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Khalir Buldar.png",
+      "sourceSha256": "b530f08d22071c824e12673d7f008d1eda87189beecdb4ea98b966a09bc85593"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/ladira-polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Ladira Polar.png",
+      "sourceSha256": "e60d24f9ee334e5b40bffe36cbb8b84eeab56d1bd953a5dfe16654c9f31c093c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/neris-nular.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Neris Nular.png",
+      "sourceSha256": "2c17788585b78982a4dce3fd98dcc1fdddc28de436d27050ee69e795ff8aeecf"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/orel.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Orel.png",
+      "sourceSha256": "c68b511d5c49249a98ea7011b06400be0b85d144047ca13ebc89ea13db4508a5"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/orven-vendrar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Orven Vendrar.png",
+      "sourceSha256": "b1b53a6e9b1e63b8199352266a3a4ffc76da1cc66805ff9a27b2d75576ba7f4c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/rhevara-mardrar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Rhevara Mardrar.png",
+      "sourceSha256": "e8def6f3ce56446102b84cf75fce6fca07f062ddcf55a9a8a4282a3e984e5d4c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/riala-glydar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Riala Glydar.png",
+      "sourceSha256": "9c1d662c615a0079f5f78b051e70e42ec4220d6d6d938b96daaef022fee448ff"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/saelira-buldar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Saelira Buldar.png",
+      "sourceSha256": "14dd3c1f42e7855f9e69da224e2f9450b9482a7db21cb323303fe7b228292c7d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/saren-luzdar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Saren Lusdar.png",
+      "sourceSha256": "a4e2d1dc8a222ebc44e15bc42bb274fdae3e5333058c7082e9e59429ac626a7c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/selina.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Selina.png",
+      "sourceSha256": "7601b867b62278861f08a7020357055a81d4e22c0baf71e12ebe715fdf2281e1"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/serka-cendar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Serka Cendar.png",
+      "sourceSha256": "cc8a7d233f22ae8fce9c4388f848f937dcc562bb7a78b43538f6fbb8667a4a55"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/sumo-vigia.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Sumo Vigia.png",
+      "sourceSha256": "016a645a49bd344da914ae2a155083dc5de965a43fc504a0d8299310c0dffdce"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/tair.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Tair.png",
+      "sourceSha256": "11fbdcb2b4fd2c112de2cd04a2dcf8b44d3add04064ea904b572055698e1e010"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/talira-leidar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Talira Leidar.png",
+      "sourceSha256": "f90a239ac1aa6bc2a602cefacd2e18b2e1b52eb63a9127e21acb7440bc6c7e4f"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/tavena-grastar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Tavena Grastar.png",
+      "sourceSha256": "d5de77eafd57256ef2cf95828b16a6fbc09c8c013e750a906daf20e8d18cc95f"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/teral-polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Teral Polar.png",
+      "sourceSha256": "0f6efa140dce8d118f022e98016d9003e8ec9043a88a54e73f5416ed9ef460f5"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/vesna-da-permanencia.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Vesna da Permanência.png",
+      "sourceSha256": "ff7225fcd94542800a44e115608d9523544bece11a9147afb8a9884dc75d9317"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/vetarius-polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Vetarius Polar.png",
+      "sourceSha256": "4976b857f89d2630d19bed4486fb2da2561c1714c123a85071b7a1e143dcaa3e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/characters/yamara-quendrar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Personagens/Yamara Quendrar.png",
+      "sourceSha256": "144ca016884398079faf2fcb59b7b3c0e30f5b169941987e278d39230984e2b6"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/cover.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capas/Ciclo de Jesed 3 - Dinastia Polar - capa 1.png",
+      "sourceSha256": "3ec7dbc60eb26711934fcb65706b0d9126e387b0c78a609cbe9ca03df987915a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/buldar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Emblemas/Buldar.png",
+      "sourceSha256": "5f4d0fbddcc26420f9a15f264ea5cb37e87ec422a10d749836fd728e3d9e67cb"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/cendar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Emblemas/Cendar.png",
+      "sourceSha256": "a4a4561f168fd02c44e57c8ab705ae958fd308baa3917e192b7c3c8d895498c4"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/grastar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Emblemas/Grastar.png",
+      "sourceSha256": "01f2579dfd46af9a3d40f97c2cfaa017057b95231050d08db782cf4dbcf8ce95"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/leidar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Emblemas/Leidar.png",
+      "sourceSha256": "82ffc937e383433fda1d82ee35f6961c5b1d4f1326e6ced90a4799fbc3591752"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/luzdar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Emblemas/Lusdar.png",
+      "sourceSha256": "9a9925cfcbda2158cf9372bb91adf1a504fcc23efd354a758653965d10ffb83b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/mardrar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Emblemas/Mardrar.png",
+      "sourceSha256": "ec321635d18cfd5bdb4d6f591aa283fdff06e0ceb90f793fb514298389392cf7"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/polar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Emblemas/Polar.png",
+      "sourceSha256": "e36f9bb5fa4d8a16af42c94a17263c18009ecffb903bb3369be2cf5aff4cda5a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/quendrar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Emblemas/Quendrar.png",
+      "sourceSha256": "5ee720adcc5f2d57c84546f1f41ed266a3c3931ba7c0229c952b8d79d4368942"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/vendrar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Emblemas/Vendrar.png",
+      "sourceSha256": "93d1720c838135a83bec503be4e79060673f9dc18e52835fc72c759bb4ac85bc"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/lore/fauna/bravao.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Fauna/Bravão.png",
+      "sourceSha256": "ddac233fe73eae188fe1e7588c3a4e607ab7d71d0664f2d9cecac29b1e06f4be"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/lore/fauna/tarrak.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Fauna/Tarrak.png",
+      "sourceSha256": "74030c2e71158bd121a12807285342dea4aa82ce3b660062c4dabd070f6f6b26"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/maps/map.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Mapas/Mapa - Livro 3.png",
+      "sourceSha256": "6687e52494f0adc6048e35ad9c750d8cd987b55bd756f66569e1c15ea23b6b6d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/aelvar-2.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Aelvar 2.png",
+      "sourceSha256": "c7e42c4200bae3af683ef41fa8c0ad811f056962a8bc39e638ef3864b335ba5c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/aelvar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Aelvar.png",
+      "sourceSha256": "1007b5b6087dd8b51105652e41723ce9736df8af4e7be5004f3fecfb1fed4b22"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/altar-dez-estandares.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Altar dos Dez Estandartes.png",
+      "sourceSha256": "e1a23a09dce54948ffc092f849ff0e678119482b85c5aa7dec0ff69a67837ea3"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/avarrast.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Avarrast.png",
+      "sourceSha256": "7d9142068643cc61f31d4b4c5434a6dd2f9cc440454ff8ab9ac1467af768edd7"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/braivar-2.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Braivar 2.png",
+      "sourceSha256": "62b188fe8a7d33c13975a494bcd595a39363e765f6dd4dbe74744cffc4cf99b2"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/braivar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Braivar.png",
+      "sourceSha256": "8c684b4866ab93d17095983a33be5785af930f998bacd3fca8f679f45eea1345"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/caminho-da-permanencia.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Caminho da Permanência.png",
+      "sourceSha256": "bdb0e105089b0bc8596220d2268bac22e2432d55bef98a2d530616ae0d411ca7"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/campos-orven.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Omier.png",
+      "sourceSha256": "2ce38057ff4fdea5914b88aec77a02a791c7e3b579337993a658b2bca07f6453"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/casa-da-balanca.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Casa da Balança.png",
+      "sourceSha256": "71cbcbbc488b39e4891deae46670e9f59ed642c092ea46dc1662923a9c3a3927"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/casa-das-bandeiras-fechadas.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Casa das Bandeiras Fechadas.png",
+      "sourceSha256": "2ca5be3160c14a29e469576cdde7103c617000fb46a1240efee9d21e4225bb3b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/casa-do-ferro-baixo.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Casa do Ferro Baixo.png",
+      "sourceSha256": "5da8d92e65a92c2c39da7316de91b6c836963224cccbe64264496ced3e818752"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/cendar-vel.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Cendar-Vel.png",
+      "sourceSha256": "715983f730a6a1f83253deb97c843b333751043220a94c80f080072c102df1a1"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-alysen.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Alysen.png",
+      "sourceSha256": "ceb21f0922939cba0c71ba80786a4efec0880e113e8e635504bc91d7de0e3c91"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-delvar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Delvar.png",
+      "sourceSha256": "f7192441ba93db58a46c4a43310e0dad838f54b25c133c20ea5f890f542e6284"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-kaelyr.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Kaelyr.png",
+      "sourceSha256": "02ed0315796fee0daf595b9a3d3be940eca5aab2425dc473d84d8ee9fcfd9fd2"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-maelya.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Maelya.png",
+      "sourceSha256": "1c50916c8333cc9b3405d42f6f6d8e3d56f8a5fa7617c9da6235385f6eba9760"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-nerya.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Nerya.png",
+      "sourceSha256": "b5030e8f4f72dedffaca89b61bdf2060871af7e8f69e9886b6004066b667093d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-olarim.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Olarim.png",
+      "sourceSha256": "d06b5aa09e9d4ea30e6c1ecaaef6cd2bacec9fde30f2ae9a08a0253c73ddfd0d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-roven.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Roven.png",
+      "sourceSha256": "982cf04904924bffe998bcdaeff27ba797c373316ae9b5a8863919716efd47f0"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-selyra.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Selyra.png",
+      "sourceSha256": "f6f69f731c4a66634125d4a2a0a8c2d0be879136c1b810a86e10ef5791bb5a5f"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-talarim.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Talarim.png",
+      "sourceSha256": "0ef48a9470c804a4682880ae11331f44fd1cc5efc34fc708c50dd71d02e43e92"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/distrito-de-vardeno.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Distrito de Vardeno.png",
+      "sourceSha256": "858ee132eedc534dc1832ddda8d7a5cf31f3bd4c4822f33b4f8ad7192cc62f3a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/fortaleza-kaendar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Fortaleza de Kaendar.png",
+      "sourceSha256": "e07a832660760347499c051be873f74df619d9067fcfb0eb45c5d76deba06f00"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/garganta-de-kaendar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Garganta de Kaendar.png",
+      "sourceSha256": "1975369dda9fec7fb7452c05832e0e99be0be25e62cb52a8bea68da345dcf462"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/harquen-2.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Harquen 2.png",
+      "sourceSha256": "d58c3e737d3f451997b345ddfdbf06b6c1ee7d3de51621983ad04e6d6d18f9a9"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/harquen.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Harquen.png",
+      "sourceSha256": "e528cd5e06553613d949a3c37fbe93c09ccdd94f26546855febe5c8c724eb1ed"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/kaeliran.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Kaeliran.png",
+      "sourceSha256": "cd1cedae793aa7e096b476e5b2473a83a42d5e6544482acd322ae38766677772"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/kelvar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Kelvar.png",
+      "sourceSha256": "d0b98450c87ac8ea956a91df8d3cda0b325d0c9ddac6e10b64d5743fef34622d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/khar-kaelyr-2.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Khar-Kaelyr 2.png",
+      "sourceSha256": "94a88ee0ca51fb2d2c2598548970521d10318477c77b47982c894d58364884ae"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/khar-tondr.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Khar-Kaelyr.png",
+      "sourceSha256": "738517c1276c7d4f015cdc00b385dfc5fd90dc45ff8b344c9d9ab3ab646a72a1"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/luzhara.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Luzara.png",
+      "sourceSha256": "86821c0be954a8cada8c089fdfc0e57d173c79275413ea53247a8c32a55cf177"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/mard-aren.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Mard Aren.png",
+      "sourceSha256": "46dbf12bce41e3a58bbf5a2f80ee818195bf08c4c73e0edcc08298fcb10cd5c4"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/maruva.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Kaeliran - Maruva.png",
+      "sourceSha256": "ad80e6c65a719406acc5740979bb25cb0691bc2508bdc05df017f5563599558a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/nhal.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Nhal.png",
+      "sourceSha256": "b4716de6ab78fb86ed9ef18d4267e452a820fc458f1514efbdfe6c12d13c277d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/nyn-harad.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Nyn-Harad.png",
+      "sourceSha256": "145fed32cc4a98384b6c40f2f4e2bbc1faf541ead733b298b21d5579169b4969"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/olho-de-kaeliran.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Olho de Kaeliran.png",
+      "sourceSha256": "af223110f2b4b95ae4f5bd40169f8c6dc439a29c61a8beef34d1e1ff365fe954"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/patio-de-namar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Pátio de Namar.png",
+      "sourceSha256": "ad737893f04d88bd93ab643da5b14be45242e8fbffa0cb8d570a3c0e2b3ca657"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/porto-salmora.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Porto de Salmora.png",
+      "sourceSha256": "b027cff3d1e4a14bd48a01335cbe28b42349458ad7f0b674aa295d76512e8420"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/propriedade-rural-de-dareth.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Propriedade rural de Dareth.png",
+      "sourceSha256": "c782c5ce9c4416bb6a54db8059e1f944807ffff992bf0acb420266f09fea4db3"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/salinas-de-arvessa.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Salinas de Arvessa.png",
+      "sourceSha256": "c25e8272d3c7222cc3f2fdbbff7ebbbf8f4ab023640b332c67ce840d3fa897d4"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/santuario-da-raiz-eterna.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Santuário da Raiz Eterna.png",
+      "sourceSha256": "dd1849f8169aaf9900edb494f9be221dc4e93d0825d5d6a8c85d59f1b80f23c5"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/seykar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Seykar.png",
+      "sourceSha256": "83eefa2b3fe982dc5a25a96e49aa91996ff26e6c6418e56326c705301fa8c0bd"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/seynara.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Seynara.png",
+      "sourceSha256": "e80dd29bfc79d3e49d027ef680b08968aa2437224578dd7db5cfdfac0e730d8a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/urtar-vesh.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Urtar-Vesh.png",
+      "sourceSha256": "52e373e49828a7c50c091e2d8e2ec1c549dbebe711b02d3d3a836e94400916d7"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/valenor.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Valenor.png",
+      "sourceSha256": "61451b5e13bde3b0410d160c609e386a02465c1379b201c11c671ec59dce98e3"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/varkhama.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Varkhama.png",
+      "sourceSha256": "bcd78825fb28a4d2803c574404480dddedbaf5185e99b93860bf11cf8cf77b71"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/places/vessar.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Lugares/Vessar.png",
+      "sourceSha256": "6cb20060ea825dfd3ecd0426470fbe740ca68753931259bdf4ab593cfac74150"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-01.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 1.png",
+      "sourceSha256": "dbc06aae7171012db0b06bdeb68cdc0516c0d5ce9f811e89b782d599c5eb9349"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-02.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 2.png",
+      "sourceSha256": "2377f183106b2e649e7b81bc8166c8691ddc6954dea18fdcfa637525672701ea"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-03.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 3.png",
+      "sourceSha256": "da57b58ef84f0bcae20063e0ed8f99380065918e696c12a1a753e5bd578bd1d9"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-04.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 4.png",
+      "sourceSha256": "0d73f021afcafa89b646af0fe0154d6a02167eab8ba347b8d32df7601acdb7cc"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-05.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 5.png",
+      "sourceSha256": "584e46c55833ffc637596ec8b79f8cc69bb831c0abfdebefe4affa65f31ed141"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-06.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 6.png",
+      "sourceSha256": "7fc5ea654abe433de20f7b89873ec54bab23c3141d589a94713d2297ae30cd83"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-08.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 8.png",
+      "sourceSha256": "46fe619299176082f6192dceacc7afb06d69652267f2fe8b2da72eabf98e9e0d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-09.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 9.png",
+      "sourceSha256": "9a0390d87c5e71caf01ca033b6c2a0bb84e5375578ca8780753e191850c35c55"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-10.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 10.png",
+      "sourceSha256": "df9ead246102e520f438c17f3e06950eb1b1d3ebf4f3246d1c8ad710d1b40d88"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-11.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 11.png",
+      "sourceSha256": "9a28020fa7dee20b8d866a04eaf50d8aa41584dadda05b7997e43c12e3ebcec1"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-12.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 12.png",
+      "sourceSha256": "f846e400f58b4b75ef935ac2d1e20c94469663b2b68d45bab18bbec2aab6aeee"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-13.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 13.png",
+      "sourceSha256": "d018fc89d6e20c96dc66f80604d7ef3823cc4b298ff81b748a24d79995b4966a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-14.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 14.png",
+      "sourceSha256": "45aa982dff6a293afcf3f908bc21c1c896b8170253009a75a40d38da088e8428"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-15.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 15.png",
+      "sourceSha256": "404cf513f60c2d9af5f67d3d96efcf4b4e3c80618e462677744c271b1903bad1"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-16.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 16.png",
+      "sourceSha256": "3903956a6552575de3dc8985ba0b5e1a9e9dc91154354d946a98ff9721745656"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-17.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 17.png",
+      "sourceSha256": "4eda4ab2fdea096c0506a7caca4fe4c451ec606c1329dbaec1e26a6d1d7791f9"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-18.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 18.png",
+      "sourceSha256": "56f4550e3ff0a2ded5713a8798a6dbd371d3d032bfc5d3ecf4c126da8bd2afbc"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-19.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 19.png",
+      "sourceSha256": "2afa3fe0156477ddda9fb4e4e96417fdd79fa7a6e8e5740a79c16b1ac45ab11c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-20.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 20.png",
+      "sourceSha256": "eba49c0270ede8811358fda86b89e25d8b111e92c03b5403d9ad0fcedd1442b2"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-21.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 21.png",
+      "sourceSha256": "86a76e11bd00e42243722f03278ecb88dcc28d04f4966167eb004ffcc43750be"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-22.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 22.png",
+      "sourceSha256": "3e5cd2a13a794d76e1185bcc65143c2954e9f4f37b79ed2d07af9dae6e852568"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-23.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 23.png",
+      "sourceSha256": "6cb9541a6b7453bdd576b0e42b19013db872700a71af0600c51ea0a3331334c6"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-24.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 24.png",
+      "sourceSha256": "d222d53d21e34f40011174d3bff3a4b4929a58ade457c1ddb3383530623817c2"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-25.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 25.png",
+      "sourceSha256": "a8e049dd0370e6633f67491001ab17629a003523a8b1ac73487ddf94994c41bc"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-26.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 26.jpg",
+      "sourceSha256": "bfbf4971cd54c792833b74014ff4280548c1886977f97a8a290e0b36f62da1de"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-27.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 27.png",
+      "sourceSha256": "81b6320b609cedd35fbb89812a3432441816812ad3d7ea26274f9361d699fb78"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-28.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 28.png",
+      "sourceSha256": "17c401247245543c3dee28f06ba3f589798b4a8ed81d2db709c0dbee593dd437"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-29.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 29.png",
+      "sourceSha256": "305b98408228efeff5728909ab5ea2c87eb3153b2368824ec4ffc02ff515b3c6"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-30.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capitulos/Capítulo 30.png",
+      "sourceSha256": "50aed5ec40f44daae38aae24527063758dd47127b633815cfe15161baf37d334"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/alyra.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Alyra.png",
+      "sourceSha256": "3c54dc26a788f654ff0a3bb62ba76db175a1fd20ccd9d9d95c51453b6fd9897c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/avara-fendelar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Avara Fendelar.png",
+      "sourceSha256": "c6398bee5cc60c80711340f34f8d6126e5c03cf2b93cdb11608fb724a02c96c8"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/brokan-das-forjas.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Brokan das Forjas.png",
+      "sourceSha256": "389b716d2eb8b430723ac03b06e0c5774ef28574273bff366a6add032f7ba018"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/cal-edran.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Cal Edran.png",
+      "sourceSha256": "7e61e46ef2c94e626d17e4b42d9c0086d9ce3e346481693fb6b2c06dbd1a148c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/cal-kadrir.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Cal Kadrir.png",
+      "sourceSha256": "d5863362f356a9f1214389608adf4f484c1ac9316a7f1637b9d4a43d68b6748b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/daryon-polar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Daryon Polar.png",
+      "sourceSha256": "a1a185f6918f9e2c3874ea44262d194e32b7fe0d5df45559c86a219968485cee"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/hadrun.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Hadrun.png",
+      "sourceSha256": "a7a518afe24468a70261646c400f7095c3b52efaf4997f7db58bf4d584b574db"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/harrev.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Harrev.png",
+      "sourceSha256": "b3c2bcae23c7fc798695358a303b0ec6e5b2426c91bb45521511fddc8ec91681"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/iressa-maos-de-sal.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Iressa Mãos-de-Sal.png",
+      "sourceSha256": "5fa7bc0c1be0f37bae01b7434cda8176bcdae13a0d5edb5116837be87cd46572"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/kaelina.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Kaelina.png",
+      "sourceSha256": "e7d710281b50335bf7abcca274558b92733754c55f0401a7f54080c19320df83"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/kahul.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Kahul.png",
+      "sourceSha256": "8942228d604c739941ed4dce27d5d35db1a18c7eb09f46904d5064e95d590d36"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/kharvok.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Kharvok.png",
+      "sourceSha256": "dca384892bb2b49dcf46557ecc7ee7ba31fdb92178f1bee57611a91dadc9a265"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/lorde-ossar-glydar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Lorde Ossar Glydar.png",
+      "sourceSha256": "eae521945256152d2525b9d4f4ca269d537db1c8470123b2802af6ca8ca9d254"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/lurok.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Lurak das Casas Antigas.png",
+      "sourceSha256": "a3f8f5cf47dd6271187cda9a5aee86a053dcacbc3651e428903dbcb6ef506e84"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/lutharus.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Lutharus.png",
+      "sourceSha256": "5245cd511304bae4e0b4613674901bd1e54a9611b1080311823e1defd19983de"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/maelis-das-contagens.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Maela das Contagens.png",
+      "sourceSha256": "6bbafb68b19c8a9434ddd46454f37eb08adc49d40ffbc58d36cb7603395908dd"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/markoso.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Marken.png",
+      "sourceSha256": "9a0766082dfdb9ed412106afdadbc1cd270708435979bccf33726dbbf5ca0e46"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/nalia-do-rio.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Nalia do Rio.png",
+      "sourceSha256": "75011009de76d68bde1279c10308e26f253a3e8507c15f8d04f2199fb26e69e8"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/nara-e-ilo.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Nara e Ilo.png",
+      "sourceSha256": "14acf49a4cd491a40e7ff7219d455d8531bbd9391804d06a0b06c74432be4e1c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/nynestra.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Nynestra.png",
+      "sourceSha256": "ec8c34ec52e80dfd8017f4e02e1623a7266201bbd52f3f42bf387d40e2cc4672"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/odran-porta-baixa.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Odran Porta-Baixa.png",
+      "sourceSha256": "16ec001dccecdeb5e889998db64a9c0f4edddf31ed77976521fff3eb9cb6bb9d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/odris.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Odris.png",
+      "sourceSha256": "340d4e0a792a60441597e4ede16a01dacf72f20b5e3f86befbc7874594d6f1b5"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/orionus-polar-2.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Orionus Polar 2.png",
+      "sourceSha256": "34cac1ac3afc542f1fdb695065817b7c0079307e5115d387e50f55451cc63597"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/orionus-polar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Orionus Polar.png",
+      "sourceSha256": "8a236d4ac0e8cca6eb8cc01f3934286c1cfa876258b75e1cc43dd0ab48af7859"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/orven.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Orven.png",
+      "sourceSha256": "e146b00c50d3c177dbf43c281a3d528e272e06bb60951e09328593024331574d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/rendar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Rendar.png",
+      "sourceSha256": "3d91d68d235209b00d3dc54e5ca57fca824111e9fb13dc09b9aa55b54ea3a8cb"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/saela.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Saela Glydar.png",
+      "sourceSha256": "2b08f5463a890baceb544da50636ede07666fe410585850825ea14d8a4f1e5cf"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/sarkan.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Sarkan.png",
+      "sourceSha256": "3dd9a66af1090901851f403253f596d3b68cb3f4636590fe98adc518d0c628c3"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/savel.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Savel.png",
+      "sourceSha256": "73537cec76df2cfc4ef44947c5ec5dd97c376426fb45f4aa7f174411f05eeca2"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/seron-das-obras.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Seron das Obras.png",
+      "sourceSha256": "f1d2d95826bb82061a4735d50c9d9d2a86c79d3358511d46b9671f6f723ca65e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/seyra-vendrar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Seyra Vendrar.png",
+      "sourceSha256": "3806c9165e711469de03676b6985e05e25d0afcacd1c58e9dedd481762170b4e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/soren.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Soren.png",
+      "sourceSha256": "a5b0ddd63b93500b4b822f9802a537f6efc19a758df904951c31011b5c817bb8"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/tavra-vendrar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Tavra Vendrar.png",
+      "sourceSha256": "8b9bdd15f72f86f6801efcd5a034570104cb4cb8788de09f46e736e593fe0f33"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/thoren-dos-graos.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Thoren dos Grãos.png",
+      "sourceSha256": "1513d8c5af494bf0e977629a914cb927c432b9dc65cb78b5b88a9483f2abb63d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/torgun.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Torgun.png",
+      "sourceSha256": "ddb38e9e81bde0e3f66310b71e6d45eb310cffe053a72695ade9c66f0efc5676"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/varael-glydar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Varael Glydar.png",
+      "sourceSha256": "31577e2668e345112f88fec1645b53af9876554d66cc8a79d972380b16724c6d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/varron-meio-olho.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Varron Meio Olho.png",
+      "sourceSha256": "866fd5c1ce6ea643e5812aeaf7997efc69ba33acb6669a069892855fb4397a52"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/veyr-polar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Veyr Polar.png",
+      "sourceSha256": "4d796cdf78c6d175de94e8f63632486125d5ce363503ec7a4666ee7e3d28b010"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/vita-fendelar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Vita Fendelar.png",
+      "sourceSha256": "0b7fe5b5ff6ae35115a44f8c312d220434119cd2ac4bcf15b5ec72b1704e8610"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/vorlan-vendrar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Vorlan Vendrar.png",
+      "sourceSha256": "b73350d949f63e42937fe271079456c92f62d8ad23c89c6628d96dfe52139cdf"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/ylvena.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Ylvena.png",
+      "sourceSha256": "2cf05fcf50b89d7dddfb287c2eacfce9b15efc4d0e44d42cb362d1cb8246313b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/yvenn-raiz-branca.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Yvenn.png",
+      "sourceSha256": "51f5ea6134f95856b74bbbd59a527b81d818bf0f049c2c4de853cbcea394e4b4"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/cover.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capas/Ciclo de Jesed 2 - Guerras de Sangue - Capa 1.png",
+      "sourceSha256": "176525ca26fe1aac2b0c3634f5bc33158caf2a25e70e776efae5347be1436ef2"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/maps/map-jesed.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Mapas/Mapa - Livro 2 - Guerras de Sangue.png",
+      "sourceSha256": "bd9de4f4d4751a58ae66a1a2b8182ea6c20e99f2ed207ad5d0526cb25f63884b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/acampamento-dos-homens-das-areias.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Acampamento dos Homens das Areias.png",
+      "sourceSha256": "5e6b7f86c6c014304492f063910244ad7ee1f8c539caaf6c31d29ea90bd858a6"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/alesteiro.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Alestir.png",
+      "sourceSha256": "238cf8365d3d6238716496974f0ba71433f4aac4b01913ea0396bea9afeb6eeb"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/camara-do-primeiro-abrigo.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Câmara do Primeiro Abrigo.png",
+      "sourceSha256": "bea4fc9814e32ee62554028e05f38d1331828c03cfd85b1e163f575904255c61"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/cendar-vel.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Cendar-Vel.png",
+      "sourceSha256": "b80883a826282f2f4d41b51a664dccda470526e4e7ac54ef73e4f3b12b384f02"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/floresta-de-mirval.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Floresta de Mirval.png",
+      "sourceSha256": "6c347e15f3c931294ee996527823b90fe0ba60b12355f75ddd01102c28cd8ac5"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/kaendar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Kaendar.png",
+      "sourceSha256": "aba4ff649f4cb6363de8a680fca1fcc7636d9571874692142cdcb753c7c311d7"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/khar-tondr.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Khar-Tondr.png",
+      "sourceSha256": "6c1a22656ce12437b4a7d4b5aff85b6bb27e4048ac064af5b0624bb988a1e49d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/marco-das-tres-pedras.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Marco das Três Pedras.png",
+      "sourceSha256": "52b895513c3d861a1cd4576f269cd24aa200f3e5a244ef9ee909ee3c53ce1ee7"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/margem-dos-zirrios.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Margem dos Zírrios.png",
+      "sourceSha256": "97b284f36d7b1aaa0fd6435cbe88d79dae47bf5892147eee9ea86e64b82df81a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/noreval.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Noreval.png",
+      "sourceSha256": "c2e0b3c7fd21041c70e3d38609842283af70eee520daf890ce4e1cc909835e40"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/nyn-harad.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Nyn-Harad.png",
+      "sourceSha256": "f9980056478ae135e3ed5b66c7b9eea675202588aa800c36217617b058d6b29d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/urtar-vesh.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Urtar-Vesh.png",
+      "sourceSha256": "16aef7f85098f2a89eeada8bef5f931c66d3f614920baa5423eb2f226208f932"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/varkhama.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Varkhama.png",
+      "sourceSha256": "158f160a3b99bbb188c362fc18610825b720949e703a9ec08c93a0f38d37c24a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/places/velarim.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Lugares/Velarim.png",
+      "sourceSha256": "7a0a57d6f19e75e60183739e40a2123b0872bbe00d9eb8b983f49e54c11f330a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-01.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 1.png",
+      "sourceSha256": "82aaf0e10a3dead9beac2fb0c3dca17db1ef32c553c056dbc313be659d3bc2da"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-02.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 2.png",
+      "sourceSha256": "d0c13406e75ffd1ffe3fafc203f0e78f9d2818d515e18cb3094b4394391897e6"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-03.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 3.png",
+      "sourceSha256": "3d658647cab6cf367a1045f5ab0adc560efbe894cd271c660206934ff01e1ed4"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-04.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 4.png",
+      "sourceSha256": "9cca39615c3bb254c3d18486c2214025e6d8475e530addf0342e1ad78c8e186d"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-05.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capitulo 5.png",
+      "sourceSha256": "a490c413943d4a16b3985a01c188fc26fc99e1676ab8da44f5d9baeaf0da913e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-06.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 6.png",
+      "sourceSha256": "22ecdd5a3f322751d8b933ad9a5bde21171fe9159e30665447f97402e6a6bf1f"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-07.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 7.png",
+      "sourceSha256": "455d944a6685f8c3df3c49ebc372f3c0c71490d9fb48206a6509c61fd93bd593"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-08.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 8.png",
+      "sourceSha256": "f2e7c61d9fae19aa49e9ae0e61162f48cfa2a9f3aeb8644752141302ea76fc28"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-09.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 9.png",
+      "sourceSha256": "b9dac6b90424af4c9d749e1bd0a5ff9eadf6d869784f6e7fc0271f27acc77d9b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-10.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 10.png",
+      "sourceSha256": "06b2d6ac45e60e5e658827d698636e1df7189274f6a12f282e7d9800ad6a49cc"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-11.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 11.png",
+      "sourceSha256": "f24be1da2b784a9f32a8d5dd16e9bf0b4a1f0bc073872f92f879c601a742a841"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-12.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 12.png",
+      "sourceSha256": "18050e958b112f0c66830e261ef2db36fe87f0a3c26c914a383133a2a300955e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-13.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 13.png",
+      "sourceSha256": "840d4d37cc2a755e3bbacde8f26cc0efb701f3ce6660e12d2b5710522a6b8df8"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-14.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 14.png",
+      "sourceSha256": "8c99eb3cfef49424753bba56e80846f7aae724a7a11c0379aca139232ece0640"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-15.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 15.png",
+      "sourceSha256": "7dc6089fb26420c3e7b77bbec73b8808e23e9e4ed3028f2100405066dfc599f3"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-16.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 16.png",
+      "sourceSha256": "6ac1dc54713cd10e6afaaf57665c308b6d4fa7d4bb12718bb2309e5b9962f560"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-17.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 17.png",
+      "sourceSha256": "f02a6ab670064ef30c166aa60cf336f32c501c9995e65f30dcd1c3e7fa3faa4a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-18.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 18.png",
+      "sourceSha256": "e2762eccd3d9b8ccb703b60af68e3bfaae17be4fb2ee3d1773e13444d32843fa"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-19.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 19.png",
+      "sourceSha256": "84c532969f207ce006ddfc2a19fb8f0b9ea2daecf2a470bc4f0be306d7402afe"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-20.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 20.png",
+      "sourceSha256": "7e01c486b4681c3a9fca3e4927ac9128706b024111ab3b463e1082ead2fc061b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-21.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 21.png",
+      "sourceSha256": "0d3a02e387c2392e8339c1fb8ceea90a4e3a32e561dce5ab1ab970f2b778ea60"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-22.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 22.png",
+      "sourceSha256": "f05d3dc4d8bc1aed7ea15f03d4d748d1a4884a873a5f0889544c270ba361571e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-23.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 23.png",
+      "sourceSha256": "da706a70e84439966a43797228edf3e5b62f9c7f7b9ad240fa262d46e9a4d63b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-24.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 24.png",
+      "sourceSha256": "5115069633efc028f6179a9616ec008dd1d1f5ce43dbb13bf6e7a53be7d064e8"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-25.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capitulos/Capítulo 25.png",
+      "sourceSha256": "d81db7a5e54518e597496fcafee6df566cce6f944526e8af03e9f5d3bd3e7bb9"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/efepar.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Efepar.png",
+      "sourceSha256": "e5a0892b5be29c9f9a5efc404bfe4f444520c2fb940c8c86582e746f4195055c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/gabasteres.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Gabasteri.png",
+      "sourceSha256": "22267e07357ae58e37f6461eb9ad60be700402fb17e9c7bf90f46855fe6b4b65"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/jokara.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Jokara.png",
+      "sourceSha256": "de705a720ac4462ee7c97b0ee72fca3fa79e0634b932c6bc72e21823208e663a"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/liri.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Liri.png",
+      "sourceSha256": "98aedf696c847554b7f97b378eb368e7a22bd5492b9a8c74ce18993ca3107a2c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/loutes.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Loutes.png",
+      "sourceSha256": "6cb24d9ddc50c8d647983cdb75ef926ed988468850febda3f7872be97e4d67d8"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/malthar.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Monthar.png",
+      "sourceSha256": "23af88a31fbe923fe67b5b9408ef42457d8c7023e2ab9eb52b85b1d44ebe84a9"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/marv.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Mariv.png",
+      "sourceSha256": "27e969b77ca0ccc7097a21eadc6d328d1a4e1f0e4119ffe8ba4c3f595592d440"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mirel-amarea.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Mirel.png",
+      "sourceSha256": "57287220321d4ff38da79dc578f62242e257befbbb275593358f4ef85e40f036"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/nestira.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Nestira.png",
+      "sourceSha256": "f6dcb8f29e4a4e3e5edac53065ecf65a47d68128852caff147bb51ba773290a8"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/platisa.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Platisa.png",
+      "sourceSha256": "90460bf79d375355d4f06a33fbc71fa09ab3a79d151f37adb7d4d4b90c9ce81e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/professor-talver.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Prof Taliver.png",
+      "sourceSha256": "30d57905a818ddb6d8dd463ab81426e4415d2cfec85cf2590adae87c8abc74c7"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/sersi.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Sersi.png",
+      "sourceSha256": "d1d308f2a6c0f358fe19e6cd3fd15100c313edc04a0070ea2b2d95323b8b9c03"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/yndra.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Yndra.png",
+      "sourceSha256": "6edb7a07f0341a9e480155d87306e80ccf0cab3c7f92a1ecdbd3dcb3bd77f864"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/yoral.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Yoral.png",
+      "sourceSha256": "8fe80b4f0f2eb2df7076053ceb7ace8fe60f3cff00709b50e3260d153d4f5a02"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/yrsea.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Yrisea.png",
+      "sourceSha256": "00c65500eb69e9929d12a29a977ba07290d1da9cfe407c935c36c4233ed5fb0e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/cover.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capas/Ciclo de Jesed 1 - Ruínas dos Céus - Capa 1.png",
+      "sourceSha256": "7de90f7cba0a4f7ab4ef2d67000a073f4b18698c1bd3455a0c5541d9261def7e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-eterea.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Mapas/Mapa de Etérea.png",
+      "sourceSha256": "e00911c6b511a5a0e1f908b95eeec8221aca750bff261688cbf71a9916185fbe"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-nadirion.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Mapas/Mapa de Nadirion (Floresta de Mirval).png",
+      "sourceSha256": "6f6cf53d68918517e425070fd75c8ee758c6abe5442fa0f7f82f4724e46a31f5"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/bosques-de-arion.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Bosque de Arion.png",
+      "sourceSha256": "29a62722adea77686b18bf3717b3c17e2683db70ffbd8e631b56ba75b72830de"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/circulo-de-nhamari.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Círculo de Nhamari.png",
+      "sourceSha256": "fb3e8cf5d456562d425cb10fc5308a3819eb74665ebcbf64ae9d06040e4e3bef"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/erilan.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Erilan.png",
+      "sourceSha256": "50cba9ef25248725e256c3d9e10667334f0368299bc6f1356bc72311d6d5072b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/estacao-da-leveza.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Estação da Leveza.png",
+      "sourceSha256": "28438312456134dd6725ca4a7599c39ae639f123e1d69797c8bd56472d637a78"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/eterea.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Etérea.png",
+      "sourceSha256": "dbcb8f5b56bdb466f9bc86da6cd5a1b674bdf3212443e45fecdd768d25fbd219"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/floresta-de-nadirion.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Floresta de Nadirion.png",
+      "sourceSha256": "2c57e8337cedf7e22204c669f03adc093682714472d14cfb880844279276283b"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/ilha-da-memoria.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Iha da Memória.png",
+      "sourceSha256": "6650c8e13052fcdcff6a3a5985dedfec6d5d14dfd6c73a66db3d0cf61f91672c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/ilha-dos-pequenos.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Iha dos Pequenos.png",
+      "sourceSha256": "ba9712804b82763659b99e075d0f514a21a2f17b4da856f536d7264e163cc16e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/ilhas-baixas.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Ilhas Baixas.png",
+      "sourceSha256": "1588aa667db9405e23641da027078c57ee1396b4bfd5a09acfcb8c239d56fbdc"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/nadirion.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Nadirion.png",
+      "sourceSha256": "0e0b6122e1e0d4c19f3d8ea345e4150b561780a113ca368ade7c2616beb89303"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/nivellia.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Nivelia.png",
+      "sourceSha256": "3e620f8937aaac7d513b3b6f7cf768d17083914bd06abe59920dd123117134bb"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/planalto-de-talyen.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Planalto de Talyen.png",
+      "sourceSha256": "0d303caed01a646974b5e3f49cb9b1b648ec26f9c1e19705c0e8c9b51859db24"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/praca-da-raiz.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Praça da Raiz.png",
+      "sourceSha256": "ae0dcc9746ce3de62a5117b3aca4f07137b1f089aad0fb8e5ca2d0475fea751e"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/primeiro-abrigo.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Primeiro Abrigo.png",
+      "sourceSha256": "d88f40b83a2dda9a919b56478dde839441e32f01905bff171830f414fb452766"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/riacho-de-nadirion.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Riacho de Nadirion.png",
+      "sourceSha256": "0f2867ed50ee7b1a652430e20a3ed41df03b5d4625c763a9c22268ad70816c34"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/ruinas-de-eterea.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Ruínas de Etérea.png",
+      "sourceSha256": "e463ab11c9cc85e58142de71835d2132a0e7d33377af914cc548de5d43bdff17"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/vale.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/O Vale.png",
+      "sourceSha256": "cde4c9c8bd38225a6ce42f43b3fcabfd1cab637212215b00d165163668e8a8f1"
+    }
+  ],
+  "siteOnly": [
+    "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/braidar.webp",
+    "assets/books/ciclo-de-jesed/dinastia-polar/places/bosque-roldanas.webp",
+    "assets/books/ciclo-de-jesed/dinastia-polar/places/passagem-lendros.webp",
+    "assets/books/ciclo-de-jesed/dinastia-polar/places/veyl-sar.webp",
+    "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-07.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-combined.webp",
+    "assets/books/ciclo-de-jesed/shared/lore/fauna/raukhar.webp",
+    "assets/books/ciclo-de-jesed/shared/lore/temp/fauna-placeholder.webp",
+    "assets/books/ciclo-de-jesed/shared/lore/temp/flora-placeholder.webp",
+    "assets/books/ciclo-de-jesed/shared/lore/temp/food-placeholder.webp"
+  ]
+}
