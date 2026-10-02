@@ -3,7 +3,7 @@
   "updatedAt": "2026-10-02",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 333,
+  "count": 363,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-01.webp",
@@ -2812,8 +2812,8 @@
       "extension": ".webp",
       "width": 1054,
       "height": 1492,
-      "sizeBytes": 1859802,
-      "sha256": "8c12f8d2c4ca4ee352b37ca0197734acf728e30d26fdde8e1cd1a013d73ff548"
+      "sizeBytes": 552966,
+      "sha256": "5e57e51dace11a849d398491c178f10b44b7aeca2eb8e9e4102715322b31122d"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
@@ -3334,6 +3334,306 @@
       "height": 818,
       "sizeBytes": 45322,
       "sha256": "094f46cc2968a1e14d7fb154827eb1c404ca330709bfca02a2bdb4f9c2a0c977"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-06.webp",
+      "filename": "chapter-06.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 248676,
+      "sha256": "32b6b786044f962df809141f69102a2cfa9b867adff8dfbeb359c07bd994d1fb"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-07.webp",
+      "filename": "chapter-07.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 217658,
+      "sha256": "cb5a9aea0fe6217d820ab768f650eaf33ee8925abba994bd0e5defdcadf7e91c"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-08.webp",
+      "filename": "chapter-08.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 312346,
+      "sha256": "59bd998d2891da745ef074f1e4e418e14abdff90c204add37cb296ee9da81f72"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-09.webp",
+      "filename": "chapter-09.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 223662,
+      "sha256": "17074250f856e8aeda1f3c7d10f2049898ad073979e4335c3c202c3e5cc5d2f9"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-10.webp",
+      "filename": "chapter-10.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 257450,
+      "sha256": "94e64ed0ea6cc0344ab3190e54e23adaa5208f0069139f3f1f21ec5ed748ed7b"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-11.webp",
+      "filename": "chapter-11.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 276732,
+      "sha256": "66ca8bc440bc70b12eb0fa6991d2d02b0236c1a3ae48f621206fc7908b9466cb"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-12.webp",
+      "filename": "chapter-12.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 354354,
+      "sha256": "d4260acd0d1d257813c7cc45ca05ebb14b596ca0fe79b7ceebb30d0e5769b5a9"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-13.webp",
+      "filename": "chapter-13.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 244056,
+      "sha256": "97a9ac5303f7ade7a69bd7a31b40be9b6bd4b1a60a7756fb398bd1301d7ab98c"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-14.webp",
+      "filename": "chapter-14.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 184468,
+      "sha256": "b8f94939689ea834abdd72cb4d9b9917a17f3afb047ebb18f16c06fe7990f507"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-15.webp",
+      "filename": "chapter-15.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 234864,
+      "sha256": "e53914cf3b789e082cec22fffad76b9edc3479813ba370654a606a6329f05f3b"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-16.webp",
+      "filename": "chapter-16.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 247220,
+      "sha256": "8a688c568a283e021db498c73b213629b81db086110b9794103e5fefc831028e"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-17.webp",
+      "filename": "chapter-17.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 234398,
+      "sha256": "5779b3f71c65dc08c0de9fb6fae81ac47d7bc5adc077f945d5bc30327801fa50"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-18.webp",
+      "filename": "chapter-18.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 292744,
+      "sha256": "b340cdacf468f3607a6a42bdd7d441236773abb103485a8647c3af1164329306"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-19.webp",
+      "filename": "chapter-19.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 241136,
+      "sha256": "b4e0307f4d696c35a3a1ed73af16567959a61176e9e92567c148e12fe2b54016"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-20.webp",
+      "filename": "chapter-20.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 268110,
+      "sha256": "f31ccafdf10f92a4364bb1b6b7ae2c45186b2d7d8c2bc43c2461a35fe8dfdcfd"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-21.webp",
+      "filename": "chapter-21.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 199998,
+      "sha256": "c0e31e5bf25474fd8b39bce590cb727442f90e492d13713bca9c8ee9514709ee"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-22.webp",
+      "filename": "chapter-22.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 278776,
+      "sha256": "13925b0c4a000f4f2e7a142fc9f94adade4aacfc961871ff8733998ea86b183a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-23.webp",
+      "filename": "chapter-23.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 266240,
+      "sha256": "b91ce27ed0b6427c765d980a6bf59828b1221c0bfcf613c105023f4db8ca8c60"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-37.webp",
+      "filename": "chapter-37.webp",
+      "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 429566,
+      "sha256": "1a264c0ca60eb22501414612f75ac3a634003b70def2cd2a88e8bf205e607d60"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-buldar.webp",
+      "filename": "cla-buldar.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/lore",
+      "extension": ".webp",
+      "width": 1254,
+      "height": 1254,
+      "sizeBytes": 412696,
+      "sha256": "e79710a4e485e16c93606706f36694fc5137255f27496b3af91e6ce9a61611a8"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-cendar.webp",
+      "filename": "cla-cendar.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/lore",
+      "extension": ".webp",
+      "width": 1254,
+      "height": 1254,
+      "sizeBytes": 460536,
+      "sha256": "93f53b9a39f8be00d1553959cf1d664a6efd4c4badcfb00d5931d1672288a29a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-glydar.webp",
+      "filename": "cla-glydar.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/lore",
+      "extension": ".webp",
+      "width": 1254,
+      "height": 1254,
+      "sizeBytes": 416012,
+      "sha256": "35cbb39966cacdb3ca61496e32c57cc39cbc57dc42ca797c200537cc115f5e36"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-polar-emblema-1-antigo.webp",
+      "filename": "cla-polar-emblema-1-antigo.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/lore",
+      "extension": ".webp",
+      "width": 1254,
+      "height": 1254,
+      "sizeBytes": 378080,
+      "sha256": "63ffc57c52d07e354f89b4e50097f3517a816b812eda2fafb8e91fc6e912a346"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-polar-emblema-2-antigo.webp",
+      "filename": "cla-polar-emblema-2-antigo.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/lore",
+      "extension": ".webp",
+      "width": 1254,
+      "height": 1254,
+      "sizeBytes": 350070,
+      "sha256": "a8be51219cf758b56c0cb7757e30c56c4ef64d0c37095c67f58b8fe081ba4419"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-polar-emblema-atual.webp",
+      "filename": "cla-polar-emblema-atual.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/lore",
+      "extension": ".webp",
+      "width": 1254,
+      "height": 1254,
+      "sizeBytes": 340854,
+      "sha256": "d6c053c7c592a6a4ce9c7daf87b4b0dd33888fe9d91a73e7833ac00037fbe390"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-tondrar.webp",
+      "filename": "cla-tondrar.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/lore",
+      "extension": ".webp",
+      "width": 1254,
+      "height": 1254,
+      "sizeBytes": 374980,
+      "sha256": "d9f1502aeca726edaf5b8ff26a92ec793392192596e2589ffe5e21d931c42d53"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-urtistar.webp",
+      "filename": "cla-urtistar.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/lore",
+      "extension": ".webp",
+      "width": 1254,
+      "height": 1254,
+      "sizeBytes": 427430,
+      "sha256": "7aca8f19625b7bcbb8bfeec3ac8ab616162e91bf64beb92aac828ae0a9a63e53"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-vendrar.webp",
+      "filename": "cla-vendrar.webp",
+      "category": "books/ciclo-de-jesed/guerras-de-sangue/lore",
+      "extension": ".webp",
+      "width": 1254,
+      "height": 1254,
+      "sizeBytes": 388662,
+      "sha256": "d841d69b346db660269b05853013f94372339b6bc8aca861e4a583cb03a48c0d"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/herdeiros-das-cinzas/cover-clean.webp",
+      "filename": "cover-clean.webp",
+      "category": "books/ciclo-de-jesed/herdeiros-das-cinzas",
+      "extension": ".webp",
+      "width": 1055,
+      "height": 1491,
+      "sizeBytes": 287224,
+      "sha256": "ab9b03a755b2092afdd51f1e27fd69d4ad793e2191f075e75f979869e462c3f3"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/herdeiros-das-cinzas/cover.webp",
+      "filename": "cover.webp",
+      "category": "books/ciclo-de-jesed/herdeiros-das-cinzas",
+      "extension": ".webp",
+      "width": 1055,
+      "height": 1491,
+      "sizeBytes": 259168,
+      "sha256": "f0721257bbce8c4807b47312a47e396c9ade9e8b08dd290b8b3c8c3035107783"
     }
   ]
 }
