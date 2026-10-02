@@ -1291,6 +1291,96 @@
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/vale.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/O Vale.png",
       "sourceSha256": "cde4c9c8bd38225a6ce42f43b3fcabfd1cab637212215b00d165163668e8a8f1"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/shared/lore/fauna/raukhar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Rhaukar.png",
+      "sourceSha256": "f996caeeaf1852632230bea73173484635a59fa5dfa590ce2ce60f9b4c8e4754"
+    },
+    {
+      "sitePath": "assets/branding/ciclo-de-jesed/logo-dark.webp",
+      "sourcePath": "Ciclo de Jesed/98 - Assets Gerais/Logos/Serie/Ciclo de Jesed logo black.png",
+      "sourceSha256": "3ca5b7fec2fe36478a40a2d245b22c4c0771bb44091f141c5bf778d4ae3322d0"
+    },
+    {
+      "sitePath": "assets/branding/ciclo-de-jesed/logo-light.webp",
+      "sourcePath": "Ciclo de Jesed/98 - Assets Gerais/Logos/Serie/Ciclo de Jesed logo white.png",
+      "sourceSha256": "e779724f3afd4f958c3bb0edb5224910c1cfaa366a7af0c4c0f15fb6b082af74"
+    },
+    {
+      "sitePath": "assets/branding/dinastia-polar/logo-white.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Logos/Dinastia Polar logo white.png",
+      "sourceSha256": "204ee81db44d74a4e0a577f4aaadd2e38a7d55e5648a58784529040ccb569da8"
+    },
+    {
+      "sitePath": "assets/branding/guerras-de-sangue/logo-dark.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Logos/Guerras de Sangue logo black.png",
+      "sourceSha256": "b43bea7a0c1f615953776cf9225b53cf3b510d8914ccfff2f11871123554fac9"
+    },
+    {
+      "sitePath": "assets/branding/guerras-de-sangue/logo-light.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Logos/Guerras de Sangue logo white.png",
+      "sourceSha256": "36dbf5d413f34ecfb7e4ef3dde6e4e3d96a66f013bc8e07fb8b787908a990ff9"
+    },
+    {
+      "sitePath": "assets/branding/ruinas-dos-ceus/logo-dark.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Logos/Ruínas dos Céus logo black.png",
+      "sourceSha256": "64f348580008536a47732c191488cec788e4dd1a30e8eebff3ae1453c9bfa76c"
+    },
+    {
+      "sitePath": "assets/branding/ruinas-dos-ceus/logo-light.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Logos/Ruínas dos Céus logo white.png",
+      "sourceSha256": "609d330705b568f7b0e4a00c82cee2c0df296f91a2eb1b9a4bd57c59b2ae6a23"
+    },
+    {
+      "sitePath": "assets/shared/reference/cla-buldar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Emblemas/Clã Buldar.png",
+      "sourceSha256": "6001b147a88f99392bdccb31a4162d62a621928864765e6e544065b14d980036"
+    },
+    {
+      "sitePath": "assets/shared/reference/cla-cendar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Emblemas/Clã Cendar.png",
+      "sourceSha256": "4d9cb8c2c83e686b3baa01c7da1d1a9d7f96c7960c78128ff80b785b481d7cf6"
+    },
+    {
+      "sitePath": "assets/shared/reference/cla-glydar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Emblemas/Clã Glydar.png",
+      "sourceSha256": "a21f55ccd44f15bac7ee4a38f0488cd598077e0192e32b1984f6dedf1459a2ed"
+    },
+    {
+      "sitePath": "assets/shared/reference/cla-polar-1o-emblema-antigo.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Emblemas/Clã Polar 1º emblema, antigo.png",
+      "sourceSha256": "628379a4e6365a47decd3501d63b4725ba49818ae33a1dc7e373626069f76ff6"
+    },
+    {
+      "sitePath": "assets/shared/reference/cla-polar-2o-emblema-antigo.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Emblemas/Clã Polar 2º emblema, antigo.png",
+      "sourceSha256": "8691fb883d0e283ad18ad9350ce3de56635b4fef84c5ea678cafef7608745070"
+    },
+    {
+      "sitePath": "assets/shared/reference/cla-polar-emblema-atual.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Emblemas/Clã Polar Emblema atual.png",
+      "sourceSha256": "d9c39e6b40a4f90ca0b458339ea3fe28a8db69277a2153350c6cb90479596ef2"
+    },
+    {
+      "sitePath": "assets/shared/reference/cla-tondrar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Emblemas/Clã Tondrar.png",
+      "sourceSha256": "a294b6bb3d16d7b9304bb5391d7e55fc64b7a3a83bdfd8c400807312f45267cf"
+    },
+    {
+      "sitePath": "assets/shared/reference/cla-urtistar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Emblemas/Clã Urtistar.png",
+      "sourceSha256": "68c24ee07be5f05301794365f0bc7de71e3edb18d15cd17ced0c29dc3d74579e"
+    },
+    {
+      "sitePath": "assets/shared/reference/cla-vendrar.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Emblemas/Clã Vendrar.png",
+      "sourceSha256": "179ae40fa9c57841390c1f15048eabb6b1d185a3d60aa9945185bd690a289dd1"
+    },
+    {
+      "sitePath": "assets/shared/reference/mapa-de-et-rea.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Mapas/Mapa de Etérea.png",
+      "sourceSha256": "e00911c6b511a5a0e1f908b95eeec8221aca750bff261688cbf71a9916185fbe"
     }
   ],
   "siteOnly": [
@@ -1300,9 +1390,56 @@
     "assets/books/ciclo-de-jesed/dinastia-polar/places/veyl-sar.webp",
     "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-07.webp",
     "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-combined.webp",
-    "assets/books/ciclo-de-jesed/shared/lore/fauna/raukhar.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/fauna-placeholder.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/flora-placeholder.webp",
-    "assets/books/ciclo-de-jesed/shared/lore/temp/food-placeholder.webp"
+    "assets/books/ciclo-de-jesed/shared/lore/temp/food-placeholder.webp",
+    "assets/branding/ciclo-de-jesed/mark.webp",
+    "assets/branding/dimensoes-infinitas/logo-dark.webp",
+    "assets/branding/dimensoes-infinitas/logo-light.webp",
+    "assets/branding/dimensoes-infinitas/mark.webp",
+    "assets/branding/guerras-de-sangue/mark.webp",
+    "assets/branding/ruinas-dos-ceus/mark.webp",
+    "assets/shared/reference/alianca-contra-kaendar.webp",
+    "assets/shared/reference/ash-sprite-01.webp",
+    "assets/shared/reference/ash-sprite-02.webp",
+    "assets/shared/reference/ash-sprite-03.webp",
+    "assets/shared/reference/casa-soberana-orionus.webp",
+    "assets/shared/reference/cloud-distant-01.webp",
+    "assets/shared/reference/cloud-distant-02.webp",
+    "assets/shared/reference/cloud-distant-03.webp",
+    "assets/shared/reference/cloud-mid-01.webp",
+    "assets/shared/reference/cloud-mid-02.webp",
+    "assets/shared/reference/cloud-mid-03.webp",
+    "assets/shared/reference/conselho-da-raiz.webp",
+    "assets/shared/reference/ecoantes.webp",
+    "assets/shared/reference/ember-sprite.webp",
+    "assets/shared/reference/eterea-contemplative.webp",
+    "assets/shared/reference/familia-amarea.webp",
+    "assets/shared/reference/familia-rendar.webp",
+    "assets/shared/reference/fendelar-mark.webp",
+    "assets/shared/reference/floating-fragments.webp",
+    "assets/shared/reference/homens-das-areias.webp",
+    "assets/shared/reference/hot-dust.webp",
+    "assets/shared/reference/kaendar-night.webp",
+    "assets/shared/reference/map-grain.webp",
+    "assets/shared/reference/mapa-combinado.webp",
+    "assets/shared/reference/mapa-de-nad-rion-floresta-de-mirval.webp",
+    "assets/shared/reference/metal-glint.webp",
+    "assets/shared/reference/mist-near-01.webp",
+    "assets/shared/reference/mist-near-02.webp",
+    "assets/shared/reference/moon-glow.webp",
+    "assets/shared/reference/oradores-da-corrente.webp",
+    "assets/shared/reference/origem-daryon.webp",
+    "assets/shared/reference/place-card-overlay.webp",
+    "assets/shared/reference/place-parchment-overlay.webp",
+    "assets/shared/reference/sidebar-clan-marks.webp",
+    "assets/shared/reference/sidebar-leather-map.webp",
+    "assets/shared/reference/sidebar-roots-fragments.webp",
+    "assets/shared/reference/sidebar-sky-stone.webp",
+    "assets/shared/reference/smoke-haze.webp",
+    "assets/shared/reference/sobreviventes-de-nadirion.webp",
+    "assets/shared/reference/spark-sprite.webp",
+    "assets/shared/reference/sun-glow.webp",
+    "assets/shared/reference/teceloes-de-vento.webp"
   ]
 }
