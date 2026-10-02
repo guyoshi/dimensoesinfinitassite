@@ -174,13 +174,27 @@
     const status=form.querySelector('[data-beta-status]');
     if(status)status.textContent='Rascunho salvo automaticamente.';
   });
+  async function sendToEndpoint(p){
+    const endpoint=window.DI_BETA_FEEDBACK_ENDPOINT;
+    if(!endpoint)return false;
+    const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(p)});
+    if(!response.ok)throw new Error('Feedback endpoint returned '+response.status);
+    return true;
+  }
+
   document.addEventListener('submit',async e=>{
     const form=e.target.closest?.('[data-beta-form]');
     if(!form)return;
     e.preventDefault();
     const p=collect(form);save(p);
     const status=form.querySelector('[data-beta-status]');
-    if(status)status.textContent='Avaliação salva neste navegador. Use Compartilhar para enviá-la ao autor.';
+    if(status)status.textContent='Salvando avaliação…';
+    try{
+      const sent=await sendToEndpoint(p);
+      if(status)status.textContent=sent?'Avaliação enviada ao autor. Obrigado por ajudar na revisão.':'Avaliação salva neste navegador. Use Compartilhar para enviá-la ao autor.';
+    }catch(error){
+      if(status)status.textContent='O envio falhou, mas a avaliação continua salva neste navegador.';
+    }
     form.classList.add('beta-saved');
     setTimeout(()=>form.classList.remove('beta-saved'),1200);
   });
