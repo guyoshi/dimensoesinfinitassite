@@ -1150,10 +1150,10 @@
       "filename": "gabasteres.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 85994,
-      "sha256": "9d8b66c96ea076b8836fb9bd78bf6bc73ec9c4eeaaa770c96bf56f3af969015a"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 278220,
+      "sha256": "b9deb491fdaedaf0b9a287606f4771f380e749bfa05ffb57b503bb1adcf4bc69"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/jokara.webp",
@@ -1180,30 +1180,30 @@
       "filename": "loutes.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 125226,
-      "sha256": "8a359b562cc4e1480fb1e0d87145ae988e415c7b20ace7331badc31784c82296"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 210890,
+      "sha256": "7815ef041f743590077720d37e02883774267d3a022065adf3d94d285c38fc7a"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/malthar.webp",
       "filename": "malthar.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
       "extension": ".webp",
-      "width": 1122,
-      "height": 1402,
-      "sizeBytes": 308966,
-      "sha256": "0089f65de24352a90b0acb56bbb137a594f8c7a892af939d8bca0c6fb8b65588"
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 366708,
+      "sha256": "1d479a3a1b5e95af929cc3f644270ff71ac2e70ce244745e2582311d3f2f10b5"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/marv.webp",
       "filename": "marv.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 155686,
-      "sha256": "03a61281273054a0cbbbd2a76edee46f607d621ca71f159c6e3b6f656cbce650"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 316708,
+      "sha256": "da87f96b8c20ab890ccbd3c71066f004d70013612c41c7dabe2956d8f1a8bf61"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mirel-amarea.webp",
@@ -1230,10 +1230,10 @@
       "filename": "platisa.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 167636,
-      "sha256": "28065f7e7b88a8b096b3d5cb3f6c690ba8cd3a91f811984acaec9ac96df8540c"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 329858,
+      "sha256": "b22279cfc3890a88156f2c8bf1a772ab1a6965b47d33a067b781263b119474bf"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/professor-talver.webp",
@@ -1410,20 +1410,20 @@
       "filename": "ilhas-baixas.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/places",
       "extension": ".webp",
-      "width": 1200,
-      "height": 900,
-      "sizeBytes": 56000,
-      "sha256": "6c2ec02cf4a652ccedd972ec55db077fa85583e1b38d2a5f58bad18fe3cd115c"
+      "width": 1448,
+      "height": 1086,
+      "sizeBytes": 92856,
+      "sha256": "6caccac960bdcdf0905284ee97212897332ad617bfea6b280063e921ffc7808c"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/nadirion.webp",
       "filename": "nadirion.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/places",
       "extension": ".webp",
-      "width": 1200,
-      "height": 900,
-      "sizeBytes": 79120,
-      "sha256": "ac62dadefdd4616cecbd158eb223774727c096a2ccf1e7829b4676f31fe06ed1"
+      "width": 1448,
+      "height": 1086,
+      "sizeBytes": 197438,
+      "sha256": "4766f9074473c9a24229777902903ac38f090a8dbca4f6fdf9143472fddb5a0b"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/nivellia.webp",
@@ -1460,10 +1460,10 @@
       "filename": "primeiro-abrigo.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/places",
       "extension": ".webp",
-      "width": 1200,
-      "height": 900,
-      "sizeBytes": 158732,
-      "sha256": "91018489f0dd1a07dbd4b8d5607860468e15786f25d58ff6526721538327530a"
+      "width": 1448,
+      "height": 1086,
+      "sizeBytes": 372378,
+      "sha256": "51452a5080de2e0032fe0beff56422f30ef64c948073cbfab721507f3e278c00"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/riacho-de-nadirion.webp",
@@ -1480,10 +1480,10 @@
       "filename": "ruinas-de-eterea.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/places",
       "extension": ".webp",
-      "width": 1200,
-      "height": 900,
-      "sizeBytes": 226606,
-      "sha256": "1cbb60d7bc091a36e0d7e447ee0f0ee553d5b479ddfc1e83bc333aef748864ac"
+      "width": 1448,
+      "height": 1086,
+      "sizeBytes": 578290,
+      "sha256": "394a4d5f1a3de814be1afdd141ddd8b5bb78c60f7a33712634e062045614d5d9"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/vale.webp",
