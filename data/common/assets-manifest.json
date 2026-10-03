@@ -1490,10 +1490,10 @@
       "filename": "vale.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/places",
       "extension": ".webp",
-      "width": 1200,
-      "height": 900,
-      "sizeBytes": 232140,
-      "sha256": "3423b51d4a882199c501e49f7ba5803f15ef996f4e724a22833ec6afab311457"
+      "width": 1448,
+      "height": 1086,
+      "sizeBytes": 402024,
+      "sha256": "864f18b014c7e125b383fa3bffb01237daa8d216a3a46037ec5c0acf35b78aaf"
     },
     {
       "path": "assets/books/ciclo-de-jesed/shared/lore/fauna/raukhar.webp",
