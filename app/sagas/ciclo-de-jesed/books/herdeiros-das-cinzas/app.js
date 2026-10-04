@@ -243,7 +243,7 @@
         <img class="hc-hero-backdrop" src="${COVER_CLEAN}" alt="" loading="eager" onerror="this.hidden=true">
         <div class="hero-map-content">
           <p class="eyebrow">Ciclo de Jesed — Guia do Livro</p>
-          <img class="hero-logo glow-title" src="assets/branding/herdeiros-das-cinzas/logo-white.webp" alt="Herdeiros das Cinzas">
+          <img class="hero-logo glow-title" src="assets/branding/herdeiros-das-cinzas/logo-light.webp" alt="Herdeiros das Cinzas">
           <p>Livro IV do Ciclo de Jesed. Em preparação: fichas, relações, mapa e capítulos aparecerão aqui à medida que o manuscrito for escrito.</p>
           <div class="hero-actions">
             <button class="primary-button" data-route="chapters">${icon("chapter")} Capítulos</button>

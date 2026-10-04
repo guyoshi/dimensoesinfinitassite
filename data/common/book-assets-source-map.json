@@ -354,8 +354,8 @@
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/cover.webp",
-      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capas/Ciclo de Jesed 3 - Dinastia Polar - capa 1.png",
-      "sourceSha256": "3ec7dbc60eb26711934fcb65706b0d9126e387b0c78a609cbe9ca03df987915a"
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Capas/Dinastia Polar - Capa final com fogo e contraste.png",
+      "sourceSha256": "2d4d77f588ec9f9dcbc0a8e5615a1f5ae13f8bc3d3dd83cdca1cc81cc1a78543"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/buldar.webp",
@@ -1009,8 +1009,8 @@
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/cover.webp",
-      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capas/Ciclo de Jesed 2 - Guerras de Sangue - Capa 1.png",
-      "sourceSha256": "176525ca26fe1aac2b0c3634f5bc33158caf2a25e70e776efae5347be1436ef2"
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Capas/Guerras de Sangue - Capa revisada com novo logo.png",
+      "sourceSha256": "74ebd7e3785e55ef2856ffa790d7f0b35350d02ffce6c34ff7895b98a9d3ac67"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-buldar.webp",
@@ -1134,13 +1134,13 @@
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/herdeiros-das-cinzas/cover-clean.webp",
-      "sourcePath": "Ciclo de Jesed/4 - Herdeiros das Cinzas/02 - Assets/Capas/Capa sem logo.png",
-      "sourceSha256": "e573a1379eb7aabf838ecfd7822ed738b6c21c028beb9f2118fc4cd35134797d"
+      "sourcePath": "Ciclo de Jesed/4 - Herdeiros das Cinzas/02 - Assets/Capas/Herdeiros das Cinzas - Arte sem texto.png",
+      "sourceSha256": "c898026aec32ca08303d9e4715c3da5b68bee099855e544be66e6dd2c2b605be"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/herdeiros-das-cinzas/cover.webp",
-      "sourcePath": "Ciclo de Jesed/4 - Herdeiros das Cinzas/02 - Assets/Capas/Capa com logo.png",
-      "sourceSha256": "e4c04e2fca3efcf2058229161a0793050c72cd7e5435f6f2ca96a471284b3867"
+      "sourcePath": "Ciclo de Jesed/4 - Herdeiros das Cinzas/02 - Assets/Capas/Herdeiros das Cinzas - Capa revisada com novo logo.png",
+      "sourceSha256": "9af267ebac58e53e597fbbf0680cfb966a0246349964a5cee1c88531ea725bdb"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-01.webp",
@@ -1344,8 +1344,8 @@
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/cover.webp",
-      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capas/Ciclo de Jesed 1 - Ruínas dos Céus - Capa 1.png",
-      "sourceSha256": "7de90f7cba0a4f7ab4ef2d67000a073f4b18698c1bd3455a0c5541d9261def7e"
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Capas/Ruínas dos Céus - Capa oficial - Dia realista mãos Criação.png",
+      "sourceSha256": "1c3f4f99725906a54196d152cec825d1b91779455c5d26f863df32ece58f2fa0"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-eterea.webp",
@@ -1449,38 +1449,98 @@
     },
     {
       "sitePath": "assets/branding/ciclo-de-jesed/logo-dark.webp",
-      "sourcePath": "Ciclo de Jesed/98 - Assets Gerais/Logos/Serie/Ciclo de Jesed logo black.png",
-      "sourceSha256": "3ca5b7fec2fe36478a40a2d245b22c4c0771bb44091f141c5bf778d4ae3322d0"
+      "sourcePath": "Ciclo de Jesed/98 - Assets Gerais/Logos/Serie/OFICIAL - 2026-10-04/Ciclo de Jesed - oficial preto.png",
+      "sourceSha256": "564236a8b6bc788bb9addbecc578f9f4f8171f79b4dfb7fce07ba37dc8913557"
     },
     {
       "sitePath": "assets/branding/ciclo-de-jesed/logo-light.webp",
-      "sourcePath": "Ciclo de Jesed/98 - Assets Gerais/Logos/Serie/Ciclo de Jesed logo white.png",
-      "sourceSha256": "e779724f3afd4f958c3bb0edb5224910c1cfaa366a7af0c4c0f15fb6b082af74"
+      "sourcePath": "Ciclo de Jesed/98 - Assets Gerais/Logos/Serie/OFICIAL - 2026-10-04/Ciclo de Jesed - oficial branco.png",
+      "sourceSha256": "d525bccd8e38d3654f13fc1882ec5e8a68dbf363a48f07ec2a3cfb8648865261"
     },
     {
-      "sitePath": "assets/branding/dinastia-polar/logo-white.webp",
+      "sitePath": "assets/branding/ciclo-de-jesed/mark.webp",
+      "sourcePath": "Ciclo de Jesed/98 - Assets Gerais/Logos/Serie/OFICIAL - 2026-10-04/Ciclo de Jesed - oficial dourado.png",
+      "sourceSha256": "2f8e93091547ed09cbff8d4b729c8e21b69d910d0e09bde7d9bb7a49a4270c33"
+    },
+    {
+      "sitePath": "assets/branding/dimensoes-infinitas/logo-dark.webp",
+      "sourcePath": "98 - Assets Gerais/Logos/Dimensões Infinitas/dimensoes-infinitas-logo-preto.png",
+      "sourceSha256": "f1dff6453657fa8ac575ea77fe2f1b85a60064141003bda751e4fa917d723249"
+    },
+    {
+      "sitePath": "assets/branding/dimensoes-infinitas/logo-light.webp",
+      "sourcePath": "98 - Assets Gerais/Logos/Dimensões Infinitas/dimensoes-infinitas-logo-branco.png",
+      "sourceSha256": "e7bcda0696d434515dd21c2738244526ae69a4a3b0748c3a196a135f46e539d4"
+    },
+    {
+      "sitePath": "assets/branding/dimensoes-infinitas/mark.webp",
+      "sourcePath": "98 - Assets Gerais/Logos/Dimensões Infinitas/dimensoes-infinitas-logo-normal.png",
+      "sourceSha256": "2b06f9fe9b8a5fe7cc6bc33df7e2fdfc3cfe48d91937d740a0e96c6cae669a2b"
+    },
+    {
+      "sitePath": "assets/branding/dinastia-polar/logo-dark.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Logos/Dinastia Polar logo black.png",
+      "sourceSha256": "8790e92073448040b12917baac0626208165881ed7fba98a46f718d72b3f3436"
+    },
+    {
+      "sitePath": "assets/branding/dinastia-polar/logo-light.webp",
       "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Logos/Dinastia Polar logo white.png",
-      "sourceSha256": "204ee81db44d74a4e0a577f4aaadd2e38a7d55e5648a58784529040ccb569da8"
+      "sourceSha256": "332f69f41056f09f5cd1bc188e9e2ba45fdf137fc3edb96348347b44a88a7a16"
+    },
+    {
+      "sitePath": "assets/branding/dinastia-polar/mark.webp",
+      "sourcePath": "Ciclo de Jesed/3 - Dinastia Polar/02 - Assets/Logos/Dinastia Polar logo.png",
+      "sourceSha256": "412af8b74f27b212d6ed2535e0808ea46480f16dc8ae28c9057e20706267f6bc"
     },
     {
       "sitePath": "assets/branding/guerras-de-sangue/logo-dark.webp",
       "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Logos/Guerras de Sangue logo black.png",
-      "sourceSha256": "b43bea7a0c1f615953776cf9225b53cf3b510d8914ccfff2f11871123554fac9"
+      "sourceSha256": "43f2ed371d9b1f28632667617a51c46ee4e59269f3862ceed6c6f04329dbe518"
     },
     {
       "sitePath": "assets/branding/guerras-de-sangue/logo-light.webp",
       "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Logos/Guerras de Sangue logo white.png",
-      "sourceSha256": "36dbf5d413f34ecfb7e4ef3dde6e4e3d96a66f013bc8e07fb8b787908a990ff9"
+      "sourceSha256": "3a5e8e79ff04b46120ed0218e067d15f4ad464f0b292259dcfbc5444e99a42c2"
+    },
+    {
+      "sitePath": "assets/branding/guerras-de-sangue/mark.webp",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Logos/Guerras de Sangue logo.png",
+      "sourceSha256": "5a78408f63deb421cd91ed075830b11e3ad6f1dced7ba4cc04bcce7352bc3000"
+    },
+    {
+      "sitePath": "assets/branding/herdeiros-das-cinzas/logo-dark.webp",
+      "sourcePath": "Ciclo de Jesed/4 - Herdeiros das Cinzas/02 - Assets/Logos/Herdeiros das Cinzas logo black.png",
+      "sourceSha256": "5be8dba19186063ff57f2724ca2aebf4b76955a1a70d23ab80c43c711ab53291"
+    },
+    {
+      "sitePath": "assets/branding/herdeiros-das-cinzas/logo-light.webp",
+      "sourcePath": "Ciclo de Jesed/4 - Herdeiros das Cinzas/02 - Assets/Logos/Herdeiros das Cinzas logo white.png",
+      "sourceSha256": "fcbae0a3fd7ec683c06ab14fc579d1fcfe12d81c79c5c521db9187d8e54ab8cd"
+    },
+    {
+      "sitePath": "assets/branding/herdeiros-das-cinzas/mark.webp",
+      "sourcePath": "Ciclo de Jesed/4 - Herdeiros das Cinzas/02 - Assets/Logos/Herdeiros das Cinzas logo.png",
+      "sourceSha256": "3a78a9f2c549d1d954b020bce1d777e47ad90053291ea709eb2d67c3f75df521"
     },
     {
       "sitePath": "assets/branding/ruinas-dos-ceus/logo-dark.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Logos/Ruínas dos Céus logo black.png",
-      "sourceSha256": "64f348580008536a47732c191488cec788e4dd1a30e8eebff3ae1453c9bfa76c"
+      "sourceSha256": "16dba6724501dd79ea1a34bd90c6395e785cf986385c0683ff072d96a698ee9a"
     },
     {
       "sitePath": "assets/branding/ruinas-dos-ceus/logo-light.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Logos/Ruínas dos Céus logo white.png",
-      "sourceSha256": "609d330705b568f7b0e4a00c82cee2c0df296f91a2eb1b9a4bd57c59b2ae6a23"
+      "sourceSha256": "728a9d2d735fef390073a56f4f3624ba26425a095769ce5e88036c6bd1500266"
+    },
+    {
+      "sitePath": "assets/branding/ruinas-dos-ceus/mark.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Logos/Ruínas dos Céus logo.png",
+      "sourceSha256": "7aa5f5ac2a38c6a3536304f8414fec2d059e6d2058bb5c229bc3f09a357a4def"
+    },
+    {
+      "sitePath": "assets/dimensoes-infinitas-logo-white.webp",
+      "sourcePath": "98 - Assets Gerais/Logos/Dimensões Infinitas/dimensoes-infinitas-logo-branco.png",
+      "sourceSha256": "e7bcda0696d434515dd21c2738244526ae69a4a3b0748c3a196a135f46e539d4"
     },
     {
       "sitePath": "assets/shared/reference/cla-buldar.webp",
@@ -1543,13 +1603,6 @@
     "assets/books/ciclo-de-jesed/shared/lore/temp/fauna-placeholder.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/flora-placeholder.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/food-placeholder.webp",
-    "assets/branding/ciclo-de-jesed/mark.webp",
-    "assets/branding/dimensoes-infinitas/logo-dark.webp",
-    "assets/branding/dimensoes-infinitas/logo-light.webp",
-    "assets/branding/dimensoes-infinitas/mark.webp",
-    "assets/branding/guerras-de-sangue/mark.webp",
-    "assets/branding/ruinas-dos-ceus/mark.webp",
-    "assets/dimensoes-infinitas-logo-white.webp",
     "assets/shared/reference/alianca-contra-kaendar.webp",
     "assets/shared/reference/ash-sprite-01.webp",
     "assets/shared/reference/ash-sprite-02.webp",

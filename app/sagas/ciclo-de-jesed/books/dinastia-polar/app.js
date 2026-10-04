@@ -262,7 +262,7 @@
         ${map?.image ? `<img src="${escapeHtml(map.image)}" alt="Mapa de Kaeliran e da Dinastia Polar" loading="eager">` : `<div class="dp-hero-map-placeholder">${dpRingsSvg()}</div>`}
         <div class="hero-map-content">
           <p class="eyebrow">Ciclo de Jesed — Guia do Livro</p>
-          <img class="hero-logo glow-title" src="assets/branding/dinastia-polar/logo-white.webp" alt="Dinastia Polar" onerror="this.replaceWith(Object.assign(document.createElement('h1'),{className:'hero-title',textContent:'Dinastia Polar'}))">
+          <img class="hero-logo glow-title" src="assets/branding/dinastia-polar/logo-light.webp" alt="Dinastia Polar" onerror="this.replaceWith(Object.assign(document.createElement('h1'),{className:'hero-title',textContent:'Dinastia Polar'}))">
           <p>A raiz cresceu. Os anéis se fecharam. E agora até o poder precisa provar que merece permanecer.</p>
           <div class="hero-actions">
             <button class="primary-button" data-route="map">${icon("map")} Abrir mapa</button>
