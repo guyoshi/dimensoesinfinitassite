@@ -3,7 +3,7 @@
   "updatedAt": "2026-10-04T00:48:56.131Z",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 368,
+  "count": 369,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
@@ -3684,6 +3684,16 @@
       "height": 900,
       "sizeBytes": 269054,
       "sha256": "e4b30a12fd4c610b3e4f6647117ed80080926fc6e5d5a6df893e3ed94b1aefc6"
+    },
+    {
+      "path": "assets/dimensoes-infinitas-logo-white.webp",
+      "filename": "dimensoes-infinitas-logo-white.webp",
+      "category": "",
+      "extension": ".webp",
+      "width": 0,
+      "height": 0,
+      "sizeBytes": 0,
+      "sha256": ""
     }
   ]
 }

@@ -24,8 +24,15 @@ def git(*args: str, check: bool = True) -> subprocess.CompletedProcess[str]:
 def main() -> None:
     if git("branch", "--show-current").stdout.strip() != "main":
         raise SystemExit("Publicação interrompida: a cópia local não está na branch main.")
-    if git("status", "--porcelain").stdout.strip():
-        raise SystemExit("Publicação interrompida: há mudanças locais no Site. Salve ou publique essas mudanças antes de usar este comando.")
+    pending = git("status", "--porcelain").stdout.strip()
+    if pending:
+        print("Há mudanças locais no Site que ainda não foram publicadas:")
+        print(pending)
+        answer = input("Incluir essas mudanças neste envio? (s/n): ").strip().lower()
+        if answer not in {"s", "sim", "y", "yes"}:
+            raise SystemExit("Publicação interrompida: nada foi alterado.")
+        git("add", "-A")
+        git("commit", "-m", "Atualizações locais do Site")
 
     subprocess.run([sys.executable, str(SYNC), "--apply"], cwd=SITE, check=True)
     changed = git("status", "--porcelain").stdout.strip()

@@ -166,6 +166,15 @@ def main() -> None:
         if args.book and f"/{args.book}/" not in site_path:
             continue
         source = SITE.parent / entry["sourcePath"]
+        if site_path not in indexed and args.apply and (SITE / site_path).is_file():
+            record = {
+                "path": site_path, "filename": Path(site_path).name,
+                "category": str(Path(site_path).parent).replace("\\", "/").removeprefix("assets").lstrip("/"),
+                "extension": ".webp", "width": 0, "height": 0, "sizeBytes": 0, "sha256": "",
+            }
+            manifest["assets"].append(record)
+            indexed[site_path] = record
+            manifest["count"] = len(manifest["assets"])
         if (site_path not in indexed and args.apply) or not source.is_file():
             raise SystemExit(f"Missing mapped source or manifest entry: {entry}")
         current_sha = digest(source.read_bytes())
