@@ -21,7 +21,7 @@ def git(*args: str, check: bool = True) -> subprocess.CompletedProcess[str]:
     )
 
 
-def main() -> None:
+def _main() -> None:
     if git("branch", "--show-current").stdout.strip() != "main":
         raise SystemExit("Publicação interrompida: a cópia local não está na branch main.")
     pending = git("status", "--porcelain").stdout.strip()
@@ -38,10 +38,9 @@ def main() -> None:
     changed = git("status", "--porcelain").stdout.strip()
     if changed:
         # A cópia estava limpa antes da sincronização; só há alterações geradas acima.
-        paths = [line[3:] for line in changed.splitlines()]
-        git("add", "--", *paths)
+        git("add", "-A")
         git("commit", "-m", "Sincroniza imagens dos assets canônicos")
-        print(f"Imagens atualizadas em {len(paths)} arquivo(s) do Site.")
+        print(f"Imagens atualizadas em {len(changed.splitlines())} arquivo(s) do Site.")
     else:
         print("As imagens do Site já estão sincronizadas com os assets canônicos.")
 
@@ -51,6 +50,15 @@ def main() -> None:
         print(result.stderr.strip() or result.stdout.strip(), file=sys.stderr)
         raise SystemExit("O envio falhou. As alterações locais foram preservadas; tente novamente quando a conexão voltar.")
     print("Site publicado.")
+
+
+def main() -> None:
+    try:
+        _main()
+    except subprocess.CalledProcessError as exc:
+        print(f"Falha ao executar: {' '.join(map(str, exc.cmd))}", file=sys.stderr)
+        print((exc.stderr or exc.stdout or "").strip(), file=sys.stderr)
+        raise SystemExit("Publicação interrompida.")
 
 
 if __name__ == "__main__":

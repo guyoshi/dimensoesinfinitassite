@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-04T00:48:56.131Z",
+  "updatedAt": "2026-10-07",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
   "count": 369,
@@ -2360,10 +2360,10 @@
       "filename": "chapter-03.webp",
       "category": "books/ciclo-de-jesed/ruinas-dos-ceus/chapters",
       "extension": ".webp",
-      "width": 1672,
+      "width": 1671,
       "height": 941,
-      "sizeBytes": 386404,
-      "sha256": "f4aceb14d03394353161c6fcf9e58cae7ac1052c9cb04174bb878a03e40c210c"
+      "sizeBytes": 356068,
+      "sha256": "14d5309571d2250ee3f2bcbc249b084611ebdd8e73b2cd1ef2000cd6e147e4ad"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-04.webp",
@@ -2392,8 +2392,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 348294,
-      "sha256": "0dd9f834e68647fa45ea94c2425a5f824a745042cd27009efcba7af264da400c"
+      "sizeBytes": 330306,
+      "sha256": "3a7cada2e3afbf5e73c94dc6f46ff3256b5f5a50209921f3b96545522d1dd1ef"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-07.webp",
@@ -2402,8 +2402,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 454478,
-      "sha256": "847f2e8f8c8eecdd72307360c7f60a1be9298a3c0442887df9e63bfb92ddcafd"
+      "sizeBytes": 457154,
+      "sha256": "8923ebdbe180ba0479256ed085bccdbadd930bda9011bf3890d8ab33a49b092d"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-08.webp",
@@ -2432,8 +2432,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 320178,
-      "sha256": "25f8a162c36ed204506e5fc342102b728a3274a01b9464f48ce276d2e04ea879"
+      "sizeBytes": 166290,
+      "sha256": "7c777072eba222086268fd14bdd1baa20e5044680102ec8a9e67b996ffafe12c"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-11.webp",
@@ -2442,8 +2442,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 286552,
-      "sha256": "15d4ff0d487611c835812ebeb4eb7e1837ab1022ae92265ac87fa9908799c5b1"
+      "sizeBytes": 299844,
+      "sha256": "ba29f224981545e9b7b072940677d0fc8ce67c4564ee1b56400ef533777250bd"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-12.webp",
@@ -2472,8 +2472,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 369858,
-      "sha256": "914562955276799c42f2d3f64450fc9c7f292e361d6c9e3bedda7b8249cab29c"
+      "sizeBytes": 312326,
+      "sha256": "3fe5b445c974ece03bc38a384a4367aaf665812bed24269e676f54ec8d49ea49"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-15.webp",
@@ -2482,8 +2482,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 375796,
-      "sha256": "944a558049f6edc2d5ccf01429408e01d5ea7a1c49cf1ab3414a62f8f981d0e6"
+      "sizeBytes": 344740,
+      "sha256": "ba5b6c53ec35cae63754e9a15e3af0f75259bb2aa0a011cdcc85e2392f242da0"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-16.webp",
@@ -2512,8 +2512,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 298016,
-      "sha256": "d7bfd9e7accdc0f16862119829017d7466b55879d12559ab34cc9a1a51367743"
+      "sizeBytes": 239690,
+      "sha256": "613688f0ad83a05b4150f1d6ddd502c8e8fa3538a2955ed8b6c2975e5bf0e7b0"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-19.webp",
@@ -2522,8 +2522,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 431948,
-      "sha256": "72e5875d0fb6050d8ccd51e70823cf2e45f0f6a0de0c81181c2d7c1cf71a5fe4"
+      "sizeBytes": 389546,
+      "sha256": "de49c961b99f6b68c5ee2aca28cf80e7a2ecdc26138cf2b22cd310d424b9a9f1"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-20.webp",
@@ -2532,8 +2532,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 415658,
-      "sha256": "2b6af3ae601b86a9ca611e4e4f560a84fb79f5aa8c9c733e71a4b5320eeb9215"
+      "sizeBytes": 329796,
+      "sha256": "e2aea23d886c32ac7d3fd07a160cf9985b6e67ec9d686b659624fbe9b06ddd32"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-21.webp",
@@ -2542,8 +2542,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 364602,
-      "sha256": "f2a97a0196a38e5d5e29730ff13987d114cdb2abbd20d3eda5fac3f95c39c5c0"
+      "sizeBytes": 262326,
+      "sha256": "4d92bf77ed195c4e49e4ddbaf682532974394e184593e713894a6d0a5cf89302"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-22.webp",
@@ -2562,8 +2562,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 275330,
-      "sha256": "822780023731d782318f17c0108ead9510dbaad6bf186889356cdc52622f6993"
+      "sizeBytes": 264998,
+      "sha256": "f24132a5135fc1daca654848910d55b85e015a2117c94e151a98213a8034d5bf"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-24.webp",
@@ -2572,8 +2572,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 339582,
-      "sha256": "54fdf08a4ce1ea2e4929c45ff59187cf85fb7c60955a7ff64c3dceae38599fbb"
+      "sizeBytes": 325570,
+      "sha256": "dc28ce9a9c248e46f042b0f96058ed581df5f687ebe7d49caeb1ef375bc58f04"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-25.webp",
@@ -2990,30 +2990,30 @@
       "filename": "logo-dark.webp",
       "category": "branding/ciclo-de-jesed",
       "extension": ".webp",
-      "width": 2172,
-      "height": 724,
-      "sizeBytes": 50252,
-      "sha256": "7083f912f67ee218b0feeae61dc2d77dc3b49cba5078d57d93e64e549e67f2da"
+      "width": 2400,
+      "height": 800,
+      "sizeBytes": 46738,
+      "sha256": "3e2df660a581bcef8070fd4b2332298b4b77827808bf28907adbbe0e0fb4f695"
     },
     {
       "path": "assets/branding/ciclo-de-jesed/logo-light.webp",
       "filename": "logo-light.webp",
       "category": "branding/ciclo-de-jesed",
       "extension": ".webp",
-      "width": 2172,
-      "height": 724,
-      "sizeBytes": 50260,
-      "sha256": "2ff44a9403b1959f201906660f128b90f8e0b2a161391db494a291a03e54c998"
+      "width": 2400,
+      "height": 800,
+      "sizeBytes": 48494,
+      "sha256": "25a6812bdff92b1e3a3e8c13f39a15a978b7bb847afc45dfa16101c6c2a504f4"
     },
     {
       "path": "assets/branding/ciclo-de-jesed/mark.webp",
       "filename": "mark.webp",
       "category": "branding/ciclo-de-jesed",
       "extension": ".webp",
-      "width": 2172,
-      "height": 724,
-      "sizeBytes": 271822,
-      "sha256": "581ab565eaa232577c2df711c2f09bea87b17da57a0932b66f535531e12cb0bd"
+      "width": 2400,
+      "height": 800,
+      "sizeBytes": 185992,
+      "sha256": "5b79ace10f1d9d2629f02d1faf9b6e98d2c950e5442c1bc5196b66fba3bb7bca"
     },
     {
       "path": "assets/branding/dimensoes-infinitas/logo-dark.webp",
@@ -3050,60 +3050,60 @@
       "filename": "logo-dark.webp",
       "category": "branding/dinastia-polar",
       "extension": ".webp",
-      "width": 1983,
-      "height": 793,
-      "sizeBytes": 116360,
-      "sha256": "b8ec457336095359787f42af46e4d4e5d259fec2d8cbf8123b6ed1be0bf0ec42"
+      "width": 2400,
+      "height": 960,
+      "sizeBytes": 110612,
+      "sha256": "8bb78ba419834130bdec9bd03f023ca4c2ac890c1edb89d1f806d9b48b3ec1a9"
     },
     {
       "path": "assets/branding/dinastia-polar/logo-light.webp",
       "filename": "logo-light.webp",
       "category": "branding/dinastia-polar",
       "extension": ".webp",
-      "width": 1983,
-      "height": 793,
-      "sizeBytes": 140252,
-      "sha256": "2f0fb0b7df5a6ef319f67d7528896b455447f706bef15b438d3f2240eb46f704"
+      "width": 2400,
+      "height": 960,
+      "sizeBytes": 113748,
+      "sha256": "194e48a066ac7fc3f621d94813e17893b1cc927bc58a705963222f7001986297"
     },
     {
       "path": "assets/branding/dinastia-polar/mark.webp",
       "filename": "mark.webp",
       "category": "branding/dinastia-polar",
       "extension": ".webp",
-      "width": 1983,
-      "height": 793,
-      "sizeBytes": 959330,
-      "sha256": "902d7ae62fb356ced04fe348ec65a976c0701231c16f184538aa70ef4d610912"
+      "width": 2400,
+      "height": 960,
+      "sizeBytes": 480540,
+      "sha256": "da03c46251a8087a2e5ef087f5daf7b674b310c9cafb60a31c018ecced931fa0"
     },
     {
       "path": "assets/branding/guerras-de-sangue/logo-dark.webp",
       "filename": "logo-dark.webp",
       "category": "branding/guerras-de-sangue",
       "extension": ".webp",
-      "width": 2172,
-      "height": 724,
-      "sizeBytes": 136458,
-      "sha256": "aaed3322b427421409e78da1c920fd94fa8fe9074d0d0b86ebd096c239002c7a"
+      "width": 2400,
+      "height": 800,
+      "sizeBytes": 117510,
+      "sha256": "f875e291545269e61e4b23f79449a5ae2819ecab4e2ed58ef091de12e2b3ffaa"
     },
     {
       "path": "assets/branding/guerras-de-sangue/logo-light.webp",
       "filename": "logo-light.webp",
       "category": "branding/guerras-de-sangue",
       "extension": ".webp",
-      "width": 2172,
-      "height": 724,
-      "sizeBytes": 136456,
-      "sha256": "a8eb71ad51c832a74c32421894ce4714ddda05a580bcbf22039f649e4d5e277d"
+      "width": 2400,
+      "height": 800,
+      "sizeBytes": 120944,
+      "sha256": "914308d6c4a195205196c2d9412f215172eb5a6e7ea5d22ec2e4b05e86908459"
     },
     {
       "path": "assets/branding/guerras-de-sangue/mark.webp",
       "filename": "mark.webp",
       "category": "branding/guerras-de-sangue",
       "extension": ".webp",
-      "width": 2172,
-      "height": 724,
-      "sizeBytes": 507496,
-      "sha256": "1577a3caf8386a2a8b7d321a610df116cd6aac06ff0954723e65d8a63d9cb8ca"
+      "width": 2400,
+      "height": 800,
+      "sizeBytes": 505386,
+      "sha256": "60cd3b916736cf17344079c6577fb5115dd982a7ad5e9cad175f0ed8488d265c"
     },
     {
       "path": "assets/branding/herdeiros-das-cinzas/logo-dark.webp",
@@ -3140,30 +3140,30 @@
       "filename": "logo-dark.webp",
       "category": "branding/ruinas-dos-ceus",
       "extension": ".webp",
-      "width": 2027,
-      "height": 776,
-      "sizeBytes": 161400,
-      "sha256": "1ce9b56b81439b69b86df973cad07aadc8dfd4a4275c7c4b21691028bb1392ea"
+      "width": 2400,
+      "height": 919,
+      "sizeBytes": 130148,
+      "sha256": "9a86d531a284b0db07cd5ca1793dd4ac5990eba2e399cb85b8f071a1db9df09a"
     },
     {
       "path": "assets/branding/ruinas-dos-ceus/logo-light.webp",
       "filename": "logo-light.webp",
       "category": "branding/ruinas-dos-ceus",
       "extension": ".webp",
-      "width": 2027,
-      "height": 776,
-      "sizeBytes": 161406,
-      "sha256": "0b0387660e4d03d60a178550e7e9dbadd6e192803611ba306b299ef491f39de5"
+      "width": 2400,
+      "height": 919,
+      "sizeBytes": 133628,
+      "sha256": "cecf821341cff693d86f43a711ac8ddf1399171b7dff2dfd212ad09c57caf4d7"
     },
     {
       "path": "assets/branding/ruinas-dos-ceus/mark.webp",
       "filename": "mark.webp",
       "category": "branding/ruinas-dos-ceus",
       "extension": ".webp",
-      "width": 2027,
-      "height": 776,
-      "sizeBytes": 1199402,
-      "sha256": "f595d9916cfff5b533269ac16ca91529eb880415ae82feba60bed5e90a09b827"
+      "width": 2400,
+      "height": 919,
+      "sizeBytes": 544434,
+      "sha256": "34bfe71be57128bdacb58ae0a58fd446e9ed2950a95710f5ecc59d5ad6e8991d"
     },
     {
       "path": "assets/shared/reference/alianca-contra-kaendar.webp",
@@ -3690,10 +3690,10 @@
       "filename": "dimensoes-infinitas-logo-white.webp",
       "category": "",
       "extension": ".webp",
-      "width": 0,
-      "height": 0,
-      "sizeBytes": 0,
-      "sha256": ""
+      "width": 2400,
+      "height": 900,
+      "sizeBytes": 85790,
+      "sha256": "4006d504c7a9aef4ef8d908539e7a114a93b30116b6ba82c3bed8b1e88fff257"
     }
   ]
 }
