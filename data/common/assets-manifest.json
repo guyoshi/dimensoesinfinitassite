@@ -2522,8 +2522,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 389546,
-      "sha256": "de49c961b99f6b68c5ee2aca28cf80e7a2ecdc26138cf2b22cd310d424b9a9f1"
+      "sizeBytes": 541534,
+      "sha256": "0f2c45ab2501e9710c5fe274c78106b324cfddb41d90d6cd8b8dd089af91fdd9"
     },
     {
       "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/chapters/chapter-20.webp",
@@ -2950,10 +2950,10 @@
       "filename": "raukhar.webp",
       "category": "books/ciclo-de-jesed/shared/lore/fauna",
       "extension": ".webp",
-      "width": 1400,
-      "height": 1120,
-      "sizeBytes": 230770,
-      "sha256": "ff18b6079f38eb3d162e519eaa9721f2621c0ce4109c28aea38ffb253080b336"
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 490040,
+      "sha256": "00997beb292c1f15cd7bc74ed6653eca35de901f3aaeefc51dd8f7f64dad9220"
     },
     {
       "path": "assets/books/ciclo-de-jesed/shared/lore/temp/fauna-placeholder.webp",
