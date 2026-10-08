@@ -14,7 +14,7 @@
       contradictions:['É frágil e dependente, mas por vezes parece saber mais do que os adultos.','Precisa ser protegido, mas também conduz sobreviventes a decisões e descobertas.','Pertence emocionalmente a Jokara, embora narrativamente pareça pertencer a outro ponto do ciclo.'],
       finalRevelation:'Ruínas dos Céus não encerra sua identidade. O livro confirma apenas que Loutes não é uma criança comum de Etérea e que sua origem está ligada à superfície, ao tempo e à continuidade do ciclo.',
       consequences:['Jokara encontra um motivo para cuidar de alguém quando sua própria fé se rompe.','A existência de Loutes abre a primeira fissura na certeza de que a superfície era apenas mito.','O mistério permanece como uma ponte para os livros seguintes.'],
-      chapterNumbers:[2,3,4,6,7,9,10,12,20,24],
+      chapterNumbers:[2,3,4,6,7,9,10,12,21,22,24,25],
       characterIds:[characterId('Loutes'),characterId('Jokara Amaréa'),characterId('Nestira Amaréa'),characterId('Sersi')],
       placeIds:[placeId('Bosques de Arion'),placeId('Círculo de Nhamari'),placeId('Ruínas')]
     },
@@ -30,7 +30,7 @@
       contradictions:['Etérea afirmava resolver conflitos sem violência, mas eliminava fisicamente quem não podia ser reintegrado.','A leveza coletiva dependia de empurrar para baixo tudo aquilo que ameaçava a narrativa oficial.'],
       finalRevelation:'As Ilhas Baixas eram uma mentira institucional. O nome suavizava o facto de que os exilados eram lançados para um destino que a sociedade não pretendia testemunhar.',
       consequences:['Yndra deixa de parecer apenas uma herege e passa a ser também vítima de uma ordem que precisava silenciá-la.','A moralidade eterí é reinterpretada: a ausência de crime visível não significava ausência de crueldade.'],
-      chapterNumbers:[4,5,6,8,9,20],
+      chapterNumbers:[4,5,6,8,9,23],
       characterIds:[characterId('Yndra'),characterId('Jokara Amaréa'),characterId('Yrisea')],
       placeIds:[placeId('Praça da Raiz'),placeId('Ilhas Baixas')]
     },
@@ -46,7 +46,7 @@
       contradictions:['Há medições físicas reais, mas também coincidências e imagens proféticas que não recebem explicação simples.','O Peso funciona como doutrina opressiva e, ao mesmo tempo, descreve com precisão certos comportamentos que arrastam a sociedade para baixo.'],
       finalRevelation:'Etérea caiu materialmente porque já não conseguia permanecer suspensa. O livro não determina se o Sopro, o Peso e as profecias são causas sobrenaturais, formas culturais de perceber o fenómeno ou ambas as coisas.',
       consequences:['Quase toda a civilização eterí é destruída.','Os sobreviventes precisam trocar uma identidade de leveza por técnicas de vida no chão.','O trauma da Queda torna-se a origem distante das estruturas que, séculos depois, formarão os Polar.'],
-      chapterNumbers:[1,4,5,6,7,8,9,20,21],
+      chapterNumbers:[1,4,5,6,7,8,9,21,22],
       characterIds:[characterId('Jokara Amaréa'),characterId('Professor Taliver'),characterId('Yndra'),characterId('Nestira Amaréa')],
       placeIds:[placeId('Etérea'),placeId('Círculo de Nhamari'),placeId('Planalto de Talyen')]
     },
@@ -62,7 +62,7 @@
       contradictions:['A religião preservou fragmentos do passado, mas reorganizou-os para sustentar superioridade e isolamento.','Etérea ensinava que a superfície era ausência, embora sua própria cultura carregasse marcas de quem veio de lá.'],
       finalRevelation:'Os construtores eram povos humanos da superfície ligados aos ancestrais eterí. Etérea foi criada como refúgio durante uma antiga crise e, com o tempo, a memória dessa origem foi convertida em mito.',
       consequences:['Jokara compreende que sobreviver no chão não é uma regressão impura.','A autoridade histórica dos Oradores é quebrada.','O título Ruínas dos Céus passa a referir-se tanto à queda física quanto às ruínas de uma verdade construída.'],
-      chapterNumbers:[20,21,22],
+      chapterNumbers:[21,22],
       characterIds:[characterId('Jokara Amaréa'),characterId('Platisa'),characterId('Maletar'),characterId('Gabasteri')],
       placeIds:[placeId('Ruínas')]
     },
@@ -77,7 +77,7 @@
       contradictions:['As Correntes parecem responder, mas nunca de modo controlável ou verificável.','A religião produz beleza, comunhão e coragem, mas também censura e violência institucional.'],
       finalRevelation:'Não há revelação final objetiva. O Sopro pode ser divindade, natureza, memória coletiva ou uma linguagem humana para o ciclo. A ambiguidade permanece deliberadamente aberta.',
       consequences:['Jokara deixa de depender da aprovação religiosa para agir.','Nestira mostra que conservar fé não exige conservar a mesma instituição.','O leitor pode interpretar os acontecimentos espiritualmente ou materialmente sem que uma leitura anule a outra.'],
-      chapterNumbers:[1,2,4,5,8,9,21,23,24],
+      chapterNumbers:[1,2,4,5,8,9,22,23,24],
       characterIds:[characterId('Jokara Amaréa'),characterId('Nestira Amaréa'),characterId('Yndra'),characterId('Professor Taliver')],
       placeIds:[placeId('Etérea'),placeId('Nadirion')]
     }
