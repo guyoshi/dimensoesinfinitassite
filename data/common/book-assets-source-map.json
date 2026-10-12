@@ -839,7 +839,7 @@
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/iressa-maos-de-sal.webp",
-      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Iressa Mãos-de-Sal.png",
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Iressa Mão-de-Sal.png",
       "sourceSha256": "5fa7bc0c1be0f37bae01b7434cda8176bcdae13a0d5edb5116837be87cd46572"
     },
     {
@@ -864,8 +864,8 @@
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/lurok.webp",
-      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Lurak das Casas Antigas.png",
-      "sourceSha256": "a3f8f5cf47dd6271187cda9a5aee86a053dcacbc3651e428903dbcb6ef506e84"
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Lurok das Casas Antigas.png",
+      "sourceSha256": "2ab86893724d5883f8d08f441022a1f18224f304b5b281a8f1682e3f2d71dbbb"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/lutharus.webp",
@@ -874,8 +874,8 @@
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/maelis-das-contagens.webp",
-      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Maela das Contagens.png",
-      "sourceSha256": "6bbafb68b19c8a9434ddd46454f37eb08adc49d40ffbc58d36cb7603395908dd"
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Maelis das Contagens.png",
+      "sourceSha256": "31d0f64f5867a35ee49ff85386b73e937c250292866f89823579efac6c3946d0"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/markoso.webp",
@@ -1444,8 +1444,8 @@
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/shared/lore/fauna/raukhar.webp",
-      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Rhaukar.png",
-      "sourceSha256": "9dfe96694814a135a865d3fc79a2feedac35a1a10234b7112e6c22f902891ef5"
+      "sourcePath": "Ciclo de Jesed/2 - Guerras de Sangue/02 - Assets/Personagens/Raukhar.png",
+      "sourceSha256": "2b2fde0e9bb187bcaa91fa1b60038d976dfe0450a7eaaef151261b516a903276"
     },
     {
       "sitePath": "assets/branding/ciclo-de-jesed/logo-dark.webp",
