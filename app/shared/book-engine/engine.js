@@ -192,7 +192,7 @@
       const rows = list.filter(c => (state.narrator === 'all' || c.pov === state.narrator) && (!q || norm(c.title).includes(q) || norm(String(c.number)).includes(q) || norm(c.pov).includes(q)));
       $('#chList').innerHTML = rows.length ? rows.map(c => {
         const img = chapterImage(c);
-        return `<a class="chcard ${c.status === 'draft' ? 'draft' : ''}" href="#/capitulo/${c.number}">${img ? `<span class="chimg">${thumb(img, c.title, 'chapter')}</span>` : ''}<span class="chnum">${c.number}</span><span class="chbody"><strong>${esc(c.title)}</strong>${c.summary ? `<small>${esc(String(c.summary).split(/\n\s*\n/)[0].slice(0, 170))}…</small>` : ''}</span>${c.status === 'draft' ? '<span class="chip draft-chip">Rascunho</span>' : ''}${chip(c.pov)}</a>`;
+        return `<a class="chcard ${c.status === 'draft' ? 'draft' : ''}" href="#/capitulo/${c.number}">${img ? `<span class="chimg">${thumb(img, c.title, 'chapter')}</span>` : ''}<span class="chnum">${c.number}</span><span class="chbody"><strong>${esc(c.title)}</strong></span>${chip(c.pov)}</a>`;
       }).join('') : '<div class="panel empty"><p>Nenhum capítulo encontrado.</p></div>';
     };
     $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Capítulos', `${A.chapters.length} ${A.chapters.length === 1 ? 'capítulo' : 'capítulos'}.`)}
@@ -233,17 +233,13 @@
     crumb([[label]]);
   }
   function entityMeta(x) {
-    const bits = [x.status, x.importance, x.type, x.region].filter(Boolean);
+    const bits = [x.importance, x.type, x.region].filter(Boolean);
     return bits.length ? `<div class="tagrow meta">${bits.map(b => `<span class="chip">${esc(b)}</span>`).join('')}</div>` : '';
   }
   function entityExtra(x) {
-    const li = a => `<ul class="blist">${a.map(t => `<li>${esc(t)}</li>`).join('')}</ul>`;
-    const k = x.knowledge || {};
     const secs = [];
     if ((x.personality || []).length) secs.push(`<h3 class="h-font small-h">Personalidade</h3><div class="tagrow">${x.personality.map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>`);
     if (x.voice) secs.push(`<h3 class="h-font small-h">Voz</h3><p>${esc(x.voice)}</p>`);
-    [['knows', 'O que sabe'], ['suspects', 'O que suspeita'], ['secrets', 'Segredos']].forEach(([key, lab]) => { if ((k[key] || []).length) secs.push(`<h3 class="h-font small-h">${lab}</h3>${li(k[key])}`); });
-    if (x.destiny && x.destiny.written) secs.push(`<h3 class="h-font small-h">Destino até aqui</h3><p>${esc(x.destiny.written)}</p>`);
     if ((x.sources || []).length) secs.push(`<p class="muted srcline">Fontes: ${x.sources.map(esc).join(' · ')}</p>`);
     return secs.join('');
   }
