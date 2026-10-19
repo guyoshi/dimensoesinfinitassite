@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updatedAt": "2026-10-19",
-  "stage": "Etapa 1 do plano dos novos sites (esqueleto). Ainda não ligado ao portal.",
+  "stage": "Etapa 3 concluída: ligado ao portal (sagas liberadas) e com páginas dos 4 livros abertos.",
   "rules": {
     "status": "active = livro aberto no site; locked = card 'Em preparação', sem página",
     "assetsConvention": "assets/books/<saga>/<livro>/ (igual a SINCRONIZACAO_DE_IMAGENS.md)",
@@ -159,7 +159,7 @@
             "02 - Assets/Logos/Titulo/A Patrulha de Korvo - branco.png",
             "02 - Assets/Logos/Titulo/A Patrulha de Korvo - preto.png"
           ],
-          "note": "Título em aberto: a capa traz 'A Ascensão de Korvo'; manuscrito e pastas usam 'A Patrulha de Korvo'."
+          "note": "Título definido: A Patrulha de Korvo (a arte da capa ainda diz 'A Ascensão de Korvo'). Capítulos 22 e 23: O Tribunal das Sombras, A Árvore da Vigília."
         },
         {
           "id": "livro-2",

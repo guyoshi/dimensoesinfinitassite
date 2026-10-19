@@ -1,0 +1,22 @@
+/* Diário Sobrenatural 2 — Alvorada: mesma base do livro 1, paleta de amanhecer e miragem */
+@import url("../os-elos-das-sombras/theme.css");
+:root{
+  --bg:#120d14;--card-plain:#efe3d0;--acc:#e6b567;--acc-ink:#20120a;--ember:#c97a6b;--candle:#e6b567;--gold:#e6b567;--haze:#7b5a8f;--mute:#c4aab8;
+  --side:linear-gradient(180deg,#1c1322 0%,#100a14 100%);--side-line:rgba(230,181,103,.35);--sec:#9a7cae;
+  --card-bg:repeating-linear-gradient(180deg,transparent 0 27px,rgba(123,90,143,.14) 27px 28px),#efe3d0;--card-line:#d8b97d;--card-head:#6a3d5c;
+  --card-shadow:0 10px 26px rgba(0,0,0,.5),0 0 0 1px rgba(230,181,103,.25);
+  --pill-line:rgba(230,181,103,.45);--btn-line:rgba(230,181,103,.6);--btn-p-bg:linear-gradient(180deg,#e6b567,#a8742a);--btn-p-ink:#20120a;--btn-p-line:#ffe3a8;
+  --nav-active-bg:linear-gradient(90deg,rgba(230,181,103,.32),rgba(230,181,103,.03));--nav-active-bar:#e6b567;--hero-line:rgba(230,181,103,.6);
+}
+body{background:radial-gradient(900px 600px at 6% 0%,rgba(230,181,103,.55) 0%,transparent 60%),radial-gradient(900px 600px at 100% 100%,rgba(123,90,143,.45) 0%,transparent 60%),linear-gradient(180deg,#1b1320 0%,#120d14 70%)}
+.sigil{color:#e6b567;border-color:#e6b567;box-shadow:0 0 16px rgba(230,181,103,.5)}
+.hero-shade{background:linear-gradient(90deg,rgba(18,13,20,.95) 0%,rgba(18,13,20,.7) 50%,rgba(18,13,20,.05) 100%)}
+.coverwrap{box-shadow:0 0 0 1px #d8b97d,0 0 60px rgba(230,181,103,.5),0 20px 50px rgba(0,0,0,.7)}
+.fx-vignette{background:radial-gradient(ellipse at center,transparent 50%,rgba(10,6,12,.6) 100%)}
+.fx-dawn{background:radial-gradient(ellipse 900px 620px at 8% -6%,rgba(230,181,103,.5),rgba(230,181,103,.12) 50%,transparent 72%),radial-gradient(ellipse 900px 520px at 100% 100%,rgba(123,90,143,.45),transparent 65%);animation:dawn 9s ease-in-out infinite alternate}
+@keyframes dawn{to{opacity:.7;transform:scale(1.04)}}
+.fx-mist{top:auto;height:230px;background:linear-gradient(180deg,transparent,rgba(190,170,210,.22));filter:blur(8px);animation:mist 22s ease-in-out infinite alternate}
+@keyframes mist{to{transform:translateX(-4%)}}
+.fx-herodawn{position:absolute;left:-40px;top:-120px;width:900px;height:620px;background:radial-gradient(ellipse at 30% 30%,rgba(230,181,103,.5),rgba(230,181,103,.12) 50%,transparent 72%)}
+body.fx-ds2:not(.perf):not(.fx-light) .card,body.fx-ds2:not(.perf):not(.fx-light) .hero-bg{filter:url(#di-mirage)}
+.ink-l,.ink-r,.ink-b{display:none}

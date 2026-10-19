@@ -20,6 +20,14 @@ Versão estrutural: **0.17.1 — Etapa 16 concluída, organização 0.17 preserv
 - o fundo escuro de *Guerras de Sangue* agora acompanha toda a altura do conteúdo;
 - nenhum push foi realizado no GitHub.
 
+## Novos livros (19/10/2026)
+
+- `a-lenda-da-aurora.html` — *Spacetheft 1: A Lenda da Aurora*.
+- `a-patrulha-de-korvo.html` — *Viajantes Dimensionais 1: A Patrulha de Korvo*.
+- `os-elos-das-sombras.html` — *Diário Sobrenatural 1: Os Elos das Sombras*.
+- `a-alvorada-das-ilusoes.html` — *Diário Sobrenatural 2: A Alvorada das Ilusões* (em desenvolvimento).
+- Motor em `app/shared/book-engine/`, temas em `app/sagas/<saga>/books/<livro>/`, dados em `data/sagas/<saga>/`. Ver `docs/NOVOS-SITES-ETAPA-3-CONSTRUCAO.md`.
+
 ## Entradas públicas
 
 - `index.html` — portal de Dimensões Infinitas.

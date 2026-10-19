@@ -1,0 +1,2 @@
+window.DI_BOOK = window.DI_BOOK || {};
+window.DI_BOOK.gallery = [];
