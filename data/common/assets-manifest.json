@@ -3,7 +3,7 @@
   "updatedAt": "2026-10-20",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 369,
+  "count": 456,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
@@ -3694,6 +3694,876 @@
       "height": 900,
       "sizeBytes": 85790,
       "sha256": "4006d504c7a9aef4ef8d908539e7a114a93b30116b6ba82c3bed8b1e88fff257"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/cover.webp",
+      "filename": "cover.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 331522,
+      "sha256": "03f840c897f11e3f3d45f122412d2b7fb919b55f593fc20a8704c0fda3159221"
+    },
+    {
+      "path": "assets/branding/os-elos-das-sombras/logo-light.webp",
+      "filename": "logo-light.webp",
+      "category": "branding/os-elos-das-sombras",
+      "extension": ".webp",
+      "width": 2172,
+      "height": 724,
+      "sizeBytes": 52030,
+      "sha256": "367b4034248d6230f82ce7e0f508f5aeaff58e541dc3deaf7fbe4c9e7e798c19"
+    },
+    {
+      "path": "assets/branding/os-elos-das-sombras/logo-dark.webp",
+      "filename": "logo-dark.webp",
+      "category": "branding/os-elos-das-sombras",
+      "extension": ".webp",
+      "width": 2172,
+      "height": 724,
+      "sizeBytes": 50362,
+      "sha256": "28951d9daed54cdd6363b3290ada19fe6f107815f63e2e40811834953c346146"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/agouro.webp",
+      "filename": "agouro.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 338624,
+      "sha256": "defc838a1568ea31f68883710f09577b83f9af523d2c6873dae558d3f3da441b"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/avo.webp",
+      "filename": "avo.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 248616,
+      "sha256": "ffe97181c55be010ec19a8a4ac912887fbf1e25bb09cde2cabad8c3ee5d82825"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/carnam-pai.webp",
+      "filename": "carnam-pai.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 314450,
+      "sha256": "82d18263d46f3d7241ad45c0cdc505feb07f497b1ebf47528ac6675628995c4d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/ibliso.webp",
+      "filename": "ibliso.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 281406,
+      "sha256": "4d32069693fb06d6e98fff9d2b8fa7262444b8f705092770d01a66ee788c8544"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/ingrid.webp",
+      "filename": "ingrid.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 358354,
+      "sha256": "cf8bb0dff496d609f9479602022a4d877dcbdce3da59477621cb6d3bac07eee7"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/isabela-mae.webp",
+      "filename": "isabela-mae.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 261674,
+      "sha256": "bdba75bff5c126000df5400d7a01dae8777120d25f62b39bc55b8e1ff74350d6"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/sueten.webp",
+      "filename": "sueten.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 269078,
+      "sha256": "715c8db3e3ce67bb979ea78f327bc9e054e65da27d9000170b03413dc9c44fef"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/jason.webp",
+      "filename": "jason.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 134142,
+      "sha256": "16ccca049406cc8e24aab543201e8affd1425946f7267d44723e4b09d9391277"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/jennifer.webp",
+      "filename": "jennifer.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 251170,
+      "sha256": "3bb965527d56350f4722ea7d01ab23a697d212aed4e035e630b61a77158375b1"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/junior.webp",
+      "filename": "junior.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 149740,
+      "sha256": "4b3ab85f696cc4379b1245f541c0cdfe33e91fdd49a131dfb23d040c28cc89f6"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/kelly.webp",
+      "filename": "kelly.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 249284,
+      "sha256": "851c5b3f0ce9b8fcf5f1154ff630d6b6dcfd64cda1bb4b7cab9afb4793e4d19c"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/pedro.webp",
+      "filename": "pedro.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 217780,
+      "sha256": "a5989c6289d7897bf4b1d730f0cb9c41ba32e8b8d432ee9e80702ccda7602c34"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/priscila.webp",
+      "filename": "priscila.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 261656,
+      "sha256": "76776cbf9030ca293a3b3424fefe9870cdb41d605584e4c07d40e98f545bd484"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/vini.webp",
+      "filename": "vini.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 270608,
+      "sha256": "48f2882367e3c0a7ec66585e487afc515c0a9b4bdf078483b8590b5f343c692c"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/cover.webp",
+      "filename": "cover.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 356978,
+      "sha256": "ea507b25b2b50e72c264c507f4fbb3b273720c9e55fd20c2f0a70c7354ff8ad2"
+    },
+    {
+      "path": "assets/branding/a-alvorada-das-ilusoes/logo-light.webp",
+      "filename": "logo-light.webp",
+      "category": "branding/a-alvorada-das-ilusoes",
+      "extension": ".webp",
+      "width": 2172,
+      "height": 724,
+      "sizeBytes": 54158,
+      "sha256": "5b9ca1db01875d0cecaa032b503157dfbe81d5deb85251ae51f2282c0955b3f6"
+    },
+    {
+      "path": "assets/branding/a-alvorada-das-ilusoes/logo-dark.webp",
+      "filename": "logo-dark.webp",
+      "category": "branding/a-alvorada-das-ilusoes",
+      "extension": ".webp",
+      "width": 2172,
+      "height": 724,
+      "sizeBytes": 52542,
+      "sha256": "ab8c40645c470d561003666d2a3d1e1a94c06871a07d2a666bee7fee409249d1"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/cara-de-larva.webp",
+      "filename": "cara-de-larva.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 292906,
+      "sha256": "5dc81f47b605deb3a579e6676f515f2c4ccc5f9bd92ea3f3847548766c1a3421"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/diego.webp",
+      "filename": "diego.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 224686,
+      "sha256": "6ac8515b66a4d9bb3f0ccd5c6f5d1b0c1d5aeeee9f105fcfe5c15679b072a8d9"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/filipo.webp",
+      "filename": "filipo.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 361096,
+      "sha256": "a3e8d228eccab2e5bcf93db55f85d82c3180889a76370e90897a13712fdda0a6"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/glenda.webp",
+      "filename": "glenda.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 197784,
+      "sha256": "875c32f2fb9ef9881bd282d14a833dca785ae77d58176f4a5c7cd8f27f111d03"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/jason.webp",
+      "filename": "jason.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 265806,
+      "sha256": "d9598dd569e1f0d593a6e553fbbe464e12c974b80794b7d14dddb56c36b988a3"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/jennifer.webp",
+      "filename": "jennifer.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 324342,
+      "sha256": "6d202ac95d5d7db66d65ae4c1f75603bc002284e7c2594b5819f187ea4684238"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/junior.webp",
+      "filename": "junior.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 206214,
+      "sha256": "3738b1ac56c145dfa40ef31b58238b7b4028932a8b772a4ef34063dab1438ce6"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/manu.webp",
+      "filename": "manu.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 329304,
+      "sha256": "caba4990813de56914e7edd657b7898d4ed6967e4b5e028ad10d08e2e33e0edb"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/pedro.webp",
+      "filename": "pedro.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 167104,
+      "sha256": "f4462cfa5c746c7d99747e7224cd69cc974055dd786e73642cfec2bfb6d54e3c"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/priscila-hamburgueria-secundaria.webp",
+      "filename": "priscila-hamburgueria-secundaria.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 276802,
+      "sha256": "f84124a5af48aa80a34f3bb075f5c51cdfd0dbe206c673eaa50ff77f76dfc7f5"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/priscila.webp",
+      "filename": "priscila.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 206436,
+      "sha256": "a5a5cfe99ff9eb96430fe485e13f5030eb21522e6c2e3afce666517d0ab4e799"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/sra-olivia.webp",
+      "filename": "sra-olivia.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 300658,
+      "sha256": "24d3d8fa5d51e12cac38429b18552696cf38b13e22b55c8405432812cfdce32f"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/vini.webp",
+      "filename": "vini.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 163170,
+      "sha256": "3670aa58fed5b17dc967a9a3242954a8e5b8600c123c47022866f39ef379e606"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/cover.webp",
+      "filename": "cover.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 375778,
+      "sha256": "b092c0cafaa9bb26536dfa3e0d17dd7415ba593fa319b1ebc7179bffa9b27a70"
+    },
+    {
+      "path": "assets/branding/a-lenda-da-aurora/logo-light.webp",
+      "filename": "logo-light.webp",
+      "category": "branding/a-lenda-da-aurora",
+      "extension": ".webp",
+      "width": 2172,
+      "height": 724,
+      "sizeBytes": 37910,
+      "sha256": "c6ae08ea9a0ee472b85f7dcdb2f977ffc38c886269706cc1ab7f2b4ef0794685"
+    },
+    {
+      "path": "assets/branding/a-lenda-da-aurora/logo-color.webp",
+      "filename": "logo-color.webp",
+      "category": "branding/a-lenda-da-aurora",
+      "extension": ".webp",
+      "width": 2172,
+      "height": 724,
+      "sizeBytes": 210532,
+      "sha256": "a579ac6f65ba973a5f7b54409e84c9d413af7e517266a719998216b2243ae2f9"
+    },
+    {
+      "path": "assets/branding/a-lenda-da-aurora/logo-dark.webp",
+      "filename": "logo-dark.webp",
+      "category": "branding/a-lenda-da-aurora",
+      "extension": ".webp",
+      "width": 2172,
+      "height": 724,
+      "sizeBytes": 36866,
+      "sha256": "e09b2b87f4c5129345e92156bfe29bea43873ce61d48698f6edeaa1666341f59"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/gerbe.webp",
+      "filename": "gerbe.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 238664,
+      "sha256": "f386a6610840c14df048b9e2a2421df8070f55127e3b9116d32db8ea0f9be351"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/a-besta.webp",
+      "filename": "a-besta.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 503836,
+      "sha256": "2bdec6e9a293151d0a06947c3a8b459bb0139dc42824665bb32fd242b258bba8"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/alekta.webp",
+      "filename": "alekta.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 378178,
+      "sha256": "84669a2dd6d59dbd0a1e7fca6c960f950da84c027b026a93cb52b3b5ae779bc2"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/amanda.webp",
+      "filename": "amanda.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 366576,
+      "sha256": "896d95db4eb68c70303d24f521574f1d0dbb79da9b8e41d3d065124fc9ef6c54"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/buni.webp",
+      "filename": "buni.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 433672,
+      "sha256": "cd7f63da3d606bff1cb61fffbabe62fcd112e6b8c1a592cfcc43e3532e95f216"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/capita-nastacia.webp",
+      "filename": "capita-nastacia.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 333722,
+      "sha256": "95f1a84f5b646f7986b34a36a4ac59c030ab8852261f01eef8234fc9a6b51b9b"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/capitao-tzough.webp",
+      "filename": "capitao-tzough.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 288700,
+      "sha256": "77303d940c074c75a0aa392f0770a842fe56cb5bf4e224f395b0dc510621bfaa"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/cardical.webp",
+      "filename": "cardical.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 357764,
+      "sha256": "4711beb8349b3fcac9bf448b453ee04a84f0cd81fd7b5ca74619324ef3c48921"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo-conceito-01.webp",
+      "filename": "domongo-conceito-01.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 245302,
+      "sha256": "6f0d54f4598289d6cd9bc07363db82a12ec772bcd3c1396fe816ffbbb1785000"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/engenheira.webp",
+      "filename": "engenheira.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 414650,
+      "sha256": "9ff7e8d2da6f56ec2994ea1a513fa0fd3740e3470b2b66986aa2ff3e8fcb004d"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/eric.webp",
+      "filename": "eric.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 214280,
+      "sha256": "f5760852da0f780a555ebb6439170104e058e955805ccd39d642ee6472d1d690"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/genrir.webp",
+      "filename": "genrir.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 256092,
+      "sha256": "2cad090b7b72fe4f78deab2d0b5a5b5808d1493024117484f71593206aa180c4"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/jasmey-badrock.webp",
+      "filename": "jasmey-badrock.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 395500,
+      "sha256": "2d4f67e4b882fa0dc6c8f118492a8397ff5ec4c95e518eb5e6efe1c5059cbae2"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/jelles.webp",
+      "filename": "jelles.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 266216,
+      "sha256": "74357d710113d6f4ff1fad7a8fcf75db8e6b071f30c1720fe57db3e96d7e3f9a"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/kord.webp",
+      "filename": "kord.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 334186,
+      "sha256": "8bf6eb4dac1a4dc4fbe385f1d51b515cfc72c2b36429bc31aad9ab6bbecb9cee"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/lias-hardman.webp",
+      "filename": "lias-hardman.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 275862,
+      "sha256": "9285c882c8ed427035d721ae40638b4e3c11a903f835d461e12110edd0b42107"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/luna-stellar.webp",
+      "filename": "luna-stellar.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 291406,
+      "sha256": "08a475625791a51a58450607051cce4be163d43be34d7d3aa127d18dd7361aa9"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/o-reilly.webp",
+      "filename": "o-reilly.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 361870,
+      "sha256": "65ab2083822fb0680d438a564f28d981d388645e5f21d895cce372f27e2327e1"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/tersario.webp",
+      "filename": "tersario.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 432252,
+      "sha256": "75c58b681d93e700d15e679d1cf855d6e19fdcaf61e63cdb7dee7e455733c64c"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/vek.webp",
+      "filename": "vek.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 166526,
+      "sha256": "2a6f3c10328f01cd4f270c20dd45e4cc3e16355e9989fa3b8cb72acb3dd2bf4a"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/vivian.webp",
+      "filename": "vivian.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 307900,
+      "sha256": "954a0689455f76c3e8faebef3c7ed27c6ac6430caf18e7372a51f0b1c35d3a9b"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/cover.webp",
+      "filename": "cover.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 278844,
+      "sha256": "6dcb91264db2da68982886a3fcd49d6cb26b1270004a1ee762744946da3a262b"
+    },
+    {
+      "path": "assets/branding/a-patrulha-de-korvo/logo-light.webp",
+      "filename": "logo-light.webp",
+      "category": "branding/a-patrulha-de-korvo",
+      "extension": ".webp",
+      "width": 2172,
+      "height": 724,
+      "sizeBytes": 48384,
+      "sha256": "72cc471660b76d2688000cd8b9308ff8cb7cffa36381b1edfe030392d8c841b6"
+    },
+    {
+      "path": "assets/branding/a-patrulha-de-korvo/logo-dark.webp",
+      "filename": "logo-dark.webp",
+      "category": "branding/a-patrulha-de-korvo",
+      "extension": ".webp",
+      "width": 2172,
+      "height": 724,
+      "sizeBytes": 46820,
+      "sha256": "0ffc4d0f1428c237f18b6ee28eb446f2ff3b778669ce00188171d15341787f13"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/anasin.webp",
+      "filename": "anasin.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 297600,
+      "sha256": "006b8a066c1352b24a406ec4b085d31252cd92c0ded1d8805831e9abb9aca2e2"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/banjo-lins.webp",
+      "filename": "banjo-lins.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 399038,
+      "sha256": "c52598415d3bf838dcee83cae6cdee1d90796d1f6b141a2a1670efce9ec18ff1"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/beatriz-lins.webp",
+      "filename": "beatriz-lins.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 382446,
+      "sha256": "4b1be64c1d7fbee3bf7517eb2aa221edfe36ac94d3aac8fc94dad2bd9f0a372f"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/brenda.webp",
+      "filename": "brenda.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 337976,
+      "sha256": "50289f8123b57f6f670b802f62c94ef2ddf8ee11571aeb54590c89a887b35c1b"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/breno-lins.webp",
+      "filename": "breno-lins.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 362676,
+      "sha256": "8616d80f840cb16f690c824b12282f6a32f0287dc11190d48cfff878a8b50b8d"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/bruno-lins.webp",
+      "filename": "bruno-lins.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 362528,
+      "sha256": "fab45d7afe5204abb85c1d52c06eb56024089b606208e87e9591b0e801a31f17"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/erick-corvane.webp",
+      "filename": "erick-corvane.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 411638,
+      "sha256": "9ac3d88d631039438a150647d923536328be6a3fdadad06178b28d5c3dcb07dd"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/erla-diggs.webp",
+      "filename": "erla-diggs.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 283938,
+      "sha256": "780a37772a614084daa25d01c9dae6cac1ee68c4befded25e38041fa800843a3"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/eshley-damaris.webp",
+      "filename": "eshley-damaris.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 356450,
+      "sha256": "d842b91be9b522b0c9dc522d62580f14346c06beba52d649a52289055754cc83"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/faka.webp",
+      "filename": "faka.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 481184,
+      "sha256": "689f77c1afd7c0be40663cd015f070fd5dd5e7cd3843a96206f130d7f8fb0c57"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/garmand.webp",
+      "filename": "garmand.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 375944,
+      "sha256": "10528c032c6e83370a52ffb2fc366919e5ce684fc7b792aab89230b439eea972"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/gary.webp",
+      "filename": "gary.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 271304,
+      "sha256": "c0e30032f4d80daf554edb66afe687e14f3cf0fe8685fb2355ee273022954f9a"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/grande-pai-gaia.webp",
+      "filename": "grande-pai-gaia.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 542122,
+      "sha256": "2fb69243b57e384825e2d86b9149e977e7e38f68518af780e8918c5996453ad4"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/korvo.webp",
+      "filename": "korvo.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 382246,
+      "sha256": "bda70141d0fc30ad5c7ac8ff6ecc748786421f9d0af24de734c6b0bd8fc21f88"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/lanigiah.webp",
+      "filename": "lanigiah.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 524512,
+      "sha256": "32f6aa018259d25f56f02426614381d016fc1e578b932b6c0bc90e6eb82bbb47"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/lucas-veline.webp",
+      "filename": "lucas-veline.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 267884,
+      "sha256": "5b2650f897a0972fc7081d658338131d987eb5c1af2884829c3f1d68f055df57"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/laridas-celestes.webp",
+      "filename": "laridas-celestes.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 362386,
+      "sha256": "14abeac26f3ddce88c848b413cd493e63a472a9083db4eae15d22a25e8a8a0b2"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/maria-santoro.webp",
+      "filename": "maria-santoro.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 286902,
+      "sha256": "ec90f69b5f9e7370d852bd56fd8710e0c3d0764c746263cb01df331089bffc49"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/nicolas-corvane.webp",
+      "filename": "nicolas-corvane.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 388866,
+      "sha256": "a773db6837f13e2e8f0fdd57a38a858a26c1724eb29c33ce47bf622d79bcce53"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/ricochet-bombergue.webp",
+      "filename": "ricochet-bombergue.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 390348,
+      "sha256": "6901c07de5e73354676d57ab272a38c22b836e8e07d84753cd76d64b66b0aae9"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/saliens.webp",
+      "filename": "saliens.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 414316,
+      "sha256": "a195dcb668a89a1d2eb6eeb841bf9f1734d937c052ab0e7b30ab0bc3a17fa7be"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/seti.webp",
+      "filename": "seti.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 470780,
+      "sha256": "21f53953ddd9079a405ae9630dcf72a546da6a0049fef676f1f7189e24493eca"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/shirley-ainsworth.webp",
+      "filename": "shirley-ainsworth.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 434134,
+      "sha256": "acfa368ab81f2d2d14c705ecdcfc0397a44e4e7857036385475cb73f4ad249cb"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/tio-frank.webp",
+      "filename": "tio-frank.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 301048,
+      "sha256": "c3c309dca45b1799b23f024f83cbdd91b14c9170590ec3878c40a7207cf69f09"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/velho-sabio.webp",
+      "filename": "velho-sabio.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 485652,
+      "sha256": "4cfcf4b1c9009298d6044d956320384655c8c19fb0a8264e9a53866a382c2d3b"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/william-mccroys.webp",
+      "filename": "william-mccroys.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 275108,
+      "sha256": "108b6fc6f1d9d4385e069875436fac499f56d1e474c329c90c7f4fa752324f18"
     }
   ]
 }

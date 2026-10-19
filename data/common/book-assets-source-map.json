@@ -1448,6 +1448,431 @@
       "sourceSha256": "2b2fde0e9bb187bcaa91fa1b60038d976dfe0450a7eaaef151261b516a903276"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/cara-de-larva.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Cara-de-Larva.png",
+      "sourceSha256": "236ee19a77ac454e7d03b9ec0cbecf42774b769743f87ce387583ca877414874"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/diego.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Diego.png",
+      "sourceSha256": "897f299a9393bd5d4673c97d9d15fd65ec33611f5a90c8e64bd4bec7812654cd"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/filipo.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Filipo.png",
+      "sourceSha256": "351a63906d6a0c2f69d8fd3cb04d4b42ed7869b5fa2e7ec54deaf9d59ac0452f"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/glenda.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Glenda.png",
+      "sourceSha256": "c8006395cc6d3e9b94cc68ee5ecee08691b1bafc2bf9d2944277a8c1410271ea"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/jason.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Jason.png",
+      "sourceSha256": "d7052d19799bc4ccf8c5f4475ceded4dc1b2d55177f564a3f86e1e65050daa8b"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/jennifer.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Jennifer.png",
+      "sourceSha256": "acaf757aee608cc911b591cbd20761265aa10326874c60fd74a4011a6e205e6e"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/junior.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Junior.png",
+      "sourceSha256": "f120dfc81b3ee0f5f4a9f5f0b0f3c3abc127d0f0c89dd34d2a5da6dbfc7caf9e"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/manu.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Manu.png",
+      "sourceSha256": "08c3148a1b62ae80165a4045e748fad7c633bf3f1dfb95fc75d9ad57e834a5f3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/pedro.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Pedro.png",
+      "sourceSha256": "a5dce5141adfe0a0238fed155ca89e5796f94416843ca203b36cd1d6b45ac5b7"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/priscila-hamburgueria-secundaria.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Priscila - Hamburgueria (Secundária).png",
+      "sourceSha256": "a6a3ab454be8d727d161283a79d3b3e67b559254a9358e2e344c3ca7fff0cefe"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/priscila.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Priscila.png",
+      "sourceSha256": "74e4c1a1902241497470b7521b1b307584f561a2599106a6bfb0032a953e2ec1"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/sra-olivia.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Sra. Olívia.png",
+      "sourceSha256": "9ef478907e2e36e5250c4edff6f7d8350efe2d7381133001c4b226888a954c89"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/vini.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Vini.png",
+      "sourceSha256": "580a3bf6d87914b7809512a8e3bfbc0f7b783084493a2c319ae3b66f9376960d"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/cover.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capas/Diário Sobrenatural - A Alvorada das Ilusões - Capa.png",
+      "sourceSha256": "c83316ceee7e755fd4e11e3033e1d640e7e07133f621df1f03421e66b4367bd7"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/agouro.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Entidades/Agouro.png",
+      "sourceSha256": "5ddd8a1ca13b83d5c46e9588b987aba1d4c5c541b0f022a18c139d1084043ba7"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/avo.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Família Carnam/Avó.png",
+      "sourceSha256": "09fc33e424aa74f631b25bc077613716e48e2c8b789787ba3407a06126bf61f0"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/carnam-pai.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Família Carnam/Carnam - Pai.png",
+      "sourceSha256": "def59f6dba0655b99f3a60167dadb8862b61b44ab689357fead42650c97eeefa"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/ibliso.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Família Carnam/Ibliso.png",
+      "sourceSha256": "e7d0e43e34b3e0cbc2b3f49e5e549a07bb29dde9a2ea320cb7384c5094a0f899"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/ingrid.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Família Carnam/Ingrid.png",
+      "sourceSha256": "923baff66075c6cb5f8e2f77938f1528f4f6fb73a18afdc6a48df86fa68c73f0"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/isabela-mae.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Família Carnam/Isabela - Mãe.png",
+      "sourceSha256": "f597c64d8a8085d425517ebd7adaaa92eb0441ca179352a2dde290731d321fdc"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/jason.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Jason.png",
+      "sourceSha256": "7acb040f82e97fb6eac121a5efe3b379a04f367d1e24fc1a5534d3e3469b692f"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/jennifer.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Jennifer.png",
+      "sourceSha256": "15724c860d96a4eb54e4b75a3d4ff4d63ebd02d50b48943d27821c7e4dc3bd35"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/junior.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Junior.png",
+      "sourceSha256": "41c7281c50571c1dc193dc9d08c1bcdb9d03c7c259d343f66992dcd2bbb5d897"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/kelly.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Kelly.png",
+      "sourceSha256": "afe09f9da01f9a3a3e98321194461ea3bd88cc334345492ef33756eaa9dab1f0"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/pedro.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Pedro.png",
+      "sourceSha256": "dad4b61fd131f4ad7b814f0a72a4ddf4f6afcf8cd312f406897c2e6ed366d730"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/priscila.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Priscila.png",
+      "sourceSha256": "012b9d9f0f63870337998cbdc16405c3bff44ee3f454ce1e38e21a7d1c4795ed"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/sueten.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Família Carnam/Suéten.png",
+      "sourceSha256": "3bf2c3bfeed8711c1dd5907580f175dcf56a76f7a9b0ec6838cdbedefe5c55fc"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/vini.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Vini.png",
+      "sourceSha256": "e04af9e86b34d4768fc7ff97ce312edd5d24b151536a466dfa5c4dc1f4de716a"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/cover.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capas/Diário Sobrenatural - Os Elos das Sombras - Capa.png",
+      "sourceSha256": "65596c48695b44732bb350b9e8bd428f2770d38d39b6b9ecbc3f5ee0c531867f"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/a-besta.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/A Besta.png",
+      "sourceSha256": "6d4b5ee3f2ff97eaccf647ccaabe780458363cc541f34240207807b646600c48"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/alekta.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Alekta.png",
+      "sourceSha256": "946a01dd7d3f476e79f1078c2f7888c40e91cdf8ffcd41097c6de074bff95adb"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/amanda.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Amanda.png",
+      "sourceSha256": "22831733c09f7a91dabffe499c7a974c3b5d4a44818d6c4866a9bd907834f50b"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/buni.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Buni.png",
+      "sourceSha256": "7d4ee18c54d5d94a9edd37a6649ab30b20264640917a16a939fb6fbb7b4968d8"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/capita-nastacia.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Capitã Nastácia.png",
+      "sourceSha256": "f20beae4f8e1d5a503579515169247e2eca73b6d41f088587a0bbfaffefcd21e"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/capitao-tzough.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Capitão Tzough.png",
+      "sourceSha256": "9f3896d672f18130d2f93aad7366e116458b7d6688ff8bef064117e901ed4418"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/cardical.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Cardiçal.png",
+      "sourceSha256": "2b96fa06926e5f2694a0bf7d93b3aa622692402541f644b1b12a1c397d44a091"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo-conceito-01.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Domongo - conceito 01.png",
+      "sourceSha256": "ae28654b4390feef7b85a683cd6fc8eaf7c5d0b694e04f43a592456259050350"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/engenheira.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Engenheira.png",
+      "sourceSha256": "3c6bb984673617454f90221737dd70f3b94ccab25a84e72ef53bfcc255ae7a3e"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/eric.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Eric.png",
+      "sourceSha256": "dd668ec3cab95348a5cb425d46cba611dc9a4b2b15fa2007724563c97cf850b8"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/genrir.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Genrir.png",
+      "sourceSha256": "8ed84bb0ad24a761028c00c4f97359d6038cab308a13f9361e1ffca5cbd36fb1"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/jasmey-badrock.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Jasmey Badrock.png",
+      "sourceSha256": "763a61ffec2ddabb6609a1b88f4fd1c6bb4dfc0006bfda1df0a9fd7cbffe84e7"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/jelles.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Jelles.png",
+      "sourceSha256": "f60b1972dbb1f6b7016b20a2f86fcd90bf42a6633b9fbb2a9762a5a21a5e1a79"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/kord.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Kord.png",
+      "sourceSha256": "76ed74b8f8fa873d581aadd6e830609ca43562191d1e33a23d52146d67bb03f1"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/lias-hardman.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Lias Hardman.png",
+      "sourceSha256": "8e2342daebad22a6f5d8b44a7cb2ad63a7a81ad8af1e6cb489b7821525bb9eba"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/luna-stellar.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Luna Stellar.png",
+      "sourceSha256": "911d27b477887abc90c4de37110fee3819936ffcba9b7e4751c8970e04c7838b"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/o-reilly.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/O'reilly.png",
+      "sourceSha256": "d05400936bd32da0662882b24801ad1279322c8f2bd37a682225355206dfdeac"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/tersario.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Tersário.png",
+      "sourceSha256": "1db5b5257e37356bdd3254db8a162441c4db0c3a5388d9652be43b9fe81e69bb"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/vek.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Vek.png",
+      "sourceSha256": "379a3c7bf244b021fc4da6e9fc3608c9e3d47b912020513081afbd2e7505f1f9"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/vivian.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Vivian.png",
+      "sourceSha256": "e68e52cb63ebe508e937d245dce85735315ee3f7c8be0d41f7c68eed08aeb06a"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/cover.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capas/Spacetheft 1 Capa.png",
+      "sourceSha256": "8ea7def8c72cef65f93aeca6bb5db5b444669fd3a44338ae3d66fbe10bc06775"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/gerbe.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/Gerbe.png",
+      "sourceSha256": "1a570385eb55860675213347e664e76e1d4ae7b50fde8ec1a2ce1c11046844ce"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/anasin.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Anasin.png",
+      "sourceSha256": "6a687cf8afc59937e0dcd271f90478e26b3688640bd15915578c4bd7c59342ef"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/banjo-lins.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Banjo Lins.png",
+      "sourceSha256": "2b38db9ce089b77b24e435a8fa9c207206ee0ecab398046cc904e54ff48cd9aa"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/beatriz-lins.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Beatriz Lins.png",
+      "sourceSha256": "9806aec923eb510ad64cf9174d5e8127333b959ddc4001e36ec6012f27c17e31"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/brenda.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Brenda.png",
+      "sourceSha256": "38fae09b5aa8412d0b0caaaad619e6a1717235160cec90855c7bf9f6d1495323"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/breno-lins.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Breno Lins.png",
+      "sourceSha256": "62c10cbcfebad0418fb9c7ab948797614a06fb20f7c49e518a0a351ee8d5fc02"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/bruno-lins.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Bruno Lins.png",
+      "sourceSha256": "50467ac03b9d3b265832d6bb6031ab99068e82194f9ad9c235440bfac7849117"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/erick-corvane.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Erick Corvane.png",
+      "sourceSha256": "2a83959f506954b80d7faed6a1ff45aaee501bf0ebe2c23e0fbf3f9b9bd0df74"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/erla-diggs.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Erla Diggs.png",
+      "sourceSha256": "d3dfddf335e8014d6dbd4ada0889b246342f10c5e9e10ed4b584e2f6b022b38d"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/eshley-damaris.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Eshley Damaris.png",
+      "sourceSha256": "313a522599a04dae2362443cd08ba72c1e0fe2c9c14fef420c6973fd2fec90e0"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/faka.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Faka.png",
+      "sourceSha256": "02e9fe11510d66cd4f4bc48c3214ecd2cd3daf91086bc5eacb8e31a1a9d567f2"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/garmand.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Garmand.png",
+      "sourceSha256": "697a408739a6f6c8a565be9222f08681af945f8f3a25d585c8554eedaf02915e"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/gary.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Gary.png",
+      "sourceSha256": "bdd9b1ebf3b5b518eea7a9beefac937a0a99e199c4cb5d573cec89abd7fb39ac"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/grande-pai-gaia.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Grande Pai Gaia.png",
+      "sourceSha256": "b291269c0e240f06698b0b1e61983ce4e1614110137c47a150ef527a742866e9"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/korvo.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Korvo.png",
+      "sourceSha256": "9d12c19c34b64d7cfd5511212623f2d640ab8efde3e43407d4a07a478800a24a"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/lanigiah.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Lanigiah.png",
+      "sourceSha256": "1c078c30f854142b6cfd6f07130c21038eada13ad09007991178d024b7d3674d"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/laridas-celestes.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Láridas Celestes.png",
+      "sourceSha256": "3d8671f80cd01b4b54f74ba780838f4ced44593fc1049a71d2af8b8cb3b31c4b"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/lucas-veline.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Lucas Veline.png",
+      "sourceSha256": "16e44cd66f2b5201c0d278ab9a438b3ade6b53c202adb30c629a9bdaab5448bc"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/maria-santoro.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Maria Santoro.png",
+      "sourceSha256": "204fc3bc56e894bef42e654d9d9f09826192a6bdb0e74e0ac0381c43936cc9a4"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/nicolas-corvane.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Nicolas Corvane.png",
+      "sourceSha256": "06ad930140dec31b70a48705ccad88673c3011c2e9c8aba92e184f74ad8d6126"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/ricochet-bombergue.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Ricochet Bombergue.png",
+      "sourceSha256": "dfa10500c549179d8790345138429a42fe9f60cf4629046d678e4d85d1b620fe"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/saliens.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Saliens.png",
+      "sourceSha256": "2f4ca0866ef35ba85e5218f6e8755c798e9ebf0a754d046f71d3a99205cd65bb"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/seti.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Seti.png",
+      "sourceSha256": "d772f1cc9a2fb10d77ce4117e5d0cc39a773138f0c670958438a4174847d0acc"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/shirley-ainsworth.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Shirley Ainsworth.png",
+      "sourceSha256": "9d069b4b390f8796294445f5eb30f2569ddb1d2d6bfb8e01e2c8494241d30e52"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/tio-frank.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Tio Frank.png",
+      "sourceSha256": "339ddc066e2da75d7f140da7259b686a712a5bb2a0dc8dc2f3254c557ea80409"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/velho-sabio.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Velho-Sábio.png",
+      "sourceSha256": "803557779d21a617799142af099882fdc13d086a4e34beb50ea9aaaf48e3f786"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/william-mccroys.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/William McCroys.png",
+      "sourceSha256": "4ec8018d5879bf1d8808a409aa150276b72817a2261876c9a7e3e599ad2c6f62"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/cover.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capas/Viajantes 1 Capa.png",
+      "sourceSha256": "d3ca9cae719c81925199b942ef8e7d8b1750b441c7edd0ac44bce5755f03d768"
+    },
+    {
+      "sitePath": "assets/branding/a-alvorada-das-ilusoes/logo-dark.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Logos/Titulo/A Alvorada das Ilusões - preto.png",
+      "sourceSha256": "0042d58ea7c4cd6d0509cb639a99a95aec8e82529390a20870def472513db1cb"
+    },
+    {
+      "sitePath": "assets/branding/a-alvorada-das-ilusoes/logo-light.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Logos/Titulo/A Alvorada das Ilusões - branco.png",
+      "sourceSha256": "60b07243f3ec79e68ef651b0962e1ae84d1014a3c2e382a79f19921da2b54797"
+    },
+    {
+      "sitePath": "assets/branding/a-lenda-da-aurora/logo-color.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Logos/Titulo/A Lenda da Aurora - colorido.png",
+      "sourceSha256": "782ca1c7cbae69f3cb9a83bc6522906896d40d3497a3ff8546b0f9eaffa46d85"
+    },
+    {
+      "sitePath": "assets/branding/a-lenda-da-aurora/logo-dark.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Logos/Titulo/A Lenda da Aurora - preto.png",
+      "sourceSha256": "5c3cfe4ac39b0698170804a9f67d9c7db3433fbc2e5565c6a42a5589ee8fa8f6"
+    },
+    {
+      "sitePath": "assets/branding/a-lenda-da-aurora/logo-light.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Logos/Titulo/A Lenda da Aurora - branco.png",
+      "sourceSha256": "91762617c698bbae940515cbcbe34cf08b9ae4df02914a70037fcde0b5e0aca6"
+    },
+    {
+      "sitePath": "assets/branding/a-patrulha-de-korvo/logo-dark.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Logos/Titulo/A Patrulha de Korvo - preto.png",
+      "sourceSha256": "695db87c8f5ad7e85978518dc7987a25c3ce6762f4813399f84a6c6b17030b82"
+    },
+    {
+      "sitePath": "assets/branding/a-patrulha-de-korvo/logo-light.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Logos/Titulo/A Patrulha de Korvo - branco.png",
+      "sourceSha256": "b9adb9ba50da03a3ef51f7e6d1716e806a454e4f1eeb0478eea0ff0c652c7abe"
+    },
+    {
       "sitePath": "assets/branding/ciclo-de-jesed/logo-dark.webp",
       "sourcePath": "Ciclo de Jesed/98 - Assets Gerais/Logos/Serie/OFICIAL - 2026-10-04/Ciclo de Jesed - oficial preto.png",
       "sourceSha256": "3a3dc28515ff75734a43c43d6708f255aa5d71bfee7a85947de2b3e99cc9fb95"
@@ -1521,6 +1946,16 @@
       "sitePath": "assets/branding/herdeiros-das-cinzas/mark.webp",
       "sourcePath": "Ciclo de Jesed/4 - Herdeiros das Cinzas/02 - Assets/Logos/Herdeiros das Cinzas logo.png",
       "sourceSha256": "3a78a9f2c549d1d954b020bce1d777e47ad90053291ea709eb2d67c3f75df521"
+    },
+    {
+      "sitePath": "assets/branding/os-elos-das-sombras/logo-dark.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Logos/Titulo/Os Elos das Sombras - preto.png",
+      "sourceSha256": "ffd01bce63bd5862504814f2d5277ff750fee0776d46fbd606044231b14033f6"
+    },
+    {
+      "sitePath": "assets/branding/os-elos-das-sombras/logo-light.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Logos/Titulo/Os Elos das Sombras - branco.png",
+      "sourceSha256": "28285c9210d43113e2e0b2b2bae48f94aff861d6d2cb0981e2a4c3f72e1e212c"
     },
     {
       "sitePath": "assets/branding/ruinas-dos-ceus/logo-dark.webp",
@@ -1603,14 +2038,6 @@
     "assets/books/ciclo-de-jesed/shared/lore/temp/fauna-placeholder.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/flora-placeholder.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/food-placeholder.webp",
-    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/cover.webp",
-    "assets/books/diario-sobrenatural/os-elos-das-sombras/cover.webp",
-    "assets/books/spacetheft/a-lenda-da-aurora/cover.webp",
-    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/cover.webp",
-    "assets/branding/a-alvorada-das-ilusoes/logo-light.webp",
-    "assets/branding/a-lenda-da-aurora/logo-light.webp",
-    "assets/branding/a-patrulha-de-korvo/logo-light.webp",
-    "assets/branding/os-elos-das-sombras/logo-light.webp",
     "assets/shared/reference/alianca-contra-kaendar.webp",
     "assets/shared/reference/ash-sprite-01.webp",
     "assets/shared/reference/ash-sprite-02.webp",
