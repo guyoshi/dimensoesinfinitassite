@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-20",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
   "count": 369,
@@ -40,10 +40,10 @@
       "filename": "chapter-04.webp",
       "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
       "extension": ".webp",
-      "width": 1600,
-      "height": 900,
-      "sizeBytes": 205254,
-      "sha256": "4c2cc8f7f81c3bedbbfca51f1584a47591bfb96620b76fec9f603d2d68a84fef"
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 249406,
+      "sha256": "b8b05c302c90f5a3c72e39e7d5f0214ad3f7264d9ab57836b0b25c31cb7c8f0e"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-05.webp",
@@ -72,8 +72,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 217658,
-      "sha256": "cb5a9aea0fe6217d820ab768f650eaf33ee8925abba994bd0e5defdcadf7e91c"
+      "sizeBytes": 212238,
+      "sha256": "3416560a2925fb8af703405b1e4d3ad8f8d11edd64b36a595e75997e6892e7d3"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-08.webp",
@@ -130,10 +130,10 @@
       "filename": "chapter-13.webp",
       "category": "books/ciclo-de-jesed/dinastia-polar/chapters",
       "extension": ".webp",
-      "width": 1672,
+      "width": 1671,
       "height": 941,
-      "sizeBytes": 244056,
-      "sha256": "97a9ac5303f7ade7a69bd7a31b40be9b6bd4b1a60a7756fb398bd1301d7ab98c"
+      "sizeBytes": 226738,
+      "sha256": "653c16824028273b4843f0131416ec4938a4d122d0794e89f117eb5c67658b06"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-14.webp",
@@ -422,8 +422,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 156346,
-      "sha256": "8332295c41caf967a7af7b7d1d2245809175bf1597552ef21e62bbc886a5aab7"
+      "sizeBytes": 223772,
+      "sha256": "4811e46e00984a85536e0b0c69477feecc766426cd6ddce7ea9ada73ed36a61b"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/corven-polar.webp",
@@ -442,8 +442,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 334410,
-      "sha256": "a2d0e5b731fca513fa7cc346c8e51c8d79a0dad108ff2dd7827cfd483cb1268a"
+      "sizeBytes": 399012,
+      "sha256": "9e4ae7490d92ab0abbc8ab75e7ca249de9d35af7e681cd59179fc762ecd7fe0c"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/edria-cendar.webp",
@@ -460,10 +460,10 @@
       "filename": "elis.webp",
       "category": "books/ciclo-de-jesed/dinastia-polar/characters",
       "extension": ".webp",
-      "width": 1122,
-      "height": 1402,
-      "sizeBytes": 232136,
-      "sha256": "58d5970bb1de0035ce6969f481c5365025137bfe0f3e7f65287463e5a45431b8"
+      "width": 1121,
+      "height": 1403,
+      "sizeBytes": 289394,
+      "sha256": "2d01cfe4bf53ecfaab96b877c2401d37200c79fd7fed26fcfde14a66c673e4fc"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/hadris-da-raiz.webp",
@@ -482,8 +482,8 @@
       "extension": ".webp",
       "width": 1122,
       "height": 1402,
-      "sizeBytes": 176178,
-      "sha256": "a7124849275f8d877d23c9424e145a76a33d5587b5e3ddfa2fbe2b22ea2d15d3"
+      "sizeBytes": 226606,
+      "sha256": "81b4f46c9f1bdc6afc439eaac52031cc21471ca0344531d7514b38a2b3589f47"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/karesis.webp",
@@ -502,8 +502,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 163728,
-      "sha256": "7edf68ca13b461b98e0c2494000d1302a81e3db25b03758106bcc500bfca6c87"
+      "sizeBytes": 217956,
+      "sha256": "74bc78189d50baf21cd1e66e5754c7c2a79093b143f2535b0fec393d3b9984a7"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/kerath-polar.webp",
@@ -512,8 +512,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 84164,
-      "sha256": "d0952571a7a16aa485b0f960bd46a7eaa760ee91bc7eab6aae44996bec1f971f"
+      "sizeBytes": 127522,
+      "sha256": "3a652a86b3550b5efdc74f4b051da7b5b3694e66c13243b105788a0082e8cf32"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/khalir-buldar.webp",
@@ -522,8 +522,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 211756,
-      "sha256": "3049af2a7e75899dc65257bc9ec8e55503a2df2d20b477b5aa2a723ca0a0a410"
+      "sizeBytes": 267082,
+      "sha256": "03563abfd61038c859e2b8672dccbe91bb7edc7bab3d850ddc7d196c0f84c97b"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/ladira-polar.webp",
@@ -532,8 +532,8 @@
       "extension": ".webp",
       "width": 1122,
       "height": 1402,
-      "sizeBytes": 178284,
-      "sha256": "9520ea84191da2e04105053d930fef20c453ab28b196394f2138965b6b5cc2ed"
+      "sizeBytes": 234814,
+      "sha256": "481cb38f369fc09bdf56b7edb8e7f427faaf421f8b580078f53738ae92cc3458"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/neris-nular.webp",
@@ -542,8 +542,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 98376,
-      "sha256": "ab9dbe6b61fecebf9efc12962056ec2c8469923e0b5f005a9e117e7585b013bc"
+      "sizeBytes": 159342,
+      "sha256": "664825995cf713ff8bf2059cf58def8dfbfef14cc84cd658c1c4c4e31916366c"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/orel.webp",
@@ -572,8 +572,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 187954,
-      "sha256": "068c652892f5cb8f704127d17716f2ff4f7eef424ed57cff1f4a90b1a98328cd"
+      "sizeBytes": 256182,
+      "sha256": "5fd3579601cb64f8289343f06de2331afba8579c1e750db479c9102edeccbefb"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/riala-glydar.webp",
@@ -632,8 +632,8 @@
       "extension": ".webp",
       "width": 1122,
       "height": 1402,
-      "sizeBytes": 236382,
-      "sha256": "22cf842a942aaadb5f5412c2126572444d07be2f8192408c806476958f47f320"
+      "sizeBytes": 230236,
+      "sha256": "f19ddb204ab25ce35b2ba4bd0dd5e5044b29a6bde32ba84c76f565b0e187a242"
     },
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/characters/tair.webp",
@@ -1382,8 +1382,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 349176,
-      "sha256": "5e60b1af4a45c38c14834ae261c3cb81b6d8ed37355bda8737d32c8b51224335"
+      "sizeBytes": 272404,
+      "sha256": "af80af31d342cf561197097fee8d11e81ea18cbec690968c281c8ee4c1d07830"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-05.webp",
@@ -1402,8 +1402,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 296954,
-      "sha256": "d75c93f0b32e5b37c1b9b554f52c62386b8bae0661423987e152e942a66864d6"
+      "sizeBytes": 260766,
+      "sha256": "b291f630c6acecba7bff1c58eca70b7c132d359b69421d31f42982b7b4c69df4"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-07.webp",
@@ -1422,8 +1422,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 373828,
-      "sha256": "a303e903a89afda582038de96790aa6de14b4c14fefbda2e5999da28a64d9c3b"
+      "sizeBytes": 291430,
+      "sha256": "7b4c6196a4badf6f83fa44213acf1ef5a4de0fa9b841e18a806538f7c181956d"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-09.webp",
@@ -1462,8 +1462,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 320782,
-      "sha256": "7c9edfabf184de4b6145ddfdf0672de788a079aa4cc811adc1877a886ced4cb9"
+      "sizeBytes": 415206,
+      "sha256": "eeb666bc5abb3fc6639f6e9433797187f3ba9ee49bae7d309ae914aab8118f6c"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-13.webp",
@@ -1472,8 +1472,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 287680,
-      "sha256": "3f0fe92fd8e2ee1665028cec37e28b5288b108c235c93427adcb7b1c85952672"
+      "sizeBytes": 256312,
+      "sha256": "cb4fdb0af4e1a34279cfa0eb79fae676407c9a9124a991b2d5752216ea75d3c1"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-14.webp",
@@ -1482,8 +1482,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 504590,
-      "sha256": "379b2ef3f9225a70307fc8b5e1f735d6d8d379fbe10e285c59493b2713c3706c"
+      "sizeBytes": 253936,
+      "sha256": "e2440915df4fc23ee7efce3490ab8cbef29e5b972e2b5c1bac9a7d2524346484"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-15.webp",
@@ -1492,8 +1492,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 218314,
-      "sha256": "7373ff55106123dc6cf98c0add336b87ef73b0c5520f8b35c8cb562598f89c86"
+      "sizeBytes": 183870,
+      "sha256": "afdea7922eacdf5fcb38b15508c624e6a3227c878bfa8f6e760b8225294afaab"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-16.webp",
@@ -1522,8 +1522,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 229066,
-      "sha256": "7849444a5411b5ba68aa2a41c0e85542c6cb692aac7f0b8d2a8969e7cec2003f"
+      "sizeBytes": 223342,
+      "sha256": "8af3b9acc5faf1a2985b4e8641f64d9aa91a4d137a3ee143b7eb57dc9d84a7ee"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-19.webp",
@@ -1582,8 +1582,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 236812,
-      "sha256": "1763ebf77e99c60c503548c2aafa6ccc6c9b69c0e7b05802595677f84a95ef7f"
+      "sizeBytes": 199604,
+      "sha256": "4259cabac602791379168d7cdfdcd3119ba7fdcc000407ee32dbc190e1ce9be6"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-25.webp",
@@ -1592,8 +1592,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 201064,
-      "sha256": "854b869b8f9edd849683373d8c7dbff99b05c246a92bb5b5d83f7fb14dc322d5"
+      "sizeBytes": 186638,
+      "sha256": "9367f4ea0ce75aa305598427bbf031048e3e542515fbd59fc72d31d6f813c134"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-26.webp",
@@ -1612,18 +1612,18 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 272288,
-      "sha256": "2e6b803a7d3ea3cc69afe9f4524cb341497f962f340e09f0d19b1692612687ad"
+      "sizeBytes": 333308,
+      "sha256": "d1c599e95648009d0834a2f75fbd8855c3af67a027d97dbae1523dfeba4a20c5"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-28.webp",
       "filename": "chapter-28.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/chapters",
       "extension": ".webp",
-      "width": 1672,
+      "width": 1671,
       "height": 941,
-      "sizeBytes": 268440,
-      "sha256": "5d8ea3f721bd6d5504a0a6424c20cb9adfbb1bf1e5f593fdf98bf7c3612bf73d"
+      "sizeBytes": 229266,
+      "sha256": "134d53d18737f4c2f6369383475e82312dbcb4bbad4e15a3e2b54108a4015bbc"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-29.webp",
@@ -1642,8 +1642,8 @@
       "extension": ".webp",
       "width": 1672,
       "height": 941,
-      "sizeBytes": 330594,
-      "sha256": "dda8eb24bbbaa9aa5b7706a5c00ec44d3511f445cd6bd46d70f19bf1c0ec0b07"
+      "sizeBytes": 263768,
+      "sha256": "7ff07dce99fbe14b9e6e55f71ba13bce713673e47056444f298784f4f4858f44"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/alyra.webp",
@@ -1660,20 +1660,20 @@
       "filename": "avara-fendelar.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1350,
-      "sizeBytes": 146174,
-      "sha256": "8abb10dcf2e7fe975bfeb1c30f1b6f5ad7089bd221fa75c2d81c1465a8ce6b56"
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 284408,
+      "sha256": "6226c29a0b82a4b08a116dc1db5fc246ad32dab936c140d9bdccd39278ae5287"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/brokan-das-forjas.webp",
       "filename": "brokan-das-forjas.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 147932,
-      "sha256": "5852fecf30a33a4193d7cceed87cbdcf470abd38f5d85c9c68e84544f13130b2"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 272970,
+      "sha256": "65bd6c250cae5cff878b84baef00f67dd9e03eefe2c8adbddb0adaf3498c96a5"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/cal-edran.webp",
@@ -1682,48 +1682,48 @@
       "extension": ".webp",
       "width": 1086,
       "height": 1448,
-      "sizeBytes": 194566,
-      "sha256": "5530a28645e9768c572a2960f206a3e96ed6ca2e14bda25ac9e83f4c30cb09d6"
+      "sizeBytes": 199814,
+      "sha256": "6dac419923cd78828eeccef5a347f8c641129226c896d0d27b85a6a447c4a320"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/cal-kadrir.webp",
       "filename": "cal-kadrir.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1200,
-      "sizeBytes": 128276,
-      "sha256": "844f323d85f10c272eadc0f99ba0fa53ac5669496f8c5a7b74a1b7e59b7e4ed2"
+      "width": 1086,
+      "height": 1448,
+      "sizeBytes": 221960,
+      "sha256": "9784bbcc78430b7cae528c7a6a1968209fb34de555c8d587cc4b03afe654c955"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/daryon-polar.webp",
       "filename": "daryon-polar.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 101276,
-      "sha256": "f0f899d4a38e2a63410c6d45b3cae85cd4dc3dcef1b9ffbc545a0dc8d30643bb"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 134780,
+      "sha256": "27f74faf3fae5db6d64955f0b1a28c5001fec282585f82f498f1d2cf31631f8a"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/hadrun.webp",
       "filename": "hadrun.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 123982,
-      "sha256": "4ee80fa5252da095dd46780f24977001754e9c15a039754eac7a902984ab5860"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 203326,
+      "sha256": "4a25c5d5f7009b66a09898408b0fe24287c5360bf96e7aa4f63282b6beeb281e"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/harrev.webp",
       "filename": "harrev.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 162926,
-      "sha256": "96a26fe2f2f46f85b9888b1c6eb3588db981b2780943eb26fa5b18837e14d8b1"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 230574,
+      "sha256": "980c27cece7abbf77fabebe749db6cbc7938b1e8e77a90f7d7cfc7770899b6ec"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/iressa-maos-de-sal.webp",
@@ -1750,10 +1750,10 @@
       "filename": "kahul.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 111766,
-      "sha256": "c3748bfacca3707967fc0e68e491d2d007dabd5f9eabc0c636eb6d02b6419452"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 184370,
+      "sha256": "237fcfeed9cfce033d48fe4b21cbd47a3f4aa567c85e0df7161051639a8d02d7"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/kharvok.webp",
@@ -1770,10 +1770,10 @@
       "filename": "lorde-ossar-glydar.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1200,
-      "sizeBytes": 125814,
-      "sha256": "ed0875a1363095043a056243dfa9ff857dc9cc8673c905b10817e7da0416a05a"
+      "width": 1086,
+      "height": 1448,
+      "sizeBytes": 196842,
+      "sha256": "2e1d376834718bc1d2ccd024941fa1bc265249121476f2381ca840de01b2c7d1"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/lurok.webp",
@@ -1790,10 +1790,10 @@
       "filename": "lutharus.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 96394,
-      "sha256": "fbe4ea55649c68784a2ca27c7886fa744f5f5361c582238b25a2bad52682fe01"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 155662,
+      "sha256": "b9466a55bfdd66644f1066d288d7fdd53615064ce1ba341babbf406e2addbc6e"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/maelis-das-contagens.webp",
@@ -1850,20 +1850,20 @@
       "filename": "odran-porta-baixa.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 197084,
-      "sha256": "ac34658d9308ce56576d7f52b2991167e0cdd8764e6f33fe932d98d12b1ae3e6"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 282132,
+      "sha256": "d8446d66240a20f18132d5967dca555dea3dfdf4d9b4b7c8cc0de55e546f4c4a"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/odris.webp",
       "filename": "odris.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 157264,
-      "sha256": "08900144c11698fc0cf6bf269e02ccf16e69b865b00e785ea9ca1b826aa016ab"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 208666,
+      "sha256": "bd1660b1529720d25c7d82a957e4fe4311d61b3d2ff3340ce004aa15edd4ba15"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/orionus-polar-2.webp",
@@ -1872,8 +1872,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 293702,
-      "sha256": "6062aadbfd5aef806dbd0160d0f9973a717cafeb8af4aea9d4bebec47ec26a2d"
+      "sizeBytes": 291340,
+      "sha256": "b487b415d1c3dcad9ee4e4db788144bdf7d3d7892284bf0b39592923847febe0"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/orionus-polar.webp",
@@ -1882,8 +1882,8 @@
       "extension": ".webp",
       "width": 1122,
       "height": 1402,
-      "sizeBytes": 190166,
-      "sha256": "4888c3c2a1b7114f86f4ca205b8a710ca7265e3fd8178fe1085534742d62f6dd"
+      "sizeBytes": 209574,
+      "sha256": "c8df023822d0f7a3460750a7cecdcd9e8591dd0b0a05ec6f7abb686b9e159241"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/orven.webp",
@@ -1920,10 +1920,10 @@
       "filename": "sarkan.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 130058,
-      "sha256": "2deeff8fff77028e3790636c32fc394934a38a2e0515e824606dab8dc61abf53"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 265016,
+      "sha256": "f98c31ab5986b9040a5b83978c84210c7b1602012cdc71800e381f327693b5a0"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/savel.webp",
@@ -1940,10 +1940,10 @@
       "filename": "seron-das-obras.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 167938,
-      "sha256": "9a023bedafd1f449596b6a54a0adeb103c67736c13ffd2d11d176fc7b5a7c09c"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 259334,
+      "sha256": "fcfc911d3d580ade3b657221fda9ba02ef6c25a7b85cd4914c781620a73ccbfc"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/seyra-vendrar.webp",
@@ -1970,20 +1970,20 @@
       "filename": "tavra-vendrar.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1200,
-      "sizeBytes": 207610,
-      "sha256": "507f869e64f505214f094a34cd509f4d4b74ff1835c511060cb51edcbbd49560"
+      "width": 1086,
+      "height": 1448,
+      "sizeBytes": 283484,
+      "sha256": "29799ed3874d798a160c72b0e5378bd79253b8c4ef48f6abe5ee07d8b840a61b"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/thoren-dos-graos.webp",
       "filename": "thoren-dos-graos.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 156826,
-      "sha256": "f578f6857b55d60618137ce45b830b15623990bc4358526d1bcbe6b252c45c05"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 240148,
+      "sha256": "403459399b172609482824264fc80303a37a659609f8a9ebed2655accb3dce0d"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/torgun.webp",
@@ -2000,60 +2000,60 @@
       "filename": "varael-glydar.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 149252,
-      "sha256": "02062cbf3ca3645a451fe5a3f1cd830bea3c1104631a1b916efa7a9abbcb6600"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 222614,
+      "sha256": "4468a543d95ec0ac431d4d138c019acbd8e19ffcc865abc703a6f419585912d7"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/varron-meio-olho.webp",
       "filename": "varron-meio-olho.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 125310,
-      "sha256": "a1143c5a554b28cf6c1027f09287c5150301dcf74a36831d8da7086bb126504a"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 252110,
+      "sha256": "64e3c34a47ea72ea63c5d9427206650007cb038cdb5818eb35b02df61db97628"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/veyr-polar.webp",
       "filename": "veyr-polar.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 180244,
-      "sha256": "ab9e8ab48eb8cecc941536bcf83c77a7cc028051078f85f7bad4cff70e0bea5a"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 249888,
+      "sha256": "68034e49b03ce18ca3921dda3ad889810afa5a004aa7113b9a96e8c7e401c4bd"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/vita-fendelar.webp",
       "filename": "vita-fendelar.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1350,
-      "sizeBytes": 89886,
-      "sha256": "c29b969a7fe7595cb4366cd79c15d9731476784acddecb71654bb8a8bcfc953c"
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 134236,
+      "sha256": "b28ac9c6f017094ebd7c46ada2d31a2cbe78e203b74c4ae6dbbb82e0756c5e58"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/vorlan-vendrar.webp",
       "filename": "vorlan-vendrar.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 144818,
-      "sha256": "72a388b70859d8ccdc67f0ec56a13e2e3dbb77167b2568c9a5641aed39c72eb7"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 231102,
+      "sha256": "0454c4f8fdbe1935bdd876e73b9f14805ade6b6f2671bd5120e891ebb36792df"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/ylvena.webp",
       "filename": "ylvena.webp",
       "category": "books/ciclo-de-jesed/guerras-de-sangue/characters",
       "extension": ".webp",
-      "width": 900,
-      "height": 1125,
-      "sizeBytes": 107776,
-      "sha256": "4bf15dff5cdee75cee64fc9700d617a267184eee3f3c366e95d0f7a35bb6b008"
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 211658,
+      "sha256": "a913582e250a7f7e09434ec2cedd9e2a4b12ed27b07e013f66e1bd52d26346b9"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/characters/yvenn-raiz-branca.webp",
@@ -2072,8 +2072,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 472160,
-      "sha256": "d574ce12959780793816fdc5e26c0d7bcdc65dd4d7cd933a3e405b336c253488"
+      "sizeBytes": 385580,
+      "sha256": "bb208801598e7e3bb49e57f19ceebc371e7691aff1e98e214caea92753b7c13e"
     },
     {
       "path": "assets/books/ciclo-de-jesed/guerras-de-sangue/lore/cla-buldar.webp",
