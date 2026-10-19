@@ -1,0 +1,372 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "stage": "Etapa 1 do plano dos novos sites (esqueleto). Ainda não ligado ao portal.",
+  "rules": {
+    "status": "active = livro aberto no site; locked = card 'Em preparação', sem página",
+    "assetsConvention": "assets/books/<saga>/<livro>/ (igual a SINCRONIZACAO_DE_IMAGENS.md)",
+    "entryConvention": "página HTML na raiz com o slug do livro",
+    "locked": "Igual ao livro 5 de Ciclo de Jesed (Coração de Poeira): card com nome, ícone e 'Em preparação', sem capa e sem página."
+  },
+  "sagas": [
+    {
+      "id": "spacetheft",
+      "name": "Spacetheft",
+      "slug": "spacetheft",
+      "status": "active",
+      "theme": "Carta estelar",
+      "symbol": "compass",
+      "taglineProposal": "Piratas, vórtices e a lenda de uma aurora.",
+      "sourceFolder": "Spacetheft",
+      "brandingRoot": "assets/branding/spacetheft",
+      "palette": {
+        "bg": "#090521",
+        "bg2": "#1a0f5c",
+        "accent": "#d23fa5",
+        "ember": "#ff8a2a",
+        "gold": "#e9b44c",
+        "text": "#f3ecff"
+      },
+      "books": [
+        {
+          "id": "a-lenda-da-aurora",
+          "order": 1,
+          "name": "A Lenda da Aurora",
+          "status": "active",
+          "stage": "escrito",
+          "entry": "a-lenda-da-aurora.html",
+          "sourceFolder": "Spacetheft/1 - A Lenda da Aurora",
+          "expectedChapters": 22,
+          "siteAssets": "assets/books/spacetheft/a-lenda-da-aurora",
+          "cover": {
+            "source": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capas/Spacetheft 1 Capa.png",
+            "site": "assets/books/spacetheft/a-lenda-da-aurora/cover.webp",
+            "present": true
+          },
+          "chapterImages": {
+            "sourceDir": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos",
+            "site": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-NN.webp",
+            "present": false
+          },
+          "logos": [
+            "02 - Assets/Logos/Titulo/A Lenda da Aurora - branco.png",
+            "02 - Assets/Logos/Titulo/A Lenda da Aurora - preto.png",
+            "02 - Assets/Logos/Titulo/A Lenda da Aurora - colorido.png"
+          ]
+        },
+        {
+          "id": "livro-2",
+          "order": 2,
+          "name": "Livro 2",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Spacetheft/2 - Livro 2",
+          "expectedChapters": null,
+          "icon": "compass",
+          "cover": null
+        },
+        {
+          "id": "livro-3",
+          "order": 3,
+          "name": "Livro 3",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Spacetheft/3 - Livro 3",
+          "expectedChapters": null,
+          "icon": "compass",
+          "cover": null
+        },
+        {
+          "id": "livro-4",
+          "order": 4,
+          "name": "Livro 4",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Spacetheft/4 - Livro 4",
+          "expectedChapters": null,
+          "icon": "compass",
+          "cover": null
+        },
+        {
+          "id": "livro-5",
+          "order": 5,
+          "name": "Livro 5",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Spacetheft/5 - Livro 5",
+          "expectedChapters": null,
+          "icon": "compass",
+          "cover": null
+        },
+        {
+          "id": "livro-6",
+          "order": 6,
+          "name": "Livro 6",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Spacetheft/6 - Livro 6",
+          "expectedChapters": null,
+          "icon": "compass",
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": "viajantes-dimensionais",
+      "name": "Viajantes Dimensionais",
+      "slug": "viajantes-dimensionais",
+      "status": "active",
+      "theme": "Portais e fraturas",
+      "symbol": "portal",
+      "taglineProposal": "Quatro irmãos, uma quarta dimensão e uma patrulha que não deveria existir.",
+      "sourceFolder": "Viajantes Dimensionais",
+      "brandingRoot": "assets/branding/viajantes-dimensionais",
+      "palette": {
+        "bg": "#0b2433",
+        "portal": "#46d3f2",
+        "portalLight": "#9cf0ff",
+        "amber": "#f2922e",
+        "cream": "#fff0d2",
+        "root": "#1c2733"
+      },
+      "books": [
+        {
+          "id": "a-patrulha-de-korvo",
+          "order": 1,
+          "name": "A Patrulha de Korvo",
+          "status": "active",
+          "stage": "escrito",
+          "entry": "a-patrulha-de-korvo.html",
+          "sourceFolder": "Viajantes Dimensionais/1 - A Patrulha de Korvo",
+          "expectedChapters": 23,
+          "siteAssets": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo",
+          "cover": {
+            "source": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capas/Viajantes 1 Capa.png",
+            "site": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/cover.webp",
+            "present": true
+          },
+          "chapterImages": {
+            "sourceDir": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos",
+            "site": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-NN.webp",
+            "present": false
+          },
+          "logos": [
+            "02 - Assets/Logos/Titulo/A Patrulha de Korvo - branco.png",
+            "02 - Assets/Logos/Titulo/A Patrulha de Korvo - preto.png"
+          ],
+          "note": "Título em aberto: a capa traz 'A Ascensão de Korvo'; manuscrito e pastas usam 'A Patrulha de Korvo'."
+        },
+        {
+          "id": "livro-2",
+          "order": 2,
+          "name": "Livro 2",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Viajantes Dimensionais/2 - Livro 2",
+          "expectedChapters": null,
+          "icon": "portal",
+          "cover": null
+        },
+        {
+          "id": "o-senhor-da-morte",
+          "order": 3,
+          "name": "O Senhor da Morte",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Viajantes Dimensionais/3 - O Senhor da Morte",
+          "expectedChapters": null,
+          "icon": "portal",
+          "cover": null
+        },
+        {
+          "id": "livro-4",
+          "order": 4,
+          "name": "Livro 4",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Viajantes Dimensionais/4 - Livro 4",
+          "expectedChapters": null,
+          "icon": "portal",
+          "cover": null
+        },
+        {
+          "id": "livro-5",
+          "order": 5,
+          "name": "Livro 5",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Viajantes Dimensionais/5 - Livro 5",
+          "expectedChapters": null,
+          "icon": "portal",
+          "cover": null
+        },
+        {
+          "id": "livro-6",
+          "order": 6,
+          "name": "Livro 6",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Viajantes Dimensionais/6 - Livro 6",
+          "expectedChapters": null,
+          "icon": "portal",
+          "cover": null
+        }
+      ],
+      "texture": "desenho: contorno de tinta, sombra dura, papel granulado"
+    },
+    {
+      "id": "diario-sobrenatural",
+      "name": "Diário Sobrenatural",
+      "slug": "diario-sobrenatural",
+      "status": "active",
+      "theme": "Diário oculto",
+      "symbol": "journal",
+      "taglineProposal": "Seis vozes, uma casa e o que ficou preso nela.",
+      "sourceFolder": "Diário Sobrenatural",
+      "brandingRoot": "assets/branding/diario-sobrenatural",
+      "palette": {
+        "bg": "#0c0807",
+        "ember": "#d4501e",
+        "dusk": "#6e2414",
+        "bone": "#eadfc9",
+        "candle": "#f2b765"
+      },
+      "books": [
+        {
+          "id": "os-elos-das-sombras",
+          "order": 1,
+          "name": "Os Elos das Sombras",
+          "status": "active",
+          "stage": "escrito",
+          "entry": "os-elos-das-sombras.html",
+          "sourceFolder": "Diário Sobrenatural/1 - Os Elos das Sombras",
+          "expectedChapters": 38,
+          "siteAssets": "assets/books/diario-sobrenatural/os-elos-das-sombras",
+          "cover": {
+            "source": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capas/Diário Sobrenatural - Os Elos das Sombras - Capa.png",
+            "site": "assets/books/diario-sobrenatural/os-elos-das-sombras/cover.webp",
+            "present": true
+          },
+          "chapterImages": {
+            "sourceDir": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos",
+            "site": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-NN.webp",
+            "present": false
+          },
+          "logos": [
+            "02 - Assets/Logos/Titulo/Os Elos das Sombras - branco.png",
+            "02 - Assets/Logos/Titulo/Os Elos das Sombras - preto.png"
+          ]
+        },
+        {
+          "id": "a-alvorada-das-ilusoes",
+          "order": 2,
+          "name": "A Alvorada das Ilusões",
+          "status": "active",
+          "stage": "em-desenvolvimento",
+          "entry": "a-alvorada-das-ilusoes.html",
+          "sourceFolder": "Diário Sobrenatural/2 - A Alvorada das Ilusões",
+          "expectedChapters": 31,
+          "siteAssets": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes",
+          "cover": {
+            "source": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capas/Diário Sobrenatural - A Alvorada das Ilusões - Capa.png",
+            "site": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/cover.webp",
+            "present": true
+          },
+          "chapterImages": {
+            "sourceDir": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capitulos",
+            "site": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-NN.webp",
+            "present": false
+          },
+          "logos": [
+            "02 - Assets/Logos/Titulo/A Alvorada das Ilusões - branco.png",
+            "02 - Assets/Logos/Titulo/A Alvorada das Ilusões - preto.png"
+          ],
+          "note": "Só capítulos escritos entram; 26 e 28 são rascunhos curtos, 30 e 31 estão vazios.",
+          "palette": {
+            "bg": "#120d14",
+            "dawn": "#e6b567",
+            "haze": "#7b5a8f",
+            "rose": "#c97a6b",
+            "bone": "#efe3d0"
+          }
+        },
+        {
+          "id": "o-limiar-da-noite",
+          "order": 3,
+          "name": "O Limiar da Noite",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Diário Sobrenatural/3 - O Limiar da Noite",
+          "expectedChapters": null,
+          "icon": "journal",
+          "cover": null
+        },
+        {
+          "id": "livro-4",
+          "order": 4,
+          "name": "Livro 4",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Diário Sobrenatural/4 - Livro 4",
+          "expectedChapters": null,
+          "icon": "journal",
+          "cover": null
+        },
+        {
+          "id": "livro-5",
+          "order": 5,
+          "name": "Livro 5",
+          "status": "locked",
+          "stage": "planejado",
+          "entry": null,
+          "sourceFolder": "Diário Sobrenatural/5 - Livro 5",
+          "expectedChapters": null,
+          "icon": "journal",
+          "cover": null
+        }
+      ]
+    }
+  ],
+  "guides": {
+    "spacetheft": [
+      "Início",
+      "Livros",
+      "Capítulos",
+      "Linha do Tempo",
+      "Personagens",
+      "Lugares",
+      "Galeria"
+    ],
+    "viajantes-dimensionais": [
+      "Início",
+      "Livros",
+      "Capítulos",
+      "Linha do Tempo",
+      "Mapa",
+      "Personagens",
+      "Lugares",
+      "Galeria"
+    ],
+    "diario-sobrenatural": [
+      "Início",
+      "Livros",
+      "Capítulos",
+      "Linha do Tempo",
+      "Personagens",
+      "Lugares",
+      "Galeria"
+    ]
+  }
+}
