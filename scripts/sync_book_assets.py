@@ -32,6 +32,11 @@ CATEGORY_DIRS = {
     "families": "Famílias", "objects": "Objetos", "organisations": "Organizações",
     "gallery": "Galeria", "backgrounds": "Fundos", "lore": "Lore",
 }
+ALIASES = SITE / "data/common/book-image-aliases.json"
+IMAGES_MARKER = "Gerado por scripts/sync_book_assets.py"
+IGNORED_DIRS = {"antigos", "antigos nao usar", "antigos não usar", "backup", "temp"}
+SOURCE_SIDE_DIRS = {"Personagens": "characters", "Lugares": "places", "Galeria": "gallery", "Mapas": "maps"}
+LOGO_VARIANTS = {"branco": "logo-light", "preto": "logo-dark", "colorido": "logo-color"}
 CLAN_ALIASES = {
     "cla-polar-emblema-1-antigo": "cla-polar-1o-emblema-antigo",
     "cla-polar-emblema-2-antigo": "cla-polar-2o-emblema-antigo",
@@ -109,6 +114,111 @@ def discover_new_links(manifest: dict, mapped: set[str]) -> list[dict]:
     return found
 
 
+def managed_books() -> dict[tuple[str, str], tuple[Path, Path]]:
+    """Books whose images.js carries the generated marker: images are discovered from the source side."""
+    out = {}
+    for (saga, book), assets in discover_book_roots().items():
+        book_dir = SITE / "data/sagas" / saga / "books" / book
+        images = book_dir / "images.js"
+        if images.is_file() and IMAGES_MARKER in images.read_text(encoding="utf-8"):
+            out[(saga, book)] = (assets, book_dir)
+    return out
+
+
+def source_side_links(mapped: set[str]) -> list[dict]:
+    """Discover images from `02 - Assets` (covers, title logos, characters, places, chapters, gallery, map)."""
+    found = []
+    for (saga, book), (assets, _) in managed_books().items():
+        base = f"assets/books/{saga}/{book}"
+        taken: dict[str, Path] = {}
+
+        def add(site_path: str, source: Path) -> None:
+            if site_path in mapped:
+                return
+            if site_path in taken:
+                print(f"  AVISO: {source.relative_to(assets)} repete o destino {site_path}; ignorado.")
+                return
+            taken[site_path] = source
+
+        for source in sorted(assets.rglob("*")):
+            if not source.is_file() or source.suffix.lower() not in IMAGE_EXT:
+                continue
+            rel = source.relative_to(assets).parts
+            if any(part.lower() in IGNORED_DIRS for part in rel):
+                continue
+            top, stem_slug = rel[0], slug(source.stem)
+            if top == "Capas":
+                if stem_slug.endswith("capa"):
+                    add(f"{base}/cover.webp", source)
+            elif top == "Logos":
+                variant = re.search(r"-\s*(branco|preto|colorido)$", source.stem, re.I)
+                if variant and len(rel) > 2 and slug(rel[1]) == "titulo":
+                    add(f"assets/branding/{book}/{LOGO_VARIANTS[variant.group(1).lower()]}.webp", source)
+            elif top == "Capitulos":
+                number = re.match(r"^(?:capitulo[- ]*)?(\d+)(?:-|$)", stem_slug)
+                if number:
+                    add(f"{base}/chapters/chapter-{int(number.group(1)):02d}.webp", source)
+            elif top in SOURCE_SIDE_DIRS:
+                category = SOURCE_SIDE_DIRS[top]
+                add(f"{base}/maps/map.webp" if category == "maps" else f"{base}/{category}/{stem_slug}.webp", source)
+        for site_path, source in taken.items():
+            found.append({"sitePath": site_path, "sourcePath": source.relative_to(SITE.parent).as_posix(), "sourceSha256": ""})
+    return found
+
+
+def _entities(book_dir: Path, name: str) -> dict[str, str]:
+    path = book_dir / f"{name}.js"
+    if not path.is_file():
+        return {}
+    match = re.search(r"=\s*(\[.*\]);?\s*$", path.read_text(encoding="utf-8"), re.S)
+    index = {}
+    for item in json.loads(match.group(1)) if match else []:
+        index[item["slug"]] = item["slug"]
+        index.setdefault(slug(item["name"]), item["slug"])
+    return index
+
+
+def regenerate_images(entries: list[dict], write: bool) -> None:  # write=False: preview from sources, files need not exist yet
+    """Write each managed book's images.js from the images present in the Site."""
+    alias_data = json.loads(ALIASES.read_text(encoding="utf-8")) if ALIASES.is_file() else {}
+    for (saga, book), (_, book_dir) in managed_books().items():
+        prefix = f"assets/books/{saga}/{book}/"
+        aliases = alias_data.get(f"{saga}/{book}", {})
+        ignored = set(aliases.get("ignore", []))
+        entities = {"characters": _entities(book_dir, "characters"), "places": _entities(book_dir, "places")}
+        images = {"chapters": {}, "characters": {}, "places": {}, "gallery": []}
+        unmatched = []
+        for entry in sorted(entries, key=lambda e: e["sitePath"]):
+            path = entry["sitePath"]
+            if not path.startswith(prefix) or (write and not (SITE / path).is_file()):
+                continue
+            category, _, filename = path[len(prefix):].partition("/")
+            stem = Path(filename).stem
+            if stem in ignored:
+                continue
+            if category in ("characters", "places"):
+                target = aliases.get(category, {}).get(stem) or entities[category].get(stem)
+                if target in entities[category].values():
+                    images[category][target] = path
+                else:
+                    unmatched.append(f"{category}/{stem}")
+            elif category == "chapters" and re.fullmatch(r"chapter-(\d+)", stem):
+                images["chapters"][str(int(stem.split("-")[1]))] = path
+            elif category == "maps":
+                images["map"] = path
+            elif category == "gallery":
+                images["gallery"].append({"src": path, "title": stem.replace("-", " ").title(), "type": "Galeria"})
+        print(f"{saga}/{book}: {len(images['characters'])} personagens, {len(images['places'])} lugares, {len(images['chapters'])} capítulos, {len(images['gallery'])} galeria")
+        for name in unmatched:
+            print(f"  SEM FICHA CORRESPONDENTE: {name} (adicione em data/common/book-image-aliases.json)")
+        if write:
+            text = (f"/* {IMAGES_MARKER} — não editar à mão. */\nwindow.DI_BOOK = window.DI_BOOK || {{}};\n"
+                    f"window.DI_BOOK.images = {json.dumps(images, ensure_ascii=False, indent=2)};\n")
+            target_file = book_dir / "images.js"
+            if not target_file.is_file() or target_file.read_text(encoding="utf-8") != text:
+                target_file.write_text(text, encoding="utf-8", newline="\n")
+
+
 def digest(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
@@ -137,7 +247,9 @@ def main() -> None:
     source_map = json.loads(MAP.read_text(encoding="utf-8"))
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     indexed = {entry["path"]: entry for entry in manifest["assets"]}
-    new_links = discover_new_links(manifest, {entry["sitePath"] for entry in source_map["entries"]})
+    known = {entry["sitePath"] for entry in source_map["entries"]}
+    new_links = discover_new_links(manifest, known)
+    new_links += source_side_links(known | {entry["sitePath"] for entry in new_links})
     print(f"New exact links found: {len(new_links)}")
     for entry in new_links:
         print(f"  {entry['sitePath']} <= {entry['sourcePath']}")
@@ -190,9 +302,12 @@ def main() -> None:
             inventory_by_path["assets/" + cells[3]] = index
     missing_rows = [path for path in indexed if path not in inventory_by_path]
     stale_metadata = []
+    pending_paths = {entry["sitePath"] for entry, _, _, _ in selected}
     for path, record in indexed.items():
         target = SITE / path
         if not target.is_file():
+            if path in pending_paths:
+                continue
             raise SystemExit(f"Manifest image missing: {path}")
         data = target.read_bytes()
         if len(data) != record["sizeBytes"] or digest(data) != record["sha256"]:
@@ -203,8 +318,10 @@ def main() -> None:
     for entry, _, _, _ in selected:
         print(entry["sitePath"])
     if args.check:
+        regenerate_images(source_map["entries"] + new_links, write=False)
         return
     if not selected and not missing_rows and not stale_metadata:
+        regenerate_images(source_map["entries"], write=True)
         return
 
     for entry, source, target, source_sha in selected:
@@ -237,6 +354,7 @@ def main() -> None:
             ending = b"\r\n" if old_line.endswith(b"\r\n") else b"\n" if old_line.endswith(b"\n") else b""
             inventory_lines[index] = ";".join(values).encode("utf-8") + ending
 
+    regenerate_images(source_map["entries"], write=True)
     manifest["updatedAt"] = date.today().isoformat()
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     INVENTORY.write_bytes(b"".join(inventory_lines))

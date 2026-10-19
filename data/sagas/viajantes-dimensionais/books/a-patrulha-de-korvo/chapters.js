@@ -307,7 +307,8 @@ window.DI_BOOK.chapters = [
       "denis",
       "yuri",
       "isabelle",
-      "fera-celeste"
+      "fera-celeste",
+      "laridas"
     ],
     "places": [
       "central-vigilancia",
@@ -347,7 +348,8 @@ window.DI_BOOK.chapters = [
       "isabelle",
       "kali",
       "coronel",
-      "edelin-fils"
+      "edelin-fils",
+      "laridas"
     ],
     "places": [
       "edificio-arcano",

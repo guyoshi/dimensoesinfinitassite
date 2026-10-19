@@ -978,5 +978,16 @@ window.DI_BOOK.characters = [
     "sources": [
       "Capítulo 17"
     ]
+  },
+  {
+    "slug": "laridas",
+    "name": "Láridas Celestes",
+    "subtitle": "Criaturas mágicas voadoras",
+    "summary": "Seres mágicos que flutuam sobre o Rio Celeste. Os aprendizes as montam no desafio do rio flutuante; sentem a energia de quem as monta e reagem a ela.",
+    "importance": "Apoio",
+    "status": "Vivas",
+    "sources": [
+      "Capítulos 10–11"
+    ]
   }
 ];

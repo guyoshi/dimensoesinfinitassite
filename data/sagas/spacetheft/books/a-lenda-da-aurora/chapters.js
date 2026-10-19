@@ -10,7 +10,8 @@ window.DI_BOOK.chapters = [
       "jelles",
       "nastacia",
       "vek",
-      "amanda"
+      "amanda",
+      "domongo"
     ],
     "places": [
       "lebargan"
@@ -36,7 +37,8 @@ window.DI_BOOK.chapters = [
       "nemes",
       "fender",
       "saezi",
-      "vlad"
+      "vlad",
+      "domongo"
     ],
     "places": [
       "lebargan",
@@ -145,7 +147,8 @@ window.DI_BOOK.chapters = [
       "onomar",
       "vlad",
       "fender",
-      "samara"
+      "samara",
+      "domongo"
     ],
     "places": [
       "dekraaz",
@@ -165,7 +168,8 @@ window.DI_BOOK.chapters = [
       "jasmey-badrock",
       "engenheira",
       "jelles",
-      "dekraazianos"
+      "dekraazianos",
+      "domongo"
     ],
     "places": [
       "dekraaz",
@@ -316,7 +320,8 @@ window.DI_BOOK.chapters = [
       "oreilly",
       "vivian",
       "vek",
-      "amanda"
+      "amanda",
+      "besta"
     ],
     "places": [
       "sumatram",
@@ -340,7 +345,8 @@ window.DI_BOOK.chapters = [
       "buni",
       "vivian",
       "luna",
-      "quinn"
+      "quinn",
+      "cardical"
     ],
     "places": [
       "sumatram",
@@ -366,7 +372,8 @@ window.DI_BOOK.chapters = [
       "vivian",
       "mestre-estelar",
       "eric",
-      "caly"
+      "caly",
+      "cardical"
     ],
     "places": [
       "moldar",
@@ -395,7 +402,8 @@ window.DI_BOOK.chapters = [
       "mestre-estelar",
       "amanda",
       "jelles",
-      "engenheira"
+      "engenheira",
+      "domongo"
     ],
     "places": [
       "moldar",
@@ -477,7 +485,8 @@ window.DI_BOOK.chapters = [
       "jelles",
       "nastacia",
       "genrir",
-      "amanda"
+      "amanda",
+      "domongo"
     ],
     "places": [
       "aurora",
@@ -506,7 +515,9 @@ window.DI_BOOK.chapters = [
       "klest",
       "unidale",
       "dock",
-      "vek"
+      "vek",
+      "besta",
+      "domongo"
     ],
     "places": [
       "lebargan",
@@ -535,7 +546,8 @@ window.DI_BOOK.chapters = [
       "buni",
       "vivian",
       "nastacia",
-      "vek"
+      "vek",
+      "besta"
     ],
     "places": [
       "lebargan",

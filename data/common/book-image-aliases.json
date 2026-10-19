@@ -1,0 +1,49 @@
+{
+  "spacetheft/a-lenda-da-aurora": {
+    "characters": {
+      "capitao-tzough": "tzough",
+      "domongo-conceito-01": "domongo",
+      "luna-stellar": "luna",
+      "o-reilly": "oreilly"
+    },
+    "places": {
+      "gerbe": "aurora"
+    },
+    "ignore": []
+  },
+  "viajantes-dimensionais/a-patrulha-de-korvo": {
+    "characters": {
+      "banjo-lins": "banjo",
+      "beatriz-lins": "beatriz",
+      "breno-lins": "breno",
+      "bruno-lins": "bruno",
+      "erick-corvane": "erick",
+      "erla-diggs": "erla",
+      "eshley-damaris": "eshley",
+      "grande-pai-gaia": "gaia",
+      "maria-santoro": "maria",
+      "nicolas-corvane": "nicolas",
+      "shirley-ainsworth": "shirley"
+    },
+    "places": {},
+    "ignore": []
+  },
+  "diario-sobrenatural/os-elos-das-sombras": {
+    "characters": {
+      "avo": "avo-carnam",
+      "carnam-pai": "pai-carnam",
+      "isabela-mae": "mae-carnam"
+    },
+    "places": {},
+    "ignore": []
+  },
+  "diario-sobrenatural/a-alvorada-das-ilusoes": {
+    "characters": {
+      "sra-olivia": "olivia"
+    },
+    "places": {},
+    "ignore": [
+      "priscila-hamburgueria-secundaria"
+    ]
+  }
+}

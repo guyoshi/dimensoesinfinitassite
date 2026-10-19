@@ -21,3 +21,13 @@ As **58 imagens WebP restantes** não têm fonte canônica vinculada. São sobre
 Há ainda 23 PNG antigos em `assets/books/ciclo-de-jesed/dinastia-polar/Capitulos/` que duplicam artes já disponíveis como WebP em `chapters/`; não são usados nas páginas nem entram neste fluxo. Um logo isolado na raiz de `assets/` está entre os 58 WebP sem fonte vinculada. Esses arquivos legados devem ser tratados separadamente, sem assumir que sejam versões canônicas.
 
 Não use `scripts/migrate_assets.py` como substituto desta sincronização para as imagens já mapeadas: ele atende à importação/normalização, enquanto `scripts/sync_book_assets.py` acompanha as fontes canônicas existentes.
+
+## Livros novos (Spacetheft, Viajantes Dimensionais, Diário Sobrenatural) — descoberta pela origem
+
+Livros cujo `images.js` contém o marcador "Gerado por scripts/sync_book_assets.py" têm as imagens descobertas a partir de `<Saga>/<Livro>/02 - Assets`:
+
+- `Capas/*Capa.png` → `cover.webp` (ignora nomes terminados em "anterior").
+- `Logos/Titulo/<Título> - branco|preto|colorido.png` → `assets/branding/<livro>/logo-light|logo-dark|logo-color.webp`.
+- `Personagens/**`, `Lugares/**`, `Galeria/**`, `Mapas/**`, `Capitulos/Capítulo N.png` → `characters/`, `places/`, `gallery/`, `maps/map.webp`, `chapters/chapter-NN.webp` (nome do arquivo normalizado).
+- `images.js` do livro é regenerado a cada execução. O arquivo liga à ficha pelo slug do nome; quando o nome do arquivo difere do da ficha, use `data/common/book-image-aliases.json` (`characters`/`places`: arquivo → slug da ficha; `ignore`: arquivos sem ficha). Arquivos sem ficha aparecem como "SEM FICHA CORRESPONDENTE" no relatório.
+- Uso: `python scripts/sync_book_assets.py --check` (prévia) ou `PUBLICAR_IMAGENS.cmd`.

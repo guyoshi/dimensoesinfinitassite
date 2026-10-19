@@ -675,5 +675,41 @@ window.DI_BOOK.characters = [
     "sources": [
       "Capítulo 15"
     ]
+  },
+  {
+    "slug": "besta",
+    "name": "A Besta",
+    "subtitle": "Trevas que anulam a vida",
+    "summary": "Entidade de trevas que anula a vida, adormecida no núcleo da Aurora. Os luzitanos, primeiros seres inteligentes, a impediram um dia; Hardman diz que luz e Besta voltarão a se encontrar. Jelles revela que \"Aurora\" é só o nome simbólico da primeira luz e que pretende comandar a Besta para fazer da Lebargan a maior arma da galáxia; a extração de gerbe a desperta.",
+    "importance": "Principal",
+    "status": "Adormecida no núcleo da Aurora",
+    "destiny": {
+      "written": "Despertada pela extração de gerbe na Aurora, que abre um buraco negro."
+    },
+    "sources": [
+      "Capítulos 13, 20–21"
+    ]
+  },
+  {
+    "slug": "domongo",
+    "name": "Domongo",
+    "subtitle": "Criatura das alturas petrificadas",
+    "summary": "Criatura temida que habita as alturas petrificadas e devora os Laios. Seu olho, mapa genético para a Aurora, é o objeto que Jasmey recupera em Dekraaz e que depois guia a rota da Fera Sideral.",
+    "importance": "Apoio",
+    "status": "Citado; nunca visto",
+    "sources": [
+      "Capítulos 1–2, 6–7, 16, 19–20"
+    ]
+  },
+  {
+    "slug": "cardical",
+    "name": "Cardiçal",
+    "subtitle": "Criatura de transporte de Moldar",
+    "summary": "Criatura viva, de pelo quente e patas maciças, usada como transporte no deserto entre Sumatram e Moldar. Leva passageiros presos por cintos sob uma concha de aço contra as tempestades térmicas.",
+    "importance": "Apoio",
+    "status": "Vivo",
+    "sources": [
+      "Capítulos 14–15"
+    ]
   }
 ];
