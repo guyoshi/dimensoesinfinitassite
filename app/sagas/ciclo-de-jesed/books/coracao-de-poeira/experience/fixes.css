@@ -97,3 +97,7 @@ body[data-book="coracao-de-poeira"] .transition-veil{
   opacity:0;pointer-events:none;transition:opacity .18s;
 }
 body[data-book="coracao-de-poeira"] .transition-veil.active{opacity:1;pointer-events:all}
+
+/* Gaveta fechada por padrão */
+body[data-book="coracao-de-poeira"] .drawer[aria-hidden="true"]{display:none}
+body[data-book="coracao-de-poeira"] .search-modal[aria-hidden="true"],body[data-book="coracao-de-poeira"] .modal[aria-hidden="true"]{display:none}

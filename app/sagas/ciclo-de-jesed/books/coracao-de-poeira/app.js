@@ -99,11 +99,12 @@
     setBreadcrumbs(["Início"]);
     const book = (D?.books||[]).find(b => b.id === BOOK_ID) || {};
     return `<div class="main-content">
-      <section class="hero-map-card home-guide-hero" style="background:radial-gradient(ellipse 80% 60% at 50% 30%, rgba(168,139,88,.08), transparent 65%),var(--cp-bg-deepest);border:1px solid var(--di-border);border-radius:18px;padding:48px 40px;margin-bottom:32px;display:flex;flex-direction:column;align-items:flex-start;gap:20px">
+      <section class="hero-map-card home-guide-hero" style="background:radial-gradient(ellipse 80% 60% at 50% 30%, rgba(168,139,88,.08), transparent 65%),var(--cp-bg-deepest);border:1px solid var(--di-border);border-radius:18px;padding:48px 40px;margin-bottom:32px;min-height:0;aspect-ratio:auto;display:flex;flex-direction:column;align-items:flex-start;gap:20px">
         <p class="eyebrow" style="color:var(--di-accent);font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase">Ciclo de Jesed — Guia do Livro</p>
         <h1 style="font-size:clamp(2rem,5vw,3.4rem);color:var(--di-heading);line-height:1.1;margin:0">Coração de Poeira</h1>
         <p class="lead" style="font-size:1.08rem;color:var(--di-text);max-width:560px;margin:0">${escapeHtml(book.visual || "Areia, poeira suspensa, vazio, espirais temporais e luz quase extinta.")}</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <button class="primary-button" data-go="chapters">Capítulos</button>
           <button class="secondary-button" data-go="books">Ver os cinco livros</button>
           <button class="secondary-button" data-contemplative="dust">✦ Contemplar este mundo</button>
         </div>
@@ -113,6 +114,9 @@
           <h3 style="color:var(--di-heading);margin:0 0 6px">${escapeHtml(label)}</h3>
           <p style="color:var(--di-muted);font-size:.86rem;margin:0">${escapeHtml(desc)}</p>
         </article>`).join("")}
+      </div>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:14px">
+        ${[[(D?.characters||[]).length,"personagens","characters"],[(D?.places||[]).length,"lugares","places"],[(D?.chapters||[]).length,"capítulos","chapters"],[(D?.timeline||[]).length,"eventos na linha do tempo","timeline"]].map(([n,l,id]) => `<article class="card click" data-go="${id}" tabindex="0" role="link" style="cursor:pointer;padding:18px;text-align:center"><strong style="display:block;font-size:1.8rem;color:var(--di-heading)">${n}</strong><span style="color:var(--di-muted);font-size:.8rem">${l}</span></article>`).join("")}
       </div>
     </div>`;
   }
