@@ -214,7 +214,7 @@
       <div class="chnav">${prev ? `<a class="btn" href="#/capitulo/${prev.number}">${icon('back')} Capítulo ${prev.number}</a>` : '<span></span>'}<a class="btn ghost" href="#/capitulos">Todos os capítulos</a>${next ? `<a class="btn" href="#/capitulo/${next.number}">Capítulo ${next.number} ${icon('arrow')}</a>` : '<span></span>'}</div>
       ${head(`${chapLabel(c)} · ${B.book.name}`, c.title, '', chip(c.pov) + (c.status === 'draft' ? '<span class="chip draft-chip">Rascunho</span>' : ''))}
       ${img ? `<figure class="chfig"><img src="${esc(img)}" alt="${esc(c.title)}" data-lightbox></figure>` : ''}
-      <section class="panel prose">${c.summary ? `<h3 class="h-font">Resumo</h3>${paragraphs(c.summary)}` : `<p class="muted">O resumo deste capítulo está em preparação.</p>`}</section>
+      <section class="panel prose">${c.summary ? `<h3 class="h-font">Resumo</h3>${paragraphs(c.summary)}${(c.details || []).length ? `<h3 class="h-font small-h">Pontos de atenção</h3><ul class="blist">${c.details.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}` : `<p class="muted">O resumo deste capítulo está em preparação.</p>`}</section>
       ${(chars.length || places.length) ? `<section class="panel"><div class="tagrow">${chars.map(x => `<a class="tag" href="#/personagem/${esc(x.slug)}">${esc(x.name)}</a>`).join('')}${places.map(x => `<a class="tag" href="#/lugar/${esc(x.slug)}">${esc(x.name)}</a>`).join('')}</div></section>` : ''}
     </div>`;
     crumb([['Capítulos', '#/capitulos'], [`Capítulo ${c.number}`]]);
@@ -231,6 +231,21 @@
     if (list.length) { draw(); $('#gQ').addEventListener('input', e => { state.q = e.target.value; draw(); }); }
     crumb([[label]]);
   }
+  function entityMeta(x) {
+    const bits = [x.status, x.importance, x.type, x.region].filter(Boolean);
+    return bits.length ? `<div class="tagrow meta">${bits.map(b => `<span class="chip">${esc(b)}</span>`).join('')}</div>` : '';
+  }
+  function entityExtra(x) {
+    const li = a => `<ul class="blist">${a.map(t => `<li>${esc(t)}</li>`).join('')}</ul>`;
+    const k = x.knowledge || {};
+    const secs = [];
+    if ((x.personality || []).length) secs.push(`<h3 class="h-font small-h">Personalidade</h3><div class="tagrow">${x.personality.map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>`);
+    if (x.voice) secs.push(`<h3 class="h-font small-h">Voz</h3><p>${esc(x.voice)}</p>`);
+    [['knows', 'O que sabe'], ['suspects', 'O que suspeita'], ['secrets', 'Segredos']].forEach(([key, lab]) => { if ((k[key] || []).length) secs.push(`<h3 class="h-font small-h">${lab}</h3>${li(k[key])}`); });
+    if (x.destiny && x.destiny.written) secs.push(`<h3 class="h-font small-h">Destino até aqui</h3><p>${esc(x.destiny.written)}</p>`);
+    if ((x.sources || []).length) secs.push(`<p class="muted srcline">Fontes: ${x.sources.map(esc).join(' · ')}</p>`);
+    return secs.join('');
+  }
   function entityPage(list, slug, label, routeBase, getImg, fbIcon) {
     const x = list.find(e => e.slug === slug);
     if (!x) return notFound();
@@ -238,7 +253,8 @@
     $('#main').innerHTML = `<div class="page entity">
       <div class="chnav"><a class="btn ghost" href="#/${routeBase === 'personagem' ? 'personagens' : 'lugares'}">${icon('back')} ${label}</a></div>
       <section class="ehero"><figure class="efig">${getImg(x) ? `<img src="${esc(getImg(x))}" alt="${esc(x.name)}" data-lightbox>` : `<span class="fb">${icon(fbIcon)}</span>`}</figure>
-        <div class="etext"><p class="kicker">${esc(x.subtitle || label)}</p><h1 class="h-font">${esc(x.name)}</h1>${x.pov ? chip(x.pov) : ''}<div class="prose">${x.description ? paragraphs(x.description) : '<p class="muted">Ficha em preparação.</p>'}</div>
+        <div class="etext"><p class="kicker">${esc(x.subtitle || label)}</p><h1 class="h-font">${esc(x.name)}</h1>${x.pov ? chip(x.pov) : ''}${entityMeta(x)}<div class="prose">${x.summary ? `<p class="lead">${esc(x.summary)}</p>` : ''}${x.description ? paragraphs(x.description) : (x.summary ? '' : '<p class="muted">Ficha em preparação.</p>')}</div>
+        ${entityExtra(x)}
         ${apps.length ? `<h3 class="h-font small-h">Aparece em</h3><div class="tagrow">${apps.map(c => `<a class="tag" href="#/capitulo/${c.number}">Cap. ${c.number} · ${esc(c.title)}</a>`).join('')}</div>` : ''}</div></section></div>`;
     crumb([[label, `#/${routeBase === 'personagem' ? 'personagens' : 'lugares'}`], [x.name]]);
     $$('[data-lightbox]').forEach(el => el.addEventListener('click', () => lightbox([{ src: getImg(x), title: x.name }], 0)));

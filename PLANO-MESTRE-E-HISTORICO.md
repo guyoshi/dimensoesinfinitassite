@@ -2572,3 +2572,11 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - Conteúdo carregado: títulos e narradores dos capítulos (ST 22, VD 23, DS1 38, DS2 29 com 26 e 28 como rascunho; 30 e 31 vazios ficam fora). Capas e logos brancos em WebP.
 - Pendente: etapa 4 (resumos, personagens, lugares, linha do tempo, imagens) e etapa 5 (sincronização automática de capas, imagens de capítulos, personagens e lugares via `sync_book_assets.py`). Rodar `PUBLICAR_IMAGENS.cmd` reconcilia manifesto e inventário com as capas/logos novos.
 - Nenhuma alteração de cânone nem de IDs dos livros de Ciclo de Jesed. Versão do pacote não alterada.
+
+## Atualização pontual — 19/10/2026 — novos sites: etapa 4 (conteúdo)
+
+- Os 4 livros novos (A Lenda da Aurora, A Patrulha de Korvo, Os Elos das Sombras, A Alvorada das Ilusões) tiveram todos os capítulos lidos e resumidos (`chapters.js`: resumo, pontos de atenção, personagens e lugares por capítulo).
+- Fichas de **todos** os personagens e lugares de cada livro (inclusive sem foto), no estilo de *Dinastia Polar*: importância, status com capítulo, personalidade, voz, o que sabe/suspeita/segredos, destino até aqui, fontes e "Aparece em". Totais (personagens/lugares/eventos): Aurora 48/29/15; Korvo 80/38/14; Elos 82/38/15; Alvorada 77/38/17.
+- Linhas do tempo por livro. Capítulos 25–28 de *A Alvorada das Ilusões* ainda são esboços no texto (sinalizado nos detalhes); 30–31 estão vazios e não entraram.
+- Engine: `entityMeta`/`entityExtra` (campos ricos nas fichas), "Pontos de atenção" nos capítulos e estilos `.blist`, `.entity .lead`, `.tagrow.meta`, `.srcline`.
+- Imagens de personagens/lugares **não** foram importadas (existem só no PC do autor). `images.js` e `gallery.js` continuam vazios → Etapa 5 (`scripts/sync_book_assets.py`).

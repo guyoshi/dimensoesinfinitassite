@@ -234,3 +234,6 @@ body.contemplating .app{opacity:0;pointer-events:none}
 }
 @media (max-width:560px){#perfBtn{display:none}.cards{grid-template-columns:1fr}.hero .tagline{font-size:16px}}
 @media (prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+
+.blist{margin:.4rem 0 1rem 1.1rem;padding:0;display:grid;gap:.35rem}.blist li{line-height:1.5}
+.entity .lead{font-size:1.05em}.tagrow.meta{margin:.2rem 0 .6rem}.srcline{font-size:.8rem;margin-top:1rem}
