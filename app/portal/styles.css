@@ -108,3 +108,18 @@ body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;bac
 .portal-book-copy .dim-state{margin-top:18px;align-self:flex-start}
 a.go-button{display:inline-flex;justify-content:center;align-items:center;text-decoration:none}
 @media(max-width:680px){.book-dim-card{min-height:460px}}
+
+/* Perfil leve (celular/toque): menos camadas, sem blur/drop-shadow animado, sem 3D. Evita lentidão e piscadas. */
+@media(max-width:760px),(pointer:coarse){
+  .stars-layer,.portal-field{perspective:none;transform-style:flat;contain:layout paint style}
+  .star{filter:none;box-shadow:0 0 3px #fff;will-change:auto;animation-name:starTravelLite}
+  @keyframes starTravelLite{0%{transform:translate3d(0,0,0) scale(.3);opacity:0}15%{opacity:.9}100%{transform:translate3d(var(--tx),var(--ty),0) scale(2.2);opacity:0}}
+  .nebula{filter:none;animation:none;opacity:.3}
+  .forward-glow{filter:none;animation:none}
+  .portal-logo{animation:none;filter:drop-shadow(0 0 10px rgba(94,247,255,.6)) drop-shadow(0 0 26px rgba(200,96,255,.45))}
+  .dimension-portal{will-change:auto}
+  .dimension-portal::before,.dimension-portal::after{animation:none;filter:none;display:none}
+  .portal-energy{display:none}
+  .portal-music{backdrop-filter:none;background:rgba(7,9,24,.88)}
+  .portal-wrap{min-height:100svh}
+}

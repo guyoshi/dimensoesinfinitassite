@@ -108,10 +108,13 @@
 
   window.addEventListener('hashchange', route);
 
+  // Perfil leve para celulares/telas de toque: menos elementos animados e sem filtros caros.
+  const lite = window.matchMedia('(max-width: 760px), (pointer: coarse)').matches;
+
   function buildStars() {
     const layer = document.getElementById('stars');
     if (!layer) return;
-    const count = 220;
+    const count = lite ? 56 : 220;
     for (let i = 0; i < count; i += 1) {
       const star = document.createElement('span');
       star.className = 'star';
@@ -137,7 +140,7 @@
   function buildPortals() {
     const field = document.getElementById('portalField');
     if (!field || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    const maxPortals = 7;
+    const maxPortals = lite ? 2 : 7;
     const spawn = () => {
       if (document.hidden || field.childElementCount >= maxPortals) return;
       const portal = document.createElement('span');
@@ -147,10 +150,10 @@
       const radiusY = 28 + Math.random() * 48;
       portal.style.setProperty('--portal-x', `${Math.cos(angle) * radiusX}vw`);
       portal.style.setProperty('--portal-y', `${Math.sin(angle) * radiusY}vh`);
-      portal.style.setProperty('--portal-scale', `${3.2 + Math.random() * 5.8}`);
+      portal.style.setProperty('--portal-scale', `${lite ? 1.2 + Math.random() * 1.6 : 3.2 + Math.random() * 5.8}`);
       portal.style.setProperty('--portal-dur', `${7 + Math.random() * 7}s`);
       portal.style.setProperty('--rot', `${-18 + Math.random() * 36}deg`);
-      for (let i = 0; i < 7; i += 1) {
+      for (let i = 0; i < (lite ? 0 : 7); i += 1) {
         const energy = document.createElement('i');
         energy.className = 'portal-energy';
         const eAngle = (Math.PI * 2 * i / 7) + Math.random() * .5;
@@ -163,8 +166,8 @@
       portal.addEventListener('animationend', () => portal.remove(), { once: true });
       field.appendChild(portal);
     };
-    for (let i = 0; i < 3; i += 1) setTimeout(spawn, i * 1100);
-    setInterval(spawn, 1800);
+    for (let i = 0; i < (lite ? 1 : 3); i += 1) setTimeout(spawn, i * 1100);
+    setInterval(spawn, lite ? 4200 : 1800);
   }
 
   function setupPortalMusic() {
@@ -172,7 +175,7 @@
     if (!button) return;
     const audio = new Audio('assets/dimensoes-infinitas.mp3');
     audio.loop = true;
-    audio.preload = 'auto';
+    audio.preload = 'none'; // evita baixar ~7 MB ao abrir a página no celular
     audio.volume = 0.0001;
     let playing = false;
     let fadeTimer = null;
