@@ -3,8 +3,8 @@ window.DI_BOOK = window.DI_BOOK || {};
 window.DI_BOOK.timeline = [
   {
     "date": "12 de dezembro",
-    "title": "Morte dos pais",
-    "summary": "Jack e Gabrielle Lins saem para uma volta e são achados caídos à porta, mortos por infarto, um logo depois do outro. Os irmãos passam a viver com o tio Frank.",
+    "title": "Uma perda em família",
+    "summary": "Os irmãos Lins perdem os pais e passam a viver com o tio Frank.",
     "chapters": [
       1,
       9
@@ -13,7 +13,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Passeio escolar",
     "title": "O Estírio chama os irmãos",
-    "summary": "No parque da Cantareira, Banjo cai numa caverna escondida com uma esfera de luz azul; uma onça os protege durante a fuga de Pedro Porrada.",
+    "summary": "No parque da Cantareira, Banjo descobre uma caverna escondida.",
     "chapters": [
       1
     ]
@@ -21,7 +21,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Dias seguintes",
     "title": "O convite do Velho-Sábio",
-    "summary": "O mago leva os irmãos para casa, explica que foram escolhidos e convida-os a ir a outra dimensão; Breno recusa por todos e ele deixa a palavra \"Pirulito\".",
+    "summary": "Um mago aparece com um convite para outra dimensão.",
     "chapters": [
       2,
       3
@@ -30,7 +30,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Chegada",
     "title": "Tayo e o exame de intenções",
-    "summary": "Os irmãos atravessam a fronteira, chegam à central de Tayo e cada um enfrenta a projeção dos próprios medos diante de Erla.",
+    "summary": "Os irmãos chegam a Tayo e passam por uma avaliação diante de Erla.",
     "chapters": [
       4,
       5
@@ -39,7 +39,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Primeira semana",
     "title": "Treinamento no Edifício Arcano",
-    "summary": "Conhecem aprendizes, aprendem sobre a M.A., o P.I. e o perigo de Korvo, e nomeiam seus poderes.",
+    "summary": "Conhecem aprendizes, aprendem sobre magia e sobre o perigo de Korvo.",
     "chapters": [
       5,
       6,
@@ -50,7 +50,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Desafio 1",
     "title": "Corrida de dassis",
-    "summary": "Os irmãos correm pela estrada de luz de Tayo; Breno atravessa o dassi do rival e eles seguem.",
+    "summary": "Os irmãos correm pela estrada de luz de Tayo.",
     "chapters": [
       9
     ]
@@ -58,7 +58,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Desafio 2",
     "title": "Rio Celeste",
-    "summary": "Cruzam o rio e Bruno é eliminado por Garmand por chegar sem lárida; o Velho-Sábio o mantém.",
+    "summary": "O segundo desafio leva os aprendizes a cruzar o Rio Celeste.",
     "chapters": [
       10,
       11
@@ -67,7 +67,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Reunião secreta",
     "title": "A Sociedade de Tayo",
-    "summary": "O velho revela que os irmãos são filhos de Gabrielle e Jack Lins e debate-se a infiltração da Vigilância.",
+    "summary": "Uma reunião reservada revela quem apoia os irmãos em Tayo.",
     "chapters": [
       12
     ]
@@ -75,7 +75,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Desafio 3",
     "title": "A partida contra o Garras de Ferro",
-    "summary": "A equipe, unida por Lucía, vence com plano para exaurir Ferris Cotton.",
+    "summary": "O terceiro desafio é uma partida entre times de aprendizes no Estádio Vórtice.",
     "chapters": [
       13,
       14
@@ -83,8 +83,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Aprovação",
-    "title": "Os quatro ficam em Belfex",
-    "summary": "O Velho-Sábio dá a opção de ficar ou voltar sem poderes; os quatro decidem ficar e são aprovados.",
+    "title": "O momento da escolha",
+    "summary": "O Velho-Sábio apresenta uma escolha aos irmãos.",
     "chapters": [
       15,
       16
@@ -92,8 +92,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Festival das Luzes",
-    "title": "Beatriz é levada",
-    "summary": "Uma explosão apaga as luzes, a cidade é invadida e Korvo leva Beatriz ao Pântano de Mortem.",
+    "title": "Uma noite em Tayo",
+    "summary": "O Festival das Luzes toma a cidade.",
     "chapters": [
       16
     ]
@@ -101,7 +101,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Perseguição",
     "title": "Rumo ao Pântano",
-    "summary": "Ricochet, os trolhos, os téorixes, as aracnas e os Obbs marcam a busca; Bruno é enganado por um impostor.",
+    "summary": "Ricochet, trolhos, téorixes, aracnas e Obbs marcam a travessia de Belfex.",
     "chapters": [
       17,
       18,
@@ -111,8 +111,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Presália",
-    "title": "A batalha com Korvo",
-    "summary": "Os irmãos descobrem a traição de Gary, enfrentam Korvo e Saliens e Bruno é apunhalado.",
+    "title": "O confronto",
+    "summary": "A jornada leva os irmãos à Presália.",
     "chapters": [
       21,
       22
@@ -120,8 +120,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Retorno",
-    "title": "Cura de Bruno e volta para casa",
-    "summary": "Banjo cura Bruno com a Árvore da Vigília; Lucas Veline manda os irmãos de volta e Erla renuncia.",
+    "title": "De volta para casa",
+    "summary": "Os irmãos voltam para casa depois da aventura.",
     "chapters": [
       23
     ]

@@ -3,40 +3,40 @@ window.DI_BOOK = window.DI_BOOK || {};
 window.DI_BOOK.timeline = [
   {
     "date": "Início",
-    "title": "Jasmey recupera o olho de um Domongo",
-    "summary": "Por ordem de Jelles, Jasmey desce a um planeta de névoa roxa, derruba a serpente voadora e arranca o olho; poupa os nativos e viola a Primeira Regra do Código.",
+    "title": "Uma ordem do capitão",
+    "summary": "Jasmey desce a um planeta de névoa roxa por ordem de Jelles, em busca do olho de um Domongo.",
     "chapters": [
       1
     ]
   },
   {
     "date": "Início",
-    "title": "Jelles revela o mapa da Aurora",
-    "summary": "No conselho dos nove, Jelles diz que o olho é um mapa para a Aurora e para o gerbe; só os Dekraazianos sabem lê-lo.",
+    "title": "O conselho dos nove",
+    "summary": "De volta à Lebargan, Jelles revela o que o olho significa para a nave.",
     "chapters": [
       2
     ]
   },
   {
     "date": "Primeira volta",
-    "title": "Retiro de Sr. Peron",
-    "summary": "Jasmey acompanha o retiro de Peron, lançado ao vácuo; Jelles mostra a chave PR e o nomeia sucessor.",
+    "title": "O retiro de um veterano",
+    "summary": "Um Dale se despede e Jasmey conhece de perto a rotina da Lebargan.",
     "chapters": [
       3
     ]
   },
   {
     "date": "Segunda volta",
-    "title": "Asteroide de benzeno",
-    "summary": "A missão para extrair água detona o asteroide; cinco Dales morrem, entre eles Saezi, e Jasmey salva Jelles.",
+    "title": "Água no asteroide",
+    "summary": "Jasmey parte com outros Dales em uma missão de rotina para extrair água de um asteroide.",
     "chapters": [
       4
     ]
   },
   {
     "date": "Segunda volta",
-    "title": "Aldeia queimada",
-    "summary": "Jasmey poupa uma família dekraaziana; Jelles manda executar todos e incendeia a aldeia.",
+    "title": "Dúvidas sobre o Código",
+    "summary": "Depois da missão, Jasmey passa a questionar as ordens do capitão.",
     "chapters": [
       5,
       6
@@ -44,24 +44,24 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Segunda volta",
-    "title": "Jasmey é espancado e lançado ao rio",
-    "summary": "Jasmey enfrenta Jelles, é espancado diante dos Dales, abandonado por Vek e lançado ao rio de metano.",
+    "title": "O preço de discordar",
+    "summary": "Jasmey enfrenta as consequências de contrariar Jelles.",
     "chapters": [
       6
     ]
   },
   {
     "date": "Dekraaz",
-    "title": "A Engenheira salva Jasmey",
-    "summary": "Jasmey acorda com um braço metálico e conhece a Engenheira, que confirma que o olho é um mapa genético.",
+    "title": "Despertar em Dekraaz",
+    "summary": "Jasmey acorda em uma câmara dekraaziana e conhece uma voz que se apresenta como a Engenheira.",
     "chapters": [
       7
     ]
   },
   {
     "date": "Dekraaz",
-    "title": "Jasmey se entrega à Fera Sideral",
-    "summary": "Após sobreviver no deserto, Jasmey provoca a própria captura pelos piratas de Tzough.",
+    "title": "Sozinho no deserto",
+    "summary": "Jasmey sobrevive aos desertos de Dekraaz até cruzar o caminho dos piratas de Tzough.",
     "chapters": [
       8,
       9,
@@ -70,8 +70,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Fera Sideral",
-    "title": "Jasmey se junta a Hardman, Kord, O’reilly e Buni",
-    "summary": "Nas máquinas da Fera, nasce a tripulação que fugirá usando o Temparalizador.",
+    "title": "A tripulação improvisada",
+    "summary": "Nas entranhas da Fera Sideral, Jasmey conhece Hardman, Kord, O’reilly e Buni.",
     "chapters": [
       11,
       12
@@ -79,8 +79,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Sumatram",
-    "title": "Luna rouba a nave",
-    "summary": "Em Sumatram, Jasmey é drogado e a nave é roubada; o grupo viaja a Moldar.",
+    "title": "Escala no nexo ilegal",
+    "summary": "O grupo chega a Sumatram, reabastece e segue em direção a Moldar.",
     "chapters": [
       13,
       14,
@@ -89,8 +89,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Moldar",
-    "title": "Princesa do Inverno e Eric",
-    "summary": "O grupo obtém a Princesa do Inverno, e Vivian ativa o Olho de Domongo; Eric reaparece.",
+    "title": "A cidade das máquinas",
+    "summary": "Em Moldar, o grupo busca uma nave capaz de chegar à Aurora e reencontra um velho conhecido.",
     "chapters": [
       15,
       16
@@ -98,8 +98,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Rumo à Aurora",
-    "title": "Nebulosa e tersário",
-    "summary": "Dentro da nebulosa escura, o tersário ataca a nave.",
+    "title": "Pela nebulosa escura",
+    "summary": "A viagem atravessa uma região onde os motores de dobra falham.",
     "chapters": [
       17,
       18
@@ -107,8 +107,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Aurora",
-    "title": "A Lebargan captura o grupo",
-    "summary": "Jasmey ativa o bracelete; a Lebargan chega e leva Jasmey, Eric e a Princesa do Inverno para a doca.",
+    "title": "O planeta de gerbe",
+    "summary": "O grupo alcança a Aurora, e a Lebargan não está longe.",
     "chapters": [
       19,
       20
@@ -116,16 +116,16 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Aurora",
-    "title": "Fuga e despertar da Besta",
-    "summary": "O grupo foge pela câmara de retiro, extrai gerbe e desperta a Besta, que cria um buraco negro.",
+    "title": "A última noite na Aurora",
+    "summary": "Tudo converge no planeta mais cobiçado da galáxia.",
     "chapters": [
       21
     ]
   },
   {
     "date": "Final",
-    "title": "Jasmey recebe a chave PR",
-    "summary": "Jasmey esfaqueia Jelles e assume a Lebargan; Nastácia reaparece e mata Eric.",
+    "title": "O destino da Lebargan",
+    "summary": "A história de Jasmey e da Lebargan chega ao desfecho.",
     "chapters": [
       21,
       22

@@ -5,9 +5,8 @@ window.DI_BOOK.characters = [
     "slug": "jasmey-badrock",
     "name": "Jasmey Badrock",
     "subtitle": "Dale da Lebargan · narrador",
-    "summary": "Dale impulsivo e irreverente que se vê como a lenda da Lebargan. Obedece a Jelles até a missão que lhe custa o sentido do código: poupa nativos, mata por engano companheiros, perde um braço e é salvo pela Engenheira. Fora da nave, reúne uma tripulação improvisada, volta para enfrentar Jelles e termina o livro dono da chave da Lebargan.",
+    "summary": "Dale impulsivo e irreverente da Lebargan, que se vê como a lenda da nave-cidade. Narra a história em primeira pessoa.",
     "importance": "Protagonista",
-    "status": "Vivo · braço metálico (Cap. 22)",
     "personality": [
       "Impulsivo",
       "Irreverente",
@@ -16,23 +15,6 @@ window.DI_BOOK.characters = [
       "Mente com facilidade"
     ],
     "voice": "Primeira pessoa, sarcástica e vaidosa; esconde a culpa atrás de piada e de bravata.",
-    "knowledge": {
-      "knows": [
-        "Jelles armou a morte de Saezi e a execução da aldeia dekraaziana.",
-        "O Olho de Domongo é um mapa genético para a Aurora.",
-        "O gás que destruiu Kaséia é a arma que a Lebargan usa."
-      ],
-      "suspects": [
-        "O sistema de retiro mata os Dales quando perdem a utilidade."
-      ],
-      "secrets": [
-        "Enganou o grupo sobre atrair a Lebargan para a Aurora: ativou o bracelete de Eric sabendo o que faria.",
-        "Sabe que a Lebargan destruiu o mundo de Zekko e o de Hardman, e se cala."
-      ]
-    },
-    "destiny": {
-      "written": "Esfaqueia Jelles no vácuo, é curado por Vivian e recebe a chave PR de Peron. Declara que tomará a Lebargan e mudará seu sistema, enquanto o buraco negro criado pela Besta cresce atrás deles."
-    },
     "sources": [
       "Capítulos 1–22"
     ],
@@ -42,9 +24,8 @@ window.DI_BOOK.characters = [
     "slug": "jelles",
     "name": "Jelles",
     "subtitle": "Capitão interino da Lebargan",
-    "summary": "Comanda a Lebargan enquanto Nastácia está em coma. Transforma código e lealdade em domínio pessoal: manipula medições, manda executar aldeias e elimina quem o ameaça. Quer a Aurora porque sabe que sob ela dorme a Besta, que pretende controlar.",
+    "summary": "Capitão interino da Lebargan enquanto a capitã Nastácia está em coma. Ambicioso e controlador, impõe o código com mão de ferro.",
     "importance": "Antagonista",
-    "status": "Apunhalado por Jasmey (Cap. 21); destino final não mostrado",
     "personality": [
       "Controlador",
       "Brutal",
@@ -52,19 +33,6 @@ window.DI_BOOK.characters = [
       "Manipulador"
     ],
     "voice": "Frio e autoritário; trata toda perda como lição e toda glória como sua.",
-    "knowledge": {
-      "knows": [
-        "Aurora é apenas o nome da primeira luz; no núcleo do planeta dorme a Besta.",
-        "Só os Dekraazianos sabem ler o Olho de Domongo."
-      ],
-      "secrets": [
-        "Falsificou, por meio de Loen, a medição que levou os Dales ao asteroide.",
-        "Eliminou mais de dez irmãos de Eric."
-      ]
-    },
-    "destiny": {
-      "written": "Preso por um holograma de si mesmo, é rendido na Princesa do Inverno e lançado ao espaço com Jasmey, que o esfaqueia no peito."
-    },
     "sources": [
       "Capítulos 1–8, 10, 16–17, 19–22"
     ],
@@ -74,9 +42,8 @@ window.DI_BOOK.characters = [
     "slug": "amanda",
     "name": "Amanda",
     "subtitle": "Dale da Lebargan · amiga de Jasmey",
-    "summary": "Amiga íntima de Jasmey e irmã de Eric. Fica na Lebargan sob a ordem violenta de Jelles e acaba escolhendo ajudar a ruptura, enviando sinais de dentro da nave. Contesta a pressa de Jasmey por gerbe e jura vingança ao ver Eric morto.",
+    "summary": "Dale da Lebargan, amiga íntima de Jasmey e irmã de Eric.",
     "importance": "Principal",
-    "status": "Viva",
     "personality": [
       "Firme",
       "Irônica",
@@ -84,9 +51,6 @@ window.DI_BOOK.characters = [
       "Observadora"
     ],
     "voice": "Direta; usa ironia para marcar posição.",
-    "destiny": {
-      "written": "Foge com Genrir, ajuda a conter a Besta e termina o livro ao lado de Jasmey, vingança jurada contra Nastácia."
-    },
     "sources": [
       "Capítulos 1–5, 13, 16, 19–22"
     ],
@@ -96,17 +60,13 @@ window.DI_BOOK.characters = [
     "slug": "eric",
     "name": "Eric",
     "subtitle": "Irmão de Amanda",
-    "summary": "Dale sarcástico que sabe demais. Revela a Jasmey que Loen falsificou as medições, rouba o Olho de Domongo e um dispositivo que desativa braceletes e foge da Lebargan para oferecer o olho ao Mestre Estelar e resgatar Amanda.",
+    "summary": "Dale sarcástico da Lebargan e irmão de Amanda, sempre com mais informação do que deveria ter.",
     "importance": "Principal",
-    "status": "Morto (Cap. 22)",
     "personality": [
       "Sarcástico",
       "Rebelde",
       "Informado"
     ],
-    "destiny": {
-      "written": "Fica na câmara de retiro da Poderosa Desenir; mais tarde é degolado por Nastácia diante de Jasmey."
-    },
     "sources": [
       "Capítulos 2–3, 5–6, 15–22"
     ]
@@ -115,27 +75,14 @@ window.DI_BOOK.characters = [
     "slug": "hardman",
     "name": "Lias Hardman",
     "subtitle": "Engenheiro da Fera",
-    "summary": "Mecânico baixo e magro que constrói dispositivos às escondidas na Fera Sideral. Inventa o Temparalizador, comanda a fuga e a nave Princesa do Inverno. Gay, fiel aos luzitanos, sofreu a destruição de Kaséia pela névoa verde da Lebargan.",
+    "summary": "Engenheiro baixo e magro, mecânico habilidoso que constrói dispositivos às escondidas na Fera Sideral. Fiel aos luzitanos.",
     "importance": "Principal",
-    "status": "Vivo",
     "personality": [
       "Cauteloso",
       "Lógico",
       "Inventor",
       "Cético com a violência"
     ],
-    "knowledge": {
-      "knows": [
-        "Seu pai, engenheiro de Kaséia, esteve na Aurora."
-      ],
-      "secrets": [
-        "Mentiu a Jasmey ao dizer que conhecia a Aurora.",
-        "O planeta natal foi morto por um transformador molecular, a arma da Lebargan."
-      ]
-    },
-    "destiny": {
-      "written": "Escolhe ficar com Jasmey para tomar a Lebargan."
-    },
     "sources": [
       "Capítulos 10–22"
     ],
@@ -145,17 +92,13 @@ window.DI_BOOK.characters = [
     "slug": "kord",
     "name": "Kord",
     "subtitle": "Pirata de Sajir",
-    "summary": "Moreno, careca e forte por trabalho pesado, com um grande olho tatuado nas costas. Companheiro prestativo, entende a língua de sinais de Vivian e canta uma canção de Sajir. Quer mais gerbe do que o necessário.",
+    "summary": "Pirata de Sajir, moreno, careca e forte de trabalho pesado, com um grande olho tatuado nas costas. Prestativo, canta canções da terra natal.",
     "importance": "Principal",
-    "status": "Vivo",
     "personality": [
       "Severo",
       "Prestativo",
       "Cobiçoso"
     ],
-    "destiny": {
-      "written": "Resgata Jasmey do espaço e continua na tripulação."
-    },
     "sources": [
       "Capítulos 10–22"
     ]
@@ -164,9 +107,8 @@ window.DI_BOOK.characters = [
     "slug": "oreilly",
     "name": "O’reilly",
     "subtitle": "Pirata de Tangreia",
-    "summary": "Robusto, barba vistosa, cabelo loiro-escuro às vezes preso. Quer voltar a Tangreia e reencontrar a mãe. Fiel ao Divino Sacerdote, calorosa e leal.",
+    "summary": "Pirata de Tangreia, robusto, de barba vistosa e cabelo loiro-escuro. Caloroso, leal e fiel ao Divino Sacerdote.",
     "importance": "Principal",
-    "status": "Vivo",
     "personality": [
       "Afetuoso",
       "Religioso",
@@ -180,9 +122,8 @@ window.DI_BOOK.characters = [
     "slug": "buni",
     "name": "Buni",
     "subtitle": "Pirata corpulento",
-    "summary": "Tímido e corpulento, cachos curtos, cavanhaque e costeletas. Descobre o amor em Sumatram, enfrenta o tersário sem medo e dá abrigo à tripulação quando todos querem se separar.",
+    "summary": "Pirata tímido e corpulento, de cachos curtos, cavanhaque e costeletas. De bom coração, sente-se mais à vontade nas amizades do que nas brigas.",
     "importance": "Principal",
-    "status": "Vivo",
     "personality": [
       "Tímido",
       "Corajoso",
@@ -196,16 +137,12 @@ window.DI_BOOK.characters = [
     "slug": "vivian",
     "name": "Vivian",
     "subtitle": "Muda · Olho de Domongo",
-    "summary": "Jovem muda de feições juvenis, ruiva, comunica-se por gestos. Ao tocar o Olho de Domongo converte o código genético em luz e mostra o caminho da Aurora; também cura ferimentos pelo toque.",
+    "summary": "Jovem muda de feições juvenis e cabelos ruivos, que se comunica por gestos. Tem uma ligação misteriosa com o Olho de Domongo.",
     "importance": "Principal",
-    "status": "Viva",
     "personality": [
       "Reservada",
       "Sensível"
     ],
-    "destiny": {
-      "written": "Cura Jasmey e Genrir e segue com o grupo."
-    },
     "sources": [
       "Capítulos 11–22"
     ]
@@ -214,16 +151,12 @@ window.DI_BOOK.characters = [
     "slug": "vek",
     "name": "Vek",
     "subtitle": "Dale · amigo de Jasmey",
-    "summary": "Dale de cabelos curtos escuros e nariz grande, namorado de Saezi. A morte dela e a acusação a Jasmey rompem a amizade; abandona Jasmey no rio de metano e é imobilizado pela canção de Kord.",
+    "summary": "Dale de cabelos curtos escuros e nariz grande, amigo de Jasmey e namorado de Saezi.",
     "importance": "Principal",
-    "status": "Vivo",
     "personality": [
       "Leal ao grupo",
       "Ressentido"
     ],
-    "destiny": {
-      "written": "Substitui Nemes entre os nove e permanece na Lebargan."
-    },
     "sources": [
       "Capítulos 1–6, 13, 19–21"
     ]
@@ -232,16 +165,12 @@ window.DI_BOOK.characters = [
     "slug": "genrir",
     "name": "Genrir",
     "subtitle": "Dale caolho",
-    "summary": "Rival provocador a quem Jasmey arranca um olho no começo do livro. Fala bem de Jasmey às escondidas e depois se alia a ele e a Amanda contra Jelles.",
+    "summary": "Dale caolho e provocador, rival de Jasmey na Lebargan.",
     "importance": "Secundário",
-    "status": "Vivo",
     "personality": [
       "Provocador",
       "Irônico"
     ],
-    "destiny": {
-      "written": "Baleado e curado por Vivian."
-    },
     "sources": [
       "Capítulos 2, 4, 19, 21–22"
     ]
@@ -250,9 +179,8 @@ window.DI_BOOK.characters = [
     "slug": "sr-peron",
     "name": "Sr. Peron",
     "subtitle": "Mentor de Jasmey",
-    "summary": "Dale veterano que se despede de Jasmey e lhe dá um saco contendo o orbe com cópia da chave PR da Lebargan. Seu retiro, em que é lançado ao vácuo, revela o destino dos Dales aposentados.",
+    "summary": "Dale veterano, mentor de Jasmey, prestes a se aposentar.",
     "importance": "Secundário",
-    "status": "Morto no retiro (Cap. 3)",
     "personality": [
       "Experiente",
       "Paternal"
@@ -265,9 +193,8 @@ window.DI_BOOK.characters = [
     "slug": "nastacia",
     "name": "Capitã Nastácia",
     "subtitle": "Capitã da Lebargan",
-    "summary": "Capitã lendária, de uns cinquenta anos, com queimadura no lado direito do rosto e olho direito cego. Está em coma enquanto Jelles comanda, e reaparece no fim para retomar a Lebargan e degolar Eric.",
+    "summary": "Capitã lendária da Lebargan, com cerca de cinquenta anos, queimadura no lado direito do rosto e o olho direito cego.",
     "importance": "Antagonista",
-    "status": "Viva (Cap. 22)",
     "personality": [
       "Fria",
       "Indiferente"
@@ -280,9 +207,8 @@ window.DI_BOOK.characters = [
     "slug": "tzough",
     "name": "Tzough",
     "subtitle": "Capitão pirata da Fera Sideral",
-    "summary": "Capitão de perna de aço e lente vermelha, lê batimentos cardíacos. Admite ter feito o ataque que deixou Nastácia em coma. Aceita ouvir Jasmey e mantê-lo vivo por sua história.",
+    "summary": "Capitão da Fera Sideral, nave pirata imunda e enferrujada. Tem perna de aço e uma lente vermelha com que lê batimentos cardíacos.",
     "importance": "Antagonista",
-    "status": "Vivo",
     "personality": [
       "Cruel",
       "Calculista"
@@ -295,9 +221,8 @@ window.DI_BOOK.characters = [
     "slug": "alekta",
     "name": "Alekta",
     "subtitle": "Prisioneira da Fera",
-    "summary": "Diz ter sido prisioneira por três anos. Ajuda e trai Jasmey, entregando-o a Tzough; é expulsa da nave de fuga.",
+    "summary": "Prisioneira da Fera Sideral, que diz estar presa há três anos.",
     "importance": "Secundário",
-    "status": "Expulsa da nave de fuga (Cap. 12)",
     "personality": [
       "Oportunista"
     ],
@@ -309,9 +234,8 @@ window.DI_BOOK.characters = [
     "slug": "luna",
     "name": "Luna",
     "subtitle": "Contrabandista de Sumatram",
-    "summary": "Droga Jasmey com doce de necroriano e rouba a nave, a chave e a esperança do grupo em Sumatram.",
+    "summary": "Contrabandista de Sumatram, de sorriso fácil e língua afiada.",
     "importance": "Secundário",
-    "status": "Viva",
     "personality": [
       "Dissimulada"
     ],
@@ -323,9 +247,8 @@ window.DI_BOOK.characters = [
     "slug": "mestre-estelar",
     "name": "Mestre Estelar",
     "subtitle": "Mercador de Moldar",
-    "summary": "Lê o passado de quem entra em Moldar. Aceita dar a Princesa do Inverno em troca de metade do tesouro da Aurora.",
+    "summary": "Mercador de Moldar que lê o passado de quem entra na cidade.",
     "importance": "Secundário",
-    "status": "Vivo",
     "sources": [
       "Capítulos 15–16"
     ]
@@ -334,14 +257,8 @@ window.DI_BOOK.characters = [
     "slug": "engenheira",
     "name": "A Engenheira",
     "subtitle": "Cientista dekraaziana",
-    "summary": "Mulher de cabelos brancos e olhos roxos que diz viver há quase duas eras. Salva Jasmey, dá-lhe o braço de metal e confirma que o Olho de Domongo é um mapa genético para a Aurora.",
+    "summary": "Cientista dekraaziana de cabelos brancos e olhos roxos, que diz viver há quase duas eras. Vive num santuário de estudos no pântano de Dekraaz.",
     "importance": "Principal",
-    "status": "Viva",
-    "knowledge": {
-      "knows": [
-        "Há uma antivida além da sétima escala."
-      ]
-    },
     "sources": [
       "Capítulos 7, 16–17"
     ]
@@ -350,9 +267,8 @@ window.DI_BOOK.characters = [
     "slug": "samara",
     "name": "Samara",
     "subtitle": "Dale · um dos nove",
-    "summary": "Dale entre os nove que escolta Jasmey na Lebargan.",
+    "summary": "Dale da Lebargan, um dos nove escolhidos por Jelles.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 2, 5–6, 19"
     ]
@@ -361,9 +277,8 @@ window.DI_BOOK.characters = [
     "slug": "vlad",
     "name": "Vlad",
     "subtitle": "Dale mudo · um dos nove",
-    "summary": "Dale mudo, violento; derruba Jasmey e quase mata os rendidos na doca.",
+    "summary": "Dale mudo e violento, um dos nove da Lebargan.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 2, 5–6, 19"
     ]
@@ -372,9 +287,8 @@ window.DI_BOOK.characters = [
     "slug": "fender",
     "name": "Fender",
     "subtitle": "Dale · um dos nove",
-    "summary": "Dale entre os nove, morre na batalha com os dekraazianos.",
+    "summary": "Dale da Lebargan, um dos nove escolhidos por Jelles.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 2, 5–6"
     ]
@@ -383,9 +297,8 @@ window.DI_BOOK.characters = [
     "slug": "dock",
     "name": "Dock",
     "subtitle": "Dale ruivo",
-    "summary": "Novato inseguro e promissor; Jasmey o poupa e depois o enfrenta na Lebargan.",
+    "summary": "Dale ruivo, novato inseguro e promissor da Lebargan.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 3, 5, 20"
     ]
@@ -394,9 +307,8 @@ window.DI_BOOK.characters = [
     "slug": "klest",
     "name": "Klest",
     "subtitle": "Dale hostil a Jasmey",
-    "summary": "Dale que enfrenta Jasmey e transmite a hashtag #JasmeyVive.",
+    "summary": "Dale da Lebargan, hostil a Jasmey e ligado às transmissões da nave.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 5–6, 20"
     ]
@@ -405,9 +317,8 @@ window.DI_BOOK.characters = [
     "slug": "nosteratos",
     "name": "Nosteratos",
     "subtitle": "Capataz da Fera",
-    "summary": "Capataz que manda Jasmey carregar titânio.",
+    "summary": "Capataz da Fera Sideral, que coloca os prisioneiros para trabalhar.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 9–11"
     ]
@@ -416,9 +327,8 @@ window.DI_BOOK.characters = [
     "slug": "ederos",
     "name": "Ederos",
     "subtitle": "Prisioneiro da Fera",
-    "summary": "Prisioneiro que insulta Jasmey e Alekta.",
+    "summary": "Prisioneiro da Fera Sideral.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 9–10"
     ]
@@ -427,9 +337,8 @@ window.DI_BOOK.characters = [
     "slug": "leitham",
     "name": "Leitham",
     "subtitle": "Prisioneiro da Fera",
-    "summary": "Executado por Tzough durante a fuga.",
+    "summary": "Prisioneiro da Fera Sideral.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 11–12"
     ]
@@ -438,9 +347,8 @@ window.DI_BOOK.characters = [
     "slug": "kiran",
     "name": "Kiran",
     "subtitle": "Prisioneiro da Fera",
-    "summary": "Companheiro de Jasmey na cela; morre na luta contra o navio inimigo.",
+    "summary": "Prisioneiro da Fera Sideral e companheiro de cela.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 11"
     ]
@@ -449,9 +357,8 @@ window.DI_BOOK.characters = [
     "slug": "zekko",
     "name": "Zekko",
     "subtitle": "Vítima da Lebargan",
-    "summary": "Sobrevivente de um planeta destruído pelo gás da Lebargan.",
+    "summary": "Sobrevivente de um planeta atingido pelo gás da Lebargan.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 11"
     ]
@@ -460,9 +367,8 @@ window.DI_BOOK.characters = [
     "slug": "nemes",
     "name": "Nemes",
     "subtitle": "Dale dos nove",
-    "summary": "Substituído por Vek entre os nove; destino contraditório nas fontes.",
+    "summary": "Dale da Lebargan, um dos nove escolhidos por Jelles.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 2, 4"
     ]
@@ -471,9 +377,8 @@ window.DI_BOOK.characters = [
     "slug": "saezi",
     "name": "Saezi",
     "subtitle": "Dale · namorada de Vek",
-    "summary": "Morre no asteroide de benzeno.",
+    "summary": "Dale da Lebargan e namorada de Vek.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 2, 4"
     ]
@@ -482,9 +387,8 @@ window.DI_BOOK.characters = [
     "slug": "boriges",
     "name": "Boriges",
     "subtitle": "Espadachim",
-    "summary": "Espadachim que treina esgrima com Jasmey.",
+    "summary": "Espadachim da Lebargan que treina esgrima com Jasmey.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 3"
     ]
@@ -493,9 +397,8 @@ window.DI_BOOK.characters = [
     "slug": "loen",
     "name": "Loen",
     "subtitle": "Analista de geoquímica",
-    "summary": "Coagido a falsificar medições; enviado ao retiro.",
+    "summary": "Analista de geoquímica da Lebargan, responsável pelas medições de gerbe.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 5"
     ]
@@ -504,9 +407,8 @@ window.DI_BOOK.characters = [
     "slug": "quinn",
     "name": "Quinn",
     "subtitle": "Canibal do bar Sem-cabeça",
-    "summary": "Aposta corações em jogo; morto por Hardman.",
+    "summary": "Canibal do bar Sem-cabeça, em Sumatram, que aposta corações em jogo.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 14"
     ]
@@ -515,9 +417,8 @@ window.DI_BOOK.characters = [
     "slug": "madame",
     "name": "Madame",
     "subtitle": "Dona do bordel de Geores",
-    "summary": "Hospeda Buni em Sumatram.",
+    "summary": "Dona do bordel de Geores, em Sumatram.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 13"
     ]
@@ -526,9 +427,8 @@ window.DI_BOOK.characters = [
     "slug": "unidale",
     "name": "Unidale",
     "subtitle": "Dale transmissor",
-    "summary": "Transmite o #JasmeyVive com Klest.",
+    "summary": "Dale que transmite imagens e mensagens da Lebargan.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 20"
     ]
@@ -537,9 +437,8 @@ window.DI_BOOK.characters = [
     "slug": "tersario",
     "name": "Tersário",
     "subtitle": "Criatura da nebulosa",
-    "summary": "Come matéria orgânica e é congelado em criogenia como oitavo passageiro.",
+    "summary": "Criatura que vive em meteoros quentes e se alimenta de matéria orgânica.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 18"
     ]
@@ -548,9 +447,8 @@ window.DI_BOOK.characters = [
     "slug": "als-keb",
     "name": "Als-keb",
     "subtitle": "Criança dekraaziana",
-    "summary": "Menino que recebe o colar de ouro de Jasmey e aparece carbonizado.",
+    "summary": "Criança dekraaziana.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 5"
     ]
@@ -559,9 +457,8 @@ window.DI_BOOK.characters = [
     "slug": "onomar",
     "name": "Onomar",
     "subtitle": "Dale dos nove",
-    "summary": "Um dos nove da Lebargan.",
+    "summary": "Dale da Lebargan, um dos nove escolhidos por Jelles.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulos 5–6"
     ]
@@ -570,9 +467,8 @@ window.DI_BOOK.characters = [
     "slug": "cestillo",
     "name": "Cestillo",
     "subtitle": "Dale dos nove",
-    "summary": "Um dos nove da Lebargan.",
+    "summary": "Dale da Lebargan, um dos nove escolhidos por Jelles.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 5"
     ]
@@ -581,9 +477,8 @@ window.DI_BOOK.characters = [
     "slug": "hella",
     "name": "Hella",
     "subtitle": "Dale",
-    "summary": "Morre no asteroide.",
+    "summary": "Dale da Lebargan.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 4"
     ]
@@ -592,9 +487,8 @@ window.DI_BOOK.characters = [
     "slug": "denio",
     "name": "Denio",
     "subtitle": "Dale",
-    "summary": "Morre no asteroide.",
+    "summary": "Dale da Lebargan.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 4"
     ]
@@ -603,9 +497,8 @@ window.DI_BOOK.characters = [
     "slug": "chesi",
     "name": "Chesi",
     "subtitle": "Dale",
-    "summary": "Morre no asteroide.",
+    "summary": "Dale da Lebargan.",
     "importance": "Apoio",
-    "status": "Registrado",
     "sources": [
       "Capítulo 4"
     ]
@@ -614,9 +507,8 @@ window.DI_BOOK.characters = [
     "slug": "dekraazianos",
     "name": "Dekraazianos",
     "subtitle": "Povo de Dekraaz",
-    "summary": "Povo reservado, tecnologicamente e biologicamente avançado, que usa armas sonoras e é o único capaz de ler o Olho de Domongo. Jelles manda executar uma aldeia inteira.",
+    "summary": "Povo reservado de Dekraaz, tecnológica e biologicamente avançado, que usa armas sonoras. Só ele consegue ler o Olho de Domongo.",
     "importance": "Apoio",
-    "status": "Povo",
     "sources": [
       "Capítulo 7"
     ]
@@ -625,9 +517,8 @@ window.DI_BOOK.characters = [
     "slug": "tatch",
     "name": "Tatch",
     "subtitle": "Pirata rival de Tzough",
-    "summary": "Pirata de nave negra que Tzough diz ter encontrado pela última vez perto da Garganta do Diabo.",
+    "summary": "Pirata de nave negra, rival de Tzough.",
     "importance": "Apoio",
-    "status": "—",
     "sources": [
       "Capítulo 10"
     ]
@@ -636,9 +527,8 @@ window.DI_BOOK.characters = [
     "slug": "kove",
     "name": "Kove",
     "subtitle": "Dale",
-    "summary": "Dale citado nos capítulos da Fera Sideral.",
+    "summary": "Dale da Lebargan.",
     "importance": "Apoio",
-    "status": "—",
     "sources": [
       "Capítulos 8–9"
     ]
@@ -647,9 +537,8 @@ window.DI_BOOK.characters = [
     "slug": "javes",
     "name": "Javes",
     "subtitle": "Responsável pelos retiros",
-    "summary": "Cuida dos retiros com Eric, segundo o canon.",
+    "summary": "Responsável pelos retiros dos Dales aposentados.",
     "importance": "Apoio",
-    "status": "—",
     "sources": [
       "Capítulo 3"
     ]
@@ -658,9 +547,8 @@ window.DI_BOOK.characters = [
     "slug": "belice",
     "name": "Belice",
     "subtitle": "Dale",
-    "summary": "Dale citada na missão ao planeta de tempestades.",
+    "summary": "Dale da Lebargan.",
     "importance": "Apoio",
-    "status": "—",
     "sources": [
       "Capítulo 5"
     ]
@@ -669,9 +557,8 @@ window.DI_BOOK.characters = [
     "slug": "caly",
     "name": "Caly",
     "subtitle": "Criatura de duas cabeças",
-    "summary": "Criatura que informa o grupo em Moldar.",
+    "summary": "Criatura de duas cabeças que vive em Moldar.",
     "importance": "Apoio",
-    "status": "—",
     "sources": [
       "Capítulo 15"
     ]
@@ -680,12 +567,8 @@ window.DI_BOOK.characters = [
     "slug": "besta",
     "name": "A Besta",
     "subtitle": "Trevas que anulam a vida",
-    "summary": "Entidade de trevas que anula a vida, adormecida no núcleo da Aurora. Os luzitanos, primeiros seres inteligentes, a impediram um dia; Hardman diz que luz e Besta voltarão a se encontrar. Jelles revela que \"Aurora\" é só o nome simbólico da primeira luz e que pretende comandar a Besta para fazer da Lebargan a maior arma da galáxia; a extração de gerbe a desperta.",
+    "summary": "Entidade das trevas ligada a lendas antigas e à Aurora. Os luzitanos, primeiros seres inteligentes, são conhecidos por tê-la impedido.",
     "importance": "Principal",
-    "status": "Adormecida no núcleo da Aurora",
-    "destiny": {
-      "written": "Despertada pela extração de gerbe na Aurora, que abre um buraco negro."
-    },
     "sources": [
       "Capítulos 13, 20–21"
     ]
@@ -694,9 +577,8 @@ window.DI_BOOK.characters = [
     "slug": "domongo",
     "name": "Domongo",
     "subtitle": "Criatura das alturas petrificadas",
-    "summary": "Criatura temida que habita as alturas petrificadas e devora os Laios. Seu olho, mapa genético para a Aurora, é o objeto que Jasmey recupera em Dekraaz e que depois guia a rota da Fera Sideral.",
+    "summary": "Criatura temida que habita as alturas petrificadas e se alimenta dos Laios. Seu olho é um objeto cobiçado.",
     "importance": "Apoio",
-    "status": "Citado; nunca visto",
     "sources": [
       "Capítulos 1–2, 6–7, 16, 19–20"
     ]
@@ -705,9 +587,8 @@ window.DI_BOOK.characters = [
     "slug": "cardical",
     "name": "Cardiçal",
     "subtitle": "Criatura de transporte de Moldar",
-    "summary": "Criatura viva, de pelo quente e patas maciças, usada como transporte no deserto entre Sumatram e Moldar. Leva passageiros presos por cintos sob uma concha de aço contra as tempestades térmicas.",
+    "summary": "Criatura viva, de pelo quente e patas maciças, usada como transporte no deserto entre Sumatram e Moldar.",
     "importance": "Apoio",
-    "status": "Vivo",
     "sources": [
       "Capítulos 14–15"
     ]

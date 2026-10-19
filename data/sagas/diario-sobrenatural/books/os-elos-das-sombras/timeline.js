@@ -4,7 +4,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "2002 · início",
     "title": "Os Fontenelle chegam a Vila Velha",
-    "summary": "Junior vê novos moradores chegarem à casa ao lado; Priscila odeia a mudança, e Kelly é apresentada à turma em francês.",
+    "summary": "Uma família nova se muda para a Rua dos Afogados, ao lado da casa abandonada.",
     "chapters": [
       1,
       2,
@@ -13,8 +13,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Primeiros dias",
-    "title": "O Bicho Preto se manifesta",
-    "summary": "Junior sente frio e cheiro de carne podre em casa; Kelly é atacada por pássaros; Jennifer desenha o pesadelo de infância na aula de Artes.",
+    "title": "Algo ronda a cidade",
+    "summary": "Junior e Jennifer começam a perceber coisas estranhas.",
     "chapters": [
       1,
       4,
@@ -24,8 +24,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Quarta-feira",
-    "title": "Priscila entra na casa abandonada",
-    "summary": "Priscila vê Pézinho ensanguentado e é apagada pelo velho; acorda na casa dele e de Alex, quase dezessete horas depois.",
+    "title": "Curiosidade pela casa",
+    "summary": "A casa abandonada atrai quem não deveria.",
     "chapters": [
       8,
       14
@@ -33,8 +33,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Semana seguinte",
-    "title": "Pézinho morre e Vini é acusado",
-    "summary": "Vini acorda no Hospital das Lajes sem memória, é acusado por Karen, foge, apanha dos homens do Mandioca e é salvo por Alan com o laudo do legista.",
+    "title": "Problemas no beco",
+    "summary": "Tensão e rumores tomam o beco.",
     "chapters": [
       11,
       17
@@ -42,8 +42,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Noite de quarta",
-    "title": "Resgate de Kelly na floresta",
-    "summary": "Junior e Pedro encontram Kelly presa na gruta; a fazenda do velho, os bois e o lobisomem.",
+    "title": "Uma noite na floresta",
+    "summary": "O grupo vai à floresta em busca de uma amiga.",
     "chapters": [
       10,
       13
@@ -51,8 +51,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Dias seguintes",
-    "title": "Morte de Mônica",
-    "summary": "Depois de um pesadelo, Jennifer acorda no hospital; a mãe, em morte cerebral, sofre um infarto.",
+    "title": "Dias difíceis",
+    "summary": "A vida em Vila Velha segue, com perdas e dúvidas.",
     "chapters": [
       12,
       18
@@ -60,8 +60,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Sábado",
-    "title": "O grupo conhece Suéten",
-    "summary": "Junior, Kelly e Pedro entram na casa e descobrem que cada membro da família é um sentido usado para achar vítimas.",
+    "title": "Um guia dentro da casa",
+    "summary": "O grupo encontra um guia na casa abandonada.",
     "chapters": [
       20
     ]
@@ -69,7 +69,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Domingo e segunda",
     "title": "Maria Marques e a fazenda dos gatos",
-    "summary": "Com Jennifer, o grupo visita Cibele e Maria Marques, que é ferida pelos gatos e morre atropelada na estrada.",
+    "summary": "O grupo busca respostas sobre o passado da casa.",
     "chapters": [
       21,
       22
@@ -77,8 +77,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Semana do baile",
-    "title": "Vini perde o pai",
-    "summary": "Alan morre rolando a escada depois da briga entre Vini e Ana Lívia; Priscila vê Vini com Vitória.",
+    "title": "Antes do baile",
+    "summary": "A cidade se prepara para o baile enquanto os problemas se acumulam.",
     "chapters": [
       23,
       26,
@@ -87,8 +87,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Terça",
-    "title": "Jennifer na casa abandonada",
-    "summary": "Jennifer tem uma visão de Vini degolado, corre à casa, encontra o álbum, o esqueleto e Pézinho.",
+    "title": "Jennifer volta à casa",
+    "summary": "Jennifer decide encarar a casa abandonada.",
     "chapters": [
       24
     ]
@@ -96,7 +96,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Quarta à noite",
     "title": "Baile dos anos 80",
-    "summary": "Kelly leva Junior ao lago; o Agouro recusa a alma, e Junior ouve tudo.",
+    "summary": "O baile reúne toda a turma na quadra da escola.",
     "chapters": [
       25,
       27
@@ -104,8 +104,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Depois do baile",
-    "title": "Os Elos são descobertos",
-    "summary": "Jennifer fala com Luiza Salomandra na cabana de neve; Kelly confessa o pacto com Ingrid.",
+    "title": "O que a casa esconde",
+    "summary": "O grupo começa a entender o que prende a casa.",
     "chapters": [
       29,
       31
@@ -113,8 +113,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Quinta e sexta",
-    "title": "Kelly fica no lugar de Priscila",
-    "summary": "Ingrid e Suéten jogam o grupo para fora da casa; Kelly troca de lugar com a irmã.",
+    "title": "Dias decisivos",
+    "summary": "Os acontecimentos aceleram.",
     "chapters": [
       32,
       33
@@ -122,8 +122,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Sexta à noite",
-    "title": "A noite do Agouro",
-    "summary": "Vini, Priscila, Jennifer, Junior e Pedro atravessam o córrego e destroem os Elos; Junior atira em Kelly e o Agouro é destruído.",
+    "title": "A noite decisiva",
+    "summary": "Tudo converge na casa abandonada.",
     "chapters": [
       34,
       35,
@@ -133,8 +133,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Depois",
-    "title": "Despedidas e os diários",
-    "summary": "Vini assume o tiro, Priscila sai de casa e Jennifer entrega os diários a Junior.",
+    "title": "Depois da noite",
+    "summary": "Os personagens lidam com o que viveram.",
     "chapters": [
       37,
       38

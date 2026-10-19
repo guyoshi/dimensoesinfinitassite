@@ -7,7 +7,7 @@ window.DI_BOOK.places = [
     "subtitle": "Nave-cidade dos Dales",
     "type": "Nave-cidade dos Dales",
     "region": "Espaço Dale",
-    "summary": "Amálgama de dezenas de naves e lar de Jasmey. Os Dales vivem sob o Código, comandados por Jelles e pelos nove; abriga a Torre de Belzetar, a Poderosa Desenir, a Ala 66, o Salão Central, a doca e o arsenal.",
+    "summary": "Nave-cidade formada por dezenas de naves unidas e lar dos Dales, que vivem sob o Código. Reúne torres, alas, salão central, doca e arsenal.",
     "sources": [
       "Capítulos 1–5, 10–12, 16–17, 19–22"
     ]
@@ -18,7 +18,7 @@ window.DI_BOOK.places = [
     "subtitle": "Planeta de gerbe",
     "type": "Planeta de gerbe",
     "region": "Concentração máxima de gerbe da galáxia",
-    "summary": "Planeta metálico de cores mutáveis que gira em torno de uma anã branca. Todo ele é de gerbe, o mineral mais valioso; sob o nome simbólico de \"primeira luz\", seu núcleo guarda a Besta. A extração a desperta e cria um buraco negro.",
+    "summary": "Planeta metálico de cores mutáveis que gira em torno de uma anã branca. É a maior concentração de gerbe, o mineral mais valioso da galáxia.",
     "sources": [
       "Capítulos 7, 10–11, 15–17, 19–22"
     ]
@@ -29,7 +29,7 @@ window.DI_BOOK.places = [
     "subtitle": "Planeta dekraaziano",
     "type": "Planeta dekraaziano",
     "region": "Braço Menor da galáxia",
-    "summary": "Mundo de névoa, desertos e rios de metano onde Jasmey perde o braço, é salvo pela Engenheira e sobrevive sozinho antes de ser capturado pelos piratas.",
+    "summary": "Mundo de névoa, desertos e rios de metano, no Braço Menor da galáxia, habitado pelo povo dekraaziano.",
     "sources": [
       "Capítulos 2, 5–8"
     ]
@@ -40,7 +40,7 @@ window.DI_BOOK.places = [
     "subtitle": "Aldeia",
     "type": "Aldeia",
     "region": "Dekraaz",
-    "summary": "Aldeia que Jasmey poupa e que Jelles manda incendiar. O povo da montanha, que poderia decifrar o olho, vive nas proximidades.",
+    "summary": "Aldeia dekraaziana nas proximidades da montanha, onde vive o povo que poderia decifrar o olho.",
     "sources": [
       "Capítulos 5–6"
     ]
@@ -51,7 +51,7 @@ window.DI_BOOK.places = [
     "subtitle": "Rio",
     "type": "Rio",
     "region": "Dekraaz",
-    "summary": "Onde Jasmey é lançado com o braço decepado, e do qual a Engenheira o resgata.",
+    "summary": "Rio de metano que corta o deserto de Dekraaz.",
     "sources": [
       "Capítulos 6–7"
     ]
@@ -62,7 +62,7 @@ window.DI_BOOK.places = [
     "subtitle": "Santuário de estudos",
     "type": "Santuário de estudos",
     "region": "Pântano de Dekraaz",
-    "summary": "Onde Jasmey conhece a Engenheira, ajuda a reviver um úrgalo e recebe armas.",
+    "summary": "Santuário de estudos escondido no pântano de Dekraaz, lar da Engenheira.",
     "sources": [
       "Capítulo 7"
     ]
@@ -73,7 +73,7 @@ window.DI_BOOK.places = [
     "subtitle": "Nave pirata",
     "type": "Nave pirata",
     "region": "Espaço pirata",
-    "summary": "Nave de Tzough, imunda e enferrujada, com torres de vigia, vela solar negra e animais acorrentados que movem engrenagens. Piratas torturam e trabalham sob chicote.",
+    "summary": "Nave pirata imunda e enferrujada, com torres de vigia, vela solar negra e animais acorrentados que movem engrenagens.",
     "sources": [
       "Capítulos 8–12"
     ]
@@ -84,7 +84,7 @@ window.DI_BOOK.places = [
     "subtitle": "Nexo ilegal da galáxia",
     "type": "Nexo ilegal da galáxia",
     "region": "Rota entre Dekraaz e Moldar",
-    "summary": "Planeta de comércio e crime onde o grupo reabastece, é enganado por Luna e viaja de cardiçal pelo deserto até Moldar.",
+    "summary": "Planeta de comércio e crime, nexo ilegal da galáxia, no caminho entre Dekraaz e Moldar.",
     "sources": [
       "Capítulos 12–15"
     ]
@@ -95,7 +95,7 @@ window.DI_BOOK.places = [
     "subtitle": "Bairro de Sumatram",
     "type": "Bairro de Sumatram",
     "region": "Sumatram",
-    "summary": "Zona de bordéis onde Buni passa a noite com Madame e quase é morto pelos donos.",
+    "summary": "Bairro de Sumatram conhecido por seus bordéis.",
     "sources": [
       "Capítulos 13–14"
     ]
@@ -106,7 +106,7 @@ window.DI_BOOK.places = [
     "subtitle": "Bar",
     "type": "Bar",
     "region": "Sumatram",
-    "summary": "Onde Quinn aposta corações; termina em briga e incêndio.",
+    "summary": "Bar de Sumatram frequentado por criminosos e jogadores, onde se aposta de tudo.",
     "sources": [
       "Capítulo 14"
     ]
@@ -117,7 +117,7 @@ window.DI_BOOK.places = [
     "subtitle": "Templo",
     "type": "Templo",
     "region": "Sumatram",
-    "summary": "Onde Hardman fala da fé nos luzitanos, primeiros seres inteligentes, que impediram a Besta.",
+    "summary": "Templo de Sumatram dedicado aos luzitanos, tidos como os primeiros seres inteligentes.",
     "sources": [
       "Capítulo 13"
     ]
@@ -128,7 +128,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cidade comercial",
     "type": "Cidade comercial",
     "region": "Sumatram",
-    "summary": "Cidade protegida pela Justa-Elétrica contra roubos, onde o grupo é preso e obtém a nave Princesa do Inverno.",
+    "summary": "Cidade comercial no deserto, um dos maiores centros de eletrônicos da galáxia, protegida por um sistema elétrico contra roubos.",
     "sources": [
       "Capítulos 14–16"
     ]
@@ -139,7 +139,7 @@ window.DI_BOOK.places = [
     "subtitle": "Dojô de lutas",
     "type": "Dojô de lutas",
     "region": "Moldar",
-    "summary": "Arena de lutas de máquinas conscientes onde Jasmey provoca a briga que o leva ao Mestre Estelar.",
+    "summary": "Dojô e arena de lutas de Moldar, onde máquinas conscientes se enfrentam.",
     "sources": [
       "Capítulo 15"
     ]
@@ -150,7 +150,7 @@ window.DI_BOOK.places = [
     "subtitle": "Hospedagem",
     "type": "Hospedagem",
     "region": "Moldar",
-    "summary": "Onde Eric reencontra Jasmey e Vivian ativa o Olho de Domongo.",
+    "summary": "Hospedagem de Moldar.",
     "sources": [
       "Capítulos 15–16"
     ]
@@ -161,7 +161,7 @@ window.DI_BOOK.places = [
     "subtitle": "Nave",
     "type": "Nave",
     "region": "Espaço",
-    "summary": "Nave dada pelo Mestre Estelar em troca de metade do tesouro. Leva o grupo à Aurora, passa por uma magnetar e atravessa a nebulosa escura.",
+    "summary": "Nave obtida em Moldar, capaz de longas viagens pelo espaço.",
     "sources": [
       "Capítulos 17–19, 22"
     ]
@@ -172,7 +172,7 @@ window.DI_BOOK.places = [
     "subtitle": "Nebulosa",
     "type": "Nebulosa",
     "region": "Caminho da Aurora",
-    "summary": "Nebulosa onde os motores de dobra falham e o tersário ataca a nave.",
+    "summary": "Nebulosa no caminho da Aurora, onde os motores de dobra falham.",
     "sources": [
       "Capítulos 17–18"
     ]
@@ -183,7 +183,7 @@ window.DI_BOOK.places = [
     "subtitle": "Nave dos Dales",
     "type": "Nave dos Dales",
     "region": "Frota da Lebargan",
-    "summary": "Nave dos Dales que Jasmey bate contra a torre de Belzetar para libertar a Princesa do Inverno.",
+    "summary": "Nave dos Dales, parte da frota da Lebargan.",
     "sources": [
       "Capítulos 4–5"
     ]
@@ -194,7 +194,7 @@ window.DI_BOOK.places = [
     "subtitle": "Torre de comando",
     "type": "Torre de comando",
     "region": "Lebargan",
-    "summary": "Onde Jelles guarda a chave PR e nomeia Jasmey seu sucessor; o escudo da torre prende a Princesa do Inverno.",
+    "summary": "Torre de comando da Lebargan, onde o capitão guarda a chave PR.",
     "sources": [
       "Capítulos 3, 21"
     ]
@@ -205,7 +205,7 @@ window.DI_BOOK.places = [
     "subtitle": "Nave da Lebargan",
     "type": "Nave da Lebargan",
     "region": "Lebargan",
-    "summary": "Nave onde ocorre o retiro dos Dales aposentados, incluindo Peron, lançados ao vácuo.",
+    "summary": "Uma das naves que formam a Lebargan, usada nos retiros dos Dales aposentados.",
     "sources": [
       "Capítulos 3, 21"
     ]
@@ -216,7 +216,7 @@ window.DI_BOOK.places = [
     "subtitle": "Ala de confinamento",
     "type": "Ala de confinamento",
     "region": "Lebargan",
-    "summary": "Onde os novatos vivem isolados até a ingressão; só então recebem o bracelete.",
+    "summary": "Ala de confinamento da Lebargan, onde os novatos vivem isolados até a ingressão.",
     "sources": [
       "Capítulo 3"
     ]
@@ -227,7 +227,7 @@ window.DI_BOOK.places = [
     "subtitle": "Salão",
     "type": "Salão",
     "region": "Lebargan",
-    "summary": "Onde Jelles faz o discurso de honra pelos Dales mortos no asteroide.",
+    "summary": "Grande salão da Lebargan onde o capitão fala à tripulação.",
     "sources": [
       "Capítulo 4"
     ]
@@ -238,7 +238,7 @@ window.DI_BOOK.places = [
     "subtitle": "Nave de missão",
     "type": "Nave de missão",
     "region": "Lebargan",
-    "summary": "Nave do asteroide de benzeno, que explode no fim da missão.",
+    "summary": "Nave da Lebargan usada na missão do asteroide de benzeno.",
     "sources": [
       "Capítulo 4"
     ]
@@ -249,7 +249,7 @@ window.DI_BOOK.places = [
     "subtitle": "Doca",
     "type": "Doca",
     "region": "Lebargan",
-    "summary": "Onde a Princesa do Inverno é trazida e Jelles arma o cerco.",
+    "summary": "Doca principal da Lebargan.",
     "sources": [
       "Capítulo 20"
     ]
@@ -271,7 +271,7 @@ window.DI_BOOK.places = [
     "subtitle": "Planeta destruído",
     "type": "Planeta destruído",
     "region": "—",
-    "summary": "Planeta natal de Hardman, morto por uma névoa verde, que Jasmey reconhece como arma da Lebargan.",
+    "summary": "Planeta natal de Hardman.",
     "sources": [
       "Capítulo 17"
     ]
@@ -282,7 +282,7 @@ window.DI_BOOK.places = [
     "subtitle": "Planeta",
     "type": "Planeta",
     "region": "—",
-    "summary": "Onde O’reilly passa a infância.",
+    "summary": "Planeta onde O’reilly passa a infância.",
     "sources": [
       "Capítulo 17"
     ]
@@ -293,7 +293,7 @@ window.DI_BOOK.places = [
     "subtitle": "Planeta",
     "type": "Planeta",
     "region": "—",
-    "summary": "Lar de O’reilly e de sua mãe, que ele quer rever.",
+    "summary": "Planeta natal de O’reilly e de sua mãe.",
     "sources": [
       "Capítulo 11"
     ]
@@ -304,7 +304,7 @@ window.DI_BOOK.places = [
     "subtitle": "Planeta",
     "type": "Planeta",
     "region": "—",
-    "summary": "Mundo de Kord, cuja canção ele canta durante a viagem.",
+    "summary": "Planeta natal de Kord.",
     "sources": [
       "Capítulo 11"
     ]
@@ -315,7 +315,7 @@ window.DI_BOOK.places = [
     "subtitle": "Buraco negro",
     "type": "Buraco negro",
     "region": "Espaço pirata",
-    "summary": "Buraco negro com disco de acreção onde Tzough e Tatch travam o último duelo.",
+    "summary": "Buraco negro com disco de acreção, no espaço pirata.",
     "sources": [
       "Capítulo 10"
     ]
