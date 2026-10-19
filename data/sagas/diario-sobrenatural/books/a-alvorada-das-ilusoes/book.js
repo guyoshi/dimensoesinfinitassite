@@ -18,8 +18,7 @@ window.DI_BOOK = Object.assign(window.DI_BOOK || {}, { saga: window.DI_SAGA }, {
     {
       "group": "Visão geral",
       "items": [
-        "inicio",
-        "livros"
+        "inicio"
       ]
     },
     {
