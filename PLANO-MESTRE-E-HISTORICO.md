@@ -2562,3 +2562,13 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - O leitor pode compartilhar uma avaliação individual e, ao final do livro, exportar todas as respostas daquele navegador em um único JSON.
 - O módulo compartilhado foi criado em `app/shared/beta-feedback/` para poder ser reutilizado nos demais livros.
 - Esta primeira versão não envia dados para uma base central; o armazenamento é local e a entrega ao autor ocorre por compartilhamento/exportação.
+
+## Atualização pontual — 19/10/2026 — novos sites: Spacetheft 1, Viajantes Dimensionais 1 e Diário Sobrenatural 1 e 2 (etapa 3: construção)
+
+- Sagas **Spacetheft**, **Viajantes Dimensionais** e **Diário Sobrenatural** liberadas no portal (`index.html`); a saga **Édelin Lys** substitui o nome antigo "Crônicas de Belfex" (permanece bloqueada). Rota nova `#/saga/<id>`; `#/books` segue sendo Ciclo de Jesed.
+- Livros abertos: *A Lenda da Aurora* (`a-lenda-da-aurora.html`), *A Patrulha de Korvo* (`a-patrulha-de-korvo.html`, título definido; a arte da capa ainda diz "A Ascensão de Korvo"), *Os Elos das Sombras* (`os-elos-das-sombras.html`) e *A Alvorada das Ilusões* (`a-alvorada-das-ilusoes.html`, em desenvolvimento). Demais volumes das três sagas aparecem como "Em preparação", no padrão do Livro 5 de Ciclo de Jesed.
+- Motor único novo e enxuto em `app/shared/book-engine/` (`engine.js`, `engine.css`, `fx.js`); temas e efeitos em `app/sagas/<saga>/books/<livro>/theme.css`; dados em `data/sagas/<saga>/saga.js` e `data/sagas/<saga>/books/<livro>/` (`book.js`, `chapters.js`, `characters.js`, `places.js`, `timeline.js`, `gallery.js`, `images.js`). Registro das sagas em `data/common/sagas-registry.json`. Detalhes em `docs/NOVOS-SITES-ETAPA-3-CONSTRUCAO.md`.
+- Guias: Spacetheft e Diário — Início, Livros, Capítulos, Linha do Tempo, Personagens, Lugares, Galeria; Viajantes — os mesmos mais Mapa.
+- Conteúdo carregado: títulos e narradores dos capítulos (ST 22, VD 23, DS1 38, DS2 29 com 26 e 28 como rascunho; 30 e 31 vazios ficam fora). Capas e logos brancos em WebP.
+- Pendente: etapa 4 (resumos, personagens, lugares, linha do tempo, imagens) e etapa 5 (sincronização automática de capas, imagens de capítulos, personagens e lugares via `sync_book_assets.py`). Rodar `PUBLICAR_IMAGENS.cmd` reconcilia manifesto e inventário com as capas/logos novos.
+- Nenhuma alteração de cânone nem de IDs dos livros de Ciclo de Jesed. Versão do pacote não alterada.

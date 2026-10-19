@@ -11,13 +11,13 @@ window.PORTAL_DATA = {
     {
       "id": "diario-sobrenatural",
       "name": "Diário Sobrenatural",
-      "status": "locked",
+      "status": "active",
       "theme": "Diário oculto",
       "symbol": "journal"
     },
     {
-      "id": "cronicas-de-belfex",
-      "name": "Crônicas de Belfex",
+      "id": "edelin-lys",
+      "name": "Édelin Lys",
       "status": "locked",
       "theme": "Crônica dimensional",
       "symbol": "crown"
@@ -25,14 +25,14 @@ window.PORTAL_DATA = {
     {
       "id": "spacetheft",
       "name": "Spacetheft",
-      "status": "locked",
+      "status": "active",
       "theme": "Carta estelar",
       "symbol": "stars"
     },
     {
       "id": "viajantes-dimensionais",
       "name": "Viajantes Dimensionais",
-      "status": "locked",
+      "status": "active",
       "theme": "Portais e fracturas",
       "symbol": "portal"
     },

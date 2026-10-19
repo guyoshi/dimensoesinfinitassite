@@ -1,0 +1,39 @@
+/* Spacetheft 1 — Carta estelar */
+:root{
+  --bg:#090521;--ink:#f3ecff;--mute:#a9a0d8;--acc:#d23fa5;--gold:#e9b44c;--ember:#ff8a2a;
+  --side:linear-gradient(180deg,#140a52 0%,#0a0530 100%);--side-line:rgba(233,180,76,.25);--sec:#8f84d6;
+  --card-bg:rgba(26,15,92,.58);--card-ink:#f3ecff;--card-mute:#b4abe0;--card-line:rgba(233,180,76,.38);--card-head:var(--gold);
+  --card-shadow:0 8px 30px rgba(0,0,0,.35),inset 0 0 0 1px rgba(255,255,255,.03);
+  --pill-bg:rgba(255,255,255,.06);--pill-line:rgba(233,180,76,.3);
+  --btn-line:rgba(233,180,76,.45);--btn-p-bg:linear-gradient(180deg,#e0489f,#a8246f);--btn-p-line:#ff9bd2;
+  --nav-active-bg:linear-gradient(90deg,rgba(210,63,165,.35),rgba(210,63,165,.05));--nav-active-bar:var(--gold);
+  --hero-line:rgba(233,180,76,.38);--head-case:uppercase;--head-track:.04em;--head-weight:800;
+}
+body{background:radial-gradient(1200px 700px at 78% -10%,#3b1aa0 0%,transparent 60%),radial-gradient(900px 600px at 10% 110%,#7a1e7f 0%,transparent 55%),#090521}
+.sigil{color:var(--gold);border:1px solid var(--gold);box-shadow:0 0 14px rgba(233,180,76,.35)}
+.panel,.card,.book,.chcard,.ecard{backdrop-filter:blur(6px)}
+.hero-bg{filter:saturate(1.2) brightness(.55)}
+.hero-shade{background:linear-gradient(90deg,rgba(9,5,33,.94) 0%,rgba(9,5,33,.72) 48%,rgba(9,5,33,.1) 100%)}
+.coverwrap{box-shadow:0 0 0 2px var(--gold),0 0 40px rgba(210,63,165,.55),0 20px 50px rgba(0,0,0,.6)}
+.chip{background:rgba(233,180,76,.15);color:var(--gold);border:1px solid rgba(233,180,76,.4)}
+.tl:before{background:linear-gradient(var(--gold),var(--acc))}.tl-item:before{background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.fchip.on{background:var(--gold)}
+
+/* efeitos */
+.fx-nebula{background:radial-gradient(600px 420px at 18% 30%,rgba(210,63,165,.16),transparent 70%),radial-gradient(700px 480px at 85% 70%,rgba(80,60,255,.18),transparent 70%);animation:neb 38s ease-in-out infinite alternate}
+@keyframes neb{to{transform:translate3d(-3%,2%,0) scale(1.06)}}
+.fx-vortex{position:absolute;right:-120px;top:-170px;width:620px;height:620px;border-radius:50%;overflow:hidden;
+ background:conic-gradient(from 20deg,transparent 0 20%,rgba(210,63,165,.5) 32%,transparent 46%,rgba(255,138,42,.4) 62%,transparent 78%,rgba(120,80,255,.5) 90%,transparent);
+ filter:blur(26px);opacity:.75;-webkit-mask:radial-gradient(circle,transparent 18%,#000 36%,transparent 70%);mask:radial-gradient(circle,transparent 18%,#000 36%,transparent 70%);animation:vspin 60s linear infinite}
+@keyframes vspin{to{transform:rotate(360deg)}}
+.fx-ship{position:absolute;top:20%;left:-160px;width:110px;opacity:0;filter:drop-shadow(0 0 8px rgba(233,180,76,.5))}
+.fx-ship svg{width:100%;height:auto}
+.fx-ship.go{animation:ship 24s linear forwards}
+@keyframes ship{0%{transform:translate(0,0) rotate(-4deg);opacity:0}6%{opacity:.85}50%{transform:translate(55vw,-24px) rotate(2deg)}94%{opacity:.85}100%{transform:translate(calc(100vw + 300px),10px) rotate(-3deg);opacity:0}}
+.fx-hyper{opacity:0;background:repeating-conic-gradient(from 0deg at 50% 50%,rgba(255,255,255,.0) 0 2.2deg,rgba(190,170,255,.55) 2.4deg 2.6deg,rgba(255,255,255,0) 2.8deg 5deg);-webkit-mask:radial-gradient(circle,transparent 8%,#000 60%);mask:radial-gradient(circle,transparent 8%,#000 60%);z-index:75;position:fixed}
+.fx-hyper.go{animation:hyper .62s ease-out}
+@keyframes hyper{0%{opacity:0;transform:scale(.6)}35%{opacity:.95}100%{opacity:0;transform:scale(2.4)}}
+.veil.go{background:radial-gradient(circle,rgba(210,63,165,.0) 0,rgba(9,5,33,.95) 70%);animation:vflash .62s ease-in-out}
+@keyframes vflash{0%{opacity:0}40%{opacity:1}100%{opacity:0}}
+.contemplate{background:transparent}
+.fx-max .fx-nebula{opacity:1}

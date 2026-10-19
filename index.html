@@ -24,16 +24,19 @@
     </div>
     <div id="bookView" class="view is-hidden">
       <button class="back-link" data-back="sagas">← Voltar</button>
-      <img class="saga-logo" src="assets/branding/ciclo-de-jesed/mark.webp" alt="Ciclo de Jesed" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
-      <h1 class="saga-logo-fallback" hidden>Ciclo de Jesed</h1>
-      <h2 class="section-title">Os cinco livros</h2>
-      <p class="subtitle">Escolha um livro para ver os detalhes e abrir a página dele.</p>
+      <img id="sagaLogo" class="saga-logo" src="assets/branding/ciclo-de-jesed/mark.webp" alt="Ciclo de Jesed" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+      <h1 id="sagaLogoFallback" class="saga-logo-fallback" hidden>Ciclo de Jesed</h1>
+      <h2 id="sagaBooksTitle" class="section-title">Os cinco livros</h2>
+      <p id="sagaBooksSub" class="subtitle">Escolha um livro para ver os detalhes e abrir a página dele.</p>
       <section class="card-grid books" id="bookGrid"></section>
     </div>
     <div id="detailView" class="view is-hidden"></div>
   </main>
   <div class="portal-controls" aria-label="Controles da atmosfera"><button id="portalMusic" class="portal-music" type="button" aria-pressed="false" title="Ligar música ambiente"><span class="music-symbol" aria-hidden="true">♪</span><span class="music-label">Música</span></button></div>
   <script src="app/portal/data.js"></script>
-  <script src="app/portal/app.js?v=20260909a"></script>
+  <script src="data/sagas/spacetheft/saga.js"></script>
+  <script src="data/sagas/viajantes-dimensionais/saga.js"></script>
+  <script src="data/sagas/diario-sobrenatural/saga.js"></script>
+  <script src="app/portal/app.js?v=20261019a"></script>
 </body>
 </html>

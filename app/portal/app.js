@@ -1,6 +1,8 @@
 (() => {
   const sagas = window.PORTAL_DATA.sagas;
   const books = window.PORTAL_DATA.books;
+  const sagaExtra = window.DI_SAGAS || {};
+  sagas.forEach(s => { const x = sagaExtra[s.id]; if (x && !s.tagline) s.tagline = x.tagline; });
   const sagaGrid = document.getElementById('sagaGrid');
   const bookGrid = document.getElementById('bookGrid');
   const detailView = document.getElementById('detailView');
@@ -12,9 +14,13 @@
   const externalPages = { 'ruinas-dos-ceus': 'ruinas.html', 'guerras-de-sangue': 'guerras.html', 'dinastia-polar': 'dinastia-polar.html', 'herdeiros-das-cinzas': 'herdeiros-das-cinzas.html' };
   const previewableBooks = new Set(['dinastia-polar', 'herdeiros-das-cinzas']);
   const bookLogos = { 'ruinas-dos-ceus': 'assets/branding/ruinas-dos-ceus/logo-light.webp', 'guerras-de-sangue': 'assets/branding/guerras-de-sangue/logo-light.webp' };
-  const icons = { compass: '✦', journal: '✦', crown: '♕', stars: '✧', portal: '◎', eye: '◉', union: '⬡', wind: '☁', 'crossed-swords': '⚔', fortress: '⛁', embers: '♨', hourglass: '⏳' };
+  const icons = { compass: '✦', journal: '✦', crown: '♕', stars: '✧', portal: '◎', eye: '◉', union: '⬡', wind: '☁', 'crossed-swords': '⚔', fortress: '⛁', embers: '♨', hourglass: '⏳', stars: '✧', diary: '❦' };
   const synopsisHtml = value => String(value || '').split(/\n\s*\n/).filter(Boolean).map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join('');
   const escapeHtml = (value = '') => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  const extraStyle = document.createElement('style');
+  extraStyle.textContent = '.card-grid.books.six{grid-template-columns:repeat(6,minmax(0,1fr))}.card-grid.books.six .portal-book-copy h3{font-size:1.05rem}.card-grid.books.six .book-dim-card{min-height:440px}@media (max-width:1100px){.card-grid.books.six{grid-template-columns:repeat(3,minmax(0,1fr))}}@media (max-width:640px){.card-grid.books.six{grid-template-columns:repeat(2,minmax(0,1fr))}}';
+  document.head.appendChild(extraStyle);
 
   function showView(name) {
     Object.entries(views).forEach(([key, el]) => el && el.classList.toggle('is-hidden', key !== name));
@@ -32,14 +38,44 @@
     }).join('');
   }
 
+  function bookCard(b, href) {
+    const cover = b.cover ? `<img class="portal-book-cover" src="${escapeHtml(b.cover)}" alt="Capa de ${escapeHtml(b.name)}" loading="lazy">` : `<div class="portal-book-cover portal-cover-placeholder">${icons[b.icon] || '✦'}</div>`;
+    const stateLabel = href ? (b.status === 'active' ? 'Abrir livro' : 'Em preparação') : 'Em preparação';
+    const inner = `${cover}<div class="portal-book-overlay"></div><div class="portal-book-copy"><span>Livro ${b.order}</span><h3>${escapeHtml(b.name)}</h3><p>${escapeHtml(b.teaser || b.synopsis || b.visual || '')}</p><strong class="dim-state">${stateLabel}</strong></div>`;
+    return href ? `<a class="dim-card book-dim-card active" href="${href}">${inner}</a>` : `<article class="dim-card book-dim-card locked" aria-disabled="true">${inner}</article>`;
+  }
+
+  function setSagaHeader(saga) {
+    const logo = document.getElementById('sagaLogo');
+    const fallback = document.getElementById('sagaLogoFallback');
+    const title = document.getElementById('sagaBooksTitle');
+    const sub = document.getElementById('sagaBooksSub');
+    const isJesed = !saga || saga.id === 'ciclo-de-jesed';
+    const name = isJesed ? 'Ciclo de Jesed' : saga.name;
+    if (fallback) { fallback.textContent = name; fallback.hidden = !(!isJesed); }
+    if (logo) { logo.hidden = !isJesed; logo.style.display = isJesed ? '' : 'none'; logo.alt = name; }
+    if (fallback) fallback.style.display = isJesed ? '' : 'block';
+    const count = isJesed ? books.length : (sagaExtra[saga.id]?.books.length || 0);
+    bookGrid.classList.toggle('six', count > 5);
+    const words = ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete'];
+    if (title) title.textContent = `Os ${words[count] || count} livros`;
+    if (sub) sub.textContent = 'Escolha um livro para ver os detalhes e abrir a página dele.';
+  }
+
   function renderBooks() {
+    setSagaHeader(null);
     bookGrid.innerHTML = books.map(b => {
       const href = (b.status === 'active' || previewableBooks.has(b.id)) ? externalPages[b.id] : '';
-      const cover = b.cover ? `<img class="portal-book-cover" src="${escapeHtml(b.cover)}" alt="Capa de ${escapeHtml(b.name)}" loading="lazy">` : `<div class="portal-book-cover portal-cover-placeholder">${icons[b.icon] || '✦'}</div>`;
-      const stateLabel = href ? (b.status === 'active' ? 'Abrir livro' : 'Em preparação') : 'Em preparação';
-      const inner = `${cover}<div class="portal-book-overlay"></div><div class="portal-book-copy"><span>Livro ${b.order}</span><h3>${escapeHtml(b.name)}</h3><p>${escapeHtml(b.teaser || b.synopsis || b.visual)}</p><strong class="dim-state">${stateLabel}</strong></div>`;
-      return href ? `<a class="dim-card book-dim-card active" href="${href}#/${b.id === 'guerras-de-sangue' ? 'dashboard' : 'inicio'}">${inner}</a>` : `<article class="dim-card book-dim-card locked" aria-disabled="true">${inner}</article>`;
+      return bookCard(b, href ? `${href}#/${b.id === 'guerras-de-sangue' ? 'dashboard' : 'inicio'}` : '');
     }).join('');
+  }
+
+  function renderSagaBooks(id) {
+    const saga = sagas.find(x => x.id === id);
+    const data = sagaExtra[id];
+    if (!saga || saga.status !== 'active' || !data) { location.hash = '#/'; return; }
+    setSagaHeader(saga);
+    bookGrid.innerHTML = data.books.map(b => bookCard(b, b.status === 'active' && b.entry ? `${b.entry}#/inicio` : '')).join('');
   }
 
   function renderDetail(id) {
@@ -55,6 +91,7 @@
     const hash = location.hash.replace(/^#\//, '');
     const [base, id] = hash.split('/');
     if (base === 'books') { renderBooks(); showView('books'); }
+    else if (base === 'saga' && id) { renderSagaBooks(id); showView('books'); }
     else if (base === 'book' && id) { renderDetail(id); showView('detail'); }
     else { renderSagas(); showView('sagas'); }
     window.scrollTo(0, 0);
@@ -62,7 +99,7 @@
 
   document.addEventListener('click', event => {
     const sagaCard = event.target.closest('[data-saga]');
-    if (sagaCard) { location.hash = '#/books'; return; }
+    if (sagaCard) { location.hash = sagaCard.dataset.saga === 'ciclo-de-jesed' ? '#/books' : `#/saga/${sagaCard.dataset.saga}`; return; }
     const back = event.target.closest('[data-back]');
     if (back) { location.hash = back.dataset.back === 'sagas' ? '#/' : '#/books'; return; }
     const goHref = event.target.closest('[data-go-href]');
