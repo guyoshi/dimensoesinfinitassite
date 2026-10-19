@@ -52,56 +52,7 @@ window.CP_DATA = {
       "cover": null
     }
   ],
-  "navigation": [
-    {
-      "group": "Livro",
-      "items": [
-        { "id": "inicio", "label": "Início", "icon": "home" },
-        { "id": "books", "label": "Todos os livros", "icon": "books" }
-      ]
-    },
-    {
-      "group": "Pessoas",
-      "items": [
-        { "id": "characters", "label": "Personagens", "icon": "people" },
-        { "id": "relationships", "label": "Relações", "icon": "network" },
-        { "id": "families", "label": "Famílias", "icon": "family" },
-        { "id": "organisations", "label": "Organizações", "icon": "shield" }
-      ]
-    },
-    {
-      "group": "Ordens",
-      "items": [
-        { "id": "orders", "label": "Ordens", "icon": "crown" }
-      ]
-    },
-    {
-      "group": "Mundo",
-      "items": [
-        { "id": "places", "label": "Lugares", "icon": "pin" },
-        { "id": "map", "label": "Mapa", "icon": "map" }
-      ]
-    },
-    {
-      "group": "História",
-      "items": [
-        { "id": "timeline", "label": "Linha do Tempo", "icon": "timeline" },
-        { "id": "chapters", "label": "Capítulos", "icon": "chapter" },
-        { "id": "mysteries", "label": "Mistérios", "icon": "question" },
-        { "id": "themes", "label": "Temas", "icon": "law" }
-      ]
-    },
-    {
-      "group": "Lore",
-      "items": [
-        { "id": "fauna", "label": "Fauna", "icon": "paw" },
-        { "id": "flora", "label": "Flora", "icon": "leaf" },
-        { "id": "foods", "label": "Alimentos", "icon": "bowl" },
-        { "id": "lore", "label": "Conceitos e Leis", "icon": "scroll" },
-        { "id": "gallery", "label": "Galeria", "icon": "image" }
-      ]
-    }
-  ],
+  "navigation": [{"group": "Livro", "items": [{"id": "inicio", "label": "Início", "icon": "home"}]}, {"group": "História", "items": [{"id": "chapters", "label": "Capítulos", "icon": "chapter"}, {"id": "timeline", "label": "Linha do Tempo", "icon": "timeline"}]}, {"group": "Pessoas", "items": [{"id": "characters", "label": "Personagens", "icon": "people"}, {"id": "orders", "label": "Ordens", "icon": "crown"}]}, {"group": "Mundo", "items": [{"id": "places", "label": "Lugares", "icon": "pin"}, {"id": "map", "label": "Mapa", "icon": "map"}]}, {"group": "Natureza e cultura", "items": [{"id": "fauna", "label": "Fauna", "icon": "paw"}, {"id": "flora", "label": "Flora", "icon": "leaf"}, {"id": "foods", "label": "Alimentos", "icon": "bowl"}]}, {"group": "Arquivo", "items": [{"id": "gallery", "label": "Galeria", "icon": "image"}]}],
   "characters": [],
   "orders": [],
   "places": [],

@@ -244,7 +244,7 @@
         <div class="hero-map-content">
           <p class="eyebrow">Ciclo de Jesed — Guia do Livro</p>
           <img class="hero-logo glow-title" src="assets/branding/herdeiros-das-cinzas/logo-light.webp" alt="Herdeiros das Cinzas">
-          <p>Livro IV do Ciclo de Jesed. Em preparação: fichas, relações, mapa e capítulos aparecerão aqui à medida que o manuscrito for escrito.</p>
+          <p>${escapeHtml(book.teaser || book.visual || "")}</p>
           <div class="hero-actions">
             <button class="primary-button" data-route="chapters">${icon("chapter")} Capítulos</button>
             <button class="secondary-button" data-route="books">${icon("books")} Ver os cinco livros</button>
@@ -255,23 +255,11 @@
       </section>
       <section class="quick-grid home-guide-grid">${quick.map(([route, iconName, label, text]) => `<button class="quick-card home-guide-card" data-route="${route}"><span class="quick-icon">${icon(iconName)}</span><strong>${escapeHtml(label)}</strong><small>${escapeHtml(text)}</small></button>`).join("")}</section>
       <section class="metrics-grid">
-        ${[[D.characters.length,"personagens","characters"],[D.dynasties.length,"dinastias","dynasties"],[D.places.length,"lugares","places"],[D.chapters.length,"capítulos escritos","chapters"],[timelineEntries().length,"eventos na linha do tempo","timeline"],[D.mysteries.length,"mistérios","mysteries"]].map(item => `<article class="metric-card" data-route="${item[2]}"><strong>${item[0]}</strong><span>${item[1]}</span></article>`).join("")}
+        ${[[D.characters.length,"personagens","characters"],[D.dynasties.length,"dinastias","dynasties"],[D.places.length,"lugares","places"],[D.chapters.length,"capítulos","chapters"],[timelineEntries().length,"eventos na linha do tempo","timeline"]].map(item => `<article class="metric-card" data-route="${item[2]}"><strong>${item[0]}</strong><span>${item[1]}</span></article>`).join("")}
       </section>
       ${focus.length ? `<section class="dark-panel section-card home-focus-section"><div class="section-heading"><div><p class="eyebrow">Vidas centrais</p><h2>Personagens em foco</h2><p>As figuras principais de Herdeiros das Cinzas.</p></div><button class="text-button" data-route="characters">Ver todos</button></div><div class="home-focus-grid">${focus.map(({character, description}) => `<button class="home-focus-card" data-route="character/${character.slug}"><span class="home-focus-avatar ${character.image ? 'has-image' : ''}">${character.image ? `<img src="${escapeHtml(character.image)}" alt="Retrato de ${escapeHtml(character.name)}" loading="lazy">` : icon('person')}</span><span><strong>${escapeHtml(character.name)}</strong><small>${escapeHtml(description)}</small></span></button>`).join("")}</div></section>` : ""}
       ${selectedPlaces.length ? `<section class="home-places-section"><div class="section-heading"><div><p class="eyebrow">Território</p><h2>Lugares</h2><p>Cidades, ruínas e regiões essenciais do livro.</p></div><button class="text-button" data-route="places">Ver todos os lugares</button></div><div class="home-place-grid">${selectedPlaces.map(homePlaceCard).join("")}</div></section>` : ""}
-      <section class="hc-home-footer">
-        ${hcAshSvg()}
-        <div class="hc-home-footer-content">
-          <p class="hc-inscription">Herdeiros das Cinzas · Livro IV do Ciclo de Jesed</p>
-          <div class="hc-footer-links">
-            <a href="index.html#/books">${icon("books")} Voltar aos livros</a>
-            <button data-route="gallery">${icon("image")} Abrir galeria</button>
-            <button data-contemplative="cinzas">${icon("eye")} Modo contemplativo</button>
-            <button data-action="open-book-selector">${icon("book")} Selector de livro</button>
-            <button data-action="open-credits">${icon("scroll")} Créditos</button>
-          </div>
-        </div>
-      </section>
+      
     </div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed"},{label:"Início"}]);
   }

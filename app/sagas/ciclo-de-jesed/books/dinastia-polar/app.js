@@ -236,17 +236,16 @@
   function renderInicio() {
     const quick = [
       ["characters", "people", "Personagens", "Vozes ainda por registar dentro da hierarquia."],
-      ["relationships", "network", "Relações", "Lealdade, vigilância e dívidas entre os anéis."],
       ["timeline", "timeline", "Linha do Tempo", "Cerimónia, ciclos e decretos do Conselho."],
-      ["chapters", "chapter", "Capítulos", "Capítulos ainda por escrever."]
+      ["chapters", "chapter", "Capítulos", `${D.chapters.length} capítulos`]
     ];
     const map = D.maps?.main;
     const focus = [
-      ["jesed-dp-character-jokara-amarea", "Peso, verdade e sacrifício"],
-      ["jesed-dp-character-nestira-amarea", "Sopro, fé e esperança"],
-      ["jesed-dp-character-marv", "Construção, cuidado e legado"],
-      ["jesed-dp-character-loutes", "Mistério além do tempo"],
-      ["jesed-dp-character-gabasteres", "Força transformada em domínio"]
+      ["jesed-character-elis", "Nular de Maruva"],
+      ["jesed-character-kalan", "Morador de Maruva"],
+      ["jesed-character-selina", "Cadeira dos Caminhos e Estandartes"],
+      ["jesed-character-dareth-quatro-dedos", "Campeão Polar"],
+      ["jesed-character-vetarius-polar", "Soberano Polar"]
     ].map(([id, description]) => ({ character: getCharacter(id), description })).filter(item => item.character);
     const selectedPlaces = [
       "jesed-dp-place-kaeliran",
@@ -273,23 +272,11 @@
       </section>
       <section class="quick-grid home-guide-grid">${quick.map(([route, iconName, label, text]) => `<button class="quick-card home-guide-card" data-route="${route}"><span class="quick-icon">${icon(iconName)}</span><strong>${escapeHtml(label)}</strong><small>${escapeHtml(text)}</small></button>`).join("")}</section>
       <section class="metrics-grid">
-        ${[[D.characters.length,"personagens","characters"],[D.dynasties.length,"dinastias","dynasties"],[D.places.length,"lugares","places"],[D.chapters.length,"capítulos escritos","chapters"],[timelineEntries().length,"eventos na linha do tempo","timeline"],[D.mysteries.length,"mistérios","mysteries"]].map(item => `<article class="metric-card" data-route="${item[2]}"><strong>${item[0]}</strong><span>${item[1]}</span></article>`).join("")}
+        ${[[D.characters.length,"personagens","characters"],[D.dynasties.length,"dinastias","dynasties"],[D.places.length,"lugares","places"],[D.chapters.length,"capítulos","chapters"],[timelineEntries().length,"eventos na linha do tempo","timeline"]].map(item => `<article class="metric-card" data-route="${item[2]}"><strong>${item[0]}</strong><span>${item[1]}</span></article>`).join("")}
       </section>
       ${focus.length ? `<section class="dark-panel section-card home-focus-section"><div class="section-heading"><div><p class="eyebrow">Vidas centrais</p><h2>Personagens em foco</h2><p>As figuras principais que atravessam a queda, a sobrevivência e o primeiro legado Polar.</p></div><button class="text-button" data-route="characters">Ver todos</button></div><div class="home-focus-grid">${focus.map(({character, description}) => `<button class="home-focus-card" data-route="character/${character.slug}"><span class="home-focus-avatar ${character.image ? 'has-image' : ''}">${character.image ? `<img src="${escapeHtml(character.image)}" alt="Retrato de ${escapeHtml(character.name)}" loading="lazy">` : icon('person')}</span><span><strong>${escapeHtml(character.name)}</strong><small>${escapeHtml(description)}</small></span></button>`).join("")}</div></section>` : ""}
       ${selectedPlaces.length ? `<section class="home-places-section"><div class="section-heading"><div><p class="eyebrow">Território e poder</p><h2>Lugares</h2><p>Capitais, cidades e regiões essenciais para compreender a Dinastia Polar.</p></div><button class="text-button" data-route="places">Ver todos os lugares</button></div><div class="home-place-grid">${selectedPlaces.map(homePlaceCard).join("")}</div></section>` : ""}
-      <section class="dp-home-footer">
-        ${dpRingsSvg()}
-        <div class="dp-home-footer-content">
-          <p class="dp-inscription">Nenhuma muralha se recorda de quem carregou as primeiras pedras.</p>
-          <div class="dp-footer-links">
-            <a href="index.html#/books">${icon("books")} Voltar aos livros</a>
-            <button data-route="gallery">${icon("image")} Abrir galeria</button>
-            <button data-contemplative="polar">${icon("eye")} Modo contemplativo</button>
-            <button data-action="open-book-selector">${icon("book")} Selector de livro</button>
-            <button data-action="open-credits">${icon("scroll")} Créditos</button>
-          </div>
-        </div>
-      </section>
+      
     </div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed"},{label:"Início"}]);
   }

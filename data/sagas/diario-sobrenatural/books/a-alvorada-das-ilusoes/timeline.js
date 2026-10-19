@@ -3,8 +3,8 @@ window.DI_BOOK = window.DI_BOOK || {};
 window.DI_BOOK.timeline = [
   {
     "date": "Meses depois de 2002",
-    "title": "Junior no lago e o blog de Pedro",
-    "summary": "Jennifer resgata Junior no lago; Pedro escreve o blog Starman e conhece Filipo e Mel Jones.",
+    "title": "Um lago e um blog",
+    "summary": "Junior e Pedro tentam seguir a vida depois de Vila Velha.",
     "chapters": [
       1,
       2,
@@ -14,7 +14,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Quase um ano depois",
     "title": "Priscila em Pirituba",
-    "summary": "Priscila trabalha numa hamburgueria, conhece Diego e Glenda por meio de Jason e relembra a saída de casa.",
+    "summary": "Priscila tenta construir uma vida longe da família.",
     "chapters": [
       3,
       8
@@ -23,7 +23,7 @@ window.DI_BOOK.timeline = [
   {
     "date": "Dois meses",
     "title": "Glenda na mansão do Morumbi",
-    "summary": "Glenda vai morar com o tio Diego, descobre a anaconda e investiga a morte de Kelly.",
+    "summary": "Glenda visita o tio em São Paulo.",
     "chapters": [
       4,
       9
@@ -32,15 +32,15 @@ window.DI_BOOK.timeline = [
   {
     "date": "Meses depois",
     "title": "Jennifer visita Vini",
-    "summary": "Jennifer usa um RG falso para ver Vini na penitenciária; Glenda aparece e duvida da condenação.",
+    "summary": "Jennifer vai à penitenciária.",
     "chapters": [
       5
     ]
   },
   {
     "date": "Fim do ano",
-    "title": "Manu chega a Junior",
-    "summary": "Uma garota sem memória aparece; Junior a leva de carro até Alvorada Alegre e conhece Pollux.",
+    "title": "Uma menina diante da casa de Junior",
+    "summary": "Uma garota que não lembra de nada aparece na porta de Junior.",
     "chapters": [
       6,
       12
@@ -48,8 +48,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Noite",
-    "title": "Cara-de-Larva mata Mike",
-    "summary": "Pedro, Filipo e Mike vão a Jennifer; o monstro mata o pai de Filipo.",
+    "title": "Uma noite em Jaguariúna",
+    "summary": "Pedro, Jennifer e Filipo se encontram.",
     "chapters": [
       11,
       15
@@ -57,8 +57,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Dias depois",
-    "title": "Glenda investiga Diego",
-    "summary": "Glenda descobre o clube de tiro, é perseguida por um homem de facão e entra no quarto de Diego.",
+    "title": "Glenda investiga",
+    "summary": "Glenda investiga a cidade e a família.",
     "chapters": [
       13,
       19
@@ -66,16 +66,16 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Dias depois",
-    "title": "Priscila é demitida",
-    "summary": "Priscila agride Glenda e é demitida; vê Kelly num carro.",
+    "title": "Mudanças na vida de Priscila",
+    "summary": "Priscila enfrenta problemas no trabalho.",
     "chapters": [
       14
     ]
   },
   {
     "date": "Dias seguintes",
-    "title": "Pedro, Jennifer e Filipo procuram Olívia",
-    "summary": "Seguem o sonho de Jennifer até Priscila e depois à casa de Olívia, na serra.",
+    "title": "À procura de Olívia",
+    "summary": "Pedro, Jennifer e Filipo procuram Olívia.",
     "chapters": [
       17,
       18
@@ -83,8 +83,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Alvorada Alegre",
-    "title": "Junior na cidade ilusória",
-    "summary": "Junior entra na cidade, vai à igreja de Lucinda e à escola, e foge com o livro.",
+    "title": "Junior na cidade",
+    "summary": "Junior chega a uma cidade onde nada é o que parece.",
     "chapters": [
       16,
       21,
@@ -93,8 +93,8 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Sábado",
-    "title": "Jason pede Priscila em namoro",
-    "summary": "De helicóptero, no Terraço Itália, Jason entrega-lhe uma aliança.",
+    "title": "Um pedido em Terraço Itália",
+    "summary": "Jason leva Priscila a um jantar especial.",
     "chapters": [
       20,
       25
@@ -103,31 +103,31 @@ window.DI_BOOK.timeline = [
   {
     "date": "Noite",
     "title": "Jennifer e Glenda",
-    "summary": "Jennifer foge para a Rua Fidalga 531 e as duas se beijam sob uma ponte.",
+    "summary": "Jennifer e Glenda passam uma noite juntas.",
     "chapters": [
       22
     ]
   },
   {
     "date": "Dias depois",
-    "title": "O amuleto é quebrado",
-    "summary": "Pedro desenterra o amuleto; os três fogem; o Cara-de-Larva ataca e Jennifer desmaia.",
+    "title": "Pollux e o amuleto",
+    "summary": "Pollux apresenta o amuleto Pyralis Sacra.",
     "chapters": [
       23
     ]
   },
   {
     "date": "Mesmo dia",
-    "title": "Glenda resgata os três",
-    "summary": "Glenda os leva escondidos à mansão e Diego volta.",
+    "title": "Um resgate",
+    "summary": "Glenda ajuda o grupo.",
     "chapters": [
       24
     ]
   },
   {
     "date": "Jantar",
-    "title": "Priscila foge do jantar (rascunho)",
-    "summary": "Capítulos em rascunho indicam o jantar na mansão, a discussão com Diego e a fuga de Priscila.",
+    "title": "Um jantar em família (rascunho)",
+    "summary": "Priscila vai a um jantar.",
     "chapters": [
       25,
       26
@@ -135,16 +135,16 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Dia seguinte",
-    "title": "Glenda mata Diego (rascunho)",
-    "summary": "Os capítulos em rascunho registram o plano de Glenda e a morte de Diego pela anaconda.",
+    "title": "Segredos de uma família (rascunho)",
+    "summary": "Glenda confronta o que descobriu.",
     "chapters": [
       28
     ]
   },
   {
     "date": "Flashback",
-    "title": "A queda de Alvorada Alegre",
-    "summary": "Filipo relembra o dia em que o sino tocou, o avô morreu e a irmã foi levada.",
+    "title": "O passado de Alvorada Alegre",
+    "summary": "Um flashback revela o passado da cidade.",
     "chapters": [
       18,
       29

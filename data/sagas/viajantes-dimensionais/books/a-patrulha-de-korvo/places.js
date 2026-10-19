@@ -40,7 +40,7 @@ window.DI_BOOK.places = [
     "subtitle": "Quartel",
     "type": "Quartel",
     "region": "Tayo",
-    "summary": "Sede da Vigilância; abriga a presália.",
+    "summary": "Quartel e sede da Vigilância, em Tayo.",
     "sources": [
       "Capítulos 10–11, 16, 21–23"
     ]
@@ -51,7 +51,7 @@ window.DI_BOOK.places = [
     "subtitle": "Prisão",
     "type": "Prisão",
     "region": "Sob a Central",
-    "summary": "Prisão secreta fechada há mais de vinte anos.",
+    "summary": "Prisão secreta sob a Central da Vigilância, fechada há mais de vinte anos.",
     "sources": [
       "Capítulos 10, 12, 21–23"
     ]
@@ -62,7 +62,7 @@ window.DI_BOOK.places = [
     "subtitle": "Pântano",
     "type": "Pântano",
     "region": "Além das montanhas Kargath",
-    "summary": "Refúgio suposto de Korvo.",
+    "summary": "Pântano além das montanhas Kargath.",
     "sources": [
       "Capítulos 12, 16–17, 19–20"
     ]
@@ -95,7 +95,7 @@ window.DI_BOOK.places = [
     "subtitle": "Prisão",
     "type": "Prisão",
     "region": "Tayo",
-    "summary": "Prisão dos magos descontrolados.",
+    "summary": "Prisão de Tayo para magos descontrolados.",
     "sources": [
       "Capítulos 6, 10–11, 21"
     ]
@@ -106,7 +106,7 @@ window.DI_BOOK.places = [
     "subtitle": "Caverna",
     "type": "Caverna",
     "region": "Parque da Cantareira",
-    "summary": "Onde Banjo encontra a esfera azul.",
+    "summary": "Caverna escondida no Parque da Cantareira.",
     "sources": [
       "Capítulos 1–2"
     ]
@@ -128,7 +128,7 @@ window.DI_BOOK.places = [
     "subtitle": "Saída",
     "type": "Saída",
     "region": "Belfex",
-    "summary": "Rota para o esconderijo.",
+    "summary": "Passagem de Belfex conhecida como Sepulcro dos Esquecidos.",
     "sources": [
       "Capítulos 19–21"
     ]
@@ -150,7 +150,7 @@ window.DI_BOOK.places = [
     "subtitle": "Estádio",
     "type": "Estádio",
     "region": "Tayo",
-    "summary": "Onde ocorre a partida.",
+    "summary": "Estádio de Tayo onde acontece uma partida do treinamento.",
     "sources": [
       "Capítulos 13–15"
     ]
@@ -183,7 +183,7 @@ window.DI_BOOK.places = [
     "subtitle": "Árvore",
     "type": "Árvore",
     "region": "Central",
-    "summary": "Árvore que morre ao curar Bruno.",
+    "summary": "Árvore antiga da Central da Vigilância.",
     "sources": [
       "Capítulos 11, 23"
     ]
@@ -205,7 +205,7 @@ window.DI_BOOK.places = [
     "subtitle": "Dimensão",
     "type": "Dimensão",
     "region": "Quarta Dimensão",
-    "summary": "Mundo dos senavelitas, onde ficam Tayo, Pinesoto e o Pântano de Mortem.",
+    "summary": "Mundo dos senavelitas, a Quarta Dimensão, onde ficam Tayo, Pinesoto e o Pântano de Mortem.",
     "sources": [
       "Capítulos 4–7"
     ]
@@ -216,7 +216,7 @@ window.DI_BOOK.places = [
     "subtitle": "Central de teletransporte",
     "type": "Central de teletransporte",
     "region": "Tayo",
-    "summary": "Onde os irmãos chegam e partem; guarda a cúpula de teletransporte.",
+    "summary": "Central de teletransporte de Tayo, com a cúpula de teletransporte.",
     "sources": [
       "Capítulos 4, 16, 23"
     ]
@@ -238,7 +238,7 @@ window.DI_BOOK.places = [
     "subtitle": "Escola",
     "type": "Escola",
     "region": "Terceira dimensão",
-    "summary": "Escola dos irmãos, onde Beatriz quebra o piano e Breno atravessa o livro.",
+    "summary": "Escola dos irmãos na Terceira Dimensão.",
     "sources": [
       "Capítulos 2–3"
     ]
@@ -249,7 +249,7 @@ window.DI_BOOK.places = [
     "subtitle": "Rio flutuante",
     "type": "Rio flutuante",
     "region": "Belfex",
-    "summary": "Rio com loops, cruzado por láridas celestes no segundo desafio.",
+    "summary": "Rio flutuante de Belfex, com loops, cruzado com a ajuda das láridas celestes.",
     "sources": [
       "Capítulo 10"
     ]
@@ -260,7 +260,7 @@ window.DI_BOOK.places = [
     "subtitle": "Portão",
     "type": "Portão",
     "region": "Tayo",
-    "summary": "Portão de pedras negras com runas e portas imensas; fecha o campo de contenção de Tayo.",
+    "summary": "Portão de pedras negras com runas e portas imensas, em Tayo.",
     "sources": [
       "Capítulos 16, 23"
     ]
@@ -271,7 +271,7 @@ window.DI_BOOK.places = [
     "subtitle": "Esconderijo",
     "type": "Esconderijo",
     "region": "Tayo",
-    "summary": "Antiga escola senavelita abandonada, marcada com o símbolo \"S\", ligada ao salão subterrâneo onde a Sociedade de Tayo se reúne em segredo para debater a infiltração da Vigilância.",
+    "summary": "Antiga escola senavelita abandonada, marcada com o símbolo \"S\".",
     "sources": [
       "Capítulo 12"
     ]
@@ -282,7 +282,7 @@ window.DI_BOOK.places = [
     "subtitle": "Casa",
     "type": "Casa",
     "region": "Fora de Tayo",
-    "summary": "Casa torta e caótica do inventor excêntrico.",
+    "summary": "Casa torta e caótica do inventor Ricochet Bombergue.",
     "sources": [
       "Capítulo 17"
     ]
@@ -315,7 +315,7 @@ window.DI_BOOK.places = [
     "subtitle": "Salão",
     "type": "Salão",
     "region": "Pinesoto",
-    "summary": "Onde Gaia recebe os irmãos.",
+    "summary": "Salão de Pinesoto onde Gaia recebe visitantes.",
     "sources": [
       "Capítulo 19"
     ]
@@ -326,7 +326,7 @@ window.DI_BOOK.places = [
     "subtitle": "Caverna",
     "type": "Caverna",
     "region": "Pântano dos Ossos",
-    "summary": "Onde Bruno empurra os irmãos pelo portal.",
+    "summary": "Caverna do Pântano dos Ossos.",
     "sources": [
       "Capítulo 20"
     ]
@@ -337,7 +337,7 @@ window.DI_BOOK.places = [
     "subtitle": "Ruínas",
     "type": "Ruínas",
     "region": "Montanha",
-    "summary": "Castelo onde se firmou o acordo da origem dos senavelitas.",
+    "summary": "Ruínas de um castelo na montanha, ligadas à origem dos senavelitas.",
     "sources": [
       "Capítulo 11"
     ]
@@ -403,7 +403,7 @@ window.DI_BOOK.places = [
     "subtitle": "Monte",
     "type": "Monte",
     "region": "Leste de Belfex",
-    "summary": "Pico que Ricochet jura ser o mais traiçoeiro do leste belfexiano, onde diz ter enfrentado um dragão de gelo; não há registro do feito.",
+    "summary": "Pico no leste de Belfex, tido por Ricochet como o mais traiçoeiro da região.",
     "sources": [
       "Capítulo 17"
     ]

@@ -105,13 +105,13 @@
         <aside class="sb" id="sb" aria-label="Navegação principal">
           <a class="brand" href="#/inicio"><span class="sigil">${icon(B.saga.symbol)}</span><span class="brand-copy"><b class="h-font">${esc(B.saga.name)}</b><small>${esc(bk.name)} · ${esc(bk.numeral)}</small></span></a>
           <nav class="nav" id="nav">${nav}</nav>
-          <div class="sbf"><a class="exit" href="index.html#/saga/${esc(B.saga.id)}">${icon('back', 'ni')}<span>Dimensões Infinitas</span></a><div class="status"><span class="dot"></span>${esc(bk.statusLabel)}</div></div>
+          <div class="sbf"><a class="exit" href="index.html#/saga/${esc(B.saga.id)}">${icon('back', 'ni')}<span>Dimensões Infinitas</span></a></div>
         </aside>
         <div class="sb-backdrop" id="sbBackdrop"></div>
         <div class="ws">
           <header class="top">
             <button class="ico mobile-only" id="menuBtn" aria-label="Abrir menu">${icon('menu')}</button>
-            <a class="pill" href="index.html#/saga/${esc(B.saga.id)}">${icon(B.saga.symbol, 'pi')}<span>${esc(B.saga.name)}</span></a>
+            <button class="pill" id="sagaBtn" data-saga-switch aria-haspopup="dialog">${icon(B.saga.symbol, 'pi')}<span>${esc(B.saga.name)}</span><i>⌄</i></button>
             <button class="pill" id="bookBtn" aria-haspopup="dialog">${icon('books', 'pi')}<span>${esc(bk.name)}</span><i>⌄</i></button>
             <button class="search" id="searchBtn" aria-label="Pesquisar">${icon('search', 'pi')}<span>Pesquisar</span><kbd>Ctrl K</kbd></button>
             <div class="ctrl">
@@ -148,8 +148,9 @@
     const cards = [
       ['personagens', 'Personagens', A.characters.length ? `${A.characters.length} fichas` : 'Quem são e onde ficaram'],
       ['linha-do-tempo', 'Linha do Tempo', A.timeline.length ? `${A.timeline.length} acontecimentos` : 'Eventos e antecedentes'],
-      B.nav.some(g => g.items.includes('mapa')) ? ['mapa', 'Mapa', B.mapText || 'Onde tudo acontece'] : ['lugares', 'Lugares', A.places.length ? `${A.places.length} lugares` : 'Onde tudo acontece'],
-      ['capitulos', 'Capítulos', `${w.length} capítulos escritos${drafts ? ` · ${drafts} rascunho${drafts > 1 ? 's' : ''}` : ''}`]
+      ['lugares', 'Lugares', A.places.length ? `${A.places.length} lugares` : 'Onde tudo acontece'],
+      ...(B.nav.some(g => g.items.includes('mapa')) ? [['mapa', 'Mapa', B.mapText || 'Onde tudo acontece']] : []),
+      ['capitulos', 'Capítulos', `${w.length} ${w.length === 1 ? 'capítulo' : 'capítulos'}`]
     ];
     const feat = (A.characters.filter(c => c.featured).length ? A.characters.filter(c => c.featured) : A.characters).slice(0, 5);
     const first = w.slice(0, 5);
@@ -191,10 +192,10 @@
       const rows = list.filter(c => (state.narrator === 'all' || c.pov === state.narrator) && (!q || norm(c.title).includes(q) || norm(String(c.number)).includes(q) || norm(c.pov).includes(q)));
       $('#chList').innerHTML = rows.length ? rows.map(c => {
         const img = chapterImage(c);
-        return `<a class="chcard ${c.status === 'draft' ? 'draft' : ''}" href="#/capitulo/${c.number}">${img ? `<span class="chimg">${thumb(img, c.title, 'chapter')}</span>` : ''}<span class="chnum">${c.number}</span><span class="chbody"><strong>${esc(c.title)}</strong>${c.summary ? `<small>${esc(String(c.summary).split(/\n\s*\n/)[0].slice(0, 170))}…</small>` : ''}</span>${c.status === 'draft' ? '<span class="chip draft-chip">Rascunho</span>' : ''}${chip(c.pov)}</a>`;
+        return `<a class="chcard ${c.status === 'draft' ? 'draft' : ''}" href="#/capitulo/${c.number}">${img ? `<span class="chimg">${thumb(img, c.title, 'chapter')}</span>` : ''}<span class="chnum">${c.number}</span><span class="chbody"><strong>${esc(c.title)}</strong></span>${chip(c.pov)}</a>`;
       }).join('') : '<div class="panel empty"><p>Nenhum capítulo encontrado.</p></div>';
     };
-    $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Capítulos', `${written().length} capítulos escritos${A.chapters.length > written().length ? `, mais ${A.chapters.length - written().length} em rascunho` : ''}.`)}
+    $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Capítulos', `${A.chapters.length} ${A.chapters.length === 1 ? 'capítulo' : 'capítulos'}.`)}
       ${list.length ? `<div class="tools"><label class="field">${icon('search')}<input id="chQ" type="search" placeholder="Buscar capítulo…" value="${esc(state.q)}"></label>${nar.length ? `<div class="chips"><button class="fchip ${state.narrator === 'all' ? 'on' : ''}" data-nar="all">Todos</button>${nar.map(n => `<button class="fchip ${state.narrator === n ? 'on' : ''}" data-nar="${esc(n)}" style="--c:${narrColor(n)}">${esc(n)}</button>`).join('')}</div>` : ''}</div><div class="chlist" id="chList"></div>` : empty('capitulos')}</div>`;
     if (list.length) {
       draw();
@@ -232,17 +233,13 @@
     crumb([[label]]);
   }
   function entityMeta(x) {
-    const bits = [x.status, x.importance, x.type, x.region].filter(Boolean);
+    const bits = [x.importance, x.type, x.region].filter(Boolean);
     return bits.length ? `<div class="tagrow meta">${bits.map(b => `<span class="chip">${esc(b)}</span>`).join('')}</div>` : '';
   }
   function entityExtra(x) {
-    const li = a => `<ul class="blist">${a.map(t => `<li>${esc(t)}</li>`).join('')}</ul>`;
-    const k = x.knowledge || {};
     const secs = [];
     if ((x.personality || []).length) secs.push(`<h3 class="h-font small-h">Personalidade</h3><div class="tagrow">${x.personality.map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>`);
     if (x.voice) secs.push(`<h3 class="h-font small-h">Voz</h3><p>${esc(x.voice)}</p>`);
-    [['knows', 'O que sabe'], ['suspects', 'O que suspeita'], ['secrets', 'Segredos']].forEach(([key, lab]) => { if ((k[key] || []).length) secs.push(`<h3 class="h-font small-h">${lab}</h3>${li(k[key])}`); });
-    if (x.destiny && x.destiny.written) secs.push(`<h3 class="h-font small-h">Destino até aqui</h3><p>${esc(x.destiny.written)}</p>`);
     if ((x.sources || []).length) secs.push(`<p class="muted srcline">Fontes: ${x.sources.map(esc).join(' · ')}</p>`);
     return secs.join('');
   }

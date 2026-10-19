@@ -7,7 +7,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cidade",
     "type": "Cidade",
     "region": "Interior de São Paulo, 2002",
-    "summary": "Cidade pequena onde acontece quase toda a história; a casa abandonada fica no fim da rua e o resto da cidade gira em torno da praça.",
+    "summary": "Cidade pequena do interior de São Paulo, em 2002, onde se passa quase toda a história. A vida gira em torno da praça e da escola.",
     "sources": [
       "Capítulos 1, 7, 13–14"
     ]
@@ -18,7 +18,7 @@ window.DI_BOOK.places = [
     "subtitle": "Casa assombrada · antiga casa dos Carnam",
     "type": "Casa assombrada · antiga casa dos Carnam",
     "region": "Rua dos Afogados",
-    "summary": "Casa enorme no fim da rua, da família Carnam, assassinada há mais de trinta anos. É o centro do Agouro e dos Elos; quem entra não sai.",
+    "summary": "Casa enorme no fim da Rua dos Afogados, abandonada há mais de trinta anos e cercada de histórias.",
     "sources": [
       "Capítulos 1–2, 5, 8, 11–15, 19–21, 23–24, 29–33, 35–38"
     ]
@@ -40,7 +40,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cômodo da casa abandonada",
     "type": "Cômodo da casa abandonada",
     "region": "Casa abandonada",
-    "summary": "Entrada ampla da casa, onde o grupo se reúne para decidir o que fazer.",
+    "summary": "Entrada ampla da casa abandonada.",
     "sources": [
       "Capítulo 35"
     ]
@@ -51,7 +51,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cômodo da casa abandonada",
     "type": "Cômodo da casa abandonada",
     "region": "Casa abandonada",
-    "summary": "Quarto de casal com berço velho, onde Jennifer queima o álbum de fotos, Elo da Mãe.",
+    "summary": "Quarto de casal com berço velho, na casa abandonada.",
     "sources": [
       "Capítulo 35"
     ]
@@ -62,7 +62,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cômodo da casa abandonada",
     "type": "Cômodo da casa abandonada",
     "region": "Casa abandonada",
-    "summary": "Onde Kelly é possuída e Vini queima o revólver, Elo do Pai.",
+    "summary": "Quarto de criança na casa abandonada.",
     "sources": [
       "Capítulo 36"
     ]
@@ -73,7 +73,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cômodo da casa abandonada",
     "type": "Cômodo da casa abandonada",
     "region": "Casa abandonada",
-    "summary": "Ligada a Francis e Calêndula; ilusões de aranhas, ratos e baratas atacam o grupo.",
+    "summary": "Cômodo da casa abandonada.",
     "sources": [
       "Capítulo 36"
     ]
@@ -84,7 +84,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cômodo da casa abandonada",
     "type": "Cômodo da casa abandonada",
     "region": "Casa abandonada",
-    "summary": "Onde os três se escondem atrás de um piano ao conhecer Suéten.",
+    "summary": "Salão com um piano, na casa abandonada.",
     "sources": [
       "Capítulos 16, 20, 32"
     ]
@@ -95,7 +95,7 @@ window.DI_BOOK.places = [
     "subtitle": "Porão",
     "type": "Porão",
     "region": "Casa abandonada",
-    "summary": "Onde Ingrid foi trancada e onde estão os esqueletos da família.",
+    "summary": "Porão da casa abandonada.",
     "sources": [
       "Capítulos 12, 32, 34–35"
     ]
@@ -106,7 +106,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cômodo",
     "type": "Cômodo",
     "region": "Casa abandonada",
-    "summary": "Onde Priscila fica com Vini enquanto Jennifer enfrenta a Mãe.",
+    "summary": "Cozinha da casa abandonada.",
     "sources": [
       "Capítulo 35"
     ]
@@ -139,7 +139,7 @@ window.DI_BOOK.places = [
     "subtitle": "Casa",
     "type": "Casa",
     "region": "Vila Velha",
-    "summary": "Casa de Alan, Ana Lívia e Bob; onde o pai de Vini morre.",
+    "summary": "Casa de Alan, Ana Lívia, Bob e Vini.",
     "sources": [
       "Capítulos 5, 8, 23–24, 26, 28, 34"
     ]
@@ -205,7 +205,7 @@ window.DI_BOOK.places = [
     "subtitle": "Casa na colina",
     "type": "Casa na colina",
     "region": "Colina",
-    "summary": "Casa do velho e de Alex, de onde se vê a cidade.",
+    "summary": "Casa na colina, de onde se vê a cidade.",
     "sources": [
       "Capítulos 13–14, 29"
     ]
@@ -216,7 +216,7 @@ window.DI_BOOK.places = [
     "subtitle": "Fazenda",
     "type": "Fazenda",
     "region": "Vila Velha",
-    "summary": "Fazenda cercada de gatos onde Maria conta a história dos Carnam.",
+    "summary": "Fazenda de Maria Marques, cercada de gatos.",
     "sources": [
       "Capítulos 21–22"
     ]
@@ -249,7 +249,7 @@ window.DI_BOOK.places = [
     "subtitle": "Colégio",
     "type": "Colégio",
     "region": "Jundiaí",
-    "summary": "Onde Vini conhece Priscila.",
+    "summary": "Colégio de Jundiaí onde Vini conhece Priscila.",
     "sources": [
       "Capítulos 28, 34"
     ]
@@ -282,7 +282,7 @@ window.DI_BOOK.places = [
     "subtitle": "Floresta",
     "type": "Floresta",
     "region": "Norte de Vila Velha",
-    "summary": "Floresta onde estão a gruta, o lago e a cabana na floresta de neve.",
+    "summary": "Floresta ao norte de Vila Velha, com gruta e lago.",
     "sources": [
       "Capítulos 9–10, 12–13, 22, 27, 31–32, 36–37"
     ]
@@ -293,7 +293,7 @@ window.DI_BOOK.places = [
     "subtitle": "Gruta",
     "type": "Gruta",
     "region": "Floresta",
-    "summary": "Onde Kelly encontra ossos e o relógio dourado.",
+    "summary": "Gruta na floresta ao norte de Vila Velha.",
     "sources": [
       "Capítulos 10, 13, 31–32"
     ]
@@ -304,7 +304,7 @@ window.DI_BOOK.places = [
     "subtitle": "Lago",
     "type": "Lago",
     "region": "Floresta",
-    "summary": "Onde Kelly leva Junior ao baile.",
+    "summary": "Lago na floresta.",
     "sources": [
       "Capítulos 13, 27, 36"
     ]
@@ -315,7 +315,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cabana",
     "type": "Cabana",
     "region": "Plano espiritual",
-    "summary": "Onde Jennifer conversa com Luiza Salomandra.",
+    "summary": "Cabana cercada de neve, fora do mundo comum.",
     "sources": [
       "Capítulos 29, 35"
     ]
@@ -326,7 +326,7 @@ window.DI_BOOK.places = [
     "subtitle": "Túnel",
     "type": "Túnel",
     "region": "Vila Velha",
-    "summary": "Túnel de despejo ligado ao porão da casa abandonada.",
+    "summary": "Túnel de despejo de um córrego de Vila Velha.",
     "sources": [
       "Capítulos 4, 33–34"
     ]
@@ -337,7 +337,7 @@ window.DI_BOOK.places = [
     "subtitle": "Hospital",
     "type": "Hospital",
     "region": "Vila Velha",
-    "summary": "Onde Vini e Jennifer acordam em momentos diferentes.",
+    "summary": "Hospital das Lajes, em Vila Velha.",
     "sources": [
       "Capítulos 11, 13, 18, 28, 38"
     ]
@@ -348,7 +348,7 @@ window.DI_BOOK.places = [
     "subtitle": "Delegacia",
     "type": "Delegacia",
     "region": "Vila Velha",
-    "summary": "Onde Vini é interrogado e assume o tiro.",
+    "summary": "Delegacia de Vila Velha.",
     "sources": [
       "Capítulos 11, 28, 37"
     ]
@@ -359,7 +359,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cemitério",
     "type": "Cemitério",
     "region": "Vila Velha",
-    "summary": "Onde Pézinho e Mônica são enterrados.",
+    "summary": "Cemitério Rosas Vermelhas, em Vila Velha.",
     "sources": [
       "Capítulos 15, 18, 29–30, 37"
     ]
@@ -370,7 +370,7 @@ window.DI_BOOK.places = [
     "subtitle": "Favela",
     "type": "Favela",
     "region": "Vila Velha",
-    "summary": "Onde Vini tem o terreno que o pai lhe prometeu.",
+    "summary": "Favela da Peçanha, em Vila Velha.",
     "sources": [
       "Capítulos 5, 8, 11, 17, 23, 28, 31"
     ]
@@ -381,7 +381,7 @@ window.DI_BOOK.places = [
     "subtitle": "Plantação",
     "type": "Plantação",
     "region": "Estrada",
-    "summary": "Onde o grupo é perseguido.",
+    "summary": "Plantação de cana à beira da estrada.",
     "sources": [
       "Capítulo 22"
     ]
@@ -403,7 +403,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cidade",
     "type": "Cidade",
     "region": "—",
-    "summary": "Cidade para onde os Fontenelle tentam se mudar.",
+    "summary": "Cidade de onde os Fontenelle pensam em se mudar.",
     "sources": [
       "Capítulos 27, 36"
     ]
@@ -414,7 +414,7 @@ window.DI_BOOK.places = [
     "subtitle": "Salão",
     "type": "Salão",
     "region": "Vila Velha",
-    "summary": "Salão onde Vini tenta recuperar a vida.",
+    "summary": "Salão de cabeleireiro de Zeca, em Vila Velha.",
     "sources": [
       "Capítulos 23, 25"
     ]

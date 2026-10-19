@@ -1,0 +1,8 @@
+/* Curadoria do site: para o leitor ficam só as seções úteis (sem planejamento, mistérios, temas e situação editorial). */
+[data-route="mysteries"],[data-route^="mystery/"],[data-route="themes"],[data-route^="theme/"],
+[data-route="relationships"],[data-route^="relationship/"],[data-route="families"],[data-route^="family/"],
+[data-route="lore"],[data-route="canon"],
+[data-go="misterios"],[data-go^="misterio/"],[data-go="temas"],[data-go^="tema/"],
+[data-go="relacoes"],[data-go="familias"],[data-go="conceitos"],[data-go="organizacoes"],[data-go="canon"],[data-go="livros"],
+.status-stamp{display:none!important}
+body:not([data-book="dinastia-polar"]) [data-route="organisations"]{display:none!important}

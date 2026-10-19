@@ -7,7 +7,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cidade selada",
     "type": "Cidade selada",
     "region": "Interior de São Paulo",
-    "summary": "Cidade onde nasceram Olívia e Filipo, tomada por uma sombra no dia em que o sino da igreja tocou.",
+    "summary": "Cidade do interior de São Paulo, onde nasceram Olívia e Filipo.",
     "sources": [
       "Capítulos 2, 7, 11–13, 15–18, 21, 27, 29"
     ]
@@ -29,7 +29,7 @@ window.DI_BOOK.places = [
     "subtitle": "Mansão",
     "type": "Mansão",
     "region": "Morumbi, São Paulo",
-    "summary": "Casa de vidro de três andares com cobertura, sem câmeras e com anaconda.",
+    "summary": "Casa de vidro de três andares com cobertura, no Morumbi, em São Paulo.",
     "sources": [
       "Capítulos 4, 9, 13, 19, 24–26, 28"
     ]
@@ -73,7 +73,7 @@ window.DI_BOOK.places = [
     "subtitle": "Igreja",
     "type": "Igreja",
     "region": "Alvorada Alegre",
-    "summary": "Refúgio.",
+    "summary": "Igreja de Alvorada Alegre.",
     "sources": [
       "Capítulos 16, 18, 21, 27, 29"
     ]
@@ -84,7 +84,7 @@ window.DI_BOOK.places = [
     "subtitle": "Escola",
     "type": "Escola",
     "region": "Alvorada Alegre",
-    "summary": "Escola de seis andares.",
+    "summary": "Escola de seis andares em Alvorada Alegre.",
     "sources": [
       "Capítulos 16, 18, 21, 26–27"
     ]
@@ -117,7 +117,7 @@ window.DI_BOOK.places = [
     "subtitle": "Penitenciária",
     "type": "Penitenciária",
     "region": "—",
-    "summary": "Onde Vini está.",
+    "summary": "Penitenciária Estadual D. Edileno.",
     "sources": [
       "Capítulos 4–5, 9"
     ]
@@ -128,7 +128,7 @@ window.DI_BOOK.places = [
     "subtitle": "Casa",
     "type": "Casa",
     "region": "Serra",
-    "summary": "Casa de pedra da avó.",
+    "summary": "Casa de pedra de Olívia, na serra.",
     "sources": [
       "Capítulos 17–18, 22–24"
     ]
@@ -150,7 +150,7 @@ window.DI_BOOK.places = [
     "subtitle": "Casa",
     "type": "Casa",
     "region": "Estrada sul",
-    "summary": "Casa de Pollux.",
+    "summary": "Casa de Pollux, na estrada sul.",
     "sources": [
       "Capítulos 12, 16"
     ]
@@ -161,7 +161,7 @@ window.DI_BOOK.places = [
     "subtitle": "Restaurante",
     "type": "Restaurante",
     "region": "São Paulo",
-    "summary": "Restaurante do pedido.",
+    "summary": "Restaurante em São Paulo.",
     "sources": [
       "Capítulos 20, 25"
     ]
@@ -172,7 +172,7 @@ window.DI_BOOK.places = [
     "subtitle": "Casa noturna",
     "type": "Casa noturna",
     "region": "São Paulo",
-    "summary": "Casa noturna.",
+    "summary": "Casa noturna na Rua Fidalga, em São Paulo.",
     "sources": [
       "Capítulos 19, 22"
     ]
@@ -194,7 +194,7 @@ window.DI_BOOK.places = [
     "subtitle": "Lago",
     "type": "Lago",
     "region": "Vila Velha",
-    "summary": "Lago onde Jennifer resgata Junior.",
+    "summary": "Lago da floresta de Vila Velha.",
     "sources": [
       "Capítulo 1"
     ]
@@ -205,7 +205,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cemitério",
     "type": "Cemitério",
     "region": "Vila Velha",
-    "summary": "Túmulo de Kelly.",
+    "summary": "Cemitério Rosas Vermelhas, em Vila Velha.",
     "sources": [
       "Capítulo 6"
     ]
@@ -216,7 +216,7 @@ window.DI_BOOK.places = [
     "subtitle": "Casa",
     "type": "Casa",
     "region": "Rua dos Afogados",
-    "summary": "Casa do primeiro livro.",
+    "summary": "Casa da Rua dos Afogados, cenário do primeiro livro.",
     "sources": [
       "Capítulo 6"
     ]
@@ -271,7 +271,7 @@ window.DI_BOOK.places = [
     "subtitle": "Parque",
     "type": "Parque",
     "region": "Santa Catarina",
-    "summary": "Parque onde Kelly arrancou a cabeça de um dos ursinhos.",
+    "summary": "Parque de diversões em Santa Catarina.",
     "sources": [
       "Capítulo 3"
     ]
@@ -293,7 +293,7 @@ window.DI_BOOK.places = [
     "subtitle": "Cidade",
     "type": "Cidade",
     "region": "Interior",
-    "summary": "Cidade onde Lucinda Torres foi achada na linha do trem.",
+    "summary": "Cidade do interior onde Lucinda Torres foi achada.",
     "sources": [
       "Capítulos 13, 17"
     ]
@@ -304,7 +304,7 @@ window.DI_BOOK.places = [
     "subtitle": "Plano espiritual",
     "type": "Plano espiritual",
     "region": "Entre mundos",
-    "summary": "Lugar para onde os mortos seguem; a lenda diz que o Cara-de-Larva deve ser mandado para lá.",
+    "summary": "Lugar do plano espiritual para onde os mortos seguem.",
     "sources": [
       "Capítulo 11"
     ]
@@ -348,7 +348,7 @@ window.DI_BOOK.places = [
     "subtitle": "Mercado",
     "type": "Mercado",
     "region": "São Paulo",
-    "summary": "Mercado onde Priscila vê o rosto de Kelly.",
+    "summary": "Mercado em São Paulo.",
     "sources": [
       "Capítulos 19–20, 25"
     ]
@@ -359,7 +359,7 @@ window.DI_BOOK.places = [
     "subtitle": "Dimensão",
     "type": "Dimensão",
     "region": "Além",
-    "summary": "Reino de espectros e demônios, descrito por Pollux.",
+    "summary": "Dimensão de espectros e demônios, descrita por Pollux.",
     "sources": [
       "Capítulo 12"
     ]
@@ -370,7 +370,7 @@ window.DI_BOOK.places = [
     "subtitle": "Rua",
     "type": "Rua",
     "region": "São Paulo",
-    "summary": "Rua da casa de Priscila vista no sonho de Jennifer.",
+    "summary": "Rua da casa de Priscila vista num sonho de Jennifer.",
     "sources": [
       "Capítulo 15"
     ]
@@ -392,7 +392,7 @@ window.DI_BOOK.places = [
     "subtitle": "Estrada",
     "type": "Estrada",
     "region": "—",
-    "summary": "Onde a mãe de Jennifer morreu.",
+    "summary": "Estrada onde a mãe de Jennifer morreu.",
     "sources": [
       "Capítulos 5, 11"
     ]
