@@ -15,3 +15,5 @@ a.dss-item:hover{border-color:rgba(220,205,255,.7);background:rgba(255,255,255,.
 .dss-item.here{border-color:rgba(243,210,122,.6)}
 .dss-item.lock{opacity:.5}
 .dss-all{display:block;margin-top:14px;text-align:center;color:#bfb2e6;font-size:.9rem}
+.dss-panel h2,.dss-panel strong{color:#f4efff!important}
+.dss-panel small{color:#b3aad2!important}

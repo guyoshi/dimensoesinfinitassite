@@ -44,3 +44,53 @@ body[data-book="coracao-de-poeira"] .topbar-actions .di-ico,body[data-book="cora
 body[data-book="coracao-de-poeira"] .topbar-actions>button,body[data-book="coracao-de-poeira"] .utility-controls>button{opacity:1;border:1px solid rgba(214,177,106,.35);border-radius:50%}
 body[data-book="coracao-de-poeira"] #menu,body[data-book="coracao-de-poeira"] #perfToggle,body[data-book="coracao-de-poeira"] #performanceToggle{opacity:1!important;border:1px solid rgba(214,177,106,.35)!important;border-radius:50%!important;width:40px;height:40px;display:inline-grid;place-items:center;background:transparent}
 body[data-book="coracao-de-poeira"] #menu .di-ico,body[data-book="coracao-de-poeira"] #perfToggle .di-ico{color:#eadfc6;opacity:1}
+
+/* ===== Padrão único do cabeçalho (desktop): mesma altura, mesmos botões, mesma ordem em todos os livros ===== */
+@media(min-width:681px){
+  body[data-book] .top,body[data-book] .topbar-main{min-height:64px;align-items:center}
+  body[data-book] .topbar-actions{display:flex!important;align-items:center;gap:12px!important;flex:1 1 auto;min-width:0}
+  body[data-book] .top{gap:12px}
+  body[data-book] .pill,body[data-book] .selector-button,body[data-book] .search,body[data-book] .search-trigger{
+    height:40px!important;min-height:40px!important;padding:0 16px!important;border-radius:999px!important;
+    display:inline-flex!important;align-items:center!important;gap:8px!important;font-size:14px!important;line-height:1!important;box-sizing:border-box!important;flex:0 0 auto}
+  body[data-book] .search,body[data-book] .search-trigger{flex:0 1 260px!important;width:260px;max-width:260px;justify-content:flex-start!important}
+  body[data-book] .search span:not(.di-ico),body[data-book] .search-trigger span:not(.di-ico){display:inline!important;flex:1;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  body[data-book] .search kbd,body[data-book] .search-trigger kbd{display:inline-block!important;flex:none;margin-left:auto}
+  body[data-book] .selector-button>span:not(.selector-icon):not(.di-ico),body[data-book] .pill>span:not(.di-ico){display:inline!important}
+  body[data-book] .ctrl,body[data-book] .utility-controls{display:flex!important;align-items:center;gap:10px!important;margin-left:auto}
+  body[data-book] .ico,body[data-book] .icon-btn,body[data-book] .ctrl>button,body[data-book] .utility-controls>button,body[data-book] #performanceToggle,body[data-book] #perfToggle,body[data-book] #settingsButton,
+  body[data-book] .performance-toggle-wrap>button{
+    width:40px!important;height:40px!important;min-width:40px!important;padding:0!important;border-radius:50%!important;display:inline-grid!important;place-items:center;box-sizing:border-box!important;flex:0 0 auto}
+  body[data-book] .icon-btn.mobile-only,body[data-book] .ico.mobile-only{display:none!important}
+  body[data-book] .time-test-control,body[data-book] .time-control{height:40px;align-items:center}
+}
+@media(min-width:681px){
+  body[data-book] .search kbd,body[data-book] .search-trigger kbd{font:12px/1 ui-monospace,Consolas,monospace!important;padding:3px 6px;opacity:.8}
+  body[data-book] .time-test-control{flex:0 0 auto;padding:0 12px;gap:8px}
+  body[data-book] .time-test-control label{display:none}
+  body[data-book] .time-test-control input[type=range]{width:96px;min-width:0}
+  body[data-book] .time-mobile-toggle{display:none!important}
+}
+@media(min-width:681px){
+  body[data-book] .utility-controls>.time-mobile-toggle,body[data-book] .ctrl>.time-mobile-toggle{display:none!important}
+}
+@media(min-width:681px) and (max-width:1500px){
+  body[data-book] .search,body[data-book] .search-trigger{flex:0 1 210px!important;width:210px;max-width:210px;min-width:40px}
+  body[data-book] .search kbd,body[data-book] .search-trigger kbd{display:none!important}
+  body[data-book] .time-test-control output{display:none}
+  body[data-book] .book-music-player.docked .music-volume-label input{width:52px}
+}
+@media(min-width:681px) and (max-width:1160px){
+  body[data-book] .search,body[data-book] .search-trigger{flex:0 0 40px!important;width:40px!important;max-width:40px;padding:0!important;justify-content:center!important}
+  body[data-book] .search span:not(.di-ico),body[data-book] .search-trigger span:not(.di-ico){display:none!important}
+  body[data-book] .pill>span:not(.di-ico),body[data-book] .selector-button>span:not(.selector-icon):not(.di-ico){max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+}
+@media(min-width:681px) and (max-width:1160px){
+  body[data-book] .book-music-player.docked .music-volume-label{display:none}
+  body[data-book] .time-test-control input[type=range]{width:64px}
+  body[data-book] .top,body[data-book] .topbar-actions{gap:8px!important}
+  body[data-book] .ctrl,body[data-book] .utility-controls{gap:6px!important}
+}
+@media(min-width:681px) and (max-width:1160px){
+  body[data-book] .music-dock .music-volume-label,body[data-book] #musicDock .music-volume-label{display:none!important}
+}

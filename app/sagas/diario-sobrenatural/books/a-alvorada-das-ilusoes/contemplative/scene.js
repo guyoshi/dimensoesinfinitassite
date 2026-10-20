@@ -33,13 +33,16 @@
  const on=(goat)=>{failure.style.transition=apparition.style.transition='none';failure.classList.add('visible');if(goat)apparition.classList.add('visible');};
  const off=()=>{failure.style.transition=apparition.style.transition='none';failure.classList.remove('visible');apparition.classList.remove('visible');};
  const fadeOut=(sec)=>{failure.style.transition=apparition.style.transition='opacity '+sec+'s ease-in-out';failure.classList.remove('visible');apparition.classList.remove('visible');};
- // Piscadas secas (cada uma em outro lugar); a última fica acesa 1–2 s e some em fade suave.
+ // Mesmo pedaço pisca várias vezes (como um bug), fixa 1–2 s e some em fade suave; só então outro pedaço aparece.
+ function placeFull(){const st=failure.style;for(const pre of ['','-webkit-']){st.setProperty(pre+'mask-image','none');}}
  function burst(goat){
+  const full=Math.random()<.2;           // às vezes a tela inteira pisca e muda de uma vez
+  const showGoat=goat||Math.random()<.4; // a aparição pode surgir em qualquer piscada
   const n=2+Math.floor(Math.random()*4);let t=0;
   for(let i=0;i<n;i++){
    const last=i===n-1,onMs=rand(35,110),offMs=rand(40,170);
-   later(()=>{place(false);on(goat&&last);},t);
-   if(last){const hold=rand(1000,2000),out=rand(.6,1.0);t+=hold;later(()=>fadeOut(out),t);t+=out*1000;}
+   later(()=>{if(i===0){full?placeFull():place(false);}on(showGoat&&(last||i>=n-2));},t);
+   if(last){const hold=full?rand(2200,4200):rand(1000,2000),out=rand(.7,1.2);t+=hold;later(()=>fadeOut(out),t);t+=out*1000;}
    else{t+=onMs;later(off,t);t+=offMs;}
   }
   return t;
@@ -49,7 +52,7 @@
   clearTimeout(nextTimer);timers.forEach(clearTimeout);timers=[];sequence++;
   let total;
   if(manual){place(true);on(true);later(()=>fadeOut(.8),1300);total=2300;}
-  else total=burst(sequence%4===0);
+  else total=burst(false);
   later(()=>schedule(false),total);
  }
  function wake(){document.body.classList.remove('controls-hidden');clearTimeout(idleTimer);idleTimer=setTimeout(()=>{if(!document.querySelector(':focus-visible')&&!document.querySelector('input:focus'))document.body.classList.add('controls-hidden');},6000);}
