@@ -115,6 +115,7 @@
             <button class="pill" id="bookBtn" aria-haspopup="dialog">${icon('books', 'pi')}<span>${esc(bk.name)}</span><i>⌄</i></button>
             <button class="search" id="searchBtn" aria-label="Pesquisar">${icon('search', 'pi')}<span>Pesquisar</span><kbd>Ctrl K</kbd></button>
             <div class="ctrl">
+              <span id="musicDock"></span>
               <button class="ico" id="perfBtn" aria-label="Modo desempenho" aria-pressed="false">${icon('gauge')}</button>
               <button class="ico" id="contBtn" aria-label="Contemplar este mundo" title="Contemplar este mundo">${icon('eye')}</button>
               <button class="ico" id="setBtn" aria-label="Configurações">${icon('settings')}</button>

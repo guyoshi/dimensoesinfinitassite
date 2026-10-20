@@ -1,4 +1,10 @@
 window.BOOK_MUSIC_CONFIG = Object.freeze({
+  "a-lenda-da-aurora": {
+    title: "Astronomia (synthwave 80s)",
+    files: [
+      "assets/books/spacetheft/a-lenda-da-aurora/audio.mp3"
+    ]
+  },
   "ruinas-dos-ceus": {
     title: "Ruínas dos Céus",
     files: [
