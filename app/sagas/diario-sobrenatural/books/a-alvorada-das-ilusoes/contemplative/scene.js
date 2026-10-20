@@ -24,21 +24,23 @@
    else if(kind===2){w=rand(8,20);h=rand(35,80);}      // faixa vertical
    else {w=big?100:rand(45,80);h=big?100:rand(40,75);} // pedaço grande
    const x=rand(0,100-w),y=rand(0,100-h);
-   img.push('linear-gradient(#000,#000)');size.push(w.toFixed(1)+'% '+h.toFixed(1)+'%');
+   img.push('radial-gradient(ellipse closest-side at 50% 50%,#000 48%,rgba(0,0,0,.55) 74%,transparent 100%)');size.push(w.toFixed(1)+'% '+h.toFixed(1)+'%');
    pos.push((w>=99.5?0:x/(100-w)*100).toFixed(1)+'% '+(h>=99.5?0:y/(100-h)*100).toFixed(1)+'%');
   }
   const st=failure.style;
   for(const pre of ['','-webkit-']){st.setProperty(pre+'mask-image',img.join(','));st.setProperty(pre+'mask-size',size.join(','));st.setProperty(pre+'mask-position',pos.join(','));st.setProperty(pre+'mask-repeat','no-repeat');}
  }
- const on=(goat)=>{failure.classList.add('visible');if(goat)apparition.classList.add('visible');};
- const off=()=>{failure.classList.remove('visible');apparition.classList.remove('visible');};
- // Lampejo seco: 1 a 5 piscadas muito rápidas, cada uma em outro lugar da imagem.
+ const on=(goat)=>{failure.style.transition=apparition.style.transition='none';failure.classList.add('visible');if(goat)apparition.classList.add('visible');};
+ const off=()=>{failure.style.transition=apparition.style.transition='none';failure.classList.remove('visible');apparition.classList.remove('visible');};
+ const fadeOut=(sec)=>{failure.style.transition=apparition.style.transition='opacity '+sec+'s ease-in-out';failure.classList.remove('visible');apparition.classList.remove('visible');};
+ // Piscadas secas (cada uma em outro lugar); a última fica acesa 1–2 s e some em fade suave.
  function burst(goat){
-  const n=1+Math.floor(Math.random()*5);let t=0;
+  const n=2+Math.floor(Math.random()*4);let t=0;
   for(let i=0;i<n;i++){
-   const onMs=rand(35,110),offMs=rand(40,170);
-   later(()=>{place(false);on(goat&&i===n-1);},t);t+=onMs;
-   later(off,t);t+=offMs;
+   const last=i===n-1,onMs=rand(35,110),offMs=rand(40,170);
+   later(()=>{place(false);on(goat&&last);},t);
+   if(last){const hold=rand(1000,2000),out=rand(.6,1.0);t+=hold;later(()=>fadeOut(out),t);t+=out*1000;}
+   else{t+=onMs;later(off,t);t+=offMs;}
   }
   return t;
  }
@@ -46,7 +48,7 @@
   if(document.hidden)return;
   clearTimeout(nextTimer);timers.forEach(clearTimeout);timers=[];sequence++;
   let total;
-  if(manual){place(true);on(true);later(off,1300);total=1500;}
+  if(manual){place(true);on(true);later(()=>fadeOut(.8),1300);total=2300;}
   else total=burst(sequence%4===0);
   later(()=>schedule(false),total);
  }

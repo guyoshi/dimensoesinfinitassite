@@ -19,7 +19,7 @@
       await style('app/shared/contemplative/landscapes.css?v=20261020i');await script('app/shared/contemplative/landscapes.js?v=20261020i');await window.LANDSCAPE_READY;
     }else if(book==='a-alvorada-das-ilusoes'){
       const base='app/sagas/diario-sobrenatural/books/a-alvorada-das-ilusoes/contemplative/';
-      await style(base+'scene.css?v=20261020c');await script(base+'scene.js?v=20261020h');await window.ALVORADA_READY;
+      await style(base+'scene.css?v=20261020c');await script(base+'scene.js?v=20261020j');await window.ALVORADA_READY;
     }else if(legacy[book]){
       const base=`app/sagas/ciclo-de-jesed/books/${book}/experience/`;
       await style('app/shared/experience/common.css');await style(base+'styles.css');
