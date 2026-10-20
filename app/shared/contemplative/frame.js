@@ -15,8 +15,8 @@
       const base='app/sagas/ciclo-de-jesed/books/ruinas-dos-ceus/experience/';
       await style(base+'styles.css');await style(base+'contemplative.css?v=20261020d');
       await script(base+'contemplative.js?v=20261020d');
-    }else if(['os-elos-das-sombras','guerras-de-sangue','a-lenda-da-aurora'].includes(book)){
-      await style('app/shared/contemplative/landscapes.css?v=20261020f');await script('app/shared/contemplative/landscapes.js?v=20261020f');await window.LANDSCAPE_READY;
+    }else if(['os-elos-das-sombras','guerras-de-sangue','a-lenda-da-aurora','dinastia-polar'].includes(book)){
+      await style('app/shared/contemplative/landscapes.css?v=20261020g');await script('app/shared/contemplative/landscapes.js?v=20261020g');await window.LANDSCAPE_READY;
     }else if(book==='a-alvorada-das-ilusoes'){
       const base='app/sagas/diario-sobrenatural/books/a-alvorada-das-ilusoes/contemplative/';
       await style(base+'scene.css?v=20261020a');await script(base+'scene.js?v=20261020f');await window.ALVORADA_READY;

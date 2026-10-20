@@ -12,3 +12,23 @@
 @media(max-width:700px){.theme-aurora .white-dwarf{left:80%;top:19%}}
 .scene-audio label[hidden]{display:none}
 
+.theme-polar{background:#302719}
+.polar-city-plane{position:absolute;left:50%;top:50%;width:max(100vw,177.6833vh);height:max(100vh,56.2799vw);transform:translate(-50%,-50%);z-index:0;pointer-events:none}
+.polar-city{position:absolute;inset:0;width:100%;height:100%}
+.polar-cloud-shade{position:absolute;inset:0 0 67%;background:radial-gradient(ellipse at 30% 35%,#4e391f27,transparent 63%);animation:polar-cloud-drift 100s ease-in-out infinite alternate}
+.polar-flame{position:absolute;display:block;width:3px;height:4px;border-radius:50%;background:#ffdfa2;box-shadow:0 0 5px 2px #efb75791,0 0 15px 5px #d9973829;animation:polar-flame-glow var(--duration) ease-in-out var(--delay) infinite alternate;mix-blend-mode:screen}
+.polar-fog{position:absolute;z-index:1;pointer-events:none;background:radial-gradient(ellipse at 22% 55%,#ddd3af23,transparent 52%),radial-gradient(ellipse at 75% 65%,#bfb69819,transparent 58%);mask-image:linear-gradient(transparent,#000 35%,#000 65%,transparent)}
+.polar-fog-far{left:5%;top:47%;width:85%;height:14%;opacity:.75;animation:polar-mist-far 75s ease-in-out infinite alternate}
+.polar-fog-near{left:-9%;top:65%;width:104%;height:16%;opacity:.8;animation:polar-mist-near 58s ease-in-out infinite alternate}
+.polar-cloth{position:absolute;right:-1.5%;top:-4%;height:58%;width:17%;object-fit:fill;z-index:5;pointer-events:none;transform-origin:65% 0;animation:polar-cloth-sway 17s ease-in-out infinite alternate;filter:brightness(.7)}
+.theme-polar .landscape-shade{background:linear-gradient(0deg,#0d0b09a1,transparent 33%,transparent 80%,#100c081c)}
+.theme-polar .scene-ui button,.theme-polar .scene-audio{background-color:#211c16c9}
+.theme-polar .scene-audio button{background:none}
+@keyframes polar-flame-glow{0%{opacity:.3;transform:scale(.8,1)}35%{opacity:.57}65%{opacity:.35}100%{opacity:.77;transform:scale(1,1.15)}}
+@keyframes polar-mist-far{from{transform:translateX(-3%)}to{transform:translateX(5%)}}
+@keyframes polar-mist-near{from{transform:translateX(5%)}to{transform:translateX(-5%)}}
+@keyframes polar-cloud-drift{from{transform:translateX(-6%);opacity:.4}to{transform:translateX(7%);opacity:.8}}
+@keyframes polar-cloth-sway{0%{transform:rotate(-.45deg) skewX(-.4deg)}50%{transform:rotate(.2deg) skewX(.1deg)}100%{transform:rotate(.6deg) skewX(.5deg)}}
+@media(max-width:700px){.polar-city-plane{left:15%}.polar-cloth{right:-4%;width:23%;height:40%;top:-3%}.theme-polar .scene-title{font-size:36px}.theme-polar .scene-subtitle{max-width:260px;line-height:1.6}}
+@media(prefers-reduced-motion:reduce){.theme-polar .landscape *{animation:none!important}}
+
