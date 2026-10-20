@@ -12,39 +12,42 @@
  const rand=(a,b)=>a+Math.random()*(b-a);
  const stop=()=>{clearTimeout(nextTimer);timers.forEach(clearTimeout);timers=[];failure.classList.remove('visible');apparition.classList.remove('visible');};
  // Primeira falha logo no começo; depois a cada 4–12 s, de forma irregular.
- function schedule(first){clearTimeout(nextTimer);if(paused||document.hidden)return;nextTimer=setTimeout(()=>reveal(false),first?rand(1800,3200):rand(4000,12000));}
- function place(){
-  const w=rand(34,62),h=rand(34,62),x=rand(0,100-w),y=rand(4,96-h);
-  // janela suave (bordas esfumadas), nunca um recorte seco
-  failure.style.setProperty('--mx',x+'%');failure.style.setProperty('--my',y+'%');
-  failure.style.setProperty('--mw',w+'%');failure.style.setProperty('--mh',h+'%');
- }
- function setFade(sec){failure.style.setProperty('--fade',sec+'s');apparition.style.setProperty('--fade',sec+'s');}
- // Lampejo: 2 a 4 piscadas rápidas, como um bug da realidade.
- function burst(withGoat){
-  place();const n=2+Math.floor(Math.random()*3);let t=0;
+ function schedule(first){clearTimeout(nextTimer);if(paused||document.hidden)return;nextTimer=setTimeout(()=>reveal(false),first?rand(900,1800):rand(1200,5500));}
+ // Vários pedaços da cena (céu, casas, rua, torre…) piscam de uma vez, com corte seco.
+ function place(big){
+  const n=big?1:1+Math.floor(Math.random()*3),img=[],size=[],pos=[];
   for(let i=0;i<n;i++){
-   const on=rand(60,190),off=rand(50,230);
-   later(()=>{setFade(.09);failure.classList.add('visible');if(withGoat&&i===n-1){apparition.style.setProperty('--fade','.25s');apparition.classList.add('visible');}},t);
-   t+=on;
-   later(()=>{setFade(i===n-1?.55:.09);failure.classList.remove('visible');apparition.classList.remove('visible');},t);
-   t+=off;
+   const kind=big?3:Math.floor(Math.random()*4);
+   let w,h;
+   if(kind===0){w=rand(14,34);h=rand(14,34);}          // retalho pequeno
+   else if(kind===1){w=rand(50,95);h=rand(5,16);}      // faixa horizontal (glitch)
+   else if(kind===2){w=rand(8,20);h=rand(35,80);}      // faixa vertical
+   else {w=big?100:rand(45,80);h=big?100:rand(40,75);} // pedaço grande
+   const x=rand(0,100-w),y=rand(0,100-h);
+   img.push('linear-gradient(#000,#000)');size.push(w.toFixed(1)+'% '+h.toFixed(1)+'%');
+   pos.push((w>=99.5?0:x/(100-w)*100).toFixed(1)+'% '+(h>=99.5?0:y/(100-h)*100).toFixed(1)+'%');
   }
-  return t+600;
+  const st=failure.style;
+  for(const pre of ['','-webkit-']){st.setProperty(pre+'mask-image',img.join(','));st.setProperty(pre+'mask-size',size.join(','));st.setProperty(pre+'mask-position',pos.join(','));st.setProperty(pre+'mask-repeat','no-repeat');}
  }
- // Aparição lenta: surge e some em fade bem suave.
- function soft(withGoat,manual){
-  place();if(manual)failure.style.setProperty('--mx','12%'),failure.style.setProperty('--my','10%'),failure.style.setProperty('--mw','76%'),failure.style.setProperty('--mh','80%');
-  const inT=rand(1.1,1.7),hold=manual?3200:rand(1200,2400),outT=rand(1.6,2.4);
-  setFade(inT);failure.classList.add('visible');if(withGoat)apparition.classList.add('visible');
-  later(()=>{setFade(outT);failure.classList.remove('visible');apparition.classList.remove('visible');},inT*1000+hold);
-  return (inT+outT)*1000+hold+200;
+ const on=(goat)=>{failure.classList.add('visible');if(goat)apparition.classList.add('visible');};
+ const off=()=>{failure.classList.remove('visible');apparition.classList.remove('visible');};
+ // Lampejo seco: 1 a 5 piscadas muito rápidas, cada uma em outro lugar da imagem.
+ function burst(goat){
+  const n=1+Math.floor(Math.random()*5);let t=0;
+  for(let i=0;i<n;i++){
+   const onMs=rand(35,110),offMs=rand(40,170);
+   later(()=>{place(false);on(goat&&i===n-1);},t);t+=onMs;
+   later(off,t);t+=offMs;
+  }
+  return t;
  }
  function reveal(manual){
   if(document.hidden)return;
   clearTimeout(nextTimer);timers.forEach(clearTimeout);timers=[];sequence++;
-  const goat=manual||sequence%4===0;
-  const total=manual?soft(true,true):Math.random()<.7?burst(goat):soft(goat,false);
+  let total;
+  if(manual){place(true);on(true);later(off,1300);total=1500;}
+  else total=burst(sequence%4===0);
   later(()=>schedule(false),total);
  }
  function wake(){document.body.classList.remove('controls-hidden');clearTimeout(idleTimer);idleTimer=setTimeout(()=>{if(!document.querySelector(':focus-visible')&&!document.querySelector('input:focus'))document.body.classList.add('controls-hidden');},6000);}
