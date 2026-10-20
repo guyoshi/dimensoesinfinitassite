@@ -7,18 +7,45 @@
  document.body.innerHTML=`<div class="alvorada-scene" aria-hidden="true">${image('city-day-v1','alvorada-image')}<div class="alvorada-failure">${image('city-night-v2','alvorada-image')}<div class="alvorada-fog"></div></div>${image('goat-v1','alvorada-apparition')}<div class="alvorada-pollen">${Array.from({length:22},(_,i)=>`<i style="left:${(i*43.3+7)%100}%;top:${(i*27.1+5)%100}%;--duration:${18+i%9}s;--delay:-${i%15}s"></i>`).join('')}</div><div class="alvorada-shade"></div></div>
  <div class="alvorada-ui"><div class="alvorada-top"><button type="button" data-alvorada-close>← Voltar</button><div class="alvorada-actions"><button type="button" data-alvorada-pause aria-pressed="${paused}">${paused?'Falhas pausadas':'Pausar falhas'}</button><button type="button" data-alvorada-reveal>Revelar por um instante</button><button type="button" data-alvorada-full>Tela cheia</button></div></div><p class="alvorada-hint">Alvorada Alegre · há algo por trás da paisagem</p><div class="alvorada-bottom"><div><h1 class="alvorada-title">Alvorada Alegre</h1><p class="alvorada-subtitle">A Alvorada das Ilusões · Diário Sobrenatural</p></div><div class="alvorada-audio"><button type="button" data-alvorada-music>♪ Música</button><label>Volume <input data-alvorada-volume type="range" min="0" max="1" step=".01" value=".35" aria-label="Volume da música"></label></div></div></div>`;
  const failure=document.querySelector('.alvorada-failure'),apparition=document.querySelector('.alvorada-apparition');
- const stop=()=>{clearTimeout(nextTimer);clearTimeout(clearTimer);failure.classList.remove('visible');apparition.classList.remove('visible');};
- function schedule(){clearTimeout(nextTimer);if(paused||document.hidden)return;nextTimer=setTimeout(()=>{reveal(false);},13000+Math.random()*14000);}
+ let timers=[];
+ const later=(fn,ms)=>{const id=setTimeout(fn,ms);timers.push(id);return id;};
+ const rand=(a,b)=>a+Math.random()*(b-a);
+ const stop=()=>{clearTimeout(nextTimer);timers.forEach(clearTimeout);timers=[];failure.classList.remove('visible');apparition.classList.remove('visible');};
+ // Primeira falha logo no começo; depois a cada 4–12 s, de forma irregular.
+ function schedule(first){clearTimeout(nextTimer);if(paused||document.hidden)return;nextTimer=setTimeout(()=>reveal(false),first?rand(1800,3200):rand(4000,12000));}
+ function place(){
+  const w=rand(34,62),h=rand(34,62),x=rand(0,100-w),y=rand(4,96-h);
+  // janela suave (bordas esfumadas), nunca um recorte seco
+  failure.style.setProperty('--mx',x+'%');failure.style.setProperty('--my',y+'%');
+  failure.style.setProperty('--mw',w+'%');failure.style.setProperty('--mh',h+'%');
+ }
+ function setFade(sec){failure.style.setProperty('--fade',sec+'s');apparition.style.setProperty('--fade',sec+'s');}
+ // Lampejo: 2 a 4 piscadas rápidas, como um bug da realidade.
+ function burst(withGoat){
+  place();const n=2+Math.floor(Math.random()*3);let t=0;
+  for(let i=0;i<n;i++){
+   const on=rand(60,190),off=rand(50,230);
+   later(()=>{setFade(.09);failure.classList.add('visible');if(withGoat&&i===n-1){apparition.style.setProperty('--fade','.25s');apparition.classList.add('visible');}},t);
+   t+=on;
+   later(()=>{setFade(i===n-1?.55:.09);failure.classList.remove('visible');apparition.classList.remove('visible');},t);
+   t+=off;
+  }
+  return t+600;
+ }
+ // Aparição lenta: surge e some em fade bem suave.
+ function soft(withGoat,manual){
+  place();if(manual)failure.style.setProperty('--mx','12%'),failure.style.setProperty('--my','10%'),failure.style.setProperty('--mw','76%'),failure.style.setProperty('--mh','80%');
+  const inT=rand(1.1,1.7),hold=manual?3200:rand(1200,2400),outT=rand(1.6,2.4);
+  setFade(inT);failure.classList.add('visible');if(withGoat)apparition.classList.add('visible');
+  later(()=>{setFade(outT);failure.classList.remove('visible');apparition.classList.remove('visible');},inT*1000+hold);
+  return (inT+outT)*1000+hold+200;
+ }
  function reveal(manual){
   if(document.hidden)return;
-  clearTimeout(nextTimer);clearTimeout(clearTimer);sequence++;
-  const x=10+Math.random()*44,y=16+Math.random()*31,w=28+Math.random()*27,h=28+Math.random()*34;
-  // A local window into the aligned night image; no rapid full-screen flashes.
-  failure.style.setProperty('--reveal',manual?'inset(10% 12% 8% 12%)':`inset(${y}% ${Math.max(0,100-x-w)}% ${Math.max(0,100-y-h)}% ${x}%)`);
-  if(!manual&&sequence%4===0)failure.style.setProperty('--reveal','inset(20% 25% 10% 40%)');
-  failure.classList.add('visible');
-  apparition.classList.toggle('visible',manual||sequence%4===0);
-  clearTimer=setTimeout(()=>{failure.classList.remove('visible');apparition.classList.remove('visible');schedule();},manual?3800:1600+Math.random()*1400);
+  clearTimeout(nextTimer);timers.forEach(clearTimeout);timers=[];sequence++;
+  const goat=manual||sequence%4===0;
+  const total=manual?soft(true,true):Math.random()<.7?burst(goat):soft(goat,false);
+  later(()=>schedule(false),total);
  }
  function wake(){document.body.classList.remove('controls-hidden');clearTimeout(idleTimer);idleTimer=setTimeout(()=>{if(!document.querySelector(':focus-visible')&&!document.querySelector('input:focus'))document.body.classList.add('controls-hidden');},6000);}
  function syncMusic(){const source=parent.document.querySelector('[data-music-power]'),playing=source?.getAttribute('aria-pressed')==='true';const button=document.querySelector('[data-alvorada-music]');button.textContent=playing?'Ⅱ Pausar música':'♪ Tocar música';button.disabled=!source||source.disabled;button.setAttribute('aria-pressed',String(playing));const volume=parent.document.querySelector('[data-music-volume]');if(volume)document.querySelector('[data-alvorada-volume]').value=volume.value;}
@@ -39,5 +66,5 @@
  addEventListener('pagehide',()=>{stop();clearTimeout(idleTimer);},{once:true});
  if(parent.document.body.classList.contains('no-particles'))document.querySelector('.alvorada-pollen').remove();
  document.body.classList.toggle('effects-paused',paused);syncMusic();wake();
- window.ALVORADA_READY=Promise.all([...document.images].map(img=>img.decode())).then(schedule);
+ window.ALVORADA_READY=Promise.all([...document.images].map(img=>img.decode())).then(()=>schedule(true));
 })();

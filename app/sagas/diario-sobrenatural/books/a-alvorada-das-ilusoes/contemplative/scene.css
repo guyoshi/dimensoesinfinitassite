@@ -1,12 +1,13 @@
 *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#10202b;font-family:system-ui,sans-serif;color:#fff}
 .alvorada-scene,.alvorada-image,.alvorada-failure,.alvorada-fog,.alvorada-atmosphere{position:absolute;inset:0;pointer-events:none}
 .alvorada-image{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
-.alvorada-failure{opacity:0;clip-path:var(--reveal,inset(100%));transition:opacity .32s ease;will-change:opacity}
+.alvorada-failure{opacity:0;transition:opacity var(--fade,.3s) ease-in-out;will-change:opacity;--mx:20%;--my:15%;--mw:50%;--mh:50%;-webkit-mask-image:radial-gradient(ellipse closest-side at 50% 50%,#000 38%,transparent 100%);mask-image:radial-gradient(ellipse closest-side at 50% 50%,#000 38%,transparent 100%);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:var(--mw) var(--mh);mask-size:var(--mw) var(--mh);-webkit-mask-position:var(--mx) var(--my);mask-position:var(--mx) var(--my)}
 .alvorada-failure.visible{opacity:1}
 .alvorada-failure::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 5px,#80b0d50b 5px 6px);opacity:.45}
 .alvorada-fog{background:radial-gradient(ellipse at 40% 85%,#c9d4e133,transparent 48%);animation:alvorada-fog 32s ease-in-out infinite alternate}
-.alvorada-apparition{position:absolute;left:55%;bottom:18%;width:clamp(70px,10vw,165px);height:36%;object-fit:contain;object-position:bottom;opacity:0;filter:brightness(.55);transition:opacity .5s ease;pointer-events:none}
+.alvorada-apparition{position:absolute;left:55%;bottom:18%;width:clamp(70px,10vw,165px);height:36%;object-fit:contain;object-position:bottom;opacity:0;filter:brightness(.55);transition:opacity var(--fade,.5s) ease-in-out;pointer-events:none}
 .alvorada-apparition.visible{opacity:.86}
+.alvorada-failure.visible{filter:contrast(1.05) saturate(1.05)}
 .alvorada-pollen{position:absolute;inset:0;pointer-events:none;overflow:hidden}.alvorada-pollen i{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff0ba;box-shadow:0 0 7px #ffdf96;opacity:.35;animation:alvorada-pollen var(--duration) ease-in-out infinite alternate;animation-delay:var(--delay)}
 .alvorada-shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,#06101d8c,transparent 26%,transparent 78%,#06101d36)}
 .alvorada-ui{position:absolute;inset:0;transition:opacity .8s;pointer-events:none}.alvorada-ui button,.alvorada-ui input{pointer-events:auto}
