@@ -1,4 +1,10 @@
 window.BOOK_MUSIC_CONFIG = Object.freeze({
+  "os-elos-das-sombras": {
+    title: "Hiding In The Dark",
+    files: [
+      "assets/books/diario-sobrenatural/os-elos-das-sombras/audio.mp3"
+    ]
+  },
   "a-lenda-da-aurora": {
     title: "Astronomia (synthwave 80s)",
     files: [
