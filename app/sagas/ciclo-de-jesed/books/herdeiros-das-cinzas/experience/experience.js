@@ -49,7 +49,7 @@
     return t>=1||p.y>innerHeight+30||p.x<-80||p.x>innerWidth+80;
   }
   function active(){return !document.hidden&&!document.body.classList.contains('performance-mode')&&!document.body.classList.contains('no-particles')&&getBool('ash')}
-  function frame(now){
+  function frame(now){if(document.body.classList.contains('contemplative-frame-active')){requestAnimationFrame(frame);return;}
     const dt=Math.min(40,now-last);last=now;
     const frontOn=getBool('ash-front');
     const dark=document.body.classList.contains('contemplative-active');
@@ -128,16 +128,15 @@
   /* spawn escreve em layer.particles; o contemplativo usa um proxy com o mesmo formato. */
   function spawnInto(list,front){const proxy={front,particles:[]};spawn(proxy,true);list.push(...proxy.particles)}
   function drawContemplative(){
-    if(!shell?.classList.contains('open')){requestAnimationFrame(drawContemplative);return}
+    if(!shell?.classList.contains('open')){return}
     cCtx.clearRect(0,0,innerWidth,innerHeight);
     const target=Math.max(24,Math.round(maxParticles(false)*.9));
     while(cParticles.length<target)spawnInto(cParticles,Math.random()<.3);
     cParticles=cParticles.filter(p=>!drawParticle(cCtx,p,16));
     requestAnimationFrame(drawContemplative);
   }
-  requestAnimationFrame(drawContemplative);
   function syncContemplative(){if(shell&&document.body.classList.contains('performance-mode'))cParticles.length=0}
-  function openContemplative(){const s=createContemplative();s.classList.add('open');s.setAttribute('aria-hidden','false');document.body.classList.add('contemplative-active');s.querySelector('.contemplative-back')?.focus()}
+  function openContemplative(){const s=createContemplative();s.classList.add('open');s.setAttribute('aria-hidden','false');document.body.classList.add('contemplative-active');s.querySelector('.contemplative-back')?.focus();requestAnimationFrame(drawContemplative)}
   function closeContemplative(){if(!shell)return;shell.classList.remove('open');shell.setAttribute('aria-hidden','true');document.body.classList.remove('contemplative-active');cParticles.length=0;document.querySelector('[data-contemplative="cinzas"]')?.focus()}
   document.addEventListener('click',e=>{
     if(e.target.closest('[data-contemplative="cinzas"]'))openContemplative();

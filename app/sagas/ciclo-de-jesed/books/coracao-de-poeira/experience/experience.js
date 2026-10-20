@@ -47,7 +47,7 @@
     return t>=1;
   }
   function active(){return !document.hidden&&!document.body.classList.contains('performance-mode')&&!document.body.classList.contains('no-particles')&&getBool('sand')}
-  function frame(now){
+  function frame(now){if(document.body.classList.contains('contemplative-frame-active')){requestAnimationFrame(frame);return;}
     const dt=Math.min(40,now-last);last=now;
     const frontOn=getBool('sand-front');
     if(active()&&running){
@@ -135,7 +135,7 @@
   function resizeContemplative(){if(!cCanvas)return;const dpr=Math.min(devicePixelRatio||1,1.5);cCanvas.width=innerWidth*dpr;cCanvas.height=innerHeight*dpr;cCtx.setTransform(dpr,0,0,dpr,0,0)}
   addEventListener('resize',resizeContemplative,{passive:true});
   function drawContemplative(){
-    if(!shell?.classList.contains('open')){requestAnimationFrame(drawContemplative);return}
+    if(!shell?.classList.contains('open')){return}
     cCtx.clearRect(0,0,innerWidth,innerHeight);
     while(cParticles.length<Math.max(8,Math.round(maxParticles(false)*.4))){
       cParticles.push({x:Math.random()*innerWidth,y:Math.random()*innerHeight,vy:(-.02+Math.random()*.04)*.5,vx:(.02+Math.random()*.1)*(Math.random()<.5?1:-1),size:.6+Math.random()*1.8,life:0,max:16000+Math.random()*18000,alpha:.04+Math.random()*.12,sway:Math.random()*6,spiralAngle:Math.random()*Math.PI*2,spiralRadius:4+Math.random()*12,spiralSpeed:(.0008+Math.random()*.002)*(Math.random()<.5?1:-1)});
@@ -143,8 +143,7 @@
     cParticles=cParticles.filter(p=>!drawParticle(cCtx,p,16));
     requestAnimationFrame(drawContemplative);
   }
-  requestAnimationFrame(drawContemplative);
-  function openContemplative(){const s=createContemplative();s.classList.add('open');s.setAttribute('aria-hidden','false');document.body.classList.add('contemplative-active');s.querySelector('.contemplative-back')?.focus()}
+  function openContemplative(){const s=createContemplative();s.classList.add('open');s.setAttribute('aria-hidden','false');document.body.classList.add('contemplative-active');s.querySelector('.contemplative-back')?.focus();requestAnimationFrame(drawContemplative)}
   function closeContemplative(){if(!shell)return;shell.classList.remove('open');shell.setAttribute('aria-hidden','true');document.body.classList.remove('contemplative-active');cParticles.length=0;document.querySelector('[data-contemplative="dust"]')?.focus()}
   document.addEventListener('click',e=>{
     if(e.target.closest('[data-contemplative="dust"]'))openContemplative();

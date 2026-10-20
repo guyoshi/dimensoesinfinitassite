@@ -141,6 +141,8 @@
     transition() {
       if (theme === 'st') { const hz = document.getElementById('fxHyper'); if (hz) { hz.classList.remove('go'); void hz.offsetWidth; hz.classList.add('go'); } }
     },
+    suspend() { stop(); timers.forEach(clearTimeout); timers=[]; },
+    resume() { start(); schedule(); },
     contemplate(on) {
       document.body.classList.toggle('fx-max', on);
     }

@@ -37,7 +37,7 @@
 .eterea-sky-night{opacity:var(--eterea-sky-night,0)}
 .eterea-starfield{position:absolute;inset:0;opacity:var(--eterea-star-alpha)}.eterea-starfield i{position:absolute;border-radius:50%;background:#e8f5ff;box-shadow:0 0 5px #bbd8ff}
 .eterea-sun-disc,.eterea-moon-disc{position:absolute;border-radius:50%;transform:translate(-50%,-50%);aspect-ratio:1}
-.eterea-sun-disc{left:var(--rdc-sun-x,50%);top:var(--rdc-sun-y,70%);width:clamp(55px,7vw,105px);background:radial-gradient(circle,#fffdf1 30%,#fff2ba 65%,#ffda8c);box-shadow:0 0 45px 18px #ffe3a786,0 0 130px 65px #ffd78e50;opacity:var(--rdc-sun-opacity,0)}
+.eterea-sun-disc{left:var(--rdc-sun-x,50%);top:var(--rdc-sun-y,70%);width:clamp(280px,42vw,680px);background:radial-gradient(circle,rgba(255,255,249,.99) 0%,rgba(255,253,234,.96) 5%,rgba(255,248,207,.82) 12%,rgba(255,236,168,.45) 24%,rgba(255,220,143,.16) 43%,rgba(255,220,143,.04) 61%,transparent 76%);box-shadow:none;filter:blur(12px);mix-blend-mode:screen;opacity:var(--rdc-sun-opacity,0)}
 .eterea-solar-glow{position:absolute;inset:0;opacity:var(--eterea-warmth);background:radial-gradient(ellipse at var(--rdc-sun-x,50%) var(--rdc-sun-y,70%),#ffda8d88,transparent 62%);mix-blend-mode:screen}
 .eterea-moon-disc{left:var(--rdc-moon-x,50%);top:var(--rdc-moon-y,50%);width:clamp(36px,4vw,61px);background:radial-gradient(ellipse at 31% 32%,#b6c6d3 0 7%,transparent 8%),radial-gradient(ellipse at 65% 65%,#a5b7c6 0 11%,transparent 12%),radial-gradient(circle at 35% 28%,#edf6ff,#a2b4c5);box-shadow:0 0 30px 9px #b9d7ee22;opacity:var(--rdc-moon-opacity,0)}
 .eterea-central{position:absolute;width:53%;height:62%;left:23.5%;top:20%;animation:eterea-float 57s ease-in-out infinite alternate;animation-delay:-23s}
@@ -57,3 +57,16 @@
 .eterea-time{position:absolute;top:80px;right:20px;display:flex;align-items:center;gap:10px;padding:5px 7px 5px 16px;border:1px solid #ffffff40;border-radius:30px;background:#173841b8;backdrop-filter:blur(12px);font-size:12px;pointer-events:auto}.eterea-time label{display:flex;align-items:center;gap:10px}.eterea-time input{width:110px;accent-color:#ffe4ac}.eterea-time output{min-width:35px;font-variant-numeric:tabular-nums}.eterea-time button{border:0;min-width:44px;padding:8px}.eterea-hint{top:138px}
 .eterea-dialog.ui-resting .eterea-time{pointer-events:none}
 @media(max-width:700px){.eterea-central{width:100%;height:48%;left:0;top:31%}.eterea-island.left{width:55%;height:51%;left:-32%;top:22%}.eterea-island.right{width:47%;height:43%;right:-29%;top:41%}.eterea-cloud.rear{width:160%;left:-35%;top:65%}.eterea-cloud.front{bottom:-3%}.eterea-cloud.side{bottom:2%}.eterea-time{top:73px;right:12px;left:12px;justify-content:center;font-size:11px;padding-left:10px;gap:7px}.eterea-time label{gap:7px}.eterea-time input{width:100px}.eterea-hint{top:139px;font-size:10px}.kite-0{left:30%;top:35%}.kite-1{left:70%;top:41%}.kite-2{left:50%;top:29%}.kite-3{left:21%;top:45%}.kite-4{left:77%;top:51%}}
+
+/* Os próprios efeitos da página entram no diálogo sem duplicar IDs ou animações. */
+.eterea-world{z-index:0;isolation:isolate}
+.eterea-ui{z-index:1}
+.eterea-world > #clouds,.eterea-world > #cloudsFront{position:absolute;inset:0;pointer-events:none}
+.eterea-world > #clouds{z-index:2;opacity:calc(.3 * var(--rdc-atmosphere-opacity,1))}
+.eterea-world > #cloudsFront{z-index:3;opacity:calc(.24 * var(--rdc-atmosphere-opacity,1))}
+.eterea-world > #particles{position:absolute;z-index:4;inset:0;pointer-events:none}
+.eterea-native-clouds{position:absolute;inset:0;pointer-events:none;opacity:calc(.3 * var(--rdc-atmosphere-opacity,1));filter:brightness(var(--eterea-brightness))}
+.eterea-native-far{opacity:calc(.22 * var(--rdc-atmosphere-opacity,1))}
+.eterea-native-near{opacity:calc(.32 * var(--rdc-atmosphere-opacity,1))}
+.eterea-world > #particles{opacity:calc(.22 * var(--rdc-atmosphere-opacity,1));background-image:radial-gradient(circle,#ffffffb0 0 1px,transparent 1.5px),radial-gradient(circle,#d3eff699 0 1px,transparent 1.5px);background-size:73px 73px,117px 117px;animation:eterea-wind 26s linear infinite}
+@keyframes eterea-wind{from{background-position:0 0,0 0}to{background-position:73px -73px,117px -117px}}
