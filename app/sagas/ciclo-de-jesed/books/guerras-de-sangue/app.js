@@ -307,7 +307,7 @@
     const homePlaceCard=place=>`<article class="home-place-card" data-route="place/${escapeHtml(place.slug)}" tabindex="0" role="link"><div class="home-place-image ${place.image?'has-image':''}">${place.image?`<img src="${escapeHtml(place.image)}" alt="${escapeHtml(place.name)}" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="home-place-fallback" hidden>${icon('pin')}</span>`:`<span class="home-place-fallback">${icon('pin')}</span>`}</div><div class="home-place-copy"><p class="eyebrow">${escapeHtml(place.type||'Lugar')}</p><h3>${escapeHtml(place.name)}</h3><p>${escapeHtml(place.region||place.summary)}</p></div><span class="home-card-link">Abrir ficha ${icon('arrow')}</span></article>`;
     refs.main.innerHTML = `<div class="page-enter">
       ${canonNotice()}
-      <section class="hero-map-card home-guide-hero">
+      <section class="hero-map-card home-guide-hero home-cover-hero">
         <img src="assets/books/ciclo-de-jesed/guerras-de-sangue/maps/map-jesed.webp" alt="Mapa de Jesed na época de Guerras de Sangue">
         <div class="hero-map-content">
           <p class="eyebrow">Ciclo de Jesed — Guia do Livro</p>
@@ -315,6 +315,7 @@
           <p>Um guia cartográfico de pessoas, clãs, territórios, segredos e consequências.</p>
           <div class="hero-actions"><button class="primary-button" data-route="map">${icon("map")} Abrir mapa</button><button class="secondary-button" data-route="books">${icon("books")} Ver os cinco livros</button><button class="secondary-button contemplate-button" data-contemplative="guerras">${icon("eye")} Contemplar este mundo</button></div>
         </div>
+        <figure class="home-cover-figure"><img src="assets/books/ciclo-de-jesed/guerras-de-sangue/cover.webp" alt="Capa de Guerras de Sangue" loading="eager" data-lightbox-image onerror="this.parentNode.remove()"></figure>
       </section>
       
       ${DI_HOME.counts([{route:'characters',label:'Personagens',text:`${D.characters.length} fichas`,icon:'people'},{route:'timeline',label:'Linha do Tempo',text:`${timelineEntries().length} acontecimentos`,icon:'timeline'},{route:'places',label:'Lugares',text:`${D.places.length} lugares`,icon:'pin'},{route:'chapters',label:'Capítulos',text:`${D.chapters.length} capítulos`,icon:'chapter'}],'data-route',icon)}

@@ -34,12 +34,13 @@ function inicio(){
   const quick=[['personagens','Personagens','Vidas transformadas pela Queda'],['linha','Linha do Tempo','Antes e depois da Queda'],['capitulos','Capítulos',`${D.chapters.length} capítulos escritos`]];
   const selectedPlaces=['Etérea','Nivelia','Bosques de Arion','Nadirion','Primeiro Abrigo','Vale'].map(name=>D.places.find(place=>place.n===name)).filter(Boolean);
   const placeCard=place=>`<article class="home-place-card click" data-go="lugar/${E(place.slug||S(place.n))}" tabindex="0" role="link">${media(place.image,`Ilustração de ${place.n}`,'✦','home-place-media')}<div class="home-place-copy"><p class="eyebrow">${E(place.type||place.region||'Lugar')}</p><h3>${E(place.n)}</h3><p>${E(place.region||place.s)}</p></div><span class="home-card-link">Abrir ficha →</span></article>`;
-  return `<section class="hero-map-card home-guide-hero ruinas-split-map-hero">
+  return `<section class="hero-map-card home-guide-hero home-cover-hero ruinas-split-map-hero">
     <div class="ruinas-hero-map-stack">
       <img class="ruinas-hero-map-base" src="assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-nadirion.webp" alt="Mapa da Superfície">
       <img class="ruinas-hero-map-fade" src="assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-eterea.webp" alt="Mapa de Etérea">
     </div>
     <div class="hero-map-content"><p class="eyebrow">Ciclo de Jesed — Guia do Livro</p><img class="hero-logo glow-title" src="assets/branding/ruinas-dos-ceus/logo-light.webp" alt="Ruínas dos Céus"><p class="lead">A queda de Etérea e o nascimento da primeira raiz Polar.</p><div class="hero-actions"><button class="primary-button" data-go="mapa">Abrir mapas</button><button class="secondary-button" data-go="livros">Ver os cinco livros</button><button class="secondary-button contemplate-button" data-contemplative="ruinas">✦ Contemplar este mundo</button></div></div>
+  <figure class="home-cover-figure"><img src="assets/books/ciclo-de-jesed/ruinas-dos-ceus/cover.webp" alt="Capa de Ruínas dos Céus" loading="eager" data-lightbox-image onerror="this.parentNode.remove()"></figure>
   </section>
   ${DI_HOME.counts([{route:'personagens',label:'Personagens',text:`${D.characters.length} fichas`,icon:'◌'},{route:'linha',label:'Linha do Tempo',text:`${(D.common?.entities?.timeline||D.timeline||[]).length} acontecimentos`,icon:'⌁'},{route:'lugares',label:'Lugares',text:`${D.places.length} lugares`,icon:'◉'},{route:'capitulos',label:'Capítulos',text:`${D.chapters.length} capítulos`,icon:'▤'}],'data-go',x=>x)}
   
