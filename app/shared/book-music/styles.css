@@ -14,3 +14,4 @@ body[data-book="ruinas-dos-ceus"] .book-music-player.docked .music-power:hover,b
 #musicDock .music-mute,#musicDock .music-volume-label{display:none}
 @media(min-width:561px){#musicDock .music-mute{display:grid}#musicDock .music-volume-label{display:flex}}
 body[data-book="os-elos-das-sombras"]{--music-accent:#d9703a;--music-accent-soft:rgba(217,112,58,.22)}
+body[data-book="a-alvorada-das-ilusoes"]{--music-accent:#d6a24e;--music-accent-soft:rgba(214,162,78,.22)}

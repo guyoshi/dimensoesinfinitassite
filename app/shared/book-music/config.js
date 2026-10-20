@@ -1,4 +1,10 @@
 window.BOOK_MUSIC_CONFIG = Object.freeze({
+  "a-alvorada-das-ilusoes": {
+    title: "Haunted Halloween Village",
+    files: [
+      "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/audio.mp3"
+    ]
+  },
   "os-elos-das-sombras": {
     title: "Hiding In The Dark",
     files: [
