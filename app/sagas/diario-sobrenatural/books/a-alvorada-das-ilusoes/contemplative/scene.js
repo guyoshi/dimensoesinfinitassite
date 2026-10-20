@@ -38,12 +38,13 @@
  function burst(goat){
   const full=Math.random()<.2;           // às vezes a tela inteira pisca e muda de uma vez
   const showGoat=goat||Math.random()<.4; // a aparição pode surgir em qualquer piscada
-  const n=2+Math.floor(Math.random()*4);let t=0;
-  for(let i=0;i<n;i++){
-   const last=i===n-1,onMs=rand(35,110),offMs=rand(40,170);
-   later(()=>{if(i===0){full?placeFull():place(false);}on(showGoat&&(last||i>=n-2));},t);
-   if(last){const hold=full?rand(2200,4200):rand(1000,2000);t+=hold;later(off,t);t+=200;}
-   else{t+=onMs;later(off,t);t+=offMs;}
+  let t=0;
+  // padrão fixo: 3 piscadas secas no mesmo pedaço, depois aparece e fica 1–2 s (tela inteira: 2–4 s)
+  for(let i=0;i<4;i++){
+   const last=i===3;
+   later(()=>{if(i===0){full?placeFull():place(false);}on(showGoat&&(last||i===2));},t);
+   if(last){t+=full?rand(2200,4200):rand(1000,2000);later(off,t);t+=200;}
+   else{t+=rand(45,110);later(off,t);t+=rand(70,170);}
   }
   return t;
  }
