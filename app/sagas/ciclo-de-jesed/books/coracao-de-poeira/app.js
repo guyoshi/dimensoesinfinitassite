@@ -109,15 +109,7 @@
           <button class="secondary-button" data-contemplative="dust">✦ Contemplar este mundo</button>
         </div>
       </section>
-      <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px">
-        ${[["characters","Personagens","Vidas no vazio do tempo"],["chapters","Capítulos","A história capítulo a capítulo"],["timeline","Linha do Tempo","Espirais e momentos suspensos"],["orders","Ordens","Grupos e ordens do mundo"]].map(([id,label,desc]) => `<article class="card click" data-go="${id}" tabindex="0" role="link" style="cursor:pointer;padding:20px 18px">
-          <h3 style="color:var(--di-heading);margin:0 0 6px">${escapeHtml(label)}</h3>
-          <p style="color:var(--di-muted);font-size:.86rem;margin:0">${escapeHtml(desc)}</p>
-        </article>`).join("")}
-      </div>
-      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:14px">
-        ${[[(D?.characters||[]).length,"personagens","characters"],[(D?.places||[]).length,"lugares","places"],[(D?.chapters||[]).length,"capítulos","chapters"],[(D?.timeline||[]).length,"eventos na linha do tempo","timeline"]].map(([n,l,id]) => `<article class="card click" data-go="${id}" tabindex="0" role="link" style="cursor:pointer;padding:18px;text-align:center"><strong style="display:block;font-size:1.8rem;color:var(--di-heading)">${n}</strong><span style="color:var(--di-muted);font-size:.8rem">${l}</span></article>`).join("")}
-      </div>
+      ${DI_HOME.counts([{route:'characters',label:'Personagens',text:`${(D?.characters||[]).length} fichas`,icon:'people'},{route:'timeline',label:'Linha do Tempo',text:`${(D?.timeline||[]).length} acontecimentos`,icon:'timeline'},{route:'places',label:'Lugares',text:`${(D?.places||[]).length} lugares`,icon:'pin'},{route:'chapters',label:'Capítulos',text:`${(D?.chapters||[]).length} capítulos`,icon:'chapter'}],'data-go',icon)}
     </div>`;
   }
 
