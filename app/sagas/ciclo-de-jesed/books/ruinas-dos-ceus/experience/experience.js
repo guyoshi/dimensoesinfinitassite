@@ -95,6 +95,7 @@
     root.style.setProperty('--rdc-sun-x',sunX+'%');root.style.setProperty('--rdc-sun-y',sunY+'%');root.style.setProperty('--rdc-sun-opacity',sunOpacity);
     root.style.setProperty('--rdc-moon-x',moonX+'%');root.style.setProperty('--rdc-moon-y',moonY+'%');root.style.setProperty('--rdc-moon-opacity',moonOpacity);
     document.body.dataset.skyPhase=phase;
+    document.dispatchEvent(new CustomEvent('ruinas:sky-update',{detail:{minutes,phase}}));
     const displayMinutes=Math.round(minutes/10)*10%1440;
     document.querySelectorAll('[data-time-output]').forEach(o=>o.textContent=timeLabel(displayMinutes));
     document.querySelectorAll('[data-time-slider]').forEach(i=>{if(document.activeElement!==i)i.value=displayMinutes});

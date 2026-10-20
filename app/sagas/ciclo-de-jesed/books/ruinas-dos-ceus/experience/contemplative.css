@@ -1,0 +1,59 @@
+.eterea-dialog{position:fixed;inset:0;width:100%;height:100%;max-width:none;max-height:none;margin:0;padding:0;border:0;overflow:hidden;color:#fff;background:#a4ced4;font-family:system-ui,sans-serif;--look-x:0px;--look-y:0px}
+.eterea-dialog::backdrop{background:#152d37}.eterea-dialog:not([open]){display:none}
+.eterea-world{position:absolute;inset:0;overflow:hidden;background:linear-gradient(#70afc7,#fbe3b8)}
+.eterea-layer{position:absolute;inset:-4%;pointer-events:none;transform:translate3d(calc(var(--look-x)*var(--depth,1)),calc(var(--look-y)*var(--depth,1)),0);transition:transform 1.7s ease-out}
+.eterea-sky{width:100%;height:100%;object-fit:cover;object-position:58% center}
+.eterea-island{position:absolute;object-fit:contain;animation:eterea-float 31s ease-in-out infinite alternate;filter:drop-shadow(0 22px 30px #385c6520)}
+.eterea-island.far{width:22%;height:35%;left:33%;top:30%;opacity:.61;filter:saturate(.7);animation-duration:47s;animation-delay:-19s}
+.eterea-island.left{width:38%;height:75%;left:-4%;top:10%;animation-delay:-12s}
+.eterea-island.right{width:29%;height:58%;right:1%;top:25%;animation-duration:37s;animation-delay:-26s}
+.eterea-cloud{position:absolute;width:85%;height:auto;object-fit:contain;animation:eterea-cloud 125s ease-in-out infinite alternate;opacity:.78}
+.eterea-cloud.rear{width:105%;left:8%;top:40%;opacity:.63;animation-duration:157s;animation-delay:-70s}
+.eterea-cloud.front{width:110%;left:-17%;bottom:-14%;animation-delay:-43s}.eterea-cloud.side{width:75%;right:-26%;bottom:1%;opacity:.76;animation-duration:101s;animation-direction:alternate-reverse}
+.eterea-rock{position:absolute;object-fit:contain;animation:eterea-rock 21s ease-in-out infinite alternate}
+.eterea-rock.one{width:19%;height:30%;left:1%;bottom:-1%;animation-delay:-11s}.eterea-rock.two{width:12%;height:19%;right:8%;top:17%;animation-duration:29s;animation-delay:-7s}.eterea-rock.three{width:6%;height:10%;left:60%;bottom:22%;animation-duration:33s;animation-delay:-20s}
+.eterea-light{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 66% 43%,#ffe1a51c,transparent 46%),linear-gradient(0deg,#203e4a26,transparent 28%)}
+.eterea-ui{position:absolute;inset:0;pointer-events:none;transition:opacity .8s}.eterea-ui button,.eterea-ui input{pointer-events:auto}
+.eterea-ui button{border:1px solid #ffffff45;background:#173841b8;color:#fff;border-radius:30px;padding:11px 17px;font:500 13px system-ui;cursor:pointer;min-height:44px;backdrop-filter:blur(12px)}
+.eterea-ui button:hover{background:#234b55ee}.eterea-ui :is(button,input):focus-visible{outline:3px solid #fff0bb;outline-offset:4px}
+.eterea-top{position:absolute;top:max(20px,env(safe-area-inset-top));left:max(20px,env(safe-area-inset-left));right:max(20px,env(safe-area-inset-right));display:flex;justify-content:space-between;gap:12px}.eterea-actions{display:flex;gap:8px}
+.eterea-bottom{position:absolute;bottom:max(25px,env(safe-area-inset-bottom));left:28px;right:28px;display:flex;align-items:end;justify-content:space-between;gap:24px}
+.eterea-dialog .eterea-title{margin:0;color:#fff!important;text-shadow:0 2px 20px #163d47;font:400 clamp(32px,4vw,58px)/1.1 Georgia,serif;letter-spacing:.06em}.eterea-subtitle{margin:8px 0 0;font-size:11px;letter-spacing:.2em;text-transform:uppercase;text-shadow:0 1px 8px #163d47}
+.eterea-audio{display:flex;align-items:center;gap:12px;border:1px solid #ffffff40;border-radius:30px;padding:6px 14px 6px 6px;background:#173841b8;backdrop-filter:blur(12px)}.eterea-audio button{border:0;background:transparent;backdrop-filter:none}.eterea-audio label{display:flex;align-items:center;gap:8px;font-size:12px}.eterea-audio input{width:90px;accent-color:#ffe4ac}.eterea-hint{position:absolute;top:85px;left:50%;transform:translateX(-50%);margin:0;font-size:11px;letter-spacing:.06em;color:#fff;text-shadow:0 1px 8px #163d47;text-align:center}
+.eterea-dialog.ui-resting .eterea-ui{opacity:0;pointer-events:none}.eterea-dialog.ui-resting .eterea-ui button,.eterea-dialog.ui-resting .eterea-ui input{pointer-events:none}
+.eterea-dialog.motion-paused .eterea-world *,.eterea-dialog.page-hidden .eterea-world *{animation-play-state:paused!important}.eterea-dialog.motion-paused .eterea-layer{transform:none!important}
+.eterea-dialog [hidden]{display:none!important}
+@keyframes eterea-float{from{transform:translateY(-9px) rotate(-.25deg)}to{transform:translateY(12px) rotate(.25deg)}}
+@keyframes eterea-rock{from{transform:translateY(-17px) rotate(-3deg)}to{transform:translateY(18px) rotate(3deg)}}
+@keyframes eterea-cloud{from{transform:translateX(-5%)}to{transform:translateX(8%)}}
+@media(max-width:700px){.eterea-island.left{width:62%;height:58%;left:-24%;top:21%}.eterea-island.right{width:51%;height:48%;right:-21%;top:33%}.eterea-island.far{width:39%;left:28%;top:30%}.eterea-sky{object-position:63% center}.eterea-cloud.front{width:180%;bottom:6%;left:-58%}.eterea-cloud.side{width:140%;bottom:12%;right:-65%}.eterea-rock.one{width:35%;left:-9%;bottom:14%}.eterea-rock.two{width:22%;right:-2%;top:16%}.eterea-bottom{left:18px;right:18px;bottom:20px;align-items:start;flex-direction:column;gap:20px}.eterea-top{left:12px;right:12px;top:12px}.eterea-ui button{padding:10px 12px;font-size:12px}.eterea-hint{top:74px;width:85%}.eterea-subtitle{font-size:9px}.eterea-audio{align-self:flex-end}.eterea-title{font-size:38px}}
+@media(prefers-reduced-motion:reduce){.eterea-world *{animation:none!important}.eterea-layer{transform:none!important;transition:none}.eterea-ui{transition:none}}
+
+/* A atmosfera usa as mesmas variáveis e o mesmo relógio da página. */
+.eterea-dialog{--eterea-day:1;--eterea-night:0;--eterea-brightness:1;--eterea-warmth:0;--eterea-star-alpha:0}
+.eterea-world,.eterea-heavens{background:linear-gradient(180deg,var(--rdc-sky-top,#5085a4),var(--rdc-sky-mid,#acc9d5) 58%,var(--rdc-sky-bottom,#e5d9bd))}
+.eterea-sky{position:absolute;inset:0;opacity:1}
+.eterea-sky-dusk{opacity:var(--eterea-sky-dusk,0)}
+.eterea-sky-night{opacity:var(--eterea-sky-night,0)}
+.eterea-starfield{position:absolute;inset:0;opacity:var(--eterea-star-alpha)}.eterea-starfield i{position:absolute;border-radius:50%;background:#e8f5ff;box-shadow:0 0 5px #bbd8ff}
+.eterea-sun-disc,.eterea-moon-disc{position:absolute;border-radius:50%;transform:translate(-50%,-50%);aspect-ratio:1}
+.eterea-sun-disc{left:var(--rdc-sun-x,50%);top:var(--rdc-sun-y,70%);width:clamp(55px,7vw,105px);background:radial-gradient(circle,#fffdf1 30%,#fff2ba 65%,#ffda8c);box-shadow:0 0 45px 18px #ffe3a786,0 0 130px 65px #ffd78e50;opacity:var(--rdc-sun-opacity,0)}
+.eterea-solar-glow{position:absolute;inset:0;opacity:var(--eterea-warmth);background:radial-gradient(ellipse at var(--rdc-sun-x,50%) var(--rdc-sun-y,70%),#ffda8d88,transparent 62%);mix-blend-mode:screen}
+.eterea-moon-disc{left:var(--rdc-moon-x,50%);top:var(--rdc-moon-y,50%);width:clamp(36px,4vw,61px);background:radial-gradient(ellipse at 31% 32%,#b6c6d3 0 7%,transparent 8%),radial-gradient(ellipse at 65% 65%,#a5b7c6 0 11%,transparent 12%),radial-gradient(circle at 35% 28%,#edf6ff,#a2b4c5);box-shadow:0 0 30px 9px #b9d7ee22;opacity:var(--rdc-moon-opacity,0)}
+.eterea-central{position:absolute;width:53%;height:62%;left:23.5%;top:20%;animation:eterea-float 57s ease-in-out infinite alternate;animation-delay:-23s}
+.eterea-central img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.eterea-central-day{filter:brightness(var(--eterea-brightness));opacity:1}
+.eterea-central-night{opacity:var(--eterea-night)}
+.eterea-island,.eterea-rock{filter:brightness(var(--eterea-brightness)) saturate(.82)}
+.eterea-island,.eterea-rock{filter:brightness(var(--eterea-silhouette,1)) saturate(.82)}
+.eterea-cloud{filter:brightness(var(--eterea-brightness)) saturate(.7)}
+.eterea-light{opacity:var(--eterea-night);background:linear-gradient(180deg,#0b204445,#13355628 60%,#11243a55);mix-blend-mode:color}
+.eterea-world::after{content:"";position:absolute;inset:0;pointer-events:none;background:#f5ad5b;opacity:calc(var(--eterea-warmth)*.26);mix-blend-mode:soft-light}
+.eterea-island.left{width:31%;height:64%;left:-7%;top:14%}.eterea-island.right{width:25%;height:53%;right:-5%;top:30%}
+.eterea-cloud.rear{width:100%;left:8%;top:61%;opacity:.45}.eterea-cloud.front{bottom:-27%;opacity:.66}.eterea-cloud.side{bottom:-13%;opacity:.58}
+.eterea-kite{position:absolute;width:24px;height:42px;animation:eterea-kite-drift 39s ease-in-out infinite alternate;filter:brightness(var(--eterea-brightness))}.eterea-kite img{width:100%;height:100%;object-fit:contain}
+.kite-0{left:40%;top:29%;animation-delay:-7s}.kite-1{left:61%;top:34%;width:18px;height:34px;animation-delay:-23s;animation-duration:51s}.kite-2{left:51%;top:24%;width:15px;height:28px;animation-delay:-32s;animation-duration:47s}.kite-3{left:31%;top:38%;width:20px;height:37px;animation-delay:-12s}.kite-4{left:70%;top:42%;width:13px;height:26px;animation-delay:-35s;animation-duration:43s}
+@keyframes eterea-kite-drift{0%{transform:translate(-15px,7px) rotate(-13deg)}50%{transform:translate(7px,-13px) rotate(8deg)}100%{transform:translate(26px,0) rotate(-5deg)}}
+.eterea-time{position:absolute;top:80px;right:20px;display:flex;align-items:center;gap:10px;padding:5px 7px 5px 16px;border:1px solid #ffffff40;border-radius:30px;background:#173841b8;backdrop-filter:blur(12px);font-size:12px;pointer-events:auto}.eterea-time label{display:flex;align-items:center;gap:10px}.eterea-time input{width:110px;accent-color:#ffe4ac}.eterea-time output{min-width:35px;font-variant-numeric:tabular-nums}.eterea-time button{border:0;min-width:44px;padding:8px}.eterea-hint{top:138px}
+.eterea-dialog.ui-resting .eterea-time{pointer-events:none}
+@media(max-width:700px){.eterea-central{width:100%;height:48%;left:0;top:31%}.eterea-island.left{width:55%;height:51%;left:-32%;top:22%}.eterea-island.right{width:47%;height:43%;right:-29%;top:41%}.eterea-cloud.rear{width:160%;left:-35%;top:65%}.eterea-cloud.front{bottom:-3%}.eterea-cloud.side{bottom:2%}.eterea-time{top:73px;right:12px;left:12px;justify-content:center;font-size:11px;padding-left:10px;gap:7px}.eterea-time label{gap:7px}.eterea-time input{width:100px}.eterea-hint{top:139px;font-size:10px}.kite-0{left:30%;top:35%}.kite-1{left:70%;top:41%}.kite-2{left:50%;top:29%}.kite-3{left:21%;top:45%}.kite-4{left:77%;top:51%}}
