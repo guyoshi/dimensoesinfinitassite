@@ -352,7 +352,7 @@
     if (!character) return renderNotFound();
     const dynasty = getDynasty(character.dynastyId);
     refs.main.innerHTML = `<div class="page-enter">
-      ${pageHeader("Personagem · Dinastia Polar", "", "", `<button class="secondary-button" data-route="relationships">${icon("network")} Relações</button>`)}
+      ${pageHeader("Personagem · Dinastia Polar", "", "", "")}
       <section class="character-hero">
         <div class="character-portrait ${character.image ? "has-image" : ""}">${imageOrIcon(character.image, "person", character.name, "character-portrait-image")}</div>
         <article class="parchment-panel character-summary"><p class="eyebrow character-clan-eyebrow">${escapeHtml(dynasty?.name || "Sem dinastia registada")}</p><h1>${escapeHtml(character.name)}</h1><span class="alias">${escapeHtml(character.alias || "")}</span></article>

@@ -431,14 +431,14 @@
     const currentPlace = getPlace(character.locationId);
     const homePlace = currentPlace || (clan ? clanTerritory(clan) : null);
     const placeLabel = currentPlace ? "Abrir localização" : "Cidade-casa";
-    const actions = `<button class="secondary-button" data-route="relationships">${icon("network")} Relações</button>${homePlace ? `<button class="primary-button" data-route="place/${homePlace.slug}">${icon("pin")} ${placeLabel}</button>` : ""}`;
+    const actions = `${homePlace ? `<button class="primary-button" data-route="place/${homePlace.slug}">${icon("pin")} ${placeLabel}</button>` : ""}`;
     refs.main.innerHTML = `<div class="page-enter">
       ${pageHeader("Personagem · Guerras de Sangue", "", "", actions)}
       <section class="character-hero">
         <div class="character-portrait ${character.image ? "has-image" : ""}" ${character.image ? `data-lightbox-image="${escapeHtml(character.image)}" data-lightbox-caption="${escapeHtml(character.name)}" role="button" tabindex="0"` : ""}>${imageOrIcon(character.image, "person", character.name, "character-portrait-image")}</div>
-        <article class="parchment-panel character-summary"><p class="eyebrow character-clan-eyebrow">${clan?.emblem ? `<img class="character-clan-emblem" src="${escapeHtml(clan.emblem)}" alt="">` : ""}${escapeHtml(clan?.name || "Sem clã registado")}</p><h1>${escapeHtml(character.name)}</h1><span class="alias">${escapeHtml(character.alias)}</span><div class="character-meta-grid"><div class="character-meta"><small>Estado</small><strong>${escapeHtml(character.status)}</strong></div><div class="character-meta"><small>Última aparição</small><strong>${escapeHtml(character.lastSeen.chapter)}</strong></div></div></article>
+        <article class="parchment-panel character-summary"><p class="eyebrow character-clan-eyebrow">${clan?.emblem ? `<img class="character-clan-emblem" src="${escapeHtml(clan.emblem)}" alt="">` : ""}${escapeHtml(clan?.name || "Sem clã registado")}</p><h1>${escapeHtml(character.name)}</h1><span class="alias">${escapeHtml(character.alias)}</span><div class="character-meta-grid"><div class="character-meta"><small>Aparece em</small><strong>${(()=>{const ns=(character.appearanceChapters||[]).map(getChapter).filter(Boolean).map(c=>c.number).sort((a,b)=>a-b);return ns.length?`${ns.length} ${ns.length===1?"capítulo":"capítulos"}`:"—";})()}</strong></div></div></article>
       </section>
-      <div class="tabs">${[["overview","Visão geral"],["trajectory","Trajetória"],["relations","Relações"],["destiny","Destino"]].map(tab => `<button class="tab-button ${state.characterTab === tab[0] ? "active" : ""}" data-character-tab="${tab[0]}" data-character-slug="${character.slug}">${tab[1]}</button>`).join("")}</div>
+      <div class="tabs">${[["overview","Visão geral"],["trajectory","Capítulos"]].map(tab => `<button class="tab-button ${state.characterTab === tab[0] ? "active" : ""}" data-character-tab="${tab[0]}" data-character-slug="${character.slug}">${tab[1]}</button>`).join("")}</div>
       <section class="dark-panel tab-panel">${characterTabHtml(character, state.characterTab)}</section>
     </div>`;
     setBreadcrumbs([{label:"Dimensões Infinitas",route:"portal"},{label:"Ciclo de Jesed",route:"dashboard"},{label:"Personagens",route:"characters"},{label:character.name}]);
@@ -456,12 +456,12 @@
         const companions = ch.characters.filter(id => id !== character.id).map(getCharacter).filter(Boolean).slice(0, 5);
         const chPlaces = ch.places.map(getPlace).filter(Boolean);
         const traj = window.GUERRAS_TRAJ && window.GUERRAS_TRAJ[character.name];
-        const eventText = (traj && traj[ch.id]) || "Trajetória específica ainda não registrada para este capítulo.";
+        const eventText = "";
         const photoTag = (name, image, fallbackIcon) => image
           ? `<span class="tag photo-tag"><img src="${escapeHtml(image)}" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="photo-tag-fallback" hidden>${icon(fallbackIcon)}</span>${escapeHtml(name)}</span>`
           : `<span class="tag photo-tag">${icon(fallbackIcon)}${escapeHtml(name)}</span>`;
-        return `<article class="timeline-item character-trajectory-card" tabindex="0" data-route="chapter/${ch.id}"><small>Capítulo ${ch.number}</small><h3>${escapeHtml(ch.title)}</h3><p>${escapeHtml(eventText)}</p><div class="tag-row">${chPlaces.map(p => photoTag(p.name, p.image, "pin")).join("")}${companions.map(c => photoTag(c.name, c.image, "person")).join("")}</div></article>`;
-      }).join("")}</div>` : `<p class="empty-inline">Trajetória ainda não registrada.</p>`;
+        return `<article class="timeline-item character-trajectory-card" tabindex="0" data-route="chapter/${ch.id}"><small>Capítulo ${ch.number}</small><h3>${escapeHtml(ch.title)}</h3><div class="tag-row">${chPlaces.map(p => photoTag(p.name, p.image, "pin")).join("")}${companions.map(c => photoTag(c.name, c.image, "person")).join("")}</div></article>`;
+      }).join("")}</div>` : `<p class="empty-inline">Presença nos capítulos ainda não registrada.</p>`;
     }
     if (tab === "relations") return relationships.length ? `<div class="relationship-detail-list">${relationships.map(r => { const other = getCharacter(r.from === character.id ? r.to : r.from); return `<article class="relationship-detail-card"><button class="relationship-person" data-route="character/${other?.slug || ""}">${other?.image ? `<img src="${other.image}" alt="">` : icon("person")}<span><strong>${escapeHtml(other?.name || "Entidade não encontrada")}</strong><small>${escapeHtml(r.type)}</small></span></button><p><strong>Estado:</strong> ${escapeHtml(r.state)}</p><p>${escapeHtml(r.from === character.id ? r.fromView : r.toView)}</p><div class="tag-row">${r.evolution.map(item => `<span class="tag">${escapeHtml(item)}</span>`).join("")}</div></article>`; }).join("")}</div>` : `<p class="empty-inline">Nenhuma relação registrada neste período.</p>`;
     return `<div class="info-columns"><div class="info-box wide-info"><h3>Destino escrito</h3><p>${escapeHtml(character.destiny.written)}</p></div></div>`;
