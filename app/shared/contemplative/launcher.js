@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const frameURL = new URL('frame.html', document.currentScript.src);
-  frameURL.searchParams.set('v','20261020l');
+  frameURL.searchParams.set('v','20261020m');
   const pauseStyle=document.createElement('style');
   pauseStyle.textContent='body.contemplative-frame-active *{animation-play-state:paused!important}';
   document.head.append(pauseStyle);
