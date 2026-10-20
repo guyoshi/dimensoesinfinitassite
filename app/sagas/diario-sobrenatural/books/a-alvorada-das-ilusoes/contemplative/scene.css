@@ -5,7 +5,7 @@
 .alvorada-failure.visible{opacity:1}
 .alvorada-failure::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 5px,#80b0d50b 5px 6px);opacity:.45}
 .alvorada-fog{background:radial-gradient(ellipse at 40% 85%,#c9d4e133,transparent 48%);animation:alvorada-fog 32s ease-in-out infinite alternate}
-.alvorada-apparition{position:absolute;left:55%;bottom:18%;width:clamp(70px,10vw,165px);height:36%;object-fit:contain;object-position:bottom;opacity:0;filter:brightness(.55);transition:none;pointer-events:none}
+.alvorada-apparition{position:absolute;left:50.5%;bottom:20.5%;width:auto;height:9%;transform:translateX(-50%);object-fit:contain;object-position:bottom;opacity:0;filter:brightness(.55);transition:none;pointer-events:none}
 .alvorada-apparition.visible{opacity:.86}
 .alvorada-pollen{position:absolute;inset:0;pointer-events:none;overflow:hidden}.alvorada-pollen i{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff0ba;box-shadow:0 0 7px #ffdf96;opacity:.35;animation:alvorada-pollen var(--duration) ease-in-out infinite alternate;animation-delay:var(--delay)}
 .alvorada-shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,#06101d8c,transparent 26%,transparent 78%,#06101d36)}
@@ -18,5 +18,5 @@ body.controls-hidden .alvorada-ui{opacity:0;pointer-events:none}body.controls-hi
 body.effects-paused .alvorada-scene *{animation-play-state:paused!important}
 @keyframes alvorada-fog{from{transform:translateX(-8%)}to{transform:translateX(10%)}}
 @keyframes alvorada-pollen{from{transform:translate(-12px,12px)}to{transform:translate(45px,-55px)}}
-@media(max-width:700px){.alvorada-top{left:12px;right:12px;top:12px}.alvorada-actions{gap:6px;max-width:75%}.alvorada-ui button{padding:9px 12px;font-size:11px}.alvorada-hint{top:116px;left:12%;right:12%;font-size:10px}.alvorada-bottom{left:18px;right:18px;bottom:20px;flex-direction:column;align-items:start;gap:20px}.alvorada-audio{align-self:flex-end}.alvorada-title{font-size:32px}.alvorada-subtitle{font-size:9px}.alvorada-apparition{left:57%;width:100px;bottom:25%;height:30%}}
+@media(max-width:700px){.alvorada-top{left:12px;right:12px;top:12px}.alvorada-actions{gap:6px;max-width:75%}.alvorada-ui button{padding:9px 12px;font-size:11px}.alvorada-hint{top:116px;left:12%;right:12%;font-size:10px}.alvorada-bottom{left:18px;right:18px;bottom:20px;flex-direction:column;align-items:start;gap:20px}.alvorada-audio{align-self:flex-end}.alvorada-title{font-size:32px}.alvorada-subtitle{font-size:9px}.alvorada-apparition{left:50.5%;bottom:20.5%;height:9%}}
 @media(prefers-reduced-motion:reduce){.alvorada-scene *{animation:none!important}.alvorada-ui,.alvorada-failure,.alvorada-apparition{transition:none}}
