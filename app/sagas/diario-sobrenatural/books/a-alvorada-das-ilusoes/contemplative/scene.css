@@ -1,0 +1,22 @@
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#10202b;font-family:system-ui,sans-serif;color:#fff}
+.alvorada-scene,.alvorada-image,.alvorada-failure,.alvorada-fog,.alvorada-atmosphere{position:absolute;inset:0;pointer-events:none}
+.alvorada-image{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.alvorada-failure{opacity:0;clip-path:var(--reveal,inset(100%));transition:opacity .32s ease;will-change:opacity}
+.alvorada-failure.visible{opacity:1}
+.alvorada-failure::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 5px,#80b0d50b 5px 6px);opacity:.45}
+.alvorada-fog{background:radial-gradient(ellipse at 40% 85%,#c9d4e133,transparent 48%);animation:alvorada-fog 32s ease-in-out infinite alternate}
+.alvorada-apparition{position:absolute;left:55%;bottom:18%;width:clamp(70px,10vw,165px);height:36%;object-fit:contain;object-position:bottom;opacity:0;filter:brightness(.55);transition:opacity .5s ease;pointer-events:none}
+.alvorada-apparition.visible{opacity:.86}
+.alvorada-pollen{position:absolute;inset:0;pointer-events:none;overflow:hidden}.alvorada-pollen i{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff0ba;box-shadow:0 0 7px #ffdf96;opacity:.35;animation:alvorada-pollen var(--duration) ease-in-out infinite alternate;animation-delay:var(--delay)}
+.alvorada-shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,#06101d8c,transparent 26%,transparent 78%,#06101d36)}
+.alvorada-ui{position:absolute;inset:0;transition:opacity .8s;pointer-events:none}.alvorada-ui button,.alvorada-ui input{pointer-events:auto}
+.alvorada-ui button{min-height:44px;padding:10px 16px;border:1px solid #fff5;border-radius:28px;background:#171b24bb;color:#fff;font:500 12px system-ui;backdrop-filter:blur(10px);cursor:pointer}.alvorada-ui button:hover{background:#222936ee}.alvorada-ui :is(button,input):focus-visible{outline:3px solid #ffe3a8;outline-offset:3px}
+.alvorada-top{position:absolute;top:max(18px,env(safe-area-inset-top));left:max(18px,env(safe-area-inset-left));right:max(18px,env(safe-area-inset-right));display:flex;gap:10px;justify-content:space-between;align-items:flex-start}.alvorada-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.alvorada-bottom{position:absolute;bottom:max(25px,env(safe-area-inset-bottom));left:28px;right:28px;display:flex;justify-content:space-between;align-items:end;gap:20px}.alvorada-title{font:400 clamp(30px,4vw,56px)/1.1 Georgia,serif;letter-spacing:.025em;margin:0;text-shadow:0 2px 20px #000}.alvorada-subtitle{margin:9px 0 0;font-size:10px;text-transform:uppercase;letter-spacing:.18em}.alvorada-audio{display:flex;align-items:center;gap:10px;border:1px solid #fff4;border-radius:30px;background:#171b24bb;padding:5px 13px 5px 5px}.alvorada-audio button{background:transparent;border:0;backdrop-filter:none}.alvorada-audio label{display:flex;gap:8px;align-items:center;font-size:11px}.alvorada-audio input{width:90px;accent-color:#f2ce8a}
+.alvorada-hint{position:absolute;top:82px;left:20%;right:20%;margin:0;text-align:center;font-size:11px;text-shadow:0 2px 8px #000}
+body.controls-hidden .alvorada-ui{opacity:0;pointer-events:none}body.controls-hidden .alvorada-ui :is(button,input){pointer-events:none}
+body.effects-paused .alvorada-scene *{animation-play-state:paused!important}
+@keyframes alvorada-fog{from{transform:translateX(-8%)}to{transform:translateX(10%)}}
+@keyframes alvorada-pollen{from{transform:translate(-12px,12px)}to{transform:translate(45px,-55px)}}
+@media(max-width:700px){.alvorada-top{left:12px;right:12px;top:12px}.alvorada-actions{gap:6px;max-width:75%}.alvorada-ui button{padding:9px 12px;font-size:11px}.alvorada-hint{top:116px;left:12%;right:12%;font-size:10px}.alvorada-bottom{left:18px;right:18px;bottom:20px;flex-direction:column;align-items:start;gap:20px}.alvorada-audio{align-self:flex-end}.alvorada-title{font-size:32px}.alvorada-subtitle{font-size:9px}.alvorada-apparition{left:57%;width:100px;bottom:25%;height:30%}}
+@media(prefers-reduced-motion:reduce){.alvorada-scene *{animation:none!important}.alvorada-ui,.alvorada-failure,.alvorada-apparition{transition:none}}

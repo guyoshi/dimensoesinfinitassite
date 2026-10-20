@@ -15,6 +15,9 @@
       const base='app/sagas/ciclo-de-jesed/books/ruinas-dos-ceus/experience/';
       await style(base+'styles.css');await style(base+'contemplative.css?v=20261020d');
       await script(base+'contemplative.js?v=20261020d');
+    }else if(book==='a-alvorada-das-ilusoes'){
+      const base='app/sagas/diario-sobrenatural/books/a-alvorada-das-ilusoes/contemplative/';
+      await style(base+'scene.css?v=20261020a');await script(base+'scene.js?v=20261020a');await window.ALVORADA_READY;
     }else if(legacy[book]){
       const base=`app/sagas/ciclo-de-jesed/books/${book}/experience/`;
       await style('app/shared/experience/common.css');await style(base+'styles.css');
