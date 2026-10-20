@@ -1,0 +1,41 @@
+/* Ícones padronizados da barra superior */
+.di-ico{display:inline-grid;place-items:center;width:19px;height:19px;flex:none;line-height:1;color:inherit}
+.di-ico svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;display:block;overflow:visible}
+.di-ico[data-di="play"] svg{fill:currentColor}
+.di-ico[data-di="pause"] svg{stroke-width:2.6}
+.di-glyph.di-glyph{font-size:0}
+.di-glyph .di-ico{font-size:initial}
+.chevron .di-ico,i .di-ico[data-di="chevron"]{width:14px;height:14px;opacity:.75}
+.music-power .di-ico,.music-mute .di-ico{width:18px;height:18px}
+.music-power,.music-mute{display:inline-grid;place-items:center}
+/* ícones só com SVG nunca dependem de emoji ou fonte */
+.selector-button .di-ico,.pill .di-ico,.search-trigger .di-ico,.search .di-ico{opacity:.95}
+.search .di-ico,.pill .di-ico,.selector-button .di-ico,.search-trigger .di-ico,.icon-btn .di-ico,.icon-button .di-ico,.ico .di-ico{flex:none!important;display:inline-grid!important;width:19px!important;height:19px!important}
+.chevron .di-ico,.pill i .di-ico{width:14px!important;height:14px!important}
+.search .di-ico svg,.pill .di-ico svg{position:static!important;width:100%!important;height:100%!important}
+body[data-book="herdeiros-das-cinzas"] .music-power,body[data-book="herdeiros-das-cinzas"] .music-mute{color:var(--di-heading,#26364a)}
+
+/* Celular: uma linha só, todos os botões visíveis e do mesmo tamanho */
+@media(max-width:680px){
+  body[data-book] .topbar-actions{display:flex!important;flex-wrap:nowrap!important;align-items:center;gap:6px!important;width:100%;min-width:0}
+  body[data-book] .topbar-actions>button,body[data-book] .topbar-actions .icon-btn,body[data-book] .topbar-actions .icon-button,
+  body[data-book] .selector-button,body[data-book] .search-trigger{flex:0 0 auto!important;width:40px!important;height:40px!important;min-width:40px!important;padding:0!important;justify-content:center;gap:0!important}
+  body[data-book] .selector-button .chevron,body[data-book] .search-trigger kbd,body[data-book] .search-trigger .search-label{display:none!important}
+  body[data-book] .utility-controls{display:flex!important;flex:0 0 auto;margin-left:auto;gap:6px!important;align-items:center}
+  body[data-book] .music-dock .music-copy,body[data-book] .music-dock .music-volume-label,body[data-book] .music-dock .music-mute,body[data-book] .performance-state-text,body[data-book] .time-test-control{display:none!important}
+  body[data-book] .book-music-player.docked{display:flex;padding:0;background:none;border:0;min-width:0;width:auto}
+  body[data-book] .music-power{width:40px;height:40px;border-radius:50%;flex:none}
+}
+@media(max-width:560px){.top #perfBtn{display:inline-grid!important}}
+@media(max-width:560px){
+  .top{flex-wrap:wrap;gap:8px}
+  .top #sagaBtn>span:not(.di-ico):not(.chev),.top #sagaBtn .label{display:none!important}
+  .top #bookBtn{flex:1 1 0;min-width:0;max-width:none}
+  .top #bookBtn>span:not(.di-ico){overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+}
+@media(max-width:560px){.top #sagaBtn{padding:0 10px!important}.top #sagaBtn>i{display:none!important}.top .ctrl{margin-left:auto}}
+@media(max-width:560px){
+  .top #sagaBtn,.top #bookBtn{flex:0 0 40px!important;width:40px!important;height:40px!important;min-width:40px!important;padding:0!important;justify-content:center;border-radius:50%!important}
+  .top #bookBtn>span:not(.di-ico),.top #bookBtn>i,.top #sagaBtn>span:not(.di-ico){display:none!important}
+}
+@media(max-width:560px){.top #searchBtn{flex:0 0 40px!important;width:40px!important;min-width:40px!important;padding:0!important;justify-content:center;border-radius:50%!important}}
