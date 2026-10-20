@@ -39,3 +39,8 @@ body[data-book="herdeiros-das-cinzas"] .music-power,body[data-book="herdeiros-da
   .top #bookBtn>span:not(.di-ico),.top #bookBtn>i,.top #sagaBtn>span:not(.di-ico){display:none!important}
 }
 @media(max-width:560px){.top #searchBtn{flex:0 0 40px!important;width:40px!important;min-width:40px!important;padding:0!important;justify-content:center;border-radius:50%!important}}
+@media(max-width:560px){.top #searchBtn{height:40px!important;width:40px!important;max-width:40px!important;flex:0 0 40px!important;margin:0!important}}
+body[data-book="coracao-de-poeira"] .topbar-actions .di-ico,body[data-book="coracao-de-poeira"] .utility-controls .di-ico{color:#eadfc6;opacity:1}
+body[data-book="coracao-de-poeira"] .topbar-actions>button,body[data-book="coracao-de-poeira"] .utility-controls>button{opacity:1;border:1px solid rgba(214,177,106,.35);border-radius:50%}
+body[data-book="coracao-de-poeira"] #menu,body[data-book="coracao-de-poeira"] #perfToggle,body[data-book="coracao-de-poeira"] #performanceToggle{opacity:1!important;border:1px solid rgba(214,177,106,.35)!important;border-radius:50%!important;width:40px;height:40px;display:inline-grid;place-items:center;background:transparent}
+body[data-book="coracao-de-poeira"] #menu .di-ico,body[data-book="coracao-de-poeira"] #perfToggle .di-ico{color:#eadfc6;opacity:1}
