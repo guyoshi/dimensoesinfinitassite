@@ -873,8 +873,7 @@ window.DI_BOOK.chapters = [
     "title": "Vozes Que Sabem Demais",
     "pov": "Jennifer",
     "povLabel": "Jennifer VI",
-    "status": "draft",
-    "summary": "Capítulo em rascunho (apenas roteiro). Jennifer, Pedro e Filipo passam alguns dias na casa de Glenda, e Filipo insiste em salvar a irmã. Jennifer decide ir ao jantar de Diego, que reúne Priscila, Jason, Glenda e os três. Priscila discute com Diego e sai, com Jason atrás. Diego interroga Pedro e se irrita. Jennifer, abalada, diz a Glenda que o sonho mostrou Glenda com o tio, acusa-a de usá-la só para obter o livro de Junior, e as duas rompem. Glenda ameaça Pedro com frieza. Fora do portão, uma mensagem de Mel Jones diz que ela vai encontrar Pedro, e os espíritos mostram a Jennifer, ao tocá-los, Junior e Manu acorrentados diante de uma sombra numa escola, um livro numa sala e Vini ferido entre dezenas de espíritos.",
+    "summary": "Jennifer revive a violência da prisão através de uma visão e teme por Vini. Ao lado de Pedro e Filipo, participa do plano de Glenda para entrar na mansão de Diego e falar com Priscila. O jantar expõe as tensões entre os convidados e leva a um rompimento doloroso com Glenda. Na rua, mensagens de Mel Jones pedem que Pedro vá a Alvorada Alegre; Jennifer toca espíritos e vê Junior, Manu e Vini em perigo, além da sala 66 e de um livro que parecem centrais ao mistério.",
     "characters": [
       "jennifer",
       "pedro",
@@ -893,10 +892,9 @@ window.DI_BOOK.chapters = [
       "escola-alvorada"
     ],
     "details": [
-      "Texto ainda em rascunho: o arquivo traz só a função do capítulo e a sequência de cenas.",
-      "Função declarada: levar o presídio e Mel Jones como isca final e preparar o sacrifício de Jennifer.",
-      "Glenda manda Jennifer 'se afundar no poço de novo'.",
-      "A visão final liga Junior, Manu, o livro e Vini."
+      "A visão final reúne a sala 66, o livro e dois perigos distintos: Junior e Vini.",
+      "Mel Jones chama Jennifer de selifa numa mensagem a Pedro.",
+      "O jantar e o rompimento de Glenda e Jennifer antecedem a viagem a Alvorada Alegre."
     ]
   },
   {
@@ -940,8 +938,7 @@ window.DI_BOOK.chapters = [
     "title": "Predador e Presa",
     "pov": "Glenda",
     "povLabel": "Glenda VI",
-    "status": "draft",
-    "summary": "Capítulo em rascunho (apenas roteiro). Glenda, furiosa, é trancada no quarto por Diego, que sabe que ela invadiu o quarto dele e a ameaça. Jason bate à porta e conta que o pai traz mulheres diferentes e usa um dos quartos de cima. Glenda abre o cômodo ao lado da sala de jogos com um clipe, descobre um alçapão com sangue, armas e um frasco de sedativo, e vê no diário de Diego que a letra riscada é 'O' e a próxima é 'G'. Acha o corpo de Olga e confirma pelo celular que Olga Cruz está desaparecida há três dias. No dia seguinte arma uma armadilha: seduz Diego, drogado pela própria bebida, ameaça-o com a arma dele e revela ter sido vítima do tio. A cobra de Diego o devora. Glenda pega o celular dele, envia as fotos das vítimas a Jason e deixa a casa.",
+    "summary": "Glenda recorda os quinze anos e o modo como Diego conquistou a confiança da família antes de violar seus limites. Na mansão, investiga as dependências secretas e encontra vestígios de crimes, a lista de vítimas e indícios sobre Olga Cruz. Prepara uma armadilha, confronta Diego e utiliza a cobra Gisele contra ele. Antes de sair, recolhe provas e envia imagens ao primo Jason, encerrando o capítulo determinada a não voltar a ser a presa.",
     "characters": [
       "glenda",
       "diego",
@@ -953,19 +950,45 @@ window.DI_BOOK.chapters = [
       "mansao-diego"
     ],
     "details": [
-      "Texto ainda em rascunho: o arquivo traz só a sequência de cenas.",
-      "Glenda admite que, no fim, 'não queria justiça, queria o prazer de causar a mesma dor'.",
-      "O diário de Diego lista letras que formam uma sequência; 'O' foi riscada e a próxima é 'G'.",
-      "Conteúdo de abuso e violência é resumido sem detalhes.",
-      "Glenda diz que 'existem animais que não podem ser domados'."
+      "Glenda encontra a inscrição de uma nova inicial, G, na lista de Diego.",
+      "As provas recolhidas incluem pertences de Olga Cruz e fotografias das vítimas.",
+      "A morte de Diego envolve a cobra Gisele; o capítulo termina com Glenda de partida."
     ]
   },
   {
     "number": 29,
-    "title": "A Alvorada das Ilusões",
+    "title": "O Plano",
     "pov": "Filipo",
     "povLabel": "Filipo I",
-    "summary": "Flashback de Filipo na manhã em que Alvorada Alegre caiu. Ele estuda estrelas variáveis quando o avô vem conversar sobre o mundo espiritual e entra em transe. Uma névoa invade a rua; Manu chega ferida e aterrorizada, e o avô se afasta dela. O pai de Filipo diz que o céu ficou preto. O avô reaparece com um livro, recitando numa língua gutural, e invoca o Cara-de-Larva, que pega Manu. Filipo empurra o avô, uma onda de energia escura o derruba, e ao acordar encontra o avô morto. Com o pai ferido, ele pega o livro (Liber Damnatorum) e os dois cruzam a cidade coberta de névoa e corpos até a igreja, onde Lucinda, de olho destruído, os recebe e diz que Manu está presa, não morta, e que quem sair durante as sombras fará parte do mal. Lendo o livro, Filipo descobre o ritual que criou o Cara-de-Larva, um condenado enterrado vivo com larvas, e um selo de contenção que fecha a cidade. Decidem buscar uma selifa. Com o encantamento do Caminho das Sombras, atravessam o arco de névoa e acordam à entrada da cidade.",
+    "summary": "Filipo, Pedro e Jennifer deixam a mansão de Diego e discutem as visões sobrenaturais e a necessidade de ajudar os amigos. Na casa de Priscila, revelam o perigo que Vini corre e decidem agir. Após uma discussão com Jason, partem no carro dele, com Priscila dirigindo. O grupo chega à penitenciária aparentemente abandonada. Jennifer e Priscila entram à procura de Vini, enquanto Filipo leva Pedro a Alvorada Alegre e admite que se aproximou dele inicialmente para chegar até Jennifer.",
+    "characters": [
+      "filipo",
+      "pedro",
+      "jennifer",
+      "priscila",
+      "jason",
+      "vini",
+      "glenda",
+      "manu"
+    ],
+    "places": [
+      "sao-paulo",
+      "pirituba",
+      "penitenciaria",
+      "alvorada-alegre"
+    ],
+    "details": [
+      "Filipo e Pedro concordam em não deixar o conflito de visões paralisar o grupo.",
+      "Jennifer e Priscila entram na prisão; Filipo e Pedro seguem em direção a Alvorada Alegre.",
+      "Filipo começa a contar a Pedro a verdade sobre a origem da amizade deles."
+    ]
+  },
+  {
+    "number": 30,
+    "title": "A Alvorada das Ilusões",
+    "pov": "Filipo",
+    "povLabel": "Filipo II",
+    "summary": "Durante a viagem com Pedro, Filipo relata a queda de Alvorada Alegre: a névoa, o desaparecimento de Manu, a morte do avô e o encontro com o Livro dos Condenados. Ele relembra a fuga até a igreja e as advertências de Lucinda. Ao estudar o livro, descobre o ritual ligado ao Cara-de-Larva e um encantamento capaz de atravessar o selo que aprisiona a cidade. Filipo e o pai escapam pelo Caminho das Sombras para procurar a ajuda de uma selifa, enquanto a narrativa retorna à estrada que leva Filipo e Pedro à cidade.",
     "characters": [
       "filipo",
       "manu",
@@ -987,6 +1010,56 @@ window.DI_BOOK.chapters = [
       "O Caminho das Sombras é um portal de névoa; o tempo não acompanha quem o atravessa.",
       "Lucinda diz que 'Alvorada paga suas dívidas' e que Manu 'tem algo especial que a criatura quer'.",
       "Filipo diz que uma selifa pode mandar a coisa 'para a Colina'."
+    ]
+  },
+  {
+    "number": 31,
+    "title": "O Ponto de Ruptura",
+    "pov": "Priscila",
+    "povLabel": "Priscila VI",
+    "summary": "Priscila e Jennifer atravessam a penitenciária vazia e encontram corpos, estranhas manifestações e sobreviventes em perigo. Ao procurar Vini, enfrentam a ameaça sobrenatural que controla os corredores e libertam uma menina. Glenda aparece para ajudá-los. Na fuga, um incêndio toma o prédio e Jennifer decide permanecer para conter a força sombria enquanto os outros escapam com Vini e a criança. Do lado de fora, Priscila e Glenda esperam por ela diante da prisão em chamas, mas Jennifer não aparece.",
+    "characters": [
+      "priscila",
+      "jennifer",
+      "vini",
+      "glenda",
+      "pedro"
+    ],
+    "places": [
+      "penitenciaria",
+      "sao-paulo"
+    ],
+    "details": [
+      "A incursão à prisão revela corpos e pessoas sob controle de uma presença obscura.",
+      "Jennifer escolhe ficar para permitir que Priscila, Glenda, Vini e a menina escapem.",
+      "O capítulo termina sem confirmação definitiva do destino de Jennifer."
+    ]
+  },
+  {
+    "number": 32,
+    "title": "O Fogo Liberta",
+    "pov": "Pedro",
+    "povLabel": "Pedro VI",
+    "summary": "Pedro e Filipo chegam a Alvorada Alegre, onde o tempo parece parado e Mel Jones anuncia que o Livro dos Condenados está na igreja. Lá encontram Junior e sofrem ilusões diferentes: Filipo enxerga Manu e Pedro enxerga o livro. A presença do Cara-de-Larva e da força por trás da cidade desencadeia o confronto final. Quando o selo se rompe, o dia nasce sobre uma Alvorada Alegre arruinada. Pedro se despede de Mel, agora livre, mas uma última voz no rádio deixa uma inquietação para além do desfecho.",
+    "characters": [
+      "pedro",
+      "filipo",
+      "junior",
+      "mel",
+      "manu",
+      "cara-de-larva",
+      "pollux",
+      "lidia",
+      "jennifer"
+    ],
+    "places": [
+      "alvorada-alegre",
+      "igreja"
+    ],
+    "details": [
+      "O altar mostra visões incompatíveis a Filipo e Pedro.",
+      "A ruptura do selo revela a verdadeira cidade abandonada.",
+      "Mel demonstra estar livre, mas sua voz retorna pelo rádio no caminho de volta."
     ]
   }
 ];
