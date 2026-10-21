@@ -1045,7 +1045,7 @@ window.DI_BOOK.chapters = [
       "pedro",
       "filipo",
       "junior",
-      "mel",
+      "mel-jones",
       "manu",
       "cara-de-larva",
       "pollux",
