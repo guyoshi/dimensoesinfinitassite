@@ -126,7 +126,7 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Jantar",
-    "title": "Um jantar em família (rascunho)",
+    "title": "Um jantar em família",
     "summary": "Priscila vai a um jantar.",
     "chapters": [
       25,
@@ -135,7 +135,7 @@ window.DI_BOOK.timeline = [
   },
   {
     "date": "Dia seguinte",
-    "title": "Segredos de uma família (rascunho)",
+    "title": "Segredos de uma família",
     "summary": "Glenda confronta o que descobriu.",
     "chapters": [
       28
@@ -144,10 +144,35 @@ window.DI_BOOK.timeline = [
   {
     "date": "Flashback",
     "title": "O passado de Alvorada Alegre",
-    "summary": "Um flashback revela o passado da cidade.",
+    "summary": "Filipo recorda a queda de Alvorada Alegre, o Livro dos Condenados e a fuga pelo Caminho das Sombras.",
     "chapters": [
       18,
+      30
+    ]
+  },
+  {
+    "date": "Noite do mesmo dia",
+    "title": "O plano de resgate",
+    "summary": "Filipo, Pedro, Jennifer e Priscila se dividem entre a penitenciária e Alvorada Alegre.",
+    "chapters": [
+      26,
       29
+    ]
+  },
+  {
+    "date": "Noite",
+    "title": "O ponto de ruptura",
+    "summary": "Priscila e Jennifer entram na penitenciária, reencontram Vini e enfrentam uma presença sobrenatural enquanto o prédio arde.",
+    "chapters": [
+      31
+    ]
+  },
+  {
+    "date": "Antes do amanhecer",
+    "title": "O fogo liberta",
+    "summary": "Pedro, Filipo e Junior confrontam as ilusões de Alvorada Alegre e testemunham a ruptura do selo.",
+    "chapters": [
+      32
     ]
   }
 ];
