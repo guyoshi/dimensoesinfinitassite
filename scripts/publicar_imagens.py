@@ -34,6 +34,11 @@ def _main() -> None:
         git("add", "-A")
         git("commit", "-m", "Atualizações locais do Site")
 
+    # Bring in changes published by other editors before generating and pushing images.
+    # Rebase does not discard local commits; conflicts stop publication safely.
+    print("Atualizando a cópia local com o GitHub...")
+    git("pull", "--rebase", "origin", "main")
+
     subprocess.run([sys.executable, str(SYNC), "--apply"], cwd=SITE, check=True)
     changed = git("status", "--porcelain").stdout.strip()
     if changed:
