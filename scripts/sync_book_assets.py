@@ -35,7 +35,7 @@ CATEGORY_DIRS = {
 ALIASES = SITE / "data/common/book-image-aliases.json"
 IMAGES_MARKER = "Gerado por scripts/sync_book_assets.py"
 IGNORED_DIRS = {"antigos", "antigos nao usar", "antigos não usar", "backup", "temp"}
-SOURCE_SIDE_DIRS = {"Personagens": "characters", "Lugares": "places", "Galeria": "gallery", "Mapas": "maps"}
+SOURCE_SIDE_DIRS = {"Personagens": "characters", "Lugares": "places", "Galeria": "gallery", "Mapas": "maps", "Objetos": "gallery"}
 LOGO_VARIANTS = {"branco": "logo-light", "preto": "logo-dark", "colorido": "logo-color"}
 CLAN_ALIASES = {
     "cla-polar-emblema-1-antigo": "cla-polar-1o-emblema-antigo",
