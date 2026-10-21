@@ -167,7 +167,7 @@ window.DI_BOOK.characters = [
     "summary": "Garota que escreve a Pedro pelo MSN.",
     "importance": "Secundário",
     "sources": [
-      "Capítulos 2, 7, 11, 17–18, 23, 26"
+      "Capítulos 2, 7, 11, 17–18, 23, 26, 29, 32"
     ]
   },
   {
