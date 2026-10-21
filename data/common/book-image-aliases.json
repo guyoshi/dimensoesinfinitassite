@@ -23,9 +23,22 @@
       "grande-pai-gaia": "gaia",
       "maria-santoro": "maria",
       "nicolas-corvane": "nicolas",
-      "shirley-ainsworth": "shirley"
+      "shirley-ainsworth": "shirley",
+      "teorix": "teorixes"
     },
-    "places": {},
+    "places": {
+      "campo-de-gimiga-interior": "campo-gimiga",
+      "cavernas-das-aracnas": "caverna-aracnas",
+      "central-da-vigilancia-arvore-da-vigilia": "arvore-vigilia",
+      "central-interdimensional": "central-transporte",
+      "estrada-cintilante": "estrada-cintilante",
+      "montanhas-kargath": "montanhas-kargath",
+      "praca-central": "praca-central",
+      "presalia-tribunal": "presalia-tribunal",
+      "presalia-lago-verde": "presalia-lago-verde",
+      "sociedade-de-tayo-salao-de-reuniao": "sociedade-salao",
+      "tayo-vista-aerea-dia": "tayo"
+    },
     "ignore": []
   },
   "diario-sobrenatural/os-elos-das-sombras": {
@@ -43,7 +56,9 @@
     },
     "places": {},
     "ignore": [
-      "priscila-hamburgueria-secundaria"
+      "priscila-hamburgueria-secundaria",
+      "filipo-antes-cabelo-loiro-20261020",
+      "manu-antes-cabelo-loiro-20261020"
     ]
   }
 }
