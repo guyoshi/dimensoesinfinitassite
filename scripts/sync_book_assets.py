@@ -201,7 +201,10 @@ def regenerate_images(entries: list[dict], write: bool) -> None:  # write=False:
                 if target in entities[category].values():
                     images[category][target] = path
                 else:
-                    unmatched.append(f"{category}/{stem}")
+                    # An illustration without an entity is still useful in the gallery.
+                    # Do not invent identities or overwrite the primary place portrait.
+                    images["gallery"].append({"src": path, "title": stem.replace("-", " ").title(), "type": "Local" if category == "places" else "Personagem"})
+                    unmatched.append(f"{category}/{stem} (incluído na galeria)")
             elif category == "chapters" and re.fullmatch(r"chapter-(\d+)", stem):
                 images["chapters"][str(int(stem.split("-")[1]))] = path
             elif category == "maps":
