@@ -418,5 +418,82 @@ window.DI_BOOK.places = [
     "sources": [
       "Capítulos 1, 3"
     ]
+  },
+  {
+    "slug": "estrada-cintilante",
+    "name": "Estrada Cintilante",
+    "subtitle": "Caminho",
+    "type": "Estrada",
+    "region": "Belfex",
+    "summary": "Estrada percorrida pelos irmãos durante a exploração de Belfex.",
+    "sources": [
+      "Capítulo 9"
+    ]
+  },
+  {
+    "slug": "montanhas-kargath",
+    "name": "Montanhas Kargath",
+    "subtitle": "Montanhas",
+    "type": "Montanhas",
+    "region": "Belfex",
+    "summary": "Cordilheira que os irmãos atravessam durante a busca por Beatriz.",
+    "sources": [
+      "Capítulos 17–20"
+    ]
+  },
+  {
+    "slug": "praca-central",
+    "name": "Praça Central de Tayo",
+    "subtitle": "Praça",
+    "type": "Praça",
+    "region": "Tayo",
+    "summary": "Praça da cidade associada ao Festival das Luzes e às despedidas dos irmãos.",
+    "sources": [
+      "Capítulos 16, 23"
+    ]
+  },
+  {
+    "slug": "presalia-tribunal",
+    "name": "Tribunal da Presália",
+    "subtitle": "Tribunal",
+    "type": "Salão",
+    "region": "Presália",
+    "summary": "Salão antigo onde Korvo realiza o julgamento de Marcus e enfrenta os vigilantes.",
+    "sources": [
+      "Capítulo 22"
+    ]
+  },
+  {
+    "slug": "presalia-lago-verde",
+    "name": "Lago Verde da Presália",
+    "subtitle": "Lago subterrâneo",
+    "type": "Lago",
+    "region": "Presália",
+    "summary": "Lago no interior da prisão, cenário do confronto entre os irmãos e Korvo.",
+    "sources": [
+      "Capítulo 21"
+    ]
+  },
+  {
+    "slug": "sociedade-salao",
+    "name": "Salão da Sociedade de Tayo",
+    "subtitle": "Salão de reunião",
+    "type": "Salão",
+    "region": "Tayo",
+    "summary": "Espaço de reunião da Sociedade de Tayo.",
+    "sources": [
+      "Capítulos 12, 21–22"
+    ]
+  },
+  {
+    "slug": "campo-gimiga",
+    "name": "Campo de Gímiga",
+    "subtitle": "Campo de competição",
+    "type": "Campo",
+    "region": "Tayo",
+    "summary": "Espaço usado durante os desafios e provas dos aprendizes.",
+    "sources": [
+      "Capítulos 13–14"
+    ]
   }
 ];
