@@ -1458,9 +1458,14 @@
       "sourceSha256": "897f299a9393bd5d4673c97d9d15fd65ec33611f5a90c8e64bd4bec7812654cd"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/filipo-antes-cabelo-loiro-20261020.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Filipo - antes-cabelo-loiro-20261020.png",
+      "sourceSha256": "351a63906d6a0c2f69d8fd3cb04d4b42ed7869b5fa2e7ec54deaf9d59ac0452f"
+    },
+    {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/filipo.webp",
       "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Filipo.png",
-      "sourceSha256": "351a63906d6a0c2f69d8fd3cb04d4b42ed7869b5fa2e7ec54deaf9d59ac0452f"
+      "sourceSha256": "f79b565681d84412b8c3a09665437b91f83a88ded5ee38a10c35c99da8d57f5f"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/glenda.webp",
@@ -1483,9 +1488,14 @@
       "sourceSha256": "f120dfc81b3ee0f5f4a9f5f0b0f3c3abc127d0f0c89dd34d2a5da6dbfc7caf9e"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/manu-antes-cabelo-loiro-20261020.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Manu - antes-cabelo-loiro-20261020.png",
+      "sourceSha256": "08c3148a1b62ae80165a4045e748fad7c633bf3f1dfb95fc75d9ad57e834a5f3"
+    },
+    {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/manu.webp",
       "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Manu.png",
-      "sourceSha256": "08c3148a1b62ae80165a4045e748fad7c633bf3f1dfb95fc75d9ad57e834a5f3"
+      "sourceSha256": "8d099d8ea43e734065640c21bfd2c78985b4f4a3bb3af1558de171472126b656"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/pedro.webp",
@@ -1695,7 +1705,7 @@
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/cover.webp",
       "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capas/Spacetheft 1 Capa.png",
-      "sourceSha256": "8ea7def8c72cef65f93aeca6bb5db5b444669fd3a44338ae3d66fbe10bc06775"
+      "sourceSha256": "469a7fd7f228a2334bb9dadef8be68ba645560cc14b7cb378161d01a4cff415d"
     },
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/gerbe.webp",
@@ -1733,6 +1743,16 @@
       "sourceSha256": "50467ac03b9d3b265832d6bb6031ab99068e82194f9ad9c235440bfac7849117"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/devorantes.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Devorantes.png",
+      "sourceSha256": "67ec4a8611f45a8b02a8f0f99e835210987ac5971a3e9f875e815b495c86321b"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/elowen.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Elowen.png",
+      "sourceSha256": "178207d5d952a9ff5cc05c212c39d766dbd34662959cb9882fafa7343c9a0a5d"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/erick-corvane.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Erick Corvane.png",
       "sourceSha256": "2a83959f506954b80d7faed6a1ff45aaee501bf0ebe2c23e0fbf3f9b9bd0df74"
@@ -1753,6 +1773,26 @@
       "sourceSha256": "02e9fe11510d66cd4f4bc48c3214ecd2cd3daf91086bc5eacb8e31a1a9d567f2"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/familia-lins-filhos-pequenos.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Família Lins - filhos pequenos.png",
+      "sourceSha256": "122afddb56a79a020a9dc6a989522b1b8982ffb06a26402c5cad5688bed47738"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/farol.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Farol.png",
+      "sourceSha256": "d0ea13f00c9f13ff76aa63f67fe4656c74447a19f843d37715a836df3fc17d46"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/ferris-cotton.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Ferris Cotton.png",
+      "sourceSha256": "5e8ed77d2b0bbe2cdc6eb9697463d4baa1fe814ade1471a9583c24207b1260da"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/gabrielle-lins.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Gabrielle Lins.png",
+      "sourceSha256": "bd1d525be4121092e04042d856d08651d4b82c1456ca53ba8f1a058d7bee57dc"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/garmand.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Garmand.png",
       "sourceSha256": "697a408739a6f6c8a565be9222f08681af945f8f3a25d585c8554eedaf02915e"
@@ -1766,6 +1806,26 @@
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/grande-pai-gaia.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Grande Pai Gaia.png",
       "sourceSha256": "b291269c0e240f06698b0b1e61983ce4e1614110137c47a150ef527a742866e9"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/jack-e-gabrielle-lins.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Jack e Gabrielle Lins.png",
+      "sourceSha256": "132aba8c1e38d1a63192e9356e35f3551af1098b70a4cf39a31341d7db5eaf90"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/jack-lins.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Jack Lins.png",
+      "sourceSha256": "fdffe2f03c0bd1ed61854f9c9302453f10045880d7ef1a13cedf2ab316326daa"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/kali.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Kali.png",
+      "sourceSha256": "e1100806aa54e2b1fc938fb7c08b780a58fa3058b3e7eaffe93f0d377cab02e9"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/karol.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Karol.png",
+      "sourceSha256": "19f5e06de130e024939737b87271078f2da8a340f0032d0eeba2418f42188c03"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/korvo.webp",
@@ -1783,6 +1843,11 @@
       "sourceSha256": "3d8671f80cd01b4b54f74ba780838f4ced44593fc1049a71d2af8b8cb3b31c4b"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/leon.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Leon.png",
+      "sourceSha256": "9a1055259a9533fb4fc24d87307e8abee2a945fc76e2be7970c05ebb56e4a2f9"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/lucas-veline.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Lucas Veline.png",
       "sourceSha256": "16e44cd66f2b5201c0d278ab9a438b3ade6b53c202adb30c629a9bdaab5448bc"
@@ -1793,9 +1858,19 @@
       "sourceSha256": "204fc3bc56e894bef42e654d9d9f09826192a6bdb0e74e0ac0381c43936cc9a4"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/mereditha.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Mereditha.png",
+      "sourceSha256": "a1eac8954912129cbda1888b45c18071d863330a2308c9e948087e1bb7a18c89"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/nicolas-corvane.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Nicolas Corvane.png",
       "sourceSha256": "06ad930140dec31b70a48705ccad88673c3011c2e9c8aba92e184f74ad8d6126"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/peryth.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Peryth.png",
+      "sourceSha256": "d0c16bf7eb518f5b8bdb24ce85a885eda166241967904625c6a65f48b0da3391"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/ricochet-bombergue.webp",
@@ -1808,6 +1883,11 @@
       "sourceSha256": "2f4ca0866ef35ba85e5218f6e8755c798e9ebf0a754d046f71d3a99205cd65bb"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/seraphina.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Seraphina.png",
+      "sourceSha256": "725d61f27c03e412157978518c108ceac1fd0753a46e748af4de88334543c24f"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/seti.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Seti.png",
       "sourceSha256": "d772f1cc9a2fb10d77ce4117e5d0cc39a773138f0c670958438a4174847d0acc"
@@ -1818,9 +1898,24 @@
       "sourceSha256": "9d069b4b390f8796294445f5eb30f2569ddb1d2d6bfb8e01e2c8494241d30e52"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/tango.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Tango.png",
+      "sourceSha256": "95f1f1539d2b053955c1870ef79ea5fa89f881eafa21a81359f2f398c8e20fdf"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/teorix.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Téorix.png",
+      "sourceSha256": "b710f2660c23cb904eb997e56b4366c9035bf14e84e1cd8520f93b58fc78e4c0"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/tio-frank.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Tio Frank.png",
-      "sourceSha256": "339ddc066e2da75d7f140da7259b686a712a5bb2a0dc8dc2f3254c557ea80409"
+      "sourceSha256": "24ec388d432ba199301f06d36274f08895aaa0fe56ddd6e73b088dde3fd44123"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/trolhos.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Trolhos.png",
+      "sourceSha256": "a6e481e1dcc797c447b1418c94d25cd9f5df513649c609f000b28d0687ee88b2"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/velho-sabio.webp",
@@ -1836,6 +1931,176 @@
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/cover.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capas/Viajantes 1 Capa.png",
       "sourceSha256": "d3ca9cae719c81925199b942ef8e7d8b1750b441c7edd0ac44bce5755f03d768"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/atelie-das-estrelas.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Ateliê das Estrelas.png",
+      "sourceSha256": "209de56a65ff32e004c96d82692f84209ed6fd1d4f239bddf45bcd7a40d2619b"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/bazar-do-oeste.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Bazar do Oeste.png",
+      "sourceSha256": "27a6b6e8c41d440fe7958ad088c02466853bce564982b60ad799acfa2aef42d6"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/campo-de-gimiga-interior.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Campo de Gímiga - Interior.png",
+      "sourceSha256": "5f614e5f4902d9d0c92e57c6ec4363dc431a31ea5bd68db310d561734ea37f39"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-de-ricochet-bombergue.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Casa de Ricochet Bombergue.png",
+      "sourceSha256": "eb2f4dc0aba75818f804f1d8ac401f06c7a7d8fb2e7fdd55a646745a734057ec"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-do-tio-frank.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Casa do Tio Frank.png",
+      "sourceSha256": "4fa509ad6ef7600bd6b35d910484d5b8e8f153dddc270384feb49ead33dabfdc"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-do-velho-sabio-quarto-dos-irmaos.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Casa do Velho-Sábio - Quarto dos irmãos.png",
+      "sourceSha256": "43cc2891f334872dbc9c2acb9871073132f4cfae69c8560cdd3132d58b3c7ee4"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-do-velho-sabio-sala.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Casa do Velho-Sábio - Sala.png",
+      "sourceSha256": "090920dedc5e5293c4139d9afd4c21da15ae9b5be2a29b6929936d25df5a3f44"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-do-velho-sabio.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Casa do Velho-Sábio.png",
+      "sourceSha256": "3b161d67af8545e65100b1aad50b3e716f7ec043b3273f294bbf6ca15f17c447"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/caverna-do-estirio.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Caverna do Estírio.png",
+      "sourceSha256": "8a47ff45f6f6a0d783231c9432a1676f383ab192e06479da7882121adfb4f7d5"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/cavernas-das-aracnas.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Cavernas das Aracnas.png",
+      "sourceSha256": "12596b56621d90ef4c574546b93d1efad39892d79c64429be831bc5fcf6fdd1c"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/central-da-vigilancia-arvore-da-vigilia.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Central da Vigilância - Árvore da Vigília.png",
+      "sourceSha256": "e4e91e4139233ba6fdc0ccfb8ace43c6188bf7dd294b661e147f1ad08455e091"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/central-da-vigilancia.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Central da Vigilância.png",
+      "sourceSha256": "ad3be07296a84e921445722c83ea0459e86de8de17f5d70c75953e967ab58503"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/central-interdimensional.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Central Interdimensional.png",
+      "sourceSha256": "f29a94ef12e47048f4b7fcf8a8b526c1c8397a187568b146489c11955e621c8a"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/edificio-arcano-refeitorio.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Edifício Arcano - Refeitório.png",
+      "sourceSha256": "7be61076681f3cbfa8e3a6ce373bcc937ae55c27114d7a5695f07f707e9b3ffb"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/edificio-arcano.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Edifício Arcano.png",
+      "sourceSha256": "3acd2071d90f4fc135d97af3b86dae9854ee67d03a9e6989924dfd86335c0b22"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/estadio-vortice-monumental.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Estádio Vórtice Monumental.png",
+      "sourceSha256": "74ab306f22b1ecaaf1e16ed4c971cf72219471682289525488b0b6692df54cdc"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/estrada-cintilante.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Estrada Cintilante.png",
+      "sourceSha256": "eda9f2e4f04e4e10da2858bcc9cb9750aa2ae4b9c3c4952fd765ddbcaf95fd6f"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/floresta-de-elthenor.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Floresta de Elthenor.png",
+      "sourceSha256": "f38dcbf69674a1be22d707738f0a49dfeb75f49905a622e4fced6461f210cac6"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/montanhas-kargath.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Montanhas Kargath.png",
+      "sourceSha256": "5db1842c4d8c2fe4e3749c89b3298b7cc40abf82cdc2032823f2b414e5814631"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/ondas-de-harmonia.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Ondas de Harmonia.png",
+      "sourceSha256": "027231caf38d94b8f5aefedb830b2b9232500cc5dd6360c92cb0a856fb2eb7f1"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/pantano-de-mortem.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Pântano de Mortem.png",
+      "sourceSha256": "b9ae3519c0fc9fafe3812cc1d576dcff8224738956fcc3bcf66504ba6b23ed04"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/pinesoto.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Pinesoto.png",
+      "sourceSha256": "d8ce9450162f364fc2351ee5e23c3fc3735ae79c74d07f4e64f172def623f5f3"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/planicie-montanhosa-fora-de-tayo.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Planície montanhosa fora de Tayo.png",
+      "sourceSha256": "4aab8daf3a463774678575663862b31b525701a884bc4600b957e71607e90a5d"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/praca-central.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Praça Central.png",
+      "sourceSha256": "e2f2a7661678e0fc0da42f0214d233e49a17ddcf9991d822f687ce6f6a09cb32"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/presalia-corredores.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Presália - Corredores.png",
+      "sourceSha256": "b43a9f86df659dd10b52cedfb035dc643f458c6a5092a5350c05403af168b587"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/presalia-lago-verde.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Presália - Lago Verde.png",
+      "sourceSha256": "12e9c8092693f00ab2bb15bd909022575de9a911c8a15946da0f634a57b9b233"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/presalia-tribunal.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Presália - Tribunal.png",
+      "sourceSha256": "2b6e91a43621711ccb258b52d68ccf5655be23131bf6d08dd8a6a1013b3ac277"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/rio-celeste.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Rio Celeste.png",
+      "sourceSha256": "29d7197e5f190e42bed5729b374db8c99b9602b76b4379c2d0aca2dd28b24f88"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/sepulcro-dos-esquecidos.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Sepulcro dos Esquecidos.png",
+      "sourceSha256": "64fcc6f4fc921ee3c867835d05e09de5ceefc639fe00cb7ba6737c8669105a3a"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/sociedade-de-tayo-salao-de-reuniao.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Sociedade de Tayo - Salão de reunião.png",
+      "sourceSha256": "903a3767667d1b86e5514ab6f568f9d115e02699c4597b1e8039e5cae7eb3b13"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/tayo-vista-aerea-dia.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Tayo - Vista aérea - Dia.png",
+      "sourceSha256": "78c0f56af321230490550ec9a1857740619941ce7559b4af8b18551e38eaa7b8"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/tayo-vista-aerea-festival-das-luzes.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Tayo - Vista aérea - Festival das Luzes.png",
+      "sourceSha256": "596136f17b97d6c13318037b602f9f8052ff14fd427f2013a6c6af08d9c2d177"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/tayo-vista-aerea-noite.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Tayo - Vista aérea - Noite.png",
+      "sourceSha256": "e546848243a515012b3af5fb4056ad8f33825e94cf590a7f6f6c84c9d8470566"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/torre-branca.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Lugares/Torre Branca.png",
+      "sourceSha256": "d00f1f520c6a3fbd6325b34b39135dfd6451baeeab8aef2d62e38d99ca6b0719"
     },
     {
       "sitePath": "assets/branding/a-alvorada-das-ilusoes/logo-dark.webp",
@@ -2029,15 +2294,40 @@
     }
   ],
   "siteOnly": [
+    "assets/books/ciclo-de-jesed/dinastia-polar/contemplative/balcony-v1.webp",
+    "assets/books/ciclo-de-jesed/dinastia-polar/contemplative/city-v1.webp",
+    "assets/books/ciclo-de-jesed/dinastia-polar/contemplative/cloth-v1.webp",
     "assets/books/ciclo-de-jesed/dinastia-polar/dynasties/braidar.webp",
     "assets/books/ciclo-de-jesed/dinastia-polar/places/bosque-roldanas.webp",
     "assets/books/ciclo-de-jesed/dinastia-polar/places/passagem-lendros.webp",
     "assets/books/ciclo-de-jesed/dinastia-polar/places/veyl-sar.webp",
     "assets/books/ciclo-de-jesed/guerras-de-sangue/chapters/chapter-07.webp",
+    "assets/books/ciclo-de-jesed/guerras-de-sangue/contemplative/city-v1.webp",
+    "assets/books/ciclo-de-jesed/guerras-de-sangue/contemplative/shore-v1.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/central-night-v2.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/central-v2.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/cloud.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/island.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/rock.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/sky-day-v2.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/sky-dusk-v3.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/sky-night-v3.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/sunrise.webp",
+    "assets/books/ciclo-de-jesed/ruinas-dos-ceus/contemplative/vintela-v2.webp",
     "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-combined.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/fauna-placeholder.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/flora-placeholder.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/food-placeholder.webp",
+    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/contemplative/city-day-v1.webp",
+    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/contemplative/city-night-v1.webp",
+    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/contemplative/city-night-v2.webp",
+    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/contemplative/goat-v1.webp",
+    "assets/books/diario-sobrenatural/os-elos-das-sombras/contemplative/branches-v1.webp",
+    "assets/books/diario-sobrenatural/os-elos-das-sombras/contemplative/house-v1.webp",
+    "assets/books/spacetheft/a-lenda-da-aurora/contemplative/planet-v1.webp",
+    "assets/books/spacetheft/a-lenda-da-aurora/contemplative/ship-v1.webp",
+    "assets/books/spacetheft/a-lenda-da-aurora/contemplative/space-v1.webp",
+    "assets/books/spacetheft/a-lenda-da-aurora/contemplative/window-v1.webp",
     "assets/shared/reference/alianca-contra-kaendar.webp",
     "assets/shared/reference/ash-sprite-01.webp",
     "assets/shared/reference/ash-sprite-02.webp",

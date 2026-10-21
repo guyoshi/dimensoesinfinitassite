@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 456,
+  "count": 509,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
@@ -3922,8 +3922,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 361096,
-      "sha256": "a3e8d228eccab2e5bcf93db55f85d82c3180889a76370e90897a13712fdda0a6"
+      "sizeBytes": 331294,
+      "sha256": "031f6018e77332105ac0fd3df4fecbc87142c4d2e59e3a410611d9d752948361"
     },
     {
       "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/glenda.webp",
@@ -3972,8 +3972,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 329304,
-      "sha256": "caba4990813de56914e7edd657b7898d4ed6967e4b5e028ad10d08e2e33e0edb"
+      "sizeBytes": 342766,
+      "sha256": "09adfa343f985973d6eca8b7308517021c7c65704759aed8ca877e0b1266993f"
     },
     {
       "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/pedro.webp",
@@ -4032,8 +4032,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 375778,
-      "sha256": "b092c0cafaa9bb26536dfa3e0d17dd7415ba593fa319b1ebc7179bffa9b27a70"
+      "sizeBytes": 478916,
+      "sha256": "fb64be0d592bf1e6e21865ba0b1cc14668a847893f000605f4a37ddfcb493519"
     },
     {
       "path": "assets/branding/a-lenda-da-aurora/logo-light.webp",
@@ -4542,8 +4542,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 301048,
-      "sha256": "c3c309dca45b1799b23f024f83cbdd91b14c9170590ec3878c40a7207cf69f09"
+      "sizeBytes": 278740,
+      "sha256": "c9d64fc56298c395cbcce1a4e1276b991f1fdadf9b1cd76a5d9f781f819885a5"
     },
     {
       "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/velho-sabio.webp",
@@ -4564,6 +4564,536 @@
       "height": 1536,
       "sizeBytes": 275108,
       "sha256": "108b6fc6f1d9d4385e069875436fac499f56d1e474c329c90c7f4fa752324f18"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/filipo-antes-cabelo-loiro-20261020.webp",
+      "filename": "filipo-antes-cabelo-loiro-20261020.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 361096,
+      "sha256": "a3e8d228eccab2e5bcf93db55f85d82c3180889a76370e90897a13712fdda0a6"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/manu-antes-cabelo-loiro-20261020.webp",
+      "filename": "manu-antes-cabelo-loiro-20261020.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 329304,
+      "sha256": "caba4990813de56914e7edd657b7898d4ed6967e4b5e028ad10d08e2e33e0edb"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/atelie-das-estrelas.webp",
+      "filename": "atelie-das-estrelas.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1670,
+      "height": 941,
+      "sizeBytes": 617154,
+      "sha256": "3aaf5dd9d78c34361061b4a6062ed45e448d05028d8427c9d319d2a496f40baa"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/bazar-do-oeste.webp",
+      "filename": "bazar-do-oeste.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1671,
+      "height": 941,
+      "sizeBytes": 631310,
+      "sha256": "66721aebbfa69734a0702aa328d7f81cc0985da6fd1d36addaa678853a3e20ec"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/campo-de-gimiga-interior.webp",
+      "filename": "campo-de-gimiga-interior.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 633016,
+      "sha256": "baeff702b7aeb95d6c3946512e24a6aabd46a58d3c2efa1ce4fdb8cbbaf6a969"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-de-ricochet-bombergue.webp",
+      "filename": "casa-de-ricochet-bombergue.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 530656,
+      "sha256": "293124216e76549608567526730bab7a298d7c8ebde6a22ecdb3272977c3ef0a"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-do-tio-frank.webp",
+      "filename": "casa-do-tio-frank.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 482962,
+      "sha256": "d56a55a50b53642f19c4c753e5b1694aaeec74a791923fbd980de63d421d6fba"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-do-velho-sabio-quarto-dos-irmaos.webp",
+      "filename": "casa-do-velho-sabio-quarto-dos-irmaos.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 400224,
+      "sha256": "e26468a462f5e1adc4833fa527df8d04fa770dc249ad6be057b88502af1b2018"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-do-velho-sabio-sala.webp",
+      "filename": "casa-do-velho-sabio-sala.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 516140,
+      "sha256": "cc6107542f9a684fa2976a88fbb347dc636fb58d115748782e61d70203661d33"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/casa-do-velho-sabio.webp",
+      "filename": "casa-do-velho-sabio.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 549704,
+      "sha256": "20a46a05bc1dc2b24c740626ba81155af3cfb0fccf8bb1ab3d38683d628cf07a"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/caverna-do-estirio.webp",
+      "filename": "caverna-do-estirio.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 320504,
+      "sha256": "e357e211d29ba5d22670f6177550d1e32da3ffff6e14b226cc421569b1f1d7de"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/cavernas-das-aracnas.webp",
+      "filename": "cavernas-das-aracnas.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 499846,
+      "sha256": "66bae82f3cc0e2a1e75aae883caac45e5738e4be41404a7e0cf890433cafe7de"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/central-da-vigilancia-arvore-da-vigilia.webp",
+      "filename": "central-da-vigilancia-arvore-da-vigilia.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 577344,
+      "sha256": "296f50d4c684580044e5ea0feff96f58cc961181f077fcae73245e7447c2d1fa"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/central-da-vigilancia.webp",
+      "filename": "central-da-vigilancia.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 535396,
+      "sha256": "e5bf9a45e18d0b8865c37c32e3e03e4fb9f58bb5371fb3502e8fa301d7e0194c"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/central-interdimensional.webp",
+      "filename": "central-interdimensional.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 557572,
+      "sha256": "d32b31ab490320254008ab749f994f71dfe53dc039dab59db60ad9b1847e6082"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/edificio-arcano-refeitorio.webp",
+      "filename": "edificio-arcano-refeitorio.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1671,
+      "height": 941,
+      "sizeBytes": 644168,
+      "sha256": "7b03037d0ce3065267d06d0119d1096d1f7c9cfd2042ea7475126d45009c3d4d"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/edificio-arcano.webp",
+      "filename": "edificio-arcano.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 545256,
+      "sha256": "0ef5522f2850e5ea9375a68441ce7630013af820543651e535e39bf120c6e6ac"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/estrada-cintilante.webp",
+      "filename": "estrada-cintilante.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 461288,
+      "sha256": "a8937b3fbc2266911a0053a13e2024d9bab2686dd2bb2636ed7c190c0b42ecf8"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/estadio-vortice-monumental.webp",
+      "filename": "estadio-vortice-monumental.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 756626,
+      "sha256": "46faed539910ec4e7f25572de70017634f4cf0893b46a182eb5a78ed324b884f"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/floresta-de-elthenor.webp",
+      "filename": "floresta-de-elthenor.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 425280,
+      "sha256": "72988f1251fb1ec7b1f13e343575b445f5127cf4e47a13b68c235e15d9ee330b"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/montanhas-kargath.webp",
+      "filename": "montanhas-kargath.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 445548,
+      "sha256": "b253cd5502b01e884047a6374a5bc6c1b38699a8f3487042979663b19f2e6d56"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/ondas-de-harmonia.webp",
+      "filename": "ondas-de-harmonia.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1671,
+      "height": 941,
+      "sizeBytes": 460594,
+      "sha256": "ed9c4cbf0082627da9db85cc40361b83532e247517088bc061b7c75118310def"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/pinesoto.webp",
+      "filename": "pinesoto.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 608824,
+      "sha256": "bb0614a1f1ca1c0985c870a1c8ed57b7f89f1beb7685e52e5159c2c051cf47c4"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/planicie-montanhosa-fora-de-tayo.webp",
+      "filename": "planicie-montanhosa-fora-de-tayo.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 595928,
+      "sha256": "76c61bb670f7daa05314acd465affb68b7851e5db6170b9a595aeea8d20811a8"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/praca-central.webp",
+      "filename": "praca-central.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 511884,
+      "sha256": "d54a00c3200b49c1957a4ac357233d57ed4db989e62d0b95c4acab09b16f2032"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/presalia-corredores.webp",
+      "filename": "presalia-corredores.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 217886,
+      "sha256": "0847e74912c6f6180a3cc37cc718c77118c1431c399abdef6d4d3d686fdf160d"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/presalia-lago-verde.webp",
+      "filename": "presalia-lago-verde.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 314842,
+      "sha256": "077ab5bb0b7f6cf740be2638fa031b1304eab3c15fddf2c3599de57086f5d19c"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/presalia-tribunal.webp",
+      "filename": "presalia-tribunal.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 260884,
+      "sha256": "7aea21dc1a816c5fbdbfef441767225f47a1425f1c120757b95d7dd1b6c9d955"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/pantano-de-mortem.webp",
+      "filename": "pantano-de-mortem.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 477562,
+      "sha256": "8438e1deb3227b0b52820a8da2220faaff994fa707c333d1bf2b185dafdcfa6a"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/rio-celeste.webp",
+      "filename": "rio-celeste.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 572642,
+      "sha256": "fb4b043491687837024a3cd8647a6d449330f8a4980d096cffb14eb6ecdc77f4"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/sepulcro-dos-esquecidos.webp",
+      "filename": "sepulcro-dos-esquecidos.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 441196,
+      "sha256": "c63ac6210236074f5fa75897a343bc416b86e3c09e8509a9483d1c03a4fc1ad8"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/sociedade-de-tayo-salao-de-reuniao.webp",
+      "filename": "sociedade-de-tayo-salao-de-reuniao.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1774,
+      "height": 887,
+      "sizeBytes": 376280,
+      "sha256": "eec485ca724f7070c0e92146d1fef89fc95dc9c2cc4e15224015763d3c6dee92"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/tayo-vista-aerea-dia.webp",
+      "filename": "tayo-vista-aerea-dia.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 725288,
+      "sha256": "ace71aba326376db5c1e0bc4ad25564535e0907e5df0ecf1656b6edd31b9b8bb"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/tayo-vista-aerea-festival-das-luzes.webp",
+      "filename": "tayo-vista-aerea-festival-das-luzes.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 749798,
+      "sha256": "4940b07a5de927f8c0fa90a314ff9779efb4bc4209e4eb828fb13217e0630eb0"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/tayo-vista-aerea-noite.webp",
+      "filename": "tayo-vista-aerea-noite.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 636784,
+      "sha256": "3ce7483e55a54cbb6fadb533c2251b7f97d7902f631880ea12f278cede0b7f80"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/torre-branca.webp",
+      "filename": "torre-branca.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 508960,
+      "sha256": "b1dce4cd60140ec69c3a375ff05b6fdcce36d504bf792f060cdcdb41e0a14250"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/devorantes.webp",
+      "filename": "devorantes.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 243876,
+      "sha256": "70ad9e8f8e7ea8d851b143acd789f3d7d4b50316b8831de8546198cbc4fb87a7"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/elowen.webp",
+      "filename": "elowen.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 203962,
+      "sha256": "90ecead7b5412d4cc2e37817a39d390ba9c955d0b9a6b5ca6f8fbea38bc44055"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/familia-lins-filhos-pequenos.webp",
+      "filename": "familia-lins-filhos-pequenos.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 325734,
+      "sha256": "b1200742785c4c970c531eeaf842fc4bf5fac84c56b8d5509950dffe64b0b82f"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/farol.webp",
+      "filename": "farol.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 315872,
+      "sha256": "b632461fe3809cb758756eb6f825daeb6031d51cd90c6477c692ea04945cb21a"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/ferris-cotton.webp",
+      "filename": "ferris-cotton.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 483160,
+      "sha256": "28eba5920f83bcbc8c8f663a49b15f19394927abb4a6deb13f3ff72c469b7ec5"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/gabrielle-lins.webp",
+      "filename": "gabrielle-lins.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 272754,
+      "sha256": "955e539da4e21248a4d91927647b466b992d1d4f3c573d0abe275b7858828a5c"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/jack-e-gabrielle-lins.webp",
+      "filename": "jack-e-gabrielle-lins.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 345186,
+      "sha256": "a1896530c312ee994d214f2a4f031b6c62d4a5d3aef9b37f7f9c981aa4713542"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/jack-lins.webp",
+      "filename": "jack-lins.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 284176,
+      "sha256": "b005a0f246e78f62b4dddcecf2e084432b5f050d63fce62059a511d07b70a30b"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/kali.webp",
+      "filename": "kali.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 386998,
+      "sha256": "a3285443cea3dbf2692f6d84643fcf2534fa00f5f75233c559ca58d3af695d30"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/karol.webp",
+      "filename": "karol.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 497068,
+      "sha256": "f019ac31aafd84ce764818f7f57dedaed2223bf75383ab4187973f33d6cde25f"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/leon.webp",
+      "filename": "leon.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 334578,
+      "sha256": "82df822427482f77b0b298f0d0acf25121c70b23933e025173df6847e3ee4859"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/mereditha.webp",
+      "filename": "mereditha.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 424154,
+      "sha256": "6ae984ab3b53d0ba219106d03e4c754cf1e9e2160be04c0411f3e19ed56fead6"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/peryth.webp",
+      "filename": "peryth.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1671,
+      "height": 941,
+      "sizeBytes": 403942,
+      "sha256": "c84ac4c54cd613e6b4c0ad8d767864fe6a231490da42fa26442dfc13284e249d"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/seraphina.webp",
+      "filename": "seraphina.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 207264,
+      "sha256": "b653faff03474be85494a3a8ebbb8d44ec5a3796de151462b68596c13d279715"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/tango.webp",
+      "filename": "tango.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 343236,
+      "sha256": "adeada121f27af1811eb6317c8878b91a10c456dad8a2cfab30c8f5fe9057aa4"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/trolhos.webp",
+      "filename": "trolhos.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 502436,
+      "sha256": "a1f00c8a099ae8e9b31e2eb8e1de0dad34e0139cfa7bd3e0fe38d5df68cd730e"
+    },
+    {
+      "path": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/teorix.webp",
+      "filename": "teorix.webp",
+      "category": "books/viajantes-dimensionais/a-patrulha-de-korvo/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 195114,
+      "sha256": "b451e1f6acc3530f40efb3e05a838ca1952033a215b67d400167771a3d0dc6af"
     }
   ]
 }
