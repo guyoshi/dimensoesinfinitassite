@@ -16,7 +16,7 @@ window.DI_BOOK.characters = [
     ],
     "voice": "Primeira pessoa; mais sombrio e fragmentado do que no primeiro livro, alternando lucidez e visões.",
     "sources": [
-      "Capítulos 1–2, 5–7, 10, 12, 15–16, 21, 23, 26–27"
+      "Capítulos 1–2, 5–7, 10, 12, 15–16, 21, 23, 26–27, 32"
     ],
     "featured": true
   },
@@ -34,7 +34,7 @@ window.DI_BOOK.characters = [
     ],
     "voice": "Humor para disfarçar o medo; fala em primeira pessoa, com tangentes.",
     "sources": [
-      "Capítulos 1–2, 7, 11, 15, 17–18, 20, 22–27"
+      "Capítulos 1–2, 7, 11, 15, 17–18, 20, 22–27, 29–30, 32"
     ],
     "featured": true
   },
@@ -52,7 +52,7 @@ window.DI_BOOK.characters = [
     ],
     "voice": "Direta e áspera; esconde carência atrás de ironia.",
     "sources": [
-      "Capítulos 2–5, 8–10, 13–14, 17, 19–20, 25–27"
+      "Capítulos 2–5, 8–10, 13–14, 17, 19–20, 25–27, 29, 31"
     ],
     "featured": true
   },
@@ -70,7 +70,7 @@ window.DI_BOOK.characters = [
     ],
     "voice": "Tom baixo; diz mais do que revela.",
     "sources": [
-      "Capítulos 1–2, 5, 7, 9–12, 15, 17–20, 22–27, 29"
+      "Capítulos 1–2, 5, 7, 9–12, 15, 17–20, 22–27, 29, 31"
     ],
     "featured": true
   },
@@ -88,7 +88,7 @@ window.DI_BOOK.characters = [
     ],
     "voice": "Primeira pessoa controlada; mede cada palavra.",
     "sources": [
-      "Capítulos 3–5, 9–10, 13–14, 17–19, 22–26, 28"
+      "Capítulos 3–5, 9–10, 13–14, 17–19, 22–26, 28–29, 31"
     ],
     "featured": true
   },
@@ -96,7 +96,7 @@ window.DI_BOOK.characters = [
     "slug": "filipo",
     "name": "Filipo",
     "subtitle": "Filipo Brandolini · garoto de Alvorada Alegre",
-    "summary": "Filipo Brandolini, garoto de Alvorada Alegre. Aluno novo na escola de Pedro, procura uma selifa para ajudar a família. Estuda astronomia e quer ter uma barbearia como a do pai.",
+    "summary": "Filipo Brandolini, jovem de Alvorada Alegre e aluno da escola de Pedro, estuda astronomia e procura a irmã Manu. Suas lembranças revelam a queda da cidade e os rituais do Livro dos Condenados.",
     "importance": "Principal",
     "personality": [
       "Observador",
@@ -105,7 +105,7 @@ window.DI_BOOK.characters = [
     ],
     "voice": "Analítico; fala de memória e consequência.",
     "sources": [
-      "Capítulos 2, 7, 11, 15, 17–18, 22–26, 29"
+      "Capítulos 2, 7, 11, 15, 17–18, 22–26, 29–30, 32"
     ]
   },
   {
@@ -177,7 +177,7 @@ window.DI_BOOK.characters = [
     "summary": "Menina de franja, de Alvorada Alegre, que aparece diante da casa de Junior sem lembrar de nada.",
     "importance": "Principal",
     "sources": [
-      "Capítulos 6, 12, 16, 21, 26–27, 29"
+      "Capítulos 6, 12, 16, 21, 26–27, 30, 32"
     ]
   },
   {
@@ -327,7 +327,7 @@ window.DI_BOOK.characters = [
     "summary": "Vinícius Silva de Sousa, o antigo namorado de Priscila.",
     "importance": "Secundário",
     "sources": [
-      "Capítulos 4–5, 9–10, 14, 26–27"
+      "Capítulos 4–5, 9–10, 14, 26–27, 29, 31"
     ]
   },
   {
