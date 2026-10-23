@@ -11,6 +11,11 @@ window.DI_BOOK = Object.assign(window.DI_BOOK || {}, { saga: window.DI_SAGA }, {
     "heroY": "36%",
     "cover": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/cover.webp",
     "logo": "assets/branding/a-patrulha-de-korvo/logo-light.webp",
+    "brandAssets": {
+      "logo": "assets/branding/dimensoes-infinitas/dimensoes-infinitas-logo-branco.png",
+      "seal": "assets/branding/dimensoes-infinitas/dimensoes-infinitas-selo-n-branco.png",
+      "authorSignature": "assets/branding/dimensoes-infinitas/guilherme-s-l-anjos-branco.png"
+    },
     "transitionLabel": "Ondulação ciano ao trocar de página",
     "lanternOption": false
   },

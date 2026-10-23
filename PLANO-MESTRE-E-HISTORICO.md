@@ -2580,3 +2580,11 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - Linhas do tempo por livro. Capítulos 25–28 de *A Alvorada das Ilusões* ainda são esboços no texto (sinalizado nos detalhes); 30–31 estão vazios e não entraram.
 - Engine: `entityMeta`/`entityExtra` (campos ricos nas fichas), "Pontos de atenção" nos capítulos e estilos `.blist`, `.entity .lead`, `.tagrow.meta`, `.srcline`.
 - Imagens de personagens/lugares **não** foram importadas (existem só no PC do autor). `images.js` e `gallery.js` continuam vazios → Etapa 5 (`scripts/sync_book_assets.py`).
+
+## Atualização pontual — 23/10/2026 — identidade editorial em A Patrulha de Korvo
+
+- A pedido do autor, a página de `A Patrulha de Korvo` recebeu os arquivos **originais** da marca encontrados em `guyoshi/dimensoesinfinitas/98 - Assets Gerais/Logos/Dimensões Infinitas/`.
+- Arquivos incorporados ao site (sem redesenho ou tipografia improvisada): `assets/branding/dimensoes-infinitas/dimensoes-infinitas-logo-branco.png`, `dimensoes-infinitas-selo-n-branco.png` e `guilherme-s-l-anjos-branco.png` no mesmo diretório.
+- Selo **N** na navegação lateral; logotipo **Dimensões Infinitas** no rodapé fixo; assinatura gráfica **Guilherme S. L. Anjos** no destaque inicial, com texto alternativo e fallbacks para acessibilidade.
+- `book.js` usa `brandAssets`; o motor compartilhado só exibe os elementos quando eles forem fornecidos pelo livro. Identidade de outros livros preservada. Estilos específicos isolados em `theme.css` e versões de CSS/JS renovadas na entrada HTML.
+- IDs, conteúdo narrativo, mapas, linhas do tempo e cânone alterados: **0**. Próximas etapas já planejadas continuam inalteradas.

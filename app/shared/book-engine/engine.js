@@ -98,12 +98,20 @@
       const s = SECTIONS[id]; return `<a class="nav-item" href="#/${id}" data-nav="${id}">${icon(s[0], 'ni')}<span>${s[1]}</span></a>`;
     }).join('')}</section>`).join('');
     const bk = B.book;
+    // Identidade editorial opcional: só é exibida quando o livro fornece assets oficiais.
+    const brandAssets = bk.brandAssets || {};
+    const brandSeal = brandAssets.seal
+      ? `<img class="di-seal" src="${esc(brandAssets.seal)}" alt="Selo Dimensões Infinitas" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span hidden>${icon(B.saga.symbol)}</span>`
+      : icon(B.saga.symbol);
+    const brandFooter = brandAssets.logo
+      ? `<span class="di-footer-publisher"><a href="index.html" aria-label="Ir para Dimensões Infinitas"><img class="di-publisher-img" src="${esc(brandAssets.logo)}" alt="Dimensões Infinitas" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="di-brand-fallback" hidden>Dimensões Infinitas</span></a><span class="di-footer-title">${esc(B.saga.name)} · ${esc(bk.name)}</span></span>`
+      : `<span>${esc(B.saga.name)} · ${esc(bk.name)}</span>`;
     document.body.dataset.theme = bk.theme; document.body.dataset.book = bk.id; document.body.dataset.saga = B.saga.id;
     document.getElementById('app').innerHTML = `
       <div class="fx-root" id="fxRoot" aria-hidden="true"></div>
       <div class="app">
         <aside class="sb" id="sb" aria-label="Navegação principal">
-          <a class="brand" href="#/inicio"><span class="sigil">${icon(B.saga.symbol)}</span><span class="brand-copy"><b class="h-font">${esc(B.saga.name)}</b><small>${esc(bk.name)} · ${esc(bk.numeral)}</small></span></a>
+          <a class="brand" href="#/inicio"><span class="sigil">${brandSeal}</span><span class="brand-copy"><b class="h-font">${esc(B.saga.name)}</b><small>${esc(bk.name)} · ${esc(bk.numeral)}</small></span></a>
           <nav class="nav" id="nav">${nav}</nav>
           <div class="sbf"><a class="exit" href="index.html#/saga/${esc(B.saga.id)}">${icon('back', 'ni')}<span>Dimensões Infinitas</span></a></div>
         </aside>
@@ -123,7 +131,7 @@
           </header>
           <div class="crumb" id="crumb"></div>
           <main class="main" id="main" tabindex="-1"></main>
-          <footer class="foot"><span>${esc(B.saga.name)} · ${esc(bk.name)}</span><span>Autoria, mundo e texto: Guilherme S. L. Anjos</span></footer>
+          <footer class="foot">${brandFooter}<span>Autoria, mundo e texto: Guilherme S. L. Anjos</span></footer>
         </div>
       </div>
       <div class="veil" id="veil" aria-hidden="true"></div>
@@ -145,6 +153,9 @@
   /* ---------- páginas ---------- */
   function pageInicio() {
     const bk = B.book, ch = A.chapters, w = written();
+    const authorSignature = bk.brandAssets?.authorSignature
+      ? `<div class="di-hero-author" aria-label="Autoria"><span class="di-author-label">Uma obra de</span><img src="${esc(bk.brandAssets.authorSignature)}" alt="Guilherme S. L. Anjos" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="di-author-fallback" hidden>Guilherme S. L. Anjos</span></div>`
+      : '';
     const drafts = ch.length - w.length;
     const cards = [
       ['personagens', 'Personagens', A.characters.length ? `${A.characters.length} fichas` : 'Quem são e onde ficaram'],
@@ -160,7 +171,7 @@
         <div class="hero-bg" style="background-image:url('${esc(bk.cover)}')"></div><div class="hero-shade"></div>
         <div class="hero-fx" id="heroFx"></div>
         <div class="copy"><p class="kicker">${esc(bk.kicker)}</p><img class="logo" src="${esc(bk.logo)}" alt="${esc(bk.name)}"><p class="tagline">${esc(bk.tagline)}</p>
-          <div class="btns"><a class="btn primary" href="#/capitulos">${icon('chapter')} Abrir capítulos</a><a class="btn" href="#/personagens">${icon('people')} Ver personagens</a><button class="btn" data-contemplate>${icon('eye')} Contemplar este mundo</button></div></div>
+          <div class="btns"><a class="btn primary" href="#/capitulos">${icon('chapter')} Abrir capítulos</a><a class="btn" href="#/personagens">${icon('people')} Ver personagens</a><button class="btn" data-contemplate>${icon('eye')} Contemplar este mundo</button></div>${authorSignature}</div>
         <figure class="coverwrap"><img src="${esc(bk.cover)}" alt="Capa de ${esc(bk.name)}" data-lightbox></figure>
       </section>
       <section class="cards">${cards.map(([id, t, d]) => `<a class="card" href="#/${id}"><h4 class="h-font">${t}</h4><p>${esc(d)}</p></a>`).join('')}</section>
