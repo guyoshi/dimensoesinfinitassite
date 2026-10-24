@@ -1600,7 +1600,7 @@
     {
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/cover.webp",
       "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capas/Diário Sobrenatural - Os Elos das Sombras - Capa.png",
-      "sourceSha256": "65596c48695b44732bb350b9e8bd428f2770d38d39b6b9ecbc3f5ee0c531867f"
+      "sourceSha256": "b09639f1ed3f518ae7031a67e9c14a8320290e9d0bec47092eb1efb4764ae62c"
     },
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/a-besta.webp",
@@ -2371,4 +2371,4 @@
     "assets/shared/reference/sun-glow.webp",
     "assets/shared/reference/teceloes-de-vento.webp"
   ]
-}
+}\n

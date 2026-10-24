@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-23",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
   "count": 509,
@@ -3702,8 +3702,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 331522,
-      "sha256": "03f840c897f11e3f3d45f122412d2b7fb919b55f593fc20a8704c0fda3159221"
+      "sizeBytes": 268386,
+      "sha256": "d2e61283f646674b601c75a97f59560dceaaaf0a2b55f12ff946b425cc033ca7"
     },
     {
       "path": "assets/branding/os-elos-das-sombras/logo-light.webp",
@@ -5096,4 +5096,4 @@
       "sha256": "b451e1f6acc3530f40efb3e05a838ca1952033a215b67d400167771a3d0dc6af"
     }
   ]
-}
+}\n
