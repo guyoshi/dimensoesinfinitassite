@@ -105,6 +105,69 @@
     makeClickableCardsKeyboardSafe(root);
   }
 
+  // Um único comportamento de gaveta móvel para as páginas do Ciclo de Jesed.
+  // Os motores antigos usam body.menu; os mais novos usam .sidebar.mobile-open.
+  function enhanceMobileNavigation() {
+    const side = document.querySelector('#side.sidebar, #sidebar.sidebar');
+    const trigger = document.querySelector('#menu, #mobileMenu');
+    if (!side || !trigger || !body.dataset.book) return;
+
+    const backdrop = document.createElement('button');
+    backdrop.type = 'button';
+    backdrop.className = 'di-mobile-nav-backdrop';
+    backdrop.setAttribute('aria-label', 'Fechar menu de navegação');
+    backdrop.hidden = true;
+    body.appendChild(backdrop);
+    if (!side.id) side.id = 'di-book-sidebar';
+    trigger.setAttribute('aria-controls', side.id);
+
+    const isMobile = () => window.matchMedia('(max-width: 860px)').matches;
+    const isOpen = () => isMobile() && (
+      body.classList.contains('menu') ||
+      body.classList.contains('menu-open') ||
+      side.classList.contains('mobile-open')
+    );
+    let wasOpen = false;
+    const sync = () => {
+      const open = isOpen();
+      if (open !== wasOpen) {
+        wasOpen = open;
+        backdrop.hidden = !open;
+        body.classList.toggle('di-mobile-nav-open', open);
+      }
+      trigger.setAttribute('aria-expanded', String(open));
+      trigger.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+    };
+    const close = () => {
+      body.classList.remove('menu', 'menu-open');
+      side.classList.remove('mobile-open');
+      sync();
+    };
+
+    backdrop.addEventListener('click', close);
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && isOpen()) {
+        close();
+        trigger.focus({ preventScroll: true });
+      }
+    });
+    window.addEventListener('hashchange', close);
+    window.addEventListener('resize', () => {
+      if (!isMobile()) close();
+      else sync();
+    }, { passive: true });
+    // Fecha inclusive quando o leitor escolhe a secção já ativa (sem hashchange).
+    side.addEventListener('click', event => {
+      if (event.target.closest('[data-go], [data-route], a[href]')) close();
+    });
+
+    new MutationObserver(sync).observe(body, { attributes: true, attributeFilter: ['class'] });
+    new MutationObserver(sync).observe(side, { attributes: true, attributeFilter: ['class'] });
+    sync();
+  }
+
+  enhanceMobileNavigation();
+
   ensurePerformanceIndicator();
   enhance();
 
