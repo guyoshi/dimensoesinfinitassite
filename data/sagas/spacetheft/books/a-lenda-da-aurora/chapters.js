@@ -206,7 +206,7 @@ window.DI_BOOK.chapters = [
   {
     "number": 9,
     "title": "A Fera Indomável",
-    "summary": "Algemado, Jasmey é levado à Fera Sideral, nave imunda e enferrujada onde piratas torturam, trabalham sob chicote e disputam restos de comida. Nosteratos o põe para carregar pedras de titânio usadas na fabricação de armas, e na hora da refeição o capitão Tzough, de perna de aço e lente vermelha, silencia o salão e entrega dois piratas a uma criatura alada para punir a tripulação. Depois, Alekta leva Jasmey a uma cela, onde os dois se envolvem, e o prisioneiro Ederos os interrompe com insultos.",
+    "summary": "Algemado, Jasmey é levado à Fera Sideral, nave imunda e enferrujada onde piratas torturam, trabalham sob chicote e disputam restos de comida. Nosteratos o põe para carregar pedras de titânio usadas na fabricação de armas, e na hora da refeição o capitão conhecido como Senhor dos Vórtices, de perna de aço e lente vermelha, silencia o salão e entrega dois piratas a uma criatura alada para punir a tripulação. Depois, Alekta leva Jasmey a uma cela, onde os dois se envolvem, e o prisioneiro Ederos os interrompe com insultos.",
     "characters": [
       "jasmey-badrock",
       "alekta",
@@ -220,7 +220,8 @@ window.DI_BOOK.chapters = [
     ],
     "details": [
       "A nave tem torres de vigia, vela solar negra com linhas azuis, animais acorrentados movendo uma engrenagem e uma lenda de que ultrapassa em medo qualquer outra nave pirata.",
-      "Alekta diz que a Lebargan não existe e duvida de que Jasmey seja um Dale; ele responde que seu superpoder é ser bom de cama."
+      "Alekta diz que a Lebargan não existe e duvida de que Jasmey seja um Dale; ele responde que seu superpoder é ser bom de cama.",
+      "O nome do capitão da Fera ainda não é apresentado explicitamente neste capítulo: os piratas o tratam como Senhor dos Vórtices."
     ]
   },
   {
