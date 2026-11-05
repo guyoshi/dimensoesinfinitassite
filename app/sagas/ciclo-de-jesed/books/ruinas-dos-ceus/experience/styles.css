@@ -177,3 +177,48 @@ body[data-book="ruinas-dos-ceus"][data-sky-phase="night"] .rdc-timeline-card::be
    no inventário), nunca pelo <img> ausente. Resolve regra duplicada/ambígua. */
 .natural-cloud .cloud-body{display:block!important;opacity:1!important}
 .natural-cloud img{display:none!important}
+
+/* Ruínas: abertura de fenda luminosa (sem blur de tela inteira) e renderização económica — 2026-11-05 */
+body[data-book="ruinas-dos-ceus"] .transition-veil{
+  background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;
+  isolation:isolate;will-change:auto;
+}
+body[data-book="ruinas-dos-ceus"] .transition-veil .veil-mark{display:none!important}
+body[data-book="ruinas-dos-ceus"] .transition-veil.active{
+  animation:rdcSkyVeil 560ms ease-out both!important;
+}
+body[data-book="ruinas-dos-ceus"] .transition-veil.active::before,
+body[data-book="ruinas-dos-ceus"] .transition-veil.active::after{
+  content:"";position:absolute;display:block;pointer-events:none;
+}
+body[data-book="ruinas-dos-ceus"] .transition-veil.active::before{
+  inset:0;
+  background:radial-gradient(ellipse 22% 90% at 50% 50%,rgba(255,252,225,.23),transparent 85%),
+    linear-gradient(90deg,transparent 38%,rgba(68,136,157,.13) 49%,rgba(255,244,201,.12) 51%,transparent 62%);
+  animation:rdcSkyGlow 560ms ease-out both!important;
+}
+body[data-book="ruinas-dos-ceus"] .transition-veil.active::after{
+  top:0;bottom:0;left:50%;width:2px;height:100%;max-width:2px;
+  background:linear-gradient(180deg,transparent,rgba(255,252,211,.92) 20%,
+    #fffbe9 55%,rgba(147,211,227,.7) 82%,transparent);
+  box-shadow:0 0 14px rgba(255,248,196,.65),0 0 40px rgba(143,213,232,.36);
+  transform-origin:50% 50%;
+  animation:rdcSkyRift 560ms ease-in-out both!important;
+}
+@keyframes rdcSkyVeil{0%,100%{opacity:0}18%,67%{opacity:1}}
+@keyframes rdcSkyGlow{0%{opacity:0;transform:scaleX(.2)}45%{opacity:1;transform:scaleX(1)}100%{opacity:0;transform:scaleX(1.2)}}
+@keyframes rdcSkyRift{0%{opacity:0;transform:scaleY(0)}33%{opacity:1;transform:scaleY(1)}75%{opacity:.75;transform:scaleY(1)}100%{opacity:0;transform:scaleY(.2)}}
+/* Menos superfícies translúcidas animadas em dispositivos compactos. */
+@media(max-width:760px){
+  body[data-book="ruinas-dos-ceus"] #particles{animation:none!important;opacity:.14}
+  body[data-book="ruinas-dos-ceus"] .natural-cloud{filter:none!important}
+  body[data-book="ruinas-dos-ceus"] .clouds-layer-front{display:none!important}
+  body[data-book="ruinas-dos-ceus"] .ruinas-atmosphere::before{transition:none}
+}
+body[data-book="ruinas-dos-ceus"].performance-mode .transition-veil,
+body[data-book="ruinas-dos-ceus"].no-transitions .transition-veil,
+body[data-book="ruinas-dos-ceus"].no-motion .transition-veil{display:none!important}
+@media(prefers-reduced-motion:reduce){
+  body[data-book="ruinas-dos-ceus"] .transition-veil{display:none!important}
+  body[data-book="ruinas-dos-ceus"] .natural-cloud{animation:none!important}
+}
