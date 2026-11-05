@@ -198,7 +198,7 @@
   function createContemplative(){
     if(contemplateShell)return contemplateShell;
     contemplateShell=document.createElement('section');contemplateShell.id='ruinasContemplative';contemplateShell.className='contemplative-shell ruinas-contemplative';contemplateShell.setAttribute('aria-hidden','true');
-    contemplateShell.innerHTML=`<div class="contemplative-scene"><div class="ruinas-contemplative-art"></div><div class="ruinas-stars"></div><div class="ruinas-celestial ruinas-sun"></div><div class="ruinas-celestial ruinas-moon"></div><div data-contemplative-clouds></div><div class="ruinas-contemplative-vignette"></div><button class="contemplative-back" type="button" data-close-contemplative title="Voltar à página">← Voltar</button><button class="contemplative-music-action" type="button" data-contemplative-music title="Ligar ou desligar música">♪ Música</button><div class="contemplative-caption">Etérea · beleza suspensa, instabilidade silenciosa</div>${timeControlHtml()}</div>`;
+    contemplateShell.innerHTML=`<div class="contemplative-scene"><div class="ruinas-contemplative-art"></div><div class="ruinas-stars"></div><div class="ruinas-celestial ruinas-sun"></div><div class="ruinas-celestial ruinas-moon"></div><div class="ruinas-celestial ruinas-moon-small"></div><div class="ruinas-distant-elements">${flightHost?.innerHTML||''}</div><div data-contemplative-clouds></div><div class="ruinas-contemplative-vignette"></div><button class="contemplative-back" type="button" data-close-contemplative title="Voltar à página">← Voltar</button><button class="contemplative-music-action" type="button" data-contemplative-music title="Ligar ou desligar música">♪ Música</button><div class="contemplative-caption">Etérea · beleza suspensa, instabilidade silenciosa</div>${timeControlHtml()}</div>`;
     document.body.append(contemplateShell);return contemplateShell;
   }
   function syncContemplative(){if(!contemplateShell)return;const host=contemplateShell.querySelector('[data-contemplative-clouds]');if(host)host.innerHTML=contemplativeClouds();updateSky()}
@@ -216,6 +216,7 @@
   document.addEventListener('visibilitychange',()=>{
     cloudHost?.classList.toggle('experience-paused',document.hidden);
     cloudHostFront?.classList.toggle('experience-paused',document.hidden);
+    flightHost?.classList.toggle('experience-paused',document.hidden);
     if(!document.hidden)updateSky();
   });
 
