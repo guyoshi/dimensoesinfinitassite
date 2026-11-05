@@ -27,12 +27,16 @@
     const page=pages[base]||err;
     const settings=R.settings;
     // Só anima navegações reais, não pesquisas, tabs ou a montagem inicial.
-    if(lastRenderedRoute!==null&&lastRenderedRoute!==resolved&&!preserveScroll&&settings&&settings.transitions&&settings.motion&&settings.preset!=='performance'&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    const changedRoute=lastRenderedRoute!==null&&lastRenderedRoute!==resolved;
+    if(changedRoute&&!preserveScroll&&settings&&settings.transitions&&settings.motion&&settings.preset!=='performance'&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
       const veil=$('#transitionVeil');
       if(veil){veil.classList.remove('active');void veil.offsetWidth;veil.classList.add('active');}
     }
     lastRenderedRoute=resolved;
     $('#main').innerHTML=page();
+    if(changedRoute&&matchMedia('(max-width: 860px)').matches){
+      $('#main').focus({preventScroll:true});
+    }
     requestAnimationFrame(()=>window.DI_BETA_FEEDBACK?.mount($('#main')));
     if(base==='mapa') requestAnimationFrame(()=>R.mountMap?.());
     if(base==='galeria') requestAnimationFrame(()=>window.DI_GALLERY?.mount($('#main')));
