@@ -31,7 +31,7 @@ window.DI_BOOK.chapters = [
   {
     "number": 2,
     "title": "O Convite do Velho-Sábio",
-    "summary": "Os irmãos despertam após o contacto com a esfera e encontram o Velho-Sábio, que lhes apresenta a possibilidade de visitar outra dimensão. De volta à rotina com Frank, começam a manifestar poderes que não compreendem: Banjo atrai marimbondos, Beatriz provoca fenómenos durante uma aula de coral e Bruno congela o volante do carro do tio num momento perigoso. Breno, dividido entre o medo e a responsabilidade pelos irmãos, vê a vida familiar tornar-se cada vez menos normal. Quando o rádio do pai volta a tocar Roxette, a magia toma conta do quarto e os quatro são transportados para longe.",
+    "summary": "Os irmãos despertam após o contato com a esfera e encontram o Velho-Sábio, que lhes apresenta a possibilidade de visitar outra dimensão. De volta à rotina com Frank, começam a manifestar poderes que não compreendem: Banjo atrai marimbondos, Beatriz provoca fenômenos durante uma aula de coral e Bruno congela o volante do carro do tio num momento perigoso. Breno, dividido entre o medo e a responsabilidade pelos irmãos, vê a vida familiar tornar-se cada vez menos normal. Quando o rádio do pai volta a tocar Roxette, a magia toma conta do quarto e os quatro são transportados para longe.",
     "characters": [
       "breno",
       "bruno",
@@ -84,7 +84,7 @@ window.DI_BOOK.chapters = [
   {
     "number": 4,
     "title": "Magia Arcana",
-    "summary": "Breno acorda do pesadelo recorrente com uma porta de madeira, uma mão metálica e um crânio. A casa do Velho-Sábio revela mais surpresas, com teto que marca as horas e mecanismos mágicos até no quotidiano. Os irmãos chegam ao Edifício Arcano, onde conhecem aprendizes, professores e rivais e começam a compreender as exigências do treino. De volta a casa, uma fruta incomum, música e pequenas manifestações de magia mostram que o poder também faz parte dos momentos íntimos dos quatro irmãos.",
+    "summary": "Breno acorda do pesadelo recorrente com uma porta de madeira, uma mão metálica e um crânio. A casa do Velho-Sábio revela mais surpresas, com teto que marca as horas e mecanismos mágicos até no cotidiano. Os irmãos chegam ao Edifício Arcano, onde conhecem aprendizes, professores e rivais e começam a compreender as exigências do treino. De volta a casa, uma fruta incomum, música e pequenas manifestações de magia mostram que o poder também faz parte dos momentos íntimos dos quatro irmãos.",
     "characters": [
       "breno",
       "bruno",
@@ -163,7 +163,7 @@ window.DI_BOOK.chapters = [
   {
     "number": 6,
     "title": "O Mago Negro",
-    "summary": "No aniversário de Breno, os irmãos organizam uma pequena surpresa que o faz recordar os pais. O treino continua, revelando melhor as diferentes habilidades dos quatro e os perigos de usar magia sem controlo. Histórias sobre Korvo e o receio que o seu nome provoca lançam uma sombra sobre a rotina de Tayo. À noite, surgem conversas sobre a Sociedade de Tayo e os conflitos que se escondem sob a aparente segurança da cidade. Bruno volta a encontrar algum conforto na companhia de Átila.",
+    "summary": "No aniversário de Breno, os irmãos organizam uma pequena surpresa que o faz recordar os pais. O treino continua, revelando melhor as diferentes habilidades dos quatro e os perigos de usar magia sem controle. Histórias sobre Korvo e o receio que o seu nome provoca lançam uma sombra sobre a rotina de Tayo. À noite, surgem conversas sobre a Sociedade de Tayo e os conflitos que se escondem sob a aparente segurança da cidade. Bruno volta a encontrar algum conforto na companhia de Átila.",
     "characters": [
       "breno",
       "bruno",
