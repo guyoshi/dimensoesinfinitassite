@@ -480,7 +480,8 @@ body.performance-mode[data-book="guerras-de-sangue"] #warParticleFront{display:n
 @media(max-width:860px){
   body[data-book="guerras-de-sangue"] .sidebar{transform:translateX(-100%);width:var(--di-sidebar-width)!important}
   body[data-book="guerras-de-sangue"].menu-open .sidebar,
-  body[data-book="guerras-de-sangue"].menu .sidebar{transform:none}
+  body[data-book="guerras-de-sangue"].menu .sidebar,
+  body[data-book="guerras-de-sangue"] .sidebar.mobile-open{transform:translateX(0)}
   body[data-book="guerras-de-sangue"] .workspace,body[data-book="guerras-de-sangue"] .sidebar.collapsed+.workspace{margin-left:0}
   body[data-book="guerras-de-sangue"] .mobile-only{display:grid!important}
   body[data-book="guerras-de-sangue"] .sidebar-toggle{display:none}
