@@ -1,5 +1,21 @@
 # Dimensões Infinitas — site pessoal
 
+<!-- DI-PROJECT-IDENTITY -->
+## Identificação inequívoca deste projeto
+
+**ID interno:** `DI-PORTAL`  
+**Nome de trabalho:** Portal Literário (Portal dos Universos)  
+**Repositório:** `guyoshi/dimensoesinfinitassite`
+
+**Finalidade:** Site literário contemplativo: exploração de livros, capítulos, personagens, lugares, mapas, linhas do tempo, mistérios e lore. Os dados devem respeitar os capítulos efetivamente escritos no acervo editorial.
+
+**Quando Gui disser** “portal literário, site contemplativo, site do autor, portal dos universos, site dos capítulos/lore”, trabalhar **neste repositório**.
+
+**Não confundir com:** `guyoshi/dimensoesinfinitas-web` = **DI-COMERCIAL**, site de leads e lançamento; `guyoshi/dimensoesinfinitas` = **DI-ACERVO**, manuscritos e cânone.
+
+**Regra para assistentes e colaboradores:** antes de editar, identificar o projeto pelo repositório e pelo ID interno; não alterar dados, URLs, publicação ou manuscritos de outro projeto por engano. Se o pedido mencionar apenas “site Dimensões Infinitas” e o contexto não distinguir comercial de portal, verificar o objetivo antes de modificar arquivos.
+<!-- /DI-PROJECT-IDENTITY -->
+
 Versão estrutural: **0.17.1 — Etapa 16 concluída, organização 0.17 preservada e cânone linguístico sincronizado**.
 
 ## Atualização 0.17.1 — reforma linguística
