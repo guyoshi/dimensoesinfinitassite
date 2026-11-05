@@ -222,3 +222,69 @@ body[data-book="ruinas-dos-ceus"].no-motion .transition-veil{display:none!import
   body[data-book="ruinas-dos-ceus"] .transition-veil{display:none!important}
   body[data-book="ruinas-dos-ceus"] .natural-cloud{animation:none!important}
 }
+
+
+/* Etérea / Jesed: duas luas sem nomes nem órbitas canônicas fixadas.
+   A menor cruza o horizonte mais depressa e é menos luminosa. */
+body[data-book="ruinas-dos-ceus"] .ruinas-moon-small{
+  width:clamp(29px,3.6vw,54px);
+  min-width:0;min-height:0;
+  left:var(--rdc-moon-small-x,24%);
+  top:var(--rdc-moon-small-y,33%);
+  transform:translate(-50%,-50%);
+  background:radial-gradient(circle at 35% 32%,#fff1dc 0 23%,#e4cfb9 54%,#a58b85 75%,transparent 77%);
+  filter:drop-shadow(0 0 13px rgba(255,221,197,.32));
+  opacity:var(--rdc-moon-small-opacity,0);
+  z-index:5;
+}
+body[data-book="ruinas-dos-ceus"] .ruinas-moon{z-index:5}
+
+/* Planadores: asa de seda curva, armação e piloto visíveis em silhueta.
+   Rotas ilustrativas independentes com velocidade, direção e inclinação distintas. */
+body[data-book="ruinas-dos-ceus"] .ruinas-glider{
+  position:absolute;top:var(--glider-top,28%);left:0;
+  display:block;width:var(--glider-width,84px);aspect-ratio:128/58;
+  color:rgba(32,75,89,.82);opacity:var(--glider-alpha,.5);
+  transform:translate3d(-24vw,0,0);
+  animation:ruinasGlideRight var(--glider-duration,54s) linear infinite;
+  animation-delay:var(--glider-delay,0s);
+  pointer-events:none;
+  will-change:transform;
+}
+body[data-book="ruinas-dos-ceus"] .ruinas-glider[data-direction="rtl"]{
+  animation-name:ruinasGlideLeft;
+}
+body[data-book="ruinas-dos-ceus"] .ruinas-glider svg{
+  display:block;width:100%;height:100%;overflow:visible;
+  filter:drop-shadow(0 2px 2px rgba(40,74,89,.12));
+}
+body[data-book="ruinas-dos-ceus"] .ruinas-glider[data-direction="rtl"] svg{transform:scaleX(-1)}
+body[data-book="ruinas-dos-ceus"] .ruinas-glider-wing{fill:currentColor;stroke:rgba(244,245,222,.32);stroke-width:1}
+body[data-book="ruinas-dos-ceus"] .ruinas-glider-rib{fill:none;stroke:rgba(241,247,223,.84);stroke-width:1.45;stroke-linecap:round}
+body[data-book="ruinas-dos-ceus"] .ruinas-glider-pilot{fill:#284552}
+@keyframes ruinasGlideRight{
+  0%{transform:translate3d(-24vw,7px,0) rotate(-4deg)}
+  23%{transform:translate3d(16vw,-11px,0) rotate(2deg)}
+  53%{transform:translate3d(66vw,5px,0) rotate(-1deg)}
+  78%{transform:translate3d(100vw,-13px,0) rotate(3deg)}
+  100%{transform:translate3d(133vw,2px,0) rotate(-2deg)}
+}
+@keyframes ruinasGlideLeft{
+  0%{transform:translate3d(133vw,-4px,0) rotate(3deg)}
+  26%{transform:translate3d(94vw,11px,0) rotate(-2deg)}
+  59%{transform:translate3d(42vw,-8px,0) rotate(2deg)}
+  82%{transform:translate3d(7vw,4px,0) rotate(-3deg)}
+  100%{transform:translate3d(-24vw,-9px,0) rotate(1deg)}
+}
+body[data-book="ruinas-dos-ceus"][data-sky-phase="night"] .ruinas-glider{opacity:0}
+body[data-book="ruinas-dos-ceus"].performance-mode .ruinas-glider,
+body[data-book="ruinas-dos-ceus"].no-motion .ruinas-glider,
+body[data-book="ruinas-dos-ceus"].ruinas-no-parallax.no-particles .ruinas-glider{display:none}
+body[data-book="ruinas-dos-ceus"] .experience-paused .ruinas-glider{animation-play-state:paused}
+@media(max-width:760px){
+  body[data-book="ruinas-dos-ceus"] .ruinas-glider{opacity:calc(var(--glider-alpha,.5) * .72)}
+  body[data-book="ruinas-dos-ceus"] .ruinas-glider svg{filter:none}
+}
+@media(prefers-reduced-motion:reduce){
+  body[data-book="ruinas-dos-ceus"] .ruinas-glider{display:none!important}
+}
