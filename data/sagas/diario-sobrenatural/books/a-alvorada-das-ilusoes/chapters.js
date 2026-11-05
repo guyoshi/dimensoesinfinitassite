@@ -390,7 +390,7 @@ window.DI_BOOK.chapters = [
     "title": "A Estrada das Sombras",
     "pov": "Junior",
     "povLabel": "Junior III",
-    "summary": "Junior, tomado por ódio, quebra o toca-fitas 'As melhores por Kelly Lorraine'. Escreve o terceiro livro de Viajantes Dimensionais e nota moscas grandes pela casa. Manu aparece de novo e diz lembrar-se de pedaços; ela só sabe que é de Alvorada Alegre e que precisa voltar a pé. Junior decide levá-la no carro da mãe, mesmo sem habilitação, e eles seguem pela estrada sul até uma cerca de bloqueio. Um velho de chapéu de vaqueiro, que reconhece Manu como filha de um marceneiro, os alerta de que Alvorada Alegre virou um inferno. Uma sombra viva avança e eles correm até a casa dele. O velho se apresenta como Pollux, um dos nove jovens que libertaram o Azazel/Agouro há 45 anos; só três sobreviveram. Ele explica o Refúgio das Sombras e diz que Agouro é um dos sete principais demônios e que não foi derrotado. Junior dorme com um facão escondido, acorda de uma paralisia do sono, vê que Manu sumiu e que a porta está aberta, e fora vê um ser escuro e esquelético flutuando.",
+    "summary": "Junior, tomado por ódio, quebra o toca-fitas 'As melhores por Kelly Lorraine'. Escreve o terceiro livro de Viajantes Dimensionais e nota moscas grandes pela casa. Manu aparece de novo e diz lembrar-se de pedaços; ela só sabe que é de Alvorada Alegre e que precisa voltar a pé. Junior decide levá-la no carro da mãe, mesmo sem habilitação, e eles seguem pela estrada sul até uma cerca de bloqueio. Um velho de chapéu de vaqueiro, que reconhece Manu como filha de um marceneiro, os alerta de que Alvorada Alegre virou um inferno. Uma sombra viva avança e eles correm até a casa dele. O velho se apresenta como Pollux, que conheceu a entidade chamada Agouro pelo nome Varkhel e sobreviveu a acontecimentos antigos envolvendo os demônios; poucos dos seus companheiros sobreviveram. Ele explica o Refúgio das Sombras e diz que Agouro é um dos sete principais demônios e que não foi derrotado. Junior dorme com um facão escondido, acorda de uma paralisia do sono, vê que Manu sumiu e que a porta está aberta, e fora vê um ser escuro e esquelético flutuando.",
     "characters": [
       "junior",
       "manu",
@@ -417,7 +417,8 @@ window.DI_BOOK.chapters = [
       "Pollux diz que 'espectros' são partes malignas de espíritos deixadas para trás e agora se reúnem ao redor de Alvorada Alegre.",
       "Pollux tem pães caseiros, discos de vinil, uma lareira e uma pintura de uma garota com laço; as janelas estão vedadas com madeira.",
       "Junior encontra uma pedrinha roxa no quarto vazio e a guarda no bolso.",
-      "Pollux avisa que ninguém deve sair antes de amanhecer."
+      "Pollux avisa que ninguém deve sair antes de amanhecer.",
+      "Pollux refere-se ao Agouro como Varkhel, nome pelo qual o conheceu no passado; o texto não revela um nome verdadeiro definitivo."
     ]
   },
   {
@@ -564,7 +565,7 @@ window.DI_BOOK.chapters = [
     "title": "A Senhora da Casa na Serra",
     "pov": "Pedro",
     "povLabel": "Pedro IV",
-    "summary": "Sob chuva, Pedro, Jennifer e Filipo chegam à casa de muros vermelhos de Priscila, guiados pelo sonho de Jennifer. Priscila os recebe de facão e se recusa a envolver-se; Jennifer fala de luto e do 'sonho dos mortos', lugar entre o mundo e a Colina, onde não achou nem a mãe nem Kelly. Priscila diz que Kelly manipulou todos que a amavam e grita 'chega de falar da Kelly', mas, ao saber que a avó é médium, dá o endereço dela e uma nota de cinquenta reais. Na casa de pedra da avó, Olívia, na serra, com a cadela rottweiler Princesa, ela explica o que é uma selifa, conta a história de Sara e do pacto com o Azazel e revela que o sangue dela foi o pagamento pela morte do neto, Enzo. Ela se oferece para treinar Jennifer e sugere que os amigos partam. À noite, Pedro lê no celular roubado a conversa de Jennifer com Glenda, que marca na Rua Fidalga 531 às 18h, e recebe uma mensagem de Mel Jones ('MJ').",
+    "summary": "Sob chuva, Pedro, Jennifer e Filipo chegam à casa de muros vermelhos de Priscila, guiados pelo sonho de Jennifer. Priscila os recebe de facão e se recusa a envolver-se; Jennifer fala de luto e do 'sonho dos mortos', lugar entre o mundo e a Colina, onde não achou nem a mãe nem Kelly. Priscila diz que Kelly manipulou todos que a amavam e grita 'chega de falar da Kelly', mas, ao saber que a avó é médium, dá o endereço dela e uma nota de cinquenta reais. Na casa de pedra da avó, Olívia, na serra, com a cadela rottweiler Princesa, ela explica o que é uma selifa, conta a história de Sara e da sua ligação com a entidade que conheceu como Varkhel, a que os jovens chamam Agouro e revela que o sangue dela foi o pagamento pela morte do neto, Enzo. Ela se oferece para treinar Jennifer e sugere que os amigos partam. À noite, Pedro lê no celular roubado a conversa de Jennifer com Glenda, que marca na Rua Fidalga 531 às 18h, e recebe uma mensagem de Mel Jones ('MJ').",
     "characters": [
       "pedro",
       "jennifer",
@@ -600,7 +601,8 @@ window.DI_BOOK.chapters = [
       "Olívia diz que homens não são médiuns e duvida da história de Filipo sobre o avô; Filipo fala do pai como 'Charlie' neste capítulo.",
       "Olívia mostra um jornal com a notícia dos restos de Lucinda Torres na linha do trem em Casa dos Pinhais.",
       "Olívia conta que nasceu em Alvorada Alegre, deixou a cidade aos 18, foi a Jundiaí e casou com Artur, pai de suas filhas.",
-      "As mensagens mostram Jennifer escrevendo a Glenda, que responde com ironia e quer buscá-la."
+      "As mensagens mostram Jennifer escrevendo a Glenda, que responde com ironia e quer buscá-la.",
+      "Olívia identifica a entidade que os jovens chamam Agouro pelo nome Varkhel, sem estabelecer que seja um nome verdadeiro ou revelar o mistério maior."
     ]
   },
   {
