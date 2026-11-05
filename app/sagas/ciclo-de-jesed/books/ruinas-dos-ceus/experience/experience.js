@@ -14,8 +14,26 @@
 
   const atmosphere=document.createElement('div');
   atmosphere.id='ruinasAtmosphere';atmosphere.className='ruinas-atmosphere';atmosphere.setAttribute('aria-hidden','true');
-  atmosphere.innerHTML='<div class="ruinas-stars"></div><div class="ruinas-celestial ruinas-sun"></div><div class="ruinas-celestial ruinas-moon"></div><div class="ruinas-distant-elements"></div>';
+  atmosphere.innerHTML='<div class="ruinas-stars"></div><div class="ruinas-celestial ruinas-sun"></div><div class="ruinas-celestial ruinas-moon"></div><div class="ruinas-celestial ruinas-moon-small"></div><div class="ruinas-distant-elements"></div>';
   document.body.prepend(atmosphere);
+
+  // Planadores do Primeiro Voo: seda-das-alturas e armação curva de osso de nuari.
+  // Silhuetas puramente atmosféricas, sem atribuí-las a personagens do cânone.
+  // Poucos elementos animados pelo compositor, sem imagens remotas ou bibliotecas.
+  const flightHost=atmosphere.querySelector('.ruinas-distant-elements');
+  const gliderSvg='<svg viewBox="0 0 128 58" aria-hidden="true" focusable="false"><path class="ruinas-glider-wing" d="M5 23 Q29 5 63 13 Q95 3 123 22 Q105 24 86 23 Q70 19 63 23 Q43 20 26 28 Z"/><path class="ruinas-glider-rib" d="M5 23 Q65 8 123 22 M26 28 Q64 20 86 23 M63 13 V37 M36 23 L59 41 M93 22 L69 41"/><circle class="ruinas-glider-pilot" cx="64" cy="40" r="3.5"/><path class="ruinas-glider-rib" d="M64 43 L62 52 M64 43 L69 51 M60 44 L55 49 M68 44 L73 48"/></svg>';
+  const flights=[
+    {top:'19%',width:105,duration:46,delay:-13,dir:'ltr',alpha:.62},
+    {top:'38%',width:64,duration:68,delay:-42,dir:'rtl',alpha:.46},
+    {top:'56%',width:82,duration:55,delay:-28,dir:'ltr',alpha:.42}
+  ];
+  if(flightHost&&!X.reduced){
+    flightHost.insertAdjacentHTML('beforeend',(compactVisuals?flights.slice(0,2):flights).map(g=>
+      '<span class="ruinas-glider" data-direction="'+g.dir+'" style="--glider-top:'+g.top+
+      ';--glider-width:'+g.width+'px;--glider-duration:'+g.duration+'s;--glider-delay:'+g.delay+
+      's;--glider-alpha:'+g.alpha+'">'+gliderSvg+'</span>'
+    ).join(''));
+  }
   const cloudHost=document.getElementById('clouds');
   const cloudHostFront=document.getElementById('cloudsFront');
   let rebuilding=false;
@@ -92,11 +110,27 @@
     minutes=(minutes+1440)%1440;const phase=phaseFor(minutes),c=skyBlend(minutes),root=document.documentElement;
     root.style.setProperty('--rdc-sky-top',c.top);root.style.setProperty('--rdc-sky-mid',c.mid);root.style.setProperty('--rdc-sky-bottom',c.bottom);root.style.setProperty('--rdc-cloud-light',c.light);root.style.setProperty('--rdc-cloud-shadow',c.shadow);
     root.style.setProperty('--rdc-stars-opacity',c.stars);
-    let sunOpacity=0,moonOpacity=0,sunX=50,sunY=70,moonX=50,moonY=70;
+    let sunOpacity=0,moonOpacity=0,smallMoonOpacity=0;
+    let sunX=50,sunY=70,moonX=50,moonY=70,smallMoonX=50,smallMoonY=70;
     if(minutes>=360&&minutes<=1200){const p=(minutes-360)/840;sunX=6+p*88;sunY=76-Math.sin(Math.PI*p)*62;sunOpacity=Math.min(1,Math.max(0,Math.sin(Math.PI*p)*1.45));}
-    if(minutes>=1200||minutes<=360){const elapsed=minutes>=1200?minutes-1200:minutes+240;const p=elapsed/600;moonX=6+p*88;moonY=72-Math.sin(Math.PI*p)*55;moonOpacity=Math.min(1,Math.max(.15,Math.sin(Math.PI*p)*1.2));}
+    if(minutes>=1200||minutes<=360){
+      const elapsed=minutes>=1200?minutes-1200:minutes+240;
+      const p=elapsed/600;
+      moonX=6+p*88;moonY=72-Math.sin(Math.PI*p)*55;
+      moonOpacity=Math.min(1,Math.max(.15,Math.sin(Math.PI*p)*1.2));
+      // A segunda lua é menor e mais discreta. Seu percurso é independente:
+      // ilustração da Duamęa, sem estabelecer período orbital canônico.
+      const secondary=(elapsed/465+.16)%1;
+      smallMoonX=-8+secondary*116;
+      smallMoonY=70-Math.sin(Math.PI*secondary)*39;
+      const edgeFade=Math.min(1,secondary*12,(1-secondary)*12);
+      smallMoonOpacity=Math.max(0,Math.min(.78,edgeFade*.78));
+    }
     root.style.setProperty('--rdc-sun-x',sunX+'%');root.style.setProperty('--rdc-sun-y',sunY+'%');root.style.setProperty('--rdc-sun-opacity',sunOpacity);
     root.style.setProperty('--rdc-moon-x',moonX+'%');root.style.setProperty('--rdc-moon-y',moonY+'%');root.style.setProperty('--rdc-moon-opacity',moonOpacity);
+    root.style.setProperty('--rdc-moon-small-x',smallMoonX+'%');
+    root.style.setProperty('--rdc-moon-small-y',smallMoonY+'%');
+    root.style.setProperty('--rdc-moon-small-opacity',smallMoonOpacity);
     document.body.dataset.skyPhase=phase;
     document.dispatchEvent(new CustomEvent('ruinas:sky-update',{detail:{minutes,phase}}));
     const displayMinutes=Math.round(minutes/10)*10%1440;
