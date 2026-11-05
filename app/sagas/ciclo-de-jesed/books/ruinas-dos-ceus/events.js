@@ -66,7 +66,7 @@ document.addEventListener('keydown',e=>{
   const card=e.target.closest?.('[role="link"][data-go], [data-timeline-card], .place-scene-card[data-go]');
   if(card&&(e.key==='Enter'||e.key===' ')&&!e.target.closest('button,a')){e.preventDefault();return go(card.dataset.go);}
   if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();openSearch();}
-  if(e.key==='Escape'){closeSearch();closeSelector();closeSettingsDrawer();closeLightbox();}
+  if(e.key==='Escape'){closeSearch();closeSelector();closeSettingsDrawer();closeLightbox();closeMobileNav();}
   const lightboxCard=e.target.closest?.('[data-lightbox-image]');
   if(lightboxCard&&(e.key==='Enter'||e.key===' ')){e.preventDefault();openLightbox(lightboxCard.dataset.lightboxImage,lightboxCard.dataset.lightboxCaption);}
 });
@@ -82,13 +82,15 @@ function openLightbox(src,caption){
   box.classList.add('open');
 }
 function closeLightbox(){document.getElementById('imageLightbox')?.classList.remove('open');}
+// O menu móvel deve fechar mesmo quando o leitor escolhe a rota atual.
+function closeMobileNav(){document.body.classList.remove('menu');}
 document.addEventListener('click',e=>{
   if(e.target.closest('[data-lightbox-image]')){const t=e.target.closest('[data-lightbox-image]');openLightbox(t.dataset.lightboxImage,t.dataset.lightboxCaption);return;}
   if(e.target.closest('[data-lightbox-close]'))return closeLightbox();
   if(e.target.closest('[data-selector-close]'))return closeSelector();
   let x=e.target.closest('[data-map-open]');if(x){st.mapPhase=x.dataset.mapOpen;closeSearch();closeSelector();closeSettingsDrawer();return go('mapa');}
   x=e.target.closest('[data-character-view]');if(x){st.characterView=window.DI_CHARACTER_BROWSER?.writeView('ruinas-dos-ceus',x.dataset.characterView)||x.dataset.characterView;return R.render(true);}
-  x=e.target.closest('[data-go]');if(x){closeSearch();closeSelector();closeSettingsDrawer();return go(x.dataset.go);}x=e.target.closest('[data-map-phase]');if(x){st.mapPhase=x.dataset.mapPhase;return R.render(true);}x=e.target.closest('[data-tab]');if(x){st.tab=x.dataset.tab;return R.render(true)}x=e.target.closest('[data-sort]');if(x){st.sort=x.dataset.sort;return R.render(true)}x=e.target.closest('[data-export]');if(x){const kind=x.dataset.export==='alimentos'?'foods':x.dataset.export;const names=(D.common?.entities?.[kind]||[]).filter(item=>(item.citations||0)===0).map(item=>item.name);const file=new Blob([names.join('\n')],{type:'text/plain'}),link=document.createElement('a');link.href=URL.createObjectURL(file);link.download=`ruinas-${x.dataset.export}-nao-usados.txt`;link.click();URL.revokeObjectURL(link.href)}if(e.target.closest('#menu'))document.body.classList.toggle('menu');if(e.target.closest('[data-search-close]'))closeSearch()});document.addEventListener('input',e=>{if(e.target.matches('[data-search]')){st.q=e.target.value;const p=e.target.selectionStart;R.render();const n=$('[data-search]');n?.focus();n?.setSelectionRange(p,p)}});addEventListener('hashchange',()=>{st.tab='geral';st.q='';R.render()});document.body.dataset.book='ruinas-dos-ceus';
+  x=e.target.closest('[data-go]');if(x){closeSearch();closeSelector();closeSettingsDrawer();closeMobileNav();return go(x.dataset.go);}x=e.target.closest('[data-map-phase]');if(x){st.mapPhase=x.dataset.mapPhase;return R.render(true);}x=e.target.closest('[data-tab]');if(x){st.tab=x.dataset.tab;return R.render(true)}x=e.target.closest('[data-sort]');if(x){st.sort=x.dataset.sort;return R.render(true)}x=e.target.closest('[data-export]');if(x){const kind=x.dataset.export==='alimentos'?'foods':x.dataset.export;const names=(D.common?.entities?.[kind]||[]).filter(item=>(item.citations||0)===0).map(item=>item.name);const file=new Blob([names.join('\n')],{type:'text/plain'}),link=document.createElement('a');link.href=URL.createObjectURL(file);link.download=`ruinas-${x.dataset.export}-nao-usados.txt`;link.click();URL.revokeObjectURL(link.href)}if(e.target.closest('#menu'))document.body.classList.toggle('menu');if(e.target.closest('[data-search-close]'))closeSearch()});document.addEventListener('input',e=>{if(e.target.matches('[data-search]')){st.q=e.target.value;const p=e.target.selectionStart;R.render();const n=$('[data-search]');n?.focus();n?.setSelectionRange(p,p)}});addEventListener('hashchange',()=>{closeMobileNav();st.tab='geral';st.q='';R.render()});document.body.dataset.book='ruinas-dos-ceus';
 const storage={
   get(k){try{return localStorage.getItem(k)}catch{return null}},
   set(k,v){try{localStorage.setItem(k,v)}catch{}}
@@ -117,25 +119,8 @@ function detectPreset(){
   }
   return 'custom';
 }
-function cloudCount(){return Math.max(2,Math.min(14,Math.round(settings.particleAmount/3.6)));}
-function buildClouds(){
-  const layer=$('#clouds');
-  if(!layer) return;
-  layer.innerHTML='';
-  if(!settings.particles||settings.preset==='performance') return;
-  const count=cloudCount();
-  for(let i=0;i<count;i+=1){
-    const cloud=document.createElement('div');
-    cloud.className='cloud';
-    const w=170+Math.random()*230;
-    cloud.style.setProperty('--top',`${4+Math.random()*58}%`);
-    cloud.style.setProperty('--w',`${w}px`);
-    cloud.style.setProperty('--h',`${Math.round(w*.36)}px`);
-    cloud.style.setProperty('--duration',`${55+Math.random()*70}s`);
-    cloud.style.setProperty('--delay',`${-Math.random()*110}s`);
-    layer.appendChild(cloud);
-  }
-}
+// A atmosfera é desenhada uma única vez por experience/experience.js.
+// O gerador antigo competia com o novo, recriando dezenas de nós no DOM.
 const perfBtn=$('#perfToggle');
 function applySettingsBook1(){
   settings.preset=detectPreset();
@@ -154,7 +139,6 @@ function applySettingsBook1(){
     perfBtn.title=label;
     perfBtn.setAttribute('aria-label',label);
   }
-  buildClouds();
 }
 function persistSettingsBook1(){
   Object.entries(settings).forEach(([k,v])=>{
