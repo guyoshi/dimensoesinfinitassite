@@ -9,7 +9,8 @@
   const getNum=(key,min=0,max=100)=>X.num(P+key,defaults[key],min,max);
   function setDefault(key,value){if(X.storage.get(P+key)===null)X.storage.set(P+key,typeof value==='boolean'?(value?'1':'0'):value)}
   Object.entries(defaults).forEach(([k,v])=>setDefault(k,v));
-  // Mobile/weakDevice preserva todas as camadas; buildClouds reduz a densidade em tempo de renderização.
+  // Móvel mantém o céu imersivo, mas reduz o número de camadas e evita névoa frontal.
+  const compactVisuals=X.mobile||X.weakDevice||X.saveData||X.reduced;
 
   const atmosphere=document.createElement('div');
   atmosphere.id='ruinasAtmosphere';atmosphere.className='ruinas-atmosphere';atmosphere.setAttribute('aria-hidden','true');
@@ -33,23 +34,25 @@
     if(!cloudHost||rebuilding)return;rebuilding=true;
     const performance=document.body.classList.contains('performance-mode');
     const density=getNum('cloud-density');
-    let factor=density/60;if(X.weakDevice)factor*=.72;if(X.reduced)factor*=.45;
+    let factor=density/60;
+    if(compactVisuals)factor=Math.min(.60,factor*.44);
+    if(X.reduced)factor=Math.min(.35,factor);
     let html='',frontHtml='';
     const allowed=!performance&&document.body.classList.contains('no-particles')===false;
     if(allowed){
       if(getBool('distant-clouds'))html+=cloudHtml('distant',Math.max(2,Math.round(6*factor)),560,1);
       if(getBool('mid-clouds'))html+=cloudHtml('middle',Math.max(2,Math.round(8*factor)),370,11);
-      if(getBool('near-mist')&&!X.reduced)html+=cloudHtml('near',Math.max(1,Math.round(3*factor)),680,21);
-      if(getBool('cloud-front')&&cloudHostFront&&!X.reduced){
+      if(getBool('near-mist')&&!compactVisuals)html+=cloudHtml('near',Math.max(1,Math.round(3*factor)),680,21);
+      if(getBool('cloud-front')&&cloudHostFront&&!compactVisuals){
         frontHtml+=cloudHtml('near',Math.max(1,Math.round(2*factor)),760,31);
         frontHtml+=cloudHtml('middle',Math.max(1,Math.round(2*factor)),420,41);
       }
     }
-    cloudHost.innerHTML=html;
-    if(cloudHostFront)cloudHostFront.innerHTML=frontHtml;
+    if(cloudHost.innerHTML!==html)cloudHost.innerHTML=html;
+    if(cloudHostFront&&cloudHostFront.innerHTML!==frontHtml)cloudHostFront.innerHTML=frontHtml;
     requestAnimationFrame(()=>{rebuilding=false});
   }
-  if(cloudHost){new MutationObserver(()=>{if(!rebuilding&&!cloudHost.querySelector('.cloud-layer'))buildClouds()}).observe(cloudHost,{childList:true});}
+  // A atmosfera é dona exclusiva das nuvens. Sem observador que reinstale camadas.
 
   const phases={
     dawn:{top:'#426d88',mid:'#aabfc6',bottom:'#e5b889',light:'#fff2d2',shadow:'#708c9b',stars:.12},
@@ -123,7 +126,11 @@
     }
     const mobile=e.target.closest('[data-time-mobile]');if(mobile){document.querySelector('.topbar [data-time-control]')?.classList.toggle('mobile-open')}
   });
-  function startClock(){clearInterval(timer);updateSky();timer=setInterval(()=>{if(!document.hidden)updateSky()},500)}
+  function startClock(){
+    clearInterval(timer);updateSky();
+    // O céu passa de fase em minutos: não precisa recalcular cores a cada meio segundo.
+    timer=setInterval(()=>{if(!document.hidden&&!document.body.classList.contains('performance-mode'))updateSky()},compactVisuals?2500:1200);
+  }
 
   function applyVisualSettings(){
     const root=document.documentElement;
@@ -172,7 +179,11 @@
   let parallaxFrame=0;
   addEventListener('pointermove',e=>{if(X.reduced||X.weakDevice||!getBool('parallax')||document.body.classList.contains('performance-mode'))return;cancelAnimationFrame(parallaxFrame);parallaxFrame=requestAnimationFrame(()=>{const strength=getNum('motion-intensity')/100;const x=(e.clientX/innerWidth-.5)*5*strength,y=(e.clientY/innerHeight-.5)*3*strength;atmosphere.style.transform=`translate3d(${x}px,${y}px,0)`})},{passive:true});
   addEventListener('pointerleave',()=>{atmosphere.style.transform=''});
-  document.addEventListener('visibilitychange',()=>{cloudHost?.classList.toggle('experience-paused',document.hidden)});
+  document.addEventListener('visibilitychange',()=>{
+    cloudHost?.classList.toggle('experience-paused',document.hidden);
+    cloudHostFront?.classList.toggle('experience-paused',document.hidden);
+    if(!document.hidden)updateSky();
+  });
 
 
   const sidebar=document.getElementById('side'),sidebarToggle=document.getElementById('ruinasSidebarToggle');
