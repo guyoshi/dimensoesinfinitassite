@@ -9,7 +9,7 @@ window.DI_BOOK.places = [
     "region": "Belfex, Quarta Dimensão",
     "summary": "Cidade governada por Lucas Veline, com a central de transporte interdimensional, o Edifício Arcano, a Torre Branca e o Portão Leste.",
     "sources": [
-      "Capítulos 4–5, 7–13, 15–16, 21"
+      "Capítulos 3–4, 6–12, 14–15, 20"
     ]
   },
   {
@@ -20,7 +20,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Base doméstica dos irmãos em Belfex.",
     "sources": [
-      "Capítulos 4–7, 9, 11, 15–16, 23"
+      "Capítulos 3–6, 8, 10, 14–15, 22"
     ]
   },
   {
@@ -31,7 +31,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Onde acontecem os desafios.",
     "sources": [
-      "Capítulos 5–11, 13"
+      "Capítulos 4–10, 12"
     ]
   },
   {
@@ -42,7 +42,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Quartel e sede da Vigilância, em Tayo.",
     "sources": [
-      "Capítulos 10–11, 16, 21–23"
+      "Capítulos 9–10, 15, 20–22"
     ]
   },
   {
@@ -53,7 +53,7 @@ window.DI_BOOK.places = [
     "region": "Sob a Central",
     "summary": "Prisão secreta sob a Central da Vigilância, fechada há mais de vinte anos.",
     "sources": [
-      "Capítulos 10, 12, 21–23"
+      "Capítulos 9, 11, 20–22"
     ]
   },
   {
@@ -64,7 +64,7 @@ window.DI_BOOK.places = [
     "region": "Além das montanhas Kargath",
     "summary": "Pântano além das montanhas Kargath.",
     "sources": [
-      "Capítulos 12, 16–17, 19–20"
+      "Capítulos 11, 15–16, 18–19"
     ]
   },
   {
@@ -75,7 +75,7 @@ window.DI_BOOK.places = [
     "region": "Belfex",
     "summary": "Habitada por téorixes.",
     "sources": [
-      "Capítulos 12, 17–18"
+      "Capítulos 11, 16–17"
     ]
   },
   {
@@ -86,7 +86,7 @@ window.DI_BOOK.places = [
     "region": "Pântano dos Ossos",
     "summary": "Capital dos Obbs.",
     "sources": [
-      "Capítulos 19–21"
+      "Capítulos 18–20"
     ]
   },
   {
@@ -97,7 +97,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Prisão de Tayo para magos descontrolados.",
     "sources": [
-      "Capítulos 6, 10–11, 21"
+      "Capítulos 5, 9–10, 20"
     ]
   },
   {
@@ -119,7 +119,7 @@ window.DI_BOOK.places = [
     "region": "Terceira dimensão",
     "summary": "Casa dos irmãos.",
     "sources": [
-      "Capítulos 1–3, 23"
+      "Capítulos 1–2, 22"
     ]
   },
   {
@@ -130,7 +130,7 @@ window.DI_BOOK.places = [
     "region": "Belfex",
     "summary": "Passagem de Belfex conhecida como Sepulcro dos Esquecidos.",
     "sources": [
-      "Capítulos 19–21"
+      "Capítulos 18–20"
     ]
   },
   {
@@ -141,7 +141,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Sede do governo.",
     "sources": [
-      "Capítulos 16, 23"
+      "Capítulos 15, 22"
     ]
   },
   {
@@ -152,7 +152,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Estádio de Tayo onde acontece uma partida do treinamento.",
     "sources": [
-      "Capítulos 13–15"
+      "Capítulos 12–14"
     ]
   },
   {
@@ -163,7 +163,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Sistema de transporte.",
     "sources": [
-      "Capítulos 13, 15–16"
+      "Capítulos 12, 14–15"
     ]
   },
   {
@@ -174,7 +174,7 @@ window.DI_BOOK.places = [
     "region": "Belfex",
     "summary": "Rio que leva a Elthenor.",
     "sources": [
-      "Capítulos 17–18"
+      "Capítulos 16–17"
     ]
   },
   {
@@ -185,7 +185,7 @@ window.DI_BOOK.places = [
     "region": "Central",
     "summary": "Árvore antiga da Central da Vigilância.",
     "sources": [
-      "Capítulos 11, 23"
+      "Capítulos 10, 22"
     ]
   },
   {
@@ -196,7 +196,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Onde Arcus vende presentes.",
     "sources": [
-      "Capítulo 15"
+      "Capítulos 14"
     ]
   },
   {
@@ -207,7 +207,7 @@ window.DI_BOOK.places = [
     "region": "Quarta Dimensão",
     "summary": "Mundo dos senavelitas, a Quarta Dimensão, onde ficam Tayo, Pinesoto e o Pântano de Mortem.",
     "sources": [
-      "Capítulos 4–7"
+      "Capítulos 3–6"
     ]
   },
   {
@@ -218,7 +218,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Central de teletransporte de Tayo, com a cúpula de teletransporte.",
     "sources": [
-      "Capítulos 4, 16, 23"
+      "Capítulos 3, 15, 22"
     ]
   },
   {
@@ -229,7 +229,7 @@ window.DI_BOOK.places = [
     "region": "Terceira dimensão",
     "summary": "Onde ocorre o passeio escolar e o encontro com a caverna do Estírio.",
     "sources": [
-      "Capítulo 1"
+      "Capítulos 1"
     ]
   },
   {
@@ -240,7 +240,7 @@ window.DI_BOOK.places = [
     "region": "Terceira dimensão",
     "summary": "Escola dos irmãos na Terceira Dimensão.",
     "sources": [
-      "Capítulos 2–3"
+      "Capítulos 2"
     ]
   },
   {
@@ -251,7 +251,7 @@ window.DI_BOOK.places = [
     "region": "Belfex",
     "summary": "Rio flutuante de Belfex, com loops, cruzado com a ajuda das láridas celestes.",
     "sources": [
-      "Capítulo 10"
+      "Capítulos 9"
     ]
   },
   {
@@ -262,7 +262,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Portão de pedras negras com runas e portas imensas, em Tayo.",
     "sources": [
-      "Capítulos 16, 23"
+      "Capítulos 15, 22"
     ]
   },
   {
@@ -273,7 +273,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Antiga escola senavelita abandonada, marcada com o símbolo \"S\".",
     "sources": [
-      "Capítulo 12"
+      "Capítulos 11"
     ]
   },
   {
@@ -284,7 +284,7 @@ window.DI_BOOK.places = [
     "region": "Fora de Tayo",
     "summary": "Casa torta e caótica do inventor Ricochet Bombergue.",
     "sources": [
-      "Capítulo 17"
+      "Capítulos 16"
     ]
   },
   {
@@ -295,7 +295,7 @@ window.DI_BOOK.places = [
     "region": "Rio Tidan",
     "summary": "Habitada por trolhos que protegem o mel.",
     "sources": [
-      "Capítulo 17"
+      "Capítulos 16"
     ]
   },
   {
@@ -306,7 +306,7 @@ window.DI_BOOK.places = [
     "region": "Floresta de Elthenor",
     "summary": "Reino de Lanigiah, com túneis que alcançam qualquer ponto de Belfex.",
     "sources": [
-      "Capítulos 10, 18–19"
+      "Capítulos 9, 17–18"
     ]
   },
   {
@@ -317,7 +317,7 @@ window.DI_BOOK.places = [
     "region": "Pinesoto",
     "summary": "Salão de Pinesoto onde Gaia recebe visitantes.",
     "sources": [
-      "Capítulo 19"
+      "Capítulos 18"
     ]
   },
   {
@@ -328,7 +328,7 @@ window.DI_BOOK.places = [
     "region": "Pântano dos Ossos",
     "summary": "Caverna do Pântano dos Ossos.",
     "sources": [
-      "Capítulo 20"
+      "Capítulos 19"
     ]
   },
   {
@@ -339,7 +339,7 @@ window.DI_BOOK.places = [
     "region": "Montanha",
     "summary": "Ruínas de um castelo na montanha, ligadas à origem dos senavelitas.",
     "sources": [
-      "Capítulo 11"
+      "Capítulos 10"
     ]
   },
   {
@@ -350,7 +350,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Onde Peryth veste os irmãos.",
     "sources": [
-      "Capítulo 15"
+      "Capítulos 14"
     ]
   },
   {
@@ -361,7 +361,7 @@ window.DI_BOOK.places = [
     "region": "Fora de Tayo",
     "summary": "Onde os irmãos testam as Gemas de Ravelis.",
     "sources": [
-      "Capítulo 17"
+      "Capítulos 16"
     ]
   },
   {
@@ -372,7 +372,7 @@ window.DI_BOOK.places = [
     "region": "Belfex",
     "summary": "Terra de origem citada por Eshley, onde vive o Dromodur.",
     "sources": [
-      "Capítulo 5"
+      "Capítulos 4"
     ]
   },
   {
@@ -383,7 +383,7 @@ window.DI_BOOK.places = [
     "region": "Norte de Belfex",
     "summary": "Cidade do norte de onde vêm os tecelões e artesãos.",
     "sources": [
-      "Capítulo 15"
+      "Capítulos 14"
     ]
   },
   {
@@ -394,7 +394,7 @@ window.DI_BOOK.places = [
     "region": "Belfex",
     "summary": "Cidade de onde vem Eshley e criação das volhas.",
     "sources": [
-      "Capítulo 6"
+      "Capítulos 5"
     ]
   },
   {
@@ -405,7 +405,7 @@ window.DI_BOOK.places = [
     "region": "Leste de Belfex",
     "summary": "Pico no leste de Belfex, tido por Ricochet como o mais traiçoeiro da região.",
     "sources": [
-      "Capítulo 17"
+      "Capítulos 16"
     ]
   },
   {
@@ -416,7 +416,7 @@ window.DI_BOOK.places = [
     "region": "Terceira dimensão",
     "summary": "Pequeno bairro no campo, onde fica a casa do tio Frank; os irmãos Lins são estranhos ali, e a estranheza é recíproca.",
     "sources": [
-      "Capítulos 1, 3"
+      "Capítulos 1–2"
     ]
   },
   {
@@ -427,7 +427,7 @@ window.DI_BOOK.places = [
     "region": "Belfex",
     "summary": "Estrada percorrida pelos irmãos durante a exploração de Belfex.",
     "sources": [
-      "Capítulo 9"
+      "Capítulos 8"
     ]
   },
   {
@@ -438,7 +438,7 @@ window.DI_BOOK.places = [
     "region": "Belfex",
     "summary": "Cordilheira que os irmãos atravessam durante a busca por Beatriz.",
     "sources": [
-      "Capítulos 17–20"
+      "Capítulos 16–19"
     ]
   },
   {
@@ -449,7 +449,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Praça da cidade associada ao Festival das Luzes e às despedidas dos irmãos.",
     "sources": [
-      "Capítulos 16, 23"
+      "Capítulos 15, 22"
     ]
   },
   {
@@ -460,7 +460,7 @@ window.DI_BOOK.places = [
     "region": "Presália",
     "summary": "Salão antigo onde Korvo realiza o julgamento de Marcus e enfrenta os vigilantes.",
     "sources": [
-      "Capítulo 22"
+      "Capítulos 21"
     ]
   },
   {
@@ -471,7 +471,7 @@ window.DI_BOOK.places = [
     "region": "Presália",
     "summary": "Lago no interior da prisão, cenário do confronto entre os irmãos e Korvo.",
     "sources": [
-      "Capítulo 21"
+      "Capítulos 20"
     ]
   },
   {
@@ -482,7 +482,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Espaço de reunião da Sociedade de Tayo.",
     "sources": [
-      "Capítulos 12, 21–22"
+      "Capítulos 11, 20–21"
     ]
   },
   {
@@ -493,7 +493,7 @@ window.DI_BOOK.places = [
     "region": "Tayo",
     "summary": "Espaço usado durante os desafios e provas dos aprendizes.",
     "sources": [
-      "Capítulos 13–14"
+      "Capítulos 12–13"
     ]
   }
 ];
