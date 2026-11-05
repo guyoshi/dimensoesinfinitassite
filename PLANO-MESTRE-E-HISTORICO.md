@@ -13,7 +13,7 @@
   - *Ruínas dos Céus* — Livro I — 24 capítulos — concluído.
   - *Guerras de Sangue* — Livro II — 29 capítulos — concluído.
 - **Versão estrutural atual:** Etapa 16 concluída, organização 0.17 preservada e cânone linguístico sincronizado — pacote 0.17.1.
-- **Última atualização deste documento:** 24 de setembro de 2026.
+- **Última atualização deste documento:** 05 de novembro de 2026.
 
 ---
 
@@ -2588,3 +2588,16 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - Selo **N** na navegação lateral; logotipo **Dimensões Infinitas** no rodapé fixo; assinatura gráfica **Guilherme S. L. Anjos** no destaque inicial, com texto alternativo e fallbacks para acessibilidade.
 - `book.js` usa `brandAssets`; o motor compartilhado só exibe os elementos quando eles forem fornecidos pelo livro. Identidade de outros livros preservada. Estilos específicos isolados em `theme.css` e versões de CSS/JS renovadas na entrada HTML.
 - IDs, conteúdo narrativo, mapas, linhas do tempo e cânone alterados: **0**. Próximas etapas já planejadas continuam inalteradas.
+
+
+## Atualização pontual — 05/11/2026 — identidade técnica e sincronização editorial dos capítulos
+
+- **Identificação técnica dos três repositórios:** `DI-COMERCIAL` = `guyoshi/dimensoesinfinitas-web` (site de divulgação e captação de leitores); `DI-PORTAL` = `guyoshi/dimensoesinfinitassite` (portal contemplativo de exploração literária); `DI-ACERVO` = `guyoshi/dimensoesinfinitas` (manuscritos e cânone). Os três READMEs foram atualizados sem mudar URLs, repositórios ou slugs públicos.
+- **Fonte e escopo:** a pedido expresso do autor, revisão diretamente no GitHub da rama principal. Fonte editorial utilizada: índices `00 - Texto/livro.json` e textos escritos em `00 - Texto/capitulos/*.md` do acervo, respeitando a distinção entre manuscrito e planejamento.
+- **Diário Sobrenatural I, 38 capítulos:** ajustadas as descrições/detalhes dos capítulos 1 e 29. Removido 'Azazel' como nome atribuído a Agouro antes de haver revelação no texto. Conferidos também trechos dos capítulos iniciais recentemente alterados.
+- **Diário Sobrenatural II, 32 capítulos:** ajustes nos capítulos 3, 12, 17, 25, 31 e 32. O capítulo 25 já está em prosa, sem o antigo estado de sinopse. As revelações não feitas sobre o nome de Agouro não devem ser antecipadas; 'Varkhel' permanece o nome pelo qual Pollux e Olívia o reconhecem no texto atual. Capítulos 31–32 atualizados em atenção aos desfechos escritos e às personagens presentes.
+- **Viajantes Dimensionais I:** o índice atual do acervo possui **22 capítulos**, enquanto o portal tinha 23, por causa da anterior separação de 'O Volante Congelado', agora incorporado ao capítulo 2. `chapters.js` reorganizado em 22 itens, títulos alinhados ao índice atual, resumos dos capítulos 1–7 reescritos e referências antigas ajustadas. `timeline.js`, `characters.js` e `places.js` tiveram referências dos números revistas. Fichas: nomes visíveis Tamires (não Jennifer), Átila (não Coronel), Garien (não Gary), preservando os slugs/IDs existentes para compatibilidade. O motor redireciona `#/capitulo/23` para `#/capitulo/22` exclusivamente nesse livro. Atenção: links históricos aos capítulos intermediários podem agora apontar para outra numeração, pois o índice canônico passou de 23 para 22.
+- **Spacetheft I, 22 capítulos:** índice e sequência conferidos, com sinopses gerais condizentes com os textos consultados e revisões recentes predominantemente estilísticas; ajustada no capítulo 9 a antecipação do nome do capitão, preservando 'Senhor dos Vórtices' como designação utilizada no capítulo.
+- **Validação estática realizada:** os quatro datasets `chapters.js` são JSON parseável dentro do JavaScript, apresentam respetivamente 38, 32, 22 e 22 capítulos, com números sequenciais e título/resumo não vazios (114 entradas). A linha do tempo de Viajantes passou a conter somente números de 1 a 22.
+- **Limites conhecidos:** esta não foi uma auditoria exaustiva de todas as fichas narrativas contra cada linha dos 114 manuscritos, nem validação de todas as ligações internas; apenas correções verificáveis e alinhamentos estruturais. Não foram executados testes de navegação no browser ou publicação em produção. Publicação no GitHub não comprova a atualização de cache no GitHub Pages.
+- **Próximas validações recomendadas:** conferir em browser as páginas de capítulos e links internos após o deploy e examinar as fichas antigas ainda baseadas na numeração/versões anteriores antes de qualquer sincronização automática mais ampla.
