@@ -651,3 +651,39 @@ body[data-book="guerras-de-sangue"] .app-shell{
     linear-gradient(145deg,#18120e,#0d0b09 58%,#17110d);
 }
 body[data-book="guerras-de-sangue"] .workspace{background:transparent}
+
+/* Ciclo de Jesed: navegação móvel e microinterações partilhadas — 2026-11-05 */
+body[data-book="ruinas-dos-ceus"],
+body[data-book="guerras-de-sangue"],
+body[data-book="dinastia-polar"] {
+  --di-mobile-nav-hit:44px;
+}
+body[data-book] :is(.sidebar-nav .navb,.sidebar-nav .nav-item):focus-visible {
+  outline:2px solid var(--di-accent,#8fc5ce);
+  outline-offset:2px;
+}
+body[data-book] .di-mobile-nav-backdrop[hidden]{display:none!important}
+body[data-book] .di-mobile-nav-backdrop{
+  position:fixed;inset:0;display:none;padding:0;border:0;border-radius:0;
+  background:rgba(6,14,21,.56);backdrop-filter:blur(2px);
+  -webkit-backdrop-filter:blur(2px);cursor:pointer;
+}
+@media(max-width:860px){
+  body[data-book] .di-mobile-nav-backdrop:not([hidden]){display:block;z-index:59}
+  body[data-book="ruinas-dos-ceus"] .di-mobile-nav-backdrop:not([hidden]){z-index:19}
+  body[data-book="ruinas-dos-ceus"] .sidebar,
+  body[data-book="ruinas-dos-ceus"] .sidebar.collapsed{
+    width:min(86vw,320px)!important;
+  }
+  body[data-book="ruinas-dos-ceus"].menu .sidebar{transform:translateX(0)!important}
+  body[data-book="ruinas-dos-ceus"] .sidebar.collapsed+.work{margin-left:0!important}
+  body[data-book="ruinas-dos-ceus"] .sidebar-collapse-toggle{display:none!important}
+  body[data-book] .sidebar-nav :is(button,a){min-height:var(--di-mobile-nav-hit,44px)}
+  body[data-book].di-mobile-nav-open{overflow:hidden;touch-action:none}
+  body[data-book].di-mobile-nav-open .sidebar{overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y}
+  body[data-book] :is(#menu,#mobileMenu){min-width:44px;min-height:44px}
+}
+@media(prefers-reduced-motion:reduce){
+  body[data-book] .sidebar,
+  body[data-book] .di-mobile-nav-backdrop{transition:none!important;backdrop-filter:none!important}
+}
