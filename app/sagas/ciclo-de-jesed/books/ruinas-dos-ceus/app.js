@@ -1,5 +1,6 @@
 (()=>{
   const R=window.RS,{st,$,nav,err}=R,P=R.pages,BOOK_ID='ruinas-dos-ceus';
+  let lastRenderedRoute=null;
   function render(preserveScroll){
     const requested=location.hash.replace(/^#\/?/,'')||'inicio';
     const resolved=window.JESED_COMMON?.resolveLegacyRoute(requested,BOOK_ID)||requested;
@@ -25,10 +26,12 @@
     };
     const page=pages[base]||err;
     const settings=R.settings;
-    if(settings&&settings.transitions&&settings.motion&&settings.preset!=='performance'){
+    // Só anima navegações reais, não pesquisas, tabs ou a montagem inicial.
+    if(lastRenderedRoute!==null&&lastRenderedRoute!==resolved&&!preserveScroll&&settings&&settings.transitions&&settings.motion&&settings.preset!=='performance'&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
       const veil=$('#transitionVeil');
       if(veil){veil.classList.remove('active');void veil.offsetWidth;veil.classList.add('active');}
     }
+    lastRenderedRoute=resolved;
     $('#main').innerHTML=page();
     requestAnimationFrame(()=>window.DI_BETA_FEEDBACK?.mount($('#main')));
     if(base==='mapa') requestAnimationFrame(()=>R.mountMap?.());
