@@ -218,6 +218,11 @@
   }
 
   function pageCapitulo(n) {
+    // Compatibilidade: Viajantes Dimensionais passou de 23 para 22 capítulos.
+    if (B.book && B.book.id === 'a-patrulha-de-korvo' && String(n) === '23') {
+      window.location.hash = '#/capitulo/22';
+      return;
+    }
     const i = A.chapters.findIndex(c => String(c.number) === String(n));
     if (i < 0) return notFound();
     const c = A.chapters[i], prev = A.chapters[i - 1], next = A.chapters[i + 1], img = chapterImage(c);
