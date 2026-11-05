@@ -21,7 +21,7 @@ window.DI_BOOK.chapters = [
       "vila-velha"
     ],
     "details": [
-      "Junior narra em retrospecto e avisa que o livro 'é sobre a casa ao lado', que o melhor amigo 'já não está mais aqui' e que a situação com Kelly importa 'demais'.",
+      "Junior começa a compilar o Diário Sobrenatural depois dos acontecimentos, registra que Pedro já não está por perto e menciona que Kelly também não está; o texto evita antecipar ao leitor todos os destinos.",
       "Junior mora com a mãe (alérgica a animais, com dois empregos) na casa que era dos avós; o pai foi embora quando ele tinha seis anos.",
       "A praça tem um chafariz com a estátua de um cavaleiro de pedra empunhando uma espada.",
       "Os pais de Pedro implicam com Junior por causa da casa grande.",
@@ -1044,7 +1044,7 @@ window.DI_BOOK.chapters = [
     "title": "Os Elos",
     "pov": "Jennifer",
     "povLabel": "Jennifer V",
-    "summary": "Jennifer tenta contatar os espíritos e é levada a uma cabana numa floresta de neve, onde encontra Luiza Salomandra, a médium morta. Luiza explica que o demônio por trás de tudo é Azazel, chamado Agouro pelos mortos, que precisa que uma alma viva se entregue voluntariamente para abrir uma porta ao mundo inferior; os seis demônios dos sentidos, cada um ligado a um espírito da família Carnam, completam o plano. Jennifer é uma Selifa, ponte entre vivos e mortos, e para destruir os Elos precisa cobri-los com as cinzas do próprio Azazel e depois queimá-los. Em casa, descobre que a coleira escrita IBLISO era o Elo do cachorro, achada entre as coisas da mãe, e o pai se lembra de um eletricista chamado Alex. Na escola, Jennifer conta a Junior, que revela o que Kelly tentou no lago. À tarde, com Vini, vai à casa de Alex e do velho Francis na colina; descobrem que os dois fizeram pacto com o Agouro e espalharam os Elos. Na luta, Vini mata Alex com a adaga, escapam de Francis e decidem desenterrar Luiza para pegar as cinzas.",
+    "summary": "Jennifer tenta contatar os espíritos e é levada a uma cabana numa floresta de neve, onde encontra Luiza Salomandra, a médium morta. Luiza explica que a entidade por trás de tudo é conhecida pelos mortos como Agouro, que precisa que uma alma viva se entregue voluntariamente para abrir uma porta ao mundo inferior; os seis demônios dos sentidos, cada um ligado a um espírito da família Carnam, completam o plano. Jennifer é uma Selifa, ponte entre vivos e mortos, e para destruir os Elos precisa cobri-los com as cinzas do Agouro, como Luiza chama o pó e depois queimá-los. Em casa, descobre que a coleira escrita IBLISO era o Elo do cachorro, achada entre as coisas da mãe, e o pai se lembra de um eletricista chamado Alex. Na escola, Jennifer conta a Junior, que revela o que Kelly tentou no lago. À tarde, com Vini, vai à casa de Alex e do velho Francis na colina; descobrem que os dois fizeram pacto com o Agouro e espalharam os Elos. Na luta, Vini mata Alex com a adaga, escapam de Francis e decidem desenterrar Luiza para pegar as cinzas.",
     "characters": [
       "jennifer",
       "vini",
@@ -1077,7 +1077,7 @@ window.DI_BOOK.chapters = [
       "casa-abandonada"
     ],
     "details": [
-      "Luiza canta uma canção de ninar de boca fechada e diz que ficou presa entre a vida e a morte pelo Agouro.",
+      "Luiza revela que a entidade é chamada de Agouro pelos mortos, sem apresentar um nome verdadeiro; a canção de ninar a acompanha na floresta de neve.",
       "Jennifer reconhece a mulher de cabelos brancos que a visita desde pequena; ela alude às vezes em que Jennifer tentou 'passar para o lado de cá', sem dar ordens.",
       "O Agouro está enfraquecido e sentiu 'uma alma viva presa no meio das outras' com uma vulnerabilidade específica.",
       "A entrega da alma precisa ser voluntária; ele transforma 'amor e culpa numa oferta que parece livre'.",
