@@ -68,7 +68,7 @@ window.DI_BOOK.chapters = [
   },
   {
     "number": 3,
-    "title": "Hamburgueria Chad Estevan",
+    "title": "Hamburgueria do S. Estevan",
     "pov": "Priscila",
     "povLabel": "Priscila I",
     "summary": "Priscila, que saiu de casa há quase um ano, trabalha numa hamburgueria em Pirituba, São Paulo, sob o chefe Estevan, ao lado de Charles e da amiga Manuela, e estuda para o vestibular de Hotelaria e Turismo. Um dia o ex-colega Jason aparece com o pai, Diego Tavolieri, e a prima Glenda, de olhos de cores diferentes, que a observa com hostilidade e pergunta pela morte da irmã de Priscila. Priscila conta que Kelly foi assassinada; Jason responde que o culpado está preso. Glenda lhe faz uma ameaça velada para não 'fazer Jason de idiota'. Depois, Priscila cobra Estevan por atrasar o salário e, em casa, abre o álbum de fotos e relembra o dia no Beto Carrero, quando rasgou o ursinho de Kelly. Um som no corredor a faz acender todas as luzes.",
@@ -842,7 +842,7 @@ window.DI_BOOK.chapters = [
     "title": "O Erro de Amar",
     "pov": "Priscila",
     "povLabel": "Priscila V",
-    "summary": "Priscila acorda feliz em Pirituba e arruma a casa. Jason a convida para jantar com o pai e promete buscá-la às 18h. Ela liga para a avó, que confirma ter recebido Pedro e Jennifer, diz que são seguidos por uma força antiga e dolorosa, e a aconselha a deixar de confundir ser forte com ser invisível e a desconfiar de coisas fáceis demais. Jason avisa que não poderá buscá-la e manda um táxi pago. Na mansão, Glenda a recebe, Diego a interroga com simpatia calculada sobre família, emprego e dinheiro, e Jason a apresenta como namorada, com aliança no dedo. O capítulo termina com uma sinopse do que viria a seguir (rascunho): Pedro, Filipo e Jennifer chegam, Diego se mostra invasivo, Priscila vê uma mancha vermelha na manga dele e sai gritando; no dia seguinte Jason a pede em namoro e para morarem juntos, mas ela vê no celular fotos de mulheres mortas enviadas a Diego e foge levando o aparelho.",
+    "summary": "Priscila tenta reconstruir a vida em Pirituba e aceita conhecer Diego, pai de Jason, num jantar na mansão. A avó a aconselha a desconfiar daquilo que parece fácil demais. Glenda recebe os convidados, e Pedro, Filipo e Jennifer aparecem inesperadamente, trazendo o passado de Vila Velha para a mesa. A atenção invasiva de Diego e a relação entre ele e Glenda despertam suspeitas. Priscila tenta dar outra oportunidade a Jason, mas, durante um encontro num restaurante, uma mensagem enviada do número de Diego chega ao telefone do namorado com fotografias de mulheres mortas. Apavorada, ela sai levando o aparelho, determinada a não cair noutra armadilha.",
     "characters": [
       "priscila",
       "jason",
@@ -860,12 +860,13 @@ window.DI_BOOK.chapters = [
       "mercado"
     ],
     "details": [
-      "Último trecho do capítulo é uma sinopse em tópicos, não prosa: texto ainda em rascunho.",
       "Priscila vende a ideia de si mesma como 'prioridade' pela primeira vez; tem pouca roupa e estreia um vestido com etiqueta.",
       "A avó diz 'o que parece fácil demais quase sempre cobra depois'.",
       "Diego não oferece vinho antes de perguntar se ela bebe e monta uma 'ficha' sobre ela com perguntas seguidas.",
       "A mansão tem projetor no teto, chafariz e fachada de vidro 'como vitrine'.",
-      "Priscila mentiu dizendo que se cansou de 'gente chata' em vez de contar a briga com Glenda."
+      "Priscila mentiu dizendo que se cansou de 'gente chata' em vez de contar a briga com Glenda.",
+      "O encontro na mansão, as suspeitas sobre Diego e a descoberta das fotografias já estão narrados em prosa no capítulo atual, não são um roteiro de cenas futuras.",
+      "Jason não chega a ver as fotografias: Priscila pega o celular quando uma notificação enviada por Diego aparece, e foge do restaurante com o aparelho."
     ]
   },
   {
@@ -1017,7 +1018,7 @@ window.DI_BOOK.chapters = [
     "title": "O Ponto de Ruptura",
     "pov": "Priscila",
     "povLabel": "Priscila VI",
-    "summary": "Priscila e Jennifer atravessam a penitenciária vazia e encontram corpos, estranhas manifestações e sobreviventes em perigo. Ao procurar Vini, enfrentam a ameaça sobrenatural que controla os corredores e libertam uma menina. Glenda aparece para ajudá-los. Na fuga, um incêndio toma o prédio e Jennifer decide permanecer para conter a força sombria enquanto os outros escapam com Vini e a criança. Do lado de fora, Priscila e Glenda esperam por ela diante da prisão em chamas, mas Jennifer não aparece.",
+    "summary": "Priscila e Jennifer entram numa penitenciária estranhamente vazia, onde a ausência dos guardas e os corpos espalhados anunciam uma ameaça que altera o comportamento das pessoas. Encontram Vini protegendo uma adolescente cujo pai morreu ao ajudá-la a fugir do caos. Quando a presença sombria se manifesta e o perigo aumenta, Glenda chega armada para ajudá-las. Jennifer enfrenta a força que domina o local e decide ficar para permitir a fuga de Priscila, Glenda, Vini e da menina. Do lado de fora, a prisão arde, e Priscila espera diante da porta aberta, mas Jennifer não retorna.",
     "characters": [
       "priscila",
       "jennifer",
@@ -1031,8 +1032,10 @@ window.DI_BOOK.chapters = [
     ],
     "details": [
       "A incursão à prisão revela corpos e pessoas sob controle de uma presença obscura.",
-      "Jennifer escolhe ficar para permitir que Priscila, Glenda, Vini e a menina escapem.",
-      "O capítulo termina sem confirmação definitiva do destino de Jennifer."
+      "O capítulo termina sem confirmação definitiva do destino de Jennifer.",
+      "Vini protege uma adolescente cujo pai morreu enquanto tentava salvá-la.",
+      "Glenda chega à prisão depois das primeiras manifestações, não viaja com Priscila e Jennifer na entrada.",
+      "Jennifer pede a Priscila que diga a Pedro que foi feliz, antes de ficar para trás."
     ]
   },
   {
@@ -1040,7 +1043,7 @@ window.DI_BOOK.chapters = [
     "title": "O Fogo Liberta",
     "pov": "Pedro",
     "povLabel": "Pedro VI",
-    "summary": "Pedro e Filipo chegam a Alvorada Alegre, onde o tempo parece parado e Mel Jones anuncia que o Livro dos Condenados está na igreja. Lá encontram Junior e sofrem ilusões diferentes: Filipo enxerga Manu e Pedro enxerga o livro. A presença do Cara-de-Larva e da força por trás da cidade desencadeia o confronto final. Quando o selo se rompe, o dia nasce sobre uma Alvorada Alegre arruinada. Pedro se despede de Mel, agora livre, mas uma última voz no rádio deixa uma inquietação para além do desfecho.",
+    "summary": "Pedro e Filipo entram em Alvorada Alegre ainda mergulhada numa noite impossível, guiados pelas mensagens de Mel Jones até a igreja que guarda o Livro dos Condenados. Cada um é confrontado por uma promessa diferente, enquanto Junior surge para avisar que a Mãe os está enganando. A criatura conhecida como Cara-de-Larva, a aparência de Kelly e a decisão de queimar o livro tornam o confronto uma escolha dolorosa, não apenas uma luta. Quando as chamas finalmente consomem o livro, a cidade perde a aparência que a mantinha presa e o dia revela o que restou. Na despedida, Pedro encontra Mel, mas uma voz no rádio deixa o desfecho inquietantemente aberto.",
     "characters": [
       "pedro",
       "filipo",
@@ -1057,9 +1060,10 @@ window.DI_BOOK.chapters = [
       "igreja"
     ],
     "details": [
-      "O altar mostra visões incompatíveis a Filipo e Pedro.",
       "A ruptura do selo revela a verdadeira cidade abandonada.",
-      "Mel demonstra estar livre, mas sua voz retorna pelo rádio no caminho de volta."
+      "Mel demonstra estar livre, mas sua voz retorna pelo rádio no caminho de volta.",
+      "Junior tenta impedir a destruição do livro e alerta que a Mãe está enganando o grupo.",
+      "A figura de Kelly é usada para atingir a culpa de Junior; ele reconhece que não é a verdadeira Kelly."
     ]
   }
 ];
