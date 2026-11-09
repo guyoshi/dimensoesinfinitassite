@@ -39,3 +39,8 @@ body[data-sky-phase=night] .sky-glider{opacity:0}
 .embers-canvas{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
 .embers-canvas.embers-front{z-index:35}
 .embers-canvas[hidden]{display:none}
+
+/* poeira e anéis (módulo dust) */
+.dust-canvas{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+.dust-canvas.dust-front{z-index:35}
+.dust-canvas[hidden]{display:none}

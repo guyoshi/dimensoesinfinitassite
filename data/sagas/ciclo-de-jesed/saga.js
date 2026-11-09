@@ -30,9 +30,9 @@ window.DI_SAGAS["ciclo-de-jesed"] = {
       "id": "dinastia-polar",
       "order": 3,
       "name": "Dinastia Polar",
-      "status": "locked",
-      "stageLabel": "Em preparação",
-      "entry": null,
+      "status": "active",
+      "stageLabel": "Livro em andamento",
+      "entry": "dinastia-polar.html",
       "cover": "assets/books/ciclo-de-jesed/dinastia-polar/cover.webp",
       "icon": "compass"
     },

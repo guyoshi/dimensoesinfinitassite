@@ -1,0 +1,82 @@
+/* Dinastia Polar — Ciclo de Jesed. Pedra azul-escura, ouro envelhecido, anéis concêntricos e peso institucional. */
+:root{
+  --bg:#0b1722;--ink:#e6e0d0;--mute:#a9b0b4;--acc:#95743d;--acc-ink:#fff;--gold:#c9a867;
+  --side:linear-gradient(190deg,#122638 0%,#09131c 100%);--side-line:rgba(201,168,103,.26);--sec:#c9a867;
+  --card-bg:linear-gradient(160deg,rgba(20,38,54,.96),rgba(12,25,37,.96));--card-ink:#e6e0d0;--card-mute:#a9b4ba;--card-line:rgba(201,168,103,.24);--card-head:#dcc189;
+  --card-r:6px;--card-shadow:0 12px 34px rgba(0,0,0,.55);
+  --pill-bg:rgba(16,31,45,.92);--pill-line:rgba(201,168,103,.34);--pill-ink:#e6e0d0;--pill-r:4px;
+  --btn-bg:rgba(16,31,45,.92);--btn-line:rgba(201,168,103,.42);--btn-ink:#e6e0d0;--btn-r:4px;
+  --btn-p-bg:linear-gradient(135deg,#6f5527,#a98544);--btn-p-ink:#fff;--btn-p-line:rgba(240,210,140,.4);
+  --nav-active-bg:rgba(149,116,61,.2);--nav-active-ink:#fff;--nav-active-bar:#c9a867;
+  --hero-r:8px;--hero-line:rgba(201,168,103,.4);--hero-shadow:0 20px 56px rgba(0,0,0,.6);
+  --font-head:"Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;--head-weight:700;--head-track:.06em;
+  --paper-veil:rgba(10,22,33,.88);--clan:#5f86a8;
+}
+body{background:radial-gradient(ellipse at 72% 40%,rgba(60,100,140,.22),transparent 62%),#0b1722;color:var(--ink)}
+.sb{color:#e6e0d0;border-right:1px solid var(--side-line);box-shadow:10px 0 36px rgba(0,0,0,.45);position:relative}
+.sb::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.22;background:radial-gradient(circle at 100% 85%,transparent 0 60px,rgba(201,168,103,.5) 61px 62px,transparent 63px 100px,rgba(201,168,103,.4) 101px 102px,transparent 103px 140px,rgba(201,168,103,.3) 141px 142px,transparent 143px)}
+.sb>*{position:relative}
+.brand{border-bottom-color:var(--side-line)}
+.sigil{background:rgba(149,116,61,.16);border:1px solid rgba(201,168,103,.55);box-shadow:0 0 20px rgba(201,168,103,.25)}
+.nav-item{border-radius:4px;position:relative;overflow:hidden;transition:background .25s,padding-left .25s}
+.nav-item:hover{padding-left:calc(var(--nav-pad,14px) + 4px)}
+.nav-item.active{font-weight:700;border-left-width:4px;box-shadow:inset 0 0 22px rgba(201,168,103,.1)}
+.foot{background:var(--side);color:#c9cfd2;border-top:1px solid var(--side-line)}
+.phead h1,.etext h1,.hero h1{font-family:var(--font-head);text-shadow:0 2px 14px rgba(0,0,0,.6)}
+.phead h1{color:var(--card-head)}.phead .kicker{letter-spacing:.28em;color:var(--gold)}
+.crumb{background:var(--paper-veil);border:1px solid var(--card-line);border-radius:3px;width:fit-content;padding:5px 16px;margin:0 28px 10px;color:var(--card-mute)}
+.sec-h,.mapdesc{background:var(--paper-veil);display:inline-block;padding:6px 16px;border-radius:3px;color:var(--card-head);border-left:3px solid var(--gold)}
+.panel,.card,.ecard,.chcard,.book,.etext{border-radius:var(--card-r);border:1px solid var(--card-line);box-shadow:var(--card-shadow);transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+.etext{background:var(--paper-veil);padding:24px 28px}
+.card:hover,.ecard:hover{transform:translateY(-5px);border-color:rgba(201,168,103,.65);box-shadow:0 20px 40px rgba(0,0,0,.6),0 0 0 1px rgba(201,168,103,.3),0 0 26px rgba(95,134,168,.22)}
+.chcard:hover{transform:translateX(7px);border-color:rgba(201,168,103,.65);box-shadow:0 14px 30px rgba(0,0,0,.55),-4px 0 0 #c9a867}
+.efig,.phimg,.eimg{border-radius:4px;border:1px solid var(--card-line);box-shadow:0 10px 26px rgba(0,0,0,.55)}
+.chip{background:rgba(149,116,61,.2);color:#ecd9a8;border:1px solid rgba(201,168,103,.4)}
+a.tag{border-color:var(--card-line);transition:background .2s,transform .2s,border-color .2s}
+a.tag:hover{filter:none;transform:translateY(-2px);background:rgba(149,116,61,.32);border-color:#c9a867}
+.clan-link{border-top:3px solid var(--clan)}
+.clan-link:hover{box-shadow:0 20px 40px rgba(0,0,0,.6),0 0 30px color-mix(in srgb,var(--clan) 45%,transparent)}
+.clan-link .clanhead img,.clan-fig img{filter:drop-shadow(0 4px 10px rgba(0,0,0,.6))}
+.clan-sec{background:rgba(0,0,0,.2)}.clan-sec[open]{border-color:var(--clan)}
+.btn,.pill,.search,.ico{box-shadow:0 2px 10px rgba(0,0,0,.4)}
+.btn{position:relative;overflow:hidden;font-weight:600;letter-spacing:.04em;border-width:1px;outline:1px solid transparent;outline-offset:3px;transition:transform .25s,box-shadow .25s,outline-color .25s}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 38%,rgba(240,220,160,.3) 50%,transparent 62%);transform:translateX(-130%);transition:transform .7s ease}
+.btn:hover::after{transform:translateX(130%)}
+.btn:hover{transform:translateY(-2px);outline-color:rgba(201,168,103,.5);box-shadow:0 8px 22px rgba(0,0,0,.55);filter:none}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn.primary{box-shadow:0 6px 20px rgba(95,70,25,.55)}
+.pill:hover,.search:hover,.ico:hover{filter:none;transform:translateY(-1px);border-color:#c9a867}
+.fchip.on,.etab.on{background:var(--acc);color:var(--acc-ink)}
+.etab:not(.on){background:transparent}
+.hero-shade{background:linear-gradient(90deg,rgba(7,15,22,.95) 0%,rgba(10,24,36,.7) 52%,rgba(60,100,140,.12) 100%)}
+.hero .copy,.hero .copy .kicker,.hero .tagline,.hero .di-author-label,.hero .di-author-fallback{color:#eee8d8}
+.hero .logo{filter:drop-shadow(0 0 20px rgba(201,168,103,.4)) drop-shadow(0 4px 12px rgba(0,0,0,.7))}
+.coverwrap{border:2px solid rgba(201,168,103,.6);box-shadow:0 14px 44px rgba(0,0,0,.7),0 0 46px rgba(95,134,168,.25)}
+.cards{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.tl:before{background:linear-gradient(#c9a867,rgba(201,168,103,.05));opacity:.85}
+.tl-item:before{background:#c9a867;border:3px solid #10202e;box-shadow:0 0 0 4px rgba(201,168,103,.25)}
+.tl-date{color:var(--gold);background:var(--paper-veil);display:inline-block;padding:2px 12px;border-radius:3px;border:1px solid var(--card-line)}
+.tl-more summary{color:var(--card-head)}
+.traj{border-left-color:#c9a867}
+.pin i{background:#c9a867;box-shadow:0 0 0 5px rgba(201,168,103,.28),0 2px 10px rgba(0,0,0,.7)}
+.pin.major i{background:#e6cf96;box-shadow:0 0 0 5px rgba(230,207,150,.3),0 0 14px rgba(95,134,168,.7)}
+.pin span{background:rgba(8,18,27,.93);color:#e6e0d0;border:1px solid var(--card-line)}
+.mapstage{border:2px solid var(--card-line);border-radius:6px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+.modal-panel{background:var(--side);color:#e6e0d0;border:1px solid var(--side-line)}
+.field input::placeholder{color:var(--card-mute)}
+.top{position:relative;z-index:3}
+/* entrada: cartões assentam como placas de pedra */
+@keyframes stoneIn{from{opacity:0;transform:translateY(12px) scale(.985);filter:brightness(.7) saturate(.7)}to{opacity:1;transform:none;filter:none}}
+.page>*,.egrid>*,.cards>*,.chlist>*{animation:stoneIn .55s cubic-bezier(.2,.7,.2,1) both}
+.egrid>*:nth-child(2),.cards>*:nth-child(2){animation-delay:.04s}.egrid>*:nth-child(3),.cards>*:nth-child(3){animation-delay:.08s}
+.egrid>*:nth-child(4),.cards>*:nth-child(4){animation-delay:.12s}.egrid>*:nth-child(5),.cards>*:nth-child(5){animation-delay:.16s}
+.egrid>*:nth-child(n+6),.cards>*:nth-child(n+6){animation-delay:.2s}
+/* transição de página: anéis concêntricos se fecham e se abrem */
+@keyframes ringClose{0%{transform:translate(-50%,-50%) scale(2.4) rotate(-40deg);opacity:0}25%{opacity:1}60%{transform:translate(-50%,-50%) scale(.55) rotate(0);opacity:1}100%{transform:translate(-50%,-50%) scale(.1) rotate(25deg);opacity:0}}
+.veil.go{opacity:1;background:radial-gradient(circle at 50% 50%,rgba(7,15,22,.78),rgba(7,15,22,.35));transition:background .3s}
+.veil.go::before,.veil.go::after{content:"";position:absolute;left:50%;top:50%;border-radius:50%;pointer-events:none;animation:ringClose .7s cubic-bezier(.45,.05,.3,1) both}
+.veil.go::before{width:130vmax;height:130vmax;border:2px solid rgba(201,168,103,.9);box-shadow:0 0 0 22px rgba(201,168,103,.18),0 0 0 44px rgba(201,168,103,.12),0 0 0 70px rgba(201,168,103,.08),inset 0 0 90px rgba(95,134,168,.35)}
+.veil.go::after{width:80vmax;height:80vmax;border:1px dashed rgba(230,207,150,.85);animation-delay:.06s}
+.no-transitions .veil::before,.no-transitions .veil::after,.perf .veil::before,.perf .veil::after{display:none}
+.no-transitions .page>*,.perf .page>*,.no-transitions .egrid>*,.perf .egrid>*,.no-transitions .cards>*,.perf .cards>*{animation:none}
+@media(prefers-reduced-motion:reduce){.veil.go::before,.veil.go::after,.page>*,.egrid>*,.cards>*{animation:none}}

@@ -79,6 +79,9 @@
     lantern: store.get(KEY + 'lantern') === '1'
   };
   const FX = () => window.DIFX;
+  const CL = (B.book && B.book.clansLabel) || 'Clãs';
+  const CL1 = (B.book && B.book.clanLabel) || 'Clã';
+  const clanTagText = c => (norm(c.name).startsWith(norm(CL1)) ? c.name : `${CL1} ${c.name}`);
 
   function applySettings() {
     const b = document.body;
@@ -96,7 +99,7 @@
   /* ---------- shell ---------- */
   function shell() {
     const nav = B.nav.map(g => `<section class="nav-group"><div class="sec">${esc(g.group)}</div>${g.items.map(id => {
-      const s = SECTIONS[id]; return `<a class="nav-item" href="#/${id}" data-nav="${id}">${icon(s[0], 'ni')}<span>${s[1]}</span></a>`;
+      const s = SECTIONS[id]; return `<a class="nav-item" href="#/${id}" data-nav="${id}">${icon(s[0], 'ni')}<span>${id === 'clas' ? esc(CL) : s[1]}</span></a>`;
     }).join('')}</section>`).join('');
     const bk = B.book;
     // Identidade editorial opcional: só é exibida quando o livro fornece assets oficiais.
@@ -254,7 +257,7 @@
   function entityMeta(x) {
     const bits = [x.importance, x.type, x.region].filter(Boolean);
     const cl = x.clan && (B.clans || []).find(c => c.slug === x.clan);
-    return (bits.length || cl) ? `<div class="tagrow meta">${bits.map(b => `<span class="chip">${esc(b)}</span>`).join('')}${cl ? `<a class="tag clan-tag" href="#/cla/${esc(cl.slug)}">Clã ${esc(cl.name)}</a>` : ''}</div>` : '';
+    return (bits.length || cl) ? `<div class="tagrow meta">${bits.map(b => `<span class="chip">${esc(b)}</span>`).join('')}${cl ? `<a class="tag clan-tag" href="#/cla/${esc(cl.slug)}">${esc(clanTagText(cl))}</a>` : ''}</div>` : '';
   }
   function entityExtra(x) {
     const secs = [];
@@ -356,11 +359,11 @@
   function clanMembers(c) { return A.characters.filter(ch => ch.clan === c.slug); }
   function pageClas() {
     const list = B.clans || [];
-    $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Clãs', list.length ? `${list.length} clãs.` : '')}${list.length ? `<div class="clangrid">${list.map(c => {
+    $('#main').innerHTML = `<div class="page">${head(B.book.name, CL, list.length ? `${list.length} ${norm(CL)}.` : '')}${list.length ? `<div class="clangrid">${list.map(c => {
       const mem = clanMembers(c);
       return `<a class="panel clan clan-link" href="#/cla/${esc(c.slug)}" style="${c.colour ? `--clan:${esc(c.colour)}` : ''}"><div class="clanhead">${c.emblem ? `<img src="${esc(c.emblem)}" alt="Emblema de ${esc(c.name)}" loading="lazy">` : ''}<div><h3 class="h-font">${esc(c.name)}</h3>${c.subtitle ? `<p class="muted small">${esc(c.subtitle)}</p>` : ''}</div></div>${c.summary ? `<p>${esc(String(c.summary).slice(0, 220))}${String(c.summary).length > 220 ? '…' : ''}</p>` : ''}${mem.length ? `<p class="muted small">${mem.length} ${mem.length === 1 ? 'personagem' : 'personagens'}</p>` : ''}</a>`;
     }).join('')}</div>` : empty('clas')}</div>`;
-    crumb([['Clãs']]);
+    crumb([[CL]]);
   }
   function clanFacts(c) {
     const rows = (c.facts || []).map(f => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}${f.detail ? `<small>${esc(f.detail)}</small>` : ''}</dd></div>`).join('');
@@ -381,14 +384,14 @@
     const c = (B.clans || []).find(x => x.slug === slug); if (!c) return notFound();
     const mem = clanMembers(c), pl = c.place && A.places.find(p => p.slug === c.place);
     const hasDoc = (c.sections || []).length;
-    const overview = `<div class="prose">${c.summary ? `<p class="lead">${esc(c.summary)}</p>` : ''}</div>${clanFacts(c)}${pl ? `<h3 class="h-font small-h">Sede</h3><div class="tagrow"><a class="tag" href="#/lugar/${esc(pl.slug)}">${esc(pl.name)}</a></div>` : ''}${mem.length ? `<h3 class="h-font small-h">Personagens do clã</h3><div class="tagrow">${mem.map(m => `<a class="tag" href="#/personagem/${esc(m.slug)}">${esc(m.name)}</a>`).join('')}</div>` : ''}`;
+    const overview = `<div class="prose">${c.summary ? `<p class="lead">${esc(c.summary)}</p>` : ''}</div>${clanFacts(c)}${pl ? `<h3 class="h-font small-h">Sede</h3><div class="tagrow"><a class="tag" href="#/lugar/${esc(pl.slug)}">${esc(pl.name)}</a></div>` : ''}${mem.length ? `<h3 class="h-font small-h">Personagens</h3><div class="tagrow">${mem.map(m => `<a class="tag" href="#/personagem/${esc(m.slug)}">${esc(m.name)}</a>`).join('')}</div>` : ''}`;
     $('#main').innerHTML = `<div class="page entity" style="${c.colour ? `--clan:${esc(c.colour)}` : ''}">
-      <div class="chnav"><a class="btn ghost" href="#/clas">${icon('back')} Clãs</a></div>
+      <div class="chnav"><a class="btn ghost" href="#/clas">${icon('back')} ${esc(CL)}</a></div>
       <section class="ehero"><figure class="efig clan-fig">${c.emblem ? `<img src="${esc(c.emblem)}" alt="Emblema de ${esc(c.name)}" data-lightbox>` : `<span class="fb">${icon('people')}</span>`}</figure>
-        <div class="etext"><p class="kicker">${esc(c.subtitle || 'Clã')}</p><h1 class="h-font">${esc(c.name)}</h1>
-          ${hasDoc ? `<div class="etabs" role="tablist"><button class="etab on" role="tab" data-tab="geral">Visão geral</button><button class="etab" role="tab" data-tab="doc">Conhecer o clã</button></div><div id="etabBody">${overview}</div>` : overview}
+        <div class="etext"><p class="kicker">${esc(c.subtitle || CL1)}</p><h1 class="h-font">${esc(c.name)}</h1>
+          ${hasDoc ? `<div class="etabs" role="tablist"><button class="etab on" role="tab" data-tab="geral">Visão geral</button><button class="etab" role="tab" data-tab="doc">Conhecer ${esc(norm(CL1) === 'cla' ? 'o clã' : 'a ' + norm(CL1))}</button></div><div id="etabBody">${overview}</div>` : overview}
         </div></section></div>`;
-    crumb([['Clãs', '#/clas'], [c.name]]);
+    crumb([[CL, '#/clas'], [c.name]]);
     $$('[data-lightbox]').forEach(el => el.addEventListener('click', () => lightbox([{ src: c.emblem, title: c.name }], 0)));
     if (hasDoc) $$('.etab').forEach(b => b.addEventListener('click', () => {
       $$('.etab').forEach(t => t.classList.toggle('on', t === b));
@@ -435,7 +438,7 @@
         ...A.chapters.filter(c => norm(c.title).includes(q) || norm(c.pov).includes(q)).map(c => [`Capítulo ${c.number} · ${c.title}`, `#/capitulo/${c.number}`, 'Capítulo']),
         ...A.characters.filter(c => norm(c.name).includes(q)).map(c => [c.name, `#/personagem/${c.slug}`, 'Personagem']),
         ...A.places.filter(c => norm(c.name).includes(q)).map(c => [c.name, `#/lugar/${c.slug}`, 'Lugar']),
-        ...(B.clans || []).filter(c => norm(c.name).includes(q)).map(c => [`Clã ${c.name}`, `#/cla/${c.slug}`, 'Clã']),
+        ...(B.clans || []).filter(c => norm(c.name).includes(q)).map(c => [clanTagText(c), `#/cla/${c.slug}`, CL1]),
         ...A.timeline.filter(c => norm(c.title).includes(q)).map(c => [c.title, '#/linha-do-tempo', 'Linha do Tempo'])
       ].slice(0, 30);
       $('#sres').innerHTML = r.length ? r.map(([t, h, k]) => `<a href="${h}" data-close><strong>${esc(t)}</strong><small>${k}</small></a>`).join('') : '<p class="muted">Nada encontrado.</p>';
