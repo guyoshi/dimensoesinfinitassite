@@ -21,7 +21,7 @@ body{background:radial-gradient(900px 600px at 70% 15%,#0f5f7d 0%,transparent 60
 .fchip.on{color:#03212d;box-shadow:2px 2px 0 #021822;border:2px solid #021822}
 .panel,.card,.book,.chcard,.ecard{border-width:3px;overflow:hidden}
 .panel{overflow:visible}
-.panel:after,.card:after,.chcard:after,.ecard:after,.book:after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;mix-blend-mode:multiply;opacity:.5;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/><feColorMatrix values='0 0 0 0 .4 0 0 0 0 .3 0 0 0 0 .2 0 0 0 .35 0'/></filter><rect width='180' height='180' filter='url(%23n)' opacity='.55'/></svg>")}
+.panel:after,.card:after,.chcard:after,.book:after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:.22;background:radial-gradient(rgba(2,24,34,.35) 1px,transparent 1.3px) 0 0/7px 7px}
 .crow{border-bottom:2px dashed rgba(18,48,63,.25)}
 .chip{background:#ffe0a8;color:#7a3f00;border:2px solid #021822}
 .phimg,.eimg,.efig{border:2px solid #021822}
