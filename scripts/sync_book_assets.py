@@ -154,7 +154,7 @@ def source_side_links(mapped: set[str]) -> list[dict]:
                 variant = re.search(r"-\s*(branco|preto|colorido)$", source.stem, re.I)
                 if variant and len(rel) > 2 and slug(rel[1]) == "titulo":
                     add(f"assets/branding/{book}/{LOGO_VARIANTS[variant.group(1).lower()]}.webp", source)
-            elif top == "Capitulos":
+            elif top in ("Capitulos", "Ilustrações dos Capítulos"):
                 number = re.match(r"^(?:capitulo[- ]*)?(\d+)(?:-|$)", stem_slug)
                 if number:
                     add(f"{base}/chapters/chapter-{int(number.group(1)):02d}.webp", source)
