@@ -29,7 +29,7 @@ body{background:radial-gradient(1000px 500px at 50% 115%,#6e2414 0%,transparent 
 .fchip.on{color:#1a0d08}
 .tl:before{background:var(--ember)}.tl-item:before{background:var(--candle);box-shadow:0 0 12px var(--ember)}
 .tl-date{font-family:var(--hand);letter-spacing:.04em;text-transform:none;font-size:14px;color:var(--candle)}
-.phimg,.eimg,.efig{filter:sepia(.18) contrast(1.03)}
+.efig{filter:sepia(.18) contrast(1.03)}
 
 /* efeitos */
 .fx-vignette{background:radial-gradient(ellipse at center,transparent 45%,rgba(0,0,0,.65) 100%)}

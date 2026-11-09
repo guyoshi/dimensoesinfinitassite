@@ -18,5 +18,5 @@ body{background:radial-gradient(900px 600px at 6% 0%,rgba(230,181,103,.55) 0%,tr
 .fx-mist{top:auto;height:230px;background:linear-gradient(180deg,transparent,rgba(190,170,210,.22));filter:blur(8px);animation:mist 22s ease-in-out infinite alternate}
 @keyframes mist{to{transform:translateX(-4%)}}
 .fx-herodawn{position:absolute;left:-40px;top:-120px;width:900px;height:620px;background:radial-gradient(ellipse at 30% 30%,rgba(230,181,103,.5),rgba(230,181,103,.12) 50%,transparent 72%)}
-body.fx-ds2:not(.perf):not(.fx-light) .card,body.fx-ds2:not(.perf):not(.fx-light) .hero-bg{filter:url(#di-mirage)}
+body.fx-ds2:not(.perf):not(.fx-light) .hero-bg{filter:url(#di-mirage)}
 .ink-l,.ink-r,.ink-b{display:none}

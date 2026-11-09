@@ -11,7 +11,7 @@
 }
 body{background:radial-gradient(1200px 700px at 78% -10%,#3b1aa0 0%,transparent 60%),radial-gradient(900px 600px at 10% 110%,#7a1e7f 0%,transparent 55%),#090521}
 .sigil{color:var(--gold);border:1px solid var(--gold);box-shadow:0 0 14px rgba(233,180,76,.35)}
-.panel,.card,.book,.chcard,.ecard{backdrop-filter:blur(6px)}
+.panel,.card,.book,.chcard,.ecard{backdrop-filter:none}
 .hero-bg{filter:saturate(1.2) brightness(.55)}
 .hero-shade{background:linear-gradient(90deg,rgba(9,5,33,.94) 0%,rgba(9,5,33,.72) 48%,rgba(9,5,33,.1) 100%)}
 .coverwrap{box-shadow:0 0 0 2px var(--gold),0 0 40px rgba(210,63,165,.55),0 20px 50px rgba(0,0,0,.6)}
