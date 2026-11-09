@@ -231,16 +231,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "elias",
-    "name": "Elias",
-    "subtitle": "Morador da igreja",
-    "summary": "Morador da igreja de Alvorada Alegre.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 21"
-    ]
-  },
-  {
     "slug": "a-mae",
     "name": "A Mãe",
     "subtitle": "Força que protege a cidade",
@@ -291,26 +281,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "sara",
-    "name": "Sara",
-    "subtitle": "Selifa, amiga de Olívia",
-    "summary": "Selifa, amiga de Olívia.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 17"
-    ]
-  },
-  {
-    "slug": "artur",
-    "name": "Artur",
-    "subtitle": "Marido de Olívia",
-    "summary": "Marido de Olívia.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 17"
-    ]
-  },
-  {
     "slug": "kelly",
     "name": "Kelly",
     "subtitle": "Kelly Lorraine Fontenelle",
@@ -351,16 +321,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "sanderson",
-    "name": "Sanderson",
-    "subtitle": "Pai de Priscila",
-    "summary": "Pai de Priscila.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 3"
-    ]
-  },
-  {
     "slug": "enzo",
     "name": "Enzo",
     "subtitle": "Irmão de Kelly e Priscila",
@@ -371,16 +331,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "rogerio",
-    "name": "Rogério",
-    "subtitle": "Pai de Jennifer",
-    "summary": "Pai de Jennifer.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 5, 10"
-    ]
-  },
-  {
     "slug": "monica",
     "name": "Mônica",
     "subtitle": "Mãe de Jennifer",
@@ -388,36 +338,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulos 5, 10, 18"
-    ]
-  },
-  {
-    "slug": "prof-caetano",
-    "name": "Professor Caetano",
-    "subtitle": "Professor de física",
-    "summary": "Nega a alma.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 10, 12"
-    ]
-  },
-  {
-    "slug": "esther",
-    "name": "Dona Esther",
-    "subtitle": "Vizinha de Junior",
-    "summary": "Vizinha de Junior, que volta a morar na antiga casa de Kelly com o pug Petrão.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 6"
-    ]
-  },
-  {
-    "slug": "petrao",
-    "name": "Petrão",
-    "subtitle": "Pug de Dona Esther",
-    "summary": "Pug.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 6"
     ]
   },
   {
@@ -451,16 +371,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "rodrigo",
-    "name": "Rodrigo",
-    "subtitle": "Entrevistador do Paper",
-    "summary": "Exige tragédia e estrutura.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 13"
-    ]
-  },
-  {
     "slug": "olga",
     "name": "Olga Cruz",
     "subtitle": "Vítima de Diego",
@@ -468,16 +378,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulos 19, 28"
-    ]
-  },
-  {
-    "slug": "alberto",
-    "name": "Alberto",
-    "subtitle": "Falsificador",
-    "summary": "Falsifica o RG de Jennifer.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 5"
     ]
   },
   {
@@ -491,16 +391,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "princesa",
-    "name": "Princesa",
-    "subtitle": "Rottweiler de Olívia",
-    "summary": "Rottweiler.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 17"
-    ]
-  },
-  {
     "slug": "leila",
     "name": "Leila",
     "subtitle": "Égua de Olívia",
@@ -508,96 +398,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulos 18, 22"
-    ]
-  },
-  {
-    "slug": "agatha",
-    "name": "Agatha",
-    "subtitle": "Irmã de Alberto",
-    "summary": "Irmã do falsificador, cuja matrícula na escola Jennifer lembra a Alberto.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 5"
-    ]
-  },
-  {
-    "slug": "amanda",
-    "name": "Amanda",
-    "subtitle": "Garota da casa noturna",
-    "summary": "Empurra Jennifer no bar da Rua Fidalga; Glenda a soca.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 22"
-    ]
-  },
-  {
-    "slug": "charles",
-    "name": "Charles",
-    "subtitle": "Colega de Priscila",
-    "summary": "Colega de trabalho na hamburgueria de Pirituba.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 3"
-    ]
-  },
-  {
-    "slug": "manuela",
-    "name": "Manuela",
-    "subtitle": "Colega de Priscila",
-    "summary": "Amiga e colega de trabalho de Priscila; ameaça \"espremer a laranja na sua cara\".",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 3"
-    ]
-  },
-  {
-    "slug": "comandante-afonso",
-    "name": "Comandante Afonso",
-    "subtitle": "Piloto do helicóptero",
-    "summary": "Conduz Jason e Priscila ao Mercedes e ao hangar.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 20"
-    ]
-  },
-  {
-    "slug": "paulo",
-    "name": "Paulo",
-    "subtitle": "Mecânico do helicóptero",
-    "summary": "Opera o helicóptero vermelho com o comandante Afonso.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 20"
-    ]
-  },
-  {
-    "slug": "romario",
-    "name": "Romario",
-    "subtitle": "Taxista",
-    "summary": "Tagarela que leva Jennifer à Rua Fidalga.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 22"
-    ]
-  },
-  {
-    "slug": "celia",
-    "name": "Célia",
-    "subtitle": "Colega de Jennifer",
-    "summary": "Garota que, na aula de física, diz que as pessoas só têm o corpo morto.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 10"
-    ]
-  },
-  {
-    "slug": "ernesto",
-    "name": "Ernesto",
-    "subtitle": "Gato de Jennifer",
-    "summary": "Gato de Jennifer.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 10"
     ]
   },
   {
@@ -628,26 +428,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulo 5"
-    ]
-  },
-  {
-    "slug": "hebert",
-    "name": "Hebert Santos",
-    "subtitle": "Blogueiro do Postagem Diária",
-    "summary": "Hebert Santos, blogueiro do Postagem Diária.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 9"
-    ]
-  },
-  {
-    "slug": "natalia",
-    "name": "Natália Alves",
-    "subtitle": "Blogueira do Postagem Diária",
-    "summary": "Natália Alves, blogueira do Postagem Diária.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 9"
     ]
   },
   {
@@ -721,46 +501,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "vitoria",
-    "name": "Vitória",
-    "subtitle": "Amante de Vini",
-    "summary": "Antiga rival de Priscila.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 14"
-    ]
-  },
-  {
-    "slug": "muriel",
-    "name": "Muriel",
-    "subtitle": "Tia de Glenda",
-    "summary": "Esposa de Diego, que mora no Rio.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 4"
-    ]
-  },
-  {
-    "slug": "lucas-jason",
-    "name": "Lucas",
-    "subtitle": "Primo morto de Glenda",
-    "summary": "Lucas, irmãozinho de Jason.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 4"
-    ]
-  },
-  {
-    "slug": "elisa-joaquim",
-    "name": "Dona Elisa e Senhor Joaquim",
-    "subtitle": "Locadores de Priscila",
-    "summary": "Donos da casa a quem Priscila devia aluguel.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 3"
-    ]
-  },
-  {
     "slug": "joao-lenda",
     "name": "João",
     "subtitle": "Sobrevivente da lenda",
@@ -768,66 +508,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulo 7"
-    ]
-  },
-  {
-    "slug": "prof-rui",
-    "name": "Professor Rui",
-    "subtitle": "Professor de História",
-    "summary": "Professor de História de Pedro.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 2"
-    ]
-  },
-  {
-    "slug": "prof-roberto",
-    "name": "Professor Roberto",
-    "subtitle": "Professor de Química",
-    "summary": "Professor de Química de Pedro.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 2"
-    ]
-  },
-  {
-    "slug": "pais-pedro",
-    "name": "Pais de Pedro",
-    "subtitle": "Mãe e pai de Pedro",
-    "summary": "Pais de Pedro, em Jaguariúna.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 2"
-    ]
-  },
-  {
-    "slug": "medico",
-    "name": "Médico do hospital",
-    "subtitle": "Médico",
-    "summary": "Médico do hospital de Vila Velha.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 15"
-    ]
-  },
-  {
-    "slug": "atendente",
-    "name": "Atendente do mercado",
-    "subtitle": "Atendente",
-    "summary": "Atendente de Alvorada Alegre que repete falas decoradas.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 16"
-    ]
-  },
-  {
-    "slug": "professor-ilusao",
-    "name": "Professor (ilusão)",
-    "subtitle": "Professor da sala 62",
-    "summary": "Professor da sala 62.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 27"
     ]
   }
 ];

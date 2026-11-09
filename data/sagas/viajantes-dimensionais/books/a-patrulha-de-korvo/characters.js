@@ -503,16 +503,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "mestre-arcus",
-    "name": "Mestre Arcus",
-    "subtitle": "Vendedor do Bazar do Oeste",
-    "summary": "Fornece os presentes dos irmãos.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 14"
-    ]
-  },
-  {
     "slug": "peryth",
     "name": "Peryth",
     "subtitle": "Costureiro do Ateliê das Estrelas",
@@ -543,16 +533,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "melissa",
-    "name": "Melissa",
-    "subtitle": "Colega",
-    "summary": "Aparece no início.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 2"
-    ]
-  },
-  {
     "slug": "aradon",
     "name": "Aradon",
     "subtitle": "Árbitro do Estádio Vórtice",
@@ -570,36 +550,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulos 5, 12–13"
-    ]
-  },
-  {
-    "slug": "tessara",
-    "name": "Tessara",
-    "subtitle": "Aprendiz · Garras de Ferro",
-    "summary": "Zerak do time rival Garras de Ferro.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 12–13"
-    ]
-  },
-  {
-    "slug": "xylar",
-    "name": "Xylar",
-    "subtitle": "Aprendiz · Garras de Ferro",
-    "summary": "Vardek do Garras de Ferro.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 12–13"
-    ]
-  },
-  {
-    "slug": "lyrius",
-    "name": "Lyrius",
-    "subtitle": "Aprendiz · Garras de Ferro",
-    "summary": "Vardek do Garras de Ferro.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 12–13"
     ]
   },
   {
@@ -633,46 +583,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "dam",
-    "name": "Dam",
-    "subtitle": "Concorrente",
-    "summary": "Piloto do dassi laranja com Yuri na corrida.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 8"
-    ]
-  },
-  {
-    "slug": "hudson",
-    "name": "Hudson",
-    "subtitle": "Concorrente",
-    "summary": "Pilota o dassi roxo com Shirley e Denis, cercado por um enxame de pássaros.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 8"
-    ]
-  },
-  {
-    "slug": "kevin",
-    "name": "Kevin",
-    "subtitle": "Concorrente",
-    "summary": "Concorrente apresentado por Denis.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 5"
-    ]
-  },
-  {
-    "slug": "yoko",
-    "name": "Yoko",
-    "subtitle": "Concorrente",
-    "summary": "Concorrente apresentada por Denis.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 5"
-    ]
-  },
-  {
     "slug": "kiran",
     "name": "Kiran",
     "subtitle": "Dimensal de outro mundo",
@@ -690,86 +600,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulos 8"
-    ]
-  },
-  {
-    "slug": "pitu",
-    "name": "Pitu",
-    "subtitle": "Animalzinho de Eshley",
-    "summary": "Animal peludo de olhos grandes, companheiro de viagem de Eshley; com ele Banjo descobre que entende animais.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 5"
-    ]
-  },
-  {
-    "slug": "iasmin",
-    "name": "Iasmin",
-    "subtitle": "Colega da escola de Banjo",
-    "summary": "Surge nas humilhações do cristal Minori.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 17"
-    ]
-  },
-  {
-    "slug": "bernardo",
-    "name": "Bernardo",
-    "subtitle": "Colega da escola de Banjo",
-    "summary": "Surge nas humilhações do cristal Minori.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 17"
-    ]
-  },
-  {
-    "slug": "leonardo",
-    "name": "Leonardo",
-    "subtitle": "Melhor amigo de Breno",
-    "summary": "Amigo de escola que pergunta a Breno, sentado nas escadas, se ele sente saudades dos pais.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 1"
-    ]
-  },
-  {
-    "slug": "jennifer-vd",
-    "name": "Tamires",
-    "subtitle": "Primeiro beijo de Breno",
-    "summary": "Colega de escola de Breno, com quem ele troca o primeiro beijo no passeio ao Parque da Cantareira.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 1"
-    ]
-  },
-  {
-    "slug": "diretor-everton",
-    "name": "Diretor Everton",
-    "subtitle": "Diretor da escola",
-    "summary": "Diretor da escola dos irmãos.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 2"
-    ]
-  },
-  {
-    "slug": "prof-marlene-vd",
-    "name": "Professora Marlene",
-    "subtitle": "Professora de coral",
-    "summary": "Professora da sala de coral onde Beatriz quebra o piano e o lustre.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 2"
-    ]
-  },
-  {
-    "slug": "prof-caetano-vd",
-    "name": "Professor Caetano",
-    "subtitle": "Professor",
-    "summary": "Professor em cuja aula a mão de Breno atravessa um livro.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 2"
     ]
   },
   {

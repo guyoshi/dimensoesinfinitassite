@@ -45,9 +45,6 @@ window.DI_BOOK.chapters = [
       "kelly",
       "jennifer",
       "priscila",
-      "prof-rui",
-      "prof-roberto",
-      "pais-pedro",
       "cara-de-larva"
     ],
     "places": [
@@ -78,12 +75,8 @@ window.DI_BOOK.chapters = [
       "glenda",
       "diego",
       "estevan",
-      "charles",
-      "manuela",
       "kelly",
-      "elisa-joaquim",
-      "karen",
-      "sanderson"
+      "karen"
     ],
     "places": [
       "hamburgueria",
@@ -115,8 +108,6 @@ window.DI_BOOK.chapters = [
       "priscila",
       "kelly",
       "vini",
-      "lucas-jason",
-      "muriel",
       "tereza",
       "gisele"
     ],
@@ -150,12 +141,9 @@ window.DI_BOOK.chapters = [
       "agouro",
       "kelly",
       "monica",
-      "rogerio",
       "vini",
       "glenda",
       "junior",
-      "alberto",
-      "agatha",
       "priscila",
       "mandioca",
       "pezinho",
@@ -191,8 +179,6 @@ window.DI_BOOK.chapters = [
       "junior",
       "adriana",
       "kelly",
-      "esther",
-      "petrao",
       "manu",
       "agouro"
     ],
@@ -287,8 +273,6 @@ window.DI_BOOK.chapters = [
       "diego",
       "priscila",
       "luiza",
-      "hebert",
-      "natalia",
       "katia-sobral",
       "gisele",
       "vini",
@@ -322,12 +306,8 @@ window.DI_BOOK.chapters = [
     "characters": [
       "jennifer",
       "junior",
-      "rogerio",
       "monica",
-      "prof-caetano",
-      "celia",
       "glenda",
-      "ernesto",
       "matheus",
       "casal",
       "kelly",
@@ -398,8 +378,7 @@ window.DI_BOOK.chapters = [
       "agouro",
       "kelly",
       "adriana",
-      "jennifer",
-      "prof-caetano"
+      "jennifer"
     ],
     "places": [
       "casa-junior",
@@ -429,7 +408,6 @@ window.DI_BOOK.chapters = [
     "summary": "Glenda leva à Paper o relatório sobre Vila Velha, mas o entrevistador Rodrigo diz que falta estrutura, fontes e personagens e a deixa sem prazo. Em casa, vomita e conversa com a empregada Tereza, que repete que Diego a chama de sobrinha favorita. Pesquisando, recebe no MSN um link anônimo para a matéria sobre Lucinda Torres, de Alvorada Alegre, morta atropelada por um trem e que dizia que os espelhos são portas do Inferno. No banheiro, o colar de Glenda brilha em laranja, as luzes apagam, a toalha do espelho some, a porta trava e ela vê olhos altos no reflexo. Depois, um homem gordo, careca, de olhos brancos e facão ensanguentado a persegue pela mansão. Ela cai da escada e esbarra em Diego, que a vê ferida, e o monstro some sem deixar marca. Diego limpa o sangue dela, a beija sem consentimento e diz 'filha de minha irmã'. Glenda ri sozinha e decide observar, fingir e punir à sua maneira.",
     "characters": [
       "glenda",
-      "rodrigo",
       "diego",
       "tereza",
       "jason",
@@ -470,7 +448,6 @@ window.DI_BOOK.chapters = [
       "jason",
       "kelly",
       "vini",
-      "vitoria",
       "enzo"
     ],
     "places": [
@@ -504,7 +481,6 @@ window.DI_BOOK.chapters = [
       "junior",
       "kelly",
       "casal",
-      "medico",
       "irma-filipo"
     ],
     "places": [
@@ -537,7 +513,6 @@ window.DI_BOOK.chapters = [
       "pollux",
       "agouro",
       "kelly",
-      "atendente",
       "lidia",
       "carniceiros",
       "espectros"
@@ -572,16 +547,13 @@ window.DI_BOOK.chapters = [
       "filipo",
       "priscila",
       "olivia",
-      "princesa",
-      "sara",
       "agouro",
       "enzo",
       "kelly",
       "lucinda-torres",
       "glenda",
       "mel-jones",
-      "mike",
-      "artur"
+      "mike"
     ],
     "places": [
       "pirituba",
@@ -685,8 +657,6 @@ window.DI_BOOK.chapters = [
       "priscila",
       "jason",
       "karen",
-      "comandante-afonso",
-      "paulo",
       "kelly",
       "diego",
       "estevan",
@@ -720,7 +690,6 @@ window.DI_BOOK.chapters = [
       "junior",
       "lucinda",
       "lidia",
-      "elias",
       "manu",
       "a-mae",
       "agouro",
@@ -756,9 +725,7 @@ window.DI_BOOK.chapters = [
       "filipo",
       "pedro",
       "glenda",
-      "romario",
       "casal",
-      "amanda",
       "agouro",
       "leila"
     ],
@@ -913,7 +880,6 @@ window.DI_BOOK.chapters = [
       "lucinda",
       "a-mae",
       "cara-de-larva",
-      "professor-ilusao",
       "agouro",
       "kelly",
       "carniceiros",

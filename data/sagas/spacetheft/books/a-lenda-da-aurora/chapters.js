@@ -57,12 +57,10 @@ window.DI_BOOK.chapters = [
       "jasmey-badrock",
       "jelles",
       "sr-peron",
-      "boriges",
       "dock",
       "vek",
       "amanda",
-      "eric",
-      "javes"
+      "eric"
     ],
     "places": [
       "lebargan",
@@ -85,9 +83,6 @@ window.DI_BOOK.chapters = [
       "vek",
       "saezi",
       "nemes",
-      "hella",
-      "denio",
-      "chesi",
       "genrir",
       "amanda"
     ],
@@ -112,16 +107,13 @@ window.DI_BOOK.chapters = [
       "amanda",
       "eric",
       "dock",
-      "loen",
       "jelles",
       "cestillo",
       "klest",
       "samara",
       "onomar",
       "vlad",
-      "fender",
-      "als-keb",
-      "belice"
+      "fender"
     ],
     "places": [
       "lebargan",
@@ -190,7 +182,6 @@ window.DI_BOOK.chapters = [
       "jasmey-badrock",
       "alekta",
       "tzough",
-      "kove",
       "jelles",
       "sr-peron"
     ],
@@ -211,9 +202,7 @@ window.DI_BOOK.chapters = [
       "jasmey-badrock",
       "alekta",
       "tzough",
-      "nosteratos",
-      "kove",
-      "ederos"
+      "nosteratos"
     ],
     "places": [
       "fera-sideral"
@@ -234,11 +223,9 @@ window.DI_BOOK.chapters = [
       "hardman",
       "tzough",
       "nosteratos",
-      "ederos",
       "kord",
       "jelles",
-      "nastacia",
-      "tatch"
+      "nastacia"
     ],
     "places": [
       "fera-sideral",
@@ -262,9 +249,7 @@ window.DI_BOOK.chapters = [
       "alekta",
       "nosteratos",
       "vivian",
-      "leitham",
       "kiran",
-      "zekko",
       "oreilly",
       "kord",
       "buni"
@@ -294,7 +279,6 @@ window.DI_BOOK.chapters = [
       "vivian",
       "alekta",
       "tzough",
-      "leitham",
       "sr-peron"
     ],
     "places": [
@@ -316,7 +300,6 @@ window.DI_BOOK.chapters = [
       "hardman",
       "buni",
       "luna",
-      "madame",
       "kord",
       "oreilly",
       "vivian",
@@ -346,7 +329,6 @@ window.DI_BOOK.chapters = [
       "buni",
       "vivian",
       "luna",
-      "quinn",
       "cardical"
     ],
     "places": [

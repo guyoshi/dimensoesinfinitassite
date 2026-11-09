@@ -561,36 +561,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "prof-selma",
-    "name": "Professora Selma",
-    "subtitle": "Professora de inglês",
-    "summary": "Professora de inglês.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 9"
-    ]
-  },
-  {
-    "slug": "douglinhas",
-    "name": "Douglinhas",
-    "subtitle": "Dono da lanchonete",
-    "summary": "Dono do ponto de encontro dos jovens.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 5, 33"
-    ]
-  },
-  {
-    "slug": "cabos",
-    "name": "Cabos Diego e Felipe",
-    "subtitle": "Policiais",
-    "summary": "Interrogam Jennifer sobre Vini.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 9, 12"
-    ]
-  },
-  {
     "slug": "familia-carnam",
     "name": "Família Carnam",
     "subtitle": "Refugiados do Regime Militar",
@@ -631,26 +601,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "flavio",
-    "name": "Flávio",
-    "subtitle": "Colega de turma",
-    "summary": "Garoto do fundão que provoca a professora; Junior o marca no jogo.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 15, 25"
-    ]
-  },
-  {
-    "slug": "biel",
-    "name": "Biel",
-    "subtitle": "Moleque da vizinhança",
-    "summary": "Garoto de quem Vini roubou a chuteira.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 17"
-    ]
-  },
-  {
     "slug": "prof-caetano",
     "name": "Professor Caetano",
     "subtitle": "Professor de Matemática",
@@ -668,46 +618,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulos 15, 19, 26, 30"
-    ]
-  },
-  {
-    "slug": "mucci",
-    "name": "Professor Mucci",
-    "subtitle": "Professor de Geografia",
-    "summary": "Professor italiano de Geografia.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 15"
-    ]
-  },
-  {
-    "slug": "prof-alvaro",
-    "name": "Professor Álvaro",
-    "subtitle": "Professor de Química",
-    "summary": "Professor de Química.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 26"
-    ]
-  },
-  {
-    "slug": "prof-eddie",
-    "name": "Professor Eddie",
-    "subtitle": "Professor de Educação Física",
-    "summary": "Fica encostado na parede lendo um livro enquanto os alunos jogam futebol.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 25"
-    ]
-  },
-  {
-    "slug": "prof-fatima",
-    "name": "Professora Maria de Fátima",
-    "subtitle": "Professora de Ciências",
-    "summary": "Professora do trabalho sobre crustáceos.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 8, 19"
     ]
   },
   {
@@ -731,150 +641,10 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "pai-pedro",
-    "name": "Pai de Pedro",
-    "subtitle": "Dono da doceria",
-    "summary": "Pai de Pedro; o nome não é dado.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 9, 15"
-    ]
-  },
-  {
-    "slug": "cibele",
-    "name": "Cibele",
-    "subtitle": "Filha de Luiza Salomandra",
-    "summary": "Filha de Luiza Salomandra, vinda de Entre Rios de Minas.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 21"
-    ]
-  },
-  {
-    "slug": "dede",
-    "name": "Dedé",
-    "subtitle": "Calopsita de Pedro",
-    "summary": "Calopsita de Pedro que ele chorou mais do que o fim da amizade.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 30"
-    ]
-  },
-  {
-    "slug": "dr-silva",
-    "name": "Dr. Antônio Silva",
-    "subtitle": "Médico de Mônica",
-    "summary": "Dr. Antônio Silva, médico no hospital da cidade.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 18"
-    ]
-  },
-  {
-    "slug": "sarah",
-    "name": "Sarah",
-    "subtitle": "Amiga de Priscila no Bruno Régis",
-    "summary": "Única amiga de Priscila no colégio anterior, onde ela era conhecida como arrogante e grossa.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 34"
-    ]
-  },
-  {
-    "slug": "juarez",
-    "name": "Juarez",
-    "subtitle": "Dono das \"bandas\"",
-    "summary": "Pepeu diz que as \"bandas\" da casa abandonada são do Juarez e que melhor nem chegar perto.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 8"
-    ]
-  },
-  {
-    "slug": "zeca",
-    "name": "Zeca",
-    "subtitle": "Cabeleireiro",
-    "summary": "Antigo amigo de Vini que tem um salão.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 23"
-    ]
-  },
-  {
     "slug": "sabao",
     "name": "Sabão",
     "subtitle": "Antigo chefe do tráfico",
     "summary": "Antigo chefe do tráfico local.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 11"
-    ]
-  },
-  {
-    "slug": "joao-carteiro",
-    "name": "João",
-    "subtitle": "Carteiro",
-    "summary": "Entrega a Junior um maço de cartas.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 1"
-    ]
-  },
-  {
-    "slug": "jefferson",
-    "name": "Jefferson",
-    "subtitle": "Jogador do outro time",
-    "summary": "Jogador do time rival no jogo de Educação Física.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 25"
-    ]
-  },
-  {
-    "slug": "gerson",
-    "name": "Gerson",
-    "subtitle": "Jogador",
-    "summary": "Gordinho folgado a quem Junior chuta a perna ao tentar tomar a bola.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 25"
-    ]
-  },
-  {
-    "slug": "nelson",
-    "name": "Nelson",
-    "subtitle": "Jogador",
-    "summary": "Reclama de Junior e sugere trocar por Kelly.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 25"
-    ]
-  },
-  {
-    "slug": "samuel",
-    "name": "Samuel",
-    "subtitle": "Goleiro",
-    "summary": "Goleiro que sofre o gol de Junior.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 25"
-    ]
-  },
-  {
-    "slug": "renan",
-    "name": "Inspetor Renan",
-    "subtitle": "Inspetor da escola",
-    "summary": "Inspetor baixinho de bigode engraçado.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 25"
-    ]
-  },
-  {
-    "slug": "enfermeira",
-    "name": "Enfermeira do hospital",
-    "subtitle": "Enfermeira",
-    "summary": "Enfermeira do hospital da cidade.",
     "importance": "Apoio",
     "sources": [
       "Capítulo 11"

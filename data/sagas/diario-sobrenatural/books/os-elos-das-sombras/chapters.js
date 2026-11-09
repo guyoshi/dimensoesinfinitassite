@@ -11,8 +11,7 @@ window.DI_BOOK.chapters = [
       "junior",
       "pedro",
       "kelly",
-      "adriana",
-      "joao-carteiro"
+      "adriana"
     ],
     "places": [
       "casa-junior",
@@ -139,7 +138,6 @@ window.DI_BOOK.chapters = [
       "thiaguinho",
       "caneca",
       "pezinho",
-      "douglinhas",
       "jennifer",
       "alan",
       "ana-livia",
@@ -236,7 +234,6 @@ window.DI_BOOK.chapters = [
       "any",
       "karina",
       "paty",
-      "prof-fatima",
       "alan",
       "ana-livia",
       "bob",
@@ -244,7 +241,6 @@ window.DI_BOOK.chapters = [
       "caneca",
       "pezinho",
       "thiaguinho",
-      "juarez",
       "velho-casa",
       "kelly",
       "pai-carnam"
@@ -278,11 +274,8 @@ window.DI_BOOK.chapters = [
       "kelly",
       "priscila",
       "gabriel",
-      "cabos",
-      "prof-selma",
       "anilda",
       "maria-fernanda",
-      "pai-pedro",
       "karen",
       "vini",
       "bicho-preto"
@@ -354,8 +347,7 @@ window.DI_BOOK.chapters = [
       "ana-livia",
       "alan",
       "priscila",
-      "sabao",
-      "enfermeira"
+      "sabao"
     ],
     "places": [
       "hospital",
@@ -384,7 +376,6 @@ window.DI_BOOK.chapters = [
       "monica",
       "rogerio",
       "tio-teo",
-      "cabos",
       "prof-caetano",
       "mulher-cabelos-brancos",
       "vini",
@@ -491,15 +482,12 @@ window.DI_BOOK.chapters = [
       "ingrid",
       "maria-marques",
       "chimba",
-      "mucci",
       "prof-vani",
       "prof-marlene",
       "prof-caetano",
       "jennifer",
       "priscila",
-      "pai-pedro",
-      "maria-fernanda",
-      "flavio"
+      "maria-fernanda"
     ],
     "places": [
       "escola",
@@ -569,8 +557,7 @@ window.DI_BOOK.chapters = [
       "bob",
       "vitoria",
       "priscila",
-      "pezinho",
-      "biel"
+      "pezinho"
     ],
     "places": [
       "casa-thiaguinho",
@@ -599,7 +586,6 @@ window.DI_BOOK.chapters = [
       "jennifer",
       "rogerio",
       "monica",
-      "dr-silva",
       "tio-teo",
       "pedro",
       "mulher-cabelos-brancos",
@@ -636,7 +622,6 @@ window.DI_BOOK.chapters = [
       "vini",
       "karen",
       "sanderson",
-      "prof-fatima",
       "maria-marques",
       "chimba",
       "avo-kelly",
@@ -710,7 +695,6 @@ window.DI_BOOK.chapters = [
       "adriana",
       "kelly",
       "priscila",
-      "cibele",
       "luiza-salomandra",
       "maria-marques",
       "pai-carnam",
@@ -789,7 +773,6 @@ window.DI_BOOK.chapters = [
       "caneca",
       "pepeu",
       "mandioca",
-      "zeca",
       "alan",
       "ana-livia",
       "bob",
@@ -880,15 +863,8 @@ window.DI_BOOK.chapters = [
       "priscila",
       "anilda",
       "prof-caetano",
-      "prof-eddie",
-      "flavio",
       "nathan",
-      "jefferson",
-      "gerson",
-      "nelson",
-      "samuel",
       "igor",
-      "renan",
       "magali",
       "prof-vani",
       "mandioca",
@@ -936,7 +912,6 @@ window.DI_BOOK.chapters = [
       "alex",
       "chimba",
       "prof-vani",
-      "prof-alvaro",
       "cheri"
     ],
     "places": [
@@ -1114,8 +1089,7 @@ window.DI_BOOK.chapters = [
       "agouro",
       "sergio",
       "prof-vani",
-      "chimba",
-      "dede"
+      "chimba"
     ],
     "places": [
       "escola",
@@ -1238,7 +1212,6 @@ window.DI_BOOK.chapters = [
       "agouro",
       "sergio",
       "adriana",
-      "douglinhas",
       "vitoria"
     ],
     "places": [
@@ -1275,7 +1248,6 @@ window.DI_BOOK.chapters = [
       "bob",
       "alan",
       "vitoria",
-      "sarah",
       "ingrid",
       "sueten",
       "mae-carnam",

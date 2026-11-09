@@ -324,40 +324,10 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "ederos",
-    "name": "Ederos",
-    "subtitle": "Prisioneiro da Fera",
-    "summary": "Prisioneiro da Fera Sideral.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 9–10"
-    ]
-  },
-  {
-    "slug": "leitham",
-    "name": "Leitham",
-    "subtitle": "Prisioneiro da Fera",
-    "summary": "Prisioneiro da Fera Sideral.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 11–12"
-    ]
-  },
-  {
     "slug": "kiran",
     "name": "Kiran",
     "subtitle": "Prisioneiro da Fera",
     "summary": "Prisioneiro da Fera Sideral e companheiro de cela.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 11"
-    ]
-  },
-  {
-    "slug": "zekko",
-    "name": "Zekko",
-    "subtitle": "Vítima da Lebargan",
-    "summary": "Sobrevivente de um planeta atingido pelo gás da Lebargan.",
     "importance": "Apoio",
     "sources": [
       "Capítulo 11"
@@ -384,46 +354,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "boriges",
-    "name": "Boriges",
-    "subtitle": "Espadachim",
-    "summary": "Espadachim da Lebargan que treina esgrima com Jasmey.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 3"
-    ]
-  },
-  {
-    "slug": "loen",
-    "name": "Loen",
-    "subtitle": "Analista de geoquímica",
-    "summary": "Analista de geoquímica da Lebargan, responsável pelas medições de gerbe.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 5"
-    ]
-  },
-  {
-    "slug": "quinn",
-    "name": "Quinn",
-    "subtitle": "Canibal do bar Sem-cabeça",
-    "summary": "Canibal do bar Sem-cabeça, em Sumatram, que aposta corações em jogo.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 14"
-    ]
-  },
-  {
-    "slug": "madame",
-    "name": "Madame",
-    "subtitle": "Dona do bordel de Geores",
-    "summary": "Dona do bordel de Geores, em Sumatram.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 13"
-    ]
-  },
-  {
     "slug": "unidale",
     "name": "Unidale",
     "subtitle": "Dale transmissor",
@@ -441,16 +371,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulo 18"
-    ]
-  },
-  {
-    "slug": "als-keb",
-    "name": "Als-keb",
-    "subtitle": "Criança dekraaziana",
-    "summary": "Criança dekraaziana.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 5"
     ]
   },
   {
@@ -474,36 +394,6 @@ window.DI_BOOK.characters = [
     ]
   },
   {
-    "slug": "hella",
-    "name": "Hella",
-    "subtitle": "Dale",
-    "summary": "Dale da Lebargan.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 4"
-    ]
-  },
-  {
-    "slug": "denio",
-    "name": "Denio",
-    "subtitle": "Dale",
-    "summary": "Dale da Lebargan.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 4"
-    ]
-  },
-  {
-    "slug": "chesi",
-    "name": "Chesi",
-    "subtitle": "Dale",
-    "summary": "Dale da Lebargan.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 4"
-    ]
-  },
-  {
     "slug": "dekraazianos",
     "name": "Dekraazianos",
     "subtitle": "Povo de Dekraaz",
@@ -511,46 +401,6 @@ window.DI_BOOK.characters = [
     "importance": "Apoio",
     "sources": [
       "Capítulo 7"
-    ]
-  },
-  {
-    "slug": "tatch",
-    "name": "Tatch",
-    "subtitle": "Pirata rival de Tzough",
-    "summary": "Pirata de nave negra, rival de Tzough.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 10"
-    ]
-  },
-  {
-    "slug": "kove",
-    "name": "Kove",
-    "subtitle": "Dale",
-    "summary": "Dale da Lebargan.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulos 8–9"
-    ]
-  },
-  {
-    "slug": "javes",
-    "name": "Javes",
-    "subtitle": "Responsável pelos retiros",
-    "summary": "Responsável pelos retiros dos Dales aposentados.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 3"
-    ]
-  },
-  {
-    "slug": "belice",
-    "name": "Belice",
-    "subtitle": "Dale",
-    "summary": "Dale da Lebargan.",
-    "importance": "Apoio",
-    "sources": [
-      "Capítulo 5"
     ]
   },
   {
