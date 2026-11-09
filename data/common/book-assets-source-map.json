@@ -1728,11 +1728,6 @@
       "sourceSha256": "9806aec923eb510ad64cf9174d5e8127333b959ddc4001e36ec6012f27c17e31"
     },
     {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/brenda.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Brenda.png",
-      "sourceSha256": "38fae09b5aa8412d0b0caaaad619e6a1717235160cec90855c7bf9f6d1495323"
-    },
-    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/breno-lins.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Breno Lins.png",
       "sourceSha256": "62c10cbcfebad0418fb9c7ab948797614a06fb20f7c49e518a0a351ee8d5fc02"
@@ -1758,16 +1753,6 @@
       "sourceSha256": "2a83959f506954b80d7faed6a1ff45aaee501bf0ebe2c23e0fbf3f9b9bd0df74"
     },
     {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/erla-diggs.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Erla Diggs.png",
-      "sourceSha256": "d3dfddf335e8014d6dbd4ada0889b246342f10c5e9e10ed4b584e2f6b022b38d"
-    },
-    {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/eshley-damaris.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Eshley Damaris.png",
-      "sourceSha256": "313a522599a04dae2362443cd08ba72c1e0fe2c9c14fef420c6973fd2fec90e0"
-    },
-    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/faka.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Faka.png",
       "sourceSha256": "02e9fe11510d66cd4f4bc48c3214ecd2cd3daf91086bc5eacb8e31a1a9d567f2"
@@ -1783,24 +1768,9 @@
       "sourceSha256": "d0ea13f00c9f13ff76aa63f67fe4656c74447a19f843d37715a836df3fc17d46"
     },
     {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/ferris-cotton.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Ferris Cotton.png",
-      "sourceSha256": "5e8ed77d2b0bbe2cdc6eb9697463d4baa1fe814ade1471a9583c24207b1260da"
-    },
-    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/gabrielle-lins.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Gabrielle Lins.png",
       "sourceSha256": "bd1d525be4121092e04042d856d08651d4b82c1456ca53ba8f1a058d7bee57dc"
-    },
-    {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/garmand.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Garmand.png",
-      "sourceSha256": "697a408739a6f6c8a565be9222f08681af945f8f3a25d585c8554eedaf02915e"
-    },
-    {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/gary.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Gary.png",
-      "sourceSha256": "bdd9b1ebf3b5b518eea7a9beefac937a0a99e199c4cb5d573cec89abd7fb39ac"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/grande-pai-gaia.webp",
@@ -1823,11 +1793,6 @@
       "sourceSha256": "e1100806aa54e2b1fc938fb7c08b780a58fa3058b3e7eaffe93f0d377cab02e9"
     },
     {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/karol.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Karol.png",
-      "sourceSha256": "19f5e06de130e024939737b87271078f2da8a340f0032d0eeba2418f42188c03"
-    },
-    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/korvo.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Korvo.png",
       "sourceSha256": "9d12c19c34b64d7cfd5511212623f2d640ab8efde3e43407d4a07a478800a24a"
@@ -1841,16 +1806,6 @@
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/laridas-celestes.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Láridas Celestes.png",
       "sourceSha256": "3d8671f80cd01b4b54f74ba780838f4ced44593fc1049a71d2af8b8cb3b31c4b"
-    },
-    {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/leon.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Leon.png",
-      "sourceSha256": "9a1055259a9533fb4fc24d87307e8abee2a945fc76e2be7970c05ebb56e4a2f9"
-    },
-    {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/lucas-veline.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Lucas Veline.png",
-      "sourceSha256": "16e44cd66f2b5201c0d278ab9a438b3ade6b53c202adb30c629a9bdaab5448bc"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/maria-santoro.webp",
@@ -1881,11 +1836,6 @@
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/saliens.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Saliens.png",
       "sourceSha256": "2f4ca0866ef35ba85e5218f6e8755c798e9ebf0a754d046f71d3a99205cd65bb"
-    },
-    {
-      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/seraphina.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Seraphina.png",
-      "sourceSha256": "725d61f27c03e412157978518c108ceac1fd0753a46e748af4de88334543c24f"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/seti.webp",
