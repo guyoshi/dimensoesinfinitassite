@@ -47,7 +47,7 @@
   const SECTIONS = {
     inicio: ['home', 'Início'], livros: ['books', 'Livros'], capitulos: ['chapter', 'Capítulos'],
     'linha-do-tempo': ['timeline', 'Linha do Tempo'], personagens: ['people', 'Personagens'],
-    lugares: ['pin', 'Lugares'], mapa: ['map', 'Mapa'], galeria: ['image', 'Galeria']
+    lugares: ['pin', 'Lugares'], mapa: ['map', 'Mapa'], clas: ['people', 'Clãs'], galeria: ['image', 'Galeria']
   };
   const EMPTY = {
     capitulos: 'Os capítulos deste livro serão listados aqui.',
@@ -55,7 +55,8 @@
     personagens: 'As fichas dos personagens entram aqui em seguida.',
     lugares: 'Os lugares do livro entram aqui em seguida.',
     galeria: 'As imagens do livro aparecem aqui assim que forem adicionadas à pasta de assets.',
-    mapa: 'O mapa ainda está em preparação.'
+    mapa: 'O mapa ainda está em preparação.',
+    clas: 'Os clãs deste livro entram aqui em seguida.'
   };
 
   const A = B.arrays = {
@@ -69,10 +70,10 @@
   const chapterImage = c => (IMG.chapters && (IMG.chapters[c.number] || IMG.chapters[pad(c.number)])) || c.image || null;
   const charImage = c => (IMG.characters && IMG.characters[c.slug]) || c.image || null;
   const placeImage = p => (IMG.places && IMG.places[p.slug]) || p.image || null;
-  const paragraphs = t => String(t || '').split(/\n\s*\n/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join('');
+  const paragraphs = t => (Array.isArray(t) ? t : String(t || '').split(/\n\s*\n/)).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join('');
 
   const state = {
-    q: '', narrator: 'all', sidebar: store.get('di-sidebar-collapsed') === '1',
+    q: '', narrator: 'all', map: null, sidebar: store.get('di-sidebar-collapsed') === '1',
     preset: store.get(KEY + 'preset') || (weak ? 'balanced' : 'full'),
     transitions: store.get(KEY + 'transitions') !== '0',
     lantern: store.get(KEY + 'lantern') === '1'
@@ -232,6 +233,7 @@
       <div class="chnav">${prev ? `<a class="btn" href="#/capitulo/${prev.number}">${icon('back')} Capítulo ${prev.number}</a>` : '<span></span>'}<a class="btn ghost" href="#/capitulos">Todos os capítulos</a>${next ? `<a class="btn" href="#/capitulo/${next.number}">Capítulo ${next.number} ${icon('arrow')}</a>` : '<span></span>'}</div>
       ${head(`${chapLabel(c)} · ${B.book.name}`, c.title, '', chip(c.pov) + (c.status === 'draft' ? '<span class="chip draft-chip">Rascunho</span>' : ''))}
       ${img ? `<figure class="chfig"><img src="${esc(img)}" alt="${esc(c.title)}" data-lightbox></figure>` : ''}
+      ${(c.story || []).length ? `<section class="panel prose story"><h3 class="h-font">O que acontece</h3>${(c.story || []).map(t => `<p>${esc(t)}</p>`).join('')}</section>` : ''}
       <section class="panel prose">${c.summary ? `<h3 class="h-font">Resumo</h3>${paragraphs(c.summary)}${(c.details || []).length ? `<h3 class="h-font small-h">Pontos de atenção</h3><ul class="blist">${c.details.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}` : `<p class="muted">O resumo deste capítulo está em preparação.</p>`}</section>
       ${(chars.length || places.length) ? `<section class="panel"><div class="tagrow">${chars.map(x => `<a class="tag" href="#/personagem/${esc(x.slug)}">${esc(x.name)}</a>`).join('')}${places.map(x => `<a class="tag" href="#/lugar/${esc(x.slug)}">${esc(x.name)}</a>`).join('')}</div></section>` : ''}
     </div>`;
@@ -260,31 +262,99 @@
     if ((x.sources || []).length) secs.push(`<p class="muted srcline">Fontes: ${x.sources.map(esc).join(' · ')}</p>`);
     return secs.join('');
   }
+  const chapterTitle = n => (A.chapters.find(c => String(c.number) === String(n)) || {}).title || '';
+  const factBox = (label, value) => value ? `<div><small>${esc(label)}</small><strong>${esc(value)}</strong></div>` : '';
+  const featBlock = (title, v) => {
+    const list = (Array.isArray(v) ? v : (v ? [v] : [])).filter(Boolean);
+    return list.length ? `<article class="panel feat"><h3 class="h-font small-h">${esc(title)}</h3><ul class="blist">${list.map(t => `<li>${esc(t)}</li>`).join('')}</ul></article>` : '';
+  };
+  function placeSections(x) {
+    const facts = [factBox('Região', x.region), factBox('Localização', x.location), factBox('População estimada', x.population)].filter(Boolean).join('');
+    const feats = [featBlock('Arquitetura e forma', x.architecture), featBlock('Clima e atmosfera', x.atmosphere), featBlock('Recursos', x.resources), featBlock('Perigos', x.dangers), featBlock('Cultura e modo de vida', x.culture)].join('');
+    const scenes = (x.scenes || []).map(sc => {
+      const who = (sc.characters || []).map(sl => A.characters.find(c => c.slug === sl)).filter(Boolean);
+      return `<a class="panel scene" href="#/capitulo/${sc.chapter}"><p class="kicker">Capítulo ${sc.chapter}${sc.relation && sc.relation !== 'ocorre' ? ` · ${esc(sc.relation)}` : ''}</p><h3 class="h-font small-h">${esc(chapterTitle(sc.chapter))}</h3><p>${esc(sc.text)}</p>${who.length ? `<div class="tagrow">${who.map(c => `<span class="tag">${esc(c.name)}</span>`).join('')}</div>` : ''}</a>`;
+    }).join('');
+    const present = [...new Set((x.scenes || []).flatMap(sc => sc.characters || []))].map(sl => A.characters.find(c => c.slug === sl)).filter(Boolean);
+    return `${facts ? `<section class="facts">${facts}</section>` : ''}
+      ${x.narrativeFunction ? `<section class="panel"><h3 class="h-font small-h">Função narrativa</h3><p>${esc(x.narrativeFunction)}</p></section>` : ''}
+      ${feats ? `<section class="featgrid">${feats}</section>` : ''}
+      ${scenes ? `<h3 class="h-font small-h sec-h">Neste lugar, capítulo a capítulo</h3><section class="scenes">${scenes}</section>` : ''}
+      ${present.length ? `<h3 class="h-font small-h sec-h">Personagens presentes</h3><div class="tagrow">${present.map(c => `<a class="tag" href="#/personagem/${esc(c.slug)}">${esc(c.name)}</a>`).join('')}</div>` : ''}`;
+  }
+  function trajectoryHtml(x) {
+    const keys = Object.keys(x.trajectory || {}).map(Number).sort((a, b) => a - b);
+    return `<ol class="traj">${keys.map(n => `<li><a class="traj-ch" href="#/capitulo/${n}"><b>${n}</b><span>${esc(chapterTitle(n))}</span></a><p>${esc(x.trajectory[n])}</p></li>`).join('')}</ol>`;
+  }
+  function appearsHtml(x, apps) {
+    if (x.firstChapter) {
+      const total = written().length;
+      return `<h3 class="h-font small-h">Presença no livro</h3><p class="muted">Primeira aparição: <a class="tag" href="#/capitulo/${x.firstChapter}">Cap. ${x.firstChapter} · ${esc(chapterTitle(x.firstChapter))}</a>${x.chapterCount ? ` · presente em ${x.chapterCount} de ${total} capítulos` : ''}</p>`;
+    }
+    if (x.scenes && x.scenes.length) return '';
+    return apps.length ? `<h3 class="h-font small-h">Aparece em</h3><div class="tagrow">${apps.map(c => `<a class="tag" href="#/capitulo/${c.number}">Cap. ${c.number} · ${esc(c.title)}</a>`).join('')}</div>` : '';
+  }
   function entityPage(list, slug, label, routeBase, getImg, fbIcon) {
     const x = list.find(e => e.slug === slug);
     if (!x) return notFound();
-    const apps = A.chapters.filter(c => (c[routeBase === 'personagem' ? 'characters' : 'places'] || []).includes(x.slug));
+    const isChar = routeBase === 'personagem';
+    const apps = A.chapters.filter(c => (c[isChar ? 'characters' : 'places'] || []).includes(x.slug));
+    const hasTraj = isChar && x.trajectory && Object.keys(x.trajectory).length;
+    const overview = `<div class="prose">${x.summary ? `<p class="lead">${esc(x.summary)}</p>` : ''}${x.description ? paragraphs(x.description) : (x.summary ? '' : '<p class="muted">Ficha em preparação.</p>')}</div>${entityExtra(x)}${appearsHtml(x, apps)}`;
     $('#main').innerHTML = `<div class="page entity">
-      <div class="chnav"><a class="btn ghost" href="#/${routeBase === 'personagem' ? 'personagens' : 'lugares'}">${icon('back')} ${label}</a></div>
+      <div class="chnav"><a class="btn ghost" href="#/${isChar ? 'personagens' : 'lugares'}">${icon('back')} ${label}</a></div>
       <section class="ehero"><figure class="efig">${getImg(x) ? `<img src="${esc(getImg(x))}" alt="${esc(x.name)}" data-lightbox>` : `<span class="fb">${icon(fbIcon)}</span>`}</figure>
-        <div class="etext"><p class="kicker">${esc(x.subtitle || label)}</p><h1 class="h-font">${esc(x.name)}</h1>${x.pov ? chip(x.pov) : ''}${entityMeta(x)}<div class="prose">${x.summary ? `<p class="lead">${esc(x.summary)}</p>` : ''}${x.description ? paragraphs(x.description) : (x.summary ? '' : '<p class="muted">Ficha em preparação.</p>')}</div>
-        ${entityExtra(x)}
-        ${apps.length ? `<h3 class="h-font small-h">Aparece em</h3><div class="tagrow">${apps.map(c => `<a class="tag" href="#/capitulo/${c.number}">Cap. ${c.number} · ${esc(c.title)}</a>`).join('')}</div>` : ''}</div></section></div>`;
-    crumb([[label, `#/${routeBase === 'personagem' ? 'personagens' : 'lugares'}`], [x.name]]);
+        <div class="etext"><p class="kicker">${esc(x.subtitle || label)}</p><h1 class="h-font">${esc(x.name)}</h1>${x.pov ? chip(x.pov) : ''}${entityMeta(x)}
+          ${hasTraj ? `<div class="etabs" role="tablist"><button class="etab on" role="tab" data-tab="geral">Visão geral</button><button class="etab" role="tab" data-tab="traj">Trajetória por capítulo</button></div><div id="etabBody">${overview}</div>` : overview}
+        </div></section>
+      ${!isChar ? placeSections(x) : ''}</div>`;
+    crumb([[label, `#/${isChar ? 'personagens' : 'lugares'}`], [x.name]]);
     $$('[data-lightbox]').forEach(el => el.addEventListener('click', () => lightbox([{ src: getImg(x), title: x.name }], 0)));
+    if (hasTraj) $$('.etab').forEach(b => b.addEventListener('click', () => {
+      $$('.etab').forEach(t => t.classList.toggle('on', t === b));
+      $('#etabBody').innerHTML = b.dataset.tab === 'traj' ? trajectoryHtml(x) : overview;
+      FX()?.afterRender?.();
+    }));
   }
 
   function pageTimeline() {
     const t = A.timeline;
-    $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Linha do Tempo', t.length ? `${t.length} acontecimentos.` : '')}${t.length ? `<ol class="tl">${t.map(e => `<li class="tl-item"><span class="tl-date">${esc(e.date || '')}</span><div class="panel"><h3 class="h-font">${esc(e.title)}</h3>${e.summary ? `<p>${esc(e.summary)}</p>` : ''}${(e.chapters || []).length ? `<div class="tagrow">${e.chapters.map(n => `<a class="tag" href="#/capitulo/${n}">Cap. ${n}</a>`).join('')}</div>` : ''}</div></li>`).join('')}</ol>` : empty('linha-do-tempo')}</div>`;
+    const li = e => {
+      const more = (e.context || e.cause || (e.consequences || []).length)
+        ? `<details class="tl-more"><summary>Contexto e consequências</summary>${e.context ? `<p>${esc(e.context)}</p>` : ''}${e.cause ? `<p><b>Causa:</b> ${esc(e.cause)}</p>` : ''}${(e.consequences || []).length ? `<ul class="blist">${e.consequences.map(c => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}</details>` : '';
+      return `<li class="tl-item"><span class="tl-date">${esc(e.date || '')}${e.category ? ` · ${esc(e.category)}` : ''}</span><div class="panel"><h3 class="h-font">${esc(e.title)}</h3>${e.summary ? `<p>${esc(e.summary)}</p>` : ''}${more}${(e.chapters || []).length ? `<div class="tagrow">${e.chapters.map(n => `<a class="tag" href="#/capitulo/${n}">Cap. ${n}</a>`).join('')}</div>` : ''}</div></li>`;
+    };
+    $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Linha do Tempo', t.length ? `${t.length} acontecimentos.` : '')}${t.length ? `<ol class="tl">${t.map(li).join('')}</ol>` : empty('linha-do-tempo')}</div>`;
     crumb([['Linha do Tempo']]);
   }
 
   function pageMapa() {
+    if (Array.isArray(B.maps) && B.maps.length) return pageMapas();
     const m = B.map;
     $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Mapa', m?.caption || '')}${m && (IMG.map || m.image) ? `<figure class="mapfig"><img src="${esc(IMG.map || m.image)}" alt="Mapa" data-lightbox></figure>` : empty('mapa')}</div>`;
     crumb([['Mapa']]);
     $$('[data-lightbox]').forEach(el => el.addEventListener('click', () => lightbox([{ src: IMG.map || m.image, title: 'Mapa' }], 0)));
+  }
+  function pageMapas() {
+    const maps = B.maps; let cur = Math.max(0, maps.findIndex(m => m.id === state.map));
+    const draw = () => {
+      const m = maps[cur]; state.map = m.id;
+      const pins = (m.pins || []).map(p => ({ p, pl: A.places.find(x => x.slug === p.place) })).filter(o => o.pl);
+      $('#mapBody').innerHTML = `<p class="muted mapdesc">${esc(m.description || '')}</p>
+        ${(m.context || []).length ? `<div class="tagrow ctx-chips">${m.context.map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>` : ''}
+        <div class="mapstage" style="aspect-ratio:${esc((m.ratio || '1450 / 1024'))}"><img src="${esc(m.image)}" alt="${esc(m.title)}">
+          ${pins.map(({ p, pl }) => `<a class="pin ${p.major ? 'major' : ''} k-${esc(p.kind || 'place')}" href="#/lugar/${esc(pl.slug)}" style="left:${p.x}%;top:${p.y}%" aria-label="${esc(pl.name)}"><i></i><span>${esc(pl.name)}</span></a>`).join('')}</div>
+        <div class="maplegend">${pins.map(({ pl }) => `<a class="tag" href="#/lugar/${esc(pl.slug)}">${esc(pl.name)}</a>`).join('')}</div>`;
+      $$('.maptab').forEach((b, i) => b.classList.toggle('on', i === cur));
+    };
+    $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Mapa', B.mapText || '')}<div class="chips maptabs">${maps.map((m, i) => `<button class="fchip maptab" data-i="${i}">${esc(m.shortTitle || m.title)}</button>`).join('')}</div><div id="mapBody"></div></div>`;
+    $$('.maptab').forEach(b => b.addEventListener('click', () => { cur = Number(b.dataset.i); draw(); }));
+    draw(); crumb([['Mapa']]);
+  }
+  function pageClas() {
+    const list = B.clans || [];
+    $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Clãs', list.length ? `${list.length} clãs.` : '')}${list.length ? `<div class="clangrid">${list.map(c => `<article class="panel clan"><div class="clanhead">${c.emblem ? `<img src="${esc(c.emblem)}" alt="Emblema de ${esc(c.name)}" loading="lazy">` : ''}<div><h3 class="h-font">${esc(c.name)}</h3>${c.subtitle ? `<p class="muted small">${esc(c.subtitle)}</p>` : ''}</div></div>${c.summary ? `<p>${esc(c.summary)}</p>` : ''}${(c.members || []).length ? `<div class="tagrow">${c.members.map(sl => { const ch = A.characters.find(x => x.slug === sl); return ch ? `<a class="tag" href="#/personagem/${esc(ch.slug)}">${esc(ch.name)}</a>` : ''; }).join('')}</div>` : ''}</article>`).join('')}</div>` : empty('clas')}</div>`;
+    crumb([['Clãs']]);
   }
 
   function pageGaleria() {
@@ -324,7 +394,8 @@
       const r = [
         ...A.chapters.filter(c => norm(c.title).includes(q) || norm(c.pov).includes(q)).map(c => [`Capítulo ${c.number} · ${c.title}`, `#/capitulo/${c.number}`, 'Capítulo']),
         ...A.characters.filter(c => norm(c.name).includes(q)).map(c => [c.name, `#/personagem/${c.slug}`, 'Personagem']),
-        ...A.places.filter(c => norm(c.name).includes(q)).map(c => [c.name, `#/lugar/${c.slug}`, 'Lugar'])
+        ...A.places.filter(c => norm(c.name).includes(q)).map(c => [c.name, `#/lugar/${c.slug}`, 'Lugar']),
+        ...A.timeline.filter(c => norm(c.title).includes(q)).map(c => [c.title, '#/linha-do-tempo', 'Linha do Tempo'])
       ].slice(0, 30);
       $('#sres').innerHTML = r.length ? r.map(([t, h, k]) => `<a href="${h}" data-close><strong>${esc(t)}</strong><small>${k}</small></a>`).join('') : '<p class="muted">Nada encontrado.</p>';
     });
@@ -340,10 +411,12 @@
       <p class="muted">Preferências guardadas só neste navegador.</p>
       <div class="seg">${presets.map(([k, l]) => `<button class="fchip ${state.preset === k ? 'on' : ''}" data-preset="${k}">${l}</button>`).join('')}</div>
       <label class="setrow"><span><strong>Transições entre páginas</strong><small>${esc(B.book.transitionLabel || 'Efeito ao trocar de página')}</small></span><input type="checkbox" id="optTr" ${state.transitions ? 'checked' : ''}></label>
+      ${FX()?.settingsHtml?.() || ''}
       ${B.book.lanternOption ? `<label class="setrow"><span><strong>Lanterna</strong><small>O escuro cobre a tela e a luz segue o cursor.</small></span><input type="checkbox" id="optLa" ${state.lantern ? 'checked' : ''}></label>` : ''}`);
     $$('[data-preset]').forEach(b => b.addEventListener('click', () => { state.preset = b.dataset.preset; saveSettings(); openSettings(); }));
     $('#optTr').addEventListener('change', e => { state.transitions = e.target.checked; saveSettings(); });
     $('#optLa')?.addEventListener('change', e => { state.lantern = e.target.checked; saveSettings(); });
+    FX()?.bindSettings?.($('#modalPanel'));
   }
 
   /* ---------- rota ---------- */
@@ -364,6 +437,7 @@
         case 'lugares': state.q = ''; simpleGrid('lugares', 'Lugares', A.places, placeImage, 'lugar', 'pin'); break;
         case 'lugar': entityPage(A.places, arg, 'Lugares', 'lugar', placeImage, 'pin'); break;
         case 'mapa': pageMapa(); break;
+        case 'clas': pageClas(); break;
         case 'galeria': pageGaleria(); break;
         default: notFound();
       }
@@ -381,6 +455,7 @@
   function closeSidebar() { $('#sb')?.classList.remove('open'); $('#sbBackdrop')?.classList.remove('open'); }
 
   function contemplate(on) {
+    if (FX()?.ownsContemplate?.()) { FX().contemplate(on); return; }
     document.body.classList.toggle('contemplating', on);
     $('#contemplate').setAttribute('aria-hidden', String(!on));
     FX()?.contemplate?.(on);

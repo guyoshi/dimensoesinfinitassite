@@ -1,12 +1,550 @@
-(() => {
-  'use strict';
-  const X=window.JESED_RUINAS_CONTEXT;if(!X)return;const {C,D,R,BOOK_ID,chapterId}=X;
-  const items=C.asArray(D.chapters).map(item=>{
-    const number=Number(item.n??item.number),title=C.text(item.t??item.title),slug=C.stableSlug(item.slug,`capitulo-${number}`);
-    Object.assign(item,{id:item.id||chapterId(number),slug,number,title,summary:C.text(item.s??item.summary),image:item.image||item.img||null});
-    return {...item,name:`Capítulo ${number} — ${title}`,
-      characterIds:C.asArray(D.characters).filter(c=>C.asArray(R.AP[c.n??c.name]).includes(number)).map(c=>c.id||C.stableId(null,'character',c.n??c.name,BOOK_ID)),
-      placeIds:C.asArray(item.placeIds),route:`capitulo/${number}`,sourceRef:item};
-  });
-  C.setCollection(BOOK_ID,'chapters',items);
-})();
+/* Convertido de Ruínas dos Céus (motor antigo). */
+window.DI_BOOK = window.DI_BOOK || {};
+window.DI_BOOK.chapters = [
+  {
+    "number": 1,
+    "title": "O Sopro de Etérea",
+    "summary": "A história começa em Etérea, um reino de ilhas flutuantes onde o povo eterí vive em paz, moldado pelo Sopro e respeitando o ciclo da vida e da morte. Jokara percebe os primeiros sinais de que algo está errado com as ilhas.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "efepar",
+      "mirel-amarea",
+      "yoral",
+      "yrsea"
+    ],
+    "places": [
+      "eterea",
+      "nivellia",
+      "ilha-da-memoria",
+      "erilan",
+      "ilha-dos-pequenos"
+    ],
+    "story": [
+      "A história apresenta Etérea, um conjunto de ilhas suspensas onde os eterís vivem segundo as Correntes, os rituais e a crença de que cada vida é um Sopro temporariamente emprestado pelo vento. Ainda criança, Jokara acompanha o pai, Yoral, até a Ilha da Memória e escuta dele que mentiras, mágoas e ego podem tornar um Sopro pesado demais. Yoral também fala sobre o ciclo da vida, sobre o retorno ao vento e sobre a necessidade de preservar aquilo que continuará depois deles. A conversa estabelece a relação entre pai e filha e antecipa, sem que Jokara compreenda, a ameaça que já existia sobre as ilhas.",
+      "Dez ciclos depois, Yoral está morto e Jokara continua visitando o lugar onde costumava estar com ele. Ela se sente incompleta, distante dos rituais e incapaz de ouvir nos sinos a mesma harmonia que os outros parecem escutar. Durante a visita, pequenas pedras caem da base de Erílan, algo que não deveria acontecer. No caminho de volta, Jokara encontra um nuari desorientado, abate a ave para alimentar a família e depois descobre os filhotes que ficaram sem a mãe, carregando a culpa da escolha. À noite, ela veste um antigo manto e participa escondida da Procissão do Sopro Brando. Enquanto as velas desaparecem no céu, o capítulo encerra com o primeiro sinal de que Etérea já começou a se partir."
+    ]
+  },
+  {
+    "number": 2,
+    "title": "A Criança do Vazio",
+    "summary": "O Primeiro Voo de Jokara fracassa quando uma rajada desestabiliza seu planador. Efepar a salva e, mais tarde, o grupo encontra um menino misterioso e silencioso nos Bosques de Arion.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "loutes",
+      "efepar",
+      "mirel-amarea",
+      "sersi",
+      "yoral"
+    ],
+    "places": [
+      "planalto-de-talyen",
+      "bosques-de-arion"
+    ],
+    "story": [
+      "Jokara tenta realizar o Primeiro Voo, rito que marca a passagem dos jovens eterís e lhes permite escolher um nome de vento e usar as pinturas sagradas. No planalto de Talyen, ela salta com um planador ligado à Corrente de Arion e, por alguns instantes, experimenta a liberdade que sempre desejou. Uma rajada contrária desestabiliza a estrutura, porém, e Jokara perde o controle. Efepar mergulha atrás dela, corrige o eixo do planador e impede que a amiga morra. O pouso seguro não apaga a humilhação: Jokara falhou diante de todos e terá de esperar outra espiral para tentar novamente.",
+      "Em casa, Jokara rejeita o consolo de Mirel e entra em conflito com Nestira, que tenta explicar que o silêncio também pode ser uma forma de resposta do vento. Efepar e a curandeira Sersi conseguem tirá-la do isolamento e a levam aos Bosques de Arion. Durante o caminho, o vento se comporta de maneira estranha, obrigando o grupo a seguir uma rota alternativa. É ali que encontram um menino desconhecido, imóvel e completamente silencioso, como se não pertencesse àquele lugar. Sersi percebe que ele está vivo e consciente, mas “deslocado” de tudo ao redor. Nestira decide acolhê-lo, enquanto Jokara sente que a chegada daquela criança representa algo que Etérea ainda não consegue compreender."
+    ]
+  },
+  {
+    "number": 3,
+    "title": "O Ritual da Semente",
+    "summary": "A família Amaréa acolhe o menino e tenta compreender sua origem. Durante o Ritual da Semente do Vento, ele recebe o nome Loutes e pronuncia sua primeira palavra.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "loutes",
+      "efepar",
+      "mirel-amarea",
+      "sersi",
+      "yrsea",
+      "platisa"
+    ],
+    "places": [
+      "nivellia",
+      "praca-da-raiz"
+    ],
+    "story": [
+      "O menino passa a viver na casa dos Amaréa, mas não diz o próprio nome, não explica de onde veio e reage às pessoas como se precisasse aprender o significado de cada gesto. Mirel e Sersi tentam compreender seu silêncio, enquanto Jokara observa que ele não parece vazio, apenas preso em algum lugar que os outros não alcançam. A família o leva até Yrisea, a Oradora mais velha de Nivelia. Ao consultar o Verbo da Corrente, Yrisea encontra uma passagem sobre uma “semente sem raiz” e conclui que o menino precisa receber um nome para ser reconhecido pelo mundo e pelas Correntes.",
+      "Jokara se dedica a ensinar palavras, objetos, sons e hábitos ao garoto, criando com ele um vínculo que cresce sem depender de explicações. Aos poucos, ele começa a imitar sons, aceitar aproximações e demonstrar pequenas emoções. Durante o Ritual da Semente do Vento, Platisa, uma jovem Ecoante, escuta o silêncio da criança e lhe dá o nome de Loutes, palavra antiga que significa “aquele que ouve mesmo quando tudo silencia”. Diante da comunidade, o menino sorri e pronuncia o próprio nome pela primeira vez. O momento parece representar um novo começo, mas o narrador revela que Loutes foi a última semente nomeada antes do cataclisma que destruiria Etérea."
+    ]
+  },
+  {
+    "number": 4,
+    "title": "A Mulher de um Olho",
+    "summary": "Durante as celebrações de Etérea, Taliver suspeita que Loutes possa ter vindo da superfície. Jokara presencia o julgamento de Yndra, que anuncia a queda dos céus antes de ser exilada.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "mirel-amarea",
+      "yndra",
+      "yoral",
+      "yrsea",
+      "professor-talver"
+    ],
+    "places": [
+      "eterea",
+      "ilhas-baixas"
+    ],
+    "story": [
+      "Durante uma celebração do Sopro Brando, Jokara apresenta Loutes a diferentes partes da vida eterí. Eles observam Mariv consertando uma vintela e visitam o Professor Taliver, pesquisador e antigo amigo de Yoral. Ao ouvir Loutes pronunciar algo semelhante a “esparra”, Taliver reconhece uma palavra antiga relacionada a Nadirion, a superfície proibida onde, segundo as crenças, o Sopro não sobe. A possibilidade de o menino ter vindo de baixo desafia toda a história conhecida de Etérea. Antes de Jokara partir, Taliver lhe entrega o planador de Yoral e a incentiva a tentar voar novamente, reacendendo nela a dor pela morte do pai.",
+      "Mais tarde, Jokara acompanha um Círculo do Peso no qual Yndra, uma mulher de um olho só, é acusada de invadir áreas sagradas e espalhar ideias perigosas. Em vez de pedir perdão, Yndra denuncia a cegueira dos eterís e anuncia que os ventos descansarão, a luz será escondida, a harmonia será quebrada e os filhos do céu serão engolidos pelo que nunca quiseram enxergar. Como nenhuma brisa atravessa o círculo, os Oradores interpretam o silêncio como condenação e a enviam para o exílio. Ao passar por Jokara, Yndra afirma que os outros são os verdadeiros cegos. A profecia permanece na mente da jovem e transforma os sinais estranhos das ilhas em uma ameaça impossível de ignorar."
+    ]
+  },
+  {
+    "number": 5,
+    "title": "A Nuvem",
+    "summary": "Os ventos tornam-se erráticos e uma nuvem cinzenta aproxima-se de Etérea. Jokara relaciona os sinais às palavras de Yndra e descobre que os Oradores escondem informações sobre os Bosques de Arion.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "loutes",
+      "efepar",
+      "mirel-amarea",
+      "yndra",
+      "yrsea",
+      "professor-talver"
+    ],
+    "places": [
+      "nivellia",
+      "bosques-de-arion"
+    ],
+    "story": [
+      "Os ventos de Etérea começam a atrasar, mudar de direção e cessar em momentos nos quais deveriam soprar. Os Oradores tratam o desequilíbrio como parte dos ciclos naturais, mas Jokara sente que há uma contenção no ar. Ainda perturbada pelas palavras de Yndra, ela sai para caçar nuaris e encontra Efepar. Os dois conversam sobre a profecia, sobre o desaparecimento do pai de Jokara e sobre a possibilidade de existirem verdades escondidas pelos responsáveis pela fé eterí. A conversa termina quando uma nuvem cinzenta, densa e diferente de qualquer formação conhecida, avança contra as ilhas.",
+      "Os sinos tocam em alarme e a população responde com cantos, jejuns e rituais, como se a devoção pudesse restaurar a ordem. A nuvem atravessa Etérea e depois se dispersa, sem provocar a destruição que todos temiam, mas deixa a sensação de que algo observou as ilhas de perto. Jokara pergunta a Mirel por que Yndra foi julgada e descobre que ela invadiu os Limos de Arion, local onde o vento teria permanecido imóvel por três dias — a mesma região onde Loutes apareceu. Mirel insiste que algumas coisas não devem ser conhecidas. Naquela noite, novas pedras batem contra a janela de Jokara, confirmando que, mesmo após a nuvem partir, o mundo continua se desfazendo."
+    ]
+  },
+  {
+    "number": 6,
+    "title": "O Círculo de Nhamari",
+    "summary": "Jokara e Loutes entram numa caverna proibida e encontram imagens que mostram o passado e a destruição futura de Etérea. Um tremor prende Jokara sob uma pedra e obriga Loutes a buscar ajuda.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "loutes",
+      "yndra",
+      "liri"
+    ],
+    "places": [
+      "circulo-de-nhamari"
+    ],
+    "story": [
+      "Jokara tenta alcançar os Limos de Arion para descobrir o que Yndra encontrou, mas o caminho está ocupado por Oradores e protegido por rituais. Impedida de continuar, ela volta para casa e recebe a visita de Liri, uma criança que pede a história do Menino que Pesava. No conto, um garoto afunda sob o peso de uma mentira até confessar a verdade. A reação de Liri faz Jokara perceber como a cultura eterí ensina as crianças a temer qualquer sentimento considerado pesado, mesmo quando ele nasce de medo, culpa ou dúvida legítima.",
+      "À noite, Jokara leva Loutes por rotas pouco iluminadas até o Círculo de Nhamari. Quando os guardiões se afastam, os dois entram em uma passagem escondida e descobrem uma caverna cheia de objetos antigos, inscrições e um livro ilustrado. As imagens parecem registrar acontecimentos que já ocorreram e outros que ainda não aconteceram: nuaris desorientados, a nuvem cinzenta, Yndra, a lua escura e Etérea se partindo. Antes que Jokara consiga compreender a origem do livro, a caverna treme. Uma pedra cai sobre sua perna e a prende no chão. Assustado, Loutes foge para buscar ajuda, enquanto Jokara permanece sozinha, ferida e cercada pelas imagens do futuro que tentou revelar."
+    ]
+  },
+  {
+    "number": 7,
+    "title": "A Revelação na Praça da Raiz",
+    "summary": "Jokara desperta sem a perna esquerda e tenta alertar o povo sobre a queda. Acusada de espalhar Peso, ela vê uma ilha desabar e ouve Loutes dizer que ninguém irá escutá-la.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "loutes",
+      "efepar",
+      "mirel-amarea",
+      "sersi",
+      "liri"
+    ],
+    "places": [
+      "erilan",
+      "praca-da-raiz",
+      "estacao-da-leveza"
+    ],
+    "story": [
+      "Loutes consegue alertar Sersi, Mirel e Nestira, que encontram Jokara e a levam à Estação da Leveza. Ao despertar, ela conta a Nestira e Efepar sobre o livro e insiste que Etérea está se partindo. Nestira reage com medo e raiva, acreditando que a invasão do lugar sagrado criou ainda mais Peso. Quando Jokara tenta se levantar, descobre que sua perna esquerda precisou ser amputada para impedir que os ferimentos a matassem. A perda destrói a imagem que ela tinha de si mesma: em desespero, Jokara afirma que preferia ter morrido inteira a sobreviver daquela forma.",
+      "Durante a recuperação, ela se fecha nos livros e encontra indícios de que a história oficial das ilhas pode estar incompleta. Liri a visita e diz que as heroínas das histórias sempre perdem alguma coisa antes de encontrar outra, oferecendo uma esperança simples que os adultos não conseguem dar. Naquela noite, Jokara vê uma ilha distante se romper e cair silenciosamente no vazio. Convencida de que não pode continuar calada, pede a Nestira que a leve à Praça da Raiz e denuncia diante do povo a destruição iminente e o silêncio dos Oradores. A população a acusa de loucura e de espalhar Peso. Quando as irmãs são retiradas da praça, Loutes fala uma frase completa pela primeira vez: “Eles não vão te ouvir.”"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "O Último Sinal",
+    "summary": "Taliver confirma que Etérea pode estar descendo e a lua desaparece. Jokara tenta reunir provas, mas um novo tremor abre a ilha diante dela, Efepar e Maletar.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "loutes",
+      "efepar",
+      "mirel-amarea",
+      "sersi",
+      "yndra",
+      "professor-talver",
+      "malthar"
+    ],
+    "places": [
+      "eterea",
+      "nivellia",
+      "ilha-da-memoria"
+    ],
+    "story": [
+      "Depois da denúncia pública, Mirel avisa que já não consegue proteger Jokara: para os Oradores, ela se tornou uma ameaça à harmonia de Etérea. Isolada e desacreditada, Jokara recebe a visita do Professor Taliver, que traz observações concretas. Ele também viu uma ilha se desprender, percebeu mudanças na pressão do ar e notou que objetos estão caindo de forma diferente. A partir dessas evidências, chega a uma conclusão assustadora: as ilhas talvez não estejam apenas quebrando, mas descendo lentamente em direção a uma superfície real.",
+      "Jokara e Taliver percebem que a lua desapareceu do céu, repetindo o sinal mostrado no livro e anunciado por Yndra. Efepar tenta afastar Jokara do isolamento e a leva até a Ilha da Memória. Durante a caminhada, ela conta tudo o que sabe e pede que ele a ajude a provar a verdade. Efepar quer acreditar nela, mas ainda procura uma explicação menos terrível. A dúvida termina quando um tremor abre uma fenda diante dos dois e uma parte da encosta desaba. Efepar salva Jokara por pouco. Maletar, um teceltro que conhece a estrutura das ilhas, presencia a ruptura e entende, pelo comportamento das fundações, que o colapso finalmente começou."
+    ]
+  },
+  {
+    "number": 9,
+    "title": "O Cataclisma",
+    "summary": "Etérea se parte. Jokara perde Mirel, Efepar, Taliver, Nestira e Loutes durante a fuga, salta com o planador e cai na superfície enquanto as ilhas desaparecem no vazio.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "loutes",
+      "efepar",
+      "mirel-amarea",
+      "yoral",
+      "professor-talver",
+      "liri",
+      "malthar"
+    ],
+    "places": [
+      "eterea",
+      "nivellia"
+    ],
+    "story": [
+      "Com as ilhas tremendo e as passagens se rompendo, Jokara, Efepar e Maletar tentam chegar a Nivelia. No caminho, Oradores tentam detê-los e impedir que Jokara espalhe pânico. Quando um deles a toca com o bastão, Efepar e Maletar reagem fisicamente, quebrando um tabu central da sociedade eterí. Não há mais tempo para julgamento: pontes cedem, raízes se partem e regiões inteiras desaparecem no vazio. Jokara encontra Nestira em choque, ainda presa à crença de que a fé poderá salvá-los. A irmã revela que Mirel estava no mercado quando o local desabou, obrigando Jokara a aceitar que a mãe também morreu.",
+      "Os sobreviventes correm até a casa de Taliver, onde descobrem que o planador disponível não suporta todos. O professor decide ficar e pede que eles levem adiante o que restou de Etérea. No caminho até Talyen, Jokara vê Efepar e os pais dele serem esmagados por fragmentos das ilhas. Já no planalto, Nestira encontra Liri e tenta salvá-la, mas as duas caem. Jokara salta com Loutes e, sem vento para sustentá-los, transforma a própria queda em luta. Enquanto Etérea se desfaz ao redor, uma pedra atinge o planador e Loutes escapa de sua mão. Sozinha, Jokara atravessa as nuvens, avista uma floresta e um lago gigantescos e cai violentamente na água de Nadirion."
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Nadirion",
+    "summary": "Jokara desperta numa floresta desconhecida e reencontra Loutes. Sem os ventos de Etérea, os dois atravessam água, lama e criaturas perigosas até conseguirem acender o primeiro fogo.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "loutes"
+    ],
+    "places": [
+      "nadirion",
+      "floresta-de-nadirion"
+    ],
+    "story": [
+      "Jokara desperta na margem do lago, ferida, exausta e cercada por uma natureza completamente diferente da leveza de Etérea. Para sua surpresa, Loutes também sobreviveu e aparece para ajudá-la. A alegria do reencontro dura pouco: a floresta está marcada pelos fragmentos que caíram do céu, e sons desconhecidos revelam que os dois não estão sozinhos. Jokara improvisa um bastão para compensar a ausência da perna e tenta encontrar abrigo enquanto começa a compreender que nenhum ritual os preparou para aquele lugar.",
+      "Durante a fuga, eles encontram ossos, restos de corpos e a fera de olhos amarelos que mais tarde seria reconhecida com um nome próprio. A criatura observa, persegue e ataca com uma paciência diferente dos animais de Etérea. Jokara e Loutes escapam por passagens estreitas, atravessam um rio escuro e quase são engolidos pelo lodo da margem. Ao se abrigarem dentro de uma árvore colossal, encontram uma criatura longa e segmentada, obrigando-os a fugir novamente. Sem alimento seguro, sem proteção e sem conhecimento da floresta, Jokara percebe que o fogo será sua primeira defesa. Com a ajuda silenciosa de Loutes, consegue acender uma chama e encerra o primeiro dia em Nadirion sabendo que sobreviver exigirá que ela abandone tudo o que esperava do vento."
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Sobrevivência na Superfície",
+    "summary": "Jokara e Loutes aprendem a caçar, filtrar água e construir abrigo. Os destroços e corpos de Etérea aprofundam o luto, enquanto a floresta revela perigos que os antigos rituais não conseguem resolver.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "loutes"
+    ],
+    "places": [
+      "primeiro-abrigo",
+      "floresta-de-nadirion"
+    ],
+    "story": [
+      "Jokara e Loutes passam vários sopros aprendendo a sobreviver na superfície. Ela fabrica uma lança, tenta pescar, procura frutas e improvisa maneiras de filtrar a água. Loutes é mordido por um pequeno animal e depois adoece ao beber demais de um riacho com cheiro metálico, obrigando Jokara a cuidar dele sem o auxílio das curandeiras de Etérea. A presença da fera continua próxima, e cada ruído da mata pode significar fome, veneno ou ataque. Entre uma tentativa e outra, Jokara encontra panelas, sinos, tecidos e outros destroços das ilhas, transformando a busca por recursos numa sucessão de lembranças dolorosas.",
+      "A esperança de encontrar sobreviventes diminui quando ela passa a descobrir corpos eterís espalhados pela floresta. Nos restos de uma casa suspensa, encontra Darel e os pais mortos, canta por eles e recolhe uma adaga e alimentos preservados. Uma tempestade destrói o primeiro abrigo construído por Jokara e Loutes, mas os dois recomeçam. Jokara aprende a conservar a chama, usa o fogo contra insetos e transforma pequenas vitórias em método. Quando uma armadilha é destruída e seu nome parece ser sussurrado entre as árvores, ela começa a desconfiar que há alguém observando. Pegadas humanas encontradas no barro confirmam que outros sobreviventes — ou outra ameaça — caminham pela mesma região."
+    ]
+  },
+  {
+    "number": 12,
+    "title": "Esperanças e Cinzas",
+    "summary": "A adaptação continua entre fome e medo. Jokara encontra um homem num riacho, surgindo a primeira esperança concreta de que outros eterí tenham sobrevivido à Queda.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "marv",
+      "loutes",
+      "gabasteres"
+    ],
+    "places": [
+      "primeiro-abrigo",
+      "riacho-de-nadirion"
+    ],
+    "story": [
+      "Seguindo sons de água durante uma caçada, Jokara encontra um homem nu nadando em um riacho. Ele se apresenta como Gabasteri e demonstra alívio ao descobrir que existem outros eterís vivos. Emocionada pela possibilidade de reconstruir algum tipo de comunidade, Jokara conta sobre a queda, sobre Loutes e sobre os dias de sobrevivência. Gabasteri percebe imediatamente a amputação dela e fala sobre força, autonomia e a necessidade de não depender de ninguém. Ainda assim, aceita conhecer o abrigo. Loutes reage à presença do desconhecido com uma desconfiança silenciosa que Jokara interpreta apenas como dificuldade de adaptação.",
+      "Gabasteri come parte das poucas reservas dos dois e depois afirma que partirá para não se tornar um peso. Jokara tenta convencê-lo a ficar, mas ele desaparece na floresta. Durante a noite, o abrigo pega fogo e as chamas se espalham rápido demais para parecerem acidentais. Jokara e Loutes escapam, porém perdem tudo o que construíram. Diante das cinzas, ela pensa em desistir e teme estar se tornando um Vazio, alguém sem direção ou esperança. Loutes retorna carregando comida que conseguiu sozinho, mostrando que também aprendeu a lutar pela vida. Inspirada pelo menino, Jokara reacende o fogo e promete que não esperará mais que o vento a salve: sempre que o mundo apagar sua chama, ela a acenderá outra vez."
+    ]
+  },
+  {
+    "number": 13,
+    "title": "As Asas de Xar",
+    "summary": "Pesadelos fazem Jokara reviver o Cataclisma. Novos sobreviventes começam a reunir-se, mas as diferenças entre eles mostram que sobreviver não significa reconstruir Etérea da mesma forma.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "sersi",
+      "malthar",
+      "gabasteres"
+    ],
+    "places": [
+      "floresta-de-nadirion"
+    ],
+    "story": [
+      "Depois de um pesadelo que reúne a queda de Etérea, a morte da família e os ataques da superfície, Jokara deixa com Loutes o lugar destruído pelo incêndio. Os dois atravessam lama, frio e fome, recolhendo ovos e qualquer alimento que consigam encontrar. Em uma disputa com um animal selvagem, Jokara percebe que já não reage apenas como presa: começa a usar o terreno, a lança e a própria agressividade para garantir que ambos continuem vivos. O caminho os leva até uma cachoeira e uma lagoa de águas claras, o primeiro lugar belo que encontram em Nadirion.",
+      "Enquanto se banham, Jokara ouve uma canção que Mirel cantava e segue a voz até encontrar Nestira, viva, lavando roupas junto à água. O reencontro das irmãs é marcado por alívio, culpa e luto. Nestira conta que não conseguiu salvar Liri e apresenta Mariv, que sobreviveu graças à ajuda dela. Mariv acredita que a queda pode ter um propósito e que os sobreviventes precisam aprender com os erros de Etérea, enquanto Jokara ainda rejeita qualquer explicação capaz de justificar tantas mortes. Mesmo assim, ela consola Nestira e reconhece que sobreviver não é o mesmo que falhar. À noite, Loutes surpreende Jokara ao dizer “boa noite”, mostrando que sua voz continua surgindo nos momentos em que ela mais precisa de uma ligação com o que restou."
+    ]
+  },
+  {
+    "number": 14,
+    "title": "Reencontro",
+    "summary": "A chuva força o grupo a reforçar o abrigo. Jokara enfrenta novamente a criatura aquática e o reencontro com sobreviventes amplia tanto a esperança quanto as tensões internas.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "sersi",
+      "malthar",
+      "gabasteres"
+    ],
+    "places": [
+      "riacho-de-nadirion"
+    ],
+    "story": [
+      "A chuva prende Jokara, Nestira, Mariv e Loutes no mesmo abrigo, obrigando-os a aprender a funcionar como grupo. Jokara enfrenta novamente uma criatura aquática de escamas negras e consegue afastá-la para garantir os peixes, transformando a pesca em uma afirmação de que a superfície não decidirá todas as vezes quem come e quem foge. Em outra busca por alimento, ela conversa com Mariv sobre a fé de Nestira, a morte de Liri e a ideia de que o sofrimento possa ter significado. Mariv não oferece respostas prontas, mas insiste que sobreviver só terá valor se eles construírem algo diferente daquilo que caiu.",
+      "Gabasteri reaparece de maneira inesperada e aceita se juntar ao grupo. Jokara o recebe com alívio, Nestira interpreta o reencontro como ação dos ventos, mas Mariv e Loutes permanecem desconfiados. Gabasteri começa a ocupar naturalmente o centro das decisões: ensina maneiras de proteger o fogo, organiza tarefas e encontra um ninho de ovos que permite ao grupo comer melhor. Sua ajuda parece confirmar que a união é necessária, embora suas falas revelem uma visão na qual alguém sempre precisa comandar e os mais frágeis precisam obedecer. A noite termina quando um grito feminino atravessa a floresta, levando o grupo a correr em direção a uma nova sobrevivente."
+    ]
+  },
+  {
+    "number": 15,
+    "title": "A Ecoante e as Aranitas",
+    "summary": "O grupo encontra Platisa fugindo de um enxame de Aranitas. A chegada da Ecoante oferece conhecimento sobre a superfície e introduz uma voz que resiste à lógica de força crescente.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "platisa",
+      "gabasteres"
+    ],
+    "places": [
+      "primeiro-abrigo"
+    ],
+    "story": [
+      "O grupo encontra Platisa, a Ecoante que nomeou Loutes, fugindo de um enxame de aranitas. Os insetos atacam em grande número e suas ferroadas provocam dor intensa e paralisia. Gabasteri usa fogo para dispersá-los, enquanto Nestira, Mariv, Jokara e Loutes protegem Platisa e impedem que ela seja cercada. Depois do resgate, a jovem usa plantas guardadas em seu zélon para tratar os ferimentos e explica que sobreviveu seguindo sinais que acreditava terem sido enviados pelos ventos. O reencontro devolve ao grupo alguém que conhece ervas, curas e parte da tradição de Etérea, mas também introduz uma pessoa fisicamente enfraquecida e incapaz de caçar ou matar animais.",
+      "Platisa é acolhida, porém sua presença torna mais visível a diferença entre solidariedade e utilidade. Gabasteri distribui tarefas, controla o ritmo das buscas e trata como falha qualquer pessoa que não produza alimento ou força na medida que ele espera. Durante uma pesca, Platisa deixa uma presa escapar porque não consegue matá-la. Mais tarde, recusa sua porção de peixe, e Gabasteri a come inteira em vez de dividi-la com os outros. Jokara percebe que a lógica dele transforma cada necessidade em instrumento de domínio e chega a sugerir que ela e Nestira fujam. Nestira se recusa a abandonar Mariv, Loutes e Platisa, fazendo Jokara compreender que a sobrevivência das irmãs já está ligada às escolhas do grupo inteiro."
+    ]
+  },
+  {
+    "number": 16,
+    "title": "As Sombras nas Árvores",
+    "summary": "Gabasteri consolida influência usando consequências e medo. Jokara percebe alianças, desconfianças e o início de uma hierarquia que ameaça substituir os valores perdidos por outra forma de opressão.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "platisa",
+      "malthar",
+      "gabasteres"
+    ],
+    "places": [
+      "floresta-de-nadirion"
+    ],
+    "story": [
+      "A tensão aumenta à medida que Gabasteri passa a conduzir o grupo por meio de ordens disfarçadas de conselhos. Jokara observa como ele faz os outros se sentirem culpados por discordar, enquanto Platisa identifica plantas úteis, evita carne e tenta manter os valores de Etérea mesmo num ambiente hostil. A chuva, a fome e a falta de confiança tornam cada decisão mais difícil. Quando parte do grupo se afasta para buscar recursos, criaturas musculosas e peludas descem das árvores e atacam em bando. O fogo se apaga, Loutes e Platisa são cercados, e Jokara recebe um golpe de garras no rosto.",
+      "Maletar surge durante o ataque e enfrenta as criaturas com uma lâmina improvisada e uma brutalidade que nenhum dos outros possui. Depois de matar uma delas, ergue o corpo e ruge para intimidar o restante do bando, obrigando os animais a recuar. Ele reconhece Jokara, lembra-se de Yoral e revela ter encontrado outros sobreviventes, muitos já destruídos pela floresta ou por conflitos internos. Gabasteri reage à presença dele como se sua autoridade estivesse sendo invadida. Mariv, Platisa e Jokara defendem que Maletar permaneça e lidere o grupo, pois sua força é acompanhada por experiência e responsabilidade. Maletar aceita ficar por enxergar neles algo que quase todos os outros perderam: esperança. A decisão estabelece um confronto silencioso entre ele e Gabasteri."
+    ]
+  },
+  {
+    "number": 17,
+    "title": "Polar",
+    "summary": "Maletar defende a necessidade de construir ordem, vigília e reservas. Em meio às disputas, nasce o nome Polar, ligado à ideia de fixar raízes e garantir continuidade aos sobreviventes.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "platisa",
+      "malthar",
+      "gabasteres"
+    ],
+    "places": [
+      "primeiro-abrigo",
+      "riacho-de-nadirion"
+    ],
+    "story": [
+      "Maletar assume a organização do acampamento e estabelece regras claras para vigília, fogo, água, alimento e deslocamento. Diferente de Gabasteri, ele distribui tarefas de acordo com as capacidades de cada pessoa e participa dos trabalhos mais difíceis. Jokara escolhe pescar e Mariv se oferece para acompanhá-la, enquanto Nestira e Platisa cuidam de alimentos e do abrigo. Gabasteri tenta desqualificar Jokara por causa da perna amputada, mas Maletar não permite que a deficiência seja usada como argumento para retirar dela qualquer escolha. A nova ordem melhora a sobrevivência e diminui o medo, embora a rivalidade entre os dois homens permaneça evidente.",
+      "Durante uma saída, Jokara encontra Nestira e Mariv se beijando. Sua reação inicial é de proteção e raiva, pois teme que Mariv abandone ou machuque a irmã. Ao conversar com ele, porém, descobre que Nestira carrega culpa pela amputação de Jokara e pelo modo como a tratou antes da queda. Mariv afirma que não quer afastar as duas, mas ajudar Nestira a continuar acreditando sem se perder na própria fé. Jokara aceita a relação e pede que ele seja “polar” à irmã: não alguém igual, mas o oposto capaz de sustentá-la, questioná-la e dar direção à sua leveza. A palavra que um dia nomeará a nova linhagem nasce, naquele momento, como definição de equilíbrio entre forças diferentes."
+    ]
+  },
+  {
+    "number": 18,
+    "title": "Pai e Filha",
+    "summary": "Uma grande criatura cai numa armadilha e obriga o grupo a trabalhar em conjunto. O passado familiar de Maletar e sua culpa aproximam liderança, proteção e perda.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "platisa",
+      "liri",
+      "malthar",
+      "gabasteres"
+    ],
+    "places": [
+      "primeiro-abrigo"
+    ],
+    "story": [
+      "Jokara e Mariv retornam da pesca com cinco peixes, mas são chamados para ajudar Maletar a conter um animal gigantesco preso numa armadilha. Platisa se recusa a participar da morte, e o grupo perde tempo discutindo o que é necessário fazer para sobreviver. A criatura rompe as cordas, investe contra todos e arremessa Nestira contra uma raiz antes de escapar. Quando conseguem voltar ao abrigo, descobrem que toda a comida e a água desapareceram. Não há rastros de animal nem restos espalhados, e Gabasteri sugere que alguém do próprio grupo pode ter escondido os recursos, plantando desconfiança enquanto Platisa começa a enfraquecer.",
+      "Durante a vigília, Jokara se aproxima de Maletar e descobre que ele perdeu a filha Ari no cataclisma. Ele havia prometido ensiná-la a voar, mas adiou a promessa até não existir mais tempo. Jokara, por sua vez, conta que Yoral morreu durante um voo que fez porque ela insistiu. Os dois compartilham a culpa de acreditar que poderiam ter mudado as escolhas daqueles que amavam. Maletar explica que Yoral decidiu voar para ver a filha feliz e que a responsabilidade dessa decisão não pertence a Jokara. Ela o consola dizendo que Ari teria reconhecido nele um bom pai. A conversa cria entre os dois um vínculo de luto e compreensão, enquanto Gabasteri os observa escondido, atento a qualquer ligação que fortaleça a liderança de Maletar."
+    ]
+  },
+  {
+    "number": 19,
+    "title": "Ataque da Besta",
+    "summary": "A disputa por comida e autoridade cresce. Quando a Fera ataca, as decisões do grupo revelam quem protege os vulneráveis e quem usa a sobrevivência para justificar domínio.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "platisa",
+      "malthar",
+      "gabasteres"
+    ],
+    "places": [
+      "floresta-de-nadirion"
+    ],
+    "story": [
+      "A chuva torna o abrigo inseguro e Maletar decide que o grupo terá de partir. A fome, porém, já enfraqueceu todos. Quando Mariv consegue caçar uma ave, Gabasteri defende que os homens mais fortes comam primeiro, alegando que a força deles sustenta os demais. Jokara se opõe e Maletar decide priorizar os mais frágeis. Platisa continua recusando carne e, a sós, conta a Jokara que acredita que Gabasteri roubou a comida e a água. Ela também revela que ele tentou se aproximar de seu zélon e parece determinado a transformá-la em culpada. Quando Loutes retorna com frutas, Gabasteri usa a refeição para insinuar que Platisa poderia ter escondido recursos, mas Jokara a defende diante de todos.",
+      "O confronto é interrompido pela chegada da fera de olhos amarelos, que perseguiu Jokara desde o início da superfície. A criatura invade a clareira e cai sobre Mariv. Loutes e Maletar a ferem para abrir espaço, enquanto Nestira e o menino ajudam Jokara a fugir após o bastão dela quebrar. Mariv tenta carregar Platisa e Maletar consegue retirar o rapaz do ataque. Gabasteri toma a Ecoante dos braços dele e afirma que enfrentará a fera para dar tempo aos outros. Mais tarde, retorna sozinho e conta que Platisa foi tomada pela criatura e caiu no vazio. O grupo aceita a perda sem conhecer a verdade completa, mas Jokara percebe que o relato de Gabasteri deixa um silêncio difícil de ignorar."
+    ]
+  },
+  {
+    "number": 20,
+    "title": "O Exilado",
+    "summary": "Após a morte de Platisa, o grupo abandona o território da Fera. Maletar adoece e morre, e Gabasteri assume o controle da comida, das armas e das decisões. Quando Mariv o desafia para defender Nestira, Gabasteri o encurrala diante de Jokara e Loutes; a violência rompe de vez a confiança entre os sobreviventes.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "platisa",
+      "malthar",
+      "gabasteres"
+    ],
+    "places": [
+      "floresta-de-nadirion"
+    ],
+    "story": [
+      "Depois da morte aparente de Platisa, o grupo abandona a área de caça da fera e segue pela floresta sem comida suficiente. Maletar está cada vez mais fraco, Mariv ainda se recupera dos ferimentos e Jokara precisa de um novo apoio para caminhar. Gabasteri demonstra impaciência com o ritmo dos demais e trata o luto como outro obstáculo à sobrevivência. Loutes também se comporta de maneira diferente: inquieto, distante e como se escutasse alguma coisa que ninguém mais percebe. Durante a noite, ele foge do acampamento, e Jokara e Nestira o seguem.",
+      "O menino conduz as irmãs até uma construção colossal soterrada entre raízes e terra, inicialmente confundida com um fragmento muito antigo de Etérea. No interior, elas encontram inscrições que mostram seres humanos deixando Nadirion e subindo para as ilhas, além de um esqueleto que protege uma antiga versão do Verbo da Corrente. Nestira traduz os registros e descobre que Etérea não foi criada como primeiro lar dos eterís: era um refúgio construído por sobreviventes que fugiram da superfície. Nadirion não era apenas o lugar dos Vazios, mas a origem esquecida do próprio povo. A revelação destrói a certeza religiosa de Nestira e confirma a Jokara que a queda foi preparada por séculos de silêncio, medo e reescrita da história."
+    ]
+  },
+  {
+    "number": 21,
+    "title": "Ruínas dos Céus",
+    "summary": "Loutes conduz Jokara e Nestira até ruínas antigas construídas para repousar sobre o solo. As inscrições são ilegíveis para as duas; as gravuras e um cristal revelam que os ancestrais eterí vieram da superfície e construíram Etérea como refúgio.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "malthar",
+      "gabasteres"
+    ],
+    "places": [
+      "nadirion",
+      "ruinas-de-eterea"
+    ],
+    "story": [
+      "Ao tocar um artefato nas ruínas, Jokara revive uma lembrança da infância com Yoral. Enquanto construía uma vintela, o pai lhe ensinou que a seda precisa do vento para voar, mas também de uma pedra para não se perder. Ele explicou que existe o peso das mentiras, que afunda, e o peso da verdade, que mantém o Sopro na direção correta. Também disse que Jokara e Nestira eram polares: a irmã era a leveza e o movimento, enquanto Jokara era a firmeza capaz de dar rumo. A lembrança transforma a forma como ela enxerga a amputação, a própria personalidade e tudo o que sofreu por dizer aquilo que os outros não queriam ouvir.",
+      "Jokara e Nestira se reconciliam profundamente, reconhecendo que uma precisa da outra. Loutes observa as duas, sorri como numa despedida e desaparece dentro das ruínas, seguindo um caminho que nenhuma delas tenta impedir. De volta ao acampamento, Nestira conta ter visto um futuro de povos, conflitos e continuidade na superfície, concluindo que precisa garantir que o que restou de Etérea não desapareça. Maletar, entretanto, adoece de maneira rápida e inexplicável. Mesmo debilitado, ainda divide com Jokara uma última conversa sobre força e verdade. Naquela noite, o grupo desperta e encontra o corpo dele coberto por uma fila de insetos. O construtor que devolveu ordem ao grupo morre sem que ninguém ainda saiba que foi envenenado."
+    ]
+  },
+  {
+    "number": 22,
+    "title": "A Âncora e o Sopro",
+    "summary": "Numa lembrança de infância despertada pelo cristal, Jokara reencontra o ensinamento de Yoral sobre ser âncora para o sopro de outra pessoa. Ao voltar às ruínas, ela e Nestira compreendem melhor o vínculo entre as duas, enquanto Loutes se despede e desaparece.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "yoral",
+      "gabasteres"
+    ],
+    "places": [
+      "ruinas-de-eterea"
+    ],
+    "story": [
+      "Após enterrar Maletar, Gabasteri abandona qualquer aparência de companheirismo e assume o comando pela ameaça. Ele afirma que a solidariedade matou Platisa e enfraqueceu Maletar, determina que os fortes comerão primeiro e avisa que qualquer oposição será eliminada. Mariv e Nestira resistem, mas Jokara finge concordar para ganhar tempo. Nos sopros seguintes, Gabasteri humilha o grupo, controla as armas e os alimentos e obriga cada um a tarefas cruéis. Jokara observa seus hábitos até perceber que ele abandona o acampamento à noite levando uma bolsa com mantimentos e objetos roubados.",
+      "Ao segui-lo, Jokara encontra comida escondida, sua própria adaga e um recipiente com beijo-da-noite triturado, veneno que Platisa havia descrito. Ela reúne as peças: Gabasteri incendiou o primeiro abrigo, roubou as reservas, abandonou Platisa à fera e envenenou Maletar porque ambos ameaçavam seu domínio. Ele confirma que foi exilado de Etérea cinco ciclos antes, sobreviveu à queda do balão e passou anos eliminando grupos que considerava fracos. Jokara o chama de Peso Corrompido e tenta matá-lo. Na luta, usa o veneno contra ele e fere sua perna, mas é atingida no ventre. Antes de morrer, manda Nestira fugir com Mariv e afirma que carregou o peso da irmã para que ela pudesse continuar como Sopro. Jokara aceita a própria natureza de Âncora e entrega a vida para garantir que os outros escapem."
+    ]
+  },
+  {
+    "number": 23,
+    "title": "O Peso da Verdade",
+    "summary": "Jokara segue Gabasteri durante a noite e encontra Beijo-da-Noite entre as provisões escondidas. Ao confrontá-lo, descobre a verdade sobre Maletar, Platisa e as Ilhas Baixas, pagando um preço decisivo para impedir que o grupo se renda à lógica dos fortes.",
+    "status": "written",
+    "characters": [
+      "jokara",
+      "nestira",
+      "marv",
+      "loutes",
+      "gabasteres"
+    ],
+    "places": [
+      "ilhas-baixas",
+      "floresta-de-nadirion"
+    ],
+    "story": [
+      "Mariv arranca Nestira do corpo de Jokara e a obriga a correr antes que Gabasteri se recupere. A perda da irmã destrói a segurança que ainda restava nela, e as provocações do perseguidor aprofundam a culpa: ele afirma que Jokara morreu sozinha, que Platisa foi deixada para a fera e que Maletar foi envenenado. Ao mesmo tempo, suas próprias confissões confirmam tudo o que Jokara descobriu. Durante a fuga, Nestira compreende as últimas palavras da irmã. Jokara foi a Âncora que enfrentou a verdade e atraiu o golpe; agora cabe a Nestira usar sua leveza não como fuga da realidade, mas como direção.",
+      "Nestira conduz Gabasteri até a clareira de carcaças onde vive a fera de olhos amarelos. Quando o homem acredita tê-la encurralado, percebe tarde demais que foi transformado em isca. A fera o ataca e o devora segundo a mesma lei brutal que ele impôs aos outros. Nestira tenta escapar, mas é atingida por uma das patas e cai gravemente ferida. Mariv chega, distrai a fera e crava a lança sob o queixo da criatura, obrigando-a a fugir. A vitória salva Nestira do ataque imediato, porém não reverte os ferimentos. O capítulo termina com Mariv encontrando-a entre os ossos, enquanto a última sobrevivente das irmãs Amaréa já começa a perder as forças."
+    ]
+  },
+  {
+    "number": 24,
+    "title": "O Sopro de Nestira",
+    "summary": "Gabasteri, ferido e enlouquecido, persegue Nestira e Mariv. Nestira transforma o sacrifício de Jokara em direção e protege a possibilidade de que Mariv leve os sobreviventes para além da violência.",
+    "status": "written",
+    "characters": [
+      "nestira",
+      "marv",
+      "gabasteres"
+    ],
+    "places": [
+      "floresta-de-nadirion"
+    ],
+    "story": [
+      "Mariv carrega Nestira para longe da clareira, mas ela sabe que não sobreviverá. Nos últimos momentos, diz que ele estava certo ao acreditar que a queda poderia se transformar em começo. A visão recebida nas ruínas lhe mostrou povos vivendo na superfície e fez com que entendesse Mariv como a semente capaz de levar adiante o que restou. Ela pede que ele não se perca na Leveza nem afunde no Peso e resume essa missão numa única palavra: seja polar. Nestira morre nos braços dele, reunindo na ideia de polaridade tudo o que ela e Jokara aprenderam sobre fé, verdade, movimento e raiz.",
+      "Mariv enterra Nestira sem preces elaboradas e parte sozinho pela floresta, carregando as memórias de Jokara, Platisa, Maletar e de todos os que morreram desde o cataclisma. Depois de uma longa caminhada, alcança um vale amplo, fértil e iluminado, o primeiro lugar que parece capaz de sustentar uma nova vida. Entre as árvores, ele vê Loutes observando à distância; quando pisca, o menino desaparece outra vez, mantendo o mistério de sua origem e de seu papel no ciclo. Mariv segue em direção ao vale decidido a transformar o luto em fundação. Ali, no chão que Etérea ensinou seu povo a temer, nasce a ideia do primeiro Polar e começa a história que atravessará os livros seguintes."
+    ]
+  },
+  {
+    "number": 25,
+    "title": "A Semente e o Vale",
+    "summary": "Nestira morre nos braços de Mariv, mas afirma que a queda pode ser um novo começo. Mariv alcança o vale, vislumbra Loutes por um instante e segue adiante com a memória das irmãs, dando o primeiro passo para a raiz que um dia será Polar.",
+    "status": "written",
+    "characters": [
+      "nestira",
+      "marv",
+      "loutes"
+    ],
+    "places": [
+      "nadirion",
+      "floresta-de-nadirion",
+      "vale"
+    ]
+  }
+];

@@ -66,7 +66,7 @@
     });
     reduced.addEventListener('change', () => { paused = reduced.matches; syncMotion(); });
     syncMotion();
-    syncSky(Number(siteDocument.querySelector('.topbar [data-time-slider]')?.value || 360));
+    syncSky(Number(siteDocument.querySelector('[data-time-slider]')?.value || 360));
   }
   // The existing page clock remains the sole owner of time, including manual changes.
   function syncSky(minutes) {
@@ -96,7 +96,7 @@
     dialog.querySelectorAll('[data-time-slider]').forEach(input=>{if(document.activeElement!==input)input.value=Math.round(m/10)*10%1440;});
     const rounded=Math.round(m/10)*10%1440;
     dialog.querySelector('[data-time-output]').textContent=`${String(Math.floor(rounded/60)).padStart(2,'0')}:${String(rounded%60).padStart(2,'0')}`;
-    const sourcePause=siteDocument.querySelector('.topbar [data-time-pause]');
+    const sourcePause=siteDocument.querySelector('[data-time-pause]');
     const pauseButton=dialog.querySelector('[data-time-pause]');
     if(sourcePause){pauseButton.textContent=sourcePause.textContent;pauseButton.setAttribute('aria-pressed',sourcePause.getAttribute('aria-pressed'));pauseButton.setAttribute('aria-label',sourcePause.getAttribute('aria-label'));}
   }
@@ -136,7 +136,7 @@
     previousOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
     dialog.showModal();
-    syncSky(Number(siteDocument.querySelector('.topbar [data-time-slider]')?.value || 360));
+    syncSky(Number(siteDocument.querySelector('[data-time-slider]')?.value || 360));
     syncMusic();
     wake();
   }
@@ -151,14 +151,14 @@
   }
   document.addEventListener('input', event => {
     if(!event.target.matches('[data-time-slider]')) return;
-    const source=siteDocument.querySelector('.topbar [data-time-slider]');
+    const source=siteDocument.querySelector('[data-time-slider]');
     if(source){source.value=event.target.value;source.dispatchEvent(new parent.Event('input',{bubbles:true}));}
   });
   document.addEventListener('change', event => {
     if(!event.target.matches('[data-time-slider]')) return;
-    siteDocument.querySelector('.topbar [data-time-slider]')?.dispatchEvent(new parent.Event('change',{bubbles:true}));
+    siteDocument.querySelector('[data-time-slider]')?.dispatchEvent(new parent.Event('change',{bubbles:true}));
   });
-  document.addEventListener('click', event => {if(event.target.closest('[data-time-pause]'))siteDocument.querySelector('.topbar [data-time-pause]')?.click();});
+  document.addEventListener('click', event => {if(event.target.closest('[data-time-pause]'))siteDocument.querySelector('[data-time-pause]')?.click();});
   addEventListener('message', event => {
     if(event.source!==parent||event.origin!==location.origin||event.data?.type!=='contemplative:sync')return;
     if(event.data.variables)for(const [key,value] of Object.entries(event.data.variables))if(key.startsWith('--rdc-'))document.documentElement.style.setProperty(key,value);

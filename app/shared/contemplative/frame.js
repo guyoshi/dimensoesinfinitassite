@@ -13,8 +13,8 @@
   async function start(){
     if(book==='ruinas-dos-ceus'){
       const base='app/sagas/ciclo-de-jesed/books/ruinas-dos-ceus/experience/';
-      await style(base+'styles.css');await style(base+'contemplative.css?v=20261020d');
-      await script(base+'contemplative.js?v=20261020d');
+      await style(base+'styles.css');await style(base+'contemplative.css?v=20261109r');
+      await script(base+'contemplative.js?v=20261109r');
     }else if(['os-elos-das-sombras','guerras-de-sangue','a-lenda-da-aurora','dinastia-polar'].includes(book)){
       await style('app/shared/contemplative/landscapes.css?v=20261020i');await script('app/shared/contemplative/landscapes.js?v=20261020i');await window.LANDSCAPE_READY;
     }else if(book==='a-alvorada-das-ilusoes'){

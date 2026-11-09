@@ -1,0 +1,93 @@
+/* Ruínas dos Céus — Ciclo de Jesed. Céu vivo: o tema acompanha body[data-sky-phase] (dawn|day|dusk|night). */
+:root{
+  --bg:#12323f;--ink:#143240;--mute:#3f6372;--acc:#2f7d96;--acc-ink:#ffffff;--gold:#c8952f;
+  --side:linear-gradient(185deg,#1f5266 0%,#133544 100%);--side-line:rgba(255,255,255,.16);--sec:#a9d4df;
+  --card-bg:rgba(252,248,238,.95);--card-ink:#17323f;--card-mute:#55727d;--card-line:rgba(41,79,97,.2);--card-head:#1f5e74;
+  --card-r:20px;--card-shadow:0 10px 30px rgba(24,60,76,.16);
+  --pill-bg:rgba(252,248,238,.9);--pill-line:rgba(41,79,97,.25);--pill-ink:#17323f;--pill-r:999px;
+  --btn-bg:rgba(252,248,238,.92);--btn-line:rgba(41,79,97,.3);--btn-ink:#17323f;--btn-r:999px;
+  --btn-p-bg:linear-gradient(135deg,#2f7d96,#58b0c2);--btn-p-ink:#fff;--btn-p-line:transparent;
+  --nav-active-bg:rgba(255,255,255,.17);--nav-active-ink:#fff;--nav-active-bar:#f3d98e;
+  --hero-r:26px;--hero-line:rgba(255,255,255,.5);--hero-shadow:0 18px 50px rgba(20,60,78,.35);
+  --font-head:"Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;--head-weight:700;--head-track:.01em;
+  --paper-veil:rgba(252,248,238,.82);
+}
+body[data-sky-phase=night]{
+  --ink:#e8f2f3;--mute:#a9c4cc;--acc:#7cc4d8;--acc-ink:#06202b;--gold:#e3c57e;
+  --side:linear-gradient(185deg,#0f2a3a 0%,#081a26 100%);--side-line:rgba(154,202,217,.2);
+  --card-bg:rgba(15,36,49,.94);--card-ink:#e6f1f3;--card-mute:#a9c1c9;--card-line:rgba(137,187,201,.3);--card-head:#a8dbe8;--card-shadow:0 12px 34px rgba(0,0,0,.45);
+  --pill-bg:rgba(15,36,49,.9);--pill-line:rgba(137,187,201,.34);--pill-ink:#e6f1f3;
+  --btn-bg:rgba(15,36,49,.9);--btn-line:rgba(137,187,201,.4);--btn-ink:#e6f1f3;--btn-p-bg:linear-gradient(135deg,#7cc4d8,#a8e0ec);--btn-p-ink:#06202b;
+  --hero-line:rgba(154,202,217,.4);--paper-veil:rgba(12,29,41,.82);
+}
+body[data-sky-phase=dusk],body[data-sky-phase=dawn]{--paper-veil:rgba(250,240,222,.86)}
+body{background:#12323f}
+/* mudança suave de dia para noite nas superfícies principais */
+.panel,.card,.ecard,.chcard,.book,.pill,.search,.btn,.ico,.field,.fchip,.etab,.time-control,.crumb,.phead>div,.facts>div{transition:background-color 1.4s ease,color 1.4s ease,border-color 1.4s ease,box-shadow .3s ease,transform .25s ease,filter .2s}
+.sb{transition:background .6s}
+.sb{color:#eef7f8;border-right:1px solid var(--side-line);box-shadow:8px 0 30px rgba(10,36,50,.18)}
+.sb .sec{color:var(--sec)}.sb .exit{color:#dcecf0}
+.brand{border-bottom-color:var(--side-line)}
+.sigil{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.4);box-shadow:0 0 22px rgba(190,230,240,.35)}
+.nav-item{border-radius:12px;position:relative;overflow:hidden}
+.nav-item::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.16) 50%,transparent 70%);transform:translateX(-120%);transition:transform .6s ease}
+.nav-item:hover::after{transform:translateX(120%)}
+.nav-item.active{font-weight:700;border-left-width:4px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+/* título e trilha sobre o céu ficam sempre legíveis */
+.phead{align-items:center}
+.phead>div:first-child{background:var(--paper-veil);border:1px solid var(--card-line);padding:14px 24px 16px;border-radius:22px;box-shadow:var(--card-shadow)}
+.phead h1{color:var(--card-head)}.phead .kicker{color:var(--card-mute);letter-spacing:.22em}.phead .sub{color:var(--card-mute)}
+.crumb{width:fit-content;max-width:calc(100% - 56px);margin:0 28px 10px;padding:5px 16px;border-radius:999px;background:var(--paper-veil);border:1px solid var(--card-line);color:var(--card-mute)}
+.crumb .cur{color:var(--card-ink)}
+.foot{background:var(--side);color:#cfe3e8;border-top:1px solid var(--side-line)}
+.mapdesc{background:var(--paper-veil);display:inline-block;padding:8px 16px;border-radius:14px;color:var(--card-ink)}
+.sec-h{background:var(--paper-veil);display:inline-block;padding:6px 16px;border-radius:999px;color:var(--card-head)}
+/* botões */
+.btn,.pill,.search,.ico{border-width:1px;box-shadow:0 2px 8px rgba(20,60,78,.12)}
+.btn{position:relative;overflow:hidden;font-weight:600}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 35%,rgba(255,255,255,.42) 50%,transparent 65%);transform:translateX(-130%);transition:transform .7s ease}
+.btn:hover::after{transform:translateX(130%)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(20,60,78,.25);filter:none}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn.primary{box-shadow:0 6px 18px rgba(47,125,150,.45)}
+.pill:hover,.search:hover,.ico:hover{filter:none;transform:translateY(-1px);box-shadow:0 6px 16px rgba(20,60,78,.2)}
+.ico[aria-pressed=true]{background:var(--acc);color:var(--acc-ink)}
+.fchip.on,.etab.on{background:var(--acc);color:var(--acc-ink)}
+/* cartões */
+.card,.ecard,.chcard,.book,.panel{border-radius:var(--card-r)}
+.card:hover,.ecard:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(20,60,78,.28)}
+.chcard:hover{transform:translateX(6px);box-shadow:0 12px 30px rgba(20,60,78,.25)}
+.card h4,.ecard strong{font-family:var(--font-head)}
+.efig,.phimg,.eimg{border-radius:16px;box-shadow:0 8px 22px rgba(20,60,78,.25)}
+.chip{background:rgba(47,125,150,.16);color:var(--card-head);border:1px solid var(--card-line)}
+a.tag{transition:background .2s,transform .2s}a.tag:hover{filter:none;transform:translateY(-1px);background:rgba(47,125,150,.28)}
+/* hero com luz do céu */
+.hero-shade{background:linear-gradient(90deg,rgba(9,33,46,.88) 0%,rgba(14,52,68,.55) 52%,rgba(120,190,210,.08) 100%)}
+.hero .logo{filter:drop-shadow(0 0 18px rgba(190,230,245,.55)) drop-shadow(0 4px 12px rgba(0,0,0,.5))}
+.coverwrap{border:2px solid rgba(255,255,255,.55);box-shadow:0 14px 40px rgba(10,40,55,.5),0 0 50px rgba(160,215,230,.35)}
+.tl:before{background:linear-gradient(var(--acc),transparent);opacity:.7}
+.tl-item:before{border:3px solid #fff;box-shadow:0 0 14px var(--acc)}
+.tl-date{color:var(--ink);background:var(--paper-veil);display:inline-block;padding:2px 12px;border-radius:999px;border:1px solid var(--card-line)}
+.traj{border-left-color:var(--acc)}
+.pin i{background:var(--gold);box-shadow:0 0 0 5px rgba(255,255,255,.3),0 2px 10px rgba(0,0,0,.5)}
+/* transição de página: rajada de vento atravessando a tela */
+@keyframes windSweep{0%{transform:translateX(-110%);opacity:0}15%{opacity:1}70%{opacity:1}100%{transform:translateX(110%);opacity:0}}
+.veil.go{opacity:1}
+.veil.go::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 0,rgba(223,242,247,.0) 20%,rgba(223,242,247,.85) 48%,rgba(255,255,255,.95) 52%,rgba(223,242,247,.85) 56%,transparent 80%);animation:windSweep .62s cubic-bezier(.45,.05,.3,1) both}
+.veil.go::after{content:"";position:absolute;left:0;right:0;top:36%;height:2px;background:linear-gradient(90deg,transparent,#fff,transparent);box-shadow:0 22px 0 #fff8,0 -26px 0 #fff6;animation:windSweep .62s .06s cubic-bezier(.45,.05,.3,1) both}
+@keyframes pgin{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.no-transitions .veil::before,.no-transitions .veil::after,.perf .veil::before,.perf .veil::after{display:none}
+@media(prefers-reduced-motion:reduce){.veil.go::before,.veil.go::after{animation:none}}
+/* modal e busca seguem o céu */
+.modal-panel{background:var(--side);color:#eef7f8;border-color:var(--side-line)}
+.field input::placeholder{color:var(--card-mute)}
+/* contraste do menu superior sobre o céu */
+.top{position:relative;z-index:3}
+
+.hero .copy,.hero .copy .kicker,.hero .tagline,.hero .di-author-label,.hero .di-author-fallback{color:#f4fbfc}
+.cards{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.etext{background:var(--paper-veil);color:var(--card-ink);padding:24px 28px;border-radius:24px;border:1px solid var(--card-line);box-shadow:var(--card-shadow);transition:background-color 1.4s ease,color 1.4s ease}
+.etext .kicker{color:var(--card-mute)}.etext h1{color:var(--card-head)}.etext .muted{color:var(--card-mute)}
+.etext .etab:not(.on){background:transparent}
+.ctx-chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-start;margin:6px 0 10px}
+.tl-more summary{color:var(--card-head)}

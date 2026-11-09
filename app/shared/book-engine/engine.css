@@ -237,3 +237,39 @@ body.contemplating .app{opacity:0;pointer-events:none}
 
 .blist{margin:.4rem 0 1rem 1.1rem;padding:0;display:grid;gap:.35rem}.blist li{line-height:1.5}
 .entity .lead{font-size:1.05em}.tagrow.meta{margin:.2rem 0 .6rem}.srcline{font-size:.8rem;margin-top:1rem}
+
+/* ---- extensões: abas, trajetória, lugares ricos, mapas com pinos, clãs, linha do tempo ---- */
+.etabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 16px}
+.etab{padding:8px 16px;border-radius:var(--pill-r);border:1px solid var(--pill-line);background:var(--pill-bg);color:var(--pill-ink);font-size:14px;transition:background .2s,transform .2s,filter .2s}
+.etab:hover{filter:brightness(1.15);transform:translateY(-1px)}
+.etab.on{background:var(--acc);color:var(--acc-ink);border-color:transparent;font-weight:700}
+.traj{list-style:none;display:grid;gap:14px;border-left:2px solid var(--card-line);margin-left:6px;padding-left:18px}
+.traj li{position:relative}
+.traj li:before{content:"";position:absolute;left:-25px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--acc)}
+.traj-ch{display:inline-flex;align-items:center;gap:10px;font-weight:700;margin-bottom:4px}
+.traj-ch b{display:inline-flex;min-width:28px;height:28px;align-items:center;justify-content:center;border-radius:50%;background:var(--acc);color:var(--acc-ink);font-size:13px}
+.traj-ch:hover span{text-decoration:underline}
+.traj p{line-height:1.65;opacity:.95}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:22px 0 6px}
+.facts>div{background:var(--card-bg);border:1px solid var(--card-line);border-radius:var(--card-r);padding:12px 16px;color:var(--card-ink)}
+.facts small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.7;margin-bottom:4px}
+.facts strong{font-weight:600}
+.featgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0}
+.scenes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+a.scene{display:block;transition:transform .2s,filter .2s}a.scene:hover{transform:translateY(-3px);filter:brightness(1.08)}
+.sec-h{margin-top:28px}
+.story p{margin-bottom:1em}
+.tl-more{margin:8px 0 10px}.tl-more summary{cursor:pointer;font-size:13px;opacity:.85}.tl-more p{margin-top:8px}
+.maptabs{margin:0 0 14px}.mapdesc{margin-bottom:8px;max-width:70ch}
+.mapstage{position:relative;border-radius:var(--card-r);overflow:hidden;box-shadow:var(--card-shadow);width:100%;max-height:78vh;margin:10px auto 0;background:rgba(0,0,0,.25)}
+.mapstage>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pin{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:4px;z-index:2}
+.pin i{width:14px;height:14px;border-radius:50%;background:var(--acc);border:2px solid #fff;box-shadow:0 0 0 4px rgba(255,255,255,.25),0 2px 8px rgba(0,0,0,.5);transition:transform .2s}
+.pin.major i{width:18px;height:18px}
+.pin span{font-size:12px;padding:2px 9px;border-radius:999px;background:rgba(10,14,22,.78);color:#fff;white-space:nowrap;opacity:0;transform:translateY(-3px);transition:opacity .2s,transform .2s;pointer-events:none}
+.pin.major span,.pin:hover span,.pin:focus-visible span{opacity:1;transform:none}
+.pin:hover i{transform:scale(1.35)}.pin.k-myth i{background:#c9a6ff}.pin.k-region i{background:var(--gold)}
+.maplegend{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.clangrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.clanhead{display:flex;gap:14px;align-items:center;margin-bottom:10px}.clanhead img{width:56px;height:56px;object-fit:contain}
+@media(max-width:700px){.pin span{font-size:11px}.mapstage{max-height:none}}

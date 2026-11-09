@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const frameURL = new URL('frame.html', document.currentScript.src);
-  frameURL.searchParams.set('v','20261020o');
+  frameURL.searchParams.set('v','20261109r');
   const pauseStyle=document.createElement('style');
   pauseStyle.textContent='body.contemplative-frame-active *{animation-play-state:paused!important}';
   document.head.append(pauseStyle);
@@ -11,7 +11,7 @@
     if (!frame) return;
     const root=document.documentElement, style=getComputedStyle(root), variables={};
     for (let i=0;i<root.style.length;i++) { const key=root.style[i]; if(key.startsWith('--rdc-')) variables[key]=style.getPropertyValue(key); }
-    send({variables, minutes:detail?.minutes ?? Number(document.querySelector('.topbar [data-time-slider]')?.value || 360),phase:document.body.dataset.skyPhase});
+    send({variables, minutes:detail?.minutes ?? Number(document.querySelector('[data-time-slider]')?.value || 360),phase:document.body.dataset.skyPhase});
   }
   function close() {
     if (!shell) return;
