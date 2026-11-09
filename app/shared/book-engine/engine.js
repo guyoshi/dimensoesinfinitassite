@@ -253,11 +253,12 @@
   }
   function entityMeta(x) {
     const bits = [x.importance, x.type, x.region].filter(Boolean);
-    return bits.length ? `<div class="tagrow meta">${bits.map(b => `<span class="chip">${esc(b)}</span>`).join('')}</div>` : '';
+    const cl = x.clan && (B.clans || []).find(c => c.slug === x.clan);
+    return (bits.length || cl) ? `<div class="tagrow meta">${bits.map(b => `<span class="chip">${esc(b)}</span>`).join('')}${cl ? `<a class="tag clan-tag" href="#/cla/${esc(cl.slug)}">Clã ${esc(cl.name)}</a>` : ''}</div>` : '';
   }
   function entityExtra(x) {
     const secs = [];
-    if ((x.personality || []).length) secs.push(`<h3 class="h-font small-h">Personalidade</h3><div class="tagrow">${x.personality.map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>`);
+    if ((x.personality || []).length) secs.push(`<h3 class="h-font small-h">Personalidade</h3>${x.personality.every(t => String(t).length <= 32) ? `<div class="tagrow">${x.personality.map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>` : `<ul class="blist">${x.personality.map(t => `<li>${esc(t)}</li>`).join('')}</ul>`}`);
     if (x.voice) secs.push(`<h3 class="h-font small-h">Voz</h3><p>${esc(x.voice)}</p>`);
     if ((x.sources || []).length) secs.push(`<p class="muted srcline">Fontes: ${x.sources.map(esc).join(' · ')}</p>`);
     return secs.join('');
@@ -342,19 +343,58 @@
       const pins = (m.pins || []).map(p => ({ p, pl: A.places.find(x => x.slug === p.place) })).filter(o => o.pl);
       $('#mapBody').innerHTML = `<p class="muted mapdesc">${esc(m.description || '')}</p>
         ${(m.context || []).length ? `<div class="tagrow ctx-chips">${m.context.map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>` : ''}
-        <div class="mapstage" style="aspect-ratio:${esc((m.ratio || '1450 / 1024'))}"><img src="${esc(m.image)}" alt="${esc(m.title)}">
+        <div class="mapstage" style="aspect-ratio:${esc((m.ratio || '1450 / 1024'))}"><img src="${esc(m.image)}" alt="${esc(m.title)}">${(m.routes || []).length ? `<svg class="maproutes" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">${m.routes.map(r => `<polyline class="route k-${esc(r.kind || 'land')}" points="${esc(r.points)}"${r.place ? ` data-place="${esc(r.place)}"` : ''}/>`).join('')}</svg>` : ''}
           ${pins.map(({ p, pl }) => `<a class="pin ${p.major ? 'major' : ''} k-${esc(p.kind || 'place')}" href="#/lugar/${esc(pl.slug)}" style="left:${p.x}%;top:${p.y}%" aria-label="${esc(pl.name)}"><i></i><span>${esc(pl.name)}</span></a>`).join('')}</div>
-        <div class="maplegend">${pins.map(({ pl }) => `<a class="tag" href="#/lugar/${esc(pl.slug)}">${esc(pl.name)}</a>`).join('')}</div>`;
+        <div class="maplegend">${pins.map(({ pl }) => `<a class="tag" href="#/lugar/${esc(pl.slug)}">${esc(pl.name)}</a>`).join('')}</div>
+        ${(m.notes || []).map(n => `<h3 class="h-font small-h sec-h">${esc(n.label)}</h3><div class="notegrid">${(n.items || []).map(i => `<div class="panel note"><h4 class="h-font">${esc(i.title)}</h4><p>${esc(i.description || '')}</p>${(i.places || []).length ? `<div class="tagrow">${i.places.map(sl => { const pl = A.places.find(x => x.slug === sl); return pl ? `<a class="tag" href="#/lugar/${esc(pl.slug)}">${esc(pl.name)}</a>` : ''; }).join('')}</div>` : ''}</div>`).join('')}</div>`).join('')}`;
       $$('.maptab').forEach((b, i) => b.classList.toggle('on', i === cur));
     };
     $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Mapa', B.mapText || '')}<div class="chips maptabs">${maps.map((m, i) => `<button class="fchip maptab" data-i="${i}">${esc(m.shortTitle || m.title)}</button>`).join('')}</div><div id="mapBody"></div></div>`;
     $$('.maptab').forEach(b => b.addEventListener('click', () => { cur = Number(b.dataset.i); draw(); }));
     draw(); crumb([['Mapa']]);
   }
+  function clanMembers(c) { return A.characters.filter(ch => ch.clan === c.slug); }
   function pageClas() {
     const list = B.clans || [];
-    $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Clãs', list.length ? `${list.length} clãs.` : '')}${list.length ? `<div class="clangrid">${list.map(c => `<article class="panel clan"><div class="clanhead">${c.emblem ? `<img src="${esc(c.emblem)}" alt="Emblema de ${esc(c.name)}" loading="lazy">` : ''}<div><h3 class="h-font">${esc(c.name)}</h3>${c.subtitle ? `<p class="muted small">${esc(c.subtitle)}</p>` : ''}</div></div>${c.summary ? `<p>${esc(c.summary)}</p>` : ''}${(c.members || []).length ? `<div class="tagrow">${c.members.map(sl => { const ch = A.characters.find(x => x.slug === sl); return ch ? `<a class="tag" href="#/personagem/${esc(ch.slug)}">${esc(ch.name)}</a>` : ''; }).join('')}</div>` : ''}</article>`).join('')}</div>` : empty('clas')}</div>`;
+    $('#main').innerHTML = `<div class="page">${head(B.book.name, 'Clãs', list.length ? `${list.length} clãs.` : '')}${list.length ? `<div class="clangrid">${list.map(c => {
+      const mem = clanMembers(c);
+      return `<a class="panel clan clan-link" href="#/cla/${esc(c.slug)}" style="${c.colour ? `--clan:${esc(c.colour)}` : ''}"><div class="clanhead">${c.emblem ? `<img src="${esc(c.emblem)}" alt="Emblema de ${esc(c.name)}" loading="lazy">` : ''}<div><h3 class="h-font">${esc(c.name)}</h3>${c.subtitle ? `<p class="muted small">${esc(c.subtitle)}</p>` : ''}</div></div>${c.summary ? `<p>${esc(String(c.summary).slice(0, 220))}${String(c.summary).length > 220 ? '…' : ''}</p>` : ''}${mem.length ? `<p class="muted small">${mem.length} ${mem.length === 1 ? 'personagem' : 'personagens'}</p>` : ''}</a>`;
+    }).join('')}</div>` : empty('clas')}</div>`;
     crumb([['Clãs']]);
+  }
+  function clanFacts(c) {
+    const rows = (c.facts || []).map(f => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}${f.detail ? `<small>${esc(f.detail)}</small>` : ''}</dd></div>`).join('');
+    const pts = (t, arr) => (arr || []).length ? `<h3 class="h-font small-h">${t}</h3><ul class="blist">${arr.map(i => `<li>${typeof i === 'string' ? esc(i) : `<b>${esc(i.title || i.name || '')}</b>${i.description || i.text ? ` — ${esc(i.description || i.text)}` : ''}`}</li>`).join('')}</ul>` : '';
+    return `${rows ? `<dl class="clanfacts">${rows}</dl>` : ''}${pts('Forças', c.strengths)}${pts('Fraquezas', c.weaknesses)}`;
+  }
+  function clanDoc(c) {
+    // seções numeradas: "2" abre um bloco, "2.1" entra dentro dele
+    const blocks = [];
+    (c.sections || []).forEach(sec => {
+      const sub = String(sec.number || '').includes('.');
+      if (!sub || !blocks.length) blocks.push({ title: sec.title, paras: sec.paragraphs || [], subs: [] });
+      else blocks[blocks.length - 1].subs.push(sec);
+    });
+    return blocks.map((b, i) => `<details class="clan-sec" ${i === 0 ? 'open' : ''}><summary>${esc(b.title)}</summary><div class="prose">${paragraphs(b.paras)}${b.subs.map(sb => `<h4 class="h-font small-h">${esc(sb.title)}</h4>${paragraphs(sb.paragraphs)}`).join('')}</div></details>`).join('');
+  }
+  function pageCla(slug) {
+    const c = (B.clans || []).find(x => x.slug === slug); if (!c) return notFound();
+    const mem = clanMembers(c), pl = c.place && A.places.find(p => p.slug === c.place);
+    const hasDoc = (c.sections || []).length;
+    const overview = `<div class="prose">${c.summary ? `<p class="lead">${esc(c.summary)}</p>` : ''}</div>${clanFacts(c)}${pl ? `<h3 class="h-font small-h">Sede</h3><div class="tagrow"><a class="tag" href="#/lugar/${esc(pl.slug)}">${esc(pl.name)}</a></div>` : ''}${mem.length ? `<h3 class="h-font small-h">Personagens do clã</h3><div class="tagrow">${mem.map(m => `<a class="tag" href="#/personagem/${esc(m.slug)}">${esc(m.name)}</a>`).join('')}</div>` : ''}`;
+    $('#main').innerHTML = `<div class="page entity" style="${c.colour ? `--clan:${esc(c.colour)}` : ''}">
+      <div class="chnav"><a class="btn ghost" href="#/clas">${icon('back')} Clãs</a></div>
+      <section class="ehero"><figure class="efig clan-fig">${c.emblem ? `<img src="${esc(c.emblem)}" alt="Emblema de ${esc(c.name)}" data-lightbox>` : `<span class="fb">${icon('people')}</span>`}</figure>
+        <div class="etext"><p class="kicker">${esc(c.subtitle || 'Clã')}</p><h1 class="h-font">${esc(c.name)}</h1>
+          ${hasDoc ? `<div class="etabs" role="tablist"><button class="etab on" role="tab" data-tab="geral">Visão geral</button><button class="etab" role="tab" data-tab="doc">Conhecer o clã</button></div><div id="etabBody">${overview}</div>` : overview}
+        </div></section></div>`;
+    crumb([['Clãs', '#/clas'], [c.name]]);
+    $$('[data-lightbox]').forEach(el => el.addEventListener('click', () => lightbox([{ src: c.emblem, title: c.name }], 0)));
+    if (hasDoc) $$('.etab').forEach(b => b.addEventListener('click', () => {
+      $$('.etab').forEach(t => t.classList.toggle('on', t === b));
+      $('#etabBody').innerHTML = b.dataset.tab === 'doc' ? clanDoc(c) : overview;
+      FX()?.afterRender?.();
+    }));
   }
 
   function pageGaleria() {
@@ -395,6 +435,7 @@
         ...A.chapters.filter(c => norm(c.title).includes(q) || norm(c.pov).includes(q)).map(c => [`Capítulo ${c.number} · ${c.title}`, `#/capitulo/${c.number}`, 'Capítulo']),
         ...A.characters.filter(c => norm(c.name).includes(q)).map(c => [c.name, `#/personagem/${c.slug}`, 'Personagem']),
         ...A.places.filter(c => norm(c.name).includes(q)).map(c => [c.name, `#/lugar/${c.slug}`, 'Lugar']),
+        ...(B.clans || []).filter(c => norm(c.name).includes(q)).map(c => [`Clã ${c.name}`, `#/cla/${c.slug}`, 'Clã']),
         ...A.timeline.filter(c => norm(c.title).includes(q)).map(c => [c.title, '#/linha-do-tempo', 'Linha do Tempo'])
       ].slice(0, 30);
       $('#sres').innerHTML = r.length ? r.map(([t, h, k]) => `<a href="${h}" data-close><strong>${esc(t)}</strong><small>${k}</small></a>`).join('') : '<p class="muted">Nada encontrado.</p>';
@@ -438,10 +479,11 @@
         case 'lugar': entityPage(A.places, arg, 'Lugares', 'lugar', placeImage, 'pin'); break;
         case 'mapa': pageMapa(); break;
         case 'clas': pageClas(); break;
+        case 'cla': pageCla(arg); break;
         case 'galeria': pageGaleria(); break;
         default: notFound();
       }
-      const active = { capitulo: 'capitulos', personagem: 'personagens', lugar: 'lugares' }[base] || base;
+      const active = { capitulo: 'capitulos', personagem: 'personagens', lugar: 'lugares', cla: 'clas' }[base] || base;
       $$('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.nav === active));
       $('#main').scrollTop = 0; window.scrollTo(0, 0);
       document.title = `${B.book.name} — ${B.saga.name}`;

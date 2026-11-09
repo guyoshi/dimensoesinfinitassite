@@ -34,3 +34,8 @@ body[data-sky-phase=night] .sky-glider{opacity:0}
 .time-control button{font-size:12px;padding:2px 4px;line-height:1}.tc-ico{opacity:.8}
 @media(max-width:900px){.time-control input{width:70px}.time-control{padding:4px 8px}}
 @media(max-width:560px){.time-control{display:none}}
+
+/* brasas (módulo embers) */
+.embers-canvas{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+.embers-canvas.embers-front{z-index:35}
+.embers-canvas[hidden]{display:none}
