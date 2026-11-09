@@ -10,6 +10,7 @@ window.DI_BOOK.images = {
     "nastacia": "assets/books/spacetheft/a-lenda-da-aurora/characters/capita-nastacia.webp",
     "tzough": "assets/books/spacetheft/a-lenda-da-aurora/characters/capitao-tzough.webp",
     "cardical": "assets/books/spacetheft/a-lenda-da-aurora/characters/cardical.webp",
+    "dekraazianos": "assets/books/spacetheft/a-lenda-da-aurora/characters/dekraazianos.webp",
     "domongo": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo-conceito-01.webp",
     "engenheira": "assets/books/spacetheft/a-lenda-da-aurora/characters/engenheira.webp",
     "eric": "assets/books/spacetheft/a-lenda-da-aurora/characters/eric.webp",

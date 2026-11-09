@@ -1350,12 +1350,12 @@
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-eterea.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Mapas/Mapa de Etérea.png",
-      "sourceSha256": "e00911c6b511a5a0e1f908b95eeec8221aca750bff261688cbf71a9916185fbe"
+      "sourceSha256": "ee091648b33d6cba35675137becbae92810e0071fd1e3f7087295ac099ee4894"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map-nadirion.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Mapas/Mapa de Nadirion (Floresta de Mirval).png",
-      "sourceSha256": "6f6cf53d68918517e425070fd75c8ee758c6abe5442fa0f7f82f4724e46a31f5"
+      "sourceSha256": "9aee727e3b1c0468db8e3282f6129b674f567316ba875ecd9bbdc484465fb3ee"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/bosques-de-arion.webp",
@@ -1470,7 +1470,7 @@
     {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/glenda.webp",
       "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Glenda.png",
-      "sourceSha256": "c8006395cc6d3e9b94cc68ee5ecee08691b1bafc2bf9d2944277a8c1410271ea"
+      "sourceSha256": "492a69e8f6a8f4c44bc978b4dd29f329aeed95a3ce2c851b4457af55cd90bbf9"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/jason.webp",
@@ -1638,6 +1638,11 @@
       "sourceSha256": "2b96fa06926e5f2694a0bf7d93b3aa622692402541f644b1b12a1c397d44a091"
     },
     {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/dekraazianos.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Dekraazianos.png",
+      "sourceSha256": "bb3d348f92019b48c53533bd9398acafdbaef51d876a9c2fd0a64236a363925f"
+    },
+    {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo-conceito-01.webp",
       "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Domongo - conceito 01.png",
       "sourceSha256": "ae28654b4390feef7b85a683cd6fc8eaf7c5d0b694e04f43a592456259050350"
@@ -1705,7 +1710,7 @@
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/cover.webp",
       "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capas/Spacetheft - A Lenda da Aurora.png",
-      "sourceSha256": "469a7fd7f228a2334bb9dadef8be68ba645560cc14b7cb378161d01a4cff415d"
+      "sourceSha256": "ba3e93746fcb424b80e8d25761293a85912959f49040e6f8b1823795159fc92e"
     },
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/gerbe.webp",
@@ -1713,9 +1718,124 @@
       "sourceSha256": "1a570385eb55860675213347e664e76e1d4ae7b50fde8ec1a2ce1c11046844ce"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-01.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/01 - A Luz na Escuridão.png",
+      "sourceSha256": "66141519ec5ecb2ecce75f6e96154efbacd8f15ab823cf9e2c1e1f8b88510668"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-02.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/02 - O Convite do Velho-Sábio.png",
+      "sourceSha256": "173ed706bdd9527c7e0365919bcc3afd17a9e08542732da8f3586c8fd33d9773"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-03.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/03 - A Quarta Dimensão.png",
+      "sourceSha256": "137a3f930463f0427f3dcbec75f49d7feecf167b580dd9c049f5eb3d7e3d8b0a"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-04.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/04 - Magia Arcana.png",
+      "sourceSha256": "d7a950e559a828de2d68c8513ea41255c1bcbabbcea6f29c35a784398cb80242"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-05.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/05 - Ondas de Harmonia.png",
+      "sourceSha256": "c1ec0be45e7a04f13346199c846d21ab65f9e8eded0a59ba74631728f5d3541c"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-06.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/06 - O Mago Negro.png",
+      "sourceSha256": "1e531fb9276c219c97e0b612fbfd51ac08acd0f9887e3015ae250678c8ab32f5"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-07.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/07 - A Dança do Fogo e do Metal.png",
+      "sourceSha256": "216d2be12d7c9184850fb2a87713f50168e4d1b76578c85251e26d82b2280043"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-08.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/08 - A Estrada Cintilante.png",
+      "sourceSha256": "083156a7d8e52f3b215f88d9f52f8d91837978e2590b3e235c27d0a5aa852fea"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-09.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/09 - O Rio Celeste.png",
+      "sourceSha256": "ab22fad79478791d9ba1fba91a4d748f0844487fb3b48616d0718b418fca6d7c"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-10.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/10 - O Tornado do Mago Branco.png",
+      "sourceSha256": "674318b1a000b5cf411cad0658e642dd81b862c2b158a10667a67fdb73c1c142"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-11.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/11 - A Sociedade de Tayo.png",
+      "sourceSha256": "161bdfe117e109ff03e176d2a3123c1aa73592dd50a93d93ea98e3c04046ee88"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-12.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/12 - O Último Desafio.png",
+      "sourceSha256": "5ef48e1ef08de8420c31f0556b3ebf841bf1d54b9170d13cc8f1ff7c33d6a876"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-13.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/13 - Turbilhão sobre Pilares.png",
+      "sourceSha256": "83aa8f11b64fb7cd4cd3d1688f0f51625a681e68fb4fe10c8874fb1b91d562d9"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-14.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/14 - O Ateliê das Estrelas.png",
+      "sourceSha256": "6b6c3fccd5f035c2f0fe7a49cad76636a9f18ec7c61a179cfb9ac23bf613feff"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-15.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/15 - O Festival das Luzes e das Sombras.png",
+      "sourceSha256": "6d168405fd0a04765585f06fe15e17ac2310695b5157503938ff27464d30f5f1"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-16.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/16 - Os Devaneios de Ricochet Bombergue.png",
+      "sourceSha256": "b5ef7c5190937844cf6c38d653af33e86583c43b3804cca94729a18cf95d1a7d"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-17.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/17 - Dentro da Escuridão.png",
+      "sourceSha256": "c24270f8cf9a53e9038e660b1f3e1221c7b650ad850ea71be696b3abcd99251e"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-18.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/18 - A Patrulha de Korvo.png",
+      "sourceSha256": "340df0b1050b662f71f61caebf4a34522e60886f9d0666929638695055c0b947"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-19.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/19 - O Sepulcro dos Esquecidos.png",
+      "sourceSha256": "0b3fd8dc24b9dc134b64baae4d0574e29c4a229c8be7f4bf8c5584ee9057dec0"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-20.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/20 - O Covil de Korvo.png",
+      "sourceSha256": "aef4e4f74ef4d3b322d3554d003880a379023a29d8af58ed87afea980c0d937c"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-21.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/21 - O Tribunal das Sombras.png",
+      "sourceSha256": "50c3e757014ec34abf4e58afce2305fcda1db4e6240f16394451d0e31d6731ed"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/chapters/chapter-22.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capitulos/22 - A Árvore da Vigília.png",
+      "sourceSha256": "3264950252486873c9a7f4d4287619218327540f0a2893941c2b2bb118f0a490"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/anasin.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Anasin.png",
       "sourceSha256": "6a687cf8afc59937e0dcd271f90478e26b3688640bd15915578c4bd7c59342ef"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/atila.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Átila.png",
+      "sourceSha256": "e4908bb97e524e47c374fab67737276c28c5c3ec57a9298f3cac54cf28eb5a1b"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/banjo-lins.webp",
@@ -1726,6 +1846,11 @@
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/beatriz-lins.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Beatriz Lins.png",
       "sourceSha256": "9806aec923eb510ad64cf9174d5e8127333b959ddc4001e36ec6012f27c17e31"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/brenda-koraveli.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Brenda Koraveli.png",
+      "sourceSha256": "38fae09b5aa8412d0b0caaaad619e6a1717235160cec90855c7bf9f6d1495323"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/breno-lins.webp",
@@ -1753,6 +1878,16 @@
       "sourceSha256": "2a83959f506954b80d7faed6a1ff45aaee501bf0ebe2c23e0fbf3f9b9bd0df74"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/erla-digan.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Erla Digan.png",
+      "sourceSha256": "d3dfddf335e8014d6dbd4ada0889b246342f10c5e9e10ed4b584e2f6b022b38d"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/eshley.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Eshley.png",
+      "sourceSha256": "313a522599a04dae2362443cd08ba72c1e0fe2c9c14fef420c6973fd2fec90e0"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/faka.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Faka.png",
       "sourceSha256": "02e9fe11510d66cd4f4bc48c3214ecd2cd3daf91086bc5eacb8e31a1a9d567f2"
@@ -1768,9 +1903,24 @@
       "sourceSha256": "d0ea13f00c9f13ff76aa63f67fe4656c74447a19f843d37715a836df3fc17d46"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/ferris-montfort.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Ferris Montfort.png",
+      "sourceSha256": "5e8ed77d2b0bbe2cdc6eb9697463d4baa1fe814ade1471a9583c24207b1260da"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/gabrielle-lins.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Gabrielle Lins.png",
       "sourceSha256": "bd1d525be4121092e04042d856d08651d4b82c1456ca53ba8f1a058d7bee57dc"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/garien.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Garien.png",
+      "sourceSha256": "bdd9b1ebf3b5b518eea7a9beefac937a0a99e199c4cb5d573cec89abd7fb39ac"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/garmande-koraveli.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Garmande Koraveli.png",
+      "sourceSha256": "697a408739a6f6c8a565be9222f08681af945f8f3a25d585c8554eedaf02915e"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/grande-pai-gaia.webp",
@@ -1793,6 +1943,11 @@
       "sourceSha256": "e1100806aa54e2b1fc938fb7c08b780a58fa3058b3e7eaffe93f0d377cab02e9"
     },
     {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/karoli-morger.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Karoli Morger.png",
+      "sourceSha256": "19f5e06de130e024939737b87271078f2da8a340f0032d0eeba2418f42188c03"
+    },
+    {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/korvo.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Korvo.png",
       "sourceSha256": "9d12c19c34b64d7cfd5511212623f2d640ab8efde3e43407d4a07a478800a24a"
@@ -1806,6 +1961,16 @@
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/laridas-celestes.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Láridas Celestes.png",
       "sourceSha256": "3d8671f80cd01b4b54f74ba780838f4ced44593fc1049a71d2af8b8cb3b31c4b"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/lioro.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Lioro.png",
+      "sourceSha256": "9a1055259a9533fb4fc24d87307e8abee2a945fc76e2be7970c05ebb56e4a2f9"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/lucan-veline.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Lucan Veline.png",
+      "sourceSha256": "16e44cd66f2b5201c0d278ab9a438b3ade6b53c202adb30c629a9bdaab5448bc"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/maria-santoro.webp",
@@ -1836,6 +2001,11 @@
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/saliens.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Saliens.png",
       "sourceSha256": "2f4ca0866ef35ba85e5218f6e8755c798e9ebf0a754d046f71d3a99205cd65bb"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/serafira-dalmora.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Personagens/Serafira Dalmora.png",
+      "sourceSha256": "725d61f27c03e412157978518c108ceac1fd0753a46e748af4de88334543c24f"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/seti.webp",
@@ -1880,7 +2050,17 @@
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/cover.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capas/Viajantes 1 Capa - Portal Circular.png",
-      "sourceSha256": "d3ca9cae719c81925199b942ef8e7d8b1750b441c7edd0ac44bce5755f03d768"
+      "sourceSha256": "6cbec2ea276bcf696d13c3999b3ba1cdde7e511e0cb25ac4364b82cda0c183f6"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/gallery/dassi.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Objetos/Dassi.png",
+      "sourceSha256": "cdfe74467c4f428dc5d46d6e168f163057f488712b141ae4c1aa685d3cd038bb"
+    },
+    {
+      "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/gallery/estirio.webp",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Objetos/Estírio.png",
+      "sourceSha256": "22fa812670f929e94d36a9f5811245127c3c183287d66a3793fef97d00c3ffd4"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/places/atelie-das-estrelas.webp",
@@ -2065,17 +2245,17 @@
     {
       "sitePath": "assets/branding/a-lenda-da-aurora/logo-color.webp",
       "sourcePath": "Spacetheft/98 - Assets Gerais/Logos/Serie/Spacetheft - colorido.png",
-      "sourceSha256": "782ca1c7cbae69f3cb9a83bc6522906896d40d3497a3ff8546b0f9eaffa46d85"
+      "sourceSha256": "8716536f5cb56f9d8e54538f69d7c94cd9e56f394f898c58cf5794fd56986349"
     },
     {
       "sitePath": "assets/branding/a-lenda-da-aurora/logo-dark.webp",
       "sourcePath": "Spacetheft/98 - Assets Gerais/Logos/Serie/Spacetheft - preto.png",
-      "sourceSha256": "5c3cfe4ac39b0698170804a9f67d9c7db3433fbc2e5565c6a42a5589ee8fa8f6"
+      "sourceSha256": "a1ff45eebdd83483d1a7ad673e28176924cf606e67f7c5543e739a3beb378e89"
     },
     {
       "sitePath": "assets/branding/a-lenda-da-aurora/logo-light.webp",
       "sourcePath": "Spacetheft/98 - Assets Gerais/Logos/Serie/Spacetheft - branco.png",
-      "sourceSha256": "91762617c698bbae940515cbcbe34cf08b9ae4df02914a70037fcde0b5e0aca6"
+      "sourceSha256": "ce16eec7e9c953032030f4069363f9bbac9e8b9980112ea1bac6820db23f9ef9"
     },
     {
       "sitePath": "assets/branding/a-patrulha-de-korvo/logo-dark.webp",
@@ -2240,7 +2420,7 @@
     {
       "sitePath": "assets/shared/reference/mapa-de-et-rea.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Mapas/Mapa de Etérea.png",
-      "sourceSha256": "e00911c6b511a5a0e1f908b95eeec8221aca750bff261688cbf71a9916185fbe"
+      "sourceSha256": "ee091648b33d6cba35675137becbae92810e0071fd1e3f7087295ac099ee4894"
     }
   ],
   "siteOnly": [
@@ -2278,6 +2458,16 @@
     "assets/books/spacetheft/a-lenda-da-aurora/contemplative/ship-v1.webp",
     "assets/books/spacetheft/a-lenda-da-aurora/contemplative/space-v1.webp",
     "assets/books/spacetheft/a-lenda-da-aurora/contemplative/window-v1.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/brenda.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/erla-diggs.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/eshley-damaris.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/ferris-cotton.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/garmand.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/gary.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/karol.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/leon.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/lucas-veline.webp",
+    "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/seraphina.webp",
     "assets/shared/reference/alianca-contra-kaendar.webp",
     "assets/shared/reference/ash-sprite-01.webp",
     "assets/shared/reference/ash-sprite-02.webp",
