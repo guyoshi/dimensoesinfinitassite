@@ -1704,7 +1704,7 @@
     },
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/cover.webp",
-      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capas/Spacetheft 1 Capa.png",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capas/Spacetheft - A Lenda da Aurora.png",
       "sourceSha256": "469a7fd7f228a2334bb9dadef8be68ba645560cc14b7cb378161d01a4cff415d"
     },
     {
@@ -2104,37 +2104,37 @@
     },
     {
       "sitePath": "assets/branding/a-alvorada-das-ilusoes/logo-dark.webp",
-      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Logos/Titulo/A Alvorada das Ilusões - preto.png",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Logos/A Alvorada das Ilusões - preto.png",
       "sourceSha256": "0042d58ea7c4cd6d0509cb639a99a95aec8e82529390a20870def472513db1cb"
     },
     {
       "sitePath": "assets/branding/a-alvorada-das-ilusoes/logo-light.webp",
-      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Logos/Titulo/A Alvorada das Ilusões - branco.png",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Logos/A Alvorada das Ilusões - branco.png",
       "sourceSha256": "60b07243f3ec79e68ef651b0962e1ae84d1014a3c2e382a79f19921da2b54797"
     },
     {
       "sitePath": "assets/branding/a-lenda-da-aurora/logo-color.webp",
-      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Logos/Titulo/A Lenda da Aurora - colorido.png",
+      "sourcePath": "Spacetheft/98 - Assets Gerais/Logos/Serie/Spacetheft - colorido.png",
       "sourceSha256": "782ca1c7cbae69f3cb9a83bc6522906896d40d3497a3ff8546b0f9eaffa46d85"
     },
     {
       "sitePath": "assets/branding/a-lenda-da-aurora/logo-dark.webp",
-      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Logos/Titulo/A Lenda da Aurora - preto.png",
+      "sourcePath": "Spacetheft/98 - Assets Gerais/Logos/Serie/Spacetheft - preto.png",
       "sourceSha256": "5c3cfe4ac39b0698170804a9f67d9c7db3433fbc2e5565c6a42a5589ee8fa8f6"
     },
     {
       "sitePath": "assets/branding/a-lenda-da-aurora/logo-light.webp",
-      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Logos/Titulo/A Lenda da Aurora - branco.png",
+      "sourcePath": "Spacetheft/98 - Assets Gerais/Logos/Serie/Spacetheft - branco.png",
       "sourceSha256": "91762617c698bbae940515cbcbe34cf08b9ae4df02914a70037fcde0b5e0aca6"
     },
     {
       "sitePath": "assets/branding/a-patrulha-de-korvo/logo-dark.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Logos/Titulo/A Patrulha de Korvo - preto.png",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Logos/A Patrulha de Korvo - preto.png",
       "sourceSha256": "695db87c8f5ad7e85978518dc7987a25c3ce6762f4813399f84a6c6b17030b82"
     },
     {
       "sitePath": "assets/branding/a-patrulha-de-korvo/logo-light.webp",
-      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Logos/Titulo/A Patrulha de Korvo - branco.png",
+      "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Logos/A Patrulha de Korvo - branco.png",
       "sourceSha256": "b9adb9ba50da03a3ef51f7e6d1716e806a454e4f1eeb0478eea0ff0c652c7abe"
     },
     {
@@ -2214,12 +2214,12 @@
     },
     {
       "sitePath": "assets/branding/os-elos-das-sombras/logo-dark.webp",
-      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Logos/Titulo/Os Elos das Sombras - preto.png",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Logos/Os Elos das Sombras - preto.png",
       "sourceSha256": "ffd01bce63bd5862504814f2d5277ff750fee0776d46fbd606044231b14033f6"
     },
     {
       "sitePath": "assets/branding/os-elos-das-sombras/logo-light.webp",
-      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Logos/Titulo/Os Elos das Sombras - branco.png",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Logos/Os Elos das Sombras - branco.png",
       "sourceSha256": "28285c9210d43113e2e0b2b2bae48f94aff861d6d2cb0981e2a4c3f72e1e212c"
     },
     {
