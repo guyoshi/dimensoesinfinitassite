@@ -319,5 +319,38 @@ window.DI_BOOK.places = [
     "sources": [
       "Capítulo 10"
     ]
+  },
+  {
+    "slug": "templo-dos-polvoides",
+    "name": "Templo dos Polvoides",
+    "subtitle": "Templo",
+    "type": "Templo",
+    "region": "Planeta do Domongo",
+    "summary": "Templo no mundo de névoa roxa onde Jasmey enfrenta o Domongo para recuperar seu olho.",
+    "sources": [
+      "Capítulo 1"
+    ]
+  },
+  {
+    "slug": "asteroide-de-benzeno",
+    "name": "Asteroide de Benzeno",
+    "subtitle": "Área de extração",
+    "type": "Asteroide",
+    "region": "Rota da Afrélia",
+    "summary": "Asteroide perfurado pela equipe da Afrélia, onde o líquido identificado como água revela-se benzeno e provoca a explosão da missão.",
+    "sources": [
+      "Capítulo 4"
+    ]
+  },
+  {
+    "slug": "enfermaria-lebargan",
+    "name": "Enfermaria da Lebargan",
+    "subtitle": "Câmara de cura",
+    "type": "Enfermaria",
+    "region": "Lebargan",
+    "summary": "Área médica e câmara de cura da nave-cidade Lebargan.",
+    "sources": [
+      "Capítulo 22"
+    ]
   }
 ];

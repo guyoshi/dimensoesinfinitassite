@@ -1673,6 +1673,116 @@
       "sourceSha256": "b09639f1ed3f518ae7031a67e9c14a8320290e9d0bec47092eb1efb4764ae62c"
     },
     {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-01.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/01 - Eu sou a Lenda.png",
+      "sourceSha256": "def4a3e63b52e6121b8a36a7235999a3acebec818cc70a22f78bfe799d9c7da4"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-02.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/02 - Olho por Olho.png",
+      "sourceSha256": "ff12b9c71e4dddb58f1b73464039bfe639c0649327b41b003a584c251ee21d1b"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-03.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/03 - A Jornada de um Dale.png",
+      "sourceSha256": "42f098cc80a35e0ff685ef85d646eea330c4eba86d8c756f364672c87c937aa1"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-04.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/04 - Grandes heróis fazem escolhas difíceis.png",
+      "sourceSha256": "d165fe9ca41d0a9c39fe5923e879b39a56b0522ee28d0083af547fd2947b9b5f"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-05.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/05 - O começo do fim.png",
+      "sourceSha256": "b168f26ef04d5e479644214d709b47f93a388cb561a165870b87afd0c1bfcc84"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-06.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/06 - De Encontro com a Morte.png",
+      "sourceSha256": "76df4c0645953a678c68b46b0051d2cca4bb020343217934cc9d7a76c4154621"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-07.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/07 - A Mão Ajudante de uma Cientista.png",
+      "sourceSha256": "4557f2392ef26c37b08a2139add3e80259d343c691dd9047e7ae0cbaf65bf80e"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-08.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/08 - Prisioneiro da Terra.png",
+      "sourceSha256": "1246989a61891213bdbbed9f1d10699019ee0d1f84e6e4eb1b2c24535d52ded8"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-09.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/09 - A Fera Indomável.png",
+      "sourceSha256": "4dd1573143e5d0ab22ad2d4b8efd86909041391cec3720c9c889d2a44d098c61"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-10.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/10 - O Senhor das Vórtices.png",
+      "sourceSha256": "80ca9d82444243e1d5db0f215f60636cc89dfeec6d07dabdfbbc1fed3864e0af"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-11.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/11 - Uma Batalha Gravitacional.png",
+      "sourceSha256": "11c2b8578f57a775f814bd0c1608b2d11c07fc404a7d413db9ba72c5990a4435"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-12.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/12 - A Fuga dos Piratas Ambiciosos.png",
+      "sourceSha256": "c7db314425a3424545d52529f87368a6622efd904ea7ad58331b76c851a991c9"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-13.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/13 - O Paraíso dos Prazeres.png",
+      "sourceSha256": "ee0c977832b2d9432af09937d420468d5aa903057920949e9b42226eb1e1f979"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-14.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/14 - Sem Coração e Sem-Cabeça.png",
+      "sourceSha256": "8d3caf257ae03874bc6a54ee1c8063403ea3116eefb63d1c3e4c3c51f1c4ec2c"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-15.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/15 - No Ritmo da Morte.png",
+      "sourceSha256": "708de685e718b090c9166bbcf83d057719c03acdb3ed9abb37bc07fe8ddd7966"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-16.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/16 - A Princesa do Inverno.png",
+      "sourceSha256": "e477af183695df23d60378193063c3d0c8b9b6e4db5c8b98a98c8913137e5bba"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-17.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/17 - Da Luz às Trevas.png",
+      "sourceSha256": "f049d92fc4ab997e6f0bd3dd42681f85b1b8473968d8b915da1b121cc2e9c9b9"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-18.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/18 - O Oitavo Passageiro.png",
+      "sourceSha256": "25c00c76fb38b090c45492aef8c0a3c590a2f6b7702a5fdb94d5c2760378147d"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-19.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/19 - O Tesouro da Anã Branca.png",
+      "sourceSha256": "17083351b3e977f7926de67e9be07fd27ef079b5c54e0fe5e66517b4e77bd878"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-20.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/20 - A Verdadeira Aurora.png",
+      "sourceSha256": "111184acaa6ff0dbf5839f2634f421371e25f9d3fb5484f5383e18290b6795b2"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-21.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/21 - Testemunhando o Horizonte de Eventos.png",
+      "sourceSha256": "19f43c5bbbd8a621822b0ac0cdba606b8ee8ed941d370c14559e8e6c30092b00"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-22.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capitulos/22 - O Alvorecer da Vida e da Morte.png",
+      "sourceSha256": "7e215f3a0ee56bc0535c5cbd57d595a40c9a6d3d37ededb7ca125f9d03100658"
+    },
+    {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/a-besta.webp",
       "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/A Besta.png",
       "sourceSha256": "6d4b5ee3f2ff97eaccf647ccaabe780458363cc541f34240207807b646600c48"
@@ -1713,9 +1823,9 @@
       "sourceSha256": "bb3d348f92019b48c53533bd9398acafdbaef51d876a9c2fd0a64236a363925f"
     },
     {
-      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo-conceito-01.webp",
-      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Domongo - conceito 01.png",
-      "sourceSha256": "ae28654b4390feef7b85a683cd6fc8eaf7c5d0b694e04f43a592456259050350"
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Personagens/Domongo.png",
+      "sourceSha256": "9966bc1128ad57553f8fcbacca5f97261c76f9cd67871da4dcb14b62598e3e6e"
     },
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/characters/engenheira.webp",
@@ -1808,11 +1918,6 @@
       "sourceSha256": "b616ab375a04a44ed7bec31343e47c47c98c2fa5ed16834d71be470c78bb655f"
     },
     {
-      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura-old-capita-grande.webp",
-      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/06 - Lebargan - Enfermaria e Câmara de Cura - old capitã grande.png",
-      "sourceSha256": "bbc8ff6ef0a74e5f7a9537079115097554b67ddc727b915b2ffdc882f693f043"
-    },
-    {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura.webp",
       "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/06 - Lebargan - Enfermaria e Câmara de Cura.png",
       "sourceSha256": "feb86a1cd8dbdb645cffc591ca946863e82ce1455e162e77843d45d323b8c1a6"
@@ -1831,11 +1936,6 @@
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/09-dekraaz-jardim-bioluminescente.webp",
       "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/09 - Dekraaz - Jardim Bioluminescente.png",
       "sourceSha256": "e6eefefc7d006b60c146f9490681e40cc20df5027ecf2ca001d8c8e11d85a170"
-    },
-    {
-      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca-old-placa-incorreta.webp",
-      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/10 - Sumatram - Bar Sem-Cabeça - old placa incorreta.png",
-      "sourceSha256": "8c7b2816d1e7c8af852bf8b479cc494f76e4e85423ea8b0d2c40c3b35441912a"
     },
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca.webp",

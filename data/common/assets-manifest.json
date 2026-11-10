@@ -3,7 +3,7 @@
   "updatedAt": "2026-11-10",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 572,
+  "count": 592,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
@@ -4146,16 +4146,6 @@
       "sha256": "4711beb8349b3fcac9bf448b453ee04a84f0cd81fd7b5ca74619324ef3c48921"
     },
     {
-      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo-conceito-01.webp",
-      "filename": "domongo-conceito-01.webp",
-      "category": "books/spacetheft/a-lenda-da-aurora/characters",
-      "extension": ".webp",
-      "width": 1024,
-      "height": 1536,
-      "sizeBytes": 245302,
-      "sha256": "6f0d54f4598289d6cd9bc07363db82a12ec772bcd3c1396fe816ffbbb1785000"
-    },
-    {
       "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/engenheira.webp",
       "filename": "engenheira.webp",
       "category": "books/spacetheft/a-lenda-da-aurora/characters",
@@ -5646,16 +5636,6 @@
       "sha256": "bc7c33bfc1a3e546dc8597de894cc99848d005338340273f3ae837bcacd677b2"
     },
     {
-      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura-old-capita-grande.webp",
-      "filename": "06-lebargan-enfermaria-e-camara-de-cura-old-capita-grande.webp",
-      "category": "books/spacetheft/a-lenda-da-aurora/places",
-      "extension": ".webp",
-      "width": 1672,
-      "height": 941,
-      "sizeBytes": 481052,
-      "sha256": "75414e5d8b277bed275959e38904bcd123c46830444e7cc72c7aecf0ba0a14ca"
-    },
-    {
       "path": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura.webp",
       "filename": "06-lebargan-enfermaria-e-camara-de-cura.webp",
       "category": "books/spacetheft/a-lenda-da-aurora/places",
@@ -5696,16 +5676,6 @@
       "sha256": "64c66cac9cb433565177c5dba5a7c0e639907544f5dcb7efe354f6ed5beec195"
     },
     {
-      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca-old-placa-incorreta.webp",
-      "filename": "10-sumatram-bar-sem-cabeca-old-placa-incorreta.webp",
-      "category": "books/spacetheft/a-lenda-da-aurora/places",
-      "extension": ".webp",
-      "width": 1672,
-      "height": 941,
-      "sizeBytes": 508040,
-      "sha256": "dba99c04df6cd0f7d4b68d836526de95b45914883f792e2d05749fe83decc52c"
-    },
-    {
       "path": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca.webp",
       "filename": "10-sumatram-bar-sem-cabeca.webp",
       "category": "books/spacetheft/a-lenda-da-aurora/places",
@@ -5724,6 +5694,236 @@
       "height": 941,
       "sizeBytes": 561756,
       "sha256": "e9a3c0c478f15ed3f35abf4db85beaf8f4156c6bc6143c2448b43f31690fdea4"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-01.webp",
+      "filename": "chapter-01.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 456976,
+      "sha256": "37bf5200f86f9f36673345a2cb379d16329fbd27d34798673ae925d8774ca11c"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-02.webp",
+      "filename": "chapter-02.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 462342,
+      "sha256": "bc2afec1934a68adfd5b3923da995fac1b1cc9e4f51c42fe5c9656353e602f98"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-03.webp",
+      "filename": "chapter-03.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 382218,
+      "sha256": "41b78a518bb81c80a4befc729a6929ffe6cc1a3beedcf39dca8e8967008aeda7"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-04.webp",
+      "filename": "chapter-04.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 605324,
+      "sha256": "30b2c3595a568d5987f81313004434e2f7f81ca46237068e999190acf447b1d8"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-05.webp",
+      "filename": "chapter-05.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 432636,
+      "sha256": "df403a4e1f8ab9eb0bff78ba82b4590e9a808ad1dc412ce057caaecea35645fc"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-06.webp",
+      "filename": "chapter-06.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 380668,
+      "sha256": "64d980f9efc40dee12c9127deafc876cd6ee2c3dfc5f3f835ecaca37af1d3164"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-07.webp",
+      "filename": "chapter-07.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 515528,
+      "sha256": "5de39749e4e68b026b0e35b72a14b49f9219c932e55f4af74f0eed7b51c7cd32"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-08.webp",
+      "filename": "chapter-08.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 592490,
+      "sha256": "42a199377ca499329b34e85e405ff6845a3a14128e90b5a8a780de03bc4d2b15"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-09.webp",
+      "filename": "chapter-09.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 415610,
+      "sha256": "e1c3df881c19c045bfb9c0f7f37cecd8eb79cb729e744006742d980b35e522c8"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-10.webp",
+      "filename": "chapter-10.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 533040,
+      "sha256": "1aa750653f0453ecaaec06f92d1d9c9aaf346281020f1e1951a2e9fe2fff5f91"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-11.webp",
+      "filename": "chapter-11.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1670,
+      "height": 942,
+      "sizeBytes": 451080,
+      "sha256": "c328f6cf73924550e9cc8a86374f9e710622a23764b8351ae50956ba080df4ca"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-12.webp",
+      "filename": "chapter-12.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 499214,
+      "sha256": "7ec7c7440681c56858a7e9208b001dbb21b9d6ec615a22f9b2a17651faf5ae38"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-13.webp",
+      "filename": "chapter-13.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 603146,
+      "sha256": "77d50416cb241ac02e25128d83e01684a2e7b97dde43a5ece1dc9d66aaa0872f"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-14.webp",
+      "filename": "chapter-14.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 457992,
+      "sha256": "2dfe16b830c9ab34f66a38e0b21f03d03c35f55c27242217c88449bc86d0b7e1"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-15.webp",
+      "filename": "chapter-15.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 464782,
+      "sha256": "cf0c8a3146165682d75aa455506fbb3b99c0499592972b5ebc05f79bd4618f93"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-16.webp",
+      "filename": "chapter-16.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1671,
+      "height": 941,
+      "sizeBytes": 560822,
+      "sha256": "2caaa961c923bcf3c795b6844ab2d6bbf6c837e55c2d9c2396c9b6b50544b5f8"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-17.webp",
+      "filename": "chapter-17.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 188530,
+      "sha256": "6e83a153918a42788b7a74bfaae5734bcf3ea6406c255ad0cf30f9fafb397c0a"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-18.webp",
+      "filename": "chapter-18.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 371420,
+      "sha256": "3f492994d0ed3117aed464cffed8a0c2fa0661ff7202293b9891c4dd57d46ce9"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-19.webp",
+      "filename": "chapter-19.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 339778,
+      "sha256": "d52146ffc497d5508f2ce3265a1b631793a25f517e36bf76495a8c04c05eb193"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-20.webp",
+      "filename": "chapter-20.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 421832,
+      "sha256": "bbef30db4b04588fc11bee66d46ed8326a8967c214eab3a160003a3c607269a1"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-21.webp",
+      "filename": "chapter-21.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 457378,
+      "sha256": "2b3267c4d8daad568314bd930f2d853cecab5208ef241ef31817fb73d8aeace9"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-22.webp",
+      "filename": "chapter-22.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 414478,
+      "sha256": "f7cf5b926b33bfced85c9af643419bd2c188385d7964b18841087d347fef604f"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo.webp",
+      "filename": "domongo.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 433812,
+      "sha256": "8d0277aa51a13c9bdafaba6940f35f73db74dc2033d23b824b4b7299d11d7112"
     }
   ]
 }

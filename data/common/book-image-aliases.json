@@ -2,12 +2,22 @@
   "spacetheft/a-lenda-da-aurora": {
     "characters": {
       "capitao-tzough": "tzough",
-      "domongo-conceito-01": "domongo",
       "luna-stellar": "luna",
       "o-reilly": "oreilly"
     },
     "places": {
-      "gerbe": "aurora"
+      "gerbe": "aurora",
+      "02-lebargan-salao-do-conselho": "lebargan",
+      "03-lebargan-doca-da-popa": "doca-lebargan",
+      "05-lebargan-salao-central": "salao-central",
+      "07-lebargan-sala-do-capitao-jelles": "torre-belzetar",
+      "08-lebargan-ponte-entre-coreste-e-poderosa-desenir": "coreste",
+      "09-dekraaz-jardim-bioluminescente": "dekraaz",
+      "10-sumatram-bar-sem-cabeca": "bar-sem-cabeca",
+      "11-princesa-do-inverno-cabine-de-comando": "princesa-do-inverno",
+      "01-domongo-templo-dos-polvoides": "templo-dos-polvoides",
+      "04-asteroide-de-benzeno-area-de-extracao": "asteroide-de-benzeno",
+      "06-lebargan-enfermaria-e-camara-de-cura": "enfermaria-lebargan"
     },
     "ignore": []
   },

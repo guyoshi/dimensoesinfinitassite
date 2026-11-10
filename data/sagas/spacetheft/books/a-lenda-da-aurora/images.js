@@ -1,7 +1,30 @@
 /* Gerado por scripts/sync_book_assets.py — não editar à mão. */
 window.DI_BOOK = window.DI_BOOK || {};
 window.DI_BOOK.images = {
-  "chapters": {},
+  "chapters": {
+    "1": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-01.webp",
+    "2": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-02.webp",
+    "3": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-03.webp",
+    "4": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-04.webp",
+    "5": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-05.webp",
+    "6": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-06.webp",
+    "7": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-07.webp",
+    "8": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-08.webp",
+    "9": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-09.webp",
+    "10": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-10.webp",
+    "11": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-11.webp",
+    "12": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-12.webp",
+    "13": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-13.webp",
+    "14": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-14.webp",
+    "15": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-15.webp",
+    "16": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-16.webp",
+    "17": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-17.webp",
+    "18": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-18.webp",
+    "19": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-19.webp",
+    "20": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-20.webp",
+    "21": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-21.webp",
+    "22": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-22.webp"
+  },
   "characters": {
     "besta": "assets/books/spacetheft/a-lenda-da-aurora/characters/a-besta.webp",
     "alekta": "assets/books/spacetheft/a-lenda-da-aurora/characters/alekta.webp",
@@ -11,7 +34,7 @@ window.DI_BOOK.images = {
     "tzough": "assets/books/spacetheft/a-lenda-da-aurora/characters/capitao-tzough.webp",
     "cardical": "assets/books/spacetheft/a-lenda-da-aurora/characters/cardical.webp",
     "dekraazianos": "assets/books/spacetheft/a-lenda-da-aurora/characters/dekraazianos.webp",
-    "domongo": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo-conceito-01.webp",
+    "domongo": "assets/books/spacetheft/a-lenda-da-aurora/characters/domongo.webp",
     "engenheira": "assets/books/spacetheft/a-lenda-da-aurora/characters/engenheira.webp",
     "eric": "assets/books/spacetheft/a-lenda-da-aurora/characters/eric.webp",
     "genrir": "assets/books/spacetheft/a-lenda-da-aurora/characters/genrir.webp",
@@ -26,73 +49,18 @@ window.DI_BOOK.images = {
     "vivian": "assets/books/spacetheft/a-lenda-da-aurora/characters/vivian.webp"
   },
   "places": {
+    "templo-dos-polvoides": "assets/books/spacetheft/a-lenda-da-aurora/places/01-domongo-templo-dos-polvoides.webp",
+    "lebargan": "assets/books/spacetheft/a-lenda-da-aurora/places/02-lebargan-salao-do-conselho.webp",
+    "doca-lebargan": "assets/books/spacetheft/a-lenda-da-aurora/places/03-lebargan-doca-da-popa.webp",
+    "asteroide-de-benzeno": "assets/books/spacetheft/a-lenda-da-aurora/places/04-asteroide-de-benzeno-area-de-extracao.webp",
+    "salao-central": "assets/books/spacetheft/a-lenda-da-aurora/places/05-lebargan-salao-central.webp",
+    "enfermaria-lebargan": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura.webp",
+    "torre-belzetar": "assets/books/spacetheft/a-lenda-da-aurora/places/07-lebargan-sala-do-capitao-jelles.webp",
+    "coreste": "assets/books/spacetheft/a-lenda-da-aurora/places/08-lebargan-ponte-entre-coreste-e-poderosa-desenir.webp",
+    "dekraaz": "assets/books/spacetheft/a-lenda-da-aurora/places/09-dekraaz-jardim-bioluminescente.webp",
+    "bar-sem-cabeca": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca.webp",
+    "princesa-do-inverno": "assets/books/spacetheft/a-lenda-da-aurora/places/11-princesa-do-inverno-cabine-de-comando.webp",
     "aurora": "assets/books/spacetheft/a-lenda-da-aurora/places/gerbe.webp"
   },
-  "gallery": [
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/01-domongo-templo-dos-polvoides.webp",
-      "title": "01 Domongo Templo Dos Polvoides",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/02-lebargan-salao-do-conselho.webp",
-      "title": "02 Lebargan Salao Do Conselho",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/03-lebargan-doca-da-popa.webp",
-      "title": "03 Lebargan Doca Da Popa",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/04-asteroide-de-benzeno-area-de-extracao.webp",
-      "title": "04 Asteroide De Benzeno Area De Extracao",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/05-lebargan-salao-central.webp",
-      "title": "05 Lebargan Salao Central",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura-old-capita-grande.webp",
-      "title": "06 Lebargan Enfermaria E Camara De Cura Old Capita Grande",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura.webp",
-      "title": "06 Lebargan Enfermaria E Camara De Cura",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/07-lebargan-sala-do-capitao-jelles.webp",
-      "title": "07 Lebargan Sala Do Capitao Jelles",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/08-lebargan-ponte-entre-coreste-e-poderosa-desenir.webp",
-      "title": "08 Lebargan Ponte Entre Coreste E Poderosa Desenir",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/09-dekraaz-jardim-bioluminescente.webp",
-      "title": "09 Dekraaz Jardim Bioluminescente",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca-old-placa-incorreta.webp",
-      "title": "10 Sumatram Bar Sem Cabeca Old Placa Incorreta",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca.webp",
-      "title": "10 Sumatram Bar Sem Cabeca",
-      "type": "Local"
-    },
-    {
-      "src": "assets/books/spacetheft/a-lenda-da-aurora/places/11-princesa-do-inverno-cabine-de-comando.webp",
-      "title": "11 Princesa Do Inverno Cabine De Comando",
-      "type": "Local"
-    }
-  ]
+  "gallery": []
 };

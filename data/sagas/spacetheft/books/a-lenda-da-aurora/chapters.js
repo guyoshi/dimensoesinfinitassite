@@ -14,7 +14,8 @@ window.DI_BOOK.chapters = [
       "domongo"
     ],
     "places": [
-      "lebargan"
+      "lebargan",
+      "templo-dos-polvoides"
     ],
     "details": [
       "O Código dos Dales tem três regras: lendas não deixam testemunhas, obediência ao capitão e instinto pirata; Jasmey as vê em choque entre si.",
@@ -89,6 +90,7 @@ window.DI_BOOK.chapters = [
     "places": [
       "lebargan",
       "afrelia",
+      "asteroide-de-benzeno",
       "prosepina",
       "salao-central"
     ],
@@ -565,6 +567,7 @@ window.DI_BOOK.chapters = [
     ],
     "places": [
       "lebargan",
+      "enfermaria-lebargan",
       "princesa-do-inverno",
       "aurora"
     ],
