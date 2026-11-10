@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 545,
+  "count": 572,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
@@ -5454,6 +5454,276 @@
       "height": 1536,
       "sizeBytes": 338044,
       "sha256": "4bdade5531098658895eb7403ffbfbe3c86a5b71ca560ee812629f8eb7def964"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/bosque-de-arion.webp",
+      "filename": "bosque-de-arion.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 444570,
+      "sha256": "6470fe4a6a3ef26a9ee2198fabe4fba690d2bde5a0b801830f7bab8f4ed56a5d"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/casa-amarea.webp",
+      "filename": "casa-amarea.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/places",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 501218,
+      "sha256": "9cc770f0e59ef54177cfa1289b865505c82cc981f11c4e410addf98613dc8f87"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/nivelia.webp",
+      "filename": "nivelia.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/places",
+      "extension": ".webp",
+      "width": 1448,
+      "height": 1086,
+      "sizeBytes": 415596,
+      "sha256": "90d3926cc2a8291e6315d3dcb773f40c92eda9e879ee7b105827f53e18875f92"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/o-vale.webp",
+      "filename": "o-vale.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/places",
+      "extension": ".webp",
+      "width": 1448,
+      "height": 1086,
+      "sizeBytes": 402024,
+      "sha256": "864f18b014c7e125b383fa3bffb01237daa8d216a3a46037ec5c0acf35b78aaf"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map.webp",
+      "filename": "map.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/maps",
+      "extension": ".webp",
+      "width": 1491,
+      "height": 1055,
+      "sizeBytes": 590032,
+      "sha256": "3e1584fe980290343a9dbd7cae94018c251c6aceb14aded976046d420ee570ae"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/gabasteri.webp",
+      "filename": "gabasteri.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 270012,
+      "sha256": "d509c551191c42be838f553f9f8c5f02ab86a9e3fd526024dc5acaf90a5f3ed1"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/maletar.webp",
+      "filename": "maletar.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 325826,
+      "sha256": "c5a71c1bf9f2acded9777a4996f2c7ff470bb4dba7c38bfa3d6048c40df3c20a"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mariv.webp",
+      "filename": "mariv.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 316708,
+      "sha256": "da87f96b8c20ab890ccbd3c71066f004d70013612c41c7dabe2956d8f1a8bf61"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mirel-versao-alternativa.webp",
+      "filename": "mirel-versao-alternativa.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 265394,
+      "sha256": "d4950470c3d58fe0ecca496ea2a4d1595279ae648b24dce82c19eb39df56dce9"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mirel.webp",
+      "filename": "mirel.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 293516,
+      "sha256": "01e15af03f4d46e438c758fc64f4b3be9b5d49930b133475d2a29c6d5c82e105"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/nuari.webp",
+      "filename": "nuari.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 288582,
+      "sha256": "39712c692ef3c7f5b528b9081010f33f7feb5cf0d19c182543a16a9a9633c805"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/os-amarea.webp",
+      "filename": "os-amarea.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 343932,
+      "sha256": "d1763ce6e51c51fa389ec101b462ec4e785f5049d1a60044681bfad04e5f7411"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/prof-taliver.webp",
+      "filename": "prof-taliver.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 281104,
+      "sha256": "0bb1ab76e1d794de37862238086b51a215b6ff97eab91ed232ab637a90ff2e26"
+    },
+    {
+      "path": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/yrisea.webp",
+      "filename": "yrisea.webp",
+      "category": "books/ciclo-de-jesed/ruinas-dos-ceus/characters",
+      "extension": ".webp",
+      "width": 1122,
+      "height": 1402,
+      "sizeBytes": 281574,
+      "sha256": "489edfbadba4e539f7fb9808622bc643a90feb811fe54553eec65269e953e456"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/01-domongo-templo-dos-polvoides.webp",
+      "filename": "01-domongo-templo-dos-polvoides.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 458036,
+      "sha256": "c8e466de746b291ec041dedb4459746d9d6123552804f87210b3a81c4ab3c69f"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/02-lebargan-salao-do-conselho.webp",
+      "filename": "02-lebargan-salao-do-conselho.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 474120,
+      "sha256": "87a18b0e3573e9901eda4fd6bc7901c1641bbd1fe3c5f6564d515409a374994a"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/03-lebargan-doca-da-popa.webp",
+      "filename": "03-lebargan-doca-da-popa.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 622916,
+      "sha256": "7a35a4288bda8fe07ba8e1f70c11012063547e77273ffa0f7663f8e89d5a34db"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/04-asteroide-de-benzeno-area-de-extracao.webp",
+      "filename": "04-asteroide-de-benzeno-area-de-extracao.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 511070,
+      "sha256": "3c0cee87787473fceea06d7e2d49c35e578045631b031fd0f8447378e2c71405"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/05-lebargan-salao-central.webp",
+      "filename": "05-lebargan-salao-central.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 583038,
+      "sha256": "bc7c33bfc1a3e546dc8597de894cc99848d005338340273f3ae837bcacd677b2"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura-old-capita-grande.webp",
+      "filename": "06-lebargan-enfermaria-e-camara-de-cura-old-capita-grande.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 481052,
+      "sha256": "75414e5d8b277bed275959e38904bcd123c46830444e7cc72c7aecf0ba0a14ca"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura.webp",
+      "filename": "06-lebargan-enfermaria-e-camara-de-cura.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 437936,
+      "sha256": "c5c11bfb99cd37894bed9040b1347f547fffbfa541e54b4bc5cf10e9fa20ee8b"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/07-lebargan-sala-do-capitao-jelles.webp",
+      "filename": "07-lebargan-sala-do-capitao-jelles.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 367660,
+      "sha256": "97d73f47b6f0d7fe57d9c888fce5ad0750a3dd782bfa5e7caf103e322d320917"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/08-lebargan-ponte-entre-coreste-e-poderosa-desenir.webp",
+      "filename": "08-lebargan-ponte-entre-coreste-e-poderosa-desenir.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 261270,
+      "sha256": "562c8fcea55792040e95886da47a5ad9f762d358b7f7d7e683de56dc66741894"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/09-dekraaz-jardim-bioluminescente.webp",
+      "filename": "09-dekraaz-jardim-bioluminescente.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 478750,
+      "sha256": "64c66cac9cb433565177c5dba5a7c0e639907544f5dcb7efe354f6ed5beec195"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca-old-placa-incorreta.webp",
+      "filename": "10-sumatram-bar-sem-cabeca-old-placa-incorreta.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 508040,
+      "sha256": "dba99c04df6cd0f7d4b68d836526de95b45914883f792e2d05749fe83decc52c"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca.webp",
+      "filename": "10-sumatram-bar-sem-cabeca.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 457928,
+      "sha256": "9b1742d3a7c691a3e736b1efc13ed74ecd9038411aa90a3d420be27b7e69e188"
+    },
+    {
+      "path": "assets/books/spacetheft/a-lenda-da-aurora/places/11-princesa-do-inverno-cabine-de-comando.webp",
+      "filename": "11-princesa-do-inverno-cabine-de-comando.webp",
+      "category": "books/spacetheft/a-lenda-da-aurora/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 561756,
+      "sha256": "e9a3c0c478f15ed3f35abf4db85beaf8f4156c6bc6143c2448b43f31690fdea4"
     }
   ]
 }

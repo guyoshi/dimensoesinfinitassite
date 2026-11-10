@@ -30,7 +30,7 @@ window.DI_BOOK.images = {
   },
   "characters": {
     "efepar": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/efepar.webp",
-    "gabasteres": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/gabasteres.webp",
+    "gabasteres": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/gabasteri.webp",
     "jokara": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/jokara.webp",
     "liri": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/liri.webp",
     "loutes": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/loutes.webp",
@@ -64,5 +64,47 @@ window.DI_BOOK.images = {
     "ruinas-de-eterea": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/ruinas-de-eterea.webp",
     "vale": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/vale.webp"
   },
-  "gallery": []
+  "gallery": [
+    {
+      "src": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mirel-versao-alternativa.webp",
+      "title": "Mirel Versao Alternativa",
+      "type": "Personagem"
+    },
+    {
+      "src": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mirel.webp",
+      "title": "Mirel",
+      "type": "Personagem"
+    },
+    {
+      "src": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/nuari.webp",
+      "title": "Nuari",
+      "type": "Personagem"
+    },
+    {
+      "src": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/os-amarea.webp",
+      "title": "Os Amarea",
+      "type": "Personagem"
+    },
+    {
+      "src": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/prof-taliver.webp",
+      "title": "Prof Taliver",
+      "type": "Personagem"
+    },
+    {
+      "src": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/bosque-de-arion.webp",
+      "title": "Bosque De Arion",
+      "type": "Local"
+    },
+    {
+      "src": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/casa-amarea.webp",
+      "title": "Casa Amarea",
+      "type": "Local"
+    },
+    {
+      "src": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/o-vale.webp",
+      "title": "O Vale",
+      "type": "Local"
+    }
+  ],
+  "map": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map.webp"
 };

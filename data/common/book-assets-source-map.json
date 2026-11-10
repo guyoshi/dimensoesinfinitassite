@@ -1278,6 +1278,11 @@
       "sourceSha256": "8155a8602d06d11feb8bc5d5a96c257ea579f11cd5acfd38aa6b869d952797b0"
     },
     {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/gabasteri.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Gabasteri.png",
+      "sourceSha256": "8155a8602d06d11feb8bc5d5a96c257ea579f11cd5acfd38aa6b869d952797b0"
+    },
+    {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/jokara.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Jokara.png",
       "sourceSha256": "0e10bd6308003aab6cb18ab3f4f759c2c02b628468b8f471b5c19b4bcc429aaa"
@@ -1293,9 +1298,19 @@
       "sourceSha256": "bac22107d95a7f4cd7493cce31572af85b6c62e00d3a707e7c8f852b21932038"
     },
     {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/maletar.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Maletar.png",
+      "sourceSha256": "156ae4effffcf1d70b6f28fbf9150f37881ad78486689e3254671d69f67edc2c"
+    },
+    {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/malthar.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Maletar.png",
       "sourceSha256": "156ae4effffcf1d70b6f28fbf9150f37881ad78486689e3254671d69f67edc2c"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mariv.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Mariv.png",
+      "sourceSha256": "0c7fff166ccccf18d5ec2ccf58226893d8455cee1f40c0acb7b1a927b1de1761"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/marv.webp",
@@ -1308,14 +1323,39 @@
       "sourceSha256": "57287220321d4ff38da79dc578f62242e257befbbb275593358f4ef85e40f036"
     },
     {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mirel-versao-alternativa.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Mirel - versão alternativa.png",
+      "sourceSha256": "e98321d2a1d6d0b7e899c13f4c6b28b6b54c4115a9661ce1932b2fc57b02ab51"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/mirel.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Mirel.png",
+      "sourceSha256": "57287220321d4ff38da79dc578f62242e257befbbb275593358f4ef85e40f036"
+    },
+    {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/nestira.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Nestira.png",
       "sourceSha256": "f6dcb8f29e4a4e3e5edac53065ecf65a47d68128852caff147bb51ba773290a8"
     },
     {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/nuari.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Nuari.png",
+      "sourceSha256": "18b997527ef9ad4800e40ddbc9b46879bd4186de2b04fdd21df150bcda15c8f1"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/os-amarea.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Os Amarëa.png",
+      "sourceSha256": "a7a24358eb8aa2e7c7d8c596d37abafdfbf0601e366ceac467e63cfbc720bf1e"
+    },
+    {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/platisa.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Platisa.png",
       "sourceSha256": "4a6c907d78e71fb71930e9603677766bf67adbbcde27978f55ae8039be0040a1"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/prof-taliver.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Prof Taliver.png",
+      "sourceSha256": "51eb3bde49f3f708b38697f506736c2e3e53eeae1ae1b314755332f34670358e"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/professor-talver.webp",
@@ -1338,6 +1378,11 @@
       "sourceSha256": "ca48afbad7d806d037b6c319e7296791693a68d0e73a538087d382da76427541"
     },
     {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/yrisea.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Yrisea.png",
+      "sourceSha256": "00c65500eb69e9929d12a29a977ba07290d1da9cfe407c935c36c4233ed5fb0e"
+    },
+    {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/characters/yrsea.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Personagens/Yrisea.png",
       "sourceSha256": "00c65500eb69e9929d12a29a977ba07290d1da9cfe407c935c36c4233ed5fb0e"
@@ -1358,9 +1403,24 @@
       "sourceSha256": "9aee727e3b1c0468db8e3282f6129b674f567316ba875ecd9bbdc484465fb3ee"
     },
     {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/maps/map.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Mapas/Mapa de Etérea - sem texto e legenda.png",
+      "sourceSha256": "68d7c750b46c31299544e4f8f0a984b7be1bc1d09c5559ee95f76f22f1129d91"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/bosque-de-arion.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Bosque de Arion.png",
+      "sourceSha256": "29a62722adea77686b18bf3717b3c17e2683db70ffbd8e631b56ba75b72830de"
+    },
+    {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/bosques-de-arion.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Bosque de Arion.png",
       "sourceSha256": "29a62722adea77686b18bf3717b3c17e2683db70ffbd8e631b56ba75b72830de"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/casa-amarea.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Casa Amarëa.png",
+      "sourceSha256": "30185aef55bf98ae8e25f4eaceee6ae1966209ea75c9c75cb78fd2580e8be637"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/circulo-de-nhamari.webp",
@@ -1408,9 +1468,19 @@
       "sourceSha256": "2ca019ceb924a7dab9a47b200eed05863e1ced9e14ec92e33b4c433656a9b2d3"
     },
     {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/nivelia.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Nivelia.png",
+      "sourceSha256": "3e620f8937aaac7d513b3b6f7cf768d17083914bd06abe59920dd123117134bb"
+    },
+    {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/nivellia.webp",
       "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/Nivelia.png",
       "sourceSha256": "3e620f8937aaac7d513b3b6f7cf768d17083914bd06abe59920dd123117134bb"
+    },
+    {
+      "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/o-vale.webp",
+      "sourcePath": "Ciclo de Jesed/1 - Ruínas dos Céus/02 - Assets/Lugares/O Vale.png",
+      "sourceSha256": "fe72a778206dcea4494217b5a16495665e0ecdd1c6f2a7138d503c822e5079aa"
     },
     {
       "sitePath": "assets/books/ciclo-de-jesed/ruinas-dos-ceus/places/planalto-de-talyen.webp",
@@ -1711,6 +1781,71 @@
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/cover.webp",
       "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Capas/Spacetheft - A Lenda da Aurora.png",
       "sourceSha256": "ba3e93746fcb424b80e8d25761293a85912959f49040e6f8b1823795159fc92e"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/01-domongo-templo-dos-polvoides.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/01 - Domongo - Templo dos Polvoides.png",
+      "sourceSha256": "aad5917a349f45b4502b5850a2e4ec8cf397c1141dd0a198ce89da08dffaa0a5"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/02-lebargan-salao-do-conselho.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/02 - Lebargan - Salão do Conselho.png",
+      "sourceSha256": "7dcafa297e55f16a208b02910b5b9af197d57d051dd1669836ca8eafddd83502"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/03-lebargan-doca-da-popa.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/03 - Lebargan - Doca da Popa.png",
+      "sourceSha256": "c366e1b0fa188547b1dfab6825d050571bfefa9e76498d923c2fe9576788f4bb"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/04-asteroide-de-benzeno-area-de-extracao.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/04 - Asteroide de Benzeno - Área de Extração.png",
+      "sourceSha256": "edbfd96f9e6a9a83b42d3e50afd9a5a997a1387a884cbcf67fa34b66dd6d51d1"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/05-lebargan-salao-central.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/05 - Lebargan - Salão Central.png",
+      "sourceSha256": "b616ab375a04a44ed7bec31343e47c47c98c2fa5ed16834d71be470c78bb655f"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura-old-capita-grande.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/06 - Lebargan - Enfermaria e Câmara de Cura - old capitã grande.png",
+      "sourceSha256": "bbc8ff6ef0a74e5f7a9537079115097554b67ddc727b915b2ffdc882f693f043"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/06-lebargan-enfermaria-e-camara-de-cura.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/06 - Lebargan - Enfermaria e Câmara de Cura.png",
+      "sourceSha256": "feb86a1cd8dbdb645cffc591ca946863e82ce1455e162e77843d45d323b8c1a6"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/07-lebargan-sala-do-capitao-jelles.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/07 - Lebargan - Sala do Capitão Jelles.png",
+      "sourceSha256": "751d3a24cb1af8dd5a934fb5fa1affcfd6f7e1f551655019533fb23f9d91a160"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/08-lebargan-ponte-entre-coreste-e-poderosa-desenir.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/08 - Lebargan - Ponte entre Coreste e Poderosa Desenir.png",
+      "sourceSha256": "c8285862c3bb7e90437dffcb4ffebb40fe25f290563e328ea56733f4d655fb52"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/09-dekraaz-jardim-bioluminescente.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/09 - Dekraaz - Jardim Bioluminescente.png",
+      "sourceSha256": "e6eefefc7d006b60c146f9490681e40cc20df5027ecf2ca001d8c8e11d85a170"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca-old-placa-incorreta.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/10 - Sumatram - Bar Sem-Cabeça - old placa incorreta.png",
+      "sourceSha256": "8c7b2816d1e7c8af852bf8b479cc494f76e4e85423ea8b0d2c40c3b35441912a"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/10-sumatram-bar-sem-cabeca.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/10 - Sumatram - Bar Sem-Cabeça.png",
+      "sourceSha256": "d181b037143f60704c8db594be770269f92115d73ae437ea14ad56162e728aa1"
+    },
+    {
+      "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/11-princesa-do-inverno-cabine-de-comando.webp",
+      "sourcePath": "Spacetheft/1 - A Lenda da Aurora/02 - Assets/Lugares/11 - Princesa do Inverno - Cabine de Comando.png",
+      "sourceSha256": "d1cc442cd9a4f5273f8192e7e1d614c8f7a00bfb0da212a3d195aaec2067f8d8"
     },
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/places/gerbe.webp",
