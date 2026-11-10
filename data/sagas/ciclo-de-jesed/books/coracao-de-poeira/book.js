@@ -1,41 +1,64 @@
-(() => {
-  'use strict';
-  const C=window.JESED_COMMON,D=window.CP_DATA;
-  if(!C||!D) return console.error('[JESED] Base de Coração de Poeira indisponível.');
-  const BOOK_ID='coracao-de-poeira';
-  const bookSource=C.asArray(D.books).find(book=>book.id===BOOK_ID)||{};
-  const chapterId=number=>{
-    const chapter=C.asArray(D.chapters).find(item=>Number(item.number)===Number(number));
-    return chapter?.id||`jesed-chapter-cp-${String(number).padStart(2,'0')}`;
-  };
-
-  window.JESED_DUST_CONTEXT={C,D,BOOK_ID,bookSource,chapterId};
-
-  C.startBook({
-    book:{
-      id:BOOK_ID,title:bookSource.name||'Coração de Poeira',order:5,
-      sagaId:'ciclo-de-jesed',cover:bookSource.cover||null,sourceGlobal:'CP_DATA'
+/* Metadados de Coração de Poeira (motor único). O conteúdo fica nos demais arquivos desta pasta. */
+window.DI_BOOK = Object.assign(window.DI_BOOK || {}, { saga: window.DI_SAGA }, {
+  "book": {
+    "id": "coracao-de-poeira",
+    "name": "Coração de Poeira",
+    "numeral": "V",
+    "theme": "cp",
+    "kicker": "CICLO DE JESED · LIVRO V",
+    "tagline": "Livro V do Ciclo de Jesed. Em preparação.",
+    "statusLabel": "Em preparação",
+    "heroY": "30%",
+    "brandAssets": {
+      "logo": "assets/branding/dimensoes-infinitas/dimensoes-infinitas-logo-branco.png",
+      "seal": "assets/branding/dimensoes-infinitas/dimensoes-infinitas-selo-n-branco.png",
+      "authorSignature": "assets/branding/dimensoes-infinitas/guilherme-s-l-anjos-branco.png"
     },
-    routes:{
-      canonical:{
-        characters:'characters',relationships:'relationships',places:'places',chapters:'chapters',
-        timeline:'timeline',mysteries:'mysteries',themes:'themes',fauna:'fauna',flora:'flora',
-        foods:'foods',concepts:'lore',gallery:'gallery'
-      },
-      legacyAliases:[
-        {from:'events',to:'timeline'},
-        {fromPrefix:'event/',toPrefix:'timeline/'},
-        {from:'acontecimentos',to:'timeline'},
-        {fromPrefix:'acontecimento/',toPrefix:'timeline/'},
-        {from:'dashboard',to:'inicio'}
+    "transitionLabel": "Vento de areia varrendo a tela ao trocar de página",
+    "lanternOption": false,
+    "compactAppearances": true,
+    "fx": {
+      "sand": {
+        "density": 90,
+        "motion": 45,
+        "opacity": 80,
+        "front": true,
+        "spiral": true
+      }
+    }
+  },
+  "nav": [
+    {
+      "group": "Visão geral",
+      "items": [
+        "inicio"
       ]
     },
-    compatibility:{
-      sourceGlobal:'CP_DATA',legacyDataPreserved:true,redirectsPrepared:true,redirectsActive:true
+    {
+      "group": "História",
+      "items": [
+        "capitulos",
+        "linha-do-tempo"
+      ]
     },
-    metadata:{
-      dataDirectory:'data/sagas/ciclo-de-jesed/books/coracao-de-poeira',optionalCollections:['themes','mysteries'],
-      legacySources:['data/sagas/ciclo-de-jesed/books/coracao-de-poeira/runtime.js'],stage:'Fundação'
+    {
+      "group": "Pessoas",
+      "items": [
+        "personagens"
+      ]
+    },
+    {
+      "group": "Mundo",
+      "items": [
+        "lugares"
+      ]
+    },
+    {
+      "group": "Arquivo",
+      "items": [
+        "galeria"
+      ]
     }
-  });
-})();
+  ],
+  "maps": []
+});

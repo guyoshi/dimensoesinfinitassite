@@ -1,0 +1,81 @@
+/* Coração de Poeira — Ciclo de Jesed. Areia, poeira suspensa, vazio, espirais temporais e luz quase extinta. */
+:root{
+  --bg:#17110b;--ink:#f0e6d0;--mute:#a9b0b4;--acc:#a88b58;--acc-ink:#fff;--gold:#d7c59b;
+  --side:linear-gradient(190deg,#241a10 0%,#120d08 100%);--side-line:rgba(215,197,155,.26);--sec:#d7c59b;
+  --card-bg:linear-gradient(160deg,rgba(40,30,20,.96),rgba(28,21,14,.96));--card-ink:#f0e6d0;--card-mute:#a9b4ba;--card-line:rgba(215,197,155,.24);--card-head:#e8d8ae;
+  --card-r:10px;--card-shadow:0 12px 34px rgba(0,0,0,.55);
+  --pill-bg:rgba(34,26,17,.92);--pill-line:rgba(215,197,155,.34);--pill-ink:#f0e6d0;--pill-r:8px;
+  --btn-bg:rgba(34,26,17,.92);--btn-line:rgba(215,197,155,.42);--btn-ink:#f0e6d0;--btn-r:8px;
+  --btn-p-bg:linear-gradient(135deg,#6b5230,#c1a066);--btn-p-ink:#fff;--btn-p-line:rgba(235,205,140,.4);
+  --nav-active-bg:rgba(168,139,88,.2);--nav-active-ink:#fff;--nav-active-bar:#d7c59b;
+  --hero-r:8px;--hero-line:rgba(215,197,155,.4);--hero-shadow:0 20px 56px rgba(0,0,0,.6);
+  --font-head:"Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;--head-weight:700;--head-track:.06em;
+  --paper-veil:rgba(24,18,12,.88);--clan:#b8975c;
+}
+body{background:radial-gradient(ellipse at 80% 40%,rgba(190,150,80,.22),transparent 60%),linear-gradient(0deg,rgba(150,110,55,.16),transparent 40%),#17110b;color:var(--ink)}
+.sb{color:#f0e6d0;border-right:1px solid var(--side-line);box-shadow:10px 0 36px rgba(0,0,0,.45);position:relative}
+.sb::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.22;background:radial-gradient(circle at 100% 85%,transparent 0 40px,rgba(215,197,155,.5) 41px 42px,transparent 43px 70px,rgba(215,197,155,.35) 71px 72px,transparent 73px),repeating-linear-gradient(8deg,transparent 0 14px,rgba(215,197,155,.05) 15px 16px)}
+.sb>*{position:relative}
+.brand{border-bottom-color:var(--side-line)}
+.sigil{background:rgba(168,139,88,.16);border:1px solid rgba(215,197,155,.55);box-shadow:0 0 20px rgba(215,197,155,.25)}
+.nav-item{border-radius:4px;position:relative;overflow:hidden;transition:background .25s,padding-left .25s}
+.nav-item:hover{padding-left:calc(var(--nav-pad,14px) + 4px)}
+.nav-item.active{font-weight:700;border-left-width:4px;box-shadow:inset 0 0 22px rgba(215,197,155,.1)}
+.foot{background:var(--side);color:#c9cfd2;border-top:1px solid var(--side-line)}
+.phead h1,.etext h1,.hero h1{font-family:var(--font-head);text-shadow:0 2px 14px rgba(0,0,0,.6)}
+.phead h1{color:var(--card-head)}.phead .kicker{letter-spacing:.28em;color:var(--gold)}
+.crumb{background:var(--paper-veil);border:1px solid var(--card-line);border-radius:3px;width:fit-content;padding:5px 16px;margin:0 28px 10px;color:var(--card-mute)}
+.sec-h,.mapdesc{background:var(--paper-veil);display:inline-block;padding:6px 16px;border-radius:3px;color:var(--card-head);border-left:3px solid var(--gold)}
+.panel,.card,.ecard,.chcard,.book,.etext{border-radius:var(--card-r);border:1px solid var(--card-line);box-shadow:var(--card-shadow);transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+.etext{background:var(--paper-veil);padding:24px 28px}
+.card:hover,.ecard:hover{transform:translateY(-5px);border-color:rgba(215,197,155,.65);box-shadow:0 20px 40px rgba(0,0,0,.6),0 0 0 1px rgba(215,197,155,.3),0 0 26px rgba(200,160,100,.22)}
+.chcard:hover{transform:translateX(7px);border-color:rgba(215,197,155,.65);box-shadow:0 14px 30px rgba(0,0,0,.55),-4px 0 0 #d7c59b}
+.efig,.phimg,.eimg{border-radius:4px;border:1px solid var(--card-line);box-shadow:0 10px 26px rgba(0,0,0,.55)}
+.chip{background:rgba(168,139,88,.2);color:#f0e3bf;border:1px solid rgba(215,197,155,.4)}
+a.tag{border-color:var(--card-line);transition:background .2s,transform .2s,border-color .2s}
+a.tag:hover{filter:none;transform:translateY(-2px);background:rgba(168,139,88,.32);border-color:#d7c59b}
+.clan-link{border-top:3px solid var(--clan)}
+.clan-link:hover{box-shadow:0 20px 40px rgba(0,0,0,.6),0 0 30px color-mix(in srgb,var(--clan) 45%,transparent)}
+.clan-link .clanhead img,.clan-fig img{filter:drop-shadow(0 4px 10px rgba(0,0,0,.6))}
+.clan-sec{background:rgba(0,0,0,.2)}.clan-sec[open]{border-color:var(--clan)}
+.btn,.pill,.search,.ico{box-shadow:0 2px 10px rgba(0,0,0,.4)}
+.btn{position:relative;overflow:hidden;font-weight:600;letter-spacing:.04em;border-width:1px;outline:1px solid transparent;outline-offset:3px;transition:transform .25s,box-shadow .25s,outline-color .25s}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 38%,rgba(240,220,160,.3) 50%,transparent 62%);transform:translateX(-130%);transition:transform .7s ease}
+.btn:hover::after{transform:translateX(130%)}
+.btn:hover{transform:translateY(-2px);outline-color:rgba(215,197,155,.5);box-shadow:0 8px 22px rgba(0,0,0,.55);filter:none}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn.primary{box-shadow:0 6px 20px rgba(95,70,25,.55)}
+.pill:hover,.search:hover,.ico:hover{filter:none;transform:translateY(-1px);border-color:#d7c59b}
+.fchip.on,.etab.on{background:var(--acc);color:var(--acc-ink)}
+.etab:not(.on){background:transparent}
+.hero-shade{background:linear-gradient(90deg,rgba(18,13,8,.95) 0%,rgba(30,21,12,.7) 52%,rgba(160,120,60,.12) 100%)}
+.hero .copy,.hero .copy .kicker,.hero .tagline,.hero .di-author-label,.hero .di-author-fallback{color:#eee8d8}
+.hero .logo{filter:drop-shadow(0 0 20px rgba(215,197,155,.4)) drop-shadow(0 4px 12px rgba(0,0,0,.7))}
+.coverwrap{border:2px solid rgba(215,197,155,.6);box-shadow:0 14px 44px rgba(0,0,0,.7),0 0 46px rgba(200,160,100,.25)}
+.cards{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.tl:before{background:linear-gradient(#d7c59b,rgba(215,197,155,.05));opacity:.85}
+.tl-item:before{background:#d7c59b;border:3px solid #2a1f13;box-shadow:0 0 0 4px rgba(215,197,155,.25)}
+.tl-date{color:var(--gold);background:var(--paper-veil);display:inline-block;padding:2px 12px;border-radius:3px;border:1px solid var(--card-line)}
+.tl-more summary{color:var(--card-head)}
+.traj{border-left-color:#d7c59b}
+.pin i{background:#d7c59b;box-shadow:0 0 0 5px rgba(215,197,155,.28),0 2px 10px rgba(0,0,0,.7)}
+.pin.major i{background:#f0dfb0;box-shadow:0 0 0 5px rgba(240,223,176,.3),0 0 14px rgba(200,160,100,.7)}
+.pin span{background:rgba(18,13,8,.93);color:#f0e6d0;border:1px solid var(--card-line)}
+.mapstage{border:2px solid var(--card-line);border-radius:6px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+.modal-panel{background:var(--side);color:#f0e6d0;border:1px solid var(--side-line)}
+.field input::placeholder{color:var(--card-mute)}
+.top{position:relative;z-index:3}
+/* entrada */
+@keyframes enterIn{from{opacity:0;transform:translateX(26px);filter:blur(4px) sepia(.5)}to{opacity:1;transform:none;filter:none}}
+.page>*,.egrid>*,.cards>*,.chlist>*{animation:enterIn .55s cubic-bezier(.2,.7,.2,1) both}
+.egrid>*:nth-child(2),.cards>*:nth-child(2){animation-delay:.04s}.egrid>*:nth-child(3),.cards>*:nth-child(3){animation-delay:.08s}
+.egrid>*:nth-child(4),.cards>*:nth-child(4){animation-delay:.12s}.egrid>*:nth-child(5),.cards>*:nth-child(5){animation-delay:.16s}
+.egrid>*:nth-child(n+6),.cards>*:nth-child(n+6){animation-delay:.2s}
+/* transição de página: vento de areia varre a tela */
+@keyframes sandSweep{0%{transform:translateX(-110%);opacity:0}15%{opacity:1}75%{opacity:1}100%{transform:translateX(110%);opacity:0}}
+.veil.go{opacity:1;background:rgba(18,13,8,.32);transition:background .3s}
+.veil.go::before{content:"";position:absolute;inset:-5% 0;background:linear-gradient(100deg,transparent 0,rgba(168,139,88,.0) 14%,rgba(200,170,115,.62) 40%,rgba(235,214,165,.88) 52%,rgba(200,170,115,.62) 62%,transparent 86%);filter:blur(7px);animation:sandSweep .7s cubic-bezier(.45,.05,.3,1) both}
+.veil.go::after{content:"";position:absolute;inset:0;background-image:radial-gradient(circle,rgba(240,222,170,.9) 0 1px,transparent 1.5px),radial-gradient(circle,rgba(210,180,120,.8) 0 1px,transparent 1.5px);background-size:19px 23px,29px 31px;background-position:0 0,11px 7px;-webkit-mask-image:linear-gradient(100deg,transparent 10%,#000 45%,#000 60%,transparent 90%);mask-image:linear-gradient(100deg,transparent 10%,#000 45%,#000 60%,transparent 90%);animation:sandSweep .62s .06s cubic-bezier(.45,.05,.3,1) both}
+.no-transitions .veil::before,.no-transitions .veil::after,.perf .veil::before,.perf .veil::after{display:none}
+.no-transitions .page>*,.perf .page>*,.no-transitions .egrid>*,.perf .egrid>*,.no-transitions .cards>*,.perf .cards>*{animation:none}
+@media(prefers-reduced-motion:reduce){.veil.go::before,.veil.go::after,.page>*,.egrid>*,.cards>*{animation:none}}

@@ -1,45 +1,69 @@
-(() => {
-  'use strict';
-  const C=window.JESED_COMMON,D=window.HC_DATA;
-  if(!C||!D) return console.error('[JESED] Base de Herdeiros das Cinzas indisponível.');
-  const BOOK_ID='herdeiros-das-cinzas';
-  const bookSource=C.asArray(D.books).find(book=>book.id===BOOK_ID)||{};
-  const chapterId=number=>{
-    const chapter=C.asArray(D.chapters).find(item=>Number(item.number)===Number(number));
-    return chapter?.id||`jesed-chapter-hc-${String(number).padStart(2,'0')}`;
-  };
-
-  window.JESED_ASHES_CONTEXT={C,D,BOOK_ID,bookSource,chapterId};
-
-  C.startBook({
-    book:{
-      id:BOOK_ID,title:bookSource.name||'Herdeiros das Cinzas',order:4,
-      sagaId:'ciclo-de-jesed',cover:bookSource.cover||null,sourceGlobal:'HC_DATA'
+/* Metadados de Herdeiros das Cinzas (motor único). O conteúdo fica nos demais arquivos desta pasta. */
+window.DI_BOOK = Object.assign(window.DI_BOOK || {}, { saga: window.DI_SAGA }, {
+  "book": {
+    "id": "herdeiros-das-cinzas",
+    "name": "Herdeiros das Cinzas",
+    "numeral": "IV",
+    "theme": "hc",
+    "kicker": "CICLO DE JESED · LIVRO IV",
+    "tagline": "Livro IV do Ciclo de Jesed. Em preparação.",
+    "statusLabel": "Em preparação",
+    "heroY": "30%",
+    "brandAssets": {
+      "logo": "assets/branding/dimensoes-infinitas/dimensoes-infinitas-logo-branco.png",
+      "seal": "assets/branding/dimensoes-infinitas/dimensoes-infinitas-selo-n-branco.png",
+      "authorSignature": "assets/branding/dimensoes-infinitas/guilherme-s-l-anjos-branco.png"
     },
-    routes:{
-      canonical:{
-        characters:'characters',relationships:'relationships',places:'places',chapters:'chapters',
-        timeline:'timeline',mysteries:'mysteries',themes:'themes',fauna:'fauna',flora:'flora',
-        foods:'foods',concepts:'lore',gallery:'gallery'
-      },
-      legacyAliases:[
-        {from:'events',to:'timeline'},
-        {fromPrefix:'event/',toPrefix:'timeline/'},
-        {from:'acontecimentos',to:'timeline'},
-        {fromPrefix:'acontecimento/',toPrefix:'timeline/'},
-        {from:'clans',to:'dynasties'},
-        {fromPrefix:'clan/',toPrefix:'dynasty/'},
-        {from:'clas',to:'dynasties'},
-        {fromPrefix:'cla/',toPrefix:'dynasty/'},
-        {from:'dashboard',to:'inicio'}
+    "transitionLabel": "Aurora fria cruzando a tela ao trocar de página",
+    "lanternOption": false,
+    "compactAppearances": true,
+    "fx": {
+      "snow": {
+        "density": 80,
+        "motion": 40,
+        "opacity": 80,
+        "front": true,
+        "aurora": true
+      }
+    },
+    "cover": "assets/books/ciclo-de-jesed/herdeiros-das-cinzas/cover.webp",
+    "logo": "assets/branding/herdeiros-das-cinzas/logo-light.webp",
+    "clansLabel": "Dinastias",
+    "clanLabel": "Dinastia"
+  },
+  "nav": [
+    {
+      "group": "Visão geral",
+      "items": [
+        "inicio"
       ]
     },
-    compatibility:{
-      sourceGlobal:'HC_DATA',legacyDataPreserved:true,redirectsPrepared:true,redirectsActive:true
+    {
+      "group": "História",
+      "items": [
+        "capitulos",
+        "linha-do-tempo"
+      ]
     },
-    metadata:{
-      dataDirectory:'data/sagas/ciclo-de-jesed/books/herdeiros-das-cinzas',optionalCollections:['themes','mysteries'],
-      legacySources:['data/sagas/ciclo-de-jesed/books/herdeiros-das-cinzas/runtime.js'],stage:'Em preparação · 0 capítulos'
+    {
+      "group": "Pessoas",
+      "items": [
+        "personagens",
+        "clas"
+      ]
+    },
+    {
+      "group": "Mundo",
+      "items": [
+        "lugares"
+      ]
+    },
+    {
+      "group": "Arquivo",
+      "items": [
+        "galeria"
+      ]
     }
-  });
-})();
+  ],
+  "maps": []
+});

@@ -40,9 +40,9 @@ window.DI_SAGAS["ciclo-de-jesed"] = {
       "id": "herdeiros-das-cinzas",
       "order": 4,
       "name": "Herdeiros das Cinzas",
-      "status": "locked",
+      "status": "active",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "herdeiros-das-cinzas.html",
       "cover": "assets/books/ciclo-de-jesed/herdeiros-das-cinzas/cover.webp",
       "icon": "compass"
     },
@@ -50,9 +50,9 @@ window.DI_SAGAS["ciclo-de-jesed"] = {
       "id": "coracao-de-poeira",
       "order": 5,
       "name": "Coração de Poeira",
-      "status": "locked",
+      "status": "active",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "coracao-de-poeira.html",
       "cover": null,
       "icon": "compass"
     }

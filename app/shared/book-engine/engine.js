@@ -139,7 +139,7 @@
         </div>
       </div>
       <div class="veil" id="veil" aria-hidden="true"></div>
-      <div class="contemplate" id="contemplate" aria-hidden="true"><img class="c-logo" src="${esc(bk.logo)}" alt="${esc(bk.name)}"><p>Esc para voltar</p></div>
+      <div class="contemplate" id="contemplate" aria-hidden="true">${bk.logo ? `<img class="c-logo" src="${esc(bk.logo)}" alt="${esc(bk.name)}">` : `<h2 class="c-logo h-font">${esc(bk.name)}</h2>`}<p>Esc para voltar</p></div>
       <div class="modal" id="modal" aria-hidden="true"><div class="modal-bd" data-close></div><section class="modal-panel" id="modalPanel" role="dialog" aria-modal="true"></section></div>`;
   }
 
@@ -172,11 +172,11 @@
     const first = w.slice(0, 5);
     $('#main').innerHTML = `<div class="page">
       <section class="hero" style="--bgy:${esc(bk.heroY || '40%')}">
-        <div class="hero-bg" style="background-image:url('${esc(bk.cover)}')"></div><div class="hero-shade"></div>
+        <div class="hero-bg" ${bk.cover ? `style="background-image:url('${esc(bk.cover)}')"` : ''}></div><div class="hero-shade"></div>
         <div class="hero-fx" id="heroFx"></div>
-        <div class="copy"><p class="kicker">${esc(bk.kicker)}</p><img class="logo" src="${esc(bk.logo)}" alt="${esc(bk.name)}"><p class="tagline">${esc(bk.tagline)}</p>
+        <div class="copy"><p class="kicker">${esc(bk.kicker)}</p>${bk.logo ? `<img class="logo" src="${esc(bk.logo)}" alt="${esc(bk.name)}">` : `<h1 class="logo-text h-font">${esc(bk.name)}</h1>`}<p class="tagline">${esc(bk.tagline)}</p>
           <div class="btns"><a class="btn primary" href="#/capitulos">${icon('chapter')} Abrir capítulos</a><a class="btn" href="#/personagens">${icon('people')} Ver personagens</a><button class="btn" data-contemplate>${icon('eye')} Contemplar este mundo</button></div>${authorSignature}</div>
-        <figure class="coverwrap"><img src="${esc(bk.cover)}" alt="Capa de ${esc(bk.name)}" data-lightbox></figure>
+        ${bk.cover ? `<figure class="coverwrap"><img src="${esc(bk.cover)}" alt="Capa de ${esc(bk.name)}" data-lightbox></figure>` : ''}
       </section>
       <section class="cards">${cards.map(([id, t, d]) => `<a class="card" href="#/${id}"><h4 class="h-font">${t}</h4><p>${esc(d)}</p></a>`).join('')}</section>
       <section class="row2">
@@ -186,7 +186,7 @@
           ${first.length ? first.map(c => `<a class="crow" href="#/capitulo/${c.number}"><em>${c.number}</em><span>${esc(c.title)}</span>${chip(c.pov)}</a>`).join('') + `<p class="muted small">Todos os ${w.length} capítulos →</p>` : `<p class="muted">${esc(EMPTY.capitulos)}</p>`}</div>
       </section></div>`;
     crumb([['Início']]);
-    $$('[data-lightbox]').forEach(i => i.addEventListener('click', () => lightbox([{ src: bk.cover, title: bk.name }], 0)));
+    if (bk.cover) $$('[data-lightbox]').forEach(i => i.addEventListener('click', () => lightbox([{ src: bk.cover, title: bk.name }], 0)));
   }
 
   function pageLivros() {
