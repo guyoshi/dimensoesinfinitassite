@@ -2633,3 +2633,11 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - **Música:** Spacetheft permaneceu ligado à faixa já configurada. Ruínas dos Céus conservava os arquivos e a configuração, mas estava sem o carregador na página; o carregador foi restaurado e o tocador foi confirmado visualmente. A Patrulha de Korvo permanece sem configuração e sem áudio atual no portal; arquivos localizados em `Antigos NÃO USAR` não foram reaproveitados.
 - **Verificação:** auditoria geral concluída sem erro; navegação visual conferida nos capítulos 1 e 22, nas páginas de personagens e lugares e no tocador de Ruínas. As validações globais `validate` e `validate:assets` continuam interrompidas por problemas preexistentes de outros livros (dataset legado ausente, PNGs antigos, duplicados e duas referências ausentes), sem erro novo identificado em Spacetheft.
 - **Publicação:** nenhuma alteração foi enviada ao GitHub nesta atualização local.
+
+## Atualização pontual — 12/11/2026 — capa de Viajantes Dimensionais II
+
+- **Livro:** *Viajantes Dimensionais II — A Máscara do Contracanto* permanece em preparação, sem página ou capítulos publicamente abertos. O ID histórico de catálogo `livro-2` foi preservado.
+- **Origem aprovada:** `Viajantes Dimensionais/2 - A Máscara do Contracanto/02 - Assets/Capa/Capa com texto`, no acervo `guyoshi/dimensoesinfinitas`. A versão `Capa sem texto` fica preservada e não é usada como miniatura do catálogo.
+- **Lityra:** o sincronizador `.github/lityra-covers.json` do acervo publica a capa com título como `assets/covers/viajantes-dimensionais-2.webp`, e o catálogo `data/books.json` expõe o campo `cover` com versão de cache.
+- **Portal Literário:** `data/sagas/viajantes-dimensionais/saga.js` apresenta o título aprovado e usa `assets/books/viajantes-dimensionais/a-mascara-do-contracanto/cover.webp`. A imagem é importada do WebP público já sincronizado no Lityra por `.github/workflows/publicar-capa-viajantes-2.yml`; a fonte original continua no acervo privado. `data/common/sagas-registry.json` referencia a mesma origem.
+- **Verificação de arquivos:** as versões WebP publicadas no Lityra e no Portal possuem o mesmo hash Git blob (a imagem de 553550 bytes). A verificação visual final em navegador e a disponibilização após o deploy do GitHub Pages são independentes desta checagem estática.
