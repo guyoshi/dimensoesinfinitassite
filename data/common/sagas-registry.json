@@ -164,14 +164,19 @@
         {
           "id": "livro-2",
           "order": 2,
-          "name": "Livro 2",
+          "name": "A Máscara do Contracanto",
           "status": "locked",
           "stage": "planejado",
           "entry": null,
-          "sourceFolder": "Viajantes Dimensionais/2 - Livro 2",
-          "expectedChapters": null,
+          "sourceFolder": "Viajantes Dimensionais/2 - A Máscara do Contracanto",
+          "expectedChapters": 25,
           "icon": "portal",
-          "cover": null
+          "cover": {
+            "source": "Viajantes Dimensionais/2 - A Máscara do Contracanto/02 - Assets/Capa/Capa com texto",
+            "site": "assets/books/viajantes-dimensionais/a-mascara-do-contracanto/cover.webp",
+            "present": true
+          },
+          "siteAssets": "assets/books/viajantes-dimensionais/a-mascara-do-contracanto"
         },
         {
           "id": "o-senhor-da-morte",
