@@ -74,3 +74,6 @@ body{background:radial-gradient(900px 600px at 70% 15%,#0f5f7d 0%,transparent 60
   .di-hero-author img{width:145px;height:42px}
   .foot{gap:6px;padding-top:8px;padding-bottom:8px}
 }
+
+/* mobile: pontilhado mais leve para não poluir o texto dos cartões */
+@media(max-width:680px){.chcard:after,.panel:after,.card:after,.book:after{opacity:.06;background-size:9px 9px}.fx-dots{opacity:.12}}
