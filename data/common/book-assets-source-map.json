@@ -1598,9 +1598,209 @@
       "sourceSha256": "0153246e5f5b381ea9822e92737f240b2fe6a5ea6f70c60c324bebda4ad3c091"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-01.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/01 - Capítulo 1 - Junior I - Não Apague as Luzes.png",
+      "sourceSha256": "aa41f6590e51b22f0911e33a0b4a778b73f25bf6bf2352e43a7470f5695da6bf"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-02.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/02 - Capítulo 2 - Priscila I - A Irmã mais Velha.png",
+      "sourceSha256": "28001d061037e5bbc2563190d0473f358e6619fe62d70a3fc895743dca24dd9d"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-03.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/03 - Capítulo 3 - Pedro I - Aluna Nova.png",
+      "sourceSha256": "b5238ee6371121150293b0a658157935be16cc363f92af6cd0297cf76f04dee3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-04.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/04 - Capítulo 4 - Kelly I - Bicos e Penas.png",
+      "sourceSha256": "9b1f9d12a4530c6f1ad806a00972c3c4e3c606cbcd1f1491fe0d5b0086728b7e"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-05.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/05 - Capítulo 5 - Vini I - Um Encontro.png",
+      "sourceSha256": "cd3f03043ae503fe021df62829d34125ed24217996979e6734cc58ca723d2ee7"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-06.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/06 - Capítulo 6 - Jennifer I - O Bicho Preto.png",
+      "sourceSha256": "e2b06f832d705eaa9a8c78a8714c7594e5d8735b97aa8b5e2a9b5763b58a9d96"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-07.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/07 - Capítulo 7 - Junior II- Jantar com a D. Karen e o S. Sanderson.png",
+      "sourceSha256": "33d749e4ab92950690bea5a01158fc30d87a72e03050610f749a887c0992d8f4"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-08.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/08 - Capítulo 8 - Priscila II- O Quarto Escuro.png",
+      "sourceSha256": "877a08c066ff5bbbf88db87ef6feea6adab56420af7136a62ed6a48ede558969"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-09.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/09 - Capítulo 9 - Pedro II- Coisas Estranhas.png",
+      "sourceSha256": "4676ec12c6a3e6ca88226b48edf2f65a9f3a7b27612dabfc68d094994a301a71"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-10.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/10 - Capítulo 10 - Kelly II- A Menina.png",
+      "sourceSha256": "c811027df6303d55d1f976539cbc142d57eb62edbeaa8603f97d447cd8bdc8f3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-11.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/11 - Capítulo 11 - Vini II- Acusado.png",
+      "sourceSha256": "bca60ded47eaa1f36b18195d50c686aaaf47e81221c70b158237b2cee885f1f1"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-12.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/12 - Capítulo 12 - Jennifer II- Lâminas da Vida.png",
+      "sourceSha256": "ad6256666c36d58dfcf4682c3c8f079a144255e0db7689068d048fecc101f133"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-13.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/13 - Capítulo 13 - Junior III- Monstro na Floresta.png",
+      "sourceSha256": "1b21d1cef8dca375ea89b9d852f6abf440394ddc52a7323b35079f30ae8247d0"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-14.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/14 - Capítulo 14 - Priscila III- A Garota Desaparecida.png",
+      "sourceSha256": "0f3eafc39af814a1e6730fe775fcb3be4688a0e5bc8793b4c5e1da32c6b83ce3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-15.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/15 - Capítulo 15 - Pedro III- O Encantamento dos Pássaros.png",
+      "sourceSha256": "8561ca36a4330bc5a953e8cadca872576868a7fa0544d1ca381aa8ffcc3d5f75"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-16.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/16 - Capítulo 16 - Kelly III- O Baile.png",
+      "sourceSha256": "d408394d1d159c630a644e61b82db13af26ffd63624f06f478d8bfb39d126f6b"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-17.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/17 - Capítulo 17 - Vini III- Mandioca.png",
+      "sourceSha256": "26a29b4557b777e6bb3101a2e49d0ae14d84a7581909c8eaf27e14d0c45b0e47"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-18.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/18 - Capítulo 18 - Jennifer III- Cadáver no Guarda-Roupas.png",
+      "sourceSha256": "0ede810a9ab73d1ced7f189a53f586b4992ed87e1dcf3f36555a07b364a9d674"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-19.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/19 - Capítulo 19 - Priscila IV- Segredo de Irmãs.png",
+      "sourceSha256": "ddc425ad33c7716fd544d0110cead907add8b7d34c7e73c42f01a1a5f3c942fc"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-20.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/20 - Capítulo 20 - Junior IV- A Família.png",
+      "sourceSha256": "dbb874c9c4aee55a2920e1ad8e5f73a4e599e2c8252e0355d135e6644a73e812"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-21.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/21 - Capítulo 21 - Pedro IV- D. Maria Marques e seus Gatos.png",
+      "sourceSha256": "41afd1c86808278f0dbb6b90799d65c4e072051b79d15e48c6f3950217671392"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-22.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/22 - Capítulo 22 - Kelly IV- Terror no Canavial.png",
+      "sourceSha256": "07e2b53ec6d3f8f1e4e03a3a8a831943ebe6278b79af0c1f344441e23e15e43b"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-23.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/23 - Capítulo 23 - Vini IV- Encontro com a Morte.png",
+      "sourceSha256": "d028a9d19bfe8d90c01ad7f84cf02401337346009169bd3fee6617c46e8e01fd"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-24.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/24 - Capítulo 24 - Jennifer IV- Registrando Eventos Sobrenaturais.png",
+      "sourceSha256": "762fa7f17acf0c11aea6c663574f21c714ba669c742cd3467d96dbd752a1cb05"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-25.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/25 - Capítulo 25 - Junior V- Fitas Cassete.png",
+      "sourceSha256": "f23dbf9489b5cab442489db6e4bc3947afc01dff58d695d2d0cfe222ad14c4d7"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-26.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/26 - Capítulo 26 - Priscila V- Maquiagem Borrada.png",
+      "sourceSha256": "d2edd567f9a9f6c7fbe0a06b6a22aacd8f24b621c928149844c7dee2ba7d80b3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-27.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/27 - Capítulo 27 - Kelly V- O Baile no Lago.png",
+      "sourceSha256": "459b2fc3274b2372af511731a6558e63efc7f7a5f916b7e08803267716886446"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-28.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/28 - Capítulo 28 - Vini V- Pai.png",
+      "sourceSha256": "0ee156bc58d75385b12621869ec943d673be6e5082ca6852503cea4c79e2ee90"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-29.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/29 - Capítulo 29 - Jennifer V- Os Elos.png",
+      "sourceSha256": "da811d1e05ddcf67a106739149c056a515d2e6517a3535ae0b68d9ef12355b91"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-30.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/30 - Capítulo 30 - Pedro V- As Cinzas do Demônio.png",
+      "sourceSha256": "5166d4ade00db2cb8997f8adb692d53819921b0c5e1ce907f330e621ab2a6ed6"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-31.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/31 - Capítulo 31 - Kelly VI- Ossos do Ofício.png",
+      "sourceSha256": "00b21a4034dae1fd40450525e53b3dfd89b84c6c017880d9c90776689f87517f"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-32.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/32 - Capítulo 32 - Ingrid I- Vamos Conhecer os Marques.png",
+      "sourceSha256": "4fc7a3499c9b38e36f8ac80faaf19f38f1c76aaf062e4fa1507c0fe7faee28d3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-33.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/33 - Capítulo 33 - Pedro VI- Na Escuridão.png",
+      "sourceSha256": "ee3f2e3fe605df2ae1cd332e26fc787b26707c2fa851c43ab16284b5caf16083"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-34.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/34 - Capítulo 34 - Vini VI- Ratos no Escuro.png",
+      "sourceSha256": "3630e0c4c28fcab23be2ae1a5edaad2a82e70fbe348f003aa0bc97d2e2dcbffb"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-35.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/35 - Capítulo 35 - Jennifer VI- Armas.png",
+      "sourceSha256": "5fa624e01b52670133f5c136b0e959b9ca829915173cba8ba0959167137b867b"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-36.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/36 - Capítulo 36 - Junior VI- Uma Alma por Outra.png",
+      "sourceSha256": "a9d9fa0f9582d9f28037bfa21120bbeb3d0a276582a208ecd9af2663c15aa832"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-37.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/37 - Capítulo 37 - Priscila VI- Liberdade.png",
+      "sourceSha256": "81a3b35f9a9a5f2fd0d2ca654d2758546a76829f35703b6c21744b19598e6139"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-38.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capitulos/38 - Capítulo 38 - Jennifer VII- Diário Sobrenatural.png",
+      "sourceSha256": "8dcefd1328b7406499dcf616fa324ec7d5c06dd503b5427fb44d5b5b7f0628bf"
+    },
+    {
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/agouro.webp",
       "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Entidades/Agouro.png",
       "sourceSha256": "5ddd8a1ca13b83d5c46e9588b987aba1d4c5c541b0f022a18c139d1084043ba7"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/alan-silva.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Alan Silva.png",
+      "sourceSha256": "beb85cc6b50b4b2c7a80e0d61364acbda58afe53f50056bbe200252569ba795e"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/alex.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Alex.png",
+      "sourceSha256": "0c38447cc877b5778f7ec4a92f4681cad9e51c1e4e76eb87d0ba43b38a583007"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/avo.webp",
@@ -1611,6 +1811,16 @@
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/carnam-pai.webp",
       "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Família Carnam/Carnam - Pai.png",
       "sourceSha256": "def59f6dba0655b99f3a60167dadb8862b61b44ab689357fead42650c97eeefa"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/d-maria-marques.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/D. Maria Marques.png",
+      "sourceSha256": "9f983ee1dbd243d1776ae05ede76cf6679ff56b83f1fd17a155d82c040749c65"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/francis.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Francis.png",
+      "sourceSha256": "c50d4d09846d8e6b826a9ba23093ee29a6e2587623e9f4556607d4e7cae13dd6"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/ibliso.webp",
@@ -1643,9 +1853,34 @@
       "sourceSha256": "41c7281c50571c1dc193dc9d08c1bcdb9d03c7c259d343f66992dcd2bbb5d897"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/karen-fontenelle.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Karen Fontenelle.png",
+      "sourceSha256": "3b2da4d21eda5fb3ece17426d2865bbab1e658aabe4a3bbed46456b8ffee895d"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/kelly-priscila-karen-sanderson-e-enzo-dois-anos-antes.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Kelly, Priscila, Karen, Sanderson e Enzo - dois anos antes.png",
+      "sourceSha256": "777617699695f58c9d96997e6dfc9dc82b3dd583dc7724c802d6e17b3a5cce01"
+    },
+    {
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/kelly.webp",
       "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Kelly.png",
       "sourceSha256": "afe09f9da01f9a3a3e98321194461ea3bd88cc334345492ef33756eaa9dab1f0"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/luiza-salomandra.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Luiza Salomandra.png",
+      "sourceSha256": "70d8d16a9dfbf1088f7decebea4362d6839abfcc1751806d55806dce1ccab946"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/mandioca.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Mandioca.png",
+      "sourceSha256": "57d2823d56f34b88cd89c592d2b5775c8b194637ad28acdbb155e804cddd88cf"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/old-kelly-priscila-karen-sanderson-e-enzo-dois-anos-antes.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/OLD Kelly, Priscila, Karen, Sanderson e Enzo - dois anos antes.png",
+      "sourceSha256": "858abb8e4c4cf5c974df9837f4d826051bf8c9d74ed508105d897e1fef1b7617"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/pedro.webp",
@@ -1653,9 +1888,24 @@
       "sourceSha256": "dad4b61fd131f4ad7b814f0a72a4ddf4f6afcf8cd312f406897c2e6ed366d730"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/pepeu-thiaguinho-caneca-e-pezinho.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Pepeu, Thiaguinho, Caneca e Pézinho.png",
+      "sourceSha256": "007f2896677bc0d0a28eb36a75ab5efc86f267865e8831a3088074644613e102"
+    },
+    {
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/priscila.webp",
       "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Priscila.png",
       "sourceSha256": "012b9d9f0f63870337998cbdc16405c3bff44ee3f454ce1e38e21a7d1c4795ed"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/sanderson-fontenelle.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Sanderson Fontenelle.png",
+      "sourceSha256": "cbc8a1821e90d973c5ddf6308129da81605ec5522bef09e74073c55200742ff8"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/sergio-quissama.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Personagens/Sérgio Quissama.png",
+      "sourceSha256": "c34cb5842f5983a346055a14e86f50cd9ffd211cd8f3dbb3d5119d5cc8d2c0eb"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/sueten.webp",
@@ -1671,6 +1921,96 @@
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/cover.webp",
       "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Capas/Diário Sobrenatural - Os Elos das Sombras - Capa.png",
       "sourceSha256": "b09639f1ed3f518ae7031a67e9c14a8320290e9d0bec47092eb1efb4764ae62c"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/baile-da-escola.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Baile da escola.png",
+      "sourceSha256": "590af07331b6e87c5b5c8cf7b538676c5131f553ed4eb9a92cfa31550e4df048"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/canavial.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Canavial.png",
+      "sourceSha256": "9e0b0781d0666f1905ba33b43f6c671f332fad92d594c9edb37a7e089cd2937b"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casa-de-d-maria-marques.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Casa de D. Maria Marques.png",
+      "sourceSha256": "de513966244d1d91105ed960c432676b728c16990034fdc6db84661851475828"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casa-de-jennifer-terreo.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Casa de Jennifer - Térreo.png",
+      "sourceSha256": "0f3bba38fc26f0f8ad50f455edd0aeaeb3fac0364b6cb44009c309eaadbc2cb2"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casa-de-junior-sala-e-cozinha-americana.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Casa de Junior - Sala e cozinha americana.png",
+      "sourceSha256": "5fd61f26e5cd496d4e3e1534835e3835e4e5a3134081d79e147263f3feecc32c"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casa-de-vini.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Casa de Vini.png",
+      "sourceSha256": "ec18ec6b9b0ee1c936f3a0e63a39a54a25f91e072cfef620f410a0c2d9d2f5dc"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casarao-carnam-fachada.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Casarão Carnam - Fachada.png",
+      "sourceSha256": "39f3a6fd57c5eea44705e1d4d9712e5a73b0b02c43d4220c0e4e8fca915db0da"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casarao-carnam-saguao-principal.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Casarão Carnam - Saguão principal.png",
+      "sourceSha256": "bc874f2b344cf6c95dee9fae851fbadcd28e2947248ce4d5397f867a9ce69e7f"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/cemiterio-de-vila-velha.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Cemitério de Vila Velha.png",
+      "sourceSha256": "d7083ca26bca6609254b701b79b51fc827e5dc1e1bc45505921f0cc9c27b9294"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/escola-fachada.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Escola - Fachada.png",
+      "sourceSha256": "4a3f3e2370a01451e89c359e10731dbb0dc5190ed7fbdad13b2da1de280f0d56"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/escola-patio.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Escola - Pátio.png",
+      "sourceSha256": "a30c5be8fdcde031359a42e55b27feff794580ec07338c8037320c88d9e74c9d"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/hospital-das-lajes.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Hospital das Lajes.png",
+      "sourceSha256": "cbb6c6149b19bcb40b49ee169b8953ed7724928d22892099791117e06f6d7609"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/lago-da-floresta.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Lago da floresta.png",
+      "sourceSha256": "d603f84792bfc8a9d5736d011d02e9c8bdd4544a0feadc617cea2c42a576cb45"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/praca-de-vila-velha.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Praça de Vila Velha.png",
+      "sourceSha256": "de4fd992d2f9a1c9ec62c336b73cae7a46d1a088ec9faf947a46432af0782480"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/quarto-de-junior.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Quarto de Junior.png",
+      "sourceSha256": "6cbec4384257529b0c8e7bb995cd1c0ee7f07fb8efd9f02ea16cabcb2acb3a89"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/quarto-de-kelly.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Quarto de Kelly.png",
+      "sourceSha256": "36011fc4d502e3277485b4f01121737cc818a218662c81f1f83087aa3bc6a86f"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/quarto-de-priscila.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Quarto de Priscila.png",
+      "sourceSha256": "f0818e8f1c791e6f403bd57fae2688884df226de22f4dd51521e0e43dca0b0d8"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/rua-casas-de-junior-e-kelly.webp",
+      "sourcePath": "Diário Sobrenatural/1 - Os Elos das Sombras/02 - Assets/Lugares/Rua - Casas de Junior e Kelly.png",
+      "sourceSha256": "fb0070568fb0ad21ad754320cce5573485a18981e4d7cabdcaac8f6b90a8f5b6"
     },
     {
       "sitePath": "assets/books/spacetheft/a-lenda-da-aurora/chapters/chapter-01.webp",

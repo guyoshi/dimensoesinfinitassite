@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 592,
+  "count": 660,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
@@ -5924,6 +5924,686 @@
       "height": 1536,
       "sizeBytes": 433812,
       "sha256": "8d0277aa51a13c9bdafaba6940f35f73db74dc2033d23b824b4b7299d11d7112"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-01.webp",
+      "filename": "chapter-01.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 377960,
+      "sha256": "2d8eeeae54fdba96c6305e40963d80600d9273143b949b0642881bea621fb6e7"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-02.webp",
+      "filename": "chapter-02.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 571526,
+      "sha256": "ce361b09ea6edf4b4d553bf3b47cb461da05830c444ba500561f8d7b390e6360"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-03.webp",
+      "filename": "chapter-03.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 317216,
+      "sha256": "846966ae3931ca8091b48ad05ae78fa777cb53b9ad9adc9fb28d0ea2818e5a8b"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-04.webp",
+      "filename": "chapter-04.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 446066,
+      "sha256": "a1ddd4300b84689a6620d5857fbdb430f0bbb22b44a250aaa10441d935ec56af"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-05.webp",
+      "filename": "chapter-05.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 291032,
+      "sha256": "16ada0806c01e7ed38622a9360275ae164ccc97488a4ee581ddebb25fa891aa2"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-06.webp",
+      "filename": "chapter-06.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 250068,
+      "sha256": "939726fad88e3bb74f82e7f645ac6a41e916224c422750e315b024f39d9a72cb"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-07.webp",
+      "filename": "chapter-07.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 259286,
+      "sha256": "1f93d34e1bcdcef2476fa457d7fcbbe15623a38f84d1c072402e9aca68b75621"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-08.webp",
+      "filename": "chapter-08.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 226072,
+      "sha256": "a0c5c4d3f0e9a70670ab76587364b92ab3bacf620b23a6dfb3f4dc67698b9895"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-09.webp",
+      "filename": "chapter-09.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 456156,
+      "sha256": "65bd2f99df24b601adab7f20f7e1e8d7fd6056223a20aaf8995bc8f8e37658f3"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-10.webp",
+      "filename": "chapter-10.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 216254,
+      "sha256": "56485f36b89e14265f07f46269280a61cc769abb39b478f89ea82c1d0f99f02e"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-11.webp",
+      "filename": "chapter-11.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 176934,
+      "sha256": "ba9dd5d85323cc3bed7fb17584af1d728a4b775dff6372c0066a218dd5dce2f7"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-12.webp",
+      "filename": "chapter-12.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 296072,
+      "sha256": "d36070a70ead1187b31445a59bae6772a7d5fc17ec640ab5b6213f149096526b"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-13.webp",
+      "filename": "chapter-13.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 397316,
+      "sha256": "58882017138e75b2ab7b1c4e4c4c5c7150ae48f6aded91834092dda85dc093cf"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-14.webp",
+      "filename": "chapter-14.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 323816,
+      "sha256": "269fd11fb5d12ac448ac53b17db510c819bdf5522323efc1994d877b65c03067"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-15.webp",
+      "filename": "chapter-15.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 318240,
+      "sha256": "69386134920d8c6aaafe2b63d51553f1332f88457b5feebb59f74bbdc71ed5b2"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-16.webp",
+      "filename": "chapter-16.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 288858,
+      "sha256": "281ec353aded28956e418c3265247fa8cfb30f753d013d05a73b800b07040b3f"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-17.webp",
+      "filename": "chapter-17.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 306874,
+      "sha256": "300e7ec33479e7b3362a375c35d4fa103813575cdcbdd80eb0e526ce6712909b"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-18.webp",
+      "filename": "chapter-18.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 238580,
+      "sha256": "2aced8abf7eada0c03f27546f6f4c7883d28482e43d4ec41f88df9475b55aa08"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-19.webp",
+      "filename": "chapter-19.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 214206,
+      "sha256": "52912cacd1d9e3033dad56100928f9cf615a67d045095bfafb305ddb70f1c4bf"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-20.webp",
+      "filename": "chapter-20.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 515914,
+      "sha256": "7d3554d1c7f9b0d7ac0b142a8a8916cca85f2f95346ecadc40fd74dc7b7dbe6a"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-21.webp",
+      "filename": "chapter-21.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 482660,
+      "sha256": "1e2a32baad55a4332fb588c6ea636f9f3988cee08828f90dd79840aadb185ae0"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-22.webp",
+      "filename": "chapter-22.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 314552,
+      "sha256": "6e969f7862150633808acf2e1665dc052baf78cfc547526b6fdb94e274587554"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-23.webp",
+      "filename": "chapter-23.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 302356,
+      "sha256": "e4ee6dbf618eb8e8ccb79edbc4ade480332534c7a0a4cd02d945709d866bd7d0"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-24.webp",
+      "filename": "chapter-24.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 320610,
+      "sha256": "9aa813721172ceb7547c107a0f239169fdaf37bc488a3f606faa139b7486ef2d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-25.webp",
+      "filename": "chapter-25.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 290132,
+      "sha256": "d10385fb94ed5cb5acae2068384fda70e7a7e7263ffdf3e04f802664248da168"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-26.webp",
+      "filename": "chapter-26.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 243224,
+      "sha256": "f425a8e441b2509dd0d29a7cf733d832436f85a1c912e35e617d8a13250937d8"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-27.webp",
+      "filename": "chapter-27.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 256328,
+      "sha256": "37019d099b3df1c44bcdaa284b02cae2d6c130e44ecea4cdf98e560ae3a0c972"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-28.webp",
+      "filename": "chapter-28.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 299288,
+      "sha256": "5b023295830f0a3ff156197a0500043e083b36814ccaa6dbeda8b0256edd4619"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-29.webp",
+      "filename": "chapter-29.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 415202,
+      "sha256": "bc7bdd5146d2554159e69a0746516600dd7fd73a0365bc4a0bdd1fc2df88c58a"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-30.webp",
+      "filename": "chapter-30.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 317926,
+      "sha256": "6b57e797f3ed9948b23850d619143329868c881caaca5500f951eebae97e4c2c"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-31.webp",
+      "filename": "chapter-31.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 266566,
+      "sha256": "0398cddadb07e2b79cd187c20adc9df4251ff33a647c4ed55612f7e9818f872d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-32.webp",
+      "filename": "chapter-32.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 302290,
+      "sha256": "0021ff710d13d7a278239148a8bcce4445fb00eb0cbb0ed438af595c1dee9825"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-33.webp",
+      "filename": "chapter-33.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 193664,
+      "sha256": "6f2565eb2aa929ecdd1ffdf4366476f8e221560aa370526701e51564819758bd"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-34.webp",
+      "filename": "chapter-34.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 322226,
+      "sha256": "0198133644b89acb8bfda1784387cd36845380bbdb95ace825f4ead3e5545f2d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-35.webp",
+      "filename": "chapter-35.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 286796,
+      "sha256": "7a1d47356c1bf18abd1c2639e4ebde01e827d9ca491f5843f468ea355be8b5fc"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-36.webp",
+      "filename": "chapter-36.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 233862,
+      "sha256": "a9e476595e6df286f973d5033b2e098b1d259cb2d151e744e22aa6b1a900bc6a"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-37.webp",
+      "filename": "chapter-37.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 271010,
+      "sha256": "ffa9b942ca7166fbe559bc813afbebce3bdd29c342e71ab8e619f97cee35d125"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-38.webp",
+      "filename": "chapter-38.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 237748,
+      "sha256": "d5c84d95a60bef95f4a1931e61ef7fcb7e1f4ae3eae6f3e060f4c340f2baa8f1"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/baile-da-escola.webp",
+      "filename": "baile-da-escola.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 307610,
+      "sha256": "a6220bb28cdf107e4e8619d7374ea540bdeecae47b3e9e928231c14ac8f164d8"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/canavial.webp",
+      "filename": "canavial.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 326984,
+      "sha256": "bbe6b5ffe25fe82970c17160dc5be9a277267cb53d8a9d0f9ee850076a4821f5"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casa-de-d-maria-marques.webp",
+      "filename": "casa-de-d-maria-marques.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 529492,
+      "sha256": "1051f3051a815d8f695e740f0834b85b20445455042579f7b6a9952f7b44e909"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casa-de-jennifer-terreo.webp",
+      "filename": "casa-de-jennifer-terreo.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 256168,
+      "sha256": "4e84790c9df8d5665643ddac51194b6773907be47420d7860cbbe66b02091146"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casa-de-junior-sala-e-cozinha-americana.webp",
+      "filename": "casa-de-junior-sala-e-cozinha-americana.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 291922,
+      "sha256": "a38fa48b98a1de09f05c6e4f54a7f9439b5e705d3e33084fa473ba6736f4b82a"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casa-de-vini.webp",
+      "filename": "casa-de-vini.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 316158,
+      "sha256": "cb042850d2506edc0bda0141bff4c8187572d96310e32cd9cb0368c31e4950f3"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casarao-carnam-fachada.webp",
+      "filename": "casarao-carnam-fachada.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 397064,
+      "sha256": "f5ee32ad0128f029da6787f28494be901c5a019a023259db01d917a719174912"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/casarao-carnam-saguao-principal.webp",
+      "filename": "casarao-carnam-saguao-principal.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 194678,
+      "sha256": "3b5c12d6fefc964b5cb17ccd589befbbc4f351d580d9fb725079d432f35b1a24"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/cemiterio-de-vila-velha.webp",
+      "filename": "cemiterio-de-vila-velha.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 339718,
+      "sha256": "5064177dcde4a26ddbf24a8a695f993b18e2e14fca0ffd12037a1aa4c058e046"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/escola-fachada.webp",
+      "filename": "escola-fachada.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 395916,
+      "sha256": "9c1e14cd3c3bdde5aa298198aa1b516e295a6399861f450604b20cee6ebb9e05"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/escola-patio.webp",
+      "filename": "escola-patio.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 351488,
+      "sha256": "94dc28385fe04b29d34ecbf0e07df8149f5bad4a66be0d75d8c37fdba5e65633"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/hospital-das-lajes.webp",
+      "filename": "hospital-das-lajes.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 231882,
+      "sha256": "6f6cdbad679a9983c11bf36524a23e0c47fc9e0a891d6dbba548e613c912c0d4"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/lago-da-floresta.webp",
+      "filename": "lago-da-floresta.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 291940,
+      "sha256": "4d839dc81f6eba60032dbb7f232d12f24f0c61663db29e2387e8c8c79f766c54"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/praca-de-vila-velha.webp",
+      "filename": "praca-de-vila-velha.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 364624,
+      "sha256": "12b7135c42f90ee71500653e55afe15e7be9069d2e0dff904c699bebc763bc95"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/quarto-de-junior.webp",
+      "filename": "quarto-de-junior.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 186638,
+      "sha256": "14419135467ad0ce42f98670943beaaa53dde57beeeddb767ae783a6d59c929d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/quarto-de-kelly.webp",
+      "filename": "quarto-de-kelly.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 250764,
+      "sha256": "c10e31fa5302e760a9fa488cd9977e1e1df831c036f4d543bb6a0cc5e82fe060"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/quarto-de-priscila.webp",
+      "filename": "quarto-de-priscila.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 243152,
+      "sha256": "edbb946a4a23e6c80d2e4219bc2db68f2908ce016211ff2e53d3ae2605c6b767"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/places/rua-casas-de-junior-e-kelly.webp",
+      "filename": "rua-casas-de-junior-e-kelly.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 346198,
+      "sha256": "ad5d40ddc065cb6f87e2af693dcac0883681e670975c0b6b65d606108c6da0f1"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/alan-silva.webp",
+      "filename": "alan-silva.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 220904,
+      "sha256": "1a3323e07de24dad942922938829103a64e57a9232b2c3b5f3385812ed8d4484"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/alex.webp",
+      "filename": "alex.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 165304,
+      "sha256": "b368d8337111bdad384437bfd72a586249152d08b09b660d810595198df9c0bf"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/d-maria-marques.webp",
+      "filename": "d-maria-marques.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 292850,
+      "sha256": "24dfde44e7c152043631e78f920148511945fb206ab5c1f0922ee344901ee1f6"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/francis.webp",
+      "filename": "francis.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 250616,
+      "sha256": "248e9982fe08f635e98a59be755976a275d6462f3074dee0ffe0dd34d96f6ef3"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/karen-fontenelle.webp",
+      "filename": "karen-fontenelle.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 146560,
+      "sha256": "dccf3a63a607b3f87914f79600c7dceec347a1e6baa5d711019ea09570b36f5a"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/kelly-priscila-karen-sanderson-e-enzo-dois-anos-antes.webp",
+      "filename": "kelly-priscila-karen-sanderson-e-enzo-dois-anos-antes.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1536,
+      "height": 1024,
+      "sizeBytes": 284206,
+      "sha256": "2168e966c0b2200b6545ff02f8bd83ea385010a568ef01bf93dd5798d70361ce"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/luiza-salomandra.webp",
+      "filename": "luiza-salomandra.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 311394,
+      "sha256": "147b5aeaa468c2ed04af28b4a1d18e851966a832463653db434c700400294510"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/mandioca.webp",
+      "filename": "mandioca.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 129660,
+      "sha256": "d88d6da8547b8d64f89a3e07ef1c785279edf92daf59deeb4e9c0080cb4ea93d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/old-kelly-priscila-karen-sanderson-e-enzo-dois-anos-antes.webp",
+      "filename": "old-kelly-priscila-karen-sanderson-e-enzo-dois-anos-antes.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 269286,
+      "sha256": "35cf578a6377d30d477a3d6a91a65c19ac77165287432ea1cd217d9c9ddee382"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/pepeu-thiaguinho-caneca-e-pezinho.webp",
+      "filename": "pepeu-thiaguinho-caneca-e-pezinho.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 306760,
+      "sha256": "c8d688e2550fcef5bcd1732332698523aefff4753a8c5e148e0bd5b89f24753d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/sanderson-fontenelle.webp",
+      "filename": "sanderson-fontenelle.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 137688,
+      "sha256": "8c936eddbde340a50cdce29763367bed58368b59aad923f163abca65fa9266fe"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/os-elos-das-sombras/characters/sergio-quissama.webp",
+      "filename": "sergio-quissama.webp",
+      "category": "books/diario-sobrenatural/os-elos-das-sombras/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 167852,
+      "sha256": "5b030842c09b604250451748e0c86c43ce73037d0bbe299fbf6e5c59f03861d4"
     }
   ]
 }
