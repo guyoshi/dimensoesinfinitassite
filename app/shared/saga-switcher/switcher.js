@@ -74,7 +74,7 @@
   // ---- Seletor de livros (mesmo diálogo em todos os livros) ----
   const JESED_BOOKS = [
     { id: 'ruinas-dos-ceus', order: 1, name: 'Ruínas dos Céus', entry: 'ruinas.html#/inicio', status: 'active' },
-    { id: 'guerras-de-sangue', order: 2, name: 'Guerras de Sangue', entry: 'guerras.html#/dashboard', status: 'active' },
+    { id: 'guerras-de-sangue', order: 2, name: 'Guerras de Sangue', entry: 'guerras.html#/inicio', status: 'active' },
     { id: 'dinastia-polar', order: 3, name: 'Dinastia Polar', entry: 'dinastia-polar.html#/inicio', status: 'locked' },
     { id: 'herdeiros-das-cinzas', order: 4, name: 'Herdeiros das Cinzas', entry: 'herdeiros-das-cinzas.html#/inicio', status: 'locked' },
     { id: 'coracao-de-poeira', order: 5, name: 'Coração de Poeira', entry: null, status: 'locked' }

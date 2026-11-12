@@ -66,7 +66,7 @@
     setSagaHeader(null);
     bookGrid.innerHTML = books.map(b => {
       const href = (b.status === 'active' || previewableBooks.has(b.id)) ? externalPages[b.id] : '';
-      return bookCard(b, href ? `${href}#/${b.id === 'guerras-de-sangue' ? 'dashboard' : 'inicio'}` : '');
+      return bookCard(b, href ? `${href}#/inicio` : '');
     }).join('');
   }
 
@@ -84,7 +84,7 @@
     const href = externalPages[b.id];
     const logo = bookLogos[b.id];
     const titleHtml = logo ? `<img class="detail-logo" src="${escapeHtml(logo)}" alt="${escapeHtml(b.name)}" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><h2 class="section-title detail-logo-fallback" hidden>${escapeHtml(b.name)}</h2>` : `<h2 class="section-title">${escapeHtml(b.name)}</h2>`;
-    detailView.innerHTML = `<button class="back-link" data-back="books">← Voltar</button><div class="detail-card">${b.cover ? `<img class="detail-cover" src="${escapeHtml(b.cover)}" alt="Capa de ${escapeHtml(b.name)}">` : ''}<p class="kicker">Livro ${b.order} · Ciclo de Jesed</p>${titleHtml}<div class="subtitle book-full-synopsis">${synopsisHtml(b.synopsis || b.visual)}</div>${href ? `<a class="go-button" href="${href}#/${b.id === 'guerras-de-sangue' ? 'dashboard' : 'inicio'}">Ir para a página do livro</a>` : '<p class="subtitle">Ainda em preparação.</p>'}</div>`;
+    detailView.innerHTML = `<button class="back-link" data-back="books">← Voltar</button><div class="detail-card">${b.cover ? `<img class="detail-cover" src="${escapeHtml(b.cover)}" alt="Capa de ${escapeHtml(b.name)}">` : ''}<p class="kicker">Livro ${b.order} · Ciclo de Jesed</p>${titleHtml}<div class="subtitle book-full-synopsis">${synopsisHtml(b.synopsis || b.visual)}</div>${href ? `<a class="go-button" href="${href}#/inicio">Ir para a página do livro</a>` : '<p class="subtitle">Ainda em preparação.</p>'}</div>`;
   }
 
   function route() {
