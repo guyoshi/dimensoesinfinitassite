@@ -1,0 +1,47 @@
+name: Publicar capa de Viajantes Dimensionais 2
+
+on:
+  push:
+    paths:
+      - '.github/workflows/publicar-capa-viajantes-2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recuperar a capa oficial sincronizada no Lityra
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_url="https://raw.githubusercontent.com/guyoshi/Lityra/main/assets/covers/viajantes-dimensionais-2.webp"
+          target="assets/books/viajantes-dimensionais/a-mascara-do-contracanto/cover.webp"
+          mkdir -p "$(dirname "$target")"
+          for attempt in {1..30}; do
+            if curl -fsSL --max-time 20 "$source_url" -o /tmp/viajantes-dimensionais-2.webp; then
+              if python -c 'from pathlib import Path; p=Path("/tmp/viajantes-dimensionais-2.webp"); b=p.read_bytes(); assert len(b)>100000 and b[:4]==b"RIFF" and b[8:12]==b"WEBP"'; then
+                cp /tmp/viajantes-dimensionais-2.webp "$target"
+                break
+              fi
+            fi
+            echo "Capa ainda não publicada no Lityra; tentativa $attempt/30."
+            sleep 10
+          done
+          test -s "$target"
+      - name: Publicar imagem no Portal Literário
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Dimensões Infinitas"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/books/viajantes-dimensionais/a-mascara-do-contracanto/cover.webp
+          if git diff --cached --quiet; then
+            echo "Capa já está atualizada."
+            exit 0
+          fi
+          git commit -m "Publish official cover of Viajantes Dimensionais 2"
+          git push origin HEAD:main
