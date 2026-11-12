@@ -162,12 +162,12 @@
           "note": "Título definido: A Patrulha de Korvo (a arte da capa ainda diz 'A Ascensão de Korvo'). Capítulos 22 e 23: O Tribunal das Sombras, A Árvore da Vigília."
         },
         {
-          "id": "livro-2",
+          "id": "a-mascara-do-contracanto",
           "order": 2,
           "name": "A Máscara do Contracanto",
-          "status": "locked",
-          "stage": "planejado",
-          "entry": null,
+          "status": "active",
+          "stage": "em-escrita",
+          "entry": "a-mascara-do-contracanto.html",
           "sourceFolder": "Viajantes Dimensionais/2 - A Máscara do Contracanto",
           "expectedChapters": 25,
           "icon": "portal",

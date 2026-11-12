@@ -1,0 +1,97 @@
+/* Viajantes Dimensionais 2 — A Máscara do Contracanto
+   Duas vozes que se respondem: ouro quente (melodia) e violeta frio (contracanto), sobre um céu de ilhas e cristal. */
+:root{
+  --bg:#0b0719;--ink:#f6efff;--mute:#b9a9e6;--acc:#d9a441;--gold:#e9b955;--violet:#b985ff;--teal:#37d9c4;--crystal:#7fe0ff;--acc-ink:#1a0f2e;
+  --side:linear-gradient(180deg,#1b1038 0%,#0b0719 100%);--side-line:rgba(233,185,85,.28);--sec:#a88ae6;
+  --card-bg:linear-gradient(160deg,rgba(38,22,82,.78),rgba(15,9,38,.82));--card-ink:#f6efff;--card-mute:#bcaee6;--card-line:rgba(233,185,85,.42);--card-head:var(--gold);--card-r:22px 6px 22px 6px;
+  --card-shadow:0 10px 34px rgba(5,2,20,.55),inset 0 0 0 1px rgba(185,133,255,.14);
+  --pill-bg:rgba(255,255,255,.06);--pill-line:rgba(233,185,85,.34);--pill-ink:#f6efff;--pill-r:14px 4px 14px 4px;
+  --btn-bg:rgba(255,255,255,.05);--btn-line:rgba(233,185,85,.5);--btn-r:14px 4px 14px 4px;
+  --btn-p-bg:linear-gradient(135deg,#e9b955 0%,#b985ff 100%);--btn-p-ink:#1a0f2e;--btn-p-line:#fff3cf;
+  --nav-active-bg:linear-gradient(90deg,rgba(233,185,85,.30),rgba(185,133,255,.08));--nav-active-ink:#fff;--nav-active-bar:var(--gold);
+  --hero-r:28px 8px 28px 8px;--hero-line:rgba(233,185,85,.45);--hero-shadow:0 0 0 1px rgba(185,133,255,.25),0 0 60px rgba(140,80,255,.28),0 24px 60px rgba(0,0,0,.55);
+  --head-weight:700;--head-track:.03em;--font-head:"Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;
+}
+body{background:radial-gradient(1100px 700px at 82% -8%,rgba(120,60,255,.45) 0%,transparent 60%),radial-gradient(900px 640px at 6% 108%,rgba(217,164,65,.22) 0%,transparent 58%),radial-gradient(700px 500px at 50% 50%,rgba(55,217,196,.07) 0%,transparent 70%),#0b0719}
+.h-font,h1,h2,h3,h4{font-family:var(--font-head)}
+.sigil{color:var(--gold);background:rgba(11,7,25,.8);border:1px solid rgba(233,185,85,.6);box-shadow:0 0 16px rgba(185,133,255,.45)}
+.sb{border-right:1px solid rgba(233,185,85,.25);box-shadow:inset -1px 0 0 rgba(185,133,255,.25)}
+.nav-item.active{border-radius:12px 4px 12px 4px;box-shadow:inset 3px 0 0 var(--gold),0 0 18px rgba(185,133,255,.25)}
+.btn.primary{box-shadow:0 0 22px rgba(185,133,255,.55);font-weight:800}
+.chip{background:rgba(233,185,85,.14);color:var(--gold);border:1px solid rgba(233,185,85,.45)}
+.fchip.on{background:var(--gold);color:#1a0f2e}
+.tl:before{background:linear-gradient(var(--gold),var(--violet) 55%,var(--teal));opacity:.9}
+.tl-item:before{background:var(--gold);box-shadow:0 0 14px var(--gold),0 0 22px rgba(185,133,255,.6)}
+.hero-bg{filter:saturate(1.25) brightness(.62)}
+.hero-shade{background:linear-gradient(90deg,rgba(11,7,25,.95) 0%,rgba(11,7,25,.72) 48%,rgba(80,40,170,.12) 100%)}
+.hero .logo-text{font-size:clamp(34px,4.6vw,56px);line-height:1.04;margin:4px 0 14px;font-weight:800;letter-spacing:.02em;
+  background:linear-gradient(100deg,#fff6dc 0%,#e9b955 38%,#c9a6ff 70%,#fff 100%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:vd2title 9s ease-in-out infinite alternate;filter:drop-shadow(0 2px 12px rgba(0,0,0,.65))}
+@keyframes vd2title{to{background-position:100% 0}}
+.coverwrap{border:2px solid var(--gold);box-shadow:0 0 0 1px rgba(11,7,25,.9),0 0 46px rgba(185,133,255,.65),0 0 90px rgba(233,185,85,.25),0 22px 50px rgba(0,0,0,.65)}
+.coverwrap:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 35%,rgba(255,244,214,.38) 48%,transparent 62%);background-size:260% 100%;background-position:130% 0;animation:vd2sheen 7s ease-in-out infinite}
+@keyframes vd2sheen{0%,55%{background-position:130% 0}100%{background-position:-60% 0}}
+.panel,.card,.book,.chcard,.ecard{border:1px solid var(--card-line);position:relative;overflow:hidden}
+.panel{overflow:visible}
+.card:before,.chcard:before,.book:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 40%,rgba(233,185,85,.22) 50%,transparent 60%);transform:translateX(-120%);transition:transform .7s ease}
+.card:hover:before,.chcard:hover:before,.book:hover:before{transform:translateX(120%)}
+.card:hover,.chcard:hover{box-shadow:0 14px 40px rgba(5,2,20,.6),0 0 30px rgba(185,133,255,.35);transform:translateY(-2px)}
+.crow{border-bottom:1px solid rgba(233,185,85,.18)}
+.modal-panel{border:1px solid var(--card-line);box-shadow:0 0 60px rgba(140,80,255,.35),0 20px 50px rgba(0,0,0,.6)}
+.phimg,.eimg,.efig{border:1px solid rgba(233,185,85,.5)}
+
+/* camadas de fundo */
+.fx-aurora2{background:radial-gradient(520px 380px at 14% 28%,rgba(185,133,255,.18),transparent 70%),radial-gradient(640px 440px at 88% 72%,rgba(233,185,85,.14),transparent 70%),radial-gradient(500px 400px at 60% 10%,rgba(55,217,196,.10),transparent 70%);animation:vd2aur 34s ease-in-out infinite alternate}
+@keyframes vd2aur{to{transform:translate3d(-2.5%,2%,0) scale(1.07);opacity:.8}}
+.fx-staff{width:100%;height:100%;color:rgba(233,185,85,.17)}
+.fx-staff .note-a{fill:#e9b955;filter:drop-shadow(0 0 6px #e9b955) drop-shadow(0 0 14px rgba(233,185,85,.8))}
+.fx-staff .note-b{fill:#b985ff;filter:drop-shadow(0 0 6px #b985ff) drop-shadow(0 0 14px rgba(185,133,255,.85))}
+body.fx-light .fx-staff{display:none}
+
+/* emblema da máscara no hero: duas metades que se respondem */
+.fx-mask{position:absolute;right:262px;top:44px;width:270px;height:280px;z-index:3;filter:drop-shadow(0 0 22px rgba(185,133,255,.55))}
+.fx-mask svg{position:absolute;inset:30px 30px;width:calc(100% - 60px);height:calc(100% - 60px);overflow:visible}
+.fx-mask .mk-l{animation:mkl 6.4s ease-in-out infinite}
+.fx-mask .mk-r{animation:mkr 6.4s ease-in-out infinite}
+@keyframes mkl{0%,100%{transform:translate(-3px,-5px)}50%{transform:translate(-8px,6px)}}
+@keyframes mkr{0%,100%{transform:translate(3px,5px)}50%{transform:translate(8px,-6px)}}
+.fx-mask .mk-seam{animation:mkseam 6.4s ease-in-out infinite}
+@keyframes mkseam{0%,100%{opacity:.15}50%{opacity:.95;filter:drop-shadow(0 0 6px #fff)}}
+.mk-ring{position:absolute;left:50%;top:50%;width:200px;height:200px;margin:-100px 0 0 -100px;border-radius:50%;border:2px solid rgba(233,185,85,.55);animation:mkring 6.4s ease-out infinite}
+.mk-ring.r2{border-color:rgba(185,133,255,.6);animation-delay:3.2s}
+@keyframes mkring{0%{transform:scale(.7);opacity:.9}100%{transform:scale(1.5);opacity:0}}
+.mk-shard{position:absolute;width:9px;height:15px;background:linear-gradient(160deg,#fff,#7fe0ff 55%,#b985ff);clip-path:polygon(50% 0,100% 40%,70% 100%,30% 100%,0 40%);opacity:.85;animation:mkshard 9s ease-in-out infinite}
+.mk-shard.s0{left:6%;top:30%}.mk-shard.s1{left:12%;top:68%;animation-delay:-2s;transform:scale(.7)}.mk-shard.s2{right:8%;top:22%;animation-delay:-4s}
+.mk-shard.s3{right:2%;top:60%;animation-delay:-6s;transform:scale(1.2)}.mk-shard.s4{left:48%;top:2%;animation-delay:-3s;transform:scale(.6)}.mk-shard.s5{left:40%;bottom:0;animation-delay:-7s;transform:scale(.8)}
+@keyframes mkshard{0%,100%{translate:0 0;rotate:0deg}50%{translate:6px -18px;rotate:25deg}}
+
+/* transição: a máscara fecha ao meio e reabre */
+.veil.go{opacity:1;background:none;animation:none}
+.veil.go:before,.veil.go:after{content:"";position:absolute;top:0;bottom:0;width:50.4%;will-change:transform}
+.veil.go:before{left:0;background:linear-gradient(90deg,#0b0719 0%,#241353 70%,#3a1d7a 100%);border-right:2px solid var(--gold);box-shadow:6px 0 40px rgba(233,185,85,.55);animation:vd2L .62s cubic-bezier(.6,0,.3,1) both}
+.veil.go:after{right:0;background:linear-gradient(270deg,#0b0719 0%,#241353 70%,#3a1d7a 100%);border-left:2px solid var(--violet);box-shadow:-6px 0 40px rgba(185,133,255,.6);animation:vd2R .62s cubic-bezier(.6,0,.3,1) both}
+@keyframes vd2L{0%{transform:translateX(-101%)}32%,46%{transform:translateX(0)}100%{transform:translateX(-101%)}}
+@keyframes vd2R{0%{transform:translateX(101%)}32%,46%{transform:translateX(0)}100%{transform:translateX(101%)}}
+
+/* ecos: toque/clique espalha duas ondas, uma dourada e outra violeta */
+.vd2-echo{position:fixed;z-index:60;pointer-events:none;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;border:2px solid #e9b955;box-shadow:0 0 14px rgba(233,185,85,.8);animation:vd2echo 1s ease-out forwards}
+.vd2-echo.v{border-color:#b985ff;box-shadow:0 0 14px rgba(185,133,255,.85);animation-delay:.16s;animation-duration:1.15s}
+@keyframes vd2echo{0%{transform:scale(1);opacity:.95}100%{transform:scale(12);opacity:0}}
+
+@media (max-width:1240px){.fx-mask{display:none}}
+@media (max-width:900px){.fx-mask{display:none}.fx-staff{opacity:.6}}
+@media (prefers-reduced-motion:reduce){.hero .logo-text,.coverwrap:after,.fx-aurora2,.fx-mask *{animation:none!important}.veil.go:before,.veil.go:after{animation:none!important;transform:translateX(-101%)}.veil.go:after{transform:translateX(101%)}}
+
+/* identidade editorial Dimensões Infinitas (selo, logotipo, assinatura) */
+.brand .sigil{background:rgba(11,7,25,.82);border-color:rgba(233,185,85,.6);box-shadow:0 0 16px rgba(185,133,255,.3)}
+.brand .di-seal{display:block;width:32px;height:32px;object-fit:contain;filter:drop-shadow(0 0 5px rgba(233,185,85,.35))}
+.di-footer-publisher{display:flex;align-items:center;gap:13px;min-width:0}
+.di-footer-publisher a{display:inline-flex;align-items:center;flex:none}
+.di-publisher-img{display:block;width:134px;height:30px;object-fit:contain;object-position:left center;filter:drop-shadow(0 0 3px rgba(233,185,85,.18))}
+.di-brand-fallback{font-weight:700;color:var(--ink)}
+.di-footer-title{font-size:11px;opacity:.8;line-height:1.25}
+.di-hero-author{display:flex;align-items:center;gap:12px;width:max-content;max-width:100%;margin-top:18px;padding-top:10px;border-top:1px solid rgba(233,185,85,.32)}
+.di-author-label{font-size:10px;line-height:1.3;letter-spacing:.15em;text-transform:uppercase;color:#d9c7ff;white-space:nowrap}
+.di-hero-author img{display:block;width:174px;max-width:50vw;height:48px;object-fit:contain;object-position:left center;filter:drop-shadow(0 1px 5px rgba(0,0,0,.65))}
+.di-author-fallback{font-size:15px;font-weight:700;letter-spacing:.04em}
+.di-seal[hidden],.di-publisher-img[hidden],.di-hero-author img[hidden]{display:none!important}
+@media(max-width:680px){.di-footer-publisher{gap:0}.di-footer-title{display:none}.di-publisher-img{width:110px;height:24px}.di-hero-author{margin-top:14px;gap:8px}.di-hero-author img{width:145px;height:42px}.foot{gap:6px;padding-top:8px;padding-bottom:8px}}

@@ -1,4 +1,4 @@
-/* Efeitos por tema (st, vd, ds1, ds2). Sem bibliotecas. Respeita perfil Completo/Equilibrado/Desempenho e movimento reduzido. */
+/* Efeitos por tema (st, vd, vd2, ds1, ds2). Sem bibliotecas. Respeita perfil Completo/Equilibrado/Desempenho e movimento reduzido. */
 (() => {
   'use strict';
   const rnd = (a, b) => a + Math.random() * (b - a);
@@ -9,6 +9,7 @@
   const SPR = {
     st: [['#ffffff', 1], ['#ffe9c2', 1.3], ['#c9b8ff', 1.1]],
     vd: [['#9cf0ff', 1], ['#46d3f2', 1.2], ['#ffc46b', .8]],
+    vd2: [['#e9b955', 1], ['#b985ff', 1.25], ['#7fe0ff', .8], ['#37d9c4', .7]],
     ds1: [['#f2b765', 1], ['#d4501e', .8], ['#eadfc9', .7]],
     ds2: [['#e6b567', 1], ['#efe3d0', .8], ['#c97a6b', .7]]
   };
@@ -21,7 +22,7 @@
     return (sprites[col] = c);
   }
   function count() {
-    const base = { st: 150, vd: 70, ds1: 55, ds2: 55 }[theme] || 60;
+    const base = { st: 150, vd: 70, vd2: 64, ds1: 55, ds2: 55 }[theme] || 60;
     return cfg.preset === 'full' ? base : Math.round(base * .45);
   }
   function seed() {
@@ -33,6 +34,7 @@
       parts.push({ x: rnd(0, W), y: rnd(0, H), z, col, s: rnd(2.5, 9) * k * (theme === 'st' ? .45 : 1), vx: 0, vy: 0, ph: rnd(0, 6.28), tw: rnd(.6, 2.2) });
       const p = parts[i];
       if (theme === 'vd') { p.vx = rnd(-8, 8); p.vy = rnd(-22, -6); }
+      else if (theme === 'vd2') { p.v = i % 2; p.vx = (p.v ? 1 : -1) * rnd(6, 16); p.vy = (p.v ? -1 : 1) * rnd(8, 20); p.amp = rnd(10, 34); }
       else if (theme === 'ds1' || theme === 'ds2') { p.vx = rnd(-5, 5); p.vy = rnd(-4, 4); }
       else { p.vx = -rnd(1, 4) * z; p.vy = 0; }
     }
@@ -51,6 +53,7 @@
     const mx = (mouse.x - .5), my = (mouse.y - .5), tw = performance.now() / 1000;
     for (const p of parts) {
       p.x += p.vx * dt * (theme === 'st' ? 1 : p.z); p.y += p.vy * dt * p.z;
+      if (theme === 'vd2') p.x += Math.sin(tw * .7 + p.ph) * p.amp * dt * (p.v ? 1 : -1);
       if (p.x < -20) p.x = W + 20; if (p.x > W + 20) p.x = -20;
       if (p.y < -20) p.y = H + 20; if (p.y > H + 20) p.y = -20;
       let a = theme === 'st' ? .35 + .65 * Math.abs(Math.sin(tw * p.tw + p.ph)) : .25 + .55 * Math.abs(Math.sin(tw * p.tw * .6 + p.ph));
@@ -81,6 +84,13 @@
   const rootHTML = {
     st: () => `<div class="fx-layer fx-nebula"></div><div class="fx-ship" id="fxShip"><svg viewBox="0 0 120 80" aria-hidden="true"><path d="M8 52h104l-14 18H24z" fill="#1a0f3a"/><path d="M58 8v44M58 12c20 4 32 18 34 34H58zM58 16c-16 4-26 16-28 30h28z" fill="#2a1a6e" stroke="#e9b44c" stroke-width="1.4"/><path d="M58 8l14 4-14 4z" fill="#d23fa5"/></svg></div><div class="fx-layer fx-hyper" id="fxHyper"></div>`,
     vd: () => `<div class="fx-layer fx-glow"></div><div class="fx-layer fx-dots"></div>`,
+    vd2: () => `<div class="fx-layer fx-aurora2"></div><svg class="fx-layer fx-staff" viewBox="0 0 1200 700" preserveAspectRatio="none" aria-hidden="true">
+      <g fill="none" stroke="currentColor" stroke-width="1.1">${[0, 1, 2, 3, 4].map(i => `<path d="M-20,${280 + i * 16} C240,${230 + i * 20} 420,${360 + i * 12} 640,${300 + i * 16} C860,${240 + i * 18} 1020,${340 + i * 12} 1220,${290 + i * 16}"/>`).join('')}</g>
+      <g fill="none" stroke="currentColor" stroke-width="1.1" opacity=".7">${[0, 1, 2, 3, 4].map(i => `<path d="M-20,${470 + i * 16} C200,${520 + i * 14} 420,${420 + i * 18} 640,${480 + i * 14} C880,${540 + i * 12} 1010,${440 + i * 16} 1220,${490 + i * 14}"/>`).join('')}</g>
+      <circle r="5" class="note-a"><animateMotion dur="19s" repeatCount="indefinite" path="M-20,312 C240,262 420,392 640,332 C860,272 1020,372 1220,322"/></circle>
+      <circle r="5" class="note-b"><animateMotion dur="23s" repeatCount="indefinite" path="M1220,522 C1010,472 880,572 640,512 C420,452 200,552 -20,502"/></circle>
+      <circle r="3.5" class="note-a"><animateMotion dur="19s" begin="-9s" repeatCount="indefinite" path="M-20,312 C240,262 420,392 640,332 C860,272 1020,372 1220,322"/></circle>
+      <circle r="3.5" class="note-b"><animateMotion dur="23s" begin="-11s" repeatCount="indefinite" path="M1220,522 C1010,472 880,572 640,512 C420,452 200,552 -20,502"/></circle></svg>`,
     ds1: () => `<div class="fx-layer fx-vignette"></div><div class="fx-layer fx-grain"></div><div class="fx-layer fx-flicker" id="fxFlicker"></div>${ink()}`,
     ds2: () => `<div class="fx-layer fx-dawn"></div><div class="fx-layer fx-mist"></div><div class="fx-layer fx-vignette"></div><div class="fx-layer fx-grain"></div><svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="di-mirage"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.02" numOctaves="1" seed="3"><animate attributeName="baseFrequency" dur="14s" values="0.008 0.02;0.012 0.028;0.008 0.02" repeatCount="indefinite"/></feTurbulence><feDisplacementMap in="SourceGraphic" scale="4"/></filter></svg>`
   };
@@ -95,6 +105,12 @@
       <svg class="fx-rail" viewBox="0 0 1100 140" preserveAspectRatio="none" aria-hidden="true"><path id="railA" d="M-10,120 C150,40 260,150 420,70 C560,0 660,130 820,60 C940,10 1040,60 1110,30" fill="none" stroke="#f2922e" stroke-width="7" stroke-linecap="round" opacity=".85"/><path d="M-10,138 C150,58 260,168 420,88 C560,18 660,148 820,78 C940,28 1040,78 1110,48" fill="none" stroke="#f2922e" stroke-width="4" stroke-linecap="round" opacity=".5"/></svg>
       ${[0, 1, 2, 3, 4].map(i => `<i class="fx-spark" style="animation-delay:-${i * 1.7}s"></i>`).join('')}
       <svg class="fx-roots" viewBox="0 0 430 150" aria-hidden="true"><g stroke="#10202b" stroke-width="5" fill="none" stroke-linecap="round"><path d="M120,150 C110,100 80,90 70,40 M105,110 C80,100 50,110 30,80 M130,140 C150,90 140,60 170,20 M150,100 C190,90 210,60 230,30"/><path d="M300,150 C310,100 340,90 360,40 M315,110 C340,100 370,112 400,80 M290,140 C270,90 280,60 250,20"/></g></svg>`,
+    vd2: () => `<div class="fx-mask"><svg viewBox="0 0 240 200" aria-hidden="true"><defs><clipPath id="mkL"><rect x="0" y="0" width="120" height="200"/></clipPath><clipPath id="mkR"><rect x="120" y="0" width="120" height="200"/></clipPath>
+      <path id="mkP" d="M62,22 C92,6 148,6 178,22 C206,42 208,92 182,124 C166,144 150,152 120,184 C90,152 74,144 58,124 C32,92 34,42 62,22Z"/></defs>
+      <g clip-path="url(#mkL)" class="mk-l"><use href="#mkP" fill="rgba(217,164,65,.10)" stroke="#e9b955" stroke-width="3"/><path d="M52,70 C70,56 100,62 112,84 C92,92 66,92 52,70Z" fill="rgba(233,185,85,.5)"/><path d="M96,112 C106,130 112,142 120,160" stroke="#e9b955" stroke-width="2" fill="none"/></g>
+      <g clip-path="url(#mkR)" class="mk-r"><use href="#mkP" fill="rgba(140,80,255,.14)" stroke="#b985ff" stroke-width="3"/><path d="M188,70 C170,56 140,62 128,84 C148,92 174,92 188,70Z" fill="rgba(185,133,255,.55)"/><path d="M144,112 C134,130 128,142 120,160" stroke="#b985ff" stroke-width="2" fill="none"/></g>
+      <path d="M120,10 L120,186" stroke="#fff" stroke-width="1" class="mk-seam" opacity=".6"/></svg>
+      <i class="mk-ring r1"></i><i class="mk-ring r2"></i>${[0, 1, 2, 3, 4, 5].map(i => `<b class="mk-shard s${i}"></b>`).join('')}</div>`,
     ds1: () => '',
     ds2: () => `<div class="fx-herodawn"></div>`
   };

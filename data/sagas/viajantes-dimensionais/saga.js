@@ -17,12 +17,12 @@ window.DI_SAGAS["viajantes-dimensionais"] = {
       "icon": "portal"
     },
     {
-      "id": "livro-2",
+      "id": "a-mascara-do-contracanto",
       "order": 2,
       "name": "A Máscara do Contracanto",
-      "status": "locked",
-      "stageLabel": "Em preparação",
-      "entry": null,
+      "status": "active",
+      "stageLabel": "Em escrita",
+      "entry": "a-mascara-do-contracanto.html",
       "cover": "assets/books/viajantes-dimensionais/a-mascara-do-contracanto/cover.webp",
       "icon": "portal"
     },
