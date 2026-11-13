@@ -2641,3 +2641,11 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - **Lityra:** o sincronizador `.github/lityra-covers.json` do acervo publica a capa com título como `assets/covers/viajantes-dimensionais-2.webp`, e o catálogo `data/books.json` expõe o campo `cover` com versão de cache.
 - **Portal Literário:** `data/sagas/viajantes-dimensionais/saga.js` apresenta o título aprovado e usa `assets/books/viajantes-dimensionais/a-mascara-do-contracanto/cover.webp`. A imagem é importada do WebP público já sincronizado no Lityra por `.github/workflows/publicar-capa-viajantes-2.yml`; a fonte original continua no acervo privado. `data/common/sagas-registry.json` referencia a mesma origem.
 - **Verificação de arquivos:** as versões WebP publicadas no Lityra e no Portal possuem o mesmo hash Git blob (a imagem de 553550 bytes). A verificação visual final em navegador e a disponibilização após o deploy do GitHub Pages são independentes desta checagem estática.
+
+## Atualização pontual — 13/11/2026 — artes de Diário Sobrenatural II
+
+- **Livro:** *A Alvorada das Ilusões* recebeu 28 artes de capítulo, 29 retratos e 13 imagens de lugares provenientes da pasta editorial `02 - Assets`.
+- **Ligações públicas:** as 28 artes estão associadas aos respectivos capítulos; 25 retratos e 7 cenários foram ligados às fichas canônicas. Variações de um mesmo lugar e o retrato de Alberto, que ainda não possui ficha própria no dataset, permanecem acessíveis na Galeria, sem criar entidades nem inventar dados canônicos.
+- **Compatibilidade:** o sincronizador passou a reconhecer a pasta `Capítulos` com acento e não interrompe a atualização de artes atuais quando uma fonte histórica já removida possui WebP público preservado.
+- **Lityra:** o leitor já usa `artBase` apontando para o portal; as artes de capítulos serão exibidas automaticamente após a publicação do portal, sem cópias duplicadas no repositório do Lityra.
+- **Validação:** sincronizador sem pendências, inventário e manifesto reconciliados; `images.js` do livro validado por sintaxe JavaScript.

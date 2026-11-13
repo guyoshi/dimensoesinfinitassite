@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 660,
+  "count": 715,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
@@ -6604,6 +6604,556 @@
       "height": 941,
       "sizeBytes": 167852,
       "sha256": "5b030842c09b604250451748e0c86c43ce73037d0bbe299fbf6e5c59f03861d4"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-01.webp",
+      "filename": "chapter-01.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 240490,
+      "sha256": "25bafe94d1d24e79379a20c8c0d6f88682a46d469e47b2649f9881671b5e8c69"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-02.webp",
+      "filename": "chapter-02.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 225810,
+      "sha256": "bd3ee6f50887cd85e567a09bde321a8f5e0d465150e8bbe27674cfc4527d34e7"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-03.webp",
+      "filename": "chapter-03.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 314456,
+      "sha256": "71661cb410199af79059d3c143c2e0b84d936e07ba889c06aa68dec82d49301f"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-04.webp",
+      "filename": "chapter-04.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 335698,
+      "sha256": "508f0464987ddec60e58c5da3291d2666d05e9613bfa13b64dfe498711005205"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-05.webp",
+      "filename": "chapter-05.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 214036,
+      "sha256": "9666210ba84259fd391ea68dc08a7bcae406bd70e3f5d92f7215bce67d57292e"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-06.webp",
+      "filename": "chapter-06.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 264340,
+      "sha256": "08d2d74481cb0aff656d6da2869d6fea5431183d2097ae404b57e1e496a8d173"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-07.webp",
+      "filename": "chapter-07.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 157584,
+      "sha256": "f6ddba80db64e74df4823b0ee530b8cf19a3eb2fd8fd2c2dc84b27cd52969518"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-08.webp",
+      "filename": "chapter-08.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 246628,
+      "sha256": "f3173ec7165926d77c74b49eb1b4a70cd66c40aaa0a6e20513cb935960bb92b1"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-09.webp",
+      "filename": "chapter-09.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 224100,
+      "sha256": "127c59f7e0e6fd1026a3d06ce9e292ba294a3f5cc2ab4de8bc36b0ba27fd275a"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-10.webp",
+      "filename": "chapter-10.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 262166,
+      "sha256": "f60cfc13d364f60ac4b01a52f1adceaea160d026a6349b9790cd7a28509dd60b"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-11.webp",
+      "filename": "chapter-11.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 321150,
+      "sha256": "1b0bafd273bc4f757230b36c618e9c06df405bbe113c3a3cd7b890b104e82d63"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-12.webp",
+      "filename": "chapter-12.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 364932,
+      "sha256": "f7c257868a7945c16b6650343920f492225470cd8c79366d60c1ac030586a28f"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-13.webp",
+      "filename": "chapter-13.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1199,
+      "height": 1312,
+      "sizeBytes": 164790,
+      "sha256": "df9b8133aaf8d31ff4c823409d1b7e42d65b56b142676fab58d011b759d9ef7d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-14.webp",
+      "filename": "chapter-14.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 311622,
+      "sha256": "aa3688f664b426a249363e220d5d2844d417e3cb0e4d5101498a95eb59ec67bb"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-15.webp",
+      "filename": "chapter-15.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1199,
+      "height": 1312,
+      "sizeBytes": 242288,
+      "sha256": "270ba639224eff21ca600fd1c9785749094252fe995136864b6b0f1948ca0299"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-16.webp",
+      "filename": "chapter-16.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 254940,
+      "sha256": "bf8e491bd2788d1026635a1ba81436f2b7dc1b77484f5caa4ab85f69a757070c"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-17.webp",
+      "filename": "chapter-17.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1199,
+      "height": 1312,
+      "sizeBytes": 419286,
+      "sha256": "6db4f93460b615a909755548ec61bd78a10570d1624846dcfb7fc312dcf3cba6"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-18.webp",
+      "filename": "chapter-18.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1199,
+      "height": 1312,
+      "sizeBytes": 400860,
+      "sha256": "a4662d6832b09c9979203aed010f498015cff062df024764db48c49739297d61"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-19.webp",
+      "filename": "chapter-19.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 161198,
+      "sha256": "7107ac918d5dcabb231cdead173bca56b5a2be8fcd80c84ef6dcff76645c754b"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-20.webp",
+      "filename": "chapter-20.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1199,
+      "height": 1312,
+      "sizeBytes": 197288,
+      "sha256": "71592cb112f95fb4ec4a3e065358cff37cb128bdde073de939f581cf76d9fb9d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-21.webp",
+      "filename": "chapter-21.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 305548,
+      "sha256": "65a193a0b6027e021871a4049cf63038548df63b310f94a0038289617d5daa76"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-22.webp",
+      "filename": "chapter-22.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 258696,
+      "sha256": "634ec06143890460472c57aaa63558e5504ffba0790ed58d4dfb2f3aa97c4ce6"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-23.webp",
+      "filename": "chapter-23.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 474294,
+      "sha256": "2ce2c660574ea779e8f81e0680545cb5b09c920c738a0d90abaf64b99468ed0e"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-24.webp",
+      "filename": "chapter-24.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1199,
+      "height": 1312,
+      "sizeBytes": 285218,
+      "sha256": "19091865be119aba9e81d97bb072b1510b7cf10eb96c0cc799ebd664c6fcff52"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-25.webp",
+      "filename": "chapter-25.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 215518,
+      "sha256": "b39222adb081eb774dea5084a2a8897a56e3a6efa1fe7ed1a4f515c192513609"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-26.webp",
+      "filename": "chapter-26.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 294496,
+      "sha256": "02f6dce33007ea884a7cee5b0927c916f5cca040133b97dcbf0a3788f1d8824e"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-27.webp",
+      "filename": "chapter-27.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 244406,
+      "sha256": "bb78961102f770e14a02e117996edf88eae5ff632459a7c5e3102a3cf097186a"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-28.webp",
+      "filename": "chapter-28.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 269828,
+      "sha256": "087e1e1c475b8334ba60dcdf01876d46b15591d4b030bea9d83dfb515926f992"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/alvorada-alegre-dia.webp",
+      "filename": "alvorada-alegre-dia.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 456178,
+      "sha256": "fbcbe05af5ab884e518d3c48d54c9c2a0e8b4ffa3137c374bd6ea712342dc3fd"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/alvorada-alegre-noite.webp",
+      "filename": "alvorada-alegre-noite.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 194718,
+      "sha256": "dcfd85dcaebdab81a9fe9a33841071fb0eb2fa37585b243c5dbf706b4100350b"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/casa-de-pollux.webp",
+      "filename": "casa-de-pollux.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 299454,
+      "sha256": "31e222a364aef1b075e9abd14d0a0539dd89ecda3463cd0b253dd246f457cd6d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/escola-de-alvorada-alegre-corredores.webp",
+      "filename": "escola-de-alvorada-alegre-corredores.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 164870,
+      "sha256": "e7f92f3247cd044b47c8408fed0c1f9d63b286d3b14c567e4e10e77ca160e5c0"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/hamburgueria-do-s-estevan.webp",
+      "filename": "hamburgueria-do-s-estevan.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 251604,
+      "sha256": "aa13d481ebe521fd1c582c0b6b4dd3bb7f5bf0ae7dc7bca94ca4b01729b03fbb"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/igreja-de-alvorada-alegre-exterior.webp",
+      "filename": "igreja-de-alvorada-alegre-exterior.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 334344,
+      "sha256": "e8e6a578ffd8ab6810bb43bfec683ebd688771684c5435da6300ebd10f724741"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/igreja-de-alvorada-alegre-interior.webp",
+      "filename": "igreja-de-alvorada-alegre-interior.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 152402,
+      "sha256": "654cbcfe98c1d842dd0b102a2d708c7b8286cb2fbee1d76386b4edacf2b1da88"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-cozinha.webp",
+      "filename": "mansao-do-diego-cozinha.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1774,
+      "height": 887,
+      "sizeBytes": 199826,
+      "sha256": "7c03546fbcff2f0eb59f3167f8bc9aa6e4ea7aed62d6bae798d782f9c3c95a6a"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-exterior.webp",
+      "filename": "mansao-do-diego-exterior.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 456076,
+      "sha256": "8d0d2b6d7ce78fce4b39f8511b625247185e748409857a3c58ca9f802a366162"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-quarto-da-gisele.webp",
+      "filename": "mansao-do-diego-quarto-da-gisele.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1774,
+      "height": 887,
+      "sizeBytes": 426636,
+      "sha256": "181ac69395c066b2f485eb49d6812de8ecb89eac940eb4d6230eeebce6b0c7ff"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-quarto-da-glenda.webp",
+      "filename": "mansao-do-diego-quarto-da-glenda.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 276336,
+      "sha256": "52a42ed3ea6820783494af5b236b4c1348cba2a4d86d442c4b595994ccb4b150"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-quarto-do-diego.webp",
+      "filename": "mansao-do-diego-quarto-do-diego.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1754,
+      "height": 897,
+      "sizeBytes": 207596,
+      "sha256": "5a0acb3ceb0889c8d039a3bb12a1b65010c6715efd873275500e39fdd898e9d1"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/quarto-de-jennifer.webp",
+      "filename": "quarto-de-jennifer.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/places",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 161020,
+      "sha256": "e1e0ff1af4345d60e87881572bce47b14b8967203a6414cb80dea9c379f51b70"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/agouro.webp",
+      "filename": "agouro.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 215132,
+      "sha256": "400f1111116a67d3e61a1e45e0444fc12872cb081d6cb286210256e7a812b797"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/alberto.webp",
+      "filename": "alberto.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 177154,
+      "sha256": "0ce34f787c1d03af364329f64a33954a3d0f74a655a9190dbcda5938904aa40e"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/carniceiros.webp",
+      "filename": "carniceiros.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 98640,
+      "sha256": "cb5941213b7aa2cf241c7e3c18fb18d16de0ee9d02989150918d39601e7514f5"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/casal-de-espiritos-hebert-e-amelia.webp",
+      "filename": "casal-de-espiritos-hebert-e-amelia.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 84980,
+      "sha256": "3ac7309fb081e2c2bd99f93ebf7e0dd1be3aa3afc6ca5499623660c4e71ae2c0"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/d-adriana.webp",
+      "filename": "d-adriana.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 276464,
+      "sha256": "789aef0de463dc506f7956275ae07b40e80a4c38e0629974d914f60f214519ae"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/gisele.webp",
+      "filename": "gisele.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 184610,
+      "sha256": "4a4cb66ee1936a0d5554ddf94bf11116764e5cfd6b3cab783f086ddff8acf6d1"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/karen.webp",
+      "filename": "karen.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 245562,
+      "sha256": "854f5022ac56fc6ab42067c61a7423f4c8844a9aaa2592ef97c4e43821be13de"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/katia-sobral.webp",
+      "filename": "katia-sobral.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 122392,
+      "sha256": "3c9f55b5234979a19366bcd9280f2a17df71d1d7b025490270d02afdc04004b4"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/lucinda.webp",
+      "filename": "lucinda.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 183040,
+      "sha256": "9d2f86f969f3dcf3cd47f4a0b0a12dc298940f26b26db60bf0ecd52fde629816"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/lidia.webp",
+      "filename": "lidia.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 213940,
+      "sha256": "237dd2af0e94eb9b3789e8661953a2b1d0a32c98085f4eb2403999e8f4e9d447"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/mel-jones.webp",
+      "filename": "mel-jones.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 113416,
+      "sha256": "e255d7a63b281a3551169d737b2e3adc75d67366ad903393e042b71c8c316466"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/mike.webp",
+      "filename": "mike.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 183854,
+      "sha256": "f92ab9b065a0c39024b8ce1821fba44e8374bf011c2f79027997220bd9b9736d"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/pollux.webp",
+      "filename": "pollux.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 190634,
+      "sha256": "be723492747a606db6d14e816781a3193e15f6e4caeed2f2b4d248fd1e618a6f"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/tereza.webp",
+      "filename": "tereza.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/characters",
+      "extension": ".webp",
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 252228,
+      "sha256": "cd1bd8364e71431c1b8e90857d1b72d85a4f55e37fe8fb19be95a8a5b9395fee"
     }
   ]
 }

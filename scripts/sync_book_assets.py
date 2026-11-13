@@ -154,7 +154,7 @@ def source_side_links(mapped: set[str]) -> list[dict]:
                 variant = re.search(r"-\s*(branco|preto|colorido)$", source.stem, re.I)
                 if variant and len(rel) > 2 and slug(rel[1]) == "titulo":
                     add(f"assets/branding/{book}/{LOGO_VARIANTS[variant.group(1).lower()]}.webp", source)
-            elif top in ("Capitulos", "Ilustrações dos Capítulos"):
+            elif top in ("Capitulos", "Capítulos", "Ilustrações dos Capítulos"):
                 number = re.match(r"^(?:capitulo[- ]*)?(\d+)(?:-|$)", stem_slug)
                 if number:
                     add(f"{base}/chapters/chapter-{int(number.group(1)):02d}.webp", source)
@@ -290,8 +290,16 @@ def main() -> None:
             manifest["assets"].append(record)
             indexed[site_path] = record
             manifest["count"] = len(manifest["assets"])
-        if (site_path not in indexed and args.apply) or not source.is_file():
+        if site_path not in indexed and args.apply:
             raise SystemExit(f"Missing mapped source or manifest entry: {entry}")
+        if not source.is_file():
+            # A source can have been superseded after an earlier publication.
+            # Preserve the already-public WebP rather than blocking unrelated
+            # current assets; a genuinely missing public target still fails.
+            if (SITE / site_path).is_file():
+                print(f"WARNING: source no longer exists; keeping published asset: {entry['sourcePath']}")
+                continue
+            raise SystemExit(f"Missing mapped source and public asset: {entry}")
         current_sha = digest(source.read_bytes())
         target = SITE / site_path
         if current_sha != entry["sourceSha256"] or not target.is_file():

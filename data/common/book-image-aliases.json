@@ -62,9 +62,18 @@
   },
   "diario-sobrenatural/a-alvorada-das-ilusoes": {
     "characters": {
-      "sra-olivia": "olivia"
+      "sra-olivia": "olivia",
+      "d-adriana": "adriana",
+      "casal-de-espiritos-hebert-e-amelia": "casal"
     },
-    "places": {},
+    "places": {
+      "alvorada-alegre-dia": "alvorada-alegre",
+      "igreja-de-alvorada-alegre-exterior": "igreja",
+      "escola-de-alvorada-alegre-corredores": "escola-alvorada",
+      "hamburgueria-do-s-estevan": "hamburgueria",
+      "mansao-do-diego-exterior": "mansao-diego",
+      "quarto-de-jennifer": "casa-jennifer"
+    },
     "ignore": [
       "priscila-hamburgueria-secundaria",
       "filipo-antes-cabelo-loiro-20261020",

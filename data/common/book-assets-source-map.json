@@ -1518,9 +1518,174 @@
       "sourceSha256": "2b2fde0e9bb187bcaa91fa1b60038d976dfe0450a7eaaef151261b516a903276"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-01.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/01 - Capítulo 1 - O Lago.png",
+      "sourceSha256": "dec2ae031b1c695541f36b41d29a7d29c118320842cd0eaa72db705cbc1a4b50"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-02.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/02 - Capítulo 2 - O Cara-de-Larva.png",
+      "sourceSha256": "d4c4473ce7ff00cbe8b85eb23495fe4b0307d1e89a876570ad0719312695e99a"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-03.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/03 - Capítulo 3 - Hamburgueria do S. Estevan.png",
+      "sourceSha256": "cd1f7dda2b87a12b20fdf3f08defe617279d6c774c2054c9b65a566fcf531e17"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-04.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/04 - Capítulo 4 - A Mansão.png",
+      "sourceSha256": "0c71704bdca03c0e87f6fae57f26def242e5c27ddabd40e1024a4f42d10bc483"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-05.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/05 - Capítulo 5 - Penitenciária Estadual D. Edileno.png",
+      "sourceSha256": "bdd846e85841e77df4b1ca902ce15a7d0f274661899fac953a0ec97ecc0db195"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-06.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/06 - Capítulo 6 - Revivendo o Passado.png",
+      "sourceSha256": "4e81a7b39b508b439d6ee33172ff95b6c61b1381467c7de2d65eba810474f9cd"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-07.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/07 - Capítulo 7 - Starman.png",
+      "sourceSha256": "e4b35f98c09cab688ca0d41ca7e6e398c81454f702d43c30514f66db44170815"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-08.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/08 - Capítulo 8 - Mente x Coração.png",
+      "sourceSha256": "3044b4692e3d15d574193fe59a3bd533bf2756b67ed08c1d4d3afbe2858b5170"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-09.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/09 - Capítulo 9 - Cobertas e Descobertas.png",
+      "sourceSha256": "6123014582fef16de17074956a26f5575db7df4fca7592c3640fef9885ba035c"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-10.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/10 - Capítulo 10 - Dom ou Maldição.png",
+      "sourceSha256": "e2fd9eb0086a5068bb8354795488921614c135b6652f4693cedce4c4ffb74ef3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-11.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/11 - Capítulo 11 - De Volta para Casa.png",
+      "sourceSha256": "737cf36f7437a05d6886cb3005ca5d50690305b438837dbfb8926b73aea86506"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-12.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/12 - Capítulo 12 - A Estrada das Sombras.png",
+      "sourceSha256": "a25077df3e5fd483650569f9c3d881ca35e849692518f875274c4b96e9aeb362"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-13.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/13 - Capítulo 13 - Não Olhe para Trás.png",
+      "sourceSha256": "6633e85443b79953527a63e4969646fc5e219ae2a9de8331ccdc3e05f05e09e1"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-14.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/14 - Capítulo 14 - Unha Encravada.png",
+      "sourceSha256": "83e54cf35babfa3615cfcc96000f809d9f8896fc8bfe34169126ba941a8d14ef"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-15.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/15 - Capítulo 15 - O Hospital.png",
+      "sourceSha256": "eebab7c5a88afddd9206e36618c90c7e7167db2f6bb59b3b53d8a4c7e59d70d3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-16.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/16 - Capítulo 16 - O Anoitecer dos Alegres.png",
+      "sourceSha256": "870230559b8e2de48c539fadf011fa9e6ed61ead570b6e4f559234fbb85c9a2f"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-17.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/17 - Capítulo 17 - A Senhora da Casa na Serra.png",
+      "sourceSha256": "97c04b2b59afc474afe77eb61aa841b9a315ad4043636a31e66e5dc21dc048a8"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-18.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/18 - Capítulo 18 - Vitalidade.png",
+      "sourceSha256": "818988d1ad34ee8a662f325e672254354fd0b60a437d7bd7d3ee0c2863f34d47"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-19.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/19 - Capítulo 19 - Atrás das Portas.png",
+      "sourceSha256": "c3bbd15d0054e78c2016d402f2cdad72c6148b80cc951b4e534ae9e0b3d82b17"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-20.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/20 - Capítulo 20 - Terraço Itália.png",
+      "sourceSha256": "6f99fee6e43716503fb87e8ac236334ee7e085645383d9687eff5cc88e51b528"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-21.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/21 - Capítulo 21 - O Refúgio.png",
+      "sourceSha256": "4fa1853fbb31328f7add035b5902069f38b0f126acb2bf74d4486a69499169b8"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-22.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/22 - Capítulo 22 - Como Amar a Vida.png",
+      "sourceSha256": "a79de8b367172f8d566e70d11c36a4994246462b2634822a41af8527e3254553"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-23.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/23 - Capítulo 23 - A Clareira.png",
+      "sourceSha256": "14da1341f1305b87f55e979ec79f5c75c4245fc7babc4eda970c103ff9f768c0"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-24.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/24 - Capítulo 24 - A Casa Que Observa.png",
+      "sourceSha256": "45ea8fd251d03f1b05c6522600efd4d8f624743d3669420290e65ce4b153abfc"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-25.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/25 - Capítulo 25 - O Erro de Amar.png",
+      "sourceSha256": "6d7dcdc5e663ec6e9dc904b1c692b4b82e7a072a312bab981a3b3e15467acd55"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-26.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/26 - Capítulo 26 - Vozes Que Sabem Demais.png",
+      "sourceSha256": "d71657309d428aec66c74adde2aa624f3e27153bc200be78e267548453e40a72"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-27.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/27 - Capítulo 27 - Uma Alma por uma Vida.png",
+      "sourceSha256": "2131d2c136a4014350a8721db6c5c18b59f1247819774307d41dd815597dce22"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-28.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capítulos/28 - Capítulo 28 - Predador e Presa.png",
+      "sourceSha256": "b1e8888c3b9caed7417d96a40231c5130bb853a025503f2ccb126588cadbd1e4"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/agouro.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Agouro.png",
+      "sourceSha256": "94f257444d64e0aa6a4ba1ba8f34cdebbbf2a4779bd4e226b5dfad3f3abf10c5"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/alberto.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Alberto.png",
+      "sourceSha256": "9a65102220df8bcc137c65840b2ae744607af4ea45a5cb897b9dea3ee6eb4d34"
+    },
+    {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/cara-de-larva.webp",
       "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Cara-de-Larva.png",
       "sourceSha256": "236ee19a77ac454e7d03b9ec0cbecf42774b769743f87ce387583ca877414874"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/carniceiros.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Carniceiros.png",
+      "sourceSha256": "d5e1c58582f7bfbe8277a776646e2250001e15d7b7c2ead049f766a51e5f8b6c"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/casal-de-espiritos-hebert-e-amelia.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Casal de Espíritos - Hebert e Amélia.png",
+      "sourceSha256": "c68be6a9116387ada88880fe82f15070f2f0a47b0c916b478986d07520524f8a"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/d-adriana.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/D. Adriana.png",
+      "sourceSha256": "2070cfb956fd9381ebe588883056f52a00d94c6470a79be4b9abe5e15fbb568a"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/diego.webp",
@@ -1536,6 +1701,11 @@
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/filipo.webp",
       "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Filipo.png",
       "sourceSha256": "f79b565681d84412b8c3a09665437b91f83a88ded5ee38a10c35c99da8d57f5f"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/gisele.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Gisele.png",
+      "sourceSha256": "d67791c54d60decd7dc39fa6d6ac064efe43089941e507594c26aca602e137f5"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/glenda.webp",
@@ -1558,6 +1728,26 @@
       "sourceSha256": "f120dfc81b3ee0f5f4a9f5f0b0f3c3abc127d0f0c89dd34d2a5da6dbfc7caf9e"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/karen.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Karen.png",
+      "sourceSha256": "06b1dc39d2cc4f122004dac292c8857ed53a7bee5bfeec0d79b3f63362c14f58"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/katia-sobral.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Kátia Sobral.png",
+      "sourceSha256": "b6cef201089a81c18579f537bc991f0be78bb3f9148be5a21dc49014f5c5d652"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/lidia.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Lídia.png",
+      "sourceSha256": "456c8a098110314fbb210bc0cddc6d2387b569dca7fab2bc23e1ba9df11aaf95"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/lucinda.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Lucinda.png",
+      "sourceSha256": "da9e6151e6b50fe288d542b764d8aa3a5781c1dad3493e5da2a2985b6ecf5ed2"
+    },
+    {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/manu-antes-cabelo-loiro-20261020.webp",
       "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Manu - antes-cabelo-loiro-20261020.png",
       "sourceSha256": "08c3148a1b62ae80165a4045e748fad7c633bf3f1dfb95fc75d9ad57e834a5f3"
@@ -1568,9 +1758,24 @@
       "sourceSha256": "8d099d8ea43e734065640c21bfd2c78985b4f4a3bb3af1558de171472126b656"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/mel-jones.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Mel Jones.png",
+      "sourceSha256": "ec9dfae3d27dd456427ccf3d0aa7a90073a20bac3e07335584023082c4d02549"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/mike.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Mike.png",
+      "sourceSha256": "ba4c9a9655b2c69211639286fd070b3ccba78de19ba6329ecd7a0eba7333177b"
+    },
+    {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/pedro.webp",
       "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Pedro.png",
       "sourceSha256": "a5dce5141adfe0a0238fed155ca89e5796f94416843ca203b36cd1d6b45ac5b7"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/pollux.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Pollux.png",
+      "sourceSha256": "71d5db6878e878a36b5e34f1705907911bf988e31b5968214d0e3ac18abd5513"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/priscila-hamburgueria-secundaria.webp",
@@ -1588,6 +1793,11 @@
       "sourceSha256": "9ef478907e2e36e5250c4edff6f7d8350efe2d7381133001c4b226888a954c89"
     },
     {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/tereza.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Tereza.png",
+      "sourceSha256": "eb56f832605739f87e8164ef05dfca69712192394e1a86623d0d338479ad4fb0"
+    },
+    {
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/vini.webp",
       "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Personagens/Vini.png",
       "sourceSha256": "580a3bf6d87914b7809512a8e3bfbc0f7b783084493a2c319ae3b66f9376960d"
@@ -1596,6 +1806,71 @@
       "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/cover.webp",
       "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Capas/Diário Sobrenatural - A Alvorada das Ilusões - Capa.png",
       "sourceSha256": "0153246e5f5b381ea9822e92737f240b2fe6a5ea6f70c60c324bebda4ad3c091"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/alvorada-alegre-dia.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Alvorada Alegre - Dia.png",
+      "sourceSha256": "5da94b043caafdd72f2226619f571a8d4191d188b4b384e3eb92e00b01aaa658"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/alvorada-alegre-noite.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Alvorada Alegre - Noite.png",
+      "sourceSha256": "de7d5e15e3a9e7cf7f0b5fc7075c0f2868c4694fefd4d2ad8c759cf6d22884e3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/casa-de-pollux.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Casa de Pollux.png",
+      "sourceSha256": "d59d26ea949f0d37f0e0f21c6faafa1eb5c0d8ba8643947c5af3578c1219106e"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/escola-de-alvorada-alegre-corredores.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Escola de Alvorada Alegre - Corredores.png",
+      "sourceSha256": "dbfd71a71396203bbefe5e5f95d0e25f8f3df16e8665410091e19a4f3bf5235a"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/hamburgueria-do-s-estevan.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Hamburgueria do S. Estevan.png",
+      "sourceSha256": "d8a4bc848e3c4e4c23db92addd71b7837b08c818255e666cf16344af833724b0"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/igreja-de-alvorada-alegre-exterior.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Igreja de Alvorada Alegre - Exterior.png",
+      "sourceSha256": "87c78e1ded543cab9cbb1d4d84500f73358a5f6334238402fc86a69182214aa4"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/igreja-de-alvorada-alegre-interior.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Igreja de Alvorada Alegre - Interior.png",
+      "sourceSha256": "38c6d0553d402354c8c2f177a9dadb76dff7a647ec1285950c69dff25c426e14"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-cozinha.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Mansão do Diego - Cozinha.png",
+      "sourceSha256": "e9326a4771ed7198d685e0fcf88ec27b145de539454b910da192c3f0cc8e2858"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-exterior.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Mansão do Diego - Exterior.png",
+      "sourceSha256": "a5c36f32acb7c42a4658fb735cb9a98515861cdf852b4b1ccf14cac670d4d647"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-quarto-da-gisele.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Mansão do Diego - Quarto da Gisele.png",
+      "sourceSha256": "c3c091f24d00888578f62668d5b47144e9ff4c797d553f74581d1e06d9026b9d"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-quarto-da-glenda.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Mansão do Diego - Quarto da Glenda.png",
+      "sourceSha256": "6a34037fe58a5d18a815e6cb494e4cdda74e25b0dd9ca65738add5779359feb3"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/mansao-do-diego-quarto-do-diego.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Mansão do Diego - Quarto do Diego.png",
+      "sourceSha256": "b55350efef0aefabba72c2b95f026d1b4e6c0cff5fb27d9ae40b93e00de18f90"
+    },
+    {
+      "sitePath": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/quarto-de-jennifer.webp",
+      "sourcePath": "Diário Sobrenatural/2 - A Alvorada das Ilusões/02 - Assets/Lugares/Quarto de Jennifer.png",
+      "sourceSha256": "9c026ce5c6b0604eb8c6acb2708e332749195b41f420a9e3963d5d431e9d8dad"
     },
     {
       "sitePath": "assets/books/diario-sobrenatural/os-elos-das-sombras/chapters/chapter-01.webp",
@@ -3033,6 +3308,9 @@
     "assets/books/spacetheft/a-lenda-da-aurora/contemplative/ship-v1.webp",
     "assets/books/spacetheft/a-lenda-da-aurora/contemplative/space-v1.webp",
     "assets/books/spacetheft/a-lenda-da-aurora/contemplative/window-v1.webp",
+    "assets/books/viajantes-dimensionais/a-mascara-do-contracanto/chapters/chapter-01.webp",
+    "assets/books/viajantes-dimensionais/a-mascara-do-contracanto/cover-sem-texto.webp",
+    "assets/books/viajantes-dimensionais/a-mascara-do-contracanto/cover.webp",
     "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/brenda.webp",
     "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/erla-diggs.webp",
     "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/characters/eshley-damaris.webp",
