@@ -13,8 +13,8 @@
  document.body.classList.add('theme-'+config.theme);
  let layers='';
  if(config.theme==='carnam'){
-  const omens=['agouro','ibliso','ingrid','mae-carnam','pai-carnam','avo'];
-  layers='<div class="scene-clouds"></div><div class="house-light"></div><div class="scene-fog"></div><div class="carnam-omens" aria-hidden="true">'+omens.map((name,i)=>`<img class="carnam-omen ${i===0?'is-seen':''}" src="assets/books/diario-sobrenatural/os-elos-das-sombras/characters/${name}.webp" alt="">`).join('')+'</div>'+image(config.foreground,'landscape-front');
+  const omens=[['agouro','agouro'],['ibliso','ibliso'],['ingrid','ingrid'],['sueten','sueten'],['mae-carnam','isabela-mae'],['pai-carnam','carnam-pai'],['avo','avo']];
+  layers='<div class="scene-clouds"></div><div class="house-light"></div><div class="scene-fog"></div><div class="carnam-omens" aria-hidden="true">'+omens.map(([name,file],i)=>`<img class="carnam-omen ${i===0?'is-seen':''}" data-omen="${name}" src="assets/books/diario-sobrenatural/os-elos-das-sombras/characters/${file}.webp" alt="">`).join('')+'</div>'+image(config.foreground,'landscape-front');
  }
  if(config.theme==='kaendar')layers='<div class="scene-clouds"></div><div class="river-motion"></div><div class="river-glimmer"></div><div class="city-smoke"></div><div class="war-watch"><i></i><i></i><i></i></div><div class="war-signal"></div><div class="scene-fog"></div>'+image(config.foreground,'landscape-front shore-fixed')+image(config.foreground,'landscape-front banner-sway');
  if(config.theme==='aurora'){
@@ -31,7 +31,7 @@
  const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d'),particles=[];
  const enabled=!parent.document.body.classList.contains('no-particles');
  let omenTimer=0;
- if(config.theme==='carnam'&&!paused){omenTimer=setInterval(()=>{if(document.hidden)return;const omens=[...document.querySelectorAll('.carnam-omen')];const current=omens.findIndex(omen=>omen.classList.contains('is-seen'));omens.forEach(omen=>omen.classList.remove('is-seen'));omens[(current+1)%omens.length].classList.add('is-seen');},9000);}
+ if(config.theme==='carnam'&&!paused){omenTimer=setInterval(()=>{if(paused||document.hidden)return;const omens=[...document.querySelectorAll('.carnam-omen')];const current=omens.findIndex(omen=>omen.classList.contains('is-seen'));omens.forEach(omen=>omen.classList.remove('is-seen'));omens[(current+1)%omens.length].classList.add('is-seen');},9000);}
  function resize(){document.documentElement.style.setProperty('--diag',Math.ceil(Math.hypot(innerWidth,innerHeight))+'px');const dpr=Math.min(devicePixelRatio||1,1.5);width=innerWidth;height=innerHeight;canvas.width=width*dpr;canvas.height=height*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);}
  function draw(t){raf=0;if(paused||document.hidden||!enabled)return;const dt=Math.min((t-last)||16,48)/16;last=t;ctx.clearRect(0,0,width,height);ctx.fillStyle=config.color;for(const p of particles){p.x+=p.vx*dt;p.y+=p.vy*dt;if(p.x>width+8)p.x=-8;if(p.y< -8)p.y=height+8;ctx.globalAlpha=p.alpha*(.8+.2*Math.sin(t/2200+p.phase));ctx.beginPath();ctx.arc(p.x,p.y,p.size,0,Math.PI*2);ctx.fill();}ctx.globalAlpha=1;raf=requestAnimationFrame(draw);}
  function start(){cancelAnimationFrame(raf);if(!paused&&!document.hidden&&enabled){last=performance.now();raf=requestAnimationFrame(draw);}}
