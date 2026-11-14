@@ -70,6 +70,11 @@
   const chapterImage = c => (IMG.chapters && (IMG.chapters[c.number] || IMG.chapters[pad(c.number)])) || c.image || null;
   const charImage = c => (IMG.characters && IMG.characters[c.slug]) || c.image || null;
   const placeImage = p => (IMG.places && IMG.places[p.slug]) || p.image || null;
+  // Catálogos visuais: só expõem fichas que têm a arte correspondente.
+  // As demais entradas continuam no material canônico e nas relações dos capítulos,
+  // mas não criam cards vazios nem duplicados nas páginas de personagens e lugares.
+  A.characters = A.characters.filter(charImage);
+  A.places = A.places.filter(placeImage);
   const paragraphs = t => (Array.isArray(t) ? t : String(t || '').split(/\n\s*\n/)).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join('');
 
   const state = {
