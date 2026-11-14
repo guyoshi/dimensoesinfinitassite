@@ -16,7 +16,10 @@
 .alvorada-hint{position:absolute;top:82px;left:20%;right:20%;margin:0;text-align:center;font-size:11px;text-shadow:0 2px 8px #000}
 body.controls-hidden .alvorada-ui{opacity:0;pointer-events:none}body.controls-hidden .alvorada-ui :is(button,input){pointer-events:none}
 body.effects-paused .alvorada-scene *{animation-play-state:paused!important}
+.alvorada-clock-ripple{position:absolute;left:68.8%;top:42.5%;width:18px;height:18px;border:1px solid #f7e1a588;border-radius:50%;opacity:0;pointer-events:none;animation:alvorada-clock 19s ease-out infinite}
+body.effects-paused .alvorada-clock-ripple{animation-play-state:paused!important}
 @keyframes alvorada-fog{from{transform:translateX(-8%)}to{transform:translateX(10%)}}
 @keyframes alvorada-pollen{from{transform:translate(-12px,12px)}to{transform:translate(45px,-55px)}}
+@keyframes alvorada-clock{0%,74%,100%{opacity:0;transform:scale(.25)}78%{opacity:.78;transform:scale(1)}94%{opacity:0;transform:scale(14)}}
 @media(max-width:700px){.alvorada-top{left:12px;right:12px;top:12px}.alvorada-actions{gap:6px;max-width:75%}.alvorada-ui button{padding:9px 12px;font-size:11px}.alvorada-hint{top:116px;left:12%;right:12%;font-size:10px}.alvorada-bottom{left:18px;right:18px;bottom:20px;flex-direction:column;align-items:start;gap:20px}.alvorada-audio{align-self:flex-end}.alvorada-title{font-size:32px}.alvorada-subtitle{font-size:9px}.alvorada-apparition{left:50.5%;bottom:20.5%;height:9%}}
-@media(prefers-reduced-motion:reduce){.alvorada-scene *{animation:none!important}.alvorada-ui,.alvorada-failure,.alvorada-apparition{transition:none}}
+@media(prefers-reduced-motion:reduce){.alvorada-scene *,.alvorada-clock-ripple{animation:none!important}.alvorada-ui,.alvorada-failure,.alvorada-apparition{transition:none}}
