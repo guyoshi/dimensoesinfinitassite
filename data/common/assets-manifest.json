@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
-  "count": 715,
+  "count": 719,
   "assets": [
     {
       "path": "assets/books/ciclo-de-jesed/dinastia-polar/chapters/chapter-01.webp",
@@ -6880,10 +6880,10 @@
       "filename": "chapter-28.webp",
       "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
       "extension": ".webp",
-      "width": 1024,
-      "height": 1536,
-      "sizeBytes": 269828,
-      "sha256": "087e1e1c475b8334ba60dcdf01876d46b15591d4b030bea9d83dfb515926f992"
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 288324,
+      "sha256": "781f40097382ab8c26808e7837fd967c00f04921f16835cde1da334c55948aa0"
     },
     {
       "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/places/alvorada-alegre-dia.webp",
@@ -7154,6 +7154,46 @@
       "height": 1536,
       "sizeBytes": 252228,
       "sha256": "cd1bd8364e71431c1b8e90857d1b72d85a4f55e37fe8fb19be95a8a5b9395fee"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-29.webp",
+      "filename": "chapter-29.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 291374,
+      "sha256": "67bac05a061058739f8f638b42d2ea119de835fafd500210de1fc34bb6f3a4ff"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-30.webp",
+      "filename": "chapter-30.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 292994,
+      "sha256": "153da9c46cb7baef403e63d542eec9cf5899d7db516ca96cc152c954bf18a730"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-31.webp",
+      "filename": "chapter-31.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1671,
+      "height": 941,
+      "sizeBytes": 334898,
+      "sha256": "bba743143c461c323cdc71406410d0c98e8e9092f867d24ee37ba57ec2b62b01"
+    },
+    {
+      "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-32.webp",
+      "filename": "chapter-32.webp",
+      "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
+      "extension": ".webp",
+      "width": 1672,
+      "height": 941,
+      "sizeBytes": 411432,
+      "sha256": "d064807e2ebdef9fd823a4b75ba769e0b589a9248d28ad071e833692d1ea03a2"
     }
   ]
 }

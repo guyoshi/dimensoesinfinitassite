@@ -29,7 +29,11 @@ window.DI_BOOK.images = {
     "25": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-25.webp",
     "26": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-26.webp",
     "27": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-27.webp",
-    "28": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-28.webp"
+    "28": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-28.webp",
+    "29": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-29.webp",
+    "30": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-30.webp",
+    "31": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-31.webp",
+    "32": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-32.webp"
   },
   "characters": {
     "agouro": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/characters/agouro.webp",
