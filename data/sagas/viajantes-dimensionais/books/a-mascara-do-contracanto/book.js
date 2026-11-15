@@ -1,4 +1,4 @@
-/* Metadados do livro. Só o que já está escrito entra no site (hoje, o Capítulo 1). */
+/* Metadados do livro: 26 capítulos escritos e listados no portal. */
 window.DI_BOOK = Object.assign(window.DI_BOOK || {}, { saga: window.DI_SAGA }, {
   "book": {
     "id": "a-mascara-do-contracanto",
@@ -7,7 +7,7 @@ window.DI_BOOK = Object.assign(window.DI_BOOK || {}, { saga: window.DI_SAGA }, {
     "theme": "vd2",
     "kicker": "VIAJANTES DIMENSIONAIS · LIVRO II",
     "tagline": "Duas melodias, uma máscara e quatro irmãos que ainda não sabem qual deles está sendo ouvido.",
-    "statusLabel": "Em escrita · Capítulo 1",
+    "statusLabel": "Manuscrito completo · 26 capítulos",
     "heroY": "30%",
     "cover": "assets/books/viajantes-dimensionais/a-mascara-do-contracanto/cover.webp",
     "logo": null,
