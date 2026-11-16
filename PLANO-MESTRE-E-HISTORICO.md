@@ -2649,3 +2649,12 @@ A próxima IA deve começar pela Etapa 17 usando o pacote completo 0.16.1. Deve 
 - **Compatibilidade:** o sincronizador passou a reconhecer a pasta `Capítulos` com acento e não interrompe a atualização de artes atuais quando uma fonte histórica já removida possui WebP público preservado.
 - **Lityra:** o leitor já usa `artBase` apontando para o portal; as artes de capítulos serão exibidas automaticamente após a publicação do portal, sem cópias duplicadas no repositório do Lityra.
 - **Validação:** sincronizador sem pendências, inventário e manifesto reconciliados; `images.js` do livro validado por sintaxe JavaScript.
+
+## Atualização pontual — 16/11/2026 — trilha de Herdeiros das Cinzas
+
+- **Pedido do autor:** usar o MP3 fornecido `Lullaby in the Cold.mp3` como trilha musical do livro IV, *Herdeiros das Cinzas*, no portal literário.
+- **Verificação do ficheiro recebido:** MP3, estéreo, aproximadamente 179,8 segundos e 3,87 MB; título incorporado `Lullaby in the Cold`.
+- **Configuração publicada no repositório:** `app/shared/book-music/config.js` mapeia `herdeiros-das-cinzas` para `assets/books/ciclo-de-jesed/herdeiros-das-cinzas/audio.mp3`. `herdeiros-das-cinzas.html` passou a carregar o componente `app/shared/book-music/loader.js?v=20261116a`; o carregador respeita a versão de cache ao obter `config.js`, `player.js` e `styles.css`.
+- **Reprodução:** a propriedade `manualStart: true` exige o primeiro clique do leitor antes de qualquer reprodução desse livro, preservando os controlos partilhados de volume, silenciar, loop, fade e preferências. Outros livros mantêm o comportamento existente.
+- **PENDÊNCIA EXTERNA EXPLÍCITA:** o MP3 binário **não pôde ser enviado ao repositório pelo conector GitHub de ficheiros de texto**. O autor deve colocar o conteúdo do MP3 entregue em `assets/books/ciclo-de-jesed/herdeiros-das-cinzas/audio.mp3` no GitHub (mesmos bytes da música). Até esse upload, o leitor não terá áudio neste livro. Não declarar publicação completa nem player funcional com som antes de verificar o ficheiro no destino.
+- **Validação pendente:** após o upload do MP3, confirmar resposta HTTP 200 do ficheiro, player no navegador, início após clique, volume, mute e ciclo de reprodução.
