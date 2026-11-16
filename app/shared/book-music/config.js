@@ -43,6 +43,12 @@ window.BOOK_MUSIC_CONFIG = Object.freeze({
       "assets/books/ciclo-de-jesed/guerras-de-sangue/audio.mp3"
     ]
   },
+  "herdeiros-das-cinzas": {
+    title: "Lullaby in the Cold",
+    files: [
+      "assets/books/ciclo-de-jesed/herdeiros-das-cinzas/audio.mp3"
+    ]
+  },
   "dinastia-polar": {
     title: "Dinastia Polar",
     files: [
