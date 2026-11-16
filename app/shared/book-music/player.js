@@ -38,6 +38,8 @@
   let lastAudibleVolume = volume > 0 ? volume : 0.35;
   let currentBook = '';
   let currentTrack = null;
+  // Certas trilhas (por exemplo, Herdeiros das Cinzas) só começam após clique explícito.
+  let manualStartPending = false;
   let currentFiles = [];
   let currentContextKey = '';
   let sourceIndex = 0;
@@ -131,6 +133,17 @@
 
   function togglePower(){
     if(!currentTrack) return;
+    if(manualStartPending){
+      manualStartPending = false;
+      enabled = true;
+      write(storage.enabled, enabled);
+      missing = false;
+      sourceIndex = 0;
+      if(!audio.getAttribute('src')) setSource();
+      else attemptPlay();
+      updateUi();
+      return;
+    }
     enabled = !enabled;
     write(storage.enabled, enabled);
     if(enabled){
@@ -163,7 +176,7 @@
   }
 
   function attemptPlay(){
-    if(!enabled || missing || !currentTrack || !audio.getAttribute('src')) return;
+    if(!enabled || manualStartPending || missing || !currentTrack || !audio.getAttribute('src')) return;
     waitingForGesture = false;
     clearFade();
     audio.volume = 0;
@@ -204,6 +217,7 @@
     const wasPlaying = !force && enabled && !audio.paused && !!audio.getAttribute('src');
     currentBook = book;
     currentTrack = track;
+    manualStartPending = !!track?.manualStart;
     currentFiles = files;
     currentContextKey = nextContextKey;
     sourceIndex = 0;
@@ -211,7 +225,7 @@
     if(titleNode) titleNode.textContent = currentTrack?.title || 'Música do livro';
     const swap = () => {
       clearSource();
-      if(enabled && currentTrack && currentFiles.length) setSource();
+      if(enabled && !manualStartPending && currentTrack && currentFiles.length) setSource();
       else updateUi();
     };
     if(wasPlaying) fadeTo(0, FADE_MS, swap);
@@ -220,12 +234,13 @@
 
   function updateUi(){
     if(!player) return;
-    const isPlaying = enabled && !audio.paused && !missing;
-    player.dataset.state = missing ? 'missing' : isPlaying ? 'playing' : waitingForGesture ? 'waiting' : enabled ? 'loading' : 'off';
+    const effectiveEnabled = enabled && !manualStartPending;
+    const isPlaying = effectiveEnabled && !audio.paused && !missing;
+    player.dataset.state = missing ? 'missing' : isPlaying ? 'playing' : waitingForGesture ? 'waiting' : effectiveEnabled ? 'loading' : 'off';
     powerButton.disabled = !currentTrack;
-    powerButton.setAttribute('aria-pressed', String(enabled));
-    powerButton.setAttribute('aria-label', enabled ? 'Desligar música' : 'Ligar música');
-    powerButton.title = enabled ? 'Desligar música' : 'Ligar música';
+    powerButton.setAttribute('aria-pressed', String(effectiveEnabled));
+    powerButton.setAttribute('aria-label', effectiveEnabled ? 'Desligar música' : 'Ligar música');
+    powerButton.title = effectiveEnabled ? 'Desligar música' : 'Ligar música';
     powerButton.querySelector('span').textContent = isPlaying ? 'Ⅱ' : '▶';
     muteButton.querySelector('span').textContent = volume === 0 ? '🔇' : '🔊';
     muteButton.setAttribute('aria-label', volume === 0 ? 'Restaurar volume' : 'Silenciar música');
@@ -233,7 +248,7 @@
     if(missing) statusNode.textContent = 'Áudio ainda não adicionado';
     else if(waitingForGesture) statusNode.textContent = 'Clique na página para iniciar';
     else if(isPlaying) statusNode.textContent = 'Tocando em loop';
-    else if(enabled && !ready) statusNode.textContent = 'Carregando música…';
+    else if(effectiveEnabled && !ready) statusNode.textContent = 'Carregando música…';
     else statusNode.textContent = 'Música desligada';
   }
 
