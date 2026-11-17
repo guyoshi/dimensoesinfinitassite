@@ -363,3 +363,6 @@ Quando essas entidades forem incorporadas aos módulos ainda vazios do site, usa
 - **Kaendar** = Kae + -ndar, “fortaleza de Kae”.
 - **khar-** = elemento antigo para cidadela/grande fortificação de pedra.
 - **Levis** foi um estágio linguístico completo; no período de Ruínas dos Céus permanece principalmente como língua clássica e ritual.
+## Música dos livros (convenção)
+
+Cada livro toca `assets/books/<saga>/<livro>/audio.mp3` (em loop) automaticamente. Basta colocar o arquivo nesse caminho com esse nome. Sem entrada em `app/shared/book-music/config.js`, o player usa essa convenção. Toda página de livro precisa carregar `app/shared/book-music/loader.js`. Use `config.js` só para título próprio, trilhas por capítulo (`chapterFiles`) ou `manualStart`.

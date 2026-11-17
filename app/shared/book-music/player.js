@@ -210,7 +210,9 @@
 
   function applyContext(force=false){
     const book = detectBook();
-    const track = config[book] || null;
+    // Convenção: sem entrada no config, usa assets/books/<saga>/<livro>/audio.mp3
+    const saga = document.body.dataset.saga;
+    const track = config[book] || (saga && book ? { title: 'Música do livro', files: [`assets/books/${saga}/${book}/audio.mp3`] } : null);
     const files = filesForChapter(track, detectChapter());
     const nextContextKey = book + '::' + files.join('|');
     if(!force && nextContextKey === currentContextKey) return;

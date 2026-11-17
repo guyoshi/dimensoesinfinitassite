@@ -17,6 +17,24 @@ window.BOOK_MUSIC_CONFIG = Object.freeze({
       "assets/books/spacetheft/a-lenda-da-aurora/audio.mp3"
     ]
   },
+  "a-patrulha-de-korvo": {
+    title: "A Patrulha de Korvo",
+    files: [
+      "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/audio.mp3"
+    ]
+  },
+  "a-mascara-do-contracanto": {
+    title: "A Máscara do Contracanto",
+    files: [
+      "assets/books/viajantes-dimensionais/a-mascara-do-contracanto/audio.mp3"
+    ]
+  },
+  "coracao-de-poeira": {
+    title: "Coração de Poeira",
+    files: [
+      "assets/books/ciclo-de-jesed/coracao-de-poeira/audio.mp3"
+    ]
+  },
   "ruinas-dos-ceus": {
     title: "Ruínas dos Céus",
     files: [
