@@ -2920,7 +2920,7 @@
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/cover.webp",
       "sourcePath": "Viajantes Dimensionais/1 - A Patrulha de Korvo/02 - Assets/Capas/Viajantes 1 Capa - Portal Circular.png",
-      "sourceSha256": "6cbec2ea276bcf696d13c3999b3ba1cdde7e511e0cb25ac4364b82cda0c183f6"
+      "sourceSha256": "37ecf2f813c3722798fb1acdfb1f8488f4b6792af09537aa06c486992602f6c7"
     },
     {
       "sitePath": "assets/books/viajantes-dimensionais/a-patrulha-de-korvo/gallery/dassi.webp",
@@ -3318,6 +3318,11 @@
     "assets/books/ciclo-de-jesed/shared/lore/temp/fauna-placeholder.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/flora-placeholder.webp",
     "assets/books/ciclo-de-jesed/shared/lore/temp/food-placeholder.webp",
+    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-22-TaiGui.webp",
+    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-23-TaiGui.webp",
+    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-24-TaiGui.webp",
+    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-25-TaiGui.webp",
+    "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-26-TaiGui.webp",
     "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/contemplative/city-day-v1.webp",
     "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/contemplative/city-night-v1.webp",
     "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/contemplative/city-night-v2.webp",

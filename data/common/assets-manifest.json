@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-17",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
   "count": 719,
@@ -4270,10 +4270,10 @@
       "filename": "cover.webp",
       "category": "books/viajantes-dimensionais/a-patrulha-de-korvo",
       "extension": ".webp",
-      "width": 1733,
-      "height": 2600,
-      "sizeBytes": 685550,
-      "sha256": "1102bcab80de7b44726b2f62df885185ea303d12669c2f917f7a50b63b1cb574"
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 329710,
+      "sha256": "6b29179a2f4effb5109639865351b55fcef2ec2fdeb707e5fb32df290062d8ab"
     },
     {
       "path": "assets/branding/a-patrulha-de-korvo/logo-light.webp",
@@ -6820,50 +6820,50 @@
       "filename": "chapter-22.webp",
       "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
       "extension": ".webp",
-      "width": 1672,
-      "height": 941,
-      "sizeBytes": 296694,
-      "sha256": "578142add481798d2a127de1640f2c2bf373285b4d729bd23a235c8f32a5071e"
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 258696,
+      "sha256": "634ec06143890460472c57aaa63558e5504ffba0790ed58d4dfb2f3aa97c4ce6"
     },
     {
       "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-23.webp",
       "filename": "chapter-23.webp",
       "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
       "extension": ".webp",
-      "width": 1672,
-      "height": 941,
-      "sizeBytes": 442486,
-      "sha256": "94b05aa8b7634877062460bea8f965b83abb89878ab49db5345a812bd5313713"
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 474294,
+      "sha256": "2ce2c660574ea779e8f81e0680545cb5b09c920c738a0d90abaf64b99468ed0e"
     },
     {
       "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-24.webp",
       "filename": "chapter-24.webp",
       "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
       "extension": ".webp",
-      "width": 1672,
-      "height": 941,
-      "sizeBytes": 333892,
-      "sha256": "37deb05ee1047e3e925808bd98ac3de01e6dca1ecf6cc02044b43925f71d0736"
+      "width": 1199,
+      "height": 1312,
+      "sizeBytes": 285218,
+      "sha256": "19091865be119aba9e81d97bb072b1510b7cf10eb96c0cc799ebd664c6fcff52"
     },
     {
       "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-25.webp",
       "filename": "chapter-25.webp",
       "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
       "extension": ".webp",
-      "width": 1672,
-      "height": 941,
-      "sizeBytes": 260098,
-      "sha256": "e0ead57b227532731cb7d0dd007147670838bbab1a94b9049ee9d3787f1814d5"
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 215518,
+      "sha256": "b39222adb081eb774dea5084a2a8897a56e3a6efa1fe7ed1a4f515c192513609"
     },
     {
       "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-26.webp",
       "filename": "chapter-26.webp",
       "category": "books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters",
       "extension": ".webp",
-      "width": 1672,
-      "height": 941,
-      "sizeBytes": 273502,
-      "sha256": "ed4abd6d8ecf4fd52e6a0aa9a7d417c35b54c1d68832ac53375c21049ffadad3"
+      "width": 1024,
+      "height": 1536,
+      "sizeBytes": 294496,
+      "sha256": "02f6dce33007ea884a7cee5b0927c916f5cca040133b97dcbf0a3788f1d8824e"
     },
     {
       "path": "assets/books/diario-sobrenatural/a-alvorada-das-ilusoes/chapters/chapter-27.webp",
