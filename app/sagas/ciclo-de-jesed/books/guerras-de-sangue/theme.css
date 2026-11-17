@@ -13,7 +13,7 @@
   --paper-veil:rgba(24,17,12,.86);--clan:#c0523b;
 }
 body{background:radial-gradient(ellipse at 50% 120%,rgba(160,60,35,.28),transparent 60%),#130e0a;color:var(--ink)}
-.sb{color:#f1e6d2;border-right:1px solid var(--side-line);box-shadow:10px 0 36px rgba(0,0,0,.45);position:relative}
+.sb{color:#f1e6d2;border-right:1px solid var(--side-line);box-shadow:10px 0 36px rgba(0,0,0,.45)}
 .sb::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.2;background:linear-gradient(28deg,transparent 47%,rgba(194,151,90,.4) 48% 49%,transparent 50%),linear-gradient(102deg,transparent 58%,rgba(192,82,59,.35) 59% 60%,transparent 61%),radial-gradient(circle at 72% 23%,transparent 0 48px,rgba(210,178,112,.4) 50px 52px,transparent 54px)}
 .sb>*{position:relative}
 .brand{border-bottom-color:var(--side-line)}

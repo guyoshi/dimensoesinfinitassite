@@ -13,7 +13,7 @@
   --paper-veil:rgba(14,22,32,.88);--clan:#7e9bb8;
 }
 body{background:linear-gradient(180deg,rgba(110,170,180,.18) 0%,transparent 38%),#0e1620;color:var(--ink)}
-.sb{color:#e6ebf0;border-right:1px solid var(--side-line);box-shadow:10px 0 36px rgba(0,0,0,.45);position:relative}
+.sb{color:#e6ebf0;border-right:1px solid var(--side-line);box-shadow:10px 0 36px rgba(0,0,0,.45)}
 .sb::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.28;background:linear-gradient(180deg,rgba(120,200,190,.22),transparent 34%),repeating-linear-gradient(115deg,transparent 0 22px,rgba(190,210,230,.05) 23px 24px)}
 .sb>*{position:relative}
 .brand{border-bottom-color:var(--side-line)}
