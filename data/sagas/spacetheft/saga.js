@@ -22,7 +22,7 @@ window.DI_SAGAS["spacetheft"] = {
       "name": "Livro 2",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "spacetheft-livro-2.html",
       "cover": null,
       "icon": "stars"
     },
@@ -32,7 +32,7 @@ window.DI_SAGAS["spacetheft"] = {
       "name": "Livro 3",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "spacetheft-livro-3.html",
       "cover": null,
       "icon": "stars"
     },
@@ -42,7 +42,7 @@ window.DI_SAGAS["spacetheft"] = {
       "name": "Livro 4",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "spacetheft-livro-4.html",
       "cover": null,
       "icon": "stars"
     },
@@ -52,7 +52,7 @@ window.DI_SAGAS["spacetheft"] = {
       "name": "Livro 5",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "spacetheft-livro-5.html",
       "cover": null,
       "icon": "stars"
     },
@@ -62,7 +62,7 @@ window.DI_SAGAS["spacetheft"] = {
       "name": "Livro 6",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "spacetheft-livro-6.html",
       "cover": null,
       "icon": "stars"
     }

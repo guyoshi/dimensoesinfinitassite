@@ -32,7 +32,7 @@ window.DI_SAGAS["viajantes-dimensionais"] = {
       "name": "O Observatório das Estrelas Ocultas",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "o-observatorio-das-estrelas-ocultas.html",
       "cover": null,
       "icon": "portal"
     },
@@ -42,7 +42,7 @@ window.DI_SAGAS["viajantes-dimensionais"] = {
       "name": "O Solstício Arcano",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "o-solsticio-arcano.html",
       "cover": null,
       "icon": "portal"
     },
@@ -52,7 +52,7 @@ window.DI_SAGAS["viajantes-dimensionais"] = {
       "name": "Livro 5",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "viajantes-dimensionais-livro-5.html",
       "cover": null,
       "icon": "portal"
     },
@@ -62,7 +62,7 @@ window.DI_SAGAS["viajantes-dimensionais"] = {
       "name": "Livro 6",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "viajantes-dimensionais-livro-6.html",
       "cover": null,
       "icon": "portal"
     }

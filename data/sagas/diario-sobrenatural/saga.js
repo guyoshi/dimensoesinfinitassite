@@ -32,27 +32,27 @@ window.DI_SAGAS["diario-sobrenatural"] = {
       "name": "O Limiar da Noite",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "o-limiar-da-noite.html",
       "cover": null,
       "icon": "diary"
     },
     {
-      "id": "livro-4",
+      "id": "a-convergencia-dos-profanos",
       "order": 4,
-      "name": "Livro 4",
+      "name": "A Convergência dos Profanos",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "a-convergencia-dos-profanos.html",
       "cover": null,
       "icon": "diary"
     },
     {
-      "id": "livro-5",
+      "id": "a-travessia-dos-evanescentes",
       "order": 5,
-      "name": "Livro 5",
+      "name": "A Travessia dos Evanescentes",
       "status": "locked",
       "stageLabel": "Em preparação",
-      "entry": null,
+      "entry": "a-travessia-dos-evanescentes.html",
       "cover": null,
       "icon": "diary"
     }
