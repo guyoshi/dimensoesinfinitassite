@@ -27,9 +27,9 @@ window.DI_SAGAS["viajantes-dimensionais"] = {
       "icon": "portal"
     },
     {
-      "id": "o-senhor-da-morte",
+      "id": "o-observatorio-das-estrelas-ocultas",
       "order": 3,
-      "name": "O Senhor da Morte",
+      "name": "O Observatório das Estrelas Ocultas",
       "status": "locked",
       "stageLabel": "Em preparação",
       "entry": null,
@@ -37,9 +37,9 @@ window.DI_SAGAS["viajantes-dimensionais"] = {
       "icon": "portal"
     },
     {
-      "id": "livro-4",
+      "id": "o-solsticio-arcano",
       "order": 4,
-      "name": "Livro 4",
+      "name": "O Solstício Arcano",
       "status": "locked",
       "stageLabel": "Em preparação",
       "entry": null,

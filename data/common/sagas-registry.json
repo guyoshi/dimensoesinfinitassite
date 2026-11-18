@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-11-18",
   "stage": "Etapa 3 concluída: ligado ao portal (sagas liberadas) e com páginas dos 4 livros abertos.",
   "rules": {
     "status": "active = livro aberto no site; locked = card 'Em preparação', sem página",
@@ -179,25 +179,25 @@
           "siteAssets": "assets/books/viajantes-dimensionais/a-mascara-do-contracanto"
         },
         {
-          "id": "o-senhor-da-morte",
+          "id": "o-observatorio-das-estrelas-ocultas",
           "order": 3,
-          "name": "O Senhor da Morte",
+          "name": "O Observatório das Estrelas Ocultas",
           "status": "locked",
           "stage": "planejado",
           "entry": null,
-          "sourceFolder": "Viajantes Dimensionais/3 - O Senhor da Morte",
+          "sourceFolder": "Viajantes Dimensionais/3 - O Observatório das Estrelas Ocultas",
           "expectedChapters": null,
           "icon": "portal",
           "cover": null
         },
         {
-          "id": "livro-4",
+          "id": "o-solsticio-arcano",
           "order": 4,
-          "name": "Livro 4",
+          "name": "O Solstício Arcano",
           "status": "locked",
           "stage": "planejado",
           "entry": null,
-          "sourceFolder": "Viajantes Dimensionais/4 - Livro 4",
+          "sourceFolder": "Viajantes Dimensionais/4 - O Solstício Arcano",
           "expectedChapters": null,
           "icon": "portal",
           "cover": null
