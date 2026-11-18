@@ -21,7 +21,9 @@ body{background:radial-gradient(900px 600px at 70% 15%,#0f5f7d 0%,transparent 60
 .fchip.on{color:#03212d;box-shadow:2px 2px 0 #021822;border:2px solid #021822}
 .panel,.card,.book,.chcard,.ecard{border-width:3px;overflow:hidden}
 .panel{overflow:visible}
-.panel:after,.card:after,.chcard:after,.book:after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:.22;background:radial-gradient(rgba(2,24,34,.35) 1px,transparent 1.3px) 0 0/7px 7px}
+/* A textura fica exclusivamente no fundo, nunca por cima de miniaturas, texto ou links.
+   O pseudo-elemento dos cartões obscurecia a leitura e cobria as artes. */
+.panel::after,.card::after,.chcard::after,.book::after{content:none}
 .crow{border-bottom:2px dashed rgba(18,48,63,.25)}
 .chip{background:#ffe0a8;color:#7a3f00;border:2px solid #021822}
 .phimg,.eimg,.efig{border:2px solid #021822}
@@ -37,7 +39,7 @@ body{background:radial-gradient(900px 600px at 70% 15%,#0f5f7d 0%,transparent 60
 /* efeitos */
 .fx-glow{background:radial-gradient(ellipse at 72% 18%,rgba(70,211,242,.28),transparent 55%),radial-gradient(ellipse at 10% 100%,rgba(70,211,242,.18),transparent 60%);animation:vglow 7s ease-in-out infinite alternate}
 @keyframes vglow{to{opacity:.65}}
-.fx-dots{background-image:radial-gradient(rgba(70,211,242,.20) 1.2px,transparent 1.4px);background-size:14px 14px;opacity:.3}
+.fx-dots{background-image:radial-gradient(rgba(70,211,242,.16) 1px,transparent 1.3px);background-size:18px 18px;opacity:.15}
 .fx-portal{position:absolute;right:-44px;top:-38px;width:440px;height:440px;z-index:3}
 .fx-portal .ring,.fx-portal .core{position:absolute;border-radius:50%;transform:scaleX(.72) rotate(6deg)}
 .fx-portal .ring.r1{inset:0;border:5px solid var(--cy2);box-shadow:0 0 40px 10px rgba(70,211,242,.8),inset 0 0 60px 10px rgba(70,211,242,.65);animation:pulse 3.6s ease-in-out infinite}
@@ -75,5 +77,5 @@ body{background:radial-gradient(900px 600px at 70% 15%,#0f5f7d 0%,transparent 60
   .foot{gap:6px;padding-top:8px;padding-bottom:8px}
 }
 
-/* mobile: pontilhado mais leve para não poluir o texto dos cartões */
-@media(max-width:680px){.chcard:after,.panel:after,.card:after,.book:after{opacity:.06;background-size:9px 9px}.fx-dots{opacity:.12}}
+/* Mobile: pontos ainda mais discretos, somente no fundo. */
+@media(max-width:680px){.fx-dots{opacity:.08}}
