@@ -62,7 +62,7 @@ window.BOOK_MUSIC_CONFIG = Object.freeze({
     ]
   },
   "herdeiros-das-cinzas": {
-    title: "Lullaby in the Cold",
+    title: "Jornada no Gelo Escuro",
     files: [
       "assets/books/ciclo-de-jesed/herdeiros-das-cinzas/audio.mp3"
     ]
