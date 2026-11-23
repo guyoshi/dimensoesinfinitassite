@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-23",
   "formatPolicy": "webp-only",
   "namingPolicy": "ascii-kebab-case",
   "count": 719,
@@ -4032,8 +4032,8 @@
       "extension": ".webp",
       "width": 1024,
       "height": 1536,
-      "sizeBytes": 443828,
-      "sha256": "4e75d8e683dd1e3305682a9517d165a33f8515cf403500fd2ca9d61d3709b9c8"
+      "sizeBytes": 444366,
+      "sha256": "002e7e0500cc54164acf059ee432f2369e018576dcbae45667cd7b2c0b3236c6"
     },
     {
       "path": "assets/branding/a-lenda-da-aurora/logo-light.webp",
